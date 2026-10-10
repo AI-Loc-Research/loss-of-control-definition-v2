@@ -24,5 +24,8 @@ drive/
 # Handoff/working docs kept locally only
 STAGE*_HANDOFF.md
 
+# Dry-run results (mock model replies), e.g. output/Kimi-K2.5_dryrun/
+output/*_dryrun/
+
 Z_NOTES/
 /Z_NOTES/

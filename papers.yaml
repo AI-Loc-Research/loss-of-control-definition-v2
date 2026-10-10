@@ -37,6 +37,7 @@ papers:
     filename: "Book (part only)_Superintelligence.pdf"
     citation: "Bostrom, N. (2014). Superintelligence: Paths, Dangers, Strategies (selected chapters)."
     notes: "Partial book extract"
+    final: false
 
   - id: carlsmith_2021
     filename: "Carlsmith 2021_Is Power-Seeking AI an Existential Risk_.pdf"
@@ -88,6 +89,7 @@ papers:
     filename: "Book (part only)_The Age of Em.pdf"
     citation: "Hanson, R. (2016). The Age of Em (selected chapters)."
     notes: "Partial book extract"
+    final: false
 
   - id: hendrycks_2023
     filename: "Hendrycks 2023_An Overview of Catastrophic AI Risks.pdf"

@@ -8,6 +8,7 @@ from datetime import datetime, timezone
 
 import yaml
 
+from src.paths import final_papers, raw_text_path, task_output_dir
 from src.utils.hf_client import query_llm
 from src.utils.prompt import fill_prompt_1a, fill_prompt_1d, fill_prompt_2a, fill_prompt_2b, fill_prompt_2c, load_prompt
 
@@ -62,24 +63,26 @@ def _parse_json_response(text: str) -> dict | None:
 
     return None
 
-
 def run_1a(
     config: dict,
-    drive_root: str,
     hf_token: str,
     repo_root: str = ".",
     force: bool = False,
     dry_run: bool = False,
 ) -> None:
-    """Run Prompt 1a on all papers in the registry.
+    """Run Prompt 1a on every final paper (papers.yaml entries without `final: false`).
+
+    Reads  <repo_root>/raw_text_final/<paper_id>.txt
+    Writes <repo_root>/output/<model_name>/02_task_1a/
+           (outputs/, logs/, config.json, run_metadata.json, run_history/)
+           Dry runs write to output/<model_name>_dryrun/02_task_1a/ instead.
 
     Args:
-        config: Dict with keys: experiment, model, temperature,
-                prompt_version, seed_terms_version.
-        drive_root: Path to the Google Drive project root
-                    (e.g. /content/drive/MyDrive/loc_definition_project).
+        config: Dict with keys: model, temperature, prompt_version,
+                seed_terms_version, provider, max_new_tokens
+                (optional: experiment, a free-text label saved with the run).
         hf_token: HuggingFace API token.
-        repo_root: Path to the repo root (for loading prompts, configs).
+        repo_root: Path to the repo root (papers.yaml, prompts, raw text, output).
         force: If True, re-run papers that already have output.
         dry_run: If True, use mock API responses instead of real calls.
     """
@@ -88,7 +91,7 @@ def run_1a(
 
     # --- Load configs ---
     papers_path = os.path.join(repo_root, "papers.yaml")
-    papers_config = _load_yaml(papers_path)["papers"]
+    papers_config = final_papers(_load_yaml(papers_path)["papers"])
 
     # Load seed terms from versioned file: seed_terms.yaml (v1) or seed_terms_v2.yaml (v2)
     seed_version = config.get("seed_terms_version", "v1")
@@ -102,15 +105,15 @@ def run_1a(
     prompt_path = os.path.join(repo_root, "prompts", f"{config['prompt_version']}.txt")
     template = load_prompt(prompt_path)
 
-    # --- Set up experiment directory ---
-    exp_dir = os.path.join(
-        drive_root, "stages", "1a_definition_extraction",
-        "experiments", config["experiment"],
-    )
+    # --- Set up the output folder: output/<model_name>/02_task_1a (…_dryrun for dry runs) ---
+    exp_dir = task_output_dir(repo_root, config["model"], "02_task_1a", dry_run=dry_run)
+
     outputs_dir = os.path.join(exp_dir, "outputs")
     logs_dir = os.path.join(exp_dir, "logs")
     os.makedirs(outputs_dir, exist_ok=True)
     os.makedirs(logs_dir, exist_ok=True)
+    print(f"Output folder: {exp_dir}")
+
 
     # --- Process each paper ---
     total = len(papers_config)
@@ -129,16 +132,16 @@ def run_1a(
 
         print(f"  [{i}/{total}] Processing {paper_id}...")
 
-        # Load raw text
-        raw_text_path = os.path.join(drive_root, "raw_text", f"{paper_id}.txt")
-        if not os.path.exists(raw_text_path):
-            msg = f"Raw text not found: {raw_text_path}"
+        # Load raw text (a final paper without text is a real error, so it is reported)
+        text_path = raw_text_path(repo_root, paper_id)
+        if not os.path.exists(text_path):
+            msg = f"Raw text not found: {text_path}"
             print(f"  [{i}/{total}] ERROR {paper_id} — {msg}")
             errors.append({"paper_id": paper_id, "error": msg})
             per_paper_meta.append({"paper_id": paper_id, "skipped": False, "error": msg})
             continue
 
-        with open(raw_text_path, "r", encoding="utf-8") as f:
+        with open(text_path, "r", encoding="utf-8") as f:
             paper_text = f.read()
 
         # Fill prompt
@@ -228,8 +231,14 @@ def run_1a(
         "per_paper": per_paper_meta,
     }
     _save_json(metadata, os.path.join(exp_dir, "run_metadata.json"))
+    # config.json / run_metadata.json describe the latest run; a resumed run would
+    # overwrite them, so every run also keeps its own dated copy.
+    stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    _save_json({"config": config_snapshot, **metadata},
+               os.path.join(exp_dir, "run_history", f"run_{stamp}.json"))
 
     print(f"\nDone. {metadata['papers_processed']}/{total} papers processed in {total_runtime}s.")
+
     if errors:
         print(f"  {len(errors)} error(s) — see run_metadata.json for details.")
 
@@ -850,94 +859,61 @@ def run_2c(
 
 
 if __name__ == "__main__":
-    import sys
+    import shutil
     import tempfile
 
-    # Self-test: run_1a in dry-run mode on a single dummy paper.
-    # Creates a temp directory structure mimicking Google Drive layout,
-    # writes a fake paper text file, and runs the pipeline.
-    #
-    # Usage: uv run python src/run_stage.py
-    #    or: uv run python -m src.run_stage
+    # Self-test: run_1a in dry-run mode on one dummy paper, inside a temporary copy of the
+    # repo layout, so nothing is written into the real repo.
+    # Usage: uv run python -m src.run_stage
 
-    # Determine repo root (this file is at src/run_stage.py)
     repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-    # We need at least one paper in papers.yaml to test. Check if there
-    # are any uncommented entries; if not, use a temporary override.
-    papers_data = _load_yaml(os.path.join(repo_root, "papers.yaml"))
-    papers_list = papers_data.get("papers") or []
+    with tempfile.TemporaryDirectory() as tmp_repo:
+        # Real prompts and seed terms; a dummy papers.yaml with one final and one dropped paper
+        shutil.copytree(os.path.join(repo_root, "prompts"), os.path.join(tmp_repo, "prompts"))
+        for name in ("seed_terms.yaml", "seed_terms_v2.yaml"):
+            shutil.copy(os.path.join(repo_root, name), tmp_repo)
+        with open(os.path.join(tmp_repo, "papers.yaml"), "w", encoding="utf-8") as f:
+            yaml.dump({"papers": [
+                {"id": "test_paper", "filename": "test.pdf", "citation": "Test Paper (2024).", "notes": ""},
+                {"id": "dropped_paper", "filename": "x.pdf", "citation": "Dropped (2024).", "notes": "",
+                 "final": False},
+            ]}, f)
 
-    with tempfile.TemporaryDirectory() as tmpdir:
-        # Set up a fake Drive structure
-        raw_text_dir = os.path.join(tmpdir, "raw_text")
-        os.makedirs(raw_text_dir)
-
-        if not papers_list:
-            # No papers in registry yet — create a temporary papers.yaml
-            # with one dummy entry for testing
-            test_papers = {
-                "papers": [{
-                    "id": "test_paper",
-                    "filename": "test.pdf",
-                    "citation": "Test Paper (2024). A Test.",
-                    "notes": "dummy entry for dry-run testing",
-                }]
-            }
-            test_papers_path = os.path.join(tmpdir, "papers.yaml")
-            with open(test_papers_path, "w") as f:
-                yaml.dump(test_papers, f)
-
-            # Point repo_root at tmpdir for papers.yaml, but keep real
-            # prompts and seed_terms from the actual repo
-            import shutil
-            shutil.copy(os.path.join(repo_root, "seed_terms.yaml"), tmpdir)
-            shutil.copytree(os.path.join(repo_root, "prompts"), os.path.join(tmpdir, "prompts"))
-            test_repo_root = tmpdir
-            paper_id = "test_paper"
-        else:
-            test_repo_root = repo_root
-            paper_id = papers_list[0]["id"]
-
-        # Write dummy raw text
-        with open(os.path.join(raw_text_dir, f"{paper_id}.txt"), "w") as f:
+        # Raw text only for the final paper; the dropped one must be skipped, not reported missing
+        text_file = raw_text_path(tmp_repo, "test_paper")
+        os.makedirs(os.path.dirname(text_file))
+        with open(text_file, "w", encoding="utf-8") as f:
             f.write(
                 "This paper argues that loss of control over advanced AI systems "
                 "constitutes an existential risk. We define loss of control as a "
                 "situation in which humans can no longer direct, correct, or shut "
                 "down an AI system that is pursuing objectives misaligned with "
-                "human values. This is distinct from mere automation, where humans "
-                "retain override capability."
+                "human values."
             )
 
         config = {
             "experiment": "test_dry_run",
-            "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
-            "temperature": 0.1,
-            "prompt_version": "prompt_1a_v1",
-            "seed_terms_version": "v1",
+            "model": "test-org/mock-model",
+            "temperature": 0.0,
+            "prompt_version": "prompt_1a_v2",
+            "seed_terms_version": "v2",
+            "provider": "auto",
         }
 
         print("=== DRY RUN TEST ===\n")
-        run_1a(config, tmpdir, hf_token="", repo_root=test_repo_root, dry_run=True)
+        run_1a(config, hf_token="", repo_root=tmp_repo, dry_run=True)
 
-        # Show what was written
-        exp_dir = os.path.join(
-            tmpdir, "stages", "1a_definition_extraction",
-            "experiments", "test_dry_run",
-        )
-        print("\n--- config.json ---")
-        with open(os.path.join(exp_dir, "config.json")) as f:
-            print(json.dumps(json.load(f), indent=2)[:500])
+        out_dir = task_output_dir(tmp_repo, config["model"], "02_task_1a", dry_run=True)
+        assert out_dir.endswith(os.path.join("output", "mock-model_dryrun", "02_task_1a")), out_dir
+        assert os.path.exists(os.path.join(out_dir, "outputs", "test_paper.json"))
+        assert not os.path.exists(os.path.join(out_dir, "outputs", "dropped_paper.json"))
+        assert len(os.listdir(os.path.join(out_dir, "run_history"))) == 1
 
+        with open(os.path.join(out_dir, "run_metadata.json"), encoding="utf-8") as f:
+            metadata = json.load(f)
+        assert metadata["total_papers"] == 1 and not metadata["errors"], metadata
         print("\n--- run_metadata.json ---")
-        with open(os.path.join(exp_dir, "run_metadata.json")) as f:
-            print(json.dumps(json.load(f), indent=2))
+        print(json.dumps(metadata, indent=2))
 
-        output_path = os.path.join(exp_dir, "outputs", f"{paper_id}.json")
-        if os.path.exists(output_path):
-            print(f"\n--- outputs/{paper_id}.json ---")
-            with open(output_path) as f:
-                print(json.dumps(json.load(f), indent=2))
-
-        print("\n[OK] Dry run test passed.")
+        print("\n[OK] Dry run test passed. Output layout: output/mock-model_dryrun/02_task_1a/")

@@ -11,6 +11,7 @@ import os
 
 import yaml
 
+from src.paths import raw_text_path, task_output_dir
 from src.utils.quote_verify import verify_quote
 
 
@@ -128,21 +129,20 @@ def _generate_review_md(
 
 def generate_review_docs(
     config: dict,
-    drive_root: str,
     repo_root: str = ".",
+    dry_run: bool = False,
 ) -> None:
-    """Generate review docs, summary CSV, and consolidated JSON for an experiment.
+    """Generate review docs, summary CSV, and consolidated JSON for Task 1A.
+
+    Reads and writes <repo_root>/output/<model_name>/02_task_1a/ (the folder run_1a filled).
 
     Args:
-        config: Dict with at least "experiment" key.
-        drive_root: Path to the Google Drive project root.
-        repo_root: Path to the repo root (for papers.yaml lookup).
+        config: Dict with at least a "model" key (the same config given to run_1a).
+        repo_root: Path to the repo root (papers.yaml, raw_text_final/, output/).
+        dry_run: Use the dry-run folder (output/<model_name>_dryrun/02_task_1a/).
     """
-    experiment = config["experiment"]
-    exp_dir = os.path.join(
-        drive_root, "stages", "1a_definition_extraction",
-        "experiments", experiment,
-    )
+    exp_dir = task_output_dir(repo_root, config["model"], "02_task_1a", dry_run=dry_run)
+
     outputs_dir = os.path.join(exp_dir, "outputs")
     review_dir = os.path.join(exp_dir, "review")
     os.makedirs(review_dir, exist_ok=True)
@@ -193,9 +193,10 @@ def generate_review_docs(
         citation = paper_lookup.get(paper_id, paper_id)
 
         # Load raw text for quote verification
-        raw_text_path = os.path.join(drive_root, "raw_text", f"{paper_id}.txt")
-        if os.path.exists(raw_text_path):
-            with open(raw_text_path, "r", encoding="utf-8") as f:
+        text_path = raw_text_path(repo_root, paper_id)
+        if os.path.exists(text_path):
+            with open(text_path, "r", encoding="utf-8") as f:
+
                 raw_text = f.read()
         else:
             raw_text = ""
