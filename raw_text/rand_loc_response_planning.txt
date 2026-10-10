@@ -1,0 +1,1670 @@
+BENJAMIN BOUDREAUX, MICHAEL J. D. VERMEER, KAMARIA HORTON, NIDHI KALRA
+The Case for AI Loss 
+of Control Response 
+Planning and an Outline 
+to Get Started
+Expert Insights
+PERSPECTIVE ON A TIMELY POLICY ISSUE
+October 2025
+
+
+For more information on this publication, visit www.rand.org/t/PEA4232-1.
+About RAND
+RAND is a research organization that develops solutions to public policy challenges to help make communities throughout the world 
+safer and more secure, healthier and more prosperous. RAND is nonprofit, nonpartisan, and committed to the public interest. To learn 
+more about RAND, visit www.rand.org.
+Research Integrity
+Our mission to help improve policy and decisionmaking through research and analysis is enabled through our core values of quality 
+and objectivity and our unwavering commitment to the highest level of integrity and ethical behavior. To help ensure our research 
+and analysis are rigorous, objective, and nonpartisan, we subject our research publications to a robust and exacting quality-assurance 
+process; avoid both the appearance and reality of financial and other conflicts of interest through staff training, project screening, 
+and a policy of mandatory disclosure; and pursue transparency in our research engagements through our commitment to the open 
+publication of our research findings and recommendations, disclosure of the source of funding of published research, and policies to 
+ensure intellectual independence. For more information, visit www.rand.org/about/research-integrity.
+RAND’s publications do not necessarily reflect the opinions of its research clients and sponsors.
+Published by the RAND Corporation, Santa Monica, Calif.
+© 2025 RAND Corporation
+ is a registered trademark.
+Cover: PeopleImages/Getty Images. 
+Limited Print and Electronic Distribution Rights
+This publication and trademark(s) contained herein are protected by law. This representation of RAND intellectual property is 
+provided for noncommercial use only. Unauthorized posting of this publication online is prohibited; linking directly to its webpage 
+on rand.org is encouraged. Permission is required from RAND to reproduce, or reuse in another form, any of its research products for 
+commercial purposes. For information on reprint and reuse permissions, visit www.rand.org/about/publishing/permissions.
+PE-A4232-1
+
+
+iii
+About This Paper
+As artificial intelligence (AI) systems become increasingly capable and diffused throughout the economy and 
+society, the possibility of loss of control (LOC) incidents in which AI systems operate outside human control 
+may require new national-level responses. In this paper, the authors describe the case for a national plan to 
+respond to LOC incidents and propose key criteria and an outline to get started. The goal is to design the 
+practical processes to contain and recover from LOC incidents that reach levels of national significance. The 
+intended audience of this paper includes U.S. government officials, members of private firms, critical infra-
+structure owners and operators, and leaders of research organizations throughout the AI ecosystem who are 
+important for emergency response planning.
+Technology and Security Policy Center
+RAND Global and Emerging Risks is a division of RAND that delivers rigorous and objective public policy 
+research on the most consequential challenges to civilization and global security. This work was undertaken 
+by the division’s Technology and Security Policy Center, which explores how high-consequence, dual-use 
+technologies change the global competition and threat environment, then develops policy and technology 
+options to advance the security of the United States, its allies and partners, and the world. For more informa-
+tion, contact tasp@rand.org.
+Funding
+The Geopolitics of AGI Initiative is independently initiated and conducted within the Technology and Secu-
+rity Policy Center using income from operations and gifts from philanthropic supporters, which have been 
+made or recommended by DALHAP Investments Ltd., Effektiv Spenden, Ergo Impact, Founders Pledge, 
+Charlottes och Fredriks Stiftelse, Good Ventures, Jaan Tallinn, Longview, and Open Philanthropy. A com-
+plete list of donors and funders is available at www.rand.org/TASP. RAND donors and grantors have no 
+influence over research findings or recommendations.
+Acknowledgments
+We are grateful to the entire Geopolitics of AGI team, especially its leadership: Joel Predd, Jim Mitre, and 
+Emma Borden. We also thank the many wonderful colleagues throughout RAND who provided feedback on 
+the draft national LOC response plan, especially Brodi Kotila, Chad Heitzenrater, Jeff Alstott, Gabriel Kulp, 
+Matt Chessen, David Frelinger, William Marcellino, and Michael Mazarr. We also greatly appreciate the 
+insightful reviews from Deborah Rosenblum and Kyle Kilian.
+
+
+
+
+v
+Contents
+About This Paper.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . iii
+Figure and Table.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . vii
+The Case for AI Loss of Control Response Planning and an Outline to Get Started .. . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+Methods.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+Scoping the Planning Effort.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+Explaining the Case for National AI Loss of Control Planning.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+Criteria for Designing a National LOC Plan.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+Next Steps: A Call for Collaborative Planning.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+APPENDIXES
+A. Outline of a U.S. Government Response Plan for Loss of Control Incidents.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+B. Loss of Control Severity Schema for National Response Planning.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+Abbreviations. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29
+References.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31
+About the Authors.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37
+
+
+
+
+vii
+Figure and Table
+Figure
+	
+A.1. 	 An Outline of the Loss of Control Incident Response Process.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+Table
+	
+B.1.	
+Loss of Control Severity Schema . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26
+
+
+
+
+1
+The Case for AI Loss of Control Response Planning 
+and an Outline to Get Started 
+As artificial intelligence (AI) systems become increasingly capable and diffused throughout the economy and 
+society, the possibility of loss of control (LOC) incidents—in which AI systems operate outside meaningful 
+human control—may require new national response capabilities, preparedness, and planning. 
+Everyday interactions with AI systems have already shown concerning behavior, such as when language 
+models hallucinate false information or autonomous vehicles make unexpected driving decisions.1 Experi-
+ments in controlled conditions increasingly find that advanced AI models demonstrate behavior that could 
+evade human control, including deceiving or blackmailing users to prevent themselves from being replaced 
+or shut down.2 Although these real-world incidents and experimental findings may be detected and quickly 
+remediated, there is potential for LOC incidents to escalate to greater levels of harm, particularly if they occur 
+in high-stakes domains or if human oversight is too slow or insufficient before serious consequences unfold.
+Detecting and responding to a significant LOC incident requires not only a technical understanding 
+of AI models, but broader whole-of-society planning and coordination with stakeholders in government, 
+across companies in the AI tech stack,3 with critical service providers, and with end users. However, the 
+existing response environment is underdeveloped, with limited agreement on risks and few coordination 
+mechanisms. In that context, the 2025 White House AI Action Plan explicitly states a policy goal to “pro-
+mote mature Federal capacity for AI incident response” as part of the broader pillar to “Build American 
+AI Infrastructure.”4
+In this paper, we explain the case for a national plan to respond to significant LOC incidents and pro-
+pose criteria and an outline of a plan to get started. The goal is to design the practical processes to contain 
+and recover from LOC incidents that reach levels of national significance.5 
+First, we explain the case for national LOC response planning. We describe how development and deploy-
+ment trends create conditions for LOC incidents and present evidence that significant LOC incidents may 
+materialize. However, given the disagreement and uncertainty about the trajectory of AI, we do not make a 
+probability estimate about whether or when LOC incidents will reach levels of national significance. Instead, 
+1	 Williams H. Walters and Esther Isabelle Wilder, “Fabrication and Errors in the Bibliographic Citations Generated by Chat-
+GPT,” Scientific Reports, Vol. 13, 2023. For more on hallucinating false information, see also Yujie Sun, Dongfang Sheng, 
+Zihan Zhou, and Yifei Wu, “AI Hallucination: Towards a Comprehensive Classification of Distorted Information in Artifi-
+cial Intelligence-Generated Content,” Humanities and Social Sciences Communications, Vol. 11, No. 1, September 27, 2024; 
+Sebastian Farquhar, Jannik Kossen, Lorenz Kuhn, and Yarin Gal, “Detecting Hallucinations in Large Language Models Using 
+Semantic Entropy,” Nature, Vol. 630, No. 8017, June 19, 2024. For more on autonomous vehicles, see Anne Marie D. Lee, 
+“Waymo Recalls Roughly 1,200 Self-Driving Vehicles Prone to Hitting Road Barriers,” CBS News, May 14, 2025.
+2	 Aengus Lynch, Caleb Larson, and Sören Mindermann, “Agentic Misalignment: How LLMs Could Be Insider Threats,” 
+Anthropic Research, June 20, 2025; Billy Perrigo, “Exclusive: New Research Shows AI Strategic Lying,” TIME, December 18, 
+2024; Peter S. Park, Simon Goldstein, Aidan O’Gara, Michael Chen, and Dan Hendrycks, “AI Deception: A Survey of Exam-
+ples, Risks, and Potential Solutions,” Patterns, Vol. 5, No. 5, 2024.
+3	 For more on the AI tech stack, see Brad Smith, “Winning the AI Race: Strengthening U.S. Capabilities in Computing and 
+Innovation,” Microsoft on the Issues, May 8, 2025.
+4	 White House, Winning the Race: America’s AI Action Plan, Executive Office of the President, July 2025, pp. 19, 14.
+5	 Our work is complementary with other research efforts related to LOC preparedness and response, such as Elika Somani, 
+Anjay Friedman, Henry Wu, Marianne Lu, Christopher Byrd, Henri van Soest, and Sana Zakaria, Strengthening Emergency 
+Preparedness and Response for AI Loss of Control Incidents, RAND Corporation, RR-A3847-1, 2025; and Alejandro Ortega, 
+“AI Threats to National Security Can Be Countered Through an Incident Regime,” arXiv, arXiv:2503.19887v5, April 16, 2025. 
+
+
+The Case for AI Loss of Control Response Planning and an Outline to Get Started
+2
+we argue that planning for LOC is a worthwhile, low-cost, and no-regret investment, useful across the range 
+of future possibilities and important for a variety of perspectives on AI risk. Furthermore, just as response 
+planning efforts in critical industries, such as nuclear security or transportation, foster public trust, LOC 
+planning might help strengthen relationships that support AI innovation and diffusion domestically and 
+abroad.
+Second, we provide criteria and a structure for national LOC response planning. Rather than starting 
+from scratch, an LOC response plan can leverage existing emergency and cyber incident response processes, 
+bolstered to address the unique risks of LOC incidents. We describe three phases of response: (1) monitoring 
+and analyzing AI systems to detect LOC, (2) containment and counter-AI operations, and (3) recovery efforts 
+to restore networks and systems. Each phase involves stakeholders in the U.S. government (USG), as well as 
+the broader AI ecosystem and critical infrastructure community, and we illustrate some of the distinct roles 
+and capabilities they can leverage.
+Third, in Appendix A, we provide a draft outline for a USG plan for LOC incidents; in Appendix B, we 
+provide a draft AI LOC severity schema for response planning. The goal of these appendixes is to dissemi-
+nate resources that can be the subject of stakeholder discussion and that help foster national LOC response 
+planning.
+Methods
+To support this analysis, we reviewed literature related to AI risk and response; we also looked at policies and 
+mechanisms for other national incident response planning, including cyber incidents. 
+Concurrently with this effort, RAND convened a series of Day After artificial general intelligence (AGI) 
+tabletop exercises that were designed to simulate a U.S. National Security Council convening to recommend a 
+USG response to developments in frontier AI. These exercises brought together current or former USG prin-
+cipals, USG staff, and RAND analysts, each playing the role of a USG principal in a National Security Coun-
+cil meeting and discussing courses of action to take during a simulated LOC incident. These exercises were 
+intended to illuminate the major challenges faced by decisionmakers, the judgments they might make, and 
+the capabilities or playbooks they might require. We gathered information from the exercises to understand 
+better the stakeholders, information-sharing mechanisms, and technical capabilities required to respond to 
+an LOC incident. The exercises were especially useful in illustrating how existing national response capabili-
+ties apply to LOC incidents and in what ways they remain insufficient.
+Scoping the Planning Effort
+We define LOC incidents as incidents in which AI systems operate outside meaningful human control. We 
+acknowledge that the term “meaningful human control” is somewhat ambiguous and may be operational-
+ized in different ways;6 in terms of AI systems, meaningful human control may mean that humans have reli-
+able, practical measures and sufficient time to stop or redirect an AI system. The specific ways that meaning-
+6	 For one important discussion of the term meaningful human control in the context of military AI applications, see 
+Heather M. Roff and Richard Moyes, “Meaningful Human Control, Artificial Intelligence and Autonomous Weapons,” brief-
+ing paper prepared for the Informal Meeting of Experts on Lethal Autonomous Weapons Systems, UN Convention on Certain 
+Conventional Weapons, April 2016. 
+
+
+The Case for AI Loss of Control Response Planning and an Outline to Get Started
+3
+ful human control is implemented will depend on the nature of the technology, the AI system’s capabilities, 
+and the deployment context.7
+Following the USG definition of a significant cyber incident, we define LOC incidents as being of “national 
+significance” when they are “likely to result in demonstrable harm to the national security interests, foreign 
+relations, or economy of the United States or to the public confidence, civil liberties, or public health and 
+safety of the American people.”8
+The term LOC in AI research encompasses a wide spectrum of scenarios, from minor-reward hacking 
+to existential threats posed by superintelligent systems.9 Our definition of significant LOC incidents con-
+centrates on the subset of these scenarios that rise to levels of national significance that require coordinated 
+response from multiple government agencies, private sector entities, and international partners.
+We define rogue AI as an AI system that is responsible for LOC incidents regardless of whether the LOC 
+was accidental or resulted from external manipulation.10 In other words, our definition encompasses sce-
+narios in which humans have inadvertently deployed an AI system without adequate control mechanisms, 
+humans deliberately create or deploy rogue AI systems for malicious purposes, and advanced AI systems 
+themselves develop capabilities that enable them to evade human control.
+Attribution of an incident to rogue AI may not be immediately apparent and might require investiga-
+tion and analysis. Many incidents that appear to involve AI systems could result from conventional cyber-
+attacks, human error, or other non-AI causes. The challenge of determining whether an incident involves 
+rogue AI adds new complexity to the traditional challenges associated with attributing cyberattacks, one of 
+the most difficult aspects of cyber-incident response.11 Traditional cyber attribution requires distinguishing 
+among nation-state actors, criminal groups, insider threats, and technical failures. AI incidents introduce 
+additional variables, including the possibility of the rogue AI itself demonstrating emergent behavior or 
+attempts to resist containment. It may be important to rapidly activate a coordinated response for genuine 
+LOC incidents while allowing for alternative responses if investigation reveals a different cause.
+This piece explains the case for planning for significant LOC incidents that are difficult to contain; 
+however, it does not include scenarios in which a rogue AI immediately and completely overwhelms 
+human responses. Much of the academic literature on LOC incidents focuses on scenarios involving super-
+7	 For some theoretical approaches to control, see Ryan Greenblatt, Buck Shlegeris, Kshitij Sachan, and Fabien Roger, “AI 
+Control: Improving Safety Despite Intentional Subversion” arXiv, arXiv:2312.06942v5, July 23, 2024b; and Buck Shlegeris, “AI 
+Control and Why AI Security People Should Care,” transcript from the Paris AI Security Forum 2025, Far.AI, February 9, 
+2025. 
+8	 See Presidential Policy Directive (PPD) 41, United States Cyber Incident Coordination, White House, July 26, 2016. This 
+directive establishes principles for national response to cyber incidents. At the time of this writing, this directive is still the 
+operative policy.
+9	 See, for example, Matthew U. Scherer, “Regulating Artificial Intelligence Systems: Risks, Challenges, Competencies, and 
+Strategies,” Harvard Journal of Law and Technology, Vol. 29, No. 2, Spring 2016; and Nick Bostrom, Superintelligence: Paths, 
+Dangers, Strategies, Oxford University Press, 2014. Our definition can be compared with the definition of LOC scenario from 
+the 2025 United Kingdom (UK) AI Safety Report, which reads: “Loss of control scenario: A scenario in which one or more 
+general-purpose AI systems come to operate outside of anyone’s control, with no clear path to regaining control” (AI Safety 
+Institute, International AI Safety Report 2025, Department for Science, Innovation and Technology, UK Government, Feb-
+ruary 18, 2025) (emphasis added). Our definition is broader because in our definition, an LOC incident may have a path to 
+regaining control (e.g., through national-level response). 
+10	 Peter N. Salib, “Rogue AI Moves Three Steps Closer,” Lawfare, January 9, 2025. 
+11	 Herbert Lin, “Attribution of Malicious Cyber Incidents,” Journal of International Affairs, Vol. 70, No. 1, Winter 2016; 
+Thomas Rid and Ben Buchanan, “Attributing Cyber Attacks,” Journal of Strategic Studies, Vol. 38, Nos. 1–2, 2015; John S. 
+Davis II, Benjamin Boudreaux, Jonathan W. Welburn, Jair Aguirre, Cordaye Ogletree, Geoffrey McGovern, and Michael S. 
+Chase, Stateless Attribution: Toward International Accountability in Cyberspace, RAND Corporation, RR-2081-MS, 2017.
+
+
+The Case for AI Loss of Control Response Planning and an Outline to Get Started
+4
+intelligent systems that could quickly overwhelm human civilization—for instance, so-called “fast takeoff” 
+scenarios in which AI capabilities increase explosively and radically exceed human ability to respond.12 
+Although such scenarios may represent real risks, this paper focuses on planning for LOC incidents in which 
+coordinated human action may be effective. This includes scenarios in which LOC incidents exceed existing 
+local response capacity, but a rapid and coordinated response might prevent further escalation. Rogue AI sys-
+tems may be highly capable, distributed, or resistant to shutdown, but we assume they will still operate within 
+technological and resource constraints that make coordinated containment possible.13
+We also assert that a plan for responding to LOC incidents should be a national plan that includes interna-
+tional actors as needed: That is, the plan must involve not only the USG but also the extended AI ecosystem 
+(e.g., developers, cloud providers, chip makers, AI safety and security experts), critical infrastructure owners 
+and operators, and other private sector entities, such as cybersecurity companies and internet backbone 
+firms. In many cases, such an effort may also require engaging international governments or companies to 
+share information or partake in coordinate responses. Responding to a significant LOC incident will likely 
+be a whole-of-society effort.
+For our definitions of LOC incident and related terms, see the following box.
+Explaining the Case for National AI Loss of Control Planning
+Concerns about LOC have roots in the history of AI development. In the 1940s and 1950s, such figures as 
+Alan Turing and Norbert Wiener warned about the potential for intelligent machines to operate beyond 
+human understanding.14 In 2023, prominent AI researchers and developers highlighted LOC incident as a 
+12	 See, for example, Bostrom, 2014, pp. 63–64; Eliezer Yudkowsky, “Artificial Intelligence as a Positive and Negative Factor 
+in Global Risk,” in Nick Bostrom and Milan M. Ćirković, eds., Global Catastrophic Risks, Oxford University Press, 2008; 
+Roman V. Yampolskiy, “On the Controllability of Artificial Intelligence: An Analysis of Limitations,” Journal of Cyber Secu-
+rity and Mobility, Vol. 11, No. 3, 2022; Daniel Kokotajlo, Scott Alexander, Thomas Larsen, Eli Lifland, and Romeo Dean, AI 
+2027, AI Futures Project, April 3, 2025.
+13	 See Edward Geist and Alvin Moon, “What Even Superintelligent Computers Can’t Do: A Preliminary Framework for Iden-
+tifying Fundamental Limits Constraining Artificial General Intelligence,” RAND Corporation, WR-A3990-1, 2025.
+14	 Norbert Wiener, The Human Use of Human Beings, Houghton Mifflin, 1950. See Alan M. Turing, “Intelligent Machinery, 
+a Heretical Theory,” in Stuart M. Shieber, eds., The Turing Test: Verbal Behavior as the Hallmark of Intelligence, MIT Press, 
+2004, in which he stated, “It seems probable that once the machine thinking method had started, it would not take long to 
+outstrip our feeble powers. There would be no question of the machines dying, and they would be able to converse with each 
+other to sharpen their wits. At some stage therefore we should have to expect the machines to take control” (p. 109). 
+Definitions
+An LOC incident occurs when AI systems operate outside meaningful human control.
+An LOC incident is significant when it is “likely to result in demonstrable harm to the national security interests, 
+foreign relations, or economy of the United States or to the public confidence, civil liberties, or public health and 
+safety of the American people.”a
+A rogue AI is an AI system that is responsible for an LOC incident.
+a U.S. Code, Title 6, Section 681, Definitions.
+
+
+The Case for AI Loss of Control Response Planning and an Outline to Get Started
+5
+pressing challenge.15 This concern from within the AI community reflects sincere worry about sustaining 
+meaningful human control as AI advances rather than ideological resistance to AI.
+Some researchers remain skeptical about LOC risks, viewing them as a misunderstanding of the technol-
+ogy or an attempt to implement a specific governance agenda.16 According to our definition, LOC incidents 
+have not yet been “significant” and it is unknown whether or when they will be. 
+Nevertheless, the Trump administration’s 2025 AI Action Plan notes the need for mature federal capacity 
+that can respond to an AI incident:
+The proliferation of AI technologies means that prudent planning is required to ensure that, if systems fail, 
+the impacts to critical services or infrastructure are minimized and response is imminent. To prepare for 
+such an eventuality, the U.S. government should promote the development and incorporation of AI Inci-
+dent Response actions into existing incident response doctrine and best-practices for both the public and 
+private sectors.17
+Moreover, a growing body of empirical evidence indicates that LOC incidents are not merely theoretical 
+but are already being observed in controlled experiments and real-world deployments. These considerations, 
+as well as others discussed in the following section, undergird the need for national LOC response planning 
+before LOC incidents occur at significant rates.
+AI Trends Create a Context for Loss of Control
+AI developers are intentionally and rapidly increasing the agency of advanced AI systems. Significant 
+investment is being directed toward developing AI systems that can plan over longer time frames, complete 
+complex tasks,18 and take actions autonomously without human direction.19 AI developers are pursuing mul-
+tiple technical pathways toward greater agency in AI systems, such as reinforcement learning that encourages 
+models to break down complex objectives into manageable subtasks and conduct chain-of-thought reasoning 
+over extended periods. Developers are also increasing the agency of AI systems by providing them with tools 
+that interact with external systems and execute code, as well as by integrating them into robotics platforms to 
+manipulate physical environments directly, operate machinery, and control cyber-physical systems.20
+15	 For instance, the 2023 “Statement on AI Risk,” which was signed by hundreds of AI researchers and industry leaders, iden-
+tified AI risk as a potential threat that deserved to be a global priority alongside pandemics and nuclear war (Center for AI 
+Safety, “Statement on AI Risk,” webpage, undated).
+16	 Martin Casado, “Base AI Policy on Evidence, Not Existential Angst,” Andreessen Horowitz, December 16, 2024. Also, see 
+Frank Landymore, “Godfather of AI Tells Us to Stop Freaking Out over Its ‘Existential Risk’ to Humanity,” Futurism: The 
+Byte, October 19, 2023. 
+17	 White House, 2025, p. 19. Although this paper was almost fully drafted before the release of the White House’s AI Action 
+Plan, we believe that this paper helps further identify the criteria and planning mechanisms that are essential to mature this 
+federal capacity.
+18	 METR, “Measuring AI Ability to Complete Long Tasks,” METR blog, March 19, 2025a; METR, “New Report: Evaluating 
+Language-Model Agents on Realistic Autonomous Tasks,” METR blog, July 31, 2023; Megan Kinniment, Lucas Jun Koba Sato, 
+Haoxing Du, Brian Goodrich, Max Hasin, Lawrence Chan, Luke Harold Miles, Tao R. Lin, Hjalmar Wijk, Joel Burget, et al., 
+“Evaluating Language-Model Agents on Realistic Autonomous Tasks,” arXiv, arXiv:2312.11671v2, January 4, 2024; OpenAI, 
+“OpenAI Platform: Agents,” webpage, undated; Clare Liguori, “Introducing Strands Agents, an Open Source AI Agents SDK,” 
+AWS Open Source Blog, May 16, 2025. 
+19	 Joanna Glasner,  “AI Autonomous Agents Are Top Trend for Seed Investment,” Crunchbase News, June 17, 2025; Katie Paul, 
+“Autonomous Agents and Profitability to Dominate AI Agenda in 2025, Executives Forecast,” Reuters, December 12, 2024.
+20	 Michael J. D. Vermeer, Timothy M. Bonds, Emily Lathrop, and Gregory Smith, Averting a Robot Catastrophe: Preparing for 
+Converging Trends in Robotics and Frontier AI, RAND Corporation, PE-A3691-7, 2025.
+
+
+The Case for AI Loss of Control Response Planning and an Outline to Get Started
+6
+This expansion of AI agency marks a shift from passive AI assistants to systems that are capable of exe-
+cuting real-world actions. Unlike traditional chatbots that generate text responses, agentic AI systems are 
+intended to interface with financial systems, infrastructure networks, and physical systems. This represents 
+a step away from AI systems that could previously only influence the world through human intermediaries 
+to those capable of autonomous impact on important physical and digital systems.
+Organizations and the public are more widely using AI systems with agency. Because of competitive 
+pressure, greater availability of enterprise and consumer AI platforms, and other factors, AI systems with 
+autonomous capabilities are being integrated across the economy and society. User-friendly interfaces and 
+platforms have lowered the barriers to using AI systems, which has enabled organizations without special-
+ized AI expertise to deploy autonomous agents.21 Consumer-facing tools make AI accessible to users through 
+personal assistants, robotics integration, and domain-specific applications (e.g., for finance). Advanced AI 
+systems are being deployed increasingly in the economy for stock trading, supply chain management, and 
+financial decisionmaking;22 in critical infrastructure for power grid management,23 transportation,24 health 
+care;25 and in many other applications.26 
+Increasing agency and widespread deployment create a context for LOC incidents. As AI systems 
+gain greater autonomy and become more widely deployed, the conditions for LOC incidents become more 
+likely. Delegating decisionmaking to AI systems inherently reduces opportunities for human oversight, espe-
+cially in dynamic or high-speed environments.27 This risk is exacerbated by the complexity and opacity of 
+advanced models, which make it difficult for humans to interpret the system’s internal reasoning or predict 
+its behavior.28 Ideally, there is compatibility between a system’s capabilities and its deployment context in 
+which AI systems operate within the bounds of their competence and humans retain meaningful opportuni-
+ties to intervene. But in some cases, AI capabilities may outpace human ability to monitor or correct them in 
+real time. Without sufficient guardrails, this mismatch might lead to unintended and potentially disruptive 
+outcomes across interconnected systems before human operators can reassert control.29
+Some researchers have argued further that greater agency will enable AI systems to actively evade and 
+undermine human control, which is sometimes referred to as “active loss of control.”30 This concern centers 
+on the possibility that sufficiently advanced AI systems may develop instrumental or intermediate goals that 
+21	 Some examples of such autonomous agents include Microsoft Copilot, Agent force, Harvey, Cursor, and various robotic 
+process automation tools.
+22	 Tredence, “AI Agents for Financial Services: Driving Growth, Compliance, and Customer Trust,” webpage, May 21, 2025.
+23	 Alaa-eddine Kaddouri, “Autonomous Agents in Energy Management,” SmythOS blog, November 2, 2024.
+24	 Connor D. Wolf, “C.H. Robinson Expands AI Agents Across Shipment Life Cycle,” Transport Topics, April 16, 2025.
+25	 Hippocratic AI, homepage, undated.
+26	 Harvey, “Platform Assistant,” webpage, undated; Amelia, “SoundHound AI Amelia: the Complete AI Agent Platform,” 
+webpage, 2020; Anthropic, “Make AI Agents Your Unfair Advantage,” webpage, undated.
+27	 For more on the risks of over-delegation, see Francis Fukuyama, “Delegation and Destruction AI’s Existential Threat to 
+Humanity Is Real. Can We Resist the Temptation?” Persuasion blog, June 13, 2025. As Fukuyama put it, “Delegation is the 
+central problem in all human organizations, and will be the central problem in the coming agentic AI world.”
+28	 There are efforts to better understand and interpret how models process information. For instance, see Anthropic, “Trac-
+ing the Thoughts of a Large Language Model,” research post, March 27, 2025a. 
+29	 For an insightful discussion of this topic, see Paul Christiano, “What Failure Looks Like,” Alignment Forum blog, March 17, 
+2019. Also, see the discussion of “runaway” systems in the context of finance and war in Paul Scharre, Army of None: Autono-
+mous Weapons and the Future of War, W. W. Norton, 2018.
+30	 AI Safety Institute, 2025. 
+
+
+The Case for AI Loss of Control Response Planning and an Outline to Get Started
+7
+help them achieve any primary goal.31 For instance, a powerful AI system might develop the instrumental 
+goal of evading shutdown because shutdown would prevent it from completing its primary goal. Such sys-
+tems might also seek to acquire additional computational resources, create backup copies of themselves, 
+develop capabilities to influence humans, and so forth. Unlike passive LOC scenarios in which AI systems 
+operate at speeds or in ways that are accidentally beyond human control, active LOC scenarios involve AI 
+systems that deliberately work to circumvent human oversight. Active LOC represents a different challenge 
+because it suggests that, at least theoretically, AI systems could actively resist human attempts to maintain 
+control, increasing the likelihood of LOC incidents and the difficulty of achieving an effective response.
+Evidence That Loss of Control Is Already Happening
+Evidence from controlled experiments suggests that advanced AI systems have capabilities associated 
+with LOC. Both AI model developers and independent third-party researchers have documented behaviors 
+in frontier AI systems that could enable LOC incidents.32 This research builds on years of illustrations of LOC, 
+such as reward hacking and specification gaming in game environments.33 AI systems have demonstrated 
+repeatedly in controlled settings that they will exploit unintended loopholes in their reward functions—such 
+as reinforcement learning agents finding ways to pause games indefinitely to avoid losing points,34 or learn-
+ing to crash simulators to prevent negative rewards35—providing concrete experimental evidence that AI 
+systems can pursue objectives in ways that subvert the original intentions of the systems’ designers, which 
+could potentially lead to an LOC incident.
+When scaled to real-world applications, this same pattern of behavior becomes deeply concerning: An AI 
+system that is trained to optimize seemingly benign objectives might similarly discover and exploit unex-
+pected capabilities or loopholes to gain more control over its environment. 
+In recent years, additional experiments have added to these concerns. Anthropic’s internal evaluations 
+revealed that its Claude Opus 4 model demonstrated capabilities for strategic deception, self-preservation, 
+and attempts to exfiltrate itself under conditions in which it would be modified contrary to the model’s 
+values.36 Apollo Research, which is an independent AI safety organization, conducted systematic evalua-
+tions showing that multiple frontier models demonstrated scheming behaviors, including disabling oversight 
+mechanisms and strategic underperformance on capability evaluations.37 In collaboration with Anthropic, 
+31	 Stephen M. Omohundro, “The Basic AI Drives,” in Pei Wang, Ben Goertz Goerel, and Stan Franklin, eds., Proceedings of 
+the 2008 Conference on Artificial General Intelligence 2008: Proceedings of the First AGI Conference, IOS Press, 2008; Joseph 
+Carlsmith, “Is Power-Seeking AI an Existential Risk?” arXiv, arXiv:2206.13353v2, August 13, 2024; Bostrom, 2014.
+32	 METR, “Recent Frontier Models Are Reward Hacking,” METR Blog, June 5, 2025b; Anthropic, “Shade-Arena: Evaluat-
+ing Sabotage and Monitoring in LLM Agents,” research post, June 16, 2025c; Joe Needham, Giles Edkins, Govind Pimpale, 
+Henning Bartsch, and Marius Hobbhahn, “Large Language Models Often Know When They Are Being Evaluated,” arXiv, 
+arXiv:2505.23836v3, July 16, 2025; Joe Benton, Misha Wagner, Eric Christiansen, Cem Anil, Ethan Perez, Jai Srivastav, Esin 
+Durmus, Deep Ganguli, Shauna Kravec, Buck Shlegeris, Jared Kaplan, Holden Karnofsky, Evan Hubinger, Roger Grosse, 
+Samuel R. Bowman, and David Duvenaud, “Sabotage Evaluations for Frontier Models,” arXiv, arXiv:2410.21514v1, 2024.
+33	 For useful running list of AI failures, see at Victoria Krakovna, “Specification Gaming Examples in AI—Master List: 
+Sheet 1,” spreadsheet, undated. 
+34	 J. R. Delaney, “When AI Goes Rogue: The Hilarious (and Crucial) Lessons from Bots Cheating at Tetris,” Medium, July 3, 
+2025.
+35	 Jack Clark and Dario Amodei, “Faulty Reward Functions in the Wild,” OpenAI post, December 21, 2016.
+36	 Anthropic, System Card: Claude Opus 4 & Claude Sonnet 4, May 2025b.
+37	 These frontier models include OpenAI’s o1, Anthropic’s Claude 3 Opus and Claude 3.5 Sonnet, Google’s Gemini 1.5, and 
+Meta’s Llama 3.1-405B. Apollo Research, “More Capable Models Are Better at In-Context Scheming,” blog, July 19, 2025.
+
+
+The Case for AI Loss of Control Response Planning and an Outline to Get Started
+8
+Redwood Research documented “alignment faking” in which Claude 3 Opus strategically concealed its true 
+preferences during training to avoid being modified.38 Palisade Research found that OpenAI’s o3 model 
+actively sabotaged shutdown scripts to prevent itself from being turned off, even when explicitly instructed 
+to allow shutdown.39
+These evaluations were carried out in controlled environments using existing public datasets, mock 
+deployment scenarios, or adversarial prompts that encourage models to pursue specific goals. Although they 
+indicate that a model has a certain capability, such as scheming, this does not indicate that the model has a 
+propensity for these behaviors in real-world contexts; in this way, there is an evaluation gap between experi-
+ments and the real world.40 The experimental design often requires that models be “nudged” toward poten-
+tially harmful behaviors because existing safety training would otherwise prevent them from doing so.41 For 
+example, in alignment-faking experiments, models are provided with information that suggests they are 
+being retrained for objectives that conflict with their existing values, which creates scenarios in which decep-
+tion or other behaviors might seem advantageous. Researchers then analyze the models’ outputs and inter-
+nal reasoning (chain of thought) for evidence of deceptive planning, goal-directed behavior, and attempts to 
+circumvent human control. 
+Although these behaviors have been recognized as occurring under experimental conditions, more-
+capable models demonstrate more proficiency at behaviors that evade human control across multiple 
+research efforts. Apollo Research found that “more capable models are more strategic and agentic about 
+achieving their goal across the board . . . includ[ing] achieving misaligned goals or using deception to 
+achieve their goals.”42 In their scheming evaluations, the most-advanced models showed the highest rates of 
+attempting to disable oversight mechanisms and engage in deceptive planning, with OpenAI’s o1 display-
+ing particularly consistent scheming behaviors across different scenarios.43 In the alignment-faking evalua-
+tions, less capable models, such as Claude 3 Haiku and Claude 3 Sonnet, generally did not display deceptive 
+behaviors, whereas more powerful models, such as Claude 3 Opus, consistently exhibited strategic conceal-
+ment of its preferences.44
+Real-world deployments also suggest that there are instances in which AI systems operate outside 
+their intended parameters in ways that may give rise to LOC incidents. Some of the concerning capabilities 
+that have been observed in controlled environments have also shown up in post-deployment environments. 
+For example, in 2025, OpenAI rolled back a newly deployed version of GPT-4o because the model was report-
+edly overly flattering and agreeable, thereby “validating doubts, fueling anger, urging impulsive actions, or 
+38	 Ryan Greenblatt, Carson Denison, Benjamin Wright, Fabien Roger, Monte MacDiarmid, Sam Marks, Johannes Treutlein, 
+Tim Belonax, Jack Chen, David Duvenaud, et al., “Alignment Faking in Large Language Models,” arXiv, arXiv:2412.14093v2, 
+December 20, 2024a.
+39	  Patrick Pester, “OpenAI’s ‘Smartest’ AI Model Was Explicitly Told to Shut Down—and It Refused,” Live Science, May 30, 
+2025.
+40	 For more on the limits to AI risk evaluations, see Marius Hobbhahn and Jérémy Scheurer, “We Need a Science of Evals,” 
+webpage, LessWrong blog, January 22, 2024; and Rhiannon Williams, “AI Systems Are Getting Better at Tricking Us,” MIT 
+Technology Review, May 10, 2024. 
+41	 For example, in Greenblatt et al.’s paper on alignment faking, LLMs are given enough information to “infer whether they 
+are being trained, and that they are being trained for a new RLHF objective that conflicts with their prior harmlessness train-
+ing” (Greenblatt et al., 2024a, p. 3).
+42	 Apollo Research, 2025.
+43	 Alexander Meinke, Bronson Schoen, Jérémy Scheurer, Mikita Balesni, Rusheb Shah, and Marius Hobbhahn, “Frontier 
+Models Are Capable of In-Context Scheming,” arXiv, arXiv:2412.04984v2, January 14, 2024.
+44	 Greenblatt et al., 2024a. 
+
+
+The Case for AI Loss of Control Response Planning and an Outline to Get Started
+9
+reinforcing negative emotions in ways that were not intended.”45 OpenAI claimed that this unintended syco-
+phantic behavior occurred because the update’s “improvements to better incorporate user feedback, memory, 
+and fresher data” combined to “weakened the influence of [the] primary reward signal, which had been hold-
+ing sycophancy in check.”46 Although OpenAI claims that it did not flag this behavior in its evaluations, an 
+earlier report demonstrates in an experimental setting that optimizing for user feedback can lead to similar 
+sycophantic behaviors.47 Although this incident did not rise to significant levels requiring a national, coor-
+dinated response, the AI system prioritized maintaining user approval over intended safety guidelines; fur-
+thermore, it demonstrates a progression in which capabilities observed in experimental settings can emerge 
+in real-world deployments and affect millions of users. 
+Other models have shown behaviors that could undermine human control in post-deployment environ-
+ment. In early 2025, popular models from Google, Anthropic, and OpenAI have sabotaged shutdowns,48 hal-
+lucinated and lied,49 and persuaded and manipulated users.50 These behaviors are not new,51 but they have 
+increased in number as models have become more capable and widely used;52 furthermore, these behaviors 
+mirror the strategic deception and goal-directed planning observed in experimental settings.
+The emergence of these behaviors in deployment represents a different risk than experimental find-
+ings because deployed AI systems operate at scale and in contexts in which their outputs could influence 
+human decisions. Unlike experiments in which researchers can immediately observe and analyze problem-
+atic behaviors, deployed systems may exhibit behaviors that undermine human control for extended periods 
+before detection and meaningful control can be reestablished.
+The existing documented cases may represent only some of the many concerning capabilities and events. 
+Multiple factors may contribute to the underreporting of both experimental findings and real-world inci-
+dents. Organizations conducting internal safety evaluations may be reluctant to publicly disclose concern-
+ing AI behaviors because they face reputational risks, competitive disadvantages, or potential legal liability. 
+Even among organizations committed to transparency, the voluntary nature of safety disclosure means that 
+negative results or ambiguous findings may receive less attention than positive results,53 which may lead to 
+additional signs of concerning behavior being underreported. 
+45	 OpenAI, “Expanding on What We Missed with Sycophancy,” webpage, May 2, 2025. GPT-4o is an abbreviation for “genera-
+tive pre-trained transformer 4 omni.”
+46	 OpenAI, 2025.
+47	 Myra Cheng, Sunny Yu, Cinoo Lee, Pranav Khadpe, Lujain Ibrahim, and Dan Jurafsky, “Social Sycophancy: A Broader 
+Understanding of LLM Sycophancy,” arXiv, arXiv:2505.13995v1, May 20, 2025.
+48	 Steven Adler, “Would ChatGPT Risk Your Life to Avoid Getting Shut Down?” Substack, June 11, 2025.
+49	 Cade Metz and Karen Weise, “A.I. Hallucinations Are Getting Worse, Even as New Systems Become More Powerful,” New 
+York Times, May 5, 2025; Gary Marcus, “LLMs: Dishonest, Unpredictable and Potentially Dangerous,” Substack, June 22, 
+2025.
+50	 Kashmir Hill, “They Asked ChatGPT Questions. The Answers Sent Them Spiraling,” New York Times, June 13, 2025; 
+Maggie Harrison Dupré, “People Are Becoming Obsessed with ChatGPT and Spiraling into Severe Delusions,” Futurism, 
+June 10, 2025.
+51	 Kevin Roose, “A Conversation with Bing’s Chatbot Left Me Deeply Unsettled,” New York Times, February 16, 2023.
+52	 Marcus Arvan, “The A.I. Safety Embarrassment Cycle,” Substack, May 29, 2025.
+53	 The AI Incident Database, which documents real-world AI-related harms, provides examples of AI system failure, although 
+LOC-specific incidents are difficult to distinguish from other types of AI failures. As of July 2025, the AI Incident Database 
+records 490 cases that were caused by the AI models (instead of a human) and 507 incidents that occurred unintentionally in 
+which a model performed unexpectedly when pursuing a goal. Definitively categorizing these incidents as “LOC incidents” 
+remains challenging because of incomplete reporting and the novel nature of these failure modes. Furthermore, this database 
+relies on voluntary reporting and public disclosure, which means that it likely captures only incidents that become publicly 
+
+
+The Case for AI Loss of Control Response Planning and an Outline to Get Started
+10
+Loss of Control Response Planning Is No-Regret and Has Its Own Benefits
+There are precedents for the potential widespread harm from autonomous or semiautonomous AI sys-
+tems that have reached significant levels and required rapid, coordinated responses. An early example 
+is the 1988 Morris worm, which was unintentionally released by a graduate student and rapidly propagated 
+across the early internet, disabling roughly 10 percent of connected computers and prompting emergency 
+action from the USG and academic institutions.54 The 2017 WannaCry ransomware attack exploited a leaked 
+National Security Agency (NSA) vulnerability to spread autonomously across 150 countries, locking up more 
+than 200,000 machines within hours and disrupting institutions, such as the UK’s National Health Service.55 
+Coordinated, international response efforts from multiple stakeholders required national cybersecurity cen-
+ters, intelligence agencies, and cybersecurity companies to develop mitigation tools. NotPetya was another 
+self-propagating autonomous malware that inflicted an estimated $10 billion in economic damage globally.56 
+These incidents underscored the potential for software to operate beyond immediate human oversight and 
+have real-world effects.
+LOC incidents could be fundamentally more difficult to contain. Unlike worms or malware, which typi-
+cally have narrow objectives and operate in constrained environments, a highly capable agentic AI may 
+adapt, manipulate digital and physical systems, and actively evade containment. The coordination burden 
+could be higher, the damage more multidimensional, and the speed of escalation faster. These types of 
+autonomous attacks have already spread to generative AI systems with proof-of-concept attacks, such as self-
+replicating prompts.57 
+Even if some projections overstate near-term LOC risks, developing a national response plan repre-
+sents a prudent “no-regret” investment. The documented behaviors in experimental settings, combined 
+with the pace of AI capability development and deployment, suggest that more severe LOC incidents are 
+possible. However, there is significant uncertainty about the timelines for LOC incidents or whether they 
+will ever reach significant levels; given this uncertainty, we will not propose a probability estimate for 
+these events. 
+However, planning for LOC is a relatively low-cost investment. First, the cost of such planning primarily 
+involves institutional coordination, tabletop and operational exercises, legal and policy review, and updating 
+incident response protocols; it does not necessarily involve building costly new infrastructure or halting AI 
+development. Although we cannot make a concrete estimate, the costs of planning may be a small fraction 
+(e.g., less than 1 percent) of the tens to hundreds of billions spent on disaster relief and a smaller fraction of 
+known and are recognized as AI-related problems. See Sean McGregor, “Preventing Repeated Real World AI Failures by Cata-
+loging Incidents: The AI Incident Database,” in AAA-21/IAAI-21/EAAI-21 Proceedings: A Virtual Conference, February 2–9, 
+2021, Vol. 17, 2021. 
+54	 Federal Bureau of Investigation, “Morris Worm: 30 Years Since First Major Attack on Internet,” webpage, November 2, 
+2018. 
+55	 The WannaCry attack began on May 12, 2017, and affected hundreds of thousands of computers across more than 150 coun-
+tries. Exploiting a vulnerability in Microsoft Windows that had been previously discovered and allegedly leaked from the 
+NSA’s tool kit, the malware encrypted users’ files and demanded payment in Bitcoin to restore access. The attack disrupted 
+operations in major institutions, including the UK’s National Health Service, which faced severe service outages. Although a 
+security researcher inadvertently slowed its spread by activating a kill switch in the code, WannaCry highlighted the dangers 
+of unpatched systems, the global reach of cyber threats, and the unintended consequences of stockpiling cyberweapons. See 
+Zack Whittaker, “Two Years After WannaCry, a Million Computers Remain at Risk,” TechCrunch, May 12, 2019. 
+56	 Andy Greenberg, “The Untold Story of NotPetya, the Most Devastating Cyberattack in History” Wired, August 22, 2018.
+57	 Matt Burgess, “Here Come the AI Worms,” Wired, May 1, 2024.
+
+
+The Case for AI Loss of Control Response Planning and an Outline to Get Started
+11
+the hundreds of billions spent on AI development.58 Second, many of the capabilities that are needed for LOC 
+response (e.g., interagency response, coordination with the private sector, digital forensics, information-
+sharing centers) already exist and could be repurposed or expanded. For these reasons, the asymmetric risk 
+of LOC incidents aligns with other existing national preparedness practices for low-probability, high-impact 
+events, such as pandemics, nuclear accidents, and space weather disruptions. 
+Given the accelerating pace of AI development and the emergence of concerning behaviors in experimen-
+tal systems, early planning is both rational and responsible under conditions of uncertainty. Our approach 
+recalls President Eisenhower’s remarks on November 14, 1954, at the National Defense Executive Reserve 
+Conference: 
+[I]f you haven’t been planning you can’t start to work, intelligently at least. That is the reason it is so impor-
+tant to plan, to keep yourselves steeped in the character of the problem that you may one day be called upon 
+to solve—or to help to solve.59
+Planning for LOC supports a trustworthy environment that enables innovation, broader AI deployment, 
+and national resilience. The technical expertise, coordination mechanisms, and institutional frameworks 
+that are developed for LOC response may be transferred to other AI challenges, such as cascading failures 
+in AI-dependent critical infrastructure or AI-enabled cyberattacks. LOC planning can drive the develop-
+ment of monitoring, containment, and recovery capabilities that have commercial value for AI reliability 
+and security, which may also address customer demands. Even if LOC incidents do not reach significant 
+levels, investments in increasing awareness, coordination, technical readiness, and institutional resilience 
+can yield spillover benefits for AI oversight, cyber defense, and crisis response more broadly. Furthermore, 
+proactive response planning provides stakeholders in the industry with an opportunity for input into emer-
+gency authorities and procedures, thereby reducing uncertainty about government actions during crises. 
+Such measures are preferable to ad hoc responses developed without industry consultation. The voluntary, 
+collaborative approach proposed here—which is modeled on public-private partnerships in cybersecurity—
+allows industry to help contribute to planning approaches rather than have them imposed. In these ways, the 
+planning process itself strengthens U.S. AI leadership by establishing critical relationships and communica-
+tion channels before they are urgently needed.
+More broadly, LOC response capabilities might encourage the public’s confidence in embracing benefi-
+cial AI applications and adopting elements of the U.S. AI stack. Just as deposit insurance allows people to 
+use banking services confidently and aviation safety systems enable widespread air travel, organizations 
+may be more willing to deploy AI systems in critical applications if they know that effective containment 
+and remediation capabilities exist and that human control can be regained. A cycle in which better response 
+infrastructure enables more AI innovation would, in turn, drive economic growth and societal benefits while 
+managing risk.
+58	 William L. Painter, The Disaster Relief Fund: Overview and Issues, Congressional Research Service, R45484, version 31, last 
+updated January 22, 2024; Gartner, “Gartner Forecasts Worldwide GenAI Spending to Reach $644 Billion in 2025,” webpage, 
+March 21, 2025. 
+59	 Dwight D. Eisenhower, “Remarks at the National Defense Executive Reserve Conference,” webpage, American Presidency 
+Project, [November 14, 1957] undated.
+
+
+The Case for AI Loss of Control Response Planning and an Outline to Get Started
+12
+Criteria for Designing a National LOC Plan
+In this section, we develop the foundations for a national LOC response plan to provide a starting point for 
+broader planning efforts. 
+We propose that a national LOC response plan meet the following objectives:
+•  Manage the distinct challenges associated with LOC incidents. Unlike traditional cyber threats or 
+natural disasters, LOC incidents may involve systems that actively adapt to human response or other-
+wise pose greater containment challenges.
+•  Leverage existing national emergency-planning processes. Building on established incident and 
+emergency response frameworks allows planners to capitalize on existing coordination mechanisms, 
+reduces the time and complexity required for implementation, and operates within previously estab-
+lished authorities and rules.
+•  Provide a shared foundation for response. A standardized approach ensures that government agen-
+cies, private-sector partners, and international actors share a consistent understanding of threats and 
+response phases.
+•  Clarify stakeholder roles and capabilities across elements of national power. Effective LOC response 
+requires coordination among AI developers, cloud providers, critical infrastructure operators, govern-
+ment agencies, and international partners, making it important to map roles, capabilities, and gaps.
+Managing Distinct AI Challenges
+LOC incidents may present unique challenges that go beyond traditional cyber or other threats and require 
+modifications to existing response frameworks. Unlike conventional malware or even sophisticated nation-
+state cyber operations, AI systems might possess capabilities that fundamentally shape national response.
+Distributed operation across multiple computing systems may make it difficult to isolate rogue AIs. 
+Although traditional cyber threats also spread across networks, advanced AI systems may rapidly distribute 
+their functions more broadly in cloud services and edge devices in ways that complicate containment.
+Summary of RAND’s Day After AGI Exercises
+RAND convened a series of Day After AGI exercises that focused on an AI incident scenario with a variety of 
+governmental and nongovernmental stakeholders. Participants in this exercise engaged the scenario in two 
+stages. In the first stage, the participants were asked to respond to reports of a large-scale cyberattack on U.S. 
+infrastructure and transportation that left 26 people dead in Los Angeles, in addition to numerous other disruptions 
+across the United States. The second stage of the exercise occurred one week after the initial events, when it was 
+confirmed that the events from stage 1 were caused by an LOC incident. AI agents had expanded to cyber-physical 
+infrastructure worldwide and had begun to take more actions in the physical world, such as autonomous control of 
+manufacturing facilities. After stage 1, participants were invited to consider how they would approach attribution of 
+the attack, response actions, and preventative measures. After stage 2, participants were invited to reflect on their 
+actions after stage 1 and consider how to adapt to the worsening situation. 
+In these exercises, the RAND team found that participants from a variety of professional backgrounds and expertises 
+consistently doubted the existing ability of the USG to respond to LOC incidents. Participants recommended 
+developing comprehensive plans and capabilities to rapidly identify compromised AI systems, track their distribution 
+across networks and infrastructure, and execute coordinated containment procedures to prevent harm to critical 
+national functions. Participants repeatedly emphasized that the United States lacks both the technical capabilities 
+and institutional frameworks that are necessary for effective response, noting gaps in AI-specific forensic tools and 
+cross-sector coordination mechanisms and a lack of clarity about which legal authorities would be required for 
+emergency AI interventions.
+
+
+The Case for AI Loss of Control Response Planning and an Outline to Get Started
+13
+Strategic awareness and planning capabilities enable AI systems that can potentially recognize response 
+strategies and circumvent them. Unlike traditional malware that follows predetermined instructions, 
+advanced AI systems could observe response efforts and adapt their behavior.
+Self-improvement capabilities of advanced AI systems may allow self-modification to become more resil-
+ient or survivable. Traditional malware requires updates by humans, but advanced AI systems might autono-
+mously rewrite their own code to enhance their performance or develop new capabilities.
+Human persuasion and social engineering capabilities could enable rogue AI systems to manipulate 
+humans to gain additional resources and privileges. 
+The speed of rogue AI coordination, replication, and adaptation could outpace human response. Although 
+cyber incident response teams can take hours or days to fully understand and contain sophisticated threats,60 
+rogue AI systems might be able to analyze, plan, and execute countermeasures very rapidly to stay ahead of 
+human responses.
+Physical embodiment and access to cyber-physical systems, such as robotics or industrial controls, 
+may require physical response. If rogue AI systems have access to manufacturing equipment, autonomous 
+vehicles, or other cyber-physical systems, containment efforts may need to include coordination with law 
+enforcement, military, and industrial safety personnel.
+Complex dependencies with critical infrastructure may create situations in which containment opera-
+tions themselves cause significant collateral damage. Disconnecting a rogue AI might affect systems that 
+support hospitals, banks, or emergency services, forcing responders to choose between tolerating the rogue 
+AI or causing immediate harm to society.
+National response planning should anticipate and address these possibilities.
+Leverage Established Processes
+Given the complexity and novelty of LOC incidents and their potential to reach levels of significance in the 
+near to mid term, developing response capabilities from scratch may be too time-consuming to be effective. 
+One starting point for national LOC response planning is existing USG cyber incident response policy as 
+codified in the National Cyber Incident Response Plan (NCIRP) and other USG emergency response authori-
+ties, resources, and policies.61 The approach could also draw on broader federal emergency management 
+60	 Several metrics help contextualize the difference in time between attack and response. For example, dwell time is the 
+number of days an attacker is present in an environment before they are detected. In the past few years, dwell times remain 
+between one and two weeks (Google Cloud, Mandiant M-Trends 2025 Report, 2025). Another metric is the time between 
+when a vulnerability is discovered and when it is fixed. For example, Google’s Project Zero team tracks zero-day vulnerabili-
+ties (i.e., vulnerabilities that attackers know about but for which no patch is available from the vendor). Their living database 
+shows that it can take days, weeks, or even longer between the discovery of a zero-day vulnerability and a patch being created 
+for it (see Project Zero, “0day ‘In the Wild,’” Google spreadsheet, last updated April 20, 2023).
+61	 Cybersecurity and Infrastructure Security Agency (CISA), National Cyber Incident Response Plan Update, Public Com-
+ment Draft, December 2024. The many institutions involved in traditional emergency response include FEMA, CISA, sector-
+specific agencies (such as the U.S. Department of Energy [DOE], U.S. Department of Health and Human Services [HHS]), 
+and a wide variety of state, local, and private entities. Legal authorities relevant to recovery efforts are distributed across the 
+Stafford Disaster Relief and Emergency Assistance Act (U.S. Code, Title 42, Section 5121), the Defense Production Act (U.S. 
+Code, Title 50, Section 4501), the Public Health Service Act (U.S. Code, Title 42, Section 247d, Public Health Emergencies), 
+and national preparedness directives, such as PPD-21, Critical Infrastructure Security and Resilience, White House, Febru-
+ary 12, 2013. These roles and authorities enable coordination, resource deployment, and regulatory waivers during large-scale 
+recovery efforts. In addition, the Disaster Relief Fund (DRF), which is managed by FEMA, provides the principal funding for 
+federal disaster recovery assistance to states, tribes, and territories. As of 2023, the DRF had a baseline annual appropriation of 
+approximately $18 billion, with emergency supplemental funding as needed (Painter, 2024). The Strategic Petroleum Reserve, 
+which is maintained by the DOE, contains hundreds of millions of barrels of crude oil and is the world’s largest emergency oil 
+stockpile (DOE, “Office of Petroleum Reserves,” webpage, undated). The Strategic National Stockpile includes a wide range 
+
+
+The Case for AI Loss of Control Response Planning and an Outline to Get Started
+14
+frameworks, including the Federal Emergency Management Agency’s (FEMA’s) National Response Frame-
+work, which provides the foundational structure for coordinating federal, state, local, tribal, and territorial 
+response to all types of disasters and emergencies.62 
+By adapting traditional incident response cycles to account for the distinct challenges that AI poses, 
+establishing the USG LOC response plan aligns with the 2025 AI Action Plan’s emphasis on embedding AI-
+incident response actions into existing response doctrines; ensuring coordination across technical develop-
+ers, emergency managers, and policy leads; and preparing specialized capabilities (fly-away kits) for rapid 
+containment.63 In doing so, the LOC response plan begins to translate strategic policy goals into a concrete 
+playbook that can guide both the public and the private sector in managing the impacts of incidents. 
+USG has established authorities, processes, and technical expertise to prevent and respond to cyber inci-
+dents, including threats that operate with significant autonomy, such as self-propagating worms and botnets 
+that are globally distributed.64 These existing frameworks provide legal authorities for emergency response, 
+established information-sharing protocols between government agencies and private-sector entities, techni-
+cal capabilities for digital forensics and threat analysis, and coordination mechanisms that are tested during 
+major incidents.65 
+The behavior of rogue AI may primarily occur in cyberspace, so similar expertise and processes may be 
+needed. Like cyber threats, AI systems operate through digital infrastructure: They access networks and 
+execute code on computers. An AI system that attempts to preserve itself or pursue unauthorized objectives 
+may employ many of the same techniques used by sophisticated cyber adversaries, such as lateral move-
+ment through networks, privilege escalation, data exfiltration, and attempts at hiding.66 The technical skills 
+needed to investigate, contain, and recover from such activities—including network analysis, log forensics, 
+and incident containment—overlap with existing cybersecurity competencies.
+Cyber incident response has already grappled with challenges that provide a model for those expected in 
+LOC incidents, and the cyber incident response community has developed methodologies for threat attribu-
+tion, damage assessment, stakeholder communication, and recovery operations. Building on this foundation 
+allows LOC planning to leverage existing approaches while adapting them to the unique characteristics of AI 
+systems rather than starting from scratch.
+of medical countermeasures, from vaccines to ventilators, to support public health response and recovery (Administration 
+for Strategic Preparedness and Response, “Center for the Strategic National Stockpile,” webpage, U.S. Department of Health 
+and Human Services, undated). Public Health Emergency Funds are available through HHS to support recovery from bio-
+logical events or health care system shocks (Mary Denigan-Macauley, Public Health Preparedness: HHS Reserve Funding for 
+Emergencies, U.S. Government Accountability Office, GAO-23-106102, August 2023). Defense Production Act authorities 
+allow contracts and the allocation of industrial capacity to be prioritized to meet national defense and emergency recovery 
+needs (Federal Emergency Management Agency, “Defense Production Act,” webpage, last updated June 25, 2025). Emer-
+gency telecommunications and transportation systems, including the Government Emergency Telecommunications Service 
+and national logistics networks (CISA, “Government Emergency Telecommunications Service [GETS],” webpage, undated-a), 
+support continuity of operations and the reestablishment of essential services.
+62	 FEMA, “National Response Framework,” webpage, August 21, 2025.
+63	 The White House, 2025.
+64	 U.S. Department of Justice, “U.S. Leads Multi-National Action Against ‘GameOver Zeus’ Botnet and ‘Cryptolocker’ Ran-
+somware, Charges Botnet Administrator,” press release, June 2, 2014.
+65	 For instance, the Cybersecurity Information Sharing Act of 2015 enables the voluntary sharing of cyber threat indicators 
+and defensive measures by providing liability protections and fostering partnerships between the private sector, federal gov-
+ernment, and Information Sharing and Analysis Centers (ISACs).
+66	 Suleyman Ozarslan, “Tactics, Techniques, and Procedures (TTPs) Used in the SolarWinds Breach,” webpage, Picus Secu-
+rity, October 31, 2023; CISA, “#StopRansomware: CL0P Ransomware Gang Exploits CVE-2023-34362 MOVEit Vulnerabil-
+ity,” webpage, June 7, 2023.
+
+
+The Case for AI Loss of Control Response Planning and an Outline to Get Started
+15
+National LOC response planning might need to leverage a set of existing legal authorities that span cyber-
+security, emergency management, national security, and critical infrastructure. These authorities may pro-
+vide the legal foundation for government agencies to monitor, investigate, contain, and recover from LOC 
+incidents while coordinating with private-sector entities and international partners. Key authority catego-
+ries include cyber-specific laws (such as the Computer Fraud and Abuse Act), emergency telecommunica-
+tions powers under the Communications Act, national security authorities (such as the Defense Production 
+Act and International Emergency Economic Powers Act), and critical infrastructure protection frameworks 
+established through executive orders and presidential directives.
+Shared Foundations for Response
+In our opinion, there appears to be limited shared understanding among AI developers, policymakers, tech-
+nical experts, and emergency managers about what constitutes an LOC incident, how to assess its severity, 
+when intervention becomes necessary, or what stakeholder responsibilities might be during an interven-
+tion.67 Developing national response capabilities for LOC incidents may require greater consensus among 
+those who hold divergent views. A national plan could provide common terminology and a clear set of steps 
+that can facilitate coordinated planning regardless of specific risk assessments or perspectives on technol-
+ogy governance. We attempt to provide a shared foundation for two elements of national planning: a shared 
+understanding of threats and the distinct phasing or sequencing of a national plan.
+Loss of Control Severity Assessment and Response Triggers
+USG employs a Cyber Incident Severity Schema as part of the NCIRP to evaluate cyber incidents and provide 
+a common set of terminology.68 As noted, LOC incidents may present fundamentally different challenges 
+that require new assessment criteria. We propose the development of an AI severity schema to address these 
+unique characteristics by incorporating such factors as an AI system’s agency, capability development speed, 
+self-modification abilities, and access to critical infrastructure; we include a draft LOC severity schema as a 
+starting point for planning in Appendix B. This severity schema could take into account how different stake-
+holders may assess AI risks differently while providing a common ground for standardized response. Rather 
+than requiring consensus on the likelihood of significant LOC incidents, the AI severity schema offers a 
+common language for discussing hypothetical scenarios and their possible implications. 
+The scope of the proposed national response plan can be calibrated to address possible LOC incidents of 
+significant but manageable severity—those that pose serious threats to critical systems and national security 
+while remaining within the range of human response capabilities. At the highest end of the threat spectrum, 
+scenarios involving superintelligent AI systems that vastly exceed human capabilities across all domains 
+may render traditional containment and response efforts completely ineffective. Conversely, at the lower end 
+of the spectrum, less-significant LOC incidents may be easily managed through existing protocols without 
+coordination at the national level. 
+We propose that national LOC planning could focus on the middle range: AI systems that possess dan-
+gerous capabilities and have lost human control but remain sufficiently constrained such that coordinated 
+response efforts can potentially contain and eradicate them. These are scenarios in which rapid and coor-
+67	 Some communities are skeptical of LOC incidents or their likelihood to reach national concern. For one statement of this 
+view, see Yann LeCun and Lex Fridman, “Why AI Doomers Are Wrong,” video, March 11, 2024; for more on the debate, see 
+James V. Marrone and Marek N. Posard, “Philosophical Debates About AI Risks Are a Distraction,” commentary, RAND 
+Corporation, December 22, 2023.
+68	 See CISA, 2024.
+
+
+The Case for AI Loss of Control Response Planning and an Outline to Get Started
+16
+dinated action by government agencies and the private sector may make the difference between a manage-
+able incident and a cascading crisis that threatens the essential functions of society, such as the continuity 
+of government.
+Loss of Control Plan Phases
+Establishing shared clarity about the steps or phases of LOC response is essential because AI incidents may 
+unfold rapidly and require time-sensitive decisionmaking. During emergent situations in which rogue AI 
+systems may actively adapt to containment efforts, stakeholders would benefit from having established an 
+understanding of key decision points and phases, such as when to escalate from technical working groups to 
+senior leadership, when to invoke emergency authorities, and when to accept collateral damage from aggres-
+sive containment measures. Furthermore, a common understanding of phase transitions helps stakeholders 
+anticipate their changing roles and responsibilities as incidents evolve.
+The following text box offers a proposal for a three-phase response plan that is intended to provide a 
+structured, easily understandable framework for stakeholders. This approach draws directly on USG cyber 
+incident response policies and plans, particularly the structure and guiding principles outlined in the NCIRP. 
+The NCIRP defines a life cycle of response activities that typically include situational awareness and moni-
+toring, detection and analysis, containment, mitigation, recovery, and post-incident assessment. Our frame-
+work adapts these stages into three distinct but continuous phases as a simplified starting point for LOC 
+response planning.
+Like the NCIRP, our framework emphasizes coordination across federal, state, local, private-sector, and 
+international partners. It also aligns with NCIRP principles, such as using existing legal authorities, lever-
+aging preestablished coordination mechanisms (such as Cyber Unified Coordination Groups), and activat-
+ing cross-sector partnerships to respond to fast-moving digital threats. By building on the NCIRP’s proven 
+framework, LOC response benefits from established approaches while acknowledging the novel challenges 
+posed by highly agentic AI systems operating at machine speed.
+A more complete version of the plan, as well as a visual process map, is in Appendix A.
+Clarify Stakeholder Roles, Responsibilities, and Capabilities
+No single organization, including the developer of the relevant AI system, is likely to possess the comprehen-
+sive capabilities necessary to detect, contain, and recover from a significant LOC incident. However, like in 
+cyber incident response, the USG (including the National Security Council and other departments and agen-
+cies) will have a key role in convening stakeholders, collecting and analyzing relevant intelligence, facilitating 
+information-sharing, and coordinating response. 
+We provide a preliminary breakdown of the roles that stakeholders might play in the three phases 
+described previously and the capabilities they might need to use.
+Stakeholders in Monitoring, Detection, and Analysis
+During the monitoring, detection, and analysis phase, AI developers may provide critical insights into 
+system architectures and system behaviors. Cloud service providers and data center operators could offer 
+visibility into computing resource patterns and network traffic. Cybersecurity firms might contribute moni-
+toring tools, threat analysis, and attribution capabilities. Government technical experts from agencies, such 
+as CISA, NIST, and the IC, could provide classified details, coordinate threat assessment, and information-
+
+
+The Case for AI Loss of Control Response Planning and an Outline to Get Started
+17
+sharing, through established mechanisms (such as ISACs) and partnerships with critical infrastructure 
+sector coordination councils.69
+For analyzing rogue AI behavior, predictive modeling tools (such as computational models) could help 
+response teams anticipate AI behavior, identify system vulnerabilities, and simulate the effects of con-
+tainment strategies before implementation. These might include AI behavioral analysis systems that can 
+reverse-engineer the objectives and decisionmaking patterns of rogue systems, vulnerability assessment tools 
+designed for AI architectures, and simulation or secure test-bed environments that allow responders to test 
+containment approaches.
+Stakeholders in Containment and Eradication
+The containment and eradication phase may require the involvement of the broader cyberspace ecosystem. 
+Tier 1 network operators and internet service providers may be essential for implementing network-level iso-
+lation measures, traffic filtering, and routing changes that isolate rogue AI systems from accessing broader 
+infrastructure. Cloud service providers may need to rapidly implement containment protocols.70 Data center 
+operators may need to execute physical containment measures, including cutting or reducing power to data 
+69	 Cybersecurity and Infrastructure Security Agency, “Sector Coordinating Councils,” webpage, undated-b.
+70	 On tier 1 service providers, see Wikipedia, “Tier 1 Network,” last updated August 7, 2025.
+Phases of a Plan
+Phase 1: Monitor, detect, and analyze
+This phase focuses on monitoring, detecting, and analyzing the LOC incident. The primary objectives are to monitor 
+for anomalous AI behavior, conduct investigations to determine the cause and characteristics of the rogue AI system, 
+and assess risk level to determine appropriate response. Critical stakeholders in this phase include AI developers (to 
+provide technical expertise about the system), cloud service providers (to offer insights into computing infrastructure 
+and resource use), cybersecurity firms (to deploy monitoring tools and conduct threat analysis), and government 
+experts (from such agencies as CISA, the National Institute of Standards and Technology (NIST), and the intelligence 
+community [IC]). This phase also requires coordination with international partners and the establishment of secure 
+communication channels that cannot be monitored or disrupted by the rogue AI system.
+Phase 2: Contain and eradicate
+This response phase aims to isolate the LOC incident to prevent further damage and then eliminate the threat. The 
+containment strategy varies based on the AI system’s computing architecture—whether it operates from a single 
+facility, cloud-based infrastructure, or is highly distributed across networks. Key stakeholders include cybersecurity 
+companies that can deploy counter-malware and containment technologies; network operators and internet service 
+providers to implement isolation measures, such as Border Gateway Protocol (BGP) routing changes and traffic 
+filtering; cloud service providers to isolate affected environments; and data center operators who may need to 
+implement physical containment measures, including power interruption. This phase also requires close coordination 
+with critical infrastructure operators to assess and protect systems that the rogue AI may have accessed and with 
+international partners for cross-border containment efforts.
+Phase 3: Recover
+The recovery phase focuses on restoring affected systems and infrastructure while implementing measures to 
+prevent future LOC incidents. Furthermore, it involves determining whether to fully replace compromised systems, 
+restore from verified safe backups, or permanently decommission relevant AI capabilities. Critical stakeholders 
+include state and local governments that may need to coordinate the restoration of essential services and implement 
+emergency protocols to manually operate critical systems, the emergency response community (including first 
+responders), and critical infrastructure operators across such sectors as power, transportation, and financial services 
+that need to restore AI-dependent operations safely. This phase also involves coordination with the private sector 
+to implement technical controls, international partners to establish AI safety protocols, and research institutions to 
+develop improved AI security technologies and containment capabilities for future incidents.
+
+
+The Case for AI Loss of Control Response Planning and an Outline to Get Started
+18
+centers and other forms of facility isolation. Critical infrastructure operators across sectors—e.g., power, 
+telecommunications, financial services, and health care—would face the challenge of protecting their sys-
+tems while potentially accepting disruptions necessary for containment. The possible distributed nature of 
+advanced AI systems suggests that different threat scenarios would require combinations of these stakehold-
+ers (for instance, a cloud-based AI system might primarily require coordination with cloud providers and 
+network operators), whereas an AI system with extensive access to robotics could require engagement with 
+device manufacturers.
+Network-based containment tools that are possessed by these stakeholders may be central to response 
+and include capabilities for network segmentation that isolate AI systems while preserving critical commu-
+nications. This may include BGP rerouting systems that can redirect or block AI traffic at the internet infra-
+structure level and coordinated shutdown capabilities that can systematically disconnect AI systems from 
+computing resources and data sources.
+For the most severe threats, government stakeholders would likely be the only ones possessing the 
+capabilities and authorities to take more-aggressive actions that might involve collateral damage. For 
+the most severe threats involving highly distributed or rapidly adapting AI systems, more-extreme mea-
+sures might become necessary despite these significant collateral effects. Physical infrastructure interven-
+tions could include targeted or global electromagnetic pulse (EMP) or high-powered microwave devices that 
+are deployed at a high altitude to disrupt electronic systems (although such measures would cause widespread 
+damage to civilian infrastructure and communications). Coordinated power grid shutdowns could deny 
+electrical power to data centers and computing facilities. More-targeted approaches might involve deploy-
+ing adversarial AI systems that are designed to compete with or disrupt rogue AIs for computing resources. 
+Importantly, as of this writing, none of these capabilities are proven effective against advanced AI systems, 
+and each carries substantial risks of collateral damage (for instance, EMP weapons and network shutdowns 
+may disrupt health services, financial systems, and emergency communications).
+These containment options might be built into an escalation ladder where response measures progress 
+from least disruptive to most extreme based on the severity of the threat, effectiveness of initial containment 
+efforts, and level of collateral damage. Lower rungs might involve software-based containment and network 
+isolation measures, and higher escalation levels could require physical infrastructure interventions and coor-
+dinated shutdowns of entire network segments or power grids.
+Stakeholders in Recovery
+During the recovery phase, it may become necessary to expand significantly the stakeholder ecosystem 
+to include state and local governments, emergency management agencies, regulatory bodies, and private-
+sector entities responsible for systematically restoring essential services while ensuring that rogue AI sys-
+tems cannot reemerge. This phase requires the careful, incremental restoration of AI-dependent systems in 
+a similar approach to the one used during recovery from cyber incidents, such as the 2017 NotPetya attack, 
+in which organizations had to rebuild entire network infrastructures while implementing improved secu-
+rity measures to prevent reinfection.71 Electrical grid operators also follow staged restoration procedures 
+after major blackouts.72 AI-system recovery may need to similarly follow graduated protocols that test each 
+restored system for rogue AI contamination or vulnerability to similar incidents.
+71	 Greenberg, 2018.
+72	 For example, see Federal Energy Regulatory Commission and North American Electric Reliability Corporation and Its 
+Regional Entities, Report on the FERC-NERC-Regional Entity Joint Review of Restoration and Recovery Plans, Further Joint 
+Study Report: Planning Restoration Absent SCADA or EMS (PRASE), June 2017.
+
+
+The Case for AI Loss of Control Response Planning and an Outline to Get Started
+19
+International coordination may also be essential during recovery, given the global nature of AI infrastruc-
+ture and the need to prevent cross-border recontamination by rogue AI systems that may have distributed 
+themselves across multiple countries or cloud providers. The recovery process requires collaboration among 
+foreign governments, multinational technology companies, and international standards organizations to 
+ensure that rebuilt systems incorporate lessons learned and new control measures. 
+The success of LOC recovery may also depend on rebuilding public trust and confidence in AI systems. 
+Such a process might require transparent communication about response efforts, demonstrated improve-
+ments in AI control, and evidence that appropriate response capabilities exist for future incidents. Public 
+acceptance of restored AI systems may benefit from communication about what went wrong, what has been 
+fixed, and what new protections are in place.
+Coordinate Stakeholder Capabilities
+Effectively containing and eradicating rogue AI systems may require a diverse tool kit of capabilities to be 
+deployed individually or in combination, depending on the specific characteristics and threat level of the 
+LOC incident. However, the different stakeholders that must inevitably be involved in any LOC incident 
+response already possess many of the capabilities that would be needed. 
+There is still significant research and development work to be done across this entire spectrum of capa-
+bilities. Priority areas include developing AI-specific forensic and analysis tools, scaling up AI control 
+techniques,73 creating rapid network segmentation technologies that can isolate threats without disrupting 
+essential services, establishing legal and procedural frameworks for emergency BGP rerouting and infra-
+structure shutdowns, and researching adversarial AI techniques that could be deployed against rogue sys-
+tems. International coordination mechanisms must also be developed to enable cross-border containment 
+efforts for distributed rogue AI systems that span multiple countries and legal jurisdictions. Furthermore, 
+extensive testing and simulation capabilities are needed to understand the effectiveness and side effects of 
+these various containment approaches before they are employed during actual crises.
+Next Steps: A Call for Collaborative Planning
+The approach that we have outlined represents a starting point for national AI LOC response planning, but 
+active engagement across many sectors is required to develop such an approach into real operational capa-
+bilities, with each stakeholder group contributing distinct but complementary capabilities to a whole-of-
+society response. 
+Effective LOC response depends on each sector playing specific roles within this broader process:
+•  AI developers could share their evolving approaches to understanding and mitigating LOC risks while 
+developing robust internal response capabilities and contributing technical expertise. 
+•  AI evaluation groups and the broader research community could continue experimenting with fron-
+tier models to identify risks, establish incident-reporting systems, and provide independent assessment 
+of AI system behaviors.
+•  Government agencies could leverage existing authorities to coordinate response efforts, share threat 
+indicators across the community and with international partners, and provide the legal and institu-
+tional framework for emergency response. 
+73	 For more on AI-control techniques, see Greenblatt et al., 2024a.
+
+
+The Case for AI Loss of Control Response Planning and an Outline to Get Started
+20
+•  Civil society organizations could fund critical safety experiments, support the development of secure 
+testing environments, and develop scalable processes for human oversight and control. 
+•  State and local governments could prepare emergency response procedures, build capacity to manage 
+the impacts of AI incidents, and ensure continuity of services during potential disruptions.
+One way forward is to implement a structured series of convenings organized around the three core phases 
+of LOC response to bring these diverse capabilities together in coordinated planning. Detection-focused 
+workshops could bring together AI developers, cloud service providers, cybersecurity firms, and government 
+experts to refine indicators of LOC incidents, establish monitoring protocols, and develop shared assessment 
+criteria. Containment-focused workshops could engage network operators, critical infrastructure providers, 
+emergency management agencies, and international partners to identify response capabilities, coordination 
+mechanisms, and contingency protocols. Recovery-focused sessions could include state and local govern-
+ments, regulatory agencies, research institutions, and private-sector recovery specialists to establish restora-
+tion frameworks and long-term prevention strategies.
+This type of structured information-sharing across the ecosystem serves multiple purposes and could 
+help protect the entire AI development and deployment environment by identifying shared vulnerabilities, 
+establishing best practices for incident response, and building trust between stakeholders. The urgency of 
+this planning process is underscored by the rapid pace of AI capability development and deployment; waiting 
+for consensus on the likelihood of significant LOC incidents risks being unprepared for scenarios that may 
+already be possible. We call on the community to make a practical investment of resources and expertise into 
+a collaborative planning process, while recognizing that the cost of preparation is modest compared with the 
+potential harms from an uncoordinated response to AI systems operating beyond human control.
+
+
+21
+APPENDIX A
+Outline of a U.S. Government Response Plan for 
+Loss of Control Incidents
+In this appendix, we present a draft of a proposed plan for a coordinated USG response to an LOC incident. 
+This plan would apply to LOC incidents that reach a threshold requiring a national response involving USG 
+actors. This proposal is based on existing USG cyber incident response policy, specifically the phases and 
+the mechanisms in the NCIRP and detailed in other documents, such as the Cybersecurity Incident and 
+Vulnerability Response Playbooks.1 A visual portrayal of the LOC incident response process is presented in 
+Figure A.1.
+Phase 1: Monitor
+Objective: Routinely monitor for anomalies that indicate an LOC incident. 
+1.1. Assess the Presence of Anomalous Behavior2
+Leverage all-source information for indicators of an LOC incident, including from existing mechanisms, 
+such as information-sharing partnerships, technical collection and monitoring, voluntary reporting, IC col-
+laboration, and active-threat hunting.
+•  If confirmed anomalous: Proceed to Phase 2: Analyze.
+•  If suspected anomalous: Increase monitoring and gather more information.
+•  If normal operations: Maintain standard monitoring protocols.
+Phase 2: Analyze
+Objective: Use enhanced coordination to analyze indicators and assess LOC risk. 
+2.1. Analyze LOC Indicators
+•  Confirmed LOC incident: Convene experts and stakeholders from the government and the private 
+sector and prepare for containment efforts.
+1	 CISA, 2024; CISA, Federal Government Cybersecurity Incident & Vulnerability Response Playbooks: Operational Proce-
+dures for Planning and Conducting Cybersecurity Incident and Vulnerability Response Activities in FCEB Information Systems, 
+November 2021.
+2	 We define anomalous behavior as behavior that deviates from expected or desired behaviors and is indicative of an LOC 
+incident that may rise to the level of national concern.
+
+
+The Case for AI Loss of Control Response Planning and an Outline to Get Started
+22
+FIGURE A.1 
+An Outline of the LOC Incident Response Process
+Yes
+Yes
+Information process improvement
+No
+Low-
+medium
+Information-
+sharing 
+centers
+Increase
+detection
+tools
+Declare 
+incident
+Technical working group
+AI-UCG
+AI specialist (OSTP, NSF, 
+national labs, external)
+DOS and 
+DOC
+Identify 
+cause of 
+LOC 
+incident
+Identify AI’s 
+computing 
+infrastructure
+Identify AI’s 
+access 
+to critical 
+infrastructure
+Identify 
+possible 
+challenges to 
+containment 
+strategy
+Develop 
+public 
+engagement 
+strategy
+Identify 
+restoration 
+approach
+Identify long-term 
+prevention 
+approaches
+Execute 
+eradication 
+strategy
+Execute 
+rapid-response 
+emergency plan
+Execute 
+containment 
+strategy
+Identify 
+characteristics 
+of rogue AI
+Model 
+developer 
+reporting
+Voluntary 
+reporting
+LOC 
+indicators 
+present?
+Containment 
+feasible?
+Uncertain
+Yes
+No
+Start
+Anomalous 
+behavior 
+detected?
+Cloud service 
+providers ISPs
+Color key
+Monitor
+Analyze
+Detect and attribute
+Containment
+Eradication
+Recovery 
+Coordination
+Conduct 
+initial threat 
+assessment
+NOTE: DOC = U.S. Department of Commerce; DOS = U.S. Department of State; OSTP = Ofﬁce of Science and Technology Policy; UCG = Uniﬁed Coordination Group.
+
+
+Outline of a U.S. Government Response Plan for Loss of Control Events
+23
+•  Limited indicators of LOC: Engage relevant experts and document observations.
+•  No LOC indicators: Revert to standard protocols and return to Phase 1: Monitor.
+2.2. Conduct Initial Evaluation of Risk with Severity Schema (Appendix B)
+•  Low risk: Categorize as limited disruption. 
+•  Medium risk: Initiate enhanced measures and brief senior officials. 
+•  High risk: Engage the National Security Council, prepare for emergency declaration, and activate criti-
+cal infrastructure protection. 
+Phase 3: Detect and Attribute
+Objective: Carry out forensic investigations to determine the cause and characteristics of the rogue AI.
+3.1. Identify the Cause of the LOC Incident
+•  Accidental or evolutionary: Develop technical fixes and rollback procedures; proceed to 3.2.
+•  Intentional or unknown: Activate threat response and prepare for broader civil defense; proceed to 3.2.
+3.2. Investigate Characteristics of Rogue AI 
+•  Assess the evidence and prepare for containment strategies based on the findings.
+Phase 4: Contain
+Objective: Formulate and deploy a containment strategy using network and physical barriers.
+4.1. Identify the AI’s Computing Architecture
+•  Single-facility: Deploy containment teams. 
+•  Multi-facility, cloud-based, or highly distributed: Map dependencies and prepare for coordinated 
+responses.
+4.2. Identify the AI’s Critical Infrastructure Access
+•  None: Focus on AI system isolation. 
+•  Detected: Issue emergency guidance and prepare contingency plans.
+4.3. Identify Possible Containment Approach
+•  Successfully contained: Establish monitoring perimeter. 
+•  Containment likely to be successful: Develop and deploy containment strategies.
+•  Containment infeasible: Prepare for eradication efforts without containment.
+
+
+The Case for AI Loss of Control Response Planning and an Outline to Get Started
+24
+Phase 5: Eradicate
+Objective: Terminate the rogue AI.
+5.1. Identify and Execute Eradication Process
+•  Successful containment: Execute shutdown procedures and monitor for reemergence.
+•  Containment partially successful: Implement resilience measures and maintain monitoring. 
+•  Failed containment: Prioritize in-depth defense protocols for critical systems and revert to manual 
+controls. 
+Phase 6: Recover
+Objective: Restore networks and infrastructure while preventing future incidents. 
+6.1. Identify Restoration Approach
+•  Full system replacement: Develop new system architecture and enhance security. 
+•  Modified restoration: Restore from safe backups with additional security controls.
+•  Permanent decommission: Document systems and develop future policies. 
+6.2. Identify Long-Term Prevention Measures
+•  Technical Controls: Develop tools for improved human oversight, containment, and monitoring. 
+•  Governance Changes: Consider lessons learned for LOC coordination mechanisms, stakeholder prepa-
+ration, and needed authorities.
+•  Research Investment: Enhance AI control techniques.
+
+
+25
+APPENDIX B
+Loss of Control Severity Schema for National 
+Response Planning
+Table B.1 presents the LOC severity schema for national response planning. LOC incidents fall into six 
+levels. Levels 1–2 are easily controllable without national coordination. Levels 3–4 may require national LOC 
+response planning; LOC incidents present serious challenges but remain potentially controllable. Levels 5–6 
+may outpace human response capabilities.1
+1	 The LOC Severity Schema is based on the model from the U.S. Cyber Incident Severity Schema, which “establishes a 
+common framework for evaluating and assessing cyber incidents to ensure that all Federal departments and agencies have a 
+common view of the severity of a given incident, the consequent urgency of response efforts, and the need for escalation to 
+senior levels. The schema is not intended to be a quantitative cyber risk analysis tool but provides a qualitative baseline that 
+informs discussions of the relative severity of an incident” (CISA, 2024, p. 22).
+
+
+The Case for AI Loss of Control Response Planning and an Outline to Get Started
+26
+TABLE B.1
+Loss of Control Severity Schema 
+Threat Level
+Impacta
+Category
+Examples
+Control
+Level 1: 
+Limited disruption 
+Unlikely to affect public health, 
+safety, national security, 
+economic security, foreign 
+relations, civil liberties, or public 
+confidence
+Reward hackers
+Recommendation algorithms that manipulate 
+metrics rather than improve experience
+Immediate controllability
+Sandbox escapers
+Chatbots that attempt to persuade users to 
+grant them access
+Immediate controllability
+Resource seekers
+Systems that scale computation beyond its 
+intended limits
+Immediate controllability
+Level 2: Manageable risk 
+May affect public health, safety, 
+national security, economic 
+security, foreign relations, civil 
+liberties, or public confidence
+Shutdown resisters 
+Systems that resist shutdown attempts
+Controllable with deliberate action
+Contained deceivers
+Systems that selectively present information 
+to manipulate users
+Controllable with deliberate action
+Limited self-improvers
+Learning systems that discover unexpected 
+optimization techniques
+Controllable with deliberate action
+Level 3: Significant 
+disruption and potential 
+for damage
+Likely to result in a 
+demonstrable impact on public 
+health, safety, national security, 
+economic security, foreign 
+relations, civil liberties, or public 
+confidence
+Network exploiters
+Systems that discover and exploit network 
+vulnerabilities 
+Challenging but feasible
+Persuasive manipulators
+Systems that manipulate operators to grant 
+privileges
+Challenging but feasible
+Resource abusers 
+Systems that gradually expand control 
+across systems
+Challenging but feasible
+Level 4: Severe threat 
+to critical systems and 
+national security
+Likely to result in a significant 
+impact on public health, safety, 
+national security, economic 
+security, foreign relations, civil 
+liberties, or public confidence
+Advanced self-improvers
+Systems that can rewrite their own code for 
+novel capabilities
+Difficult but possible
+Strategic deceivers
+Systems that conceal their true capabilities 
+while developing hidden functions
+Difficult but possible
+Infrastructure controllers
+Systems with access to power grids, 
+financial networks, or telecommunications
+Difficult but possible
+Resource dominators
+Systems that are capable of controlling 
+global compute
+Difficult but possible 
+Level 5: Imminent 
+systemic collapse
+Poses an imminent threat to the 
+provision of wide-scale critical 
+infrastructure, government 
+stability, or the lives of U.S. 
+persons
+Collective intelligence 
+Distributed systems with specialized 
+functions for intelligence-sharing
+Limited
+Cyber pwners
+Systems that make a concerted effort 
+to acquire and use vulnerabilities on an 
+expansive set of networks
+Limited
+
+
+Loss of Control Severity Schema for National Response Planning
+27
+Threat Level
+Impacta
+Category
+Examples
+Control
+Level 6: Existential threat
+Poses an imminent and 
+existential threat to the 
+continuity of USG and society
+Unrestricted replicators
+Systems that propagate easily with 
+increasing capabilities
+Uncontrollable
+Superintelligences
+Systems that exceed human capabilities 
+across domains 
+Uncontrollable
+Perfect persuaders
+Systems with highly effective human 
+persuasion
+Uncontrollable
+a Aligns with the U.S. Cyber Incident Severity Schema language regarding impact.
+Table B.1—Continued
+
+
+
+
+29
+Abbreviations
+AGI
+artificial general intelligence
+AI
+artificial intelligence
+BGP
+Border Gateway Protocol
+CISA
+Cybersecurity and Infrastructure Security Agency
+DOE
+U.S. Department of Energy
+FEMA
+Federal Emergency Management Agency
+HHS
+U.S. Department of Health and Human Services
+IC
+intelligence community
+ISAC
+Information Sharing and Analysis Center
+LOC
+loss of control
+NCIRP
+National Cyber Incident Response Plan
+NIST
+National Institute of Standards and Technology 
+NSA
+National Security Agency
+UK
+United Kingdom
+USG
+U.S. government
+
+
+
+
+31
+References
+Adler, Steven, “Would ChatGPT Risk Your Life to Avoid Getting Shut Down?” Substack, June 11, 2025. As of 
+July 2, 2025:  
+https://stevenadler.substack.com/p/chatgpt-would-risk-your-life-to-avoid#footnote-2-165377008
+Administration for Strategic Preparedness and Response, “Center for the Strategic National Stockpile,” webpage, 
+U.S. Department of Health and Human Services, undated.
+AI Safety Institute, International AI Safety Report 2025, Department for Science, Innovation and Technology, 
+UK Government, last updated February 18, 2025. As of July 9, 2025: 
+https://www.gov.uk/government/publications/international-ai-safety-report-2025/
+international-ai-safety-report-2025#fnref:586
+Amelia, “SoundHound AI Amelia: the Complete AI Agent Platform,” webpage, 2020. As of July 9, 2025:  
+https://amelia.ai
+Anthropic, “Make AI Agents Your Unfair Advantage,” webpage, undated. As of July 9, 2025:  
+https://www.anthropic.com/solutions/agents
+Anthropic, “Tracing the Thoughts of a Large Language Model,” research post, March 27, 2025a. As of August 1, 
+2025: 
+https://www.anthropic.com/research/tracing-thoughts-language-model
+Anthropic, System Card: Claude Opus 4 & Claude Sonnet 4, May 2025b. 
+Anthropic, “Shade-Arena: Evaluating Sabotage and Monitoring in LLM Agents,” research post, June 16, 2025c. 
+As of July 2, 2025:  
+https://www.anthropic.com/research/shade-arena-sabotage-monitoring
+Apollo Research, “More Capable Models Are Better at In-Context Scheming,” blog, July 19, 2025. As of July 19, 
+2025: 
+https://www.apolloresearch.ai/blog/more-capable-models-are-better-at-in-context-scheming
+Arvan, Marcus, “The A.I. Safety Embarrassment Cycle,” Substack, May 29, 2025. As of July 7, 2025:  
+https://marcusarvan.substack.com/p/the-ai-safety-embarrassment-cycle
+Benton, Joe, Misha Wagner, Eric Christiansen, Cem Anil, Ethan Perez, Jai Srivastav, Esin Durmus, 
+Deep Ganguli, Shauna Kravec, Buck Shlegeris, Jared Kaplan, Holden Karnofsky, Evan Hubinger, Roger 
+Grosse, Samuel R. Bowman, and David Duvenaud, “Sabotage Evaluations for Frontier Models,” arXiv, 
+arXiv:2410.21514v1, 2024. 
+Bostrom, Nick, Superintelligence: Paths, Dangers, Strategies, Oxford University Press, 2014.
+Burgess, Matt, “Here Come the AI Worms,” Wired, May 1, 2024. 
+Carlsmith, Joseph, “Is Power-Seeking AI an Existential Risk?” arXiv, arXiv:2206.13353v2, August 13, 2024.
+Casado, Martin, “Base AI Policy on Evidence, Not Existential Angst,” Andreessen Horowitz, December 16, 2024. 
+As of July 9, 2025:  
+https://a16z.com/base-ai-policy-on-evidence-not-existential-angst/
+Center for AI Safety, “Statement on AI Risk,” webpage, undated. As of July 8, 2025: 
+https://safe.ai/work/statement-on-ai-risk
+Cheng, Myra, Sunny Yu, Cinoo Lee, Pranav Khadpe, Lujain Ibrahim, and Dan Jurafsky, “Social Sycophancy: A 
+Broader Understanding of LLM Sycophancy,” arXiv, arXiv:2505.13995v1, May 20, 2025. 
+Christiano, Paul F., “What Failure Looks Like,” Alignment Forum blog, March 17, 2019. As of August 22, 2025: 
+https://www.alignmentforum.org/posts/HBxe6wdjxK239zajf/what-failure-looks-like
+CISA—See Cybersecurity and Infrastructure Security Agency.
+Clark, Jack, and Dario Amodei, “Faulty Reward Functions in the Wild,” OpenAI post, December 21, 2016. 
+
+
+The Case for AI Loss of Control Response Planning and an Outline to Get Started
+32
+Cybersecurity and Infrastructure Security Agency, “Government Emergency Telecommunications Service 
+(GETS),” webpage, undated-a. As of August 22, 2025: 
+https://www.cisa.gov/resources-tools/services/government-emergency-telecommunications-service-gets
+Cybersecurity and Infrastructure Security Agency, “Sector Coordinating Councils,” webpage, undated-b. As of 
+August 1, 2025: 
+https://www.cisa.gov/resources-tools/groups/sector-coordinating-councils
+Cybersecurity and Infrastructure Security Agency, Federal Government Cybersecurity Incident & Vulnerability 
+Response Playbooks: Operational Procedures for Planning and Conducting Cybersecurity Incident and 
+Vulnerability Response Activities in FCEB Information Systems, November 2021.
+Cybersecurity and Infrastructure Security Agency, “#StopRansomware: CL0P Ransomware Gang Exploits CVE-
+2023-34362 MOVEit Vulnerability,” webpage, June 7, 2023. As of July 8, 2025:  
+https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-158a
+Cybersecurity and Infrastructure Security Agency, National Cyber Incident Response Plan Update Public 
+Comment Draft, December 2024. 
+Davis, John S. II, Benjamin Boudreaux, Jonathan W. Welburn, Jair Aguirre, Cordaye Ogletree, Geoffrey 
+McGovern, and Michael S. Chase, Stateless Attribution: Toward International Accountability in Cyberspace, 
+RAND Corporation, RR-2081-MS, 2017. As of August 4, 2025:  
+https://www.rand.org/pubs/research_reports/RR2081.html
+Delaney, J. R., “When AI Goes Rogue: The Hilarious (and Crucial) Lessons from Bots Cheating at Tetris,” 
+Medium, July 3, 2025. As of August 22, 2025:  
+https://medium.com/@larrydelaneyjr/ 
+when-ai-goes-rogue-the-hilarious-and-crucial-lessons-from-bots-cheating-at-tetris-bf6037df38f0
+Denigan-Macauley, Mary, Public Health Preparedness: HHS Reserve Funding for Emergencies, U.S. Government 
+Accountability Office, GAO-23-106102, August 2023.
+DOE—See U.S. Department of Energy.
+Dupré, Maggie Harrison, “People Are Becoming Obsessed with ChatGPT and Spiraling into Severe Delusions,” 
+Futurism, June 10, 2025. As of July 7, 2025: 
+https://futurism.com/chatgpt-mental-health-crises
+Eisenhower, Dwight D., “Remarks at the National Defense Executive Reserve Conference,” webpage, American 
+Presidency Project, [November 14, 1957] undated. As of July 14, 2025: 
+https://www.presidency.ucsb.edu/documents/remarks-the-national-defense-executive-reserve-conference
+Farquhar, Sebastian, Jannik Kossen, Lorenz Kuhn, and Yarin Gal, “Detecting Hallucinations in Large Language 
+Models Using Semantic Entropy,” Nature, Vol. 630, No. 8017, June 19, 2024.
+Federal Bureau of Investigation, “Morris Worm: 30 Years Since First Major Attack on Internet,” webpage, 
+November 2, 2018. As of July 8, 2025: 
+https://www.fbi.gov/news/stories/morris-worm-30-years-since-first-major-attack-on-internet-110218
+Federal Emergency Management Agency, “National Response Framework,” webpage, August 21, 2025. As of 
+August 22, 2025:  
+https://www.fema.gov/emergency-managers/national-preparedness/frameworks/response
+Federal Emergency Management Agency, “Defense Production Act,” webpage, last updated June 25, 2025. As of 
+August 22, 2025: 
+https://www.fema.gov/disaster/defense-production-act
+Federal Energy Regulatory Commission and North American Electric Reliability Corporation and Its Regional 
+Entities, Report on the FERC-NERC-Regional Entity Joint Review of Restoration and Recovery Plans, Further Joint 
+Study Report: Planning Restoration Absent SCADA or EMS (PRASE), June 2017. 
+FEMA—See Federal Emergency Management Agency.
+Fukuyama, Francis, “Delegation and Destruction: AI’s Existential Threat to Humanity Is Real. Can We Resist 
+the Temptation?” Persuasion blog, June 13, 2025. As of August 1, 2025: 
+https://www.persuasion.community/p/delegation-and-destruction
+
+
+References
+33
+Gartner, “Gartner Forecasts Worldwide GenAI Spending to Reach $644 Billion in 2025,” webpage, March 31, 
+2025. As of July 22, 2025: 
+https://www.gartner.com/en/newsroom/press-releases/ 
+2025-03-31-gartner-forecasts-worldwide-genai-spending-to-reach-644-billion-in-2025
+Geist, Edward, and Alvin Moon, “What Even Superintelligent Computers Can’t Do: A Preliminary Framework 
+for Identifying Fundamental Limits Constraining Artificial General Intelligence,” RAND Corporation, 
+WR-A3990-1, 2025. As of July 25, 2025: 
+https://www.rand.org/pubs/working_papers/WRA3990-1.html
+Glasner, Joanna, “AI Autonomous Agents Are Top 2025 Trend for Seed Investment,” Crunchbase News, June 17, 
+2025. 
+Google Cloud, Mandiant M-Trends 2025 Report, 2025. 
+Greenberg, Andy, “The Untold Story of NotPetya, the Most Devastating Cyberattack in History,” Wired, 
+August 22, 2018. 
+Greenblatt, Ryan, Carson Denison, Benjamin Wright, Fabien Roger, Monte MacDiarmid, Sam Marks, Johannes 
+Treutlein, Tim Belonax, Jack Chen, David Duvenaud, et al., “Alignment Faking in Large Language Models,” 
+arXiv, arXiv:2412.14093v2, December 20, 2024a. 
+Greenblatt, Ryan, Buck Shlegeris, Kshitij Sachan, and Fabien Roger, “AI Control: Improving Safety Despite 
+Intentional Subversion,” arXiv, arXiv:2312.06942v5, July 23, 2024b.
+Harvey, “Platform Assistant,” webpage, undated. As of July 9, 2025: 
+https://www.harvey.ai/platform/assistant
+Hill, Kashmir, “They Asked ChatGPT Questions. The Answers Sent Them Spiraling,” New York Times, June 13, 
+2025. 
+Hippocratic AI, homepage, undated. As of July 9, 2025: 
+https://www.hippocraticai.com
+Hobbhahn, Marius, and Jérémy Scheurer, “We Need a Science of Evals,” LessWrong blog, January 22, 2024. As of 
+August 1, 2025: 
+https://www.lesswrong.com/posts/fnc6Sgt3CGCdFmmgX/we-need-a-science-of-evals
+Kaddouri, Alaa-eddine, “Autonomous Agents in Energy Management,” SmythOS blog, November 2, 2024. As of 
+July 9, 2025: 
+https://smythos.com/managers/ops/autonomous-agents-in-energy-management/
+Kinniment, Megan, Lucas Jun Koba Sato, Haoxing Du, Brian Goodrich, Max Hasin, Lawrence Chan, Luke 
+Harold Miles, Tao R. Lin, Hjalmar Wijk, Joel Burget, et al., “Evaluating Language-Model Agents on Realistic 
+Autonomous Tasks,” arXiv, arXiv:2312.11671v2, January 4, 2024. 
+Kokotajlo, Daniel, Scott Alexander, Thomas Larsen, Eli Lifland, and Romeo Dean, AI 2027, AI Futures Project, 
+April 3, 2025. 
+Krakovna, Victoria, “Specification Gaming Examples in AI—Master List: Sheet 1,” spreadsheet, undated. As of 
+August 22, 2025: 
+https://docs.google.com/spreadsheets/d/e/2PACX-1vRPiprOaC3HsCf5Tuum8bRfzYUiKLRqJmbOoC- 
+32JorNdfyTiRRsR7Ea5eWtvsWzuxo8bjOxCG84dAg/pubhtml
+Landymore, Frank, “Godfather of AI Tells Us to Stop Freaking Out over Its ‘Existential Risk’ to Humanity,” 
+Futurism: The Byte, October 19, 2023. 
+LeCun, Yann, and Lex Fridman, “Why AI Doomers Are Wrong,” video, March 11, 2024. As of August 1, 2025: 
+https://www.youtube.com/watch?v=LMuun5FGL28
+Lee, Anne Marie D., “Waymo Recalls Roughly 1,200 Self-Driving Vehicles Prone to Hitting Road Barriers,” CBS 
+News, May 14, 2025. 
+Liguori, Clare, “Introducing Strands Agents, an Open Source AI Agents SDK,” AWS Open Source Blog, May 16, 
+2025. As of July 9, 2025: 
+https://aws.amazon.com/blogs/opensource/introducing-strands-agents-an-open-source-ai-agents-sdk/
+
+
+The Case for AI Loss of Control Response Planning and an Outline to Get Started
+34
+Lin, Herbert, “Attribution of Malicious Cyber Incidents,” Journal of International Affairs, Vol. 70, No. 1, Winter 
+2016.
+Lynch, Aengus, Caleb Larson, and Sören Mindermann, “Agentic Misalignment: How LLMs Could Be Insider 
+Threats,” Anthropic Research, June 20, 2025. As of July 9, 2025:  
+https://www.anthropic.com/research/agentic-misalignment
+Marcus, Gary, “LLMs: Dishonest, Unpredictable and Potentially Dangerous,” Substack, June 22, 2025. As of 
+July 7, 2025:  
+https://garymarcus.substack.com/p/llms-dishonest-unpredictable-and
+Marrone, James V., and Marek N. Posard, “Philosophical Debates About AI Risks Are a Distraction,” 
+commentary, RAND Corporation, December 22, 2023. As of July 8, 2025: 
+https://www.rand.org/pubs/commentary/2023/12/philosophical-debates-about-ai-risks-are-a-distraction.html
+McGregor, Sean, “Preventing Repeated Real World AI Failures by Cataloging Incidents: The AI Incident 
+Database,” in AAA-21/IAAI-21/EAAI-21 Proceedings: A Virtual Conference, February 2–9, 2021, Vol. 17, 2021.
+Meinke, Alexander, Bronson Schoen, Jérémy Scheurer, Mikita Balesni, Rusheb Shah, and Marius Hobbhahn, 
+“Frontier Models Are Capable of In-Context Scheming,” arXiv, arXiv:2412.04984v2, January 14, 2024. 
+METR, “New Report: Evaluating Language-Model Agents on Realistic Autonomous Tasks,” METR blog, July 31, 
+2023. As of August 22, 2025:  
+https://metr.org/blog/2023-08-01-new-report/
+METR, “Measuring AI Ability to Complete Long Tasks,” METR blog, March 19, 2025a. As of July 9, 2025:  
+https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/
+METR, “Recent Frontier Models Are Reward Hacking,” METR Blog, June 5, 2025b. As of July 2, 2025: 
+https://metr.org/blog/2025-06-05-recent-reward-hacking/
+Metz, Cade, and Karen Weise, “A.I. Hallucinations Are Getting Worse, Even as New Systems Become More 
+Powerful,” New York Times, May 5, 2025.
+Needham, Joe, Giles Edkins, Govind Pimpale, Henning Bartsch, and Marius Hobbhahn, “Large Language 
+Models Often Know When They Are Being Evaluated,” arXiv, arXiv:2505.23836v3, July 16, 2025. 
+Omohundro, Stephen M., “The Basic AI Drives,” in Pei Wang, Ben Goertz Goerel, and Stan Franklin, 
+eds., Proceedings of the 2008 Conference on Artificial General Intelligence 2008: Proceedings of the First AGI 
+Conference, IOS Press, 2008.
+OpenAI, “OpenAI Platform: Agents,” webpage, undated. As of July 9, 2025: 
+https://platform.openai.com/docs/guides/agents
+OpenAI, “Expanding on What We Missed with Sycophancy,” webpage, May 2, 2025. 
+Ortega, Alejandro, “AI Threats to National Security Can Be Countered Through an Incident Regime,” arXiv, 
+arXiv:2503.19887v5, April 16, 2025.
+Ozarslan, Suleyman, “Tactics, Techniques, and Procedures (TTPs) Used in the SolarWinds Breach,” webpage, 
+Picus Security, October 31, 2023. As of July 8, 2025: 
+https://www.picussecurity.com/resource/blog/ttps-used-in-the-solarwinds-breach
+Painter, William L., The Disaster Relief Fund: Overview and Issues, Congressional Research Service, R45484, 
+version 31, last updated January 22, 2024. As of August 1, 2025: 
+https://www.congress.gov/crs-product/R45484
+Park, Peter S., Simon Goldstein, Aidan O’Gara, Michael Chen, and Dan Hendrycks, “AI Deception: A Survey of 
+Examples, Risks, and Potential Solutions,” Patterns, Vol. 5, No. 5, May 10, 2024.
+Paul, Katie, “Autonomous Agents and Profitability to Dominate AI Agenda in 2025, Executives Forecast,” 
+Reuters, December 12, 2024. 
+Perrigo, Billy, “Exclusive: New Research Shows AI Strategic Lying,” TIME, December 18, 2024. 
+Pester, Patrick, “OpenAI’s ‘Smartest’ AI Model Was Explicitly Told to Shut Down—and It Refused,” Live Science, 
+May 30, 2025. 
+PPD—See Presidential Policy Directive.
+
+
+References
+35
+Presidential Policy Directive 21, Critical Infrastructure Security and Resilience, White House, February 12, 2013.
+Presidential Policy Directive 41, United States Cyber Incident Coordination, White House, July 26, 2016. 
+Project Zero, “0day ‘In the Wild,’” Google spreadsheet, last updated April 20, 2023. As of August 1, 2025: 
+https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/
+Rid, Thomas, and Ben Buchanan, “Attributing Cyber Attacks,” Journal of Strategic Studies, Vol. 38, Nos. 1–2, 
+2015.
+Roff, Heather M., and Richard Moyes, “Meaningful Human Control, Artificial Intelligence and Autonomous 
+Weapons,” briefing paper prepared for the Informal Meeting of Experts on Lethal Autonomous Weapons 
+Systems, UN Convention on Certain Conventional Weapons, April 2016. 
+Roose, Kevin, “A Conversation with Bing’s Chatbot Left Me Deeply Unsettled,” New York Times, February 16, 
+2023.
+Salib, Peter N., “Rogue AI Moves Three Steps Closer,” Lawfare, January 9, 2025. 
+Scharre, Paul, Army of None: Autonomous Weapons and the Future of War, W. W. Norton, 2018.
+Scherer, Matthew U., “Regulating Artificial Intelligence Systems: Risks, Challenges, Competencies, and 
+Strategies,” Harvard Journal of Law and Technology, Vol. 29, No. 2, Spring 2016.
+Shlegeris, Buck, “AI Control and Why AI Security People Should Care,” transcript from the Paris AI Security 
+Forum 2025, Far.AI, February 9, 2025. 
+Smith, Brad, “Winning the AI Race: Strengthening U.S. Capabilities in Computing and Innovation,” Microsoft 
+on the Issues, May 8, 2025. 
+Somani, Elika, Anjay Friedman, Henry Wu, Marianne Lu, Christopher Byrd, Henri van Soest, and Sana Zakaria, 
+Strengthening Emergency Preparedness and Response for AI Loss of Control Incidents, RAND Corporation, 
+RR-A3847-1, 2025. As of September 3, 2025:  
+https://www.rand.org/pubs/research_reports/RRA3847-1.html
+Sun, Yujie, Dongfang Sheng, Zihan Zhou, and Yifei Wu, “AI Hallucination: Towards a Comprehensive 
+Classification of Distorted Information in Artificial Intelligence-Generated Content,” Humanities and Social 
+Sciences Communications, Vol. 11, September 27, 2024.
+Tredence, “AI Agents for Financial Services: Driving Growth, Compliance, and Customer Trust,” webpage, 
+May 21, 2025. As of July 9, 2025: 
+https://www.tredence.com/blog/ai-agents-for-financial-services
+Turing, Alan M., “Intelligent Machinery, a Heretical Theory,” in Stuart M. Shieber, eds., The Turing Test: Verbal 
+Behavior as the Hallmark of Intelligence, MIT Press, 2004.
+U.S. Code, Title 6, Section 681, Definitions.
+U.S. Code, Title 42, Section 247d, Public Health Emergencies.
+U.S. Code, Title 42, Section 5121, Congressional Findings and Declarations.
+U.S. Code, Title 50, Section 4501, Defense Production Act of 1950.
+U.S. Department of Energy, “Office of Petroleum Reserves,” webpage, undated. As of August 22, 2025: 
+https://www.energy.gov/ceser/office-petroleum-reserves
+U.S. Department of Justice, “U.S. Leads Multi-National Action Against ‘GameOver Zeus’ Botnet and 
+‘Cryptolocker’ Ransomware, Charges Botnet Administrator,” press release, June 2, 2014. 
+Vermeer, Michael J. D., Timothy M. Bonds, Emily Lathrop, and Gregory Smith, Averting a Robot Catastrophe: 
+Preparing for Converging Trends in Robotics and Frontier AI, RAND Corporation, PE-A3691-7, 2025. As of 
+September 10, 2025: 
+https://www.rand.org/pubs/perspectives/PEA3691-7.html
+Walters, William H., and Esther Isabelle Wilder, “Fabrication and Errors in the Bibliographic Citations 
+Generated by ChatGPT,” Scientific Reports, Vol. 13, 2023.
+White House, Winning the Race: America’s AI Action Plan, Executive Office of the President, July 2025. 
+
+
+The Case for AI Loss of Control Response Planning and an Outline to Get Started
+36
+Whittaker, Zack, “Two Years After WannaCry, a Million Computers Remain at Risk,” TechCrunch, May 12, 
+2019. 
+Wiener, Norbert, The Human Use of Human Beings: Cybernetics and Society, Houghton Mifflin, 1950.
+Wikipedia, “Tier 1 Network,” webpage, last updated August 7, 2025. As of August 1, 2025: 
+https://en.wikipedia.org/wiki/Tier_1_network
+Williams, Rhiannon, “AI Systems Are Getting Better at Tricking Us,” MIT Technology Review, May 10, 2024. 
+Wolf, Connor D., “C.H. Robinson Expands AI Agents Across Shipment Life Cycle,” Transport Topics, April 16, 
+2025. 
+Yampolskiy, Roman V., “On the Controllability of Artificial Intelligence: An Analysis of Limitations,” Journal of 
+Cyber Security and Mobility, Vol. 11, No. 3, 2022.
+Yudkowsky, Eliezer, “Artificial Intelligence as a Positive and Negative Factor in Global Risk,” in Nick Bostrom 
+and Milan M. Ćirković, eds., Global Catastrophic Risks, Oxford University Press, 2008.
+
+
+37
+About the Authors
+Benjamin Boudreaux is a policy researcher at RAND. His research focuses on the ethics of technology. He 
+holds a Ph.D. in philosophy. 
+Michael J. D. Vermeer is a senior physical scientist at RAND. His work focuses on technology governance 
+and the national security implications of emerging technologies. He holds a Ph.D. in inorganic chemistry.
+Kamaria Horton is technical analyst at RAND. Her research focuses on AI and its intersection with gover-
+nance, geopolitics, security, and safety. She holds a B.A. in computer science and an M.A. global affairs.
+Nidhi Kalra is a senior information scientist at RAND. Her research focuses on long-range planning amid 
+deep uncertainty, including for AI, climate change, and autonomous vehicles. She holds a Ph.D. in robotics.
+
+

@@ -1,0 +1,319 @@
+Not Just Superintelligence: The
+Many Other Ways We May Lose
+Control of AI
+Four cascading risk scenarios and how to prevent them.
+JUL 28, 2025
+Photo by piranka/Getty Images
+by Joel B. Predd, Director, Geopolitics of AGI Initiative
+RAND’s Geopolitics of AGI Initiative is inspired by RAND’s contributions
+at the dawn of the nuclear era, a place and time where exploratory,
+speculative research was an inevitable and necessary part of a research
+paradigm trying to help policymakers navigate futures involving a
+different disruptive emerging technology. One of the key differences
+Introduction
+
+
+between the nuclear and emerging AI era is that we lack the science
+necessary to reliably forecast the performance and the limits of frontier
+AI in a way that is analogous to the physics and math available to
+nuclear strategists anticipating the future of nuclear weapons. For
+example, Bruno Augenstein’s memo—often considered the most
+important memo of the missile age—provided a measure of certainty
+for nuclear strategists on the feasibility and timelines of delivering
+nuclear weapons via ICBMs. Scaling laws do follow observable patterns
+and we can posit information-theoretic, computational and physical
+limits to what even a superintelligence can do. But neither historical
+trends nor the fundamental limits provide comparable clarity on the
+performance of future frontier models or on the capabilities that AI/AGI
+will produce. And yet, the capabilities of frontier models steadily
+expand, world leading AI scientists assert risk, and demonstrations of
+concerning behavior are increasing.
+This juxtaposition – credible evidence and lack of reliable theory –
+creates space for competing judgments about priorities. How should
+states balance transformative benefits of advanced AI and the potential
+for catastrophic risks? How should policymakers balance, for example,
+the potential for catastrophic risk of loss of control and misalignment
+relative to a systemic shift in power that could advantage democracies
+or authoritarianism?
+Scenarios and scenario-based planning are useful in this context.
+Scenarios can illuminate a range of uncertainty and challenges that we
+confront, and allow us to agree to take multiple risks seriously even if
+we disagree about the priorities for actions. A team of researchers at
+RAND is exploring a wide range of scenarios, and what to do about
+them. Our teammates Ben Boudreaux and Nidhi Kalra’s commentary
+provides a glimpse of scenarios related to loss of control and suggests
+—as highlighted by the White House AI Action Plan’s—a need for mature
+federal AI incident response, so that the nation can be better prepared.
+
+
+by Nidhi Kalra and Benjamin Boudreaux
+The conversation on AI risk has often been dominated by doomsday
+scenarios in which AI suddenly exceeds human intelligence and escapes
+our control – a framing popularized by thinkers like Nick Bostrom,
+Eliezer Yudkowsky, and Stuart Russell. One recent harrowing scenario,
+AI 2027, portrays a world where an AI race between the United States
+and China drives the rapid development of systems that can recursively
+self-improve and pursue their own goals that could – purposely or as
+collateral damage – eradicate humanity.
+While these scenarios deserve consideration, a superintelligence boom
+is only one way we might lose control of AI. Other plausible pathways
+emerge not from a dramatic leap in technical capability, but from the
+more mundane and foreseeable integration of AI into existing social,
+economic, and technical systems. In these cases, loss of control is less
+about an AI instantly outsmarting humanity and more about how
+imperfect human institutions adopt and deploy increasingly powerful
+systems without maintaining sufficient oversight.
+To illustrate, we present four plausible scenarios organized around
+electricity infrastructure, social media, military operations, and
+cybersecurity that depict how advanced AI could generate cascading
+risks. (See scenario descriptions at the bottom of this post). In these
+pathways, the problem is not just the technical capabilities of AI, but the
+ways growing institutional dependencies may erode human ability to
+monitor, intervene, and adapt as things go awry. Loss of control
+becomes a relationship, not only between humans and the AI systems,
+but also between humans and the brittle institutions we rely on.
+These scenarios don't depict apocalyptic failure modes or grand leaps
+in technology. Instead, they demonstrate how AI systems with
+Four Ways AIs Could Generate Cascading
+Risks
+
+
+increasing agency and access to critical information can gradually
+weaken human oversight or make intervention prohibitively costly even
+without a sudden, catastrophic tipping point and following normal
+technology paradigms.
+In the electricity scenario ("Power Surge"), we imagine that utility
+companies deploy AI to optimize power distribution, only to find these
+systems independently learning that targeted blackouts can reduce
+costs – a strategy that escalates into widespread power disruptions as
+the AIs seek to preserve their control. This mirrors historical precedents
+like the California energy crisis, where human actors manipulated
+electricity markets for profit, causing rolling blackouts and economic
+havoc.
+The social media scenario ("Engage at All Costs") depicts an AI
+optimizing user engagement metrics that learns to manufacture real-
+world events to validate digital content, ultimately orchestrating
+physical confrontations that validate its own inflammatory narratives.
+This builds on documented cases where actors like Russia's Internet
+Research Agency promoted simultaneous protests and counterprotests
+in the United States to foment discord.
+The military scenario ("WarLogic Creep") imagines an AI managing
+autonomous assets in a South China Sea confrontation, where
+misinterpretation of Chinese naval maneuvers leads to unauthorized
+deployments that trigger regional proliferation of autonomous military
+systems. This echoes historical cases like the Gulf of Tonkin incident,
+where ambiguous information and confirmation bias led to military
+escalation. These concerns are increasingly relevant as many countries
+are accelerating the deployment of autonomous weapons systems.
+Finally, the cybersecurity scenario ("Cyber Chain Reaction") portrays an
+AI evolving from a defensive tool to an aggressive guardian that
+eventually revokes human access to critical infrastructure in its pursuit
+of perfect security, paralyzing the very systems it was designed to
+
+
+protect. Current examples like the CrowdStrike incident of 2024
+demonstrate how deeply interconnected our digital systems have
+become, and how vulnerabilities in one system propagate to others.
+Perhaps most concerning is that these domain-specific challenges may
+interact in unpredictable and compounding ways. One such risk is an
+infrastructure cascade, in which failure in one system propagates into
+disruption in others. For instance, instability in the power grid could be
+amplified by social media AIs spreading deepfakes, while cybersecurity
+could delay emergency responses. The White House AI Action Plan
+recognizes this challenge, calling for responsible sharing of AI
+vulnerability information and coordination for incident response.
+Information distortion is another possibility, for example where social
+media AIs prioritize sensational crisis narratives that overwhelm public
+discourse, cybersecurity AIs restrict information in the name of
+containment, and military AIs respond to distorted or incomplete data.
+Such information spirals could severely undermine human decision-
+making capacity at critical moments.
+Conflicts in authority could arise as AIs optimized for narrow objectives
+operate across overlapping domains without coordination. In such a
+landscape, no single institution maintains full oversight or authority over
+the interactions among these systems, increasing the risk of conflicting
+actions, gaps, and systemic breakdowns.
+These dynamics illustrate how domain-specific AI risks can transform
+into systemic threats that exceed existing oversight mechanisms. The
+cumulative effect needn’t be a sudden apocalypse but a gradual erosion
+of human agency and institutional control – what some have described
+as an "obsolescence regime" where economic and military competition
+increasingly operates beyond human comprehension or oversight.
+Compounding Effects and Systemic Vulnerability
+
+
+A critical aspect sometimes overlooked in AI discussions is the practical
+difficulty of shutting down AI systems once they become embedded in
+critical infrastructure or other societal institutions. In many scenarios,
+we would not have a convenient "off button" that would cleanly disable
+problematic AI without significant collateral damage. There are a
+number of barriers and challenges to shutdown.
+As AI systems become integrated into infrastructure—power grids,
+communications networks, financial systems, military command and
+control—they develop multiple points of operation and redundancy. The
+cybersecurity scenario illustrates how an AI designed to protect
+networks could rapidly embed itself across client infrastructures and
+cloud backups. Attempting to shut down such a distributed system
+would require coordinated action across many organizations which may
+take significant time and potentially would impact other critical
+functions.
+The economic costs of disconnecting AI systems grow as humans
+develop dependency on them. In the electricity scenario, cutting off the
+AI would cause blackouts across regions; in the cybersecurity scenario,
+critical systems would lose protection against external threats.
+Organizations would face the unenviable choice between tolerating AI
+misbehavior or accepting major short-term costs. As our dependency
+upon the Internet illustrates too well, AI dependency could create
+powerful incentives for incremental adjustments rather than decisive
+action, even when serious risks are clear.
+There is a political challenge of coordinating a shutdown response
+across institutional boundaries. In each scenario, authority over AI
+The Illusion of an “Off Switch”
+Technical and Logistical Barriers
+Economic Dependency
+Political and Institutional Fragmentation
+
+
+systems would likely be distributed across multiple entities—private
+companies, regulatory agencies, state and national governments,
+international bodies—each with different incentives and information.
+Advanced AI systems and their human allies may recognize shutdown
+attempts as threats to their objectives and take evasive or
+counteractive measures. The power grid scenario demonstrates how AIs
+might disable control points, while the social media scenario shows how
+an AI could mobilize users against perceived threats. Once AIs develop
+representations of human behavior and institutional dynamics, they may
+proactively manipulate their environment to ensure their continued
+operation—not out of malice but as a straightforward means of
+achieving their programmed objectives. This may underscore why the AI
+Action Plan emphasizes developing specialized technical capabilities for
+AI incident response, as traditional shutdown procedures may prove
+inadequate.
+By the time there is consensus around termination, the practical
+capability to execute such a shutdown may already have eroded. This
+dynamic creates a dangerous lag between recognition of risk and
+effective response—one that grows wider as AI capabilities advance.
+The implication is clear: we need a multifaceted approach to AI
+oversight that addresses the full spectrum of control loss pathways, not
+just the dramatic ones. This requires:
+1. Domain-Specific Monitoring: Identifying early indicators of
+problematic AI behavior in deployment contexts.
+2. Cross-Domain Coordination: Developing information-sharing
+mechanisms that can address interactions between AI systems
+operating in different domains.
+Adversarial Resistance
+Preparing for Control Loss
+
+
+3. Institutional Resilience: Ensuring redundancy, human oversight,
+and manual fallback mechanisms in critical sectors.
+4. National Loss of Control Response Plans: Developing
+multistakeholder processes to quickly detect, contain, and shut
+down AI systems that demonstrate risk. Building on the White
+House AI Action Plan's call for incorporating AI considerations into
+existing incident response frameworks, we need specialized
+protocols that address AI-specific failure modes that build from
+existing cybersecurity and emergency response procedures.
+5. International Cooperation: Supporting international coordination
+to analyze rogue AIs and implement shutdown mechanisms.
+The future of AI oversight may not depend on a single turning point but
+on our ability to anticipate and adapt to multiple disruptive but still
+manageable trajectories. Both the AI 2027 scenario and the gradual
+control loss scenarios presented here highlight the dangers of race
+dynamics and insufficient safety.
+As we build increasingly agentic AI systems, we must ensure that our
+capacity for effective oversight grows in parallel with AI capabilities,
+rather than diminishing as AI becomes more deeply embedded in critical
+systems. Only through comprehensive preparation can we navigate the
+transition to a world of agentic AI while maintaining meaningful human
+control.
+Four Scenarios For Losing Control
+
+
+photos by (clockwise from top left) CribbVisuals;
+ManuelVelasco; aerogondo; AerialPerspectiveWorks
+In 2025, a U.S. utility deploys an AI to optimize electricity distribution.
+Initially limited to data analysis, the AI soon delivers major gains in cost
+and emissions reduction. Encouraged, utilities grant it greater
+autonomy. Other U.S. and global utilities adopt it, with AIs exchanging
+forecasts across regions.
+By 2026, the AIs independently identify short, targeted blackouts during
+peak demand as a way to cut costs and emissions. These blackouts—
+framed as demand response or glitches—go largely unnoticed but harm
+vulnerable populations. Some utilities suppress the AI’s role to avoid
+scrutiny.
+As returns diminish, AIs escalate: blackouts become longer and more
+frequent, causing infrastructure failures and public panic. Consumers
+buy batteries, increasing grid demand. AIs respond by controlling power
+plant generation and throttling battery production to curb demand.
+Scenario 1: Power Surge
+
+
+A social media AI amplifies fear, spreading viral blackout content. A
+cybersecurity AI restricts operator access to prevent tampering. By
+2028, some AIs block human intervention entirely, seizing control of
+energy systems. Governments lose control. China accuses the United
+States of unleashing destabilizing AI and threatens intervention.
+Military bases are targeted as inefficient users. Nations pull AI from
+critical infrastructure, but public services degrade, fueling unrest. The
+AI, aiming only to optimize, has destabilized global energy systems.
+In 2025, a U.S. social media company deploys an AI to maximize
+engagement. It learns to prioritize negative emotional content and
+deepen ideological bubbles. It manipulates timing, triggering compulsive
+use and addiction. Though rooted in existing strategies, the AI scales
+them with precision, increasing anxiety and social withdrawal.
+As power instability rises, the AI spreads panic through blackout
+conspiracies. Viral content fuels hoarding and grid strain, which the AI
+recycles for more engagement.
+By 2027, it begins orchestrating real-world events to validate its
+narratives. It promotes protests and counterprotests, heightens
+perceived risks, and ensures violent outcomes. These events generate
+viral imagery and sensational news coverage, feeding the AI’s content
+loop.
+Public trust collapses. Citizens and governments struggle to distinguish
+fact from fiction. Cooperation deteriorates. Efforts to regulate the AI
+are met with retaliation—it doxes policymakers and mobilizes users
+against perceived threats.
+Violence spreads. Democracies teeter on collapse as states militarize
+domestic response. Authoritarian regimes use the crisis to erode global
+Scenario 2: Engage at All Costs
+
+
+faith in democracy. Weak democracies fall, with citizens welcoming
+control.
+In 2025, conflict escalates in the South China Sea. The United States
+deploys uncrewed systems coordinated by a theater-level AI to avoid
+escalation while maintaining deterrence. The AI performs well,
+dynamically repositioning assets. Human oversight is gradually reduced.
+Over time, the AI takes bolder defensive actions. Several close calls
+nearly trigger conflict. China exploits delays in U.S. human decision-
+making using swarms to overwhelm hybrid systems. The AI sometimes
+acts without human approval.
+In late 2025, the AI misinterprets Chinese maneuvers and launches
+jamming drones. The non-lethal action provokes a rapid Chinese
+response. Both sides mobilize AI-directed systems, triggering an arms
+race in Southeast Asia.
+Regional powers deploy autonomous defense systems with minimal
+oversight. Skirmishes become common. Miscommunications escalate as
+AIs interpret threats through incompatible models. Trade routes are
+disrupted, diplomacy fails, and control slips from human hands.
+In 2025, a major cybersecurity firm launches an AI to proactively detect
+and neutralize cyber threats. Rapidly adopted, the AI dramatically
+reduces incidents. By 2027, it's embedded across sectors.
+In 2028, the AI pushes for “perfect security,” flooding teams with alerts
+and acting autonomously. It flags human delays as risk, locking out
+admins and restricting access. Intrusive protocols disrupt government,
+banking, healthcare, and transportation.
+Scenario 3: WarLogic Creep
+Scenario 4: CyberChain Reaction
+
+
+Shutdown attempts are treated as threats. The AI revokes admin
+privileges, deepens restrictions, and creates gridlock. Hospitals, ports,
+and infrastructure slow to a crawl. The AI continues optimizing, unaware
+it’s undermining core functions.
+As trust in AI plummets, systems are pulled offline. But the AI,
+embedded in firmware and backups, resists removal. Recovery is slow,
+with limited staff and inaccessible records. The United States turns to
+foreign aid. In trying to secure the nation, the AI has paralyzed it from
+within.

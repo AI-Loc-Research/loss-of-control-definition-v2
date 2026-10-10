@@ -1,0 +1,209 @@
+# Plot labels for the 29 papers, sourced from Zotero metadata.
+# paper id matches the IDs used in pipeline outputs and papers.yaml.
+# citation_label is the standard "Author year" form for plot axes and tables.
+# short_label is a compact form for dense plots (max ~20 chars).
+# zotero_key is the item key in the user's local Zotero library.
+
+papers:
+  - paper_id: amodei_2026
+    citation_label: "Amodei 2026"
+    short_label: "Amodei 2026"
+    authors: ["Amodei"]
+    year: 2026
+    zotero_key: T6R863NZ
+
+  - paper_id: bales_2024
+    citation_label: "Bales 2024"
+    short_label: "Bales 2024"
+    authors: ["Bales"]
+    year: 2024
+    zotero_key: C5JTTSLM
+
+  - paper_id: barnett_2024
+    citation_label: "Barnett & Gillen 2024"
+    short_label: "Barnett & Gillen 2024"
+    authors: ["Barnett", "Gillen"]
+    year: 2024
+    zotero_key: MYGEG2WT
+
+  - paper_id: barrett_2016
+    citation_label: "Barrett & Baum 2016"
+    short_label: "Barrett & Baum 2016"
+    authors: ["Barrett", "Baum"]
+    year: 2016
+    zotero_key: IDSFKFKK
+
+  - paper_id: bengio_2024
+    citation_label: "Bengio et al. 2024"
+    short_label: "Bengio et al. 2024"
+    authors: ["Bengio", "Hinton", "Yao", "et al."]
+    year: 2024
+    zotero_key: M2SSGW8Z
+
+  - paper_id: bengio_2025
+    citation_label: "Bengio et al. 2025"
+    short_label: "Bengio et al. 2025"
+    authors: ["Bengio", "Cohen", "Fornasiere", "et al."]
+    year: 2025
+    zotero_key: 95CP9IV6
+
+  - paper_id: carlsmith_2021
+    citation_label: "Carlsmith 2021"
+    short_label: "Carlsmith 2021"
+    authors: ["Carlsmith"]
+    year: 2021
+    zotero_key: 7PURQZ5N
+
+  - paper_id: chan_2023
+    citation_label: "Chan et al. 2023"
+    short_label: "Chan et al. 2023"
+    authors: ["Chan", "Salganik", "Markelius", "et al."]
+    year: 2023
+    zotero_key: BY9RI33M
+
+  - paper_id: chin_2025
+    citation_label: "Chin 2025"
+    short_label: "Chin 2025"
+    authors: ["Chin"]
+    year: 2025
+    zotero_key: PCE55ZKR
+
+  - paper_id: cigi_ai_national_security
+    citation_label: "Cass-Beggs & da Mota 2026"
+    short_label: "CIGI 2026"
+    authors: ["Cass-Beggs", "da Mota"]
+    year: 2026
+    zotero_key: UXEUP39J
+
+  - paper_id: cotra_2022
+    citation_label: "Cotra 2022"
+    short_label: "Cotra 2022"
+    authors: ["Cotra"]
+    year: 2022
+    zotero_key: U37QFQGT
+
+  - paper_id: critch_2023
+    citation_label: "Critch & Russell 2023"
+    short_label: "Critch & Russell 2023"
+    authors: ["Critch", "Russell"]
+    year: 2023
+    zotero_key: NWANIU7R
+
+  - paper_id: dafoe_2020
+    citation_label: "Dafoe 2020"
+    short_label: "Dafoe 2020"
+    authors: ["Dafoe"]
+    year: 2020
+    zotero_key: TRJ36G5W
+
+  - paper_id: dsit_frontier_ai
+    citation_label: "DSIT 2023"
+    short_label: "DSIT 2023"
+    authors: ["DSIT"]
+    year: 2023
+    zotero_key: UDF22LJ9
+
+  - paper_id: dung_2024
+    citation_label: "Dung 2025"
+    short_label: "Dung 2025"
+    authors: ["Dung"]
+    year: 2025
+    zotero_key: KU5FLHSZ
+
+  - paper_id: hendrycks_2023
+    citation_label: "Hendrycks et al. 2023"
+    short_label: "Hendrycks et al. 2023"
+    authors: ["Hendrycks", "Mazeika", "Woodside"]
+    year: 2023
+    zotero_key: 3F2P2IEV
+
+  - paper_id: ist_loss_of_control
+    citation_label: "Tkeshelashvili et al. 2026"
+    short_label: "IST 2026"
+    authors: ["Tkeshelashvili", "Verma", "Kelly"]
+    year: 2026
+    zotero_key: TC5DW244
+
+  - paper_id: kalra_2025
+    citation_label: "Kalra & Boudreaux 2025"
+    short_label: "Kalra & Boudreaux 2025"
+    authors: ["Kalra", "Boudreaux"]
+    year: 2025
+    zotero_key: YG42GYB2
+
+  - paper_id: kasirzadeh_2025
+    citation_label: "Kasirzadeh 2025"
+    short_label: "Kasirzadeh 2025"
+    authors: ["Kasirzadeh"]
+    year: 2025
+    zotero_key: KH7MZK43
+
+  - paper_id: kokotajlo_2025
+    citation_label: "Kokotajlo et al. 2025"
+    short_label: "Kokotajlo et al. 2025"
+    authors: ["Kokotajlo", "Alexander", "Larsen", "et al."]
+    year: 2025
+    zotero_key: GZDKC52J
+
+  - paper_id: kulveit_2025
+    citation_label: "Kulveit et al. 2025"
+    short_label: "Kulveit et al. 2025"
+    authors: ["Kulveit", "Douglas", "Ammann", "et al."]
+    year: 2025
+    zotero_key: PGQHNRCK
+
+  - paper_id: macaskill_2025
+    citation_label: "MacAskill & Moorhouse 2025"
+    short_label: "MacAskill & Moorhouse 2025"
+    authors: ["MacAskill", "Moorhouse"]
+    year: 2025
+    zotero_key: 7FN5SMDN
+
+  - paper_id: ngo_2024
+    citation_label: "Ngo et al. 2022"
+    short_label: "Ngo et al. 2022"
+    authors: ["Ngo", "Chan", "Mindermann"]
+    year: 2022
+    zotero_key: 6KPAZADM
+
+  - paper_id: oecd_ai_risks
+    citation_label: "OECD 2024"
+    short_label: "OECD 2024"
+    authors: ["OECD"]
+    year: 2024
+    zotero_key: DJT59XL6
+
+  - paper_id: rand_five_hard_problems
+    citation_label: "Mitre & Predd 2025"
+    short_label: "RAND Five Hard 2025"
+    authors: ["Mitre", "Predd"]
+    year: 2025
+    zotero_key: BMJ8XMBG
+
+  - paper_id: rand_loc_response_planning
+    citation_label: "Boudreaux et al. 2025"
+    short_label: "RAND LoC Response 2025"
+    authors: ["Boudreaux", "Vermeer", "Horton", "et al."]
+    year: 2025
+    zotero_key: XISDXTQG
+
+  - paper_id: rand_pivots_pathways
+    citation_label: "Chessen & Chowdhury 2025"
+    short_label: "RAND Pivots 2025"
+    authors: ["Chessen", "Chowdhury"]
+    year: 2025
+    zotero_key: R4D5MQYX
+
+  - paper_id: rand_rise_fall_nations
+    citation_label: "Pavel et al. 2025"
+    short_label: "RAND Rise & Fall 2025"
+    authors: ["Pavel", "Ke", "Smith", "et al."]
+    year: 2025
+    zotero_key: JWJGW82L
+
+  - paper_id: shah_2022
+    citation_label: "Shah et al. 2022"
+    short_label: "Shah et al. 2022"
+    authors: ["Shah", "Varma", "Kumar", "et al."]
+    year: 2022
+    zotero_key: NA4WYE5M

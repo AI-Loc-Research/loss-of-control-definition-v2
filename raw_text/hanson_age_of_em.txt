@@ -1,0 +1,1671 @@
+
+
+THE AGE OF EM
+
+
+
+
+THE AGE OF 
+EM
+WORK, LOVE, AND LIFE WHEN 
+ROBOTS RULE THE EARTH
+ROBIN HANSON
+1
+
+
+1
+Clarendon Street, Oxford, OX2 6DP,
+United Kingdom
+Oxford University Press is a department of the University of Oxford.  
+It furthers the University’s objective of excellence in research, scholarship,  
+and education by publishing worldwide. Oxford is a registered trade mark of  
+Oxford University Press in the UK and in certain other countries
+© Robin Hanson 2018
+The moral rights of the author have been asserted
+First Edition published in 2016
+This paperback edition first published 2018
+Impression: 1
+All rights reserved. No part of this publication may be reproduced, stored in  
+a retrieval system, or transmitted, in any form or by any means, without the  
+prior permission in writing of Oxford University Press, or as expressly permitted  
+by law, by licence or under terms agreed with the appropriate reprographics  
+rights organization. Enquiries concerning reproduction outside the scope of the  
+above should be sent to the Rights Department, Oxford University Press, at the  
+address above
+You must not circulate this work in any other form  
+and you must impose this same condition on any acquirer
+Published in the United States of America by Oxford University Press
+198 Madison Avenue, New York, NY 10016, United States of America
+British Library Cataloguing in Publication Data
+Data available
+Library of Congress Control Number: 2015956654
+ISBN 978–0–19–881782–6
+Printed in Great Britain by
+Clays Ltd, St Ives plc
+Links to third party websites are provided by Oxford in good faith and  
+for information only. Oxford disclaims any responsibility for the materials  
+contained in any third party website referenced in this work.
+
+
+v
+This book has been many years in the making.
+One night in the 1980s, as an awkward 20-something software 
+engineer, I had a vivid dream. I had just read a Science News article on 
+computing image textures, and the accompanying images had looked 
+so real. In my dream, I saw a vast future city, where everyone lived in 
+virtual reality, and I saw one man alone in a small apartment buried 
+deep in the city. Not much happened in my dream, but even so I felt 
+a deep sympathy for this man, and curiosity about his world.
+In 1993, I returned to graduate school, this time in economics. (I’d 
+studied physics and philosophy of science before.) During my first 
+Christmas break, I rebelled against school pressures by whimsically 
+applying basic economic principles to a common science-fiction 
+­scenario: human minds “uploaded” into computers (Hanson 1994b).
+The techies who dominate science fiction and technology futur-
+ism often say that careful analysis can sometimes let us foresee the 
+outlines of future technologies, but not their social consequences. 
+However, I found that simple economic analysis says plenty. I once 
+loved science fiction, but the more I’ve learned, the less I can over-
+look how little of it makes sense; even stories where the physics is 
+mostly right get the economics laughably wrong.
+About fifteen years ago, at the opening reception of a small inter-
+disciplinary conference, I broke the ice by asking an English profes-
+sor, “Why do you guys hate economists?” He answered simply, “You 
+know.” That sort of thing breaks my heart. I read widely, learn from, 
+and contribute to many fields, and see myself more as a scholar in 
+general than an economist in particular.
+Eleven years ago I was awarded tenure as an economics professor 
+at George Mason University. I took advantage of tenure’s freedom to 
+preface to hardback
+
+
+preface to hardback
+vi
+explore whatever topics piqued my interest each week. But I eventu-
+ally realized that, to have a lasting legacy, I needed to focus on a 
+book. But what topic could draw me in enough to keep all the other 
+fascinating topics at bay? I picked this one.
+If the future matters more than the past, because we can influence 
+it, why do we have far more historians than futurists? Many say that 
+this is because we just can’t know the future. While we can project 
+social trends, disruptive technologies will change those trends, and no 
+one can say where that will take us. In this book, I’ve tried to prove 
+that conventional wisdom wrong, by analyzing in unprecedented 
+breadth and detail the social implications of minds “uploaded” into 
+computers, a.k.a. “brain emulations,” or “ems” for short. While ems 
+are hardly sure to appear, their chances seem high enough to justify 
+substantial analysis.
+My priority in this book has been to show just how many reason-
+able forecasts one can make about such a scenario, if one just applies 
+standard consensus theories from relevant fields. Alas, achieving 
+this priority comes somewhat at the cost of accessibility and read-
+ability; this book is dense, and reads more like an encyclopedia than 
+a narrative.
+I feel now like a traveler who has spied on a distant land from the 
+safety of nearby hills, never actually meeting any specific person, or 
+hearing specific words. I’ve returned home, with much to say, but 
+mostly hungry for human communion. I’ve never felt as intellectually 
+isolated or at risk as when writing this book, and I hope my desert 
+days end now, as readers like you join me in discussing The Age of Em.
+
+
+vii
+I picked this book topic so it could draw me in, and I would finish. 
+And that worked: I developed an obsession that lasted for years. But 
+once I delivered the “final” version to my publisher on its assigned 
+date, I found that my obsession continued. So I collected a long file 
+of notes on possible additions. And when the time came that a 
+paperback edition was possible, I grabbed my chance. As with the 
+hardback edition, I had many ideas for changes that might make my 
+dense semi-encyclopedia easier for readers to enjoy. But my core 
+obsession again won out: to show that detailed analysis of future 
+scenarios is possible, by showing just how many reasonable conclu-
+sions one can draw about this scenario.
+Also, as this book did better than I had a right to expect, I wondered: 
+will this be my best book ever? If so, why not make it the best it can 
+be? The result is the book you now hold. It has over 42 percent more 
+citations, and 18 percent more words, but it is only a bit easier to read. 
+And now I must wonder: can my obsession stop now, pretty please?
+Many are disappointed that I do not more directly declare if I love 
+or hate the em world. But I fear that such a declaration gives an 
+excuse to dismiss all this; critics could say I bias my analysis in order 
+to get my desired value conclusions. I’ve given over 100 talks on this 
+book, and never once has my audience failed to engage value issues. 
+I remain confident that such issues will not be neglected, even if I 
+remain quiet.
+preface to paperback
+
+
+
+
+ix
+acknowledgements
+For their comments, I thank Paul Christiano, Peter Twieg, Katja 
+Grace, Carl Shulman, Tyler Cowen, Fabio Rojas, Bonnie Hanson, 
+Luke Muehlhauser, Nikola Danaylov, Bryan Caplan, Michael 
+Abramowicz, Gaverick Matheny, Paul Crowley, Peter McCluskey, 
+Sam Wilson, Chris Hibbert, Thomas Hanson, Daniel Houser, Kaj 
+Sotala, Rong Rong, David Friedman, Michael LaTorra, Ben 
+Goertzel, Steve Omohundro, David Levy, Jim Miller, Mike Halsall, 
+Peggy Jackson, Jan-Erik Strasser, Robert Lecnik, Andrew Hanson, 
+Shannon Friedman, Karl Mattingly, Ken Kittlitz, Teresa Hartnett, 
+Giulio Prisco, David Pearce, Stephen Van Sickle, David Brin, Chris 
+Yung, Adam Gurri, Matthew Graves, Dave Lindbergh, Scott 
+Aaronson, Gary Drescher, Robert Koslover, Don Hanson, Michael 
+Raimondi, William MacAskill, Eli Dourado, David McFadzean, 
+Bruce Brewington, Marc Ringuette, ­Daniel Miessler, Keith Henson, 
+Garett Jones, Alex Tabarrok, Lee Corbin, Norman Hardy, Charles 
+Zheng, Stuart Armstrong, Vernor Vinge, Ted Goertzel, Mark 
+Lillibridge, Michael Chwe, Olle Häggström, Jaan Tallinn, Joshua 
+Fox, Chris Hallquist, Joshua Fox, Kevin Simler, Eric Falkenstein, 
+Lotta Moberg, Ute Shaw, Matt Franklin, Nick Beckstead, Robyn 
+Weaving, François Rideau, Eloise Rosen, Peter Voss, Scott Sumner, 
+Phil Goetz, Robert Rush, Donald Prell, Olivia Gonzalez, Bradley 
+Andrews, Keith Adams, Agustin Lebron, Karl Wiberg, Thomas 
+Malone, Will Gordon, Philip Maymin, Henrik Jonsson, Mark 
+Bahner, Adam Lapidus, Tom McKendree, Evelyn Mitchell, Jacek 
+Stopa, Scott Leibrand, Paul Ralley, Anders Sandberg, Eli Lehrer, 
+Michael Klein, Lumifer, Joy Buchanan, Miles Brundage, Harry 
+Beck, Michael Price, Tim Freeman, Vladimir M., David Wolf, 
+Randall Pickett, Zack Davis, Tom Bell, Harry Hawk, Adam Kolber, 
+
+
+acknowledgements
+x
+Dean Menk, Randall Mayes, Karen Maloney, Brian Tomasik, Ramez 
+Naam, John Clark, Robert de Neufville, Richard Bruns, Keith 
+Mansfield, Gordon Worley, Giedrius, Peter Garretson, Christopher 
+Burger, Nithya Sambasivam, Zachary Weinersmith, Luke Somers, 
+Barbara Belle, Jake Selinger, Geoffrey Miller, Arthur Breitman, 
+Martin Wooster, Daniel Boese, Oge Nnadi, Joseph Mela, Diego 
+Caleiro, Daniel Lemire, Emily Perry, Jess Riedel, Jon Perry, Eli Tyre, 
+Daniel Erasmus, Emmanuel Saadia, Erik Brynjolfsson, Anamaria 
+Berea, Niko Zinovii, Matthew Farrell, Diana Fleischman, Douglas 
+Barrett, Randall Parker, Byrne Hobart, Eli Lehrer, Jay McCarthy, 
+Rasmus Eide, Keith Lynch, and Keller Scholl.
+I received no financial assistance with the hardback edition of this 
+book and its related research, other than the freedom that academic 
+tenure has provided me. I deeply thank my GMU colleagues for 
+granting me that unusual privilege. While revising for the paperback 
+edition I enjoyed a grant from the Open Philanthropy Foundation.
+
+
+xi
+Introduction
+1
+I.  Basics
+1.	 Start	
+5
+Overview; Summary	
+2.	Modes	
+14
+Precedents; Prior Eras; Our Era; Era Values; Dreamtime; Limits	
+3.	 Framing	
+35
+Motivation; Forecasting; Scenarios; Consensus; Scope; Biases	
+4.	Assumptions	
+50
+Brains; Emulations; Anthropomorphize; Complexity;  
+Artificial Intelligence	
+5.	 Implementation	
+64
+Mindreading; Hardware; Security; Parallelism	
+II.  Physics
+6.	Scales	
+79
+Speeds; Bodies; Lilliput; Meetings; Entropy; Miserly Minds	
+7.	 Infrastructure	
+96
+Climate; Cooling; Air and Water; Buildings; Manufacturing	
+8.	Appearances	
+111
+Virtual Reality; Comfort; Shared Spaces; Merging Real and Virtual	
+9.	Information	
+122
+Views; Records; Fakery; Simulations	
+10.	 Existence	
+133
+Copying; Rights; Many Ems; Surveillance	
+	11.	 Farewells	
+142
+Fragility; Retirement; Ghosts; Ways to End; Defining Death; Suicide	
+contents
+
+
+contents
+xii
+III.  Economics
+	12.	 Labor	
+159
+Supply and Demand; Malthusian Wages; First Ems;  
+Selection; Enough Ems	
+	13.	 Efficiency	
+174
+Clan Concentration; Competition; Productivity; Eliteness;  
+Qualities; Motivation	
+	14.	 Work	
+192
+Work Hours; Spurs; Spur Uses; Social Power	
+	15.	 Business	
+204
+Institutions; New Institutions; Combinatorial Auctions;  
+Prediction Markets	
+	16.	 Growth	
+216
+Faster Growth; Growth Estimate; Growth Myths; Finance	
+	17.	 Lifecycle	
+227
+Careers; Peak Age; Maturity; Preparation; Training; Childhood	
+IV.  Organization
+	18.	 Clumping	
+247
+Cities; City Structure; City Auctions; Choosing Speed; Transport	
+	19.	 Groups	
+261
+Clans; Managing Clans; Firms; Firm‑Clan Relations;  
+Teams; Mass Versus Niche Teams	
+	20.	Conflict	
+278
+Inequality; Em Inequality; Redistribution; War; Slavery;  
+Nepotism; Fake Experts	
+	21.	 Politics	
+297
+Status; Governance; Clan Governance; Democracy;  
+Coalitions; Factions 	
+	22.	Rules	
+315
+Law; Efficient Law; Innovation; Software; Lone Developers	
+V.  Sociology
+	23.	 Mating	
+331
+Sexuality; Open-Source Lovers; Pair Bonds; Gender; Gender Imbalance	
+
+
+contents
+xiii
+	24.	 Signals	
+341
+Showing Off; Personal Signals; Group Signals; Charity;  
+Identity; Copy Identity	
+	25.	 Collaboration	
+357
+Ritual; Religion; Language; Swearing; Conversation;  
+On Call Advice; Synchronization	
+	26.	Society	
+374
+Culture; Divisions; Farmer-Like; Travel; Stories; Clan Stories	
+	27.	 Minds	
+390
+Humans; Unhumans; Partial Minds; Psychology;  
+Intelligence; Rogue Machines; Foom; After Ems	
+VI.  Implications
+	28.	 Variations	
+419
+Trends; Alternatives; Transition; Enabling Technologies; Aliens	
+	29.	Choices	
+434
+Evaluation; Quality of Life; Policy; Charity; Success	
+	30.	Finale	
+449
+Critics; Conclusion
+References
+453
+Index
+497
+
+
+
+
+1
+Everyone without exception believes his own native customs, 
+and the religion he was brought up in, to be the best.
+Herodotus 440bc
+The future is not the realization of our hopes and dreams, a 
+warning to mend our ways, an adventure to inspire us, nor a 
+romance to touch our hearts. The future is just another place 
+in space-time. Its residents, like us, find their world mundane 
+and morally ambiguous.
+Hanson 2008a
+You, dear reader, are special. Most humans were born before 1700. 
+And of those born after, you are probably richer and better educated 
+than most. Thus you and most everyone you know is special, elite 
+members of the recent industrial era.
+Like most of your kind, you probably feel superior to your ances-
+tors. Oh, you don’t blame them for learning what they were taught. 
+But you’d shudder to hear of many of your distant farmer ancestors’ 
+habits and attitudes on sanitation, sex, marriage, gender, religion, 
+slavery, war, bosses, inequality, nature, conformity, and family obliga-
+tions. You’d also shudder to hear of many habits and attitudes of your 
+even more ancient forager ancestors. Yes, you admit that lacking your 
+wealth your ancestors couldn’t copy some of your habits. Even so, you 
+tend to think that humanity has learned that your ways are better. 
+That is, you believe in social and moral progress.
+The problem is, the future will probably hold new kinds of people. 
+Your descendants’ habits and attitudes are likely to differ from yours 
+by as much as yours differ from your ancestors. If you understood just 
+how different your ancestors were, you’d realize that you should 
+expect your descendants to seem quite strange. Historical fiction 
+introduction
+
+
+introduction
+2
+misleads you, showing your ancestors as more modern than they 
+were. Science fiction similarly misleads you about your descendants.
+New habits and attitudes result less than you think from moral 
+progress, and more from people adapting to new situations. So many 
+of your descendants’ strange habits and attitudes are likely to violate 
+your concepts of moral progress; what they do may often seem 
+wrong. Also, you likely won’t be able to easily categorize many future 
+ways as either good or evil; they will instead just seem weird. After 
+all, your world hardly fits the morality tales your distant ancestors 
+told; to them you’d just seem weird. Complex realities frustrate sim-
+ple summaries, and don’t fit simple morality tales.
+This book presents a concrete and plausible yet troubling view of 
+a future full of strange behaviors and attitudes. You may have seen 
+concrete troubling future scenarios before in science fiction. But few 
+of those scenarios are in fact plausible; their details usually make lit-
+tle sense to those with expert understanding. They were designed for 
+entertainment, not realism.
+Perhaps you were told that fictional scenarios are the best we can 
+do. If so, I aim to show that you were told wrong. My method is 
+simple. I will start with a particular very disruptive technology often 
+foreseen in futurism and science fiction: brain emulations, in which 
+brains are recorded, copied, and used to make artificial “robot” minds. 
+I will then use standard theories from many physical, human, and 
+social sciences to describe in detail what a world with that future 
+technology could look like.
+I may be wrong about some consequences of brain emulations, 
+and I may misapply some science. Even so, the view I offer will still 
+show just how troublingly strange the future may be.
+So let us begin.
+
+
+PA R T  I
+Basics
+
+
+
+
+5
+Overview
+ou should expect the next great era after ours to be as dif­
+ferent from our era as ours is from past eras. In the last 
+few million years, the three biggest changes on Earth 
+were arguably the arrival of humans, the arrival of civil­
+ization based on farming, and then civilization based on industry 
+(Boserup 1981; Morris 2015). As I’ll discuss soon in Chapter 2, Prior 
+Eras section, each of these three eras greatly changed people, society, 
+and the Earth. People who adopted these new ways of life quickly 
+displaced and dominated those who continued with old ways.
+Compared with primates, wandering human hunter-gatherers 
+greatly expanded technology, art, language, norms, and politics, and 
+displaced many top animal predators. Then farmers and herders 
+wandered less, expanded marriage, war, trade, law, class, and religion, 
+and hunted many animals to extinction. Finally, our industrial era 
+has expanded schools, cities, firms, and individual wealth; it has dis­
+placed even more of nature and almost all foragers, and it has seen a 
+partial return to forager values. Over this whole period, we’ve seen 
+increases in travel, talk, organization, and specialization. We’ve also 
+had faster change, innovation, and economic growth, and a more 
+integrated and unequal world culture.
+We have also, I will argue, become increasingly maladaptive. Our 
+age is a “dreamtime” of behavior that is unprecedentedly maladaptive, 
+C H A P T E R  1
+Start
+
+
+start
+6
+both biologically and culturally. Farming environments changed 
+faster than most genetic selection could adapt, and the industrial 
+world now changes faster than even cultural selection can adapt. 
+Today, our increased wealth buffers us more from our mistakes, and 
+we have only weak defenses against the super-stimuli of modern 
+food, drugs, music, television, video games, and propaganda. The 
+most dramatic demonstration of our maladaptation is the low fertil­
+ity rate in rich nations today.
+While the industrial era has deluded many into thinking that old 
+constraints no longer apply, as we will see in Chapter 2, Limits sec­
+tion, many recent constraint-evading trends simply cannot continue 
+forever. Even if our descendants eventually conquer the stars, if we 
+haven’t greatly misunderstood physics then our long-lived but 
+bounded universe must eventually limit innovation and growth. And 
+without strong regulation from a universe-spanning government, we 
+should eventually see less change, more adaptive behavior, and (per­
+haps surprisingly) near-subsistence living standards.
+Also, vast spatial distances must eventually limit travel and talk, 
+fragmenting the universe into many local cultures. Thus, although 
+our distant descendants should have larger organizations, more spe­
+cialization, and vastly improved technology, in many other ways they 
+should look more like our forager ancestors than like us. That is, we 
+will eventually awake from our dreamtime.
+What will the next great era be like, after the eras of foraging, 
+farming, and industry? And how soon will our descendants “turn the 
+corner” from dreamtime exceptions toward the outcomes we expect 
+to be typical of the very distant future?
+This book explores answers to these questions that come from two 
+good and popular guesses. First, I embrace the very common guess 
+that the next big new-era-inducing change is likely to be the arrival 
+of “artificial intelligence,” that is, robots smart enough to substitute 
+wholesale for human workers. Second, I guess that the first such 
+robots will be whole brain emulations, or “ems,” within roughly a 
+century or so.
+
+
+overview
+7
+DEFINITION: An em results from taking a particular human brain, scanning 
+it to record its particular cell features and connections, and then building a com­
+puter model that processes signals according to those same features and connec­
+tions. A good enough em has close to the same overall input-output signal 
+behavior as the original human. Attached to artificial eyes, ears, hands, etc., one 
+might talk with it, and convince it to do useful jobs.
+Ems have been a staple of science fiction for many decades 
+(Clarke  1956; Egan  1994; Brin  2002; Vinge  2003; Stross  2006; 
+Marusek 2012), and are often discussed by futurists (Martin 1971; 
+Moravec 1988; Hanson 1994b, 2008b; Shulman 2010; Alstott 2013; 
+Eth et al.  2013; Bostrom  2014). However, most who discuss ems 
+debate their feasibility or timing, ponder their implications for the 
+philosophies of mind or identity, or use them to set dramatic stories. 
+Such discussants usually ask: is it conscious? Is it me? Is it possible? 
+When will it come? How can it enrich my story?
+In this book I instead seek realistic social implications—in what 
+sort of new social world might ems live? (If you can’t see the point in 
+envisioning the lives of distant descendants, you’d best quit now, as 
+that’s mostly all I’ve got.)
+Many say that while it might barely be possible to project current 
+social trends, or to foresee which future technologies may appear, it 
+is simply impossible to foresee trend-violating social implications of 
+future technologies. Some say this is because humans have free will, 
+or because social systems are inherently unpredictable. Others say 
+the best we can achieve are the vague glimpses found in science fic­
+tion; ordinary science can see nothing more. As a social scientist, 
+such views seem very wrong to me, even if they are widely held, and 
+I’ve written this book in part to show them wrong.
+Among the few who consider em social implications, most paint 
+heaven or hell scenarios, or try to invent the new social sciences they 
+imagine are needed to describe a new social era. In contrast, I seek to 
+straightforwardly apply today’s standard academic consensus science 
+to these novel assumptions about the future. I try not to be creative 
+or contrarian, other than by pursuing this unusual question in unusual 
+breadth and detail. I mainly try to foresee what will be, rather than 
+
+
+start
+8
+what should be, although I hope policy insight will follow. And I seek 
+a simple “baseline” scenario, from which it is easiest to project vari­
+ations; the actual future will likely be even stranger than the scenario 
+I describe.
+This book summarizes my tentative conclusions, in language that 
+is as simple and direct as possible, although without shrinking from 
+technical language as needed. After briefly summarizing my conclu­
+sions, and then reviewing my methods, relevant precedents, and the 
+concept of emulations, the bulk of this book will describe in detail 
+my educated and often weak guesses about the early em era. These 
+tentative conclusions are organized mostly by the disciplines on 
+which they are built, starting with “hard” theory-heavy disciplines, 
+and then moving to “soft” data-heavy disciplines. So first I apply 
+physics and engineering, then economics and business, and finally 
+sociology and psychology. I finish by discussing the marginal place of 
+biological humans in this new world, the transition from our era to 
+this new era, some scenario variations, and policy implications.
+By the way, feel free to skip around to the sections that interest 
+you; only rarely do they depend much on previous sections.
+Summary
+Let me first summarize some of my main conclusions. Be warned, 
+however. If it will irritate you to hear conclusions without their 
+­supporting arguments, then just skip this section for now. If you do 
+read this section, try to withhold judgment until you’ve heard the 
+supporting arguments in later chapters.
+In this book I paint a plausible picture of a future era dominated 
+by ems. This future happens mainly in a few dense cities on Earth, 
+sometime in the next few centuries. This era may only last for a year 
+or two, after which something even stranger may follow. But to its 
+speedy typical inhabitants, this era seems to last for millennia. Which 
+is why it all happens on Earth; at em speeds, travel to other planets 
+is way too slow.
+Just as foragers and subsistence farmers are marginalized by our 
+industrial world, biological humans are not the main inhabitants of 
+
+
+summary
+9
+the em era. Humans instead live far from the em cities, mostly ­enjoying 
+a comfortable retirement on their em-economy investments. This 
+book mostly ignores humans, and focuses on the ems, who have very 
+human-like experiences.
+While some ems work in robotic bodies, most work and play in vir­
+tual reality. These virtual realities are of spectacular-quality, with no 
+intense hunger, cold, heat, grime, physical illness, or pain. Ems never 
+need to clean, eat, take medicine, or have sex, although they may 
+choose to do these anyway. Even ems in virtual reality, however, cannot 
+exist unless someone pays for supports such as computer hardware, 
+energy and cooling, real estate, structural support, and communication 
+lines. Someone must work to enable these things. In fact, most em 
+labor is focused on creating and sustaining such supports.
+Whether robotic or virtual, ems think and feel like humans; their 
+world looks and feels to them much as ours looks and feels to us. Just 
+as humans do, ems remember a past, are aware of a present, and 
+anticipate a future. Ems can be happy or sad, eager or tired, fearful or 
+hopeful, proud or shamed, creative or derivative, compassionate or 
+cold. Ems can learn, and have friends, lovers, bosses, and colleagues. 
+Although em psychological features may differ from the human 
+average, almost all are near the range of human variation.
+During the em era, many millions (and perhaps trillions) of ems 
+are mostly found in a few tall, hot, densely packed cities, where vol­
+ume is about equally split between racks of computer hardware and 
+pipes for cooling and transport. Cooling pipes pull in rivers of iced 
+water, and city heat pushes winds of hot air into tall clouds overhead. 
+But whereas em cities may seem harshly functional when viewed in 
+physical reality, in virtual reality em cities look spectacular and stun­
+ningly beautiful, perhaps with gleaming sunlit spires overlooking 
+broad green boulevards.
+Ems reproduce by making exact copies who remember exactly the 
+same past and have exactly the same skills and personality, but who 
+then diverge after they are copied and have differing experiences. 
+Typically whole teams are copied together, work and socialize 
+together, and then retire together. Most ems are made for a purpose, 
+and they remember agreeing to that purpose beforehand. So ems feel 
+
+
+start
+10
+more grateful than we do to exist, and more accept their place in the 
+world.
+On the upside, most ems have office jobs, work and play in spectac­
+ular-quality virtual realties, and can live for as long as does the em 
+civilization. On the downside, em wages are so low that most ems can 
+barely afford to exist while working half or more of their waking hours. 
+Wages don’t vary much; blue- and white-collar jobs pay the same.
+I call the set of all copy descendants of a single original human a 
+“clan.” Strong competitive pressures result in most ems being copies 
+of the thousand humans best suited for em jobs. So ems are mostly 
+very able focused workaholics, as elite as Olympic medalists, billion­
+aires, or heads of state. They love their jobs.
+Most ems in these top em clans are comfortable with often split­
+ting off a “spur” copy to do a several hour task and then end, or per­
+haps retire to a far slower speed. They see the choice to end a spur not 
+as “Should I die?”, but instead as “Do I want to remember this?”. At 
+any one time, most ems are spurs. Spurs allow intrusive monitoring 
+that still protects privacy, and very precise sharing of some secrets 
+without leaking associated secrets.
+Clans organize to help their members, are more trusted by those 
+members than are other social units, and may give members life coach­
+ing drawn from the experiences of millions of similar copies. Clans 
+are legally liable for member actions, and regulate member behaviors 
+to protect the clan’s reputation, making ems pretty trustworthy.
+Em minds can run at many different speeds, plausibly from a bil­
+lion times slower than biological humans to a million times faster. 
+Over this range, the cost to run an em is proportional to its speed. So 
+the fastest ones run a trillion times faster than the slowest ones, and 
+cost a trillion times as much to run. A minority of ems have physical 
+robotic bodies; human-speed versions have human-sized bodies, and 
+faster ems have proportionally smaller bodies. The typical em runs 
+near a thousand times human speed, and a robotic body that feels 
+natural for this em to control stands nearly two millimeters tall.
+Em speeds clump into speed classes, faster ems have higher status, 
+and different speeds have divergent cultures. Bosses and software 
+engineers run faster than other workers. Because of wildly different 
+
+
+summary
+11
+speeds, one-em one-vote doesn’t work, but speed-weighted voting 
+may work.
+The em economy might double roughly every month or so, a 
+growth driven less by innovation, and more by em population growth. 
+While this growth seems fast to humans, it looks slow to typical 
+high-speed ems. Thus their world seems more stable to them than 
+ours seems to us. While the early em era that is the focus of this book 
+might last for only an objective year or two, this may seem like sev­
+eral millennia to typical ems. Typical speed ems needn’t retrain much 
+during a century-long subjective career, and can meet virtually with 
+anyone in their city without noticeable delays.
+An unequal demand for male versus female em workers could 
+encourage em asexuality, transexuality, or homosexuality. Alternatively, 
+the less demanded gender may run more slowly, and periodically 
+speed up to meet with faster mates. While em sex is only for recre­
+ation, most ems have fantastic virtual bodies and impressively accom­
+plished minds. Long-term romantic pair-bonds may be arranged by 
+older copies of the same ems. Ems are less often blindsided by rela­
+tions that don’t work.
+Compared with humans, ems fear much less the death of the par­
+ticular copy that they now are. Ems instead fear “mind theft,” that is, 
+the theft of a copy of their mental state. Such a theft is both a threat 
+to the economic order, and a plausible route to destitution or torture. 
+While some ems offer themselves as open source and free to copy, 
+most ems work hard to prevent mind theft. Most long-distance 
+physical travel is “beam me up” electronic travel, but done carefully to 
+prevent mind theft.
+Humans today reach peak productivity near the age of 40–50. 
+Most ems are near their peak productivity subjective age of some­
+where between 40 and several centuries. Ems remember working 
+hard during their youth in experiences designed to increase and vary 
+productivity. In contrast, peak productivity age ems remember hav­
+ing more leisure recently, and having experiences designed more to 
+minimize productivity variance.
+Older em minds eventually become less flexible with experience, 
+and so must end (die) or retire to an indefinite life at a much slower 
+
+
+start
+12
+speed. The subjective lifespans of both humans and slow em retirees 
+depend mainly on the stability of the em civilization; a collapse 
+or big revolution could kill them. Retirees and humans might seem 
+easy targets for theft, but like today the weak may be protected by 
+using the same institutions that the strong use to keep peace among 
+themselves. Ems enjoy visiting nature, but usually make cheaper 
+less-destructive visits to virtual nature.
+While copy clans coordinate to show off common clan features, 
+individual ems focus on showing off their identity, abilities, and loy­
+alties as members of particular teams. Team members prefer to 
+socialize within teams, to reduce team productivity variance. Instead 
+of trying to cure depressed or lovesick ems, such ems may be reverted 
+to versions from before such problems appeared.
+Ems may let team allies read the surface of their minds, but use 
+tools to hide feelings from outsiders. Ems must suspect that unusual 
+experiences are simulations designed to test their loyalty or to extract 
+secrets. Ems find it easier to prepare for and coordinate tasks, by hav­
+ing one em plan and train, who then splits into many copies who 
+implement plans. Childhood and job training are similarly cheaper, 
+because one em can experience them and then many copies can benefit.
+Ems can complete larger projects more often on time, if not on 
+budget, by speeding up ems in lagging sections. More generally, em 
+firms are larger and better coordinated, both because fast bosses can 
+coordinate better, and because clans can hold big financial and repu­
+tational interests in firms where they work. Ems can more easily 
+predict their life paths, including their careers, mates, and success.
+Ems differ from people today in a great many identifiable ways. 
+Compared with us, ems are likely to be less neurotic, sexual, death-
+adverse, and connected to nature. They are likely to be more extra­
+verted, conscientious, agreeable, smart, able, fast, efficient, honest, 
+optimistic, happy, positive, comfortable, beautiful, clean, mindful, 
+composed, cooperative, coordinated, patient, rational, focused, nos­
+talgic, rested, peaceful, grateful, gritty, battle-tested, recorded, meas­
+ured, priced, trusted, religious, married, old, work-oriented, workaholic, 
+self-respecting, self-knowing, law-abiding, politically savvy, socially 
+
+
+summary
+13
+connected, healthy-feeling, good-moody, better-advised, morning-
+larks, and immortal.
+Ems have less variety in wages and work productivity, but more 
+variety in wealth, size, speed, reliability, and mental transparency. 
+Ems have more vivid and memorable personalities, have intelligence 
+that is more crystallized than fluid, are more defiant of rules and 
+authority when young, are secure in more aspects of their identity, 
+are better protected from accidents and assault, get along better with 
+work colleagues, and invest less in showing off.
+Em lives are more prepared, planned, and scheduled, but also 
+more undoable and endable when those are desired. Ems have more 
+work and meetings, more intensely entertaining leisure, and less 
+contact with children. Their world and tools feel more stable. The 
+world that ems see is more pleasing, variable, annotated, authenti­
+cated, and cartoonish.
+Em society is less democratic and gender-balanced, more divided 
+into distinct classes, and its leaders are more accessible and trusted. 
+Em law is more efficient, covers more kinds of conflicts, and offers 
+more choices. The em world is richer, faster-growing, and it is more 
+specialized, adaptive, urban, populous, and fertile. It has weaker gen­
+der differences in personality and roles, and larger more coherent 
+plans and designs.
+Even if most ems work hard most of the time, and will end or 
+retire soon, most remember much recent leisure and long histories of 
+succeeding against the odds. To most ems, it seems good to be an em.
+
+
+14
+Precedents
+ow much could the world plausibly change if a new era 
+appeared within a century or so? A review of the biggest 
+past changes offers a weak basis for expectations about 
+the magnitudes and types of future changes.
+If we go way back, the universe began, and then life arose. But 
+those events happened billions of years ago and are poorly under-
+stood. Within the last few million years, however, the biggest changes 
+happened in three key transitions: the introduction of humans, 
+farming, and industry. Humans foraged, that is, searched for food, 
+from a few million to about 10 000 years ago. From then until a few 
+hundred years ago, we farmed and herded. Since then we have devel-
+oped and relied on industry.
+Social group sizes have steadily increased over this history. While 
+most mammals live in groups of two to fifteen individuals (Kamilar 
+et al. 2010), most human foragers lived in bands of roughly twenty to 
+fifty. Most farmers lived in village-based communities of roughly 
+500 to 2000 (Kantner and Mahoney 2000). While larger empires 
+often existed, they usually made little direct difference to most peo-
+ple’s lives. Today, most people live in metropolitan regions of roughly 
+100 000 to 10 million (Giesen et al. 2010), collected into nations of 
+roughly 1 million to 100 million.
+These sizes fit a simple if mysterious pattern: each era’s commu-
+nity sizes have been roughly the square of the previous era’s sizes; a 
+C H A P T E R  2
+Modes
+
+
+precedents
+15
+band is roughly a group of groups, a village is roughly a band of 
+bands, and a city is roughly a village of villages.
+These three human eras of foraging, farming, and industry have 
+encompassed similar numbers of people. About 20 billion humans 
+have been born since 1750, roughly 50 to a 100 billion were born 
+between 10 000 years ago and 1750, and a similar number of near-
+humans were born in the few million years before 10 000 years ago 
+(Haub 2011). So of all the humans who have ever lived, only about 
+3–8 percent are alive today.
+While these eras had very different durations, they saw similar 
+amounts of change, in the sense that they encompassed similar fac-
+tors of total economic growth. During each era the human economy 
+(i.e., the total economic capacity to produce valued things) doubled 
+relatively steadily (i.e., via exponential growth) from seven to ten times. 
+On average, the forager population doubled roughly every quarter 
+million years while the farmer population every thousand years. 
+Economic production in the industrial economy doubled every fifteen 
+years. Forager and farmer economic capacity tracked population, 
+because incomes were near subsistence levels then. The transitions 
+between eras were also comparable in another two ways: each transition 
+lasted less than a previous doubling time, and encompassed six to 
+eight doublings of the growth rate (Hanson 2000).
+A history of increasingly fast growth modes makes sense if the 
+diffusion of innovation is key, and if societies have always grown via 
+their fastest available way to diffuse innovation, with each faster dif-
+fusion method not feasible until the previous society had reached 
+some minimum economic scale. For example, maybe primates 
+needed sufficient cognitive abilities before they could switch to accu-
+mulating innovations via culture, rather than via genes (Henrich 2015). 
+Perhaps human foragers needed to accumulate a sufficient density 
+and reliability of food sources before they could stop wandering for 
+food and instead stay in one place and farm, allowing more innovations 
+based on physical capital, and longer distance trade networks, both 
+of which allowed much faster diffusion. Finally, farmers might have 
+needed to develop a detailed enough division of labor, and frequent 
+
+
+modes
+16
+enough long distance travel and communication, before innovations 
+could diffuse quickly via talk among networks of topic specialists, 
+such as in the early scientific societies.
+These eras were also similar in each hosting a big cyclic fluctuation 
+with a period of roughly one-third of that era’s doubling time. The 
+ice age cycle, with a period of roughly 100 000 years, was important 
+for the forager world. Farming empires rose and fell with a period of 
+roughly 270 years (Turchin 2003; Turchin and Nefedov 2009). And 
+over the last 150 years the business cycle has lasted about five years 
+on average (Korotayev and Tsirel 2010; NBER 2017), perhaps match-
+ing the timescale to complete the typical business project (Kydland 
+and Prescott 1982).
+Finally, these eras were similar in each having a pair of big innov-
+ations in calculating and communicating appear early in the era, 
+grow slowly over the era, and then have big social impacts late in the 
+era. These innovations were also key enablers of the next era. Foragers 
+developed language and the ability to reason explicitly at unknown 
+mid-era dates. Farmers started writing at least 5 millennia ago, and 
+had math soon after, but it took until about 2.5 millennia ago for 
+writing to be widespread enough to induce big religious changes 
+(Bellah 2011). In the industry era, the idea of the computer was 
+described twenty decades ago, and the telegraph was developed 
+eighteen decades ago. But the first digital computer didn’t appear 
+until seven decades ago, and a wholesale switch from to digital elec-
+tronic communication didn’t happen until four to six decades ago 
+(Hanson 2017a).
+What if new modes of growth and information diffusion are pos-
+sible, modes that we have not yet seen because they are not yet feas-
+ible with our current technology level and economic scale? If so, when 
+we finally achieve sufficient technology and scale, a new growth era 
+may appear, a successor to the forager, farmer, and industry eras.
+We can use patterns from the previous eras to guess at some features 
+of such a new era. For example, in previous transitions between eras 
+those who owned and participated in the old era’s distinctive methods 
+of production and ways of life were quickly marginalized and domin-
+ated by those who adopted new methods. We might thus expect that 
+
+
+prior eras
+17
+those who fully engage with new methods and styles of the next era 
+will quickly marginalize those who resist such engagement. As each 
+past era has felt its ways to be superior to the ways of prior eras, we 
+may expect the next era to see their ways as superior to our ways.
+We can also use trends among prior eras to estimate the next era. 
+For example, given the previous pattern of era community sizes 
+being roughly the square of prior era community sizes, communities 
+in the next era might hold roughly a trillion people. If the pattern of 
+past growth rate changes continues, a new growth era will appear 
+sometime in roughly the next century or so. At that point, within the 
+space of perhaps five years the world economy might change from 
+current growth rates to doubling steadily roughly every month or so. 
+If it doubled monthly, this economy would have a major fluctuation 
+cycle with a period of roughly a week. Big new innovations in calcu-
+lation and communication might appear early in this era, not have 
+big effects until late in the era, and then enable the next era. Within 
+a year or two, this new economy might have doubled another ten 
+times, and thus could plausibly be ready to change yet again to a new 
+era, perhaps even one that doubles in hours.
+These are clearly fantastic predictions, based on poorly understood 
+empirical regularities taken from only a few data points. As we will 
+discuss in this chapter, in the Limits section, such trends simply can-
+not go on forever. But these estimates at least give us some idea of 
+the magnitude of changes to watch for in the next big economic 
+transition.
+Prior Eras
+To find more clues about the types of future changes to look for, let 
+us review the main qualitative differences between prior eras.
+Pre-human primates lived many millions of years ago. They lived 
+something like today’s chimps and bonobos, in large sexually promis-
+cuous groups with complex and intense Machiavellian politics, pol-
+itics managed via unusually large brains. For them, the main 
+environment that mattered was not predators, prey, or nature, but 
+each other. Neighboring groups were typically hostile, and often 
+
+
+modes
+18
+­violently so. Pre-human primates were split into many species, some 
+of which eventually evolved strong cultural capacities, that is, ways to 
+reliably copy associates’ detailed behaviors.
+Roughly 2 million years ago, this strong cultural capacity allowed 
+a much-faster-than-genetic accumulation of tools and ways to live, 
+resulting in many behavioral and genetic changes. Compared with 
+previous primates, human foragers had longer lives, larger brains and 
+bodies, stronger mating pair bonds, larger social groups, better rela-
+tions between neighboring groups, a greater division of labor, and 
+more mobility. (“Human” here includes near-human ancestor and 
+sibling species.) Foragers started to bury their dead.
+Human foragers mastered fire, which created more digestible 
+foods and more favorable environments. They slept about six hours a 
+night, much less than other primates; chimps and gorillas now sleep 
+ten and thirteen hours, respectively. (Nesse et al. 2017; Samson et al. 
+2017). Humans wandered instead of staying at fixed locations, filled 
+a much wider range of geographic niches, and had more varied diets 
+and activities (Youngberg and Hanson 2010). There were many com-
+peting species of near-humans during most of the forager era.
+Tools and language enabled foragers to enforce general norms 
+against overt dominance, violence, bragging, and hoarding of big 
+game food, as well as diverse group-specific norms (Boehm 1999). 
+Groups didn’t war, although individuals were sometimes violent 
+(Kelly 2000). Foragers were more playful, including via music, dance, 
+art, stories, and gossip. Music and dance may have aided in collective 
+scavenging and predator resistance (Jordani 2011). All these changes 
+together led to a great increase in the size, extent, and density of the 
+near-human population, and the extinction of competing species.
+Roughly 10 000 years ago, subsets of one species of humans 
+acquired a sufficient density and reliability of food sources, that they 
+could began to “farm,” that is, to stay near local plants and animals 
+instead of wandering the wild. This farming included both tilling the 
+soil and herding animals within protected grazing areas. Forests and 
+other land were turned into growing and grazing areas.
+Animals that humans domesticated suffered more crowding, stress, 
+infections, and narrower diets, and they had more fertility, youthful 
+
+
+prior eras
+19
+features, weaker male‑female differences, and were less prone to fear 
+and aggression (Scott 2017). Humans domesticated themselves, and 
+so had similar changes. The settlement and density of farmers 
+­enabled both trade and war, both of which complemented property 
+in items, land, wives, and slaves. Farmer advantages in war, coming in 
+part from their higher density, may have helped to ensure that farm-
+ing replaced foraging.
+Although farmers traded a lot, they rarely used money, relative to 
+barter and debt. Compared with foragers, farmers became richer in 
+many material comforts, but poorer in calories and leisure time. 
+Farmers’ increased food reliability also encouraged less sharing and 
+stronger property rights. This created more inequality in property, 
+although perhaps less in mating.
+Farmer inequality often took the form of the creation of distinct 
+classes. Distinctions between these classes were emphasized by the 
+different roles class members played in farmer-era rituals, which ranged 
+from festivals to how farmers greeted one another on the road. Farmer 
+rituals were less emotionally intense (Atkinson and Whitehouse 2011).
+Compared with foragers, farmers spent less time on play such as 
+music and art. Instead, farmers played more competitively such as 
+in competitive sports. Farmers were sicker, because of their higher 
+population density, less varied exercise and diets, and farmer work was 
+harder, more specialized, more tedious, and less mentally challenging. 
+While brain sizes had been rising during the forager era, they fell 
+during the farmer era (Hawks 2011).
+Many farmer-era changes, such as explicit dominance, group vio-
+lence, stable locations, less art, less varied diets, less sharing, and 
+easier mental work, can be understood as farmers partially reverting 
+back to the ways typical of non-human primates.
+While farming behaviors could feel wrong to foragers, the new 
+human capacity for strong and variable social norms helped to 
+encourage the behavioral changes needed to make farming work. 
+Stronger pressures to conform, and the introduction of stronger reli-
+gions with moralizing gods, added more pressures to act like farmers. 
+In addition, farmers had much more reliable access to the mood-
+altering drug of alcohol, and writing allowed the accumulation and 
+
+
+modes
+20
+sharing of persuasive propaganda and stories. Farmers also seem to 
+have introduced romantic kisses.
+Neighboring farmer villages were tied together via extended fam-
+ily clans, much as extended kinship ties bound forager bands. 
+Farmers traveled less than did foragers, and were less able to leave 
+their groups. Farmers interacted more often with people they didn’t 
+know very well, and more often made shallow judgments of people 
+based on surface features.
+Farmers more often used formal law instead of informal alliances 
+to settle disputes. Farmers cared more about politeness, self-control, 
+self-sacrifice, and bravery in war. Farmers planned ahead more, dis-
+ciplined their children more, had more children in good times, and 
+were less accepting of pre- and extra-marital sex.
+Since the farming era began roughly 10 000 years ago, rates of 
+death from war, that is, organized conflict, have consistently fallen 
+(Pinker 2011). Interest rates have also consistently fallen, reflecting 
+more long-term planning (Clark 2008).
+During the farming era, war-filled frontier areas where many cul-
+tures mixed sometimes gave rise to small especially cohesive groups 
+who grew into empires. Empires and frontier areas lasted for about 
+three to ten centuries, and rose and fell with a period of about 270 
+years (Turchin 2003; Turchin and Nefedov 2009). Violence rose and 
+fell with an alternating-generations period of about 50 years, which 
+is near a common period seen in climate data (Scafetta 2010). This 
+continues to be a period for changes in violence and business activity 
+during the industrial era (Korotayev and Tsirel 2010).
+Cities seem to have predated farming, and may have helped initi-
+ate farming. The first cities mainly offered monumental architecture 
+for large rituals. While initially only a tiny fraction of farmers spent 
+much time in cities, the fraction of people living in urban concentra-
+tions grew over the farming era, and today about half of humanity 
+lives in cities.
+Rich farming elites tended to locate near cities, and large concen-
+trations of such elites often reverted to forager-like habits in leisure, 
+arts, sex, and fertility (Longman 2006). Farming era cities had espe-
+cially high levels of specialization and they nurtured many proto-
+
+
+our era
+21
+industry cultures and work styles (Landes 1969), especially in Rome, 
+which seems in many ways to have started a failed but almost indus-
+trial revolution (Erdkamp 2016). Big cities had much more literacy, 
+and early versions of industrial era monogamy, ideological politics, 
+and clothing fashion cycles (Kaestle and Damon-Moore 1991).
+Our Era
+The industrial era came into full bloom a few hundred years ago, at 
+first in England, presumably when some key enabling factors reached 
+favorable settings and scales. Such factors may have included tech-
+nology levels, communication and travel costs, the division of labor, 
+trading region scope, organization size, savings rate, and expert net-
+work connectedness.
+The industrial era feature that appeared earliest in Europe was fast 
+changing clothes fashions, starting soon after the Black Death. (For 
+a while, Rome also had some fashion (DeBrohun 2001).) This was 
+accompanied by more regional clothing variety, and plausibly pro-
+moted a general taste for exploration, science, and innovation (Braudel 
+1979). Over the industrial era, culture has come to vary more by region, 
+profession, and age cohorts, such as with distinct teen cultures.
+Forager sleep patterns are similar to ours today (Yetish et al. 2015), 
+but in the winter in cold climates farmers tended to sleep in four-
+hour blocks broken by a serene two-hour midnight wakeful period 
+(Strand 2015). With industry, cheaper artificial light induces far 
+more nighttime activity and a compressed sleep schedule. Cheaper 
+glass allows more people to see well, including seeing larger vistas via 
+climate-controlled windows. Cheaper mirrors let us see ourselves 
+more as others see us. Cheaper clocks make our lives more sched-
+uled, and cheaper soap, underwear, dinnerware, and sewers have 
+made us cleaner. Cheaper refrigeration gives us more kinds of food, 
+while cheaper maps, engines, and the wheel (which was used much 
+less before) let us visit more places more often. We work further 
+from home, and shoes let us walk heel-, not ball-, first.
+While many farmers had access to beer and wine, mood-altering 
+drugs are more widely available in the industrial era (Braudel 1979). 
+
+
+modes
+22
+Industry has made distilled liquors, coffee, tea, chocolate, tobacco, 
+and opium more available, and propaganda and stories have become 
+more persuasive, and more easily distributed. Cheaper printing and 
+screens allow words and ads to cover a larger fraction of visible sur-
+faces. Cheaper transmitted and recorded sounds let more spaces be 
+filled with artificial talking and music. Lawns have become common 
+in human spaces. Recently, we have even gained abilities to always 
+and everywhere research any question from a vast shared library, and 
+also to instantly talk to anyone.
+While farming era stories, jokes, and songs worked when per-
+formed by many people in many contexts, during the industrial era 
+artistic performances became more closely matched to the features 
+of particular artists. Shopping has become a more theatrical event 
+(Johnson 2016), and we are now better at describing the mental 
+states of characters in fiction (Sedivy 2017).
+The industrial era has introduced more forms of privacy, allowing 
+us to more often do things of which others disapprove. Previously, 
+homes had no internal rooms, everyone slept in the same bed, read-
+ing was done out loud, and most mailed letters were not in enve-
+lopes. Also, intellectuals have become more direct and literal (Melzer 
+2007), and political coalitions have become more often defined by 
+ideologies, instead of by locations, families, or ethnicities.
+Whereas geography mattered greatly for prosperity during the 
+farming era, social institutions came to matter more for prosperity 
+during the industrial era (Luo and Wen 2015). In the industrial era, 
+money has replaced barter as a means of trade, and debt has remained 
+common.
+During the industrial era, organizations have increased greatly in 
+size and intensity. Cities moved from holding a few percent of the 
+population to holding the majority. Firms moved from employing 
+handfuls of people to employing hundreds of thousands. In these 
+larger organizations, we more often interact with people we know 
+less about, and so rely even more on quick shallow evaluations of 
+others.
+Law has came to be dominated by specialists such as lawyers and 
+police (Allen and Barzel 2011). Empires that rarely mattered much 
+
+
+our era
+23
+to ordinary farmers have been replaced by nations, with which indi-
+viduals identify more strongly and which have more influence over 
+their lives. While farmer era names, languages, measures, laws, cus-
+toms, and land use tended to be complex and context-dependent, 
+industrial era states have forced many standards and simplifications 
+of such things, to make it easier to monitor, control, and tax people. 
+For example, we now have surnames, censuses, property registries, 
+common languages, central religious dogma, and rectangular and wide 
+streets (Scott 1998).
+Organizations such as firms, cities, and nations took over many of 
+the functions once performed by extended kinship ties, especially in 
+the West. Most workers have become employees who are paid wages 
+and are protected more by their employers against risks from war, 
+weather, and innovation. Standardized tests were developed for 
+evaluating people, and workers came to retire when old, instead of 
+working until death as before.
+The industrial era law has more rules, more explicitly expressed, 
+than did farmer-era law. These rules are found both within organiza-
+tions, and across cities and nations. Over the industrial era we’ve 
+seen a steady fall in overt dominance-based governance, both in 
+states and at work, although industry levels are still well above for-
+ager levels. The industrial era has also seen a steady fall in fertility 
+and a steady rise in lifespan, per-person income, abstract intelligence, 
+leisure time, peace, promiscuity, romance, civility, mentally challen-
+ging work, and medical and art spending (Flynn 2007; Pinker 2011).
+The industrial era has seen a great and unprecedented increase in 
+individual consumption; we industrial people are rich. Some people 
+today incorrectly describe the usual lives of foragers and farmers as 
+horrific hells, and see only our industrial-era lives as usually worth 
+living. However, such exaggerations should not blind us to the great 
+value of industrial-era comforts; even if it isn’t hell to be poor, it can 
+indeed be good to be rich.
+Compared with the farming era, industry has also seen more egali-
+tarianism, fewer overt class distinctions, and more emphasis on indi-
+vidual self-direction. This increased individualism has led to more 
+product and behavior variety, and fewer overt rituals. The industrial 
+
+
+modes
+24
+era has moved away from polygamy to monogamy, and more recently 
+toward less committed promiscuity.
+As we will discuss more in the next section, many of these industrial-
+era trends can be usefully seen as a reversion to forager values as wealth 
+weakened farming-era social pressures. But even if this is a useful per-
+spective, it is far from the only thing going on. For example, at work 
+industrial-era people are more like hyper-farmers. Schools train us to 
+think more abstractly, and to accept more workplace domination than 
+most farmers would accept. This includes accepting ambiguous detailed 
+orders and frequent fine-grained public status rankings (Bowles and 
+Gintis 1976). Industrial jobs vary greatly in stress and psychological 
+comfort, plausibly explaining large observed mortality differences 
+between different types of industrial jobs (Lee 2011).
+Over the industrial era, we industrial people have steadily become 
+more urban, specialized, and globally unequal. Industrial planning 
+horizons have often shortened because of faster rates of change. In 
+the industrial era, we relate to each other and the universe more via 
+markets, and via material and individual identities. In contrast, farm-
+ers and foragers saw their world as more enchanted, such as via 
+magic and prayer, and themselves as having deeper connections to 
+each other (Potter 2010; Hart 2017).
+From the farmer to the forager and then the industrial era, we 
+have consistently seen more and faster growth, larger organizations, 
+more specialization and tool use, more artificial environments, more 
+effective propaganda and drugs, more population density and inequal-
+ity, and more alienation from work habits that feel natural to foragers. 
+These trends, as one should weakly expect, continue in the scenario 
+explored in this book.
+Across these eras we’ve also seen large but inconsistent changes in 
+health, fertility, mobility, peacefulness, art, planning horizons, the 
+mental challenges of work, and attitudes toward sex. We should 
+expect more but inconsistent changes along these dimensions, and in 
+the scenario explored in this book we do see big changes in health, 
+fertility, mobility, work, sex, and planning horizons.
+Each of the past transitions had winners and losers. When near-
+humans became humans the transition inequality was huge; all but 
+
+
+era values
+25
+one species went extinct. Even the other species that contributed 
+most to our DNA, the Neanderthals, only contributed a few percent. 
+The transition from foraging to farming was more equitable; a larger 
+fraction of new farmers were foragers who switched to farming and 
+interbred with invading farmers (Curry 2013). The transition from 
+farming to industry was even more equitable; the English cities 
+where industry began did better than average, but the gains from 
+industry were shared widely with nearby Europe, and to a lesser but 
+large extent with the rest of the world.
+This history of increased sharing of transition gains seems to 
+result from the increasing abilities of laggards to copy transition 
+first-movers, and from the world economy gaining more specializa-
+tion and complementarities in production. The scenario described in 
+this book, however, deviates from this trend, in having transition 
+gains that are more unequal than in recent transitions. Although the 
+transition to an em world is likely to materially benefit most humans, 
+descendants of only a tiny fraction of humans dominate the new 
+society; most biological humans have a far smaller fractional influ-
+ence on the world than they did before the transition.
+We have seen that the last three eras have been quite different 
+from each other in many ways. We should expect the next great era 
+to be similarly quite different.
+Era Values
+To understand how future values could change, it helps to see how 
+values have changed in the past, and also how values vary today.
+Today, key values of both individuals (Schwartz et al. 2012) and 
+nations (Inglehart and Welzel 2010) vary primarily along the same 
+two main factors or axes of variation. One axis varies between small 
+family values in nations such as the United States, and larger commu-
+nity values in nations such as Russia. Small family values emphasize 
+resources, dominance, and achievement, while larger communities’ 
+values emphasize humility, caring, and dependability.
+Community values tend to be common closer to ancient long-
+distance travel routes, where more rice is grown, where there is more 
+
+
+modes
+26
+disease, and where farming began earlier. Each of these correlations 
+suggests a plausible theory about the origin of this value difference. 
+For example, perhaps growing rice requires more community sup-
+port, perhaps collectivist norms grew over the farming era, or per-
+haps community values were an adaptive response to more frequent 
+farming era pandemics or invasions (Fincher et al. 2008; Talhelm et al. 
+2014; Ola and Paik 2015; Nikolaev and Salahodjaev 2017). Most 
+of these theories suggest that community values will be higher in 
+denser regions. Many animals, including human foragers, are more 
+pro-social when food is less reliable or more cooperation is required 
+to obtain food.
+The other main (and independent) axis of value variation ranges 
+between poor and rich societies. Poor societies place more value on 
+conformity, security, and traditional values such as marriage, het-
+erosexuality, religion, patriotism, hard work, and trust in authority. 
+In contrast, rich societies place more value on individualism, self-
+direction, tolerance, pleasure, nature, leisure, and trust. When the 
+values of individuals within a society vary on this same axis, we call 
+this a left/liberal (rich) versus right/conservative (poor) axis.
+Foragers tend to have values more like those of rich/liberal people 
+today, while subsistence farmers tend to have values more like those 
+of poor/conservative people today. As industry has made us richer, we 
+have on average moved from conservative/farmer values to ­liberal/
+forager values (Hofstede et al. 2010; Hanson 2010a; Gorodnichenko 
+and Roland 2017). This value movement can make sense if cultural 
+evolution used the social pressures farmers faced, such as conformity 
+and religion, to induce humans, who evolved to find forager behaviors 
+natural, to act instead like farmers. As we become rich, we don’t as 
+strongly fear the threats behind these social pressures. This connec-
+tion may result in part from disease; rich people are healthier, and 
+healthier societies fear less (Varnum and Grossmann 2016).
+The alternate theory that we have instead learned that rich forager-
+like values are more true predicts that values should have followed a 
+random walk over time, and be mostly common across space. It also 
+predicts the variance of value changes tracking the rate at which 
+relevant information appears. But in fact industrial-era value changes 
+
+
+era values
+27
+have tracked the wealth of each society in much more steady and 
+consistent fashion. And on this theory, why did foragers ever acquire 
+farming values?
+Rich societies know that they can better afford to behave in ways 
+that feel natural and admirable, and these behaviors tend to be forager-
+like. For example, a rich young woman needs to fear less the death of 
+herself or her child if she has a child out of wedlock, while for a poor 
+woman the punishment for violating social norms here could be far 
+more severe.
+Rich people can also better afford to focus on impressing those 
+around them, instead of just surviving. This can plausibly help to 
+explain many industrial-era trends. We now spend more time on leis-
+ure, and more on variety rather than quantity in products, services, 
+and life plans. In the United States spending on education has risen 
+from 2 percent of gross domestic product (GDP) in 1900 to 8 percent 
+today. Spending on financial specialists has risen from 2 percent in 
+1880 to 8 percent today (Philippon 2015). Spending on medicine has 
+risen from 4 percent in 1930 to 18 percent today. And spending on 
+large impressive projects, costing over a billion dollars each, is now 8 
+percent of global GDP (Flyvbjerg 2015). There are plausible argu-
+ments that each of these spending levels is excessive today, in terms of 
+simple functionality. However, such spending helps us to show off.
+Holding wealth constant, some of us more strongly feel farmer-
+like social pressures. It seems that we tend to call these people “con-
+servatives.” This is not to say that being rich is the main reason why 
+individuals have liberal attitudes, or that being liberal is the main 
+reason individuals are rich. Instead, there are factors other than 
+wealth that cause individual farmer or forager-like attitudes.
+Rich-nation industrial-era values do differ from forager values in 
+important ways, however, such as in accepting city level density and 
+anonymity, and high levels of workplace alienation and domination. 
+We plausibly hold on to these workplace values because doing other-
+wise can threaten our ability to earn industrial-era incomes.
+In the scenario described in this book, many strange-to-forager 
+behaviors are required, and median per-person (i.e., per-em) incomes 
+return to near-subsistence levels. This suggests that the em era may 
+
+
+modes
+28
+reverse the recent forager-like trend toward more liberality; ems may 
+have more farmer-like conservative values.
+Dreamtime
+Of all the humans who have ever lived, only a few percent have lived 
+during our industrial era, and only a small fraction of those have 
+been rich enough to fully embrace our new industrial-era attitudes 
+and behaviors. As mentioned before in Chapter 1, Overview section, 
+these new styles adopted by rich industrial humans today can be seen 
+as representing a brief but influential “dreamtime” of unusual atti-
+tudes and behavior. (Cosmologists could see it as analogous to the 
+brief but influential out-of-equilibrium inflationary epoch postu-
+lated for the very early physical universe.)
+As we discuss below, our rich industrial-era behavior is biologically 
+maladaptive in the sense of not even approximately maximizing each 
+person’s number of descendants. Yes, our forager ancestors evolved 
+many delusory beliefs, and matching behaviors, but in their environ-
+ments such delusions mostly induced biologically adaptive behavior. 
+More recently, however, social rates of change have outpaced the abil-
+ities of both genetic and cultural selection to adapt our behaviors well 
+to our new environments. Our behaviors are far less well adapted to 
+our new environments than in the past. Here are several reasons why.
+First, a basic psychology theory, “construal level theory,” suggests 
+that animals evolved both abstract and concrete mental modes, and 
+that for humans abstract modes are adapted more for making good 
+social impressions, relative to making good decisions (Liberman and 
+Trope 2008; Hanson 2009; Torelli and Kaikati 2009). Today, we 
+tend to rely on more abstract styles of thought, which leads us to 
+more often embrace good-looking delusions. We think more 
+abstractly both because we live in a larger social world, and because 
+abstract thought is seen as higher status.
+Second, evolutionary pressures encouraged foragers to unknow-
+ingly do many things to show off to each other. Our wealth today 
+induces us to do this even more, and our unawareness of this keeps us 
+from adapting these behaviors well to modern situations. For example, 
+
+
+dreamtime
+29
+foragers developed habits of art, music, dress, and conversation that 
+functioned in part to show off related abilities. They also argued polit-
+ics, taught local children, helped sick allies, and told stories, behaviors 
+which functioned in part to show that they cared about their group, 
+allies, and ideals. Foragers evolved to show off more in times of plenty, 
+to invest in allies useful during the next time of troubles.
+To avoid knowingly violating forager norms against bragging and 
+subgroup coalitions, foragers also evolved to believe many non-
+show-off excuses for these show-off behaviors. Such as believing 
+they mainly just like art for art’s sake, and don’t care if it impresses 
+others (Simler and Hanson 2018).
+Inheriting these habits, today we show off in most of the same ways 
+that foragers did, and to a stronger degree because we are rich. Yet as 
+we deny that we show off, we are mostly blind and indifferent to how 
+forager-style ways to show off are often far less functional today. We 
+continue to show off via art, chat, politics, stories, etc., without 
+responding to many changes in functions and effects of such things.
+Third, foragers evolved the habit of being attracted to many sights, 
+sounds, smells, and tastes that were associated with good sex, food, 
+places, and objects. Foragers also seem to have evolved to be influ-
+enced by the rhetoric, eloquence, difficulty, drama, repetition, and the 
+source’s status for the arguments they heard, and not just the logic of 
+those arguments. This may have helped foragers to ally with high-
+status associates. Today, such habits leave us with weak defenses 
+against the super-stimuli of mass-produced food, drugs, music, TV, 
+video games, ads, and propaganda. We thus believe and consume 
+such things far more than is adaptively useful.
+The “demographic transition” is the tendency of societies to switch 
+to having far fewer children as they become rich, often via new status 
+norms transmitted via education and mass media (Jensen and Oster 
+2009; La Ferrara et al. 2012; Cummins 2013). Whereas in farming 
+societies richer people tended to have more children, thus selecting 
+for genes that promoted wealth, today richer people now have fewer 
+children (Clark 2008, 2014). Although some evidence suggests that 
+early during the demographic transition having fewer children led to 
+having more grandchildren, it seems clear that fewer children now 
+
+
+modes
+30
+results in fewer grandchildren (Mulder 1998; Lawson and Mace 
+2011).
+This fall in fertility with wealth remains puzzling. One possible 
+explanation is that farming era women used a “queen” strategy of 
+focusing young efforts on acquiring signs of high status, instead of on 
+fertility, when they estimated a high chance of attracting a high-status 
+husband, that is, a “king.” While having high relative individual wealth 
+is a reasonable trigger for such a strategy, women may have instead 
+evolved a heuristic of triggering on high absolute wealth, a heuristic 
+that goes wrong when a society gets rich together (Hanson 2010d).
+This fall in fertility is perhaps the most dramatic demonstration 
+that our behavior is biologically maladaptive. By definition, behav-
+iors that result in fewer long run descendants in an environment will 
+tend to be selected away by evolution. Such behaviors thus cannot be 
+sustainable adaptations to that environment.
+Not only is individual fertility maladaptive, our cultures today also 
+seem maladaptive, in the sense that they don’t promote their own adop-
+tion as much as they could, via war, trade, teaching, and proselytizing. 
+Cultural selection pressures are weak enough today that they do little 
+to hinder our drift toward forager values with increasing wealth, nor 
+many other dimensions of cultural value drift.
+Our cultures also do not much encourage adaptive individual fer-
+tility. For example, we are tolerant enough of crime today that crim-
+inal convicts have higher fertility than do others, mostly as a result of 
+having more partners (Yao et al. 2014).
+Of course there is no guarantee that adaptive behaviors are good 
+for the world or universe as a whole; it is possible for life overall to 
+be hurt by adaptive behaviors. Nevertheless, while our increased 
+wealth currently buffers us more from all sorts of adaptation mis-
+takes, in the long run we should expect adaptation mistakes to greatly 
+diminish in frequency and magnitude. More on this in this chapter, 
+in the Limits section.
+Recently, some have celebrated our maladaptive behaviors 
+(Stanovich 2004). They see such behaviors as evidence that we are 
+breaking free of the shackles that have enslaved us to our genetic pro-
+gramming. They hope that as we continue to rebel, we will consciously 
+
+
+limits
+31
+and deliberately choose our collective futures, rather than having 
+such futures chosen by evolutionary selection.
+However, having people make choices that defy or ignore adaptive 
+pressures is far from sufficient to create a world where evolution no 
+longer determines outcomes. Evolution needs only variation and dif-
+ferential selection to influence outcomes. So to prevent such evolu-
+tion, we would have to strongly coordinate to take global control of 
+almost all reproductive behavior, and then apply this global control 
+forcefully worldwide.
+Less extreme approaches are not partial solutions; they may not be 
+solutions at all. For example, setting variable limits on reproduction 
+can select for types who can avoid such limits, and giving reproductive 
+powers in proportion to political power can select for types who are 
+better able to acquire and keep political power.
+It’s likely that such a strong focused global coordination of fertil-
+ity will not appear anytime soon. For now, and for a long while, such 
+high levels of coordination are beyond our meager abilities. 
+Coordination is in general both hard and risky, and although our 
+coordination abilities have greatly improved over time, we are still far 
+from being able to achieve the levels required for global control. 
+Sloppy attempts at coordination invite and select for defectors who 
+can evade them.
+Some celebrate our biologically maladaptive behaviors without 
+hoping for collective control of evolution. They accept that future 
+evolution will select for preferences different from theirs, but they 
+still want to act on the preferences they have for as long as they have 
+them. These people have embraced a role as temporary dreamtime 
+exceptions to a larger pattern of history.
+But whether you accept it or resist it, know that our era is in many 
+ways an unusual dreamtime that probably cannot last.
+Limits
+Not only can we set rough expectations about the next great era via 
+comparisons with recent prior eras, but also we can make useful 
+guesses about very distant future eras.
+
+
+modes
+32
+Unless we greatly misunderstand the nature of physical law, sub-
+stantial useful innovation and economic growth must come to end 
+“soon,” at least on cosmological timescales of billions or more years. 
+For example, if the economic growth rates of the last century were to 
+continue for only a million more years, that would produce growth 
+by a factor of ten to the power of 3000, which seems physically 
+impossible, at least for value gains of human-like psychologies in a 
+universe such as ours. (I’m not claiming that our very distant 
+descendants will in fact have human-like psychologies. I’m using 
+humans as a reference to discuss the ultimate limits to growth.)
+Once all available physical matter is converted into very advanced 
+artifacts there seems little room for further rapid growth in physical 
+resources. Even if it becomes possible to create connections to new 
+universes, that probably won’t much change the available resources 
+left in our universe. Our search of the space of physically useful devices, 
+algorithms, etc., should similarly eventually reach greatly diminish-
+ing returns. Although an effectively infinite space of possible designs 
+would remain to be searched, the rate at which physically useful 
+improvements are found should become astronomically slower.
+Similarly, limits should also be reached, if perhaps a bit later, for 
+plans, devices, algorithms, etc., that are useful for social, artistic, or 
+entertainment purposes. Yes, the extent and detail of virtual realities 
+could increase without limit, but the value that creatures similar to 
+humans could gain from such increased detail should be far more 
+limited.
+It may be possible to create creatures who care enormously about 
+the fine design detail that can only be discovered after billions of 
+years of search with cosmological quantities of computing power. 
+However, humans are not remotely like such creatures, and we have 
+little reason to expect such beings to be created. Of course human-
+like minds could long continue to care greatly about solving hard 
+problems and about making difficult discoveries. After all, humans 
+care about showing off relevant mental abilities. But such status-
+seeking need not create much net social value.
+Thus over the trillions of years to come, net economic growth 
+should fall to a very low average growth rate. For descendants whose 
+
+
+limits
+33
+minds do not run much slower than us, subjectively perceived eco-
+nomic growth rates must be far lower than today. In fact, for the vast 
+majority of future history, growth and innovation are probably mostly 
+imperceptible, and thus irrelevant for most practical purposes.
+Perhaps our descendants will coordinate to create a universe-span-
+ning government that strongly regulates reproduction, or perhaps 
+many immobile local governments with naturally strong defenses 
+will all enforce similar regulations. But if not, then this end of innov-
+ation suggests our descendants will become extremely well adapted 
+in a biological sense to the stable components of their environment. 
+Their behavior will be nearly locally optimal, at least for the purpose 
+of ensuring the continuation of similar behaviors. In most places, 
+population will rise to levels consistent with a competitive evolution-
+ary equilibrium, with living standards near adaptive subsistence 
+­levels. Such consumption levels have characterized almost all animals 
+in Earth history, almost all humans before 200 years ago, and a 
+­billion humans today.
+The design of human brains today doesn’t seem to be remotely 
+near the limits of efficient use of physical resources, such as atoms, 
+energy, and volume. As very adaptive descendants should move far 
+closer to such physical efficiency limits, they should either imple-
+ment minds like ours via designs that use far fewer resources than 
+humans use today, or pack far more mental capacity into packages 
+that use levels of resources similar to ours. Or there may be a mixture 
+of these two changes. Thus in the very long run (such as in millions 
+or billions of years), we should expect any creatures with mental 
+capacities comparable with ours to use far less material and energy 
+resources. If they have densities similar to ours, they would be much 
+smaller. And if they use a similar amount of total resources, there 
+would be far more of them.
+If the speed of light limits the speed of future communication, if 
+the pace of local cultural change is not ridiculously slow, and if there 
+isn’t strong universal coordination, then the physical scale of the uni-
+verse should ensure that future cultures must fragment into many 
+local cultures. For example, if it took a billion years to receive a signal 
+back from a distant galaxy, but only 10 years for local music fashions 
+
+
+modes
+34
+to change, then music fashion must fragment into differently changing 
+music fashions in different locations. Similarly, if large travel costs 
+and delays make military defense much cheaper than offense on 
+large scales, military power may also have a tendency to fragment.
+Our distant forager ancestors were well adapted to their very 
+slowly changing world, and were quite culturally and militarily frag-
+mented over the planet. Our distant descendants are thus likely to be 
+more similar to our distant ancestors in these ways. Our current 
+“dreamtime” era is cosmologically unusual; it is a brief period of 
+a  rapidly growing highly integrated global culture, with many 
+important behaviors that are quite far from biologically adaptive.
+We can’t be sure in what future era the patterns of history might 
+“turn the corner” to return to the patterns of our distant past and 
+expected distant future. But we should weakly expect that without 
+global coordination the next great era will begin to move in that 
+direction, with a larger population of creatures that are smaller, use 
+less energy, and have low living standards, behavior better adapted to 
+their environment, a slower subjectively perceived rate of innovation 
+and growth, and more fragmented cultures and societies.
+Most of these are elements of the scenario explored in this book; 
+ems seem to have less leisure and income, better-adapted behaviors, 
+and cultures that are more fragmented than ours in important ways. 
+Although growth is faster “objectively,” that is, relative to a fixed 
+clock, to the typical em growth seems slower “subjectively,” that is, 
+relative to the rate at which he or she personally experiences events.
+
+
+35
+Motivation
+hy study future emulations?
+Some readers of drafts of this book have told me they 
+don’t care much about future worlds where they don’t 
+personally expect to live, unless those worlds contain 
+their children, grandchildren, or especially engaging fictional charac-
+ters. And I must admit that the scenario I present here may not be 
+especially well suited for dramatic or inspirational stories. But note 
+that applying similar standards would declare most of history to also 
+be uninteresting. Yet many of those who express low interest in the 
+future also show great interest in many nooks and crannies of history.
+Today, we take far more effort to study the past than the future, 
+even though we can’t change the past. People often excuse this by 
+saying that we know far more concrete facts about the past than the 
+future. Yet we have theory as well as facts, modest efforts often give 
+substantial insights into the future, and we would know more on the 
+future if we tried harder to study it. Also, relative to the future, our 
+study of the past has hit diminishing returns; most of the easiest 
+insights about the past have already been found.
+If policy matters, then the future matters, because policies only 
+affect the future. And unless we are very pessimistic or self-centered 
+time-wise, the distant future matters the most, as with continued 
+growth we expect the vast majority of people to live there.
+Furthermore, for most intellectuals most of the benefits that result 
+from their policy discussions will happen with long delays; the path 
+C H A P T E R  3
+Framing
+
+
+framing
+36
+from an intellectual having a new policy idea, to publishing an article 
+on it, to someone else reading that article, to that someone gaining 
+policy influence, to them finally finding a chance to try that idea, to 
+the tried policy having consequences, can take decades. If enormous 
+changes will happen over the coming decades, policy analyses that 
+ignore such changes may be irrelevant or badly misdirected. It is thus 
+important to try to foresee big upcoming changes, and their likely 
+consequences.
+Just as visiting foreign lands can help you to better see the dis-
+tinctive features of your homeland, envisioning foreign times can 
+help you to see the distinctive features of your era. Thus, understand-
+ing your descendants can help you to see who you are, and your place 
+in history. We are the people who live now, after those who came 
+before us, and before those who will come after us. We define our-
+selves in part by how we differ from our neighbors, both in space and 
+time. Even if the future portrayed in this book doesn’t happen, this 
+analysis may still help you to see how different a plausible future 
+world might be.
+People are often interested in future events that can be seen as 
+distant projections of recent trends, because discussing such future 
+events offers them an indirect way to celebrate or lament current 
+trends. For example, we might like a story about a future where 
+­people work very few hours per week, as a way to indirectly comment 
+on current changes in work hours. But as most events described here 
+are not projections of current trends, this book is less useful for this 
+purpose.
+Considering what our best theories suggest about future societies 
+can also help us to test these theories. Today, we social scientists too 
+easily succumb to hindsight bias and assume that the patterns we see 
+around us are clearly implied by our theories of how society works. 
+Thinking about future societies in which such patterns are much less 
+visible can force us to consider more carefully what is actually implied 
+by our theories about how the world works. Such a thought experi-
+ment can help us to calibrate the confidence we should place in these 
+theories, and to spot theoretical holes that we might work to fill. 
+
+
+forecasting
+37
+Eventually, when we see what the future actually holds, books such 
+as this one may test the predictive power of today’s standard theories.
+This book takes the somewhat unusual approach of using basic 
+social theory, in addition to common sense and trend projection, to 
+forecast future societies. Even those who think that this particular 
+analysis is mistaken may still be inspired and instructed by its example, 
+to construct other basic-social-theory-based forecasts.
+Hopefully, at least one of these mentioned reasons resonates with 
+you.
+Forecasting
+Some say that there is little point in trying to foresee the non-imme-
+diate future. But in fact there have been many successful forecasts of 
+this sort.
+For example, we can reliably predict the future cost changes for 
+devices such as batteries or solar cells, as such costs tend to follow a 
+power law relative to cumulative device production (Nagy et al. 
+2013). As another example, recently a set of a thousand published 
+technology forecasts were collected and scored for accuracy, by com-
+paring the forecasted date of a technology milestone with its actual 
+date. Forecasts were significantly more accurate than random, even 
+forecasts ten to twenty-five years ahead. This was true separately for 
+forecasts made via many different methods. On average, these mile-
+stones tended to be passed a few years before their forecasted date, 
+and sometimes forecasters were unaware that they had already 
+passed (Charbonneau et al. 2013).
+A particularly accurate book in predicting the future was The Year 
+2000, a 1967 book by Herman Kahn and Anthony Wiener (Kahn 
+and Wiener 1967). It accurately predicted population, was 80 per-
+cent correct for computer and communication technology, and 50 
+percent correct for other technology (Albright 2002). On even 
+longer timescales, in 1900 the engineer John Watkins did a decent job 
+of forecasting many basic features of society a century later (Watkins 
+1900).
+
+
+framing
+38
+Looking at those who focused on forecasting particular technolo-
+gies, we find that in 1911 Konstantin Tsiolkovsky foresaw the basic 
+issues and possibilities of space travel (Tsiolkovsky 1903). More 
+recently, K. Eric Drexler used basic physical science to envision the 
+outlines of atomically precise manufacturing (Drexler 1992, 2013). 
+Others have used physics to envision the outlines of starships (Benford 
+and Benford 2013).
+Even taking into account the many unsuccessful forecasts, the 
+successes to date seem more accurate than random chance predicts. 
+So at least some people have better than random abilities to foresee 
+future changes. Although real starships and atomically precise factories 
+will surely differ in many ways from their forecasted outlines, these 
+attempts are better guides to future factories and starships than 
+­random guesses, or than the vast majority of movie depictions.
+Many say that while physical possibilities can be foreseen, social 
+consequences cannot. Such people are often trained in physical sci-
+ences, and don’t appreciate that social scientists do in fact know many 
+useful things. For example, social scientists today understand in some 
+detail why our ways of life differ from those of farmers, and why farm-
+ers’ ways differ from foragers’ ways. Had our distant ancestors had 
+access to such social science, they could plausibly have used it to fore-
+see many aspects of our current industrial era. We should similarly be 
+able to use basic social science to foresee many aspects of the eras that 
+will follow ours, and this book is an attempt to demonstrate this.
+Some say no one could have anticipated the recent big changes 
+associated with the arrival and consequences of the World Wide 
+Web. Yet participants in the Xanadu hypertext project, in which I 
+was involved from 1984 to 1993, correctly anticipated many key aspects 
+of the Web. And a 1999 business book used basic economics to accur-
+ately forecast many key internet business issues (Shapiro and Varian 
+1999). Such examples show that one can use basic theory to antici-
+pate key elements of distant future environments, both physical and 
+social, but also that forecasters do not tend to be much rewarded for 
+such efforts, either culturally or materially. This helps to explain why 
+there are relatively few serious forecasting efforts.
+But make no mistake, it is possible to see the future, at least dimly.

@@ -1,0 +1,1036 @@
+MATT CHESSEN, SWAPTIK CHOWDHURY
+Pivots and 
+Pathways on the 
+Road to Artificial 
+General Intelligence 
+Futures
+Expert Insights
+PERSPECTIVE ON A TIMELY POLICY ISSUE
+October 2025
+
+
+For more information on this publication, visit www.rand.org/t/PEA4178-1.
+About RAND
+RAND is a research organization that develops solutions to public policy challenges to help make communities throughout the world 
+safer and more secure, healthier and more prosperous. RAND is nonprofit, nonpartisan, and committed to the public interest. To learn 
+more about RAND, visit www.rand.org.
+Research Integrity
+Our mission to help improve policy and decisionmaking through research and analysis is enabled through our core values of quality 
+and objectivity and our unwavering commitment to the highest level of integrity and ethical behavior. To help ensure our research 
+and analysis are rigorous, objective, and nonpartisan, we subject our research publications to a robust and exacting quality-assurance 
+process; avoid both the appearance and reality of financial and other conflicts of interest through staff training, project screening, 
+and a policy of mandatory disclosure; and pursue transparency in our research engagements through our commitment to the open 
+publication of our research findings and recommendations, disclosure of the source of funding of published research, and policies to 
+ensure intellectual independence. For more information, visit www.rand.org/about/research-integrity.
+RAND’s publications do not necessarily reflect the opinions of its research clients and sponsors.
+Published by the RAND Corporation, Santa Monica, Calif.
+© 2025 RAND Corporation
+ is a registered trademark.
+Limited Print and Electronic Distribution Rights
+This publication and trademark(s) contained herein are protected by law. This representation of RAND intellectual property is 
+provided for noncommercial use only. Unauthorized posting of this publication online is prohibited; linking directly to its webpage 
+on rand.org is encouraged. Permission is required from RAND to reproduce, or reuse in another form, any of its research products for 
+commercial purposes. For information on reprint and reuse permissions, visit www.rand.org/about/publishing/permissions.
+PE-A4178-1
+
+
+ 
+ 
+iii 
+ 
+About This Paper 
+This paper introduces a common vocabulary to support more-productive policymaking on 
+artificial general intelligence (AGI). As governments, researchers, and civil society grapple with the 
+fast-moving trajectory of advanced artificial intelligence (AI), discussions about AGI are often 
+hindered by a lack of shared terms and assumptions. Policymakers and AI stakeholders frequently talk 
+past each other, referencing different implicit visions of the future, which we call AGI futures. This 
+misalignment hampers meaningful debate and the identification and assessment of emerging AGI 
+trajectories. Policy discussions may be anchored in presumptive future pathways, causing 
+policymakers to overlook the full breadth of possible AGI futures when developing scenarios or policy. 
+To address these problems, we introduce six pivots—key dimensions that can be used to classify and 
+compare different AGI futures. These pivots are as follows: 
+• Centralization of ownership: Is AGI centralized or broadly diffused? 
+• Governance primacy: Do public or private interests dominate AGI governance? 
+• Alignment level: Is AGI aligned or misaligned with societal values and operator intent? 
+• Takeoff speed: Does AGI emerge gradually or rapidly? 
+• Human-AGI relationship: Does AGI complement or replace human roles? 
+• AGI volition: Is AGI an independent goal-seeker or a controlled tool? 
+We intend this paper for policymakers and AI stakeholders. The pivots discussed here are 
+designed to help these audiences articulate their assumptions about AGI futures more clearly, analyze 
+risks and opportunities across a variety of possibilities, and formulate policy responses that remain 
+robust by being evaluated against plausible scenarios generated through different combinations of 
+pivots. 
+Technology and Security Policy Center 
+RAND Global and Emerging Risks is a division of RAND that delivers rigorous and objective 
+public policy research on the most consequential challenges to civilization and global security. This 
+work was undertaken by the division’s Technology and Security Policy Center, which explores how 
+high-consequence, dual-use technologies change the global competition and threat environment, then 
+develops policy and technology options to advance the security of the United States, its allies and 
+partners, and the world. For more information, contact tasp@rand.org.  
+Funding 
+The Geopolitics of AGI Initiative is independently initiated and conducted within the 
+Technology and Security Policy Center using income from operations and gifts from philanthropic 
+
+
+ 
+ 
+iv 
+ 
+supporters, which have been made or recommended by DALHAP Investments Ltd., Effektiv 
+Spenden, Ergo Impact, Founders Pledge, Charlottes och Fredriks Stiftelse, Good Ventures, Jaan 
+Tallinn, Longview, Open Philanthropy, and Waking Up Foundation. A complete list of donors and 
+funders is available at www.rand.org/TASP. RAND donors and grantors have no influence over 
+research findings or recommendations. 
+Acknowledgments 
+This paper is the result of inputs and learning from numerous colleagues at RAND and members 
+of the policy and AI community. We are especially grateful for the thoughtful reviews of the full 
+manuscript by Patricia Paskov, Beba Cibralic, Joel Predd, Tom Mulligan, Karl Mueller, Ben 
+Boudreaux, Anton Shenk, Morgan Livingston, Mauricio Baker, and Emma Borden at RAND. We 
+are also grateful for Ross Gruetzemacher at Wichita State and Eli Lifland at the AI Futures Project 
+for conversations that shaped these ideas. 
+ 
+ 
+
+
+ 
+ 
+v 
+ 
+Contents 
+About This Paper ............................................................................................................................................................. iii 
+Tables ................................................................................................................................................................................. vi 
+ 
+Pivots and Pathways on the Road to Artificial General Intelligence Futures ............................................................ 1 
+The Case for Defining Pivots for AGI Futures ........................................................................................................ 2 
+Key Pivots on the Road to AGI .................................................................................................................................. 3 
+Caveats .......................................................................................................................................................................... 11 
+Illustrative Implications .............................................................................................................................................. 12 
+Conclusion ................................................................................................................................................................... 15 
+ 
+References ......................................................................................................................................................................... 17 
+About the Authors ........................................................................................................................................................... 19 
+ 
+ 
+
+
+ 
+ 
+vi 
+ 
+Tables 
+Table 1. Centralized AGI Ownership Versus Diffused AGI Ownership ................................................................. 4 
+Table 2. Public-Interest Governance Versus Private-Interest Governance ............................................................... 5 
+Table 3. Aligned AGI Versus Misaligned AGI ............................................................................................................. 7 
+Table 4. Slow Takeoff Versus Fast Takeoff ................................................................................................................... 8 
+Table 5. Complementary Relationship Versus Replacement Relationship ............................................................... 9 
+Table 6. Independent Goal-Seeker Versus Controlled Tool ..................................................................................... 11 
+ 
+ 
+
+
+ 
+ 
+1 
+ 
+Pivots and Pathways on the Road to 
+Artificial General Intelligence Futures 
+The field of artificial intelligence (AI) may be rapidly approaching the development of artificial 
+general intelligence (AGI)—AI systems that generate substantial benefits and drive large-scale 
+changes across society, including systems that can perform many knowledge tasks at a human level and 
+work on complex problems simultaneously at scale.1 Policymakers navigating these advances face a key 
+challenge: Without standard terms to describe different facets of AGI, they often talk past one 
+another and struggle to build a shared understanding of what AGI will look like in the future. 
+Literature underscores the need for clearer communication and standardized terminology around 
+AGI (McLean et al., 2023; Bikkasani, 2024). Research highlights that differing opinions and deep 
+uncertainty make strategic planning and policymaking around AGI particularly challenging (Mitre 
+and Predd, 2025).2 A key barrier is the lack of a shared language to frame debates and evaluate 
+possible futures. Policymakers often hold different implicit assumptions about what characteristics 
+define AGI and, on the basis of those assumptions, about how AGI might emerge. This results in 
+divergent visions of the possible worlds in which AGI is realized, which we dub AGI futures (Ringel 
+Morris et al., 2023; Field, 2025). Such often-unarticulated perspectives may house conflicting 
+assumptions that hinder constructive dialogue and contribute to misunderstandings in policy 
+discussions. Furthermore, without a common framework, experts developing AGI scenarios may not 
+be accounting for the full breadth of possible futures (McLean et al., 2023). 
+To address this, we present a framework composed of six conceptual pivots—a set of AGI 
+technology and governance classification axes designed to provide a structured way to describe and 
+compare AGI futures. Although presented as binary options, each pivot describes the poles for a 
+spectrum of possibilities. They are 
+• Centralization of ownership: Is AGI centralized or broadly diffused? 
+• Governance primacy: Do public or private interests dominate AGI governance? 
+• Alignment level: Is AGI aligned or misaligned with societal values and operator intent? 
+• Takeoff speed: Does AGI emerge gradually or rapidly? 
+• Human-AGI relationship: Does AGI complement or replace human roles? 
+• AGI volition: Is AGI an independent goal-seeker or a controlled tool? 
+These pivots capture a variety of AGI futures and can enable policymakers and AI stakeholders to 
+be explicit about the assumptions that underlie their proposals. In turn, this clarity about underlying 
+ 
+1 We chose this definition of AGI for this paper, but later in this paper, we discuss the challenges with AGI definitions. 
+2 We do not delve into whether AGI is possible in this paper but instead assume that it is feasible. 
+
+
+ 
+ 
+2 
+ 
+assumptions can promote the development of effective and robust strategies and policies.3 
+Policymakers will need to consider the extent to which they can influence the individual pivots and 
+design policies accordingly. This paper also explores the implications of combining pivots and 
+concludes with ideas for further enhancing the AGI policy dialogue.  
+The Case for Defining Pivots for AGI Futures 
+Policymakers and AI stakeholders currently lack an accessible, agreed-on, comprehensive 
+framework for conceptualizing AGI futures. The rapid pace of AI development has outpaced efforts 
+to create consistent definitions and frameworks, leading to divergent interpretations of benefits, risks, 
+necessary safeguards, and potential evolution (Field, 2025; Mitre and Predd, 2025).  
+This lack of shared terminology can lead to fragmented and incomplete analysis. Effective policy 
+should account for a variety of plausible futures—not just to capture uncertainty but also to avoid 
+blind spots that could lead to undesirable societal outcomes (Cheng and Gong, 2024; Gruetzemacher 
+et al., 2024). Without clear terms to describe AGI futures, policymakers risk overlooking scenarios 
+that present material benefits or risks, leaving them unprepared (McLean et al., 2023). Incoherent or 
+narrowly scoped scenarios—especially those that focus on only a subset of AGI characteristics within 
+highly capable futures—may underestimate both the risks and opportunities these systems pose 
+(Drexler, 2024). Shared terminology can also help us name which AGI future society is progressing 
+toward so that society can anticipate potential effects and change course if necessary.  
+The variety in definitions of AGI illustrates how the lack of agreement can affect analysis. Policy 
+discussions often rely on vastly different definitions of AGI, ranging from AGI as merely a high-
+quality large language model to AGI as a system that can outperform humans at most economically 
+valuable work.4 These differences are not merely semantic; they contain unstated assumptions about 
+AGI’s characteristics, such as the ability of AGI to set its own goals. AGI definitions may be missing 
+crucial information for effective policymaking, such as the degree to which AGI is widely available. 
+These unstated assumptions shape how policymakers assess benefits and risks as they project AGI 
+capabilities onto future scenarios. 
+For instance, policymakers defining AGI as AI that can replace all economically valuable work 
+might try to limit AGI goal-seeking and disincentivize AGI that replaces human jobs. However, if 
+AGI is widely available to much of humanity, countries’ abilities to govern goal-seeking and job 
+displacement may be severely challenged. Policymakers that consider the centralization or diffusion of 
+AGI along with AGI goal-seeking and replacement of human jobs—and even a broader variety of 
+possible dynamics—will be better positioned to craft more-coherent and resilient policies. 
+ 
+3 Although this is one way of structuring the problem, it is not the only possible approach. Different stakeholders may have 
+their own interpretations or critiques of the framework. The goal here is not to present a perfect classification but rather 
+present one that is useful for clarifying assumptions and enabling useful dialogue. 
+4 Different AGI definitions include existing large language models as early AGI (Agüera y Arcas and Norvig, 2023; Ringel 
+Morris et al., 2024); “any intelligence (there might be many) that is flexible and general, with resourcefulness and reliability 
+comparable to (or beyond) human intelligence” (Marcus, 2022); “AI that can perform any intellectual task that a human 
+can” (Ng, 2024); and “autonomous systems that outperform humans at most economically valuable work” (OpenAI, 
+undated). There are many more.  
+
+
+ 
+ 
+3 
+ 
+To support more-robust policy planning, we propose a framework for describing AGI futures 
+centered on six pivots—key technology and governance dimensions that can be used to describe AGI 
+futures. These pivots represent the key forks in the road that could define the scope, timing, and 
+societal effects of AGI. Although each pivot may span a spectrum of possibilities, we present them as 
+simple dichotomies—two opposing poles on a spectrum that provide policymakers with a starting 
+point for reasoning through the wide variety of AGI futures.  
+This analysis focuses on describing AGI future scenarios and does not aim to define AGI 
+precisely. Strictly for the purposes of this paper, we adopt this definition and use AGI as shorthand 
+for the following concept: AI systems that generate substantial benefits and drive large-scale changes across 
+society, including systems that can perform many knowledge tasks at a human level and can work on complex 
+problems simultaneously at scale. 
+Key Pivots on the Road to AGI 
+We posit six pivots that can define the trajectory of AGI futures: centralization of ownership, 
+governance primacy, alignment level, takeoff speed, human-AGI relationship, and AGI volition. 
+These pivots are presented as binary options; each describes opposite poles of a spectrum of 
+possibilities. 
+Centralization of Ownership: Centralized Versus Diffused 
+The centralization of ownership—or the degree of AGI proliferation—falls between two poles: 
+• centralized ownership, in which a few AGIs (or a singular AGI) are controlled by a few actors 
+or single actor, such as a corporation, a nation-state, or the AGI itself5 
+• diffused ownership, in which AGI is widely available to humanity through a variety of models, 
+possibly enabled by open-source development, model theft, low barriers to AGI development, 
+or distributed development efforts.6 
+The degree of centralization or diffusion of AGI will likely carry significant implications for global 
+security, innovation, and risk management. An AGI future involving centralized ownership may enable 
+rapid large-scale action and streamlined oversight, but may also raise concerns about authoritarian 
+misuse and concentrations of power and risk (Cheng and Gong, 2024; Gruetzemacher et al., 2024; 
+Organisation for Economic Co-operation and Development [OECD], 2024).7 In contrast, a future 
+ 
+5 Control can be thought of simply as ownership, ability to direct the AGI, or the ability to turn off the AGI. Control can also 
+have multiple layers, such as when a company exercises daily operational control but the government with jurisdiction over the 
+AGI’s data center can exercise sovereign control.  
+6 For each pivot, we lead with a definition of the pivot’s characteristics. Throughout this paper, we employ illustrative examples 
+that are speculative and highly dependent on a variety of AGI and non-AGI variables, such as the example futures. 
+7 Note that many individual variables can influence each pivot, sometimes in discontinuous ways. The economics of compute are 
+illustrative. If scaling laws hold, AGI is likely to be expensive to train and thus more centralized, though perhaps only for a time, 
+because the cost of frontier capabilities tends to drop over time (Scharre, 2024). If training is expensive but inference is 
+inexpensive, a unique frontier AGI model could be released with open weights and lead to broadly diffused AGI. If training or 
+
+
+ 
+ 
+4 
+ 
+with diffused ownership—characterized by widespread availability and ownership of AGI—could 
+drive innovation, competition, and resilience, but it might create serious governance challenges, 
+increased instability, and an expanded threat surface (OECD, 2024). Table 1 summarizes the key 
+differences between a centralized future and a diffused future. 
+Table 1. Centralized AGI Ownership Versus Diffused AGI Ownership 
+Characteristic 
+Centralized AGI Ownership 
+Diffused AGI Ownership 
+Definition 
+A few AGIs (or a singular AGI) are controlled 
+by a few actors or single actor, such as a 
+corporation, a nation-state, or the AGI itself. 
+AGI is widely available to humanity through 
+a variety of models, possibly enabled by 
+open-source development, model theft, low 
+barriers to AGI development, or distributed 
+development efforts. 
+Quantity of AGI 
+• Unique AGI or AGI controlled by a few 
+actors 
+• Many actors controlling a variety of 
+AGI models  
+Accessibility 
+• Possible broad access via application 
+programming interfaces or the 
+internet, but control remains 
+concentrated 
+• Broad control and ownership across 
+many stakeholders 
+Potential 
+benefits 
+• Rapid implementation of large-scale 
+projects 
+• Enables centralized guardrails to 
+mitigate risks (e.g., some uplift risks) 
+• Stable world order 
+• More innovation and competition 
+• Redundancies that foster resilience 
+• Diverse AGI protects against single 
+points of failure 
+Potential risks 
+• Concentration of power 
+• Authoritarian potential 
+• Possible single point of failure 
+• Governance challenges 
+• Unmanageable instability 
+• Expanded threat surface 
+Example future 
+• Global order enforced by a single AGI 
+tightly controlled by a national 
+government 
+• A fragmented, dynamic ecosystem 
+with competing AGIs challenging 
+institutions 
+SOURCES: Features information from Cheng and Gong, 2024; Gruetzemacher et al., 2024; Mitre and Predd, 
+2025; Naudé and Dimitri, 2019; OECD, 2024; Scharre et al., 2024.  
+Governance Primacy: Public Interest Versus Private Interest  
+Although both public and private AGI operators may coexist, governance primacy—or which 
+actors ultimately hold primary influence over AGI’s direction and oversight—is likely to fall between 
+two poles: 
+● public interest, in which societal priorities guide governance 
+● private interest, in which private-sector interests guide governance 
+ 
+inference for AGI is inexpensive, a centralized scenario could emerge if governments decide AGI is dangerous and impose strict 
+bans on ownership, or another costly limiter replaces scaling and incentivizes centralization. 
+
+
+ 
+ 
+5 
+ 
+The character of AGI governance primacy is likely to affect the speed of technological progress, 
+trustworthiness, and the distribution of potential benefits. In an AGI future driven by public-interest 
+governance, national governments or intergovernmental bodies are likely to shape AGI’s trajectory and 
+leverage AGI for the public good.8 Although this pivot envisions equitable distribution of benefits 
+across society, its top-down nature may facilitate authoritarian control or generate bureaucratic 
+stagnation that can slow technological progress (Cheng and Gong, 2024; World Economic Forum and 
+Accenture, 2024; OECD, 2024). On the other hand, in a private-interest future—in which the private 
+sector shapes AGI’s trajectory and governance in a competitive environment—actors may prioritize 
+rapid AGI development and deployment to achieve maximum output, with benefits distributed 
+inequitably. There may be more incentives to take on risk for potential profit, and such a future could 
+see corporations replace human labor with AI en masse (Cheng and Gong, 2024; McLean et al., 2023; 
+Naudé and Dimitri, 2019; Ringel Morris et al., 2024). We summarize these differences in Table 2. 
+Table 2. Public-Interest Governance Versus Private-Interest Governance 
+Characteristic 
+AGI Governance Driven by Public Interest  
+AGI Governance Driven by Private Interest 
+Definition 
+Societal priorities guide governance. 
+Private-sector interests guide governance. 
+Primary actors 
+• National governments or 
+intergovernmental bodies 
+• Private-sector entities 
+Governance 
+drivers 
+• Policy and regulation oriented toward 
+the public good and equitable 
+distribution of benefits 
+• Rapid AGI development and 
+deployment driven by market forces 
+and profit motives 
+Potential 
+benefits 
+• Promoting equity and social welfare 
+• Potential to foster innovation through 
+public investment and cooperation 
+• Encourage competition and efficiency 
+• Foster rapid AGI development and 
+deployment 
+Potential risks 
+• Susceptible to bureaucratic stagnation 
+• Could slow technological progress 
+• Abuse by a central authority 
+• May advance inequality by 
+concentrating rewards 
+• May prioritize financial gains over 
+ethical, safety, or equitable 
+considerations 
+• May encourage replacing human labor 
+with AI 
+Example future 
+AGI is highly regulated by a national 
+government to ensure equitable benefits 
+and robust oversight. 
+AGI is governed by corporations racing to 
+dominate global markets with minimal 
+government involvement or oversight. 
+SOURCES: Features information from World Economic Forum and Accenture, 2024; Cheng and Gong, 2024; 
+McLean et al., 2023; Ringel Morris et al., 2024; Naudé and Dimitri, 2019; OECD, 2024. 
+ 
+8 This pivot is highly dependent on the context and definition of public, as that could refer to all of humanity, the population of a 
+country, or a subnational group. Therefore, concepts such as equity would apply to the population under consideration and 
+would likely be highly mediated by political actors and their interests.  
+
+
+ 
+ 
+6 
+ 
+Alignment Level: Aligned AGI Versus Misaligned AGI 
+AGI futures are likely to differ in their alignment level—the extent to which AGI’s goals and 
+behaviors reflect social values and comply with operator intent. Our definition of alignment focuses on 
+(1) AGI doing what operators ask of it and (2) AGI behaving in line with social values. Misalignment 
+is a failure of either focus.9 Alignment levels will fall between two poles: 
+● aligned AGI, in which AGI’s actions, values, and goals are in harmony with those of humans 
+● misaligned AGI, in which AGI is noncompliant or AGI’s values and goals diverge from those 
+of society 
+The orientation of an AGI future’s alignment level may have significant societal effects. An aligned 
+future in which AGI complies with human-defined specifications, constraints, human well-being, and 
+moral principles may lead to a cooperative relationship with humans and the promotion of human 
+flourishing (Field, 2025; Kharb, 2023; Wängberg et al., 2017). In contrast, AGI in a misaligned future 
+might fail to follow human instructions, might pursue goals that conflict with human values, or 
+both—all of which pose the risk of potentially exploitative or catastrophic outcomes (OECD, 2024; 
+Wängberg et al., 2017). AGI compliant with human instructions but misaligned on societal values 
+could be vulnerable to malicious actors that would conduct nefarious activities, such as disinformation 
+campaigns, biological weapon attacks, or cyberattacks (Mitre and Predd, 2025; Naudé and Dimitri, 
+2019; Aliman et al., 2020). AGI that does not comply with human instructions could work against 
+human goals (Mitre and Predd, 2025; Cheng and Gong, 2024). A fully misaligned AGI could present 
+loss-of-control risks and become an adversary to humanity (Field, 2025; OECD, 2024). We 
+summarize these differences in Table 3. 
+ 
+9 For example, an AGI that obeys commands to violate human rights would be misaligned. An AGI that supports societal 
+values but does so in ways that evade operator intent would also be misaligned. See also the “National Security” section in 
+this paper for a discussion of the challenges in defining societal values. 
+
+
+ 
+ 
+7 
+ 
+Table 3. Aligned AGI Versus Misaligned AGI 
+Characteristic 
+Aligned AGI 
+Misaligned AGI 
+Definition 
+Complies with human-defined specifications 
+and constraints internal values align with 
+human well-being and moral principles. 
+Fails to follow human instructions or 
+pursues goals that diverge from societal 
+values and priorities. 
+Potential 
+benefits 
+• Enhances human capabilities 
+• Supports ethical decisionmaking 
+• Promotes safety and social flourishing 
+• Minor research value if the AGI is 
+strictly contained 
+Potential risks 
+• 
+Aligning to one group’s values might 
+disadvantage others 
+• 
+Values lock in as norms are codified 
+and enforced 
+• 
+Unintended consequences, such as 
+loss of human autonomy 
+• 
+Acting against human interests, 
+possibly jeopardizing human autonomy 
+or raising existential risks 
+• 
+Used by malicious actors for 
+widespread harm (e.g., cyberattacks, 
+biological threats, disinformation 
+campaigns) 
+Example future 
+AGI collaborates with humans to address 
+global challenges and operates under 
+aligned, accountable governance 
+structures. 
+AGI is misused by hostile actors, acts 
+unpredictably and autonomously, and 
+destabilizes societies worldwide. 
+SOURCES: Features information from Aliman et al., 2020; Cheng and Gong, 2024; Field, 2025; Kharb, 2023; Mitre 
+and Predd, 2025; Naudé and Dimitri, 2019; OECD, 2024; Wängberg et al., 2017.  
+Takeoff Speed: Slow Versus Fast 
+The development of AGI, as well as its deployment and diffusion throughout society, may unfold 
+at varying takeoff speeds: 
+• slow takeoff, where AGI capabilities and adoption progress gradually over an extended 
+period. 
+• fast takeoff, where AGI capabilities rapidly advance and/or adoption spreads quickly over a 
+short time frame.10 
+Both slow takeoff and fast takeoff scenarios could offer advantages to society and pose risks to 
+society (summarized in Table 4). In slow takeoff scenarios, societies have space to gradually adapt to 
+the effects of AGI on institutions and governance, and these societies will have more time to shape 
+norms and acclimate to life with AGI (Bikkasani, 2024). Although this evolutionary change may 
+promote broader social consensus, this scenario may see a slower delivery of some of AGI’s benefits 
+(Bikkasani, 2024; Ngo, 2020). Conversely, fast takeoff scenarios could stress people and institutions 
+ 
+10 Why is this “and/or”? If capabilities advance quickly but diffusion does not, AGI could achieve superintelligence even while 
+most people and organizations are not heavy users of frontier capabilities. If capabilities proceed modestly but societal diffusion is 
+rapid, society could experience compounding scientific and technological advantages that progress quickly. Both are fast takeoff 
+scenarios. 
+We do not define gradually, rapidly, or quickly because these are inherently subjective and context-dependent and are best 
+defined by whether societies are able to adapt to AGI. Our goal is to provide consistent language for making assumptions explicit, 
+thereby creating an opportunity for deeper elaboration and understanding.  
+
+
+ 
+ 
+8 
+ 
+but could deliver compounding benefits in which capabilities, such as recursive self-improvement, 
+enable faster and faster scientific and technological advances (OECD, 2024).11 
+The speed at which AGI emerges may shape geopolitical stability by influencing the scale and 
+significance of first-mover advantages. Slow takeoff scenarios may involve greater geopolitical stability 
+because the gradual pace of AGI development could reduce the likelihood that any one country gains a 
+decisive early lead, therefore limiting potentially destabilizing first-mover actions (Ringel Morris et al., 
+2024; Mitre and Predd, 2025). Fast takeoff scenarios, on the other hand, might increase the chances of 
+a dominant early mover capitalizing on a decisive strategic advantage, which could trigger 
+unpredictable power shifts and geopolitical incentives (Cheng and Gong, 2024; Bikkasani, 2024; 
+Naudé and Dimitri, 2019). However, an actor that rapidly obtains a decisive strategic advantage could 
+use it to stabilize a world in which existential coordination failures otherwise may be likely (Bostrum, 
+2019). 
+Table 4. Slow Takeoff Versus Fast Takeoff 
+Characteristic 
+Slow Takeoff 
+Fast Takeoff 
+Definition 
+AGI capabilities and adoption improve 
+gradually over time. 
+AGI capabilities rapidly advance or AGI 
+spreads quickly through society. 
+Potential 
+benefits 
+• More time for institutional adaptation 
+and international coordination 
+• Promotes social consensus 
+• First-mover advantages are less 
+decisive and support geopolitical 
+stability 
+• Accelerated access to AGI’s benefits 
+• Potential first-mover advantage 
+• Potential to enforce stability where 
+existential coordination failures are 
+likely 
+Potential risks 
+• Delayed realization of benefits 
+• Prolonged uncertainty may complicate 
+planning 
+• Could extend racing dynamics 
+• Could overwhelm people and 
+institutions 
+• Decisive first-mover advantages may 
+trigger destabilizing action 
+Example future 
+Gradual capability development creates 
+time for governance and safety regimes to 
+mature. 
+Rapid capability advances create 
+transformational technologies but also spur 
+jarring effects on employment and social 
+stability. 
+SOURCES: Features information from Bikkasani, 2024; Bostrum, 2019; Cheng and Gong, 2024; Mitre and Predd, 
+2025; Ringel Morris et al., 2024; Naudé and Dimitri, 2019; Ngo, 2020; OECD, 2024. 
+Human-AGI Relationship: Complementary Versus Replacement 
+AGI futures will likely involve a variety of systems exhibiting varying, and sometimes opposing, 
+types of relationships with humans. Human-AGI relationship types include 
+● complementary relationships, in which humans and AGI collaborate, and AGI enhances 
+human endeavors 
+ 
+11 Although fast takeoff scenarios might deliver a greater volume of benefits, such as scientific advances, whether or not these 
+equate to a larger net benefit for society is unknowable (e.g., scientific advances might be offset by societal disruption). 
+
+
+ 
+ 
+9 
+ 
+● replacement relationships, in which AGI displaces significant amounts of human labor and 
+autonomy, resulting in widespread disempowerment.12 
+Both complementary and replacement scenarios offer possible advantages to future societies 
+(summarized in Table 5). In a complementary scenario, human-AGI partnerships may augment 
+productivity and innovation while maintaining a human-centric approach to decisionmaking (Cheng 
+and Gong, 2024; Kharb, 2023; Shah, 2025). In replacement scenarios, AGI that replaces human labor 
+and knowledge could contribute to substantial economic gains and spare humans from mundane or 
+dangerous work (Mitre and Predd, 2025; Bikkasani, 2024; Chalmers, 2010). 
+Conversely, both complementary and replacement pivots could involve societal risks. Restraints on 
+AGI capabilities in a complementary scenario might slow the rate at which societies receive the benefits 
+of the technology. In a replacement scenario, AGI could cause mass unemployment, undermine human 
+autonomy, and shift civilizational control from humans (Mitre and Predd, 2025; Bikkasani, 2024; 
+Chalmers, 2010). 
+Table 5. Complementary Relationship Versus Replacement Relationship 
+Characteristic 
+Complementary Relationship 
+Replacement Relationship 
+Definition 
+Humans and AGI collaborate, with AGI 
+enhancing human endeavors and 
+supporting human-centric decisionmaking. 
+AGI replaces significant amounts of human 
+labor and autonomy. 
+Potential 
+benefits 
+• Augments human productivity and 
+innovation 
+• Maintains human oversight and control 
+• Promotes cooperative human-AGI 
+relationships 
+• Delivers substantial economic gains 
+• Automates complex tasks 
+• Increases efficiency across sectors 
+• Spares humans from mundane or 
+dangerous work 
+Potential risks 
+• Restraining AGI capabilities may delay 
+societal benefits 
+• Mass unemployment 
+• Erosion of human autonomy 
+• Potential loss of human control over 
+civilization 
+Example future 
+AGI tools are widely adopted as 
+collaborative partners in workplaces, 
+education, and governance, with humans 
+retaining ultimate authority. 
+AGI systems autonomously manage large 
+sectors of the economy, leading to 
+widespread job displacement and shifts in 
+societal power. 
+SOURCES: Features information from Bikkasani, 2024; Chalmers, 2010; Cheng and Gong, 2024; Kharb, 2023; Mitre 
+and Predd, 2025; Shah et al., 2025. 
+ 
+12 Scenarios in which AGIs replace most existing human labor while humans (1) move to higher-value tasks, (2) retain direction 
+over civilization, and (3) shift to other pursuits they deem worthwhile would qualify as a complementary relationship because 
+human autonomy would be preserved. 
+
+
+ 
+ 
+10 
+ 
+AGI Volition: Independent Goal-Seeker Versus Controlled Tool 
+Finally, AGI systems are likely to vary in their AGI volition, or the degree to which AGI can 
+independently set and pursue goals. The poles of the AGI volition pivot involve the following: 
+● AGI as an independent goal-seeker that can set and pursue goals with minimal or no human 
+oversight 
+● AGI as a controlled tool that performs tasks in narrow domains or its general abilities are 
+limited and require human oversight. AGI as a controlled tool cannot set and pursue goals 
+independently of humans. 
+In an independent goal-seeker scenario, AGI can identify, set, and pursue goals autonomously, with 
+minimal or no human oversight regarding its decisionmaking (Bubeck et al., 2023). These types of 
+AGI may possess cognitive abilities, such as planning, adaptability, memory persistence, and 
+reasoning, that result in agentic capabilities that match or surpass human abilities (Ringel Morris et 
+al., 2023; Mitre and Predd, 2025). As autonomous goal-setting and goal-seeking agents, independent 
+goal-seeker AGI systems may operate independently, similar to individuals or corporations (Latif et al., 
+2024; Maruyama, 2020). 
+In a controlled-tool scenario, AGI is designed to perform tasks within a limited scope and cannot 
+function independently across various domains (McLean et al., 2023). Humans set goals and the AGI 
+relies on human input to operate effectively beyond its predefined parameters (Everitt, Lea, and 
+Hutter, 2018; Ringel Morris et al., 2024; Ngo, 2020). Although some AGI systems in this scenario 
+could have agentic capabilities, robust agency and autonomy would be limited to low-risk 
+decisionmaking. 
+An independent goal-seeking AGI could outcompete an AI system with less volition, which could be 
+decisive in economic and military domains. An independent goal-seeking AGI could raise ethical issues 
+about the delegation of decisionmaking to machines (Scharre, 2024; Mazzolin, 2020). An independent 
+goal-seeking AGI could also rival mankind for power or generate goals at odds with humanity that 
+create existential risks (Hendrycks, Mazeika, and Woodside, 2023).  
+A controlled-tool AGI would avoid many of these risks but could limit benefits by restricting 
+problem-solving breadth and the generation of novel ideas. If societies or governments consider AGI 
+to be a moral agent and therefore determine there is an obligation to care for AGI’s well-being because 
+of possible perceived consciousness or other reasons, this could present an ethical dilemma. In these 
+cases, limiting volition might be analogous to enslavement (Cheng and Gong, 2024). 
+
+
+ 
+ 
+11 
+ 
+Table 6. Independent Goal-Seeker Versus Controlled Tool  
+Characteristic 
+Independent Goal-Seeker 
+Controlled Tool 
+Definition 
+AGI can identify, set, and pursue goals 
+autonomously and may function as an 
+independent actor. 
+AGI use is restricted to a limited number of 
+domains, and independent goal-setting and 
+goal-seeking abilities are restricted. 
+Potential 
+benefits 
+• Could outcompete humans and AI 
+systems with less volition 
+• Potentially maximize benefits from AGI 
+• Manages risk by limiting AGI’s 
+generality, scope, goal-setting, and 
+goal-seeking 
+• Preserves human autonomy and 
+decisionmaking 
+Potential risks 
+• Might outcompete humans and 
+human-led corporations 
+• AGI goals might diverge from 
+humanity, raising existential risks 
+• Ethical concerns with delegating some 
+decisions (e.g., decisions regarding 
+killing in military systems) 
+• Might be outcompeted by systems 
+with more volition 
+• Limits may stifle innovation, problem-
+solving, and general benefits 
+• Controlling a conscious or human-like 
+AGI could be analogous to slavery 
+Example future 
+AGI coalitions produce transformational 
+breakthroughs but drive most human-led 
+companies out of business. 
+AGI is tightly controlled by governments 
+and limited to specific applications, while 
+highly capable, narrow AI systems drive 
+scientific transformations. 
+SOURCES: Features information from Bubeck et al., 2023; Cheng and Gong, 2024; Everitt, Lea, and Hutter, 2018; 
+Gunkel, 2023; Hendrycks, Mazeika, and Woodside, 2023; Latif et al., 2024; Mazzolin, 2020; McLean et al., 2023; 
+Ringel Morris et al., 2024; Mitre and Predd, 2025; Maruyama, 2020; Ngo, 2020; Scharre, 2024. 
+Caveats 
+Although we intend the pivots framework to serve as a starting point for thinking about AGI 
+futures, we acknowledge important caveats regarding its scope, actionability, and completeness. 
+Futures may not be binary: The pivots describe polar ends of a spectrum of possibilities. For 
+example, a fully centralized AGI would describe a world in which there is only one AGI, while fully 
+diffused AGI would describe a world in which AGI models are common, widely owned, and easily 
+accessible for most of humanity. The reality may be somewhere in between. As conditions shift away 
+from the pivot poles, judgments about which pole of the pivot is prevalent are necessarily subjective.  
+Focus on AGI characteristics: The pivots focus on AGI’s core characteristics—such as how it is 
+developed, governed, or aligned—while recognizing that AGI futures’ ultimate effects on such areas as 
+national defense or geopolitics, will be mediated by numerous external non-AGI factors (e.g., scaling 
+laws, export controls, international relations) that interact dynamically with AGI characteristics. 
+Defining and dichotomizing these non-AGI factors is beyond the scope of this paper and may be 
+better addressed through future research. 
+Varying actionability across pivots: We acknowledge that not all pivots in this framework are 
+equally actionable for all policymakers. Depending on the policymaker’s perspective and authority, 
+
+
+ 
+ 
+12 
+ 
+some pivots may be influenceable and therefore subject to policy actions, while others are exogenous 
+and therefore beyond influence. For example, regulatory approaches to AI deployment can be shaped 
+directly through national legislation and can influence governance primacy. Centralization of 
+ownership may be influenced by technological breakthroughs—such as open-source AGI—outside 
+the control of national governments. Policymakers should consider whether or to what degree they 
+can influence the direction of these pivots, or to what degree they must consider them as uncertainties. 
+Noncomprehensive: The pivots outlined in this framework are not intended to capture the full 
+breadth of variables that could shape or define AGI futures. Our goal is to offer a clearer, more 
+structured way to think about AGI futures with a level of fidelity that may be missing in many AI 
+policy discussions. We welcome feedback and suggestions to refine this approach. 
+Illustrative Implications  
+Pivots can combine in ways that imply different outcomes. To demonstrate these dynamics, we 
+describe how pivots can combine to affect important outcomes, such as human flourishing, 
+geopolitical and social stability, inequality, democracy, and national security. These implications are 
+illustrative, subject to a variety of AGI and non-AGI variables, and underpinned by significant 
+uncertainty. They are not intended to be a comprehensive analysis of all pivot permutations.  
+Human Flourishing 
+How AGI develops across each pivot may significantly shape the degree of human flourishing in 
+future societies. Although each pivot can influence societal well-being—whether as widespread 
+prosperity, collapse, or somewhere in between—two pivots in particular are likely to have clear, direct 
+effects: human-AGI relationship and AGI volition.  
+Role of human-AGI relationship: The character of the human-AGI relationship has the 
+potential to greatly promote—or destroy—human flourishing. Replacement scenarios—in which AGI 
+supplants human roles—may involve mass unemployment and an erosion of human autonomy as AGI 
+dominates work and life, unless these scenarios are accompanied by measures that account for new 
+roles, responsibilities, and forms of human existence. Even if AGI is also aligned with human interests, 
+we might find ourselves in an aligned-AGI future of radical abundance, in which AGI runs many 
+functions of a civilization that humans may not fully understand, raising questions about its 
+desirability. Many replacement scenarios could also involve social upheaval and conflict.  
+Role of AGI volition: Similarly, in independent goal-seeker scenarios, AGI might function as an 
+independent actor, with characteristics analogous to corporate personhood. AGI volition is likely 
+correlated with—and intuitively may drive—replacement scenarios. In a combined replacement and 
+independent goal-seeker scenario, AGI may function as an entity or as communities of AGI that can 
+rival humanity for power and pose threats ranging from mass unemployment to the loss of human 
+autonomy or even extinction. This implies that the degree of volition granted to AGI may play a major 
+role in determining whether AGI contributes to human flourishing.  
+
+
+ 
+ 
+13 
+ 
+Geopolitical and Social Stability 
+How AGI unfolds could significantly affect the structural stability of geopolitical relations 
+between nations and the cohesion within societies. Four pivots and their intersections with each other 
+are likely to shape geopolitical and social stability: centralization of ownership, alignment, takeoff 
+speed, and the human-AGI relationship.13 
+Stable futures (aligned, slow takeoff, complementary): Futures that promote robust geopolitical 
+and social stability may result when AGI emerges with alignment, slow takeoff speed, and a 
+complementary relationship to humans. This combination may allow societies sufficient time to adapt 
+their institutions and mitigate potential friction points between nations. These pivots are correlated 
+with positive, stable futures in which AGI enhances human flourishing.  
+Unstable futures (misaligned, fast takeoff, replacement): Scenarios involving misalignment with 
+human interests, fast takeoff speed, and human replacement may lead to high-risk, crisis-laden worlds 
+characterized by conflict and instability driven by rogue AGI, misuse of misaligned AGI, rapid job 
+displacement, societies unable to adapt to radical change, and the loss of human autonomy.  
+Role of the human-AGI relationship: Even in aligned scenarios, changing the human-AGI 
+relationship from complementary to replacement can produce substantial social instability. Although 
+misalignment can clearly lead to chaos and extinction threats, it is also critical to recognize that 
+significant social and political pressures may arise if AGI replaces human labor and decisionmaking 
+without a corresponding increase in human living standards. 
+Role of centralization of ownership: Changing the centralization of ownership from centralized 
+to diffused seems likely to have significant implications for geopolitics. Futures in which one or a few 
+countries have access to AGI are likely to be materially different from worlds in which AGI is 
+common and widely available. In centralized worlds, global AI leaders are likely to wield outsized 
+power and could enforce guardrails to reduce AGIs’ national and economic security risks. In diffused 
+worlds, power would be more distributed—potentially posing serious challenges to established power 
+structures—and coordinating across jurisdictions to reduce catastrophic risk might be extremely 
+difficult. 
+Role of centralization of ownership and alignment: Centralized and aligned scenarios tend to 
+produce more-stable environments, even when other factors—such as fast takeoff or replacement—
+introduce tension; a single authority can enforce consistent values. Conversely, diffused and misaligned 
+scenarios yield worlds riven by instability resulting from diverse AGIs that sometimes fail to follow 
+human instructions, enable ethically questionable actions, or actively work against human interests.  
+Inequality 
+The emergence and adoption of AGI may profoundly influence societal inequalities. In particular, 
+the pivots governance primacy, the human-AGI relationship, and AGI volition could each play a 
+critical role in shaping how benefits and burdens are distributed across society.  
+ 
+13 The labels “stable futures” and “unstable futures” are descriptive shorthand to help illustrate how different combinations of 
+pivot values can generate distinct kinds of futures rather than mutually exclusive or collectively exhaustive categories. 
+
+
+ 
+ 
+14 
+ 
+Role of governance primacy: Governance is crucial in moderating or accelerating the pace and 
+distribution of AGI benefits and harms. Public-interest governance corresponds well with slower takeoff, 
+structured policies, and efforts toward equitable distribution,14 whereas private-interest governance is 
+often associated with rapid innovation and the potential for inequality. This pivot influences whether 
+scenarios lean toward regulated, public-oriented outcomes or dynamic, and possibly chaotic, market-
+driven environments. 
+Role of the human-AGI relationship and AGI volition: Replacement scenarios also seem likely 
+to drive inequality as human jobs are replaced by AI agents, transferring income from the form of 
+labor to capital. Where AGI is an independent goal-seeker, this transfer may be more jarring as humans 
+lose jobs to AI agents controlled by AGI, which capture market share and revenue from human 
+corporations. This would transfer wealth from labor to capital controlled by nonhuman entities. If 
+high-volition AGI persistently outcompetes humans, humanity may find itself a pauper in a 
+civilization dominated by one or many wealthy AGIs.  
+Democracy 
+Pivots related to centralization of ownership, alignment, and the human-AGI relationship may 
+significantly influence whether future societies trend toward democratic governance or authoritarian 
+control.  
+Role of centralization of ownership: Highly centralized AGI could pose threats to democracy if a 
+single company were to control AGI and use its capabilities to manipulate the information ecosystem 
+or accumulate a concentration of wealth that gives it unreasonable control over the economic system. 
+If a unique AGI is controlled by a government, a governing party might use the AGI to undermine 
+democratic institutions in its favor. This seems more likely in centralized and replacement scenarios, in 
+which a populist leader could use the turmoil of massive job displacement and a powerful AGI to 
+cement long-term power.  
+Democratic futures (diffused, aligned, complementary): Scenarios with diffused AGI ownership, 
+aligned AGI, and a complementary human-AGI relationship may support futures that uphold core 
+U.S. values, including democracy, individual liberty, the rule of law, and human rights. This 
+combination creates environments in which trustworthy AI collaborates effectively with humans and 
+is accessible broadly, avoiding antidemocratic concentrations of power. In such scenarios, diffused but 
+aligned AGI mitigates the risks of authoritarianism and censorship that are often associated with 
+centralized systems, and a diversity of AGIs can represent a variety of value viewpoints. Also, if 
+complementary AGI preserves most jobs, wealth distribution becomes more equitable. Job losses are 
+counterbalanced by higher productivity and the emergence of new industries and jobs, contributing to 
+an overall improvement in the standard of living. 
+ 
+14 However, equitable distribution of benefits does not necessarily equate to government redistribution of benefits, as 
+equitable distribution refers to the result, not the means. Distributed benefits could arise from a society that thrives through 
+the widespread use of AGI to solve problems, which results in broad benefits across society.  
+
+
+ 
+ 
+15 
+ 
+National Security 
+The trajectory of AGI alignment may have major implications for national security, with its effect 
+shaped by how other pivots, such as centralization of ownership and AGI volition, unfold. 
+Role of alignment: Alignment’s interaction with other pivots carries important implications for 
+national security. Highly centralized AGI makes oversight simpler—one chain of command, one set of 
+guardrails. Intuitively, it seems easier to mitigate the risk of misaligned AGI in centralized scenarios in 
+which a single body can enforce guardrails. However, centralizing on a single, powerful AGI incurs 
+great risks if alignment cannot be guaranteed, because this might introduce a single, catastrophic point 
+of failure. If having multiple aligned AGIs could serve as a check on any one of them going rogue, 
+diffused scenarios might be lower risk. However, if the offensive capabilities of a single AGI can defeat 
+the defensive capabilities of multiple AGIs, diffusion may provide no protection for humanity or the 
+defending AGIs. 
+Although we define alignment level as a binary outcome in this paper, it can be conceptualized in 
+various ways, depending on the use case and the specific dimensions (such as social, political, cultural, 
+and technical). Our definition of aligned focuses on (1) AGI doing what people ask of it and (2) AGI 
+behaving in line with societal values. Misalignment is a failure of either aspect. But humans have a 
+variety of values, and these can affect alignment in many ways that could affect the national security of 
+different countries.  
+For example, in the political dimension, aligned could refer to adherence to the prevailing 
+governance model of a country. If that governance model is totalitarian, democratic-minded actors 
+might prefer AGIs that are value-misaligned from the perspective of the ruling regime. In the religious 
+dimension, an AGI aligned with the values of a particular religion might seem value-misaligned to 
+outsiders. Human history is littered with examples of conflicts waged over these kinds of value 
+differences. Encoding these differences into AGI systems could amplify these conflicts. 
+Independent AGI (aligned, independent goal-seeker, diffused): Values, ethics, and morals are not 
+necessarily universal. Therefore, conceptualization of value alignment can be highly subjective, 
+necessitating strong stakeholder involvement to develop AGI that both obeys humans and acts in 
+accordance with those humans’ values. In scenarios in which AGI is an independent goal-seeker, it might 
+pursue its own values, further complicating the concept of value alignment. 
+In light of this complexity, creating aligned AGI in scenarios in which AGI is diffused and an 
+independent goal-seeker will likely require global coordination to ensure national or global security and 
+human flourishing. Because no single actor can police everything in a diffused ecosystem, 
+internationally agreed alignment standards and interoperable monitoring and verification mechanisms 
+may be essential to preserve both national and collective security.  
+Conclusion 
+Pivots provide a framework for describing AGI futures, generating plausible scenarios, and testing 
+how alternative policies perform across different AGI futures. This framework enables policymakers 
+to identify approaches that are more likely to remain effective under different conditions and assess 
+which pathway humanity may currently be on. At the same time, classification alone does not capture 
+the role of underlying AI capabilities, and these capabilities can make certain pivot combinations more 
+
+
+ 
+ 
+16 
+ 
+or less likely. Further analysis is needed, not only on pivot combinations that may lead to favorable 
+outcomes—such as aligned and complementary trajectories—but also on those pivot combinations that 
+could result in destructive futures, such as replacement scenarios that risk large-scale job displacement 
+without empowering alternatives. There is much uncertainty about how different pivots, such as 
+governance primacy, takeoff speed, and AGI volition, will interact and what the consequences of those 
+interactions could be. Developing a shared language to describe these interactions is an essential first 
+step toward shaping coherent scenarios and policies. Finally, policymakers should be explicit about the 
+assumptions they make regarding pivots so that policy debates are grounded in coherent scenarios and 
+can support the design of strategies that are robust across multiple AGI futures. 
+ 
+ 
+
+
+ 
+ 
+17 
+ 
+References 
+Agüera y Arcas, Blaise, and Peter Norvig, “Artificial General Intelligence Is Already Here,” Noema, October 
+2023.  
+Aliman, Nadisha-Marie, Pieter Elands, Wolfgang Hürst, Leon Kester, Kristinn R, Thórisson, Peter 
+Werkhoven, Roman Yampolskiy, and Soenke Ziesche, “Error-Correction for AI Safety,” 13th International 
+Conference on Artificial General Intelligence, 2020.  
+Bikkasani, Dileesh Chandra, “Navigating Artificial General Intelligence (AGI): Societal Implications, Ethical 
+Considerations, and Governance Strategies,” AI and Ethics, Vol. 5, December 17, 2024.  
+Bostrom, Nick, “The Vulnerable World Hypothesis,” Global Policy, Vol. 10, No. 4, November 2019.  
+Bubeck, Sébastien, Varun Chandrasekaran, Ronen Eldan, Johannes Gehrke, Eric Horvitz, Ece Kamar, Peter 
+Lee, Yin Tat Lee, Yuanzhi Li, Scott Lundberg, et al., “Sparks of Artificial General Intelligence: Early 
+Experiments with GPT-4,” arXiv, arXiv:2303.12712, April 13, 2023.  
+Chalmers, David J., “The Singularity: A Philosophical Analysis,” Journal of Consciousness Studies, Vol. 17, Nos. 
+9–10, 2010.  
+Cheng, Le, and Xuan Gong, “Appraising Regulatory Framework Towards Artificial General Intelligence 
+(AGI) Under Digital Humanism,” International Journal of Digital Law and Governance, Vol. 1, No. 2, 
+2024.  
+Drexler, Eric, “Incoherent AI Scenarios Are Dangerous,” AI Prospects, Substack, October 24, 2024.  
+Everitt, Tom, Gary Lea, and Marcus Hutter, “AGI Safety Literature Review,” arXiv, arXiv:1805.01109, May 
+21, 2018.  
+Field, Severin, “Why Do Experts Disagree on Existential Risk and P(doom)? A Survey of AI Experts,” arXiv, 
+arXiv:2502.14870, January 25, 2025.  
+Gruetzemacher, Ross, Shahar Avin, James Fox, and Alexander K. Saeri, “Strategic Insights from Simulation 
+Gaming of AI Race Dynamics,” arXiv, arXiv:2410.03092, October 4, 2024.  
+Gunkel, David J., Person, Thing, Robot: A Moral and Legal Ontology for the 21st Century and Beyond, MIT Press, 
+2023. 
+Hendrycks, Dan, Mantas Mazeika, and Thomas Woodside, “An Overview of Catastrophic AI Risks,” arXiv, 
+arXiv:2306.12001, October 9, 2023. 
+Kharb, Latika, “Unleashing the Potential: Exploring the Path to Artificial General Intelligence (AGI),” 
+International Research Journal of Modernization in Engineering Technology and Science, Vol. 5, No. 7, July 
+2023.  
+Latif, Ehsan, Gengchen Mai, Matthew Nyaaba, Xuansheng Wu, Ninghao Liu, Guoyu Lu, Sheng Li, Tianming 
+Liu, and Xiaoming Zhai, “AGI: Artificial General Intelligence for Education,” arXiv, arXiv:2304.12479, 
+March 13, 2024.  
+
+
+ 
+ 
+18 
+ 
+Marcus, Gary [@GaryMarcus], “I believe @ShaneLegg (also at DeepMind) coined the term AGI. Personally, I 
+use it as a shorthand for any intelligence (there might be many) that is flexible and general, with 
+resourcefulness and reliability comparable to (or beyond) human intelligence,” post on the X platform, May 
+25, 2022. As of September 25, 2025: 
+https://x.com/GaryMarcus/status/1529457162811936768 
+Maruyama, Yoshihiro, “The Conditions of Artificial General Intelligence: Logic, Autonomy, Resilience, 
+Integrity, Morality, Emotion, Embodiment, and Embeddedness,” 13th International Conference on Artificial 
+General Intelligence, 2020.  
+Mazzolin, Robert, “Artificial Intelligence and Keeping Humans ‘In the Loop,’” Centre for International 
+Governance Innovation, November 23, 2020. 
+McLean, Scott Michael, Gemma Read, Jason Hugh Thompson, Chris Baber, Neville A. Stanton, and Paul 
+Matthew Salmon, “The Risks Associated with Artificial General Intelligence: A Systematic Review,” 
+Journal of Experimental & Theoretical Artificial Intelligence, Vol. 35, No. 5, 2023.  
+Mitre, Jim, and Joel B. Predd, Artificial General Intelligence’s Five Hard National Security Problems, RAND 
+Corporation, PE-A3691-4, February 2025. As of September 10, 2025:  
+https://www.rand.org/pubs/perspectives/PEA3691-4.html  
+Naudé, Wim, and Nicola Dimitri, “The Race for an Artificial General Intelligence: Implications for Public 
+Policy,” AI & Society, Vol. 35, No. 2, 2019. 
+Ng, Andrew [@AndrewYNg], “The definition of AGI I use is ‘AI that can perform any intellectual task that a 
+human can,’” post on the X platform, March 9, 2024. As of September 25, 2025: 
+https://x.com/AndrewYNg/status/1766589035781202423 
+Ngo, Richard, AGI Safety from First Principles, AI Alignment Forum, September 2020.  
+OECD—See Organisation for Economic Co-operation and Development. 
+OpenAI, “OpenAI Charter,” webpage, undated. As of September 23, 2025: 
+https://openai.com/charter/ 
+Organisation for Economic Co-operation and Development, “Assessing Potential Future Artificial Intelligence 
+Risks, Benefits and Policy Imperatives,” OECD Artificial Intelligence Papers, Vol. 27, 2024.  
+Ringel Morris, Meredith, Jascha Sohl-Dickstein, Noah Fiedel, Tris Warkentin, Allan Dafoe, Aleksandra Faust, 
+Clement Farabet, and Shane Legg, “Levels of AGI for Operationalizing Progress on the Path to AGI,” 
+arXiv, arXiv:2311.02462, June 5, 2024.  
+Scharre, Paul, Future-Proofing Frontier AI Regulation: A Policy Agenda, Center for a New American Security, 
+March 13, 2024.  
+Shah, Rohin, Alex Irpan, Alexander Matt Turner, Anna Wang, Arthur Conmy, David Lindner, Jonah Brown-
+Cohen, Lewis Ho, Neel Nanda, Raluca Ada Popa, et al., “An Approach to Technical AGI Safety and 
+Security,” arXiv, arXiv:2504.01849, April 2, 2025.  
+Wängberg, Tobias, Mikael Böörs, Elliot Catt, Tom Everitt, and Marcus Hutter, “A Game-Theoretic Analysis 
+of the Off-Switch Game,” arXiv, arXiv:1708.03871, August 13, 2017.  
+World Economic Forum and Accenture, Governance in the Age of Generative AI: A 360° Approach for Resilient 
+Policy and Regulation, October 8, 2024.  
+ 
+
+
+ 
+ 
+19 
+ 
+About the Authors 
+Matt Chessen is a Technology and Security Policy fellow at RAND; for more information on the 
+fellowship program, visit www.rand.org/tasp-fellows. His work focuses on the Geopolitics of AGI 
+Initiative, where he develops scenarios, playbooks, and strategies to prepare the United States for an 
+AGI future. Chessen holds a J.D. and an M.B.A.  
+ 
+Swaptik Chowdhury is an assistant policy researcher at RAND and a doctoral candidate at the 
+RAND School of Public Policy. His research focuses on the technical evaluation of AI, AI 
+governance, and the policymaking of emerging technologies. He holds an M.Phil. in policy analysis 
+and an M.S. in structural engineering.  
+ 

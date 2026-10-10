@@ -1,0 +1,1131 @@
+Superintelligence
+Paths, Dangers, Strategies
+nick bostrom
+Director, Future of Humanity Institute  
+Director, Strategic Artificial Intelligence Research Centre 
+Professor, Faculty of Philosophy & Oxford Martin School  
+University of Oxford
+1
+Preview - Copyrighted Material
+
+
+1
+Great Clarendon Street, Oxford, OX2 6DP,  
+United Kingdom
+Oxford University Press is a department of the University of Oxford. 
+It furthers the University’s objective of excellence in research, scholarship, 
+and education by publishing worldwide. Oxford is a registered trade mark of 
+Oxford University Press in the UK and in certain other countries
+© Nick Bostrom 2014
+The moral rights of the author have been asserted
+First published in 2014 
+First published in paperback in 2016
+Impression: 1
+All rights reserved. No part of this publication may be reproduced, stored in 
+a retrieval system, or transmitted, in any form or by any means, without the 
+prior permission in writing of Oxford University Press, or as expressly permitted 
+by law, by licence or under terms agreed with the appropriate reprographics 
+rights organization. Enquiries concerning reproduction outside the scope of the 
+above should be sent to the Rights Department, Oxford University Press, at the 
+address above
+You must not circulate this work in any other form 
+and you must impose this same condition on any acquirer
+Published in the United States of America by Oxford University Press 
+198 Madison Avenue, New York, NY 10016, United States of America
+British Library Cataloguing in Publication Data
+Data available
+Library of Congress Control Number: 2015956648
+ISBN 978–0–19–873983–8
+Printed in Great Britain by  
+Clays Ltd, St Ives plc
+Links to third party websites are provided by Oxford in good faith and 
+for information only. Oxford disclaims any responsibility for the materials 
+contained in any third party website referenced in this work.
+Preview - Copyrighted Material
+
+
+growth modes and big history  |  1
+Chapter 1
+Past developments  
+and present capabilities
+W
+e begin by looking back. History, at the largest scale, seems 
+to exhibit a sequence of distinct growth modes, each much 
+more rapid than its predecessor. This pattern has been taken 
+to suggest that another (even faster) growth mode might be possible. 
+However, we do not place much weight on this observation—this is not 
+a book about “technological acceleration” or “exponential growth” or 
+the miscellaneous notions sometimes gathered under the rubric of “the 
+singularity.” Next, we review the history of artificial intelligence. We 
+then survey the field’s current capabilities. Finally, we glance at some 
+recent expert opinion surveys, and contemplate our ignorance about 
+the timeline of future advances.
+Growth modes and big history
+A mere few million years ago our ancestors were still swinging from the 
+branches in the African canopy. On a geological or even evolutionary 
+timescale, the rise of Homo sapiens from our last common ancestor with 
+the great apes happened swiftly. We developed upright posture, oppos-
+able thumbs, and—crucially—some relatively minor changes in brain size 
+and neurological organization that led to a great leap in cognitive ability. 
+As a consequence, humans can think abstractly, communicate complex 
+thoughts, and culturally accumulate information over the generations far 
+better than any other species on the planet.
+Preview - Copyrighted Material
+
+
+2  |  Past developments and present capabilities
+These capabilities let humans develop increasingly efficient product-
+ive technologies, making it possible for our ancestors to migrate far away 
+from the rainforest and the savanna. Especially after the adoption of agri-
+culture, population densities rose along with the total size of the human 
+population. More people meant more ideas; greater densities meant that 
+ideas could spread more readily and that some individuals could devote 
+themselves to developing specialized skills. These developments increased 
+the rate of growth of economic productivity and technological capacity. 
+Later developments, related to the Industrial Revolution, brought about a 
+second, comparable step change in the rate of growth.
+Such changes in the rate of growth have important consequences. A 
+few hundred thousand years ago, in early human (or hominid) prehis-
+tory, growth was so slow that it took on the order of one million years for 
+human productive capacity to increase sufficiently to sustain an addition-
+al one million individuals living at subsistence level. By 5000 bc, following 
+the Agricultural Revolution, the rate of growth had increased to the point 
+where the same amount of growth took just two centuries. Today, follow-
+ing the Industrial Revolution, the world economy grows on average by 
+that amount every ninety minutes.1
+Even the present rate of growth will produce impressive results if main-
+tained for a moderately long time. If the world economy continues to 
+grow at the same pace as it has over the past fifty years, then the world will 
+be some 4.8 times richer by 2050 and about 34 times richer by 2100 than 
+it is today.2
+Yet the prospect of continuing on a steady exponential growth path 
+pales in comparison to what would happen if the world were to experi-
+ence another step change in the rate of growth comparable in magnitude 
+to those associated with the Agricultural Revolution and the Industrial 
+Revolution. The economist Robin Hanson estimates, based on historical 
+economic and population data, a characteristic world economy doubling 
+time for Pleistocene hunter–gatherer society of 224,000 years; for farm-
+ing society, 909 years; and for industrial society, 6.3 years.3 (In Hanson’s 
+model, the present epoch is a mixture of the farming and the industrial 
+growth modes—the world economy as a whole is not yet growing at the 
+6.3-year doubling rate.) If another such transition to a different growth 
+mode were to occur, and it were of similar magnitude to the previous 
+two, it would result in a new growth regime in which the world economy 
+would double in size about every two weeks.
+Preview - Copyrighted Material
+
+
+growth modes and big history  |  3
+Such a growth rate seems fantastic by current lights. Observers in 
+earlier epochs might have found it equally preposterous to suppose that 
+the world economy would one day be doubling several times within a 
+single lifespan. Yet that is the extraordinary condition we now take to be 
+ordinary.
+The idea of a coming technological singularity has by now been widely 
+popularized, starting with Vernor Vinge’s seminal essay and continuing 
+with the writings of Ray Kurzweil and others.4 The term “singularity,” 
+(a)
+(b)
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+1700
+1750
+1800
+1850
+1900
+1950
+2000
+World GDP in trillions (2012 Int$)
+Year
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+2000
+0
+–2000
+–4000
+–6000
+–8000
+World GDP in trillions (2012 Int$)
+Year
+Figure 1  Long-term history of world GDP. Plotted on a linear scale, the history of the 
+world economy looks like a flat line hugging the x-axis, until it suddenly spikes vertically 
+upward. (a) Even when we zoom in on the most recent 10,000 years, the pattern remains 
+essentially one of a single 90° angle. (b) Only within the past 100 years or so does the curve 
+lift perceptibly above the zero-level. (The different lines in the plot correspond to different 
+data sets, which yield slightly different estimates.5)
+Preview - Copyrighted Material
+
+
+4  |  Past developments and present capabilities
+however, has been used confusedly in many disparate senses and has 
+accreted an unholy (yet almost millenarian) aura of techno-utopian con-
+notations.6 Since most of these meanings and connotations are irrelevant 
+to our argument, we can gain clarity by dispensing with the “singularity” 
+word in favor of more precise terminology.
+The singularity-related idea that interests us here is the possibility of 
+an intelligence explosion, particularly the prospect of machine superintel-
+ligence. There may be those who are persuaded by growth diagrams like 
+the ones in Figure 1 that another drastic change in growth mode is in the 
+cards, comparable to the Agricultural or Industrial Revolution. These folk 
+may then reflect that it is hard to conceive of a scenario in which the world 
+economy’s doubling time shortens to mere weeks that does not involve the 
+creation of minds that are much faster and more efficient than the familiar 
+biological kind. However, the case for taking seriously the prospect of a 
+machine intelligence revolution need not rely on curve-fitting exercises 
+or extrapolations from past economic growth. As we shall see, there are 
+stronger reasons for taking heed.
+Great expectations
+Machines matching humans in general intelligence—that is, possessing 
+common sense and an effective ability to learn, reason, and plan to meet 
+complex information-processing challenges across a wide range of nat-
+ural and abstract domains—have been expected since the invention of 
+computers in the 1940s. At that time, the advent of such machines was 
+often placed some twenty years into the future.7 Since then, the expected 
+arrival date has been receding at a rate of one year per year; so that today, 
+futurists who concern themselves with the possibility of artificial general 
+intelligence still often believe that intelligent machines are a couple of 
+decades away.8
+Two decades is a sweet spot for prognosticators of radical change: near 
+enough to be attention-grabbing and relevant, yet far enough to make it 
+possible to suppose that a string of breakthroughs, currently only vaguely 
+imaginable, might by then have occurred. Contrast this with shorter time-
+scales: most technologies that will have a big impact on the world in five 
+or ten years from now are already in limited use, while technologies that 
+will reshape the world in less than fifteen years probably exist as labora-
+tory prototypes. Twenty years may also be close to the typical duration 
+Preview - Copyrighted Material
+
+
+great expectations  |  5
+remaining of a forecaster’s career, bounding the reputational risk of a bold 
+prediction.
+From the fact that some individuals have overpredicted artificial intel-
+ligence in the past, however, it does not follow that AI is impossible or 
+will never be developed.9 The main reason why progress has been slower 
+than expected is that the technical difficulties of constructing intelligent 
+machines have proved greater than the pioneers foresaw. But this leaves 
+open just how great those difficulties are and how far we now are from 
+overcoming them. Sometimes a problem that initially looks hopelessly 
+complicated turns out to have a surprisingly simple solution (though the 
+reverse is probably more common).
+In the next chapter, we will look at different paths that may lead to 
+human-level machine intelligence. But let us note at the outset that how-
+ever many stops there are between here and human-level machine intel-
+ligence, the latter is not the final destination. The next stop, just a short 
+distance farther along the tracks, is superhuman-level machine intelli-
+gence. The train might not pause or even decelerate at Humanville Sta-
+tion. It is likely to swoosh right by.
+The mathematician I. J. Good, who had served as chief statistician in 
+Alan Turing’s code-breaking team in World War II, might have been the 
+first to enunciate the essential aspects of this scenario. In an oft-quoted 
+passage from 1965, he wrote:
+Let an ultraintelligent machine be defined as a machine that can far surpass all the 
+intellectual activities of any man however clever. Since the design of machines is one 
+of these intellectual activities, an ultraintelligent machine could design even better 
+machines; there would then unquestionably be an “intelligence explosion,” and the 
+intelligence of man would be left far behind. Thus the first ultraintelligent machine 
+is the last invention that man need ever make, provided that the machine is docile 
+enough to tell us how to keep it under control.10
+It may seem obvious now that major existential risks would be associated 
+with such an intelligence explosion, and that the prospect should therefore 
+be examined with the utmost seriousness even if it were known (which it 
+is not) to have but a moderately small probability of coming to pass. The 
+pioneers of artificial intelligence, however, notwithstanding their belief in 
+the imminence of human-level AI, mostly did not contemplate the possi-
+bility of greater-than-human AI. It is as though their speculation muscle 
+had so exhausted itself in conceiving the radical possibility of machines 
+Preview - Copyrighted Material
+
+
+6  |  Past developments and present capabilities
+reaching human intelligence that it could not grasp the corollary—that 
+machines would subsequently become superintelligent.
+The AI pioneers for the most part did not countenance the possibil-
+ity that their enterprise might involve risk.11 They gave no lip service—let 
+alone serious thought—to any safety concern or ethical qualm related to 
+the creation of artificial minds and potential computer overlords: a lacuna 
+that astonishes even against the background of the era’s not-so-impressive 
+standards of critical technology assessment.12 We must hope that by the 
+time the enterprise eventually does become feasible, we will have gained 
+not only the technological proficiency to set off an intelligence explosion 
+but also the higher level of mastery that may be necessary to make the 
+detonation survivable.
+But before we turn to what lies ahead, it will be useful to take a quick 
+glance at the history of machine intelligence to date.
+Seasons of hope and despair
+In the summer of 1956 at Dartmouth College, ten scientists sharing an 
+interest in neural nets, automata theory, and the study of intelligence con-
+vened for a six-week workshop. This Dartmouth Summer Project is often 
+regarded as the cockcrow of artificial intelligence as a field of research. 
+Many of the participants would later be recognized as founding figures. The 
+optimistic outlook among the delegates is reflected in the proposal submit-
+ted to the Rockefeller Foundation, which provided funding for the event:
+We propose that a 2 month, 10 man study of artificial intelligence be carried out. . . . 
+The study is to proceed on the basis of the conjecture that every aspect of learn-
+ing or any other feature of intelligence can in principle be so precisely described 
+that a machine can be made to simulate it. An attempt will be made to find how 
+to make machines that use language, form abstractions and concepts, solve kinds 
+of problems now reserved for humans, and improve themselves. We think that a 
+significant advance can be made in one or more of these problems if a carefully 
+selected group of scientists work on it together for a summer.
+In the six decades since this brash beginning, the field of artificial intelli-
+gence has been through periods of hype and high expectations alternating 
+with periods of setback and disappointment.
+The first period of excitement, which began with the Dartmouth meet-
+ing, was later described by John McCarthy (the event’s main organizer) as 
+Preview - Copyrighted Material
+
+
+seasons of hope and despair  |  7
+the “Look, Ma, no hands!” era. During these early days, researchers built 
+systems designed to refute claims of the form “No machine could ever do 
+X!” Such skeptical claims were common at the time. To counter them, the 
+AI researchers created small systems that achieved X in a “microworld” 
+(a well-defined, limited domain that enabled a pared-down version of the 
+performance to be demonstrated), thus providing a proof of concept and 
+showing that X could, in principle, be done by machine. One such early 
+system, the Logic Theorist, was able to prove most of the theorems in the 
+second chapter of Whitehead and Russell’s Principia Mathematica, and 
+even came up with one proof that was much more elegant than the origin-
+al, thereby debunking the notion that machines could “only think numer-
+ically” and showing that machines were also able to do deduction and to 
+invent logical proofs.13 A follow-up program, the General Problem Solver, 
+could in principle solve a wide range of formally specified problems.14 
+Programs that could solve calculus problems typical of first-year college 
+courses, visual analogy problems of the type that appear in some IQ tests, 
+and simple verbal algebra problems were also written.15 The Shakey robot 
+(so named because of its tendency to tremble during operation) demon-
+strated how logical reasoning could be integrated with perception and 
+used to plan and control physical activity.16 The ELIZA program showed 
+how a computer could impersonate a Rogerian psychotherapist.17 In the 
+mid-1970s, the program SHRDLU showed how a simulated robotic 
+arm in a simulated world of geometric blocks could follow instructions 
+and answer questions in English that were typed in by a user.18 In later 
+decades, systems would be created that demonstrated that machines 
+could compose music in the style of various classical composers, outper-
+form junior doctors in certain clinical diagnostic tasks, drive cars autono-
+mously, and make patentable inventions.19 There has even been an AI that 
+cracked original jokes.20 (Not that its level of humor was high—“What do 
+you get when you cross an optic with a mental object? An eye-dea”—but 
+children reportedly found its puns consistently entertaining.)
+The methods that produced successes in the early demonstration sys-
+tems often proved difficult to extend to a wider variety of problems or 
+to harder problem instances. One reason for this is the “combinatorial 
+explosion” of possibilities that must be explored by methods that rely 
+on something like exhaustive search. Such methods work well for sim-
+ple instances of a problem, but fail when things get a bit more compli-
+cated. For instance, to prove a theorem that has a 5-line long proof in a 
+Preview - Copyrighted Material
+
+
+8  |  Past developments and present capabilities
+deduction system with one inference rule and 5 axioms, one could simply 
+enumerate the 3,125 possible combinations and check each one to see if it 
+delivers the intended conclusion. Exhaustive search would also work for 
+6- and 7-line proofs. But as the task becomes more difficult, the method 
+of exhaustive search soon runs into trouble. Proving a theorem with a 
+50-line proof does not take ten times longer than proving a theorem that 
+has a 5-line proof: rather, if one uses exhaustive search, it requires comb-
+ing through 550 ≈ 8.9 × 1034 possible sequences—which is computationally 
+infeasible even with the fastest supercomputers.
+To overcome the combinatorial explosion, one needs algorithms 
+that exploit structure in the target domain and take advantage of prior 
+knowledge by using heuristic search, planning, and flexible abstract 
+­representations—capabilities that were poorly developed in the early AI 
+systems. The performance of these early systems also suffered because of 
+poor methods for handling uncertainty, reliance on brittle and unground-
+ed symbolic representations, data scarcity, and severe hardware limita-
+tions on memory capacity and processor speed. By the mid-1970s, there 
+was a growing awareness of these problems. The realization that many AI 
+projects could never make good on their initial promises led to the onset 
+of the first “AI winter”: a period of retrenchment, during which funding 
+decreased and skepticism increased, and AI fell out of fashion.
+A new springtime arrived in the early 1980s, when Japan launched 
+its Fifth-Generation Computer Systems Project, a well-funded public–­
+private partnership that aimed to leapfrog the state of the art by devel-
+oping a massively parallel computing architecture that would serve as a 
+platform for artificial intelligence. This occurred at peak fascination with 
+the Japanese “post-war economic miracle,” a period when Western gov-
+ernment and business leaders anxiously sought to divine the formula 
+behind Japan’s economic success in hope of replicating the magic at home. 
+When Japan decided to invest big in AI, several other countries followed 
+suit.
+The ensuing years saw a great proliferation of expert systems. Designed 
+as support tools for decision makers, expert systems were rule-based 
+programs that made simple inferences from a knowledge base of facts, 
+which had been elicited from human domain experts and painstakingly 
+hand-coded in a formal language. Hundreds of these expert systems were 
+built. However, the smaller systems provided little benefit, and the larger 
+ones proved expensive to develop, validate, and keep updated, and were 
+Preview - Copyrighted Material
+
+
+seasons of hope and despair  |  9
+generally cumbersome to use. It was impractical to acquire a standalone 
+computer just for the sake of running one program. By the late 1980s, this 
+growth season, too, had run its course.
+The Fifth-Generation Project failed to meet its objectives, as did 
+its counterparts in the United States and Europe. A second AI winter 
+descended. At this point, a critic could justifiably bemoan “the history of 
+artificial intelligence research to date, consisting always of very limited 
+success in particular areas, followed immediately by failure to reach the 
+broader goals at which these initial successes seem at first to hint.”21 Pri-
+vate investors began to shun any venture carrying the brand of “artificial 
+intelligence.” Even among academics and their funders, “AI” became an 
+unwanted epithet.22
+Technical work continued apace, however, and by the 1990s, the second 
+AI winter gradually thawed. Optimism was rekindled by the introduction 
+of new techniques, which seemed to offer alternatives to the traditional 
+logicist paradigm (often referred to as “Good Old-Fashioned Artificial 
+Intelligence,” or “GOFAI” for short), which had focused on high-level 
+symbol manipulation and which had reached its apogee in the expert 
+systems of the 1980s. The newly popular techniques, which included 
+neural networks and genetic algorithms, promised to overcome some of 
+the shortcomings of the GOFAI approach, in particular the “brittleness” 
+that characterized classical AI programs (which typically produced com-
+plete nonsense if the programmers made even a single slightly erroneous 
+assumption). The new techniques boasted a more organic performance. 
+For example, neural networks exhibited the property of “graceful degra-
+dation”: a small amount of damage to a neural network typically resulted 
+in a small degradation of its performance, rather than a total crash. Even 
+more importantly, neural networks could learn from experience, finding 
+natural ways of generalizing from examples and finding hidden statistical 
+patterns in their input.23 This made the nets good at pattern recognition 
+and classification problems. For example, by training a neural network 
+on a data set of sonar signals, it could be taught to distinguish the acous-
+tic profiles of submarines, mines, and sea life with better accuracy than 
+human experts—and this could be done without anybody first having to 
+figure out in advance exactly how the categories were to be defined or how 
+different features were to be weighted.
+While simple neural network models had been known since the 
+late 1950s, the field enjoyed a renaissance after the introduction of the 
+Preview - Copyrighted Material
+
+
+10  |  Past developments and present capabilities
+backpropagation algorithm, which made it possible to train multi-layered 
+neural networks.24 Such multilayered networks, which have one or more 
+intermediary (“hidden”) layers of neurons between the input and out-
+put layers, can learn a much wider range of functions than their simpler 
+predecessors.25 Combined with the increasingly powerful computers that 
+were becoming available, these algorithmic improvements enabled engin-
+eers to build neural networks that were good enough to be practically use-
+ful in many applications.
+The brain-like qualities of neural networks contrasted favorably with 
+the rigidly logic-chopping but brittle performance of traditional rule-
+based GOFAI systems—enough so to inspire a new “-ism,” connectionism, 
+which emphasized the importance of massively parallel sub-symbolic 
+processing. More than 150,000 academic papers have since been pub-
+lished on artificial neural networks, and they continue to be an important 
+approach in machine learning.
+Evolution-based methods, such as genetic algorithms and genetic 
+programming, constitute another approach whose emergence helped 
+end the second AI winter. It made perhaps a smaller academic impact 
+than neural nets but was widely popularized. In evolutionary models, a 
+population of candidate solutions (which can be data structures or pro-
+grams) is maintained, and new candidate solutions are generated ran-
+domly by mutating or recombining variants in the existing population. 
+Periodically, the population is pruned by applying a selection criter-
+ion (a fitness function) that allows only the better candidates to sur-
+vive into the next generation. Iterated over thousands of generations, 
+the average quality of the solutions in the candidate pool gradually 
+increases. When it works, this kind of algorithm can produce effi-
+cient solutions to a very wide range of problems—solutions that may 
+be strikingly novel and unintuitive, often looking more like natural 
+structures than anything that a human engineer would design. And in 
+principle, this can happen without much need for human input beyond 
+the initial specification of the fitness function, which is often very sim-
+ple. In practice, however, getting evolutionary methods to work well 
+requires skill and ingenuity, particularly in devising a good representa-
+tional format. Without an efficient way to encode candidate solutions 
+(a genetic language that matches latent structure in the target domain), 
+evolutionary search tends to meander endlessly in a vast search space 
+or get stuck at a local optimum. Even if a good representational format 
+Preview - Copyrighted Material
+
+
+seasons of hope and despair  |  11
+is found, evolution is computationally demanding and is often defeated 
+by the combinatorial explosion.
+Neural networks and genetic algorithms are examples of methods 
+that stimulated excitement in the 1990s by appearing to offer alterna-
+tives to the stagnating GOFAI paradigm. But the intention here is not to 
+sing the praises of these two methods or to elevate them above the many 
+other techniques in machine learning. In fact, one of the major theoret-
+ical developments of the past twenty years has been a clearer realization 
+of how superficially disparate techniques can be understood as special 
+cases within a common mathematical framework. For example, many 
+types of artificial neural network can be viewed as classifiers that per-
+form a particular kind of statistical calculation (maximum likelihood 
+estimation).26 This perspective allows neural nets to be compared with 
+a larger class of algorithms for learning classifiers from examples—
+“decision trees,” “logistic regression models,” “support vector machines,” 
+“naive Bayes,” “k-nearest-neighbors regression,” among others.27 In a 
+similar manner, genetic algorithms can be viewed as performing sto-
+chastic hill-climbing, which is again a subset of a wider class of algo-
+rithms for optimization. Each of these algorithms for building classifiers 
+or for searching a solution space has its own profile of strengths and 
+weaknesses which can be studied mathematically. Algorithms differ in 
+their processor time and memory space requirements, which inductive 
+biases they presuppose, the ease with which externally produced con-
+tent can be incorporated, and how transparent their inner workings are 
+to a human analyst.
+Behind the razzle-dazzle of machine learning and creative problem-
+solving thus lies a set of mathematically well-specified tradeoffs. The 
+ideal is that of the perfect Bayesian agent, one that makes probabilistically 
+optimal use of available information. This ideal is unattainable because 
+it is too computationally demanding to be implemented in any physical 
+computer (see Box 1). Accordingly, one can view artificial intelligence as a 
+quest to find shortcuts: ways of tractably approximating the Bayesian ideal 
+by sacrificing some optimality or generality while preserving enough to 
+get high performance in the actual domains of interest.
+A reflection of this picture can be seen in the work done over the past 
+couple of decades on probabilistic graphical models, such as Bayesian net-
+works. Bayesian networks provide a concise way of representing probabil-
+istic and conditional independence relations that hold in some particular 
+Preview - Copyrighted Material
+
+
+12  |  Past developments and present capabilities
+Box 1 An optimal Bayesian agent
+An ideal Bayesian agent starts out with a “prior probability distribution,” a 
+function that assigns probabilities to each “possible world” (i.e. to each max-
+imally specific way the world could turn out to be).28 This prior incorporates an 
+inductive bias such that simpler possible worlds are assigned higher probabil-
+ities. (One way to formally define the simplicity of a possible world is in terms 
+of its “Kolmogorov complexity,” a measure based on the length of the shortest 
+computer program that generates a complete description of the world.29) The 
+prior also incorporates any background knowledge that the programmers 
+wish to give to the agent.
+As the agent receives new information from its sensors, it updates its prob-
+ability distribution by conditionalizing the distribution on the new information 
+according to Bayes’ theorem.30 Conditionalization is the mathematical oper-
+ation that sets the new probability of those worlds that are inconsistent with 
+the information received to zero and renormalizes the probability distribution 
+over the remaining possible worlds. The result is a “posterior probability dis-
+tribution” (which the agent may use as its new prior in the next time step). As 
+the agent makes observations, its probability mass thus gets concentrated on 
+the shrinking set of possible worlds that remain consistent with the evidence; 
+and among these possible worlds, simpler ones always have more probability.
+Metaphorically, we can think of a probability as sand on a large sheet of 
+paper. The paper is partitioned into areas of various sizes, each area corres-
+ponding to one possible world, with larger areas corresponding to simpler 
+possible worlds. Imagine also a layer of sand of even thickness spread across 
+the entire sheet: this is our prior probability distribution. Whenever an obser-
+vation is made that rules out some possible worlds, we remove the sand from 
+the corresponding areas of the paper and redistribute it evenly over the areas 
+that remain in play. Thus, the total amount of sand on the sheet never changes, 
+it just gets concentrated into fewer areas as observational evidence accumu-
+lates. This is a picture of learning in its purest form. (To calculate the probability 
+of a hypothesis, we simply measure the amount of sand in all the areas that 
+correspond to the possible worlds in which the hypothesis is true.)
+So far, we have defined a learning rule. To get an agent, we also need a 
+decision rule. To this end, we endow the agent with a “utility function” which 
+assigns a number to each possible world. The number represents the desir-
+ability of that world according to the agent’s basic preferences. Now, at each 
+time step, the agent selects the action with the highest expected utility.31 (To 
+Preview - Copyrighted Material
+
+
+seasons of hope and despair  |  13
+domain. (Exploiting such independence relations is essential for over-
+coming the combinatorial explosion, which is as much of a problem for 
+probabilistic inference as it is for logical deduction.) They also provide 
+important insight into the concept of causality.34
+One advantage of relating learning problems from specific domains 
+to the general problem of Bayesian inference is that new algorithms 
+that make Bayesian inference more efficient will then yield immediate 
+improvements across many different areas. Advances in Monte Carlo 
+approximation techniques, for example, are directly applied in computer 
+Box 1   Continued
+find the action with the highest expected utility, the agent could list all possible 
+actions. It could then compute the conditional probability distribution given 
+the action—the probability distribution that would result from conditionalizing 
+its current probability distribution on the observation that the action had just 
+been taken. Finally, it could calculate the expected value of the action as the 
+sum of the value of each possible world multiplied by the conditional probabil-
+ity of that world given the action.32)
+The learning rule and the decision rule together define an “optimality 
+notion” for an agent. (Essentially the same optimality notion has been broadly 
+used in artificial intelligence, epistemology, philosophy of science, economics, 
+and statistics.33) In reality, it is impossible to build such an agent because it is 
+computationally intractable to perform the requisite calculations. Any attempt 
+to do so succumbs to a combinatorial explosion just like the one described in 
+our discussion of GOFAI. To see why this is so, consider one tiny subset of all 
+possible worlds: those that consist of a single computer monitor floating in 
+an endless vacuum. The monitor has 1, 000 × 1, 000 pixels, each of which is 
+perpetually either on or off. Even this subset of possible worlds is enormously 
+large: the 2(1,000 × 1,000) possible monitor states outnumber all the computations 
+expected ever to take place in the observable universe. Thus, we could not 
+even enumerate all the possible worlds in this tiny subset of all possible worlds, 
+let alone perform more elaborate computations on each of them individually.
+Optimality notions can be of theoretical interest even if they are physically 
+unrealizable. They give us a standard by which to judge heuristic approxima-
+tions, and sometimes we can reason about what an optimal agent would do in 
+some special case. We will encounter some alternative optimality notions for 
+artificial agents in Chapter 12.
+Preview - Copyrighted Material
+
+
+14  |  Past developments and present capabilities
+vision, robotics, and computational genetics. Another advantage is that it 
+lets researchers from different disciplines more easily pool their findings. 
+Graphical models and Bayesian statistics have become a shared focus of 
+research in many fields, including machine learning, statistical physics, 
+bioinformatics, combinatorial optimization, and communication the-
+ory.35 A fair amount of the recent progress in machine learning has result-
+ed from incorporating formal results originally derived in other academic 
+fields. (Machine learning applications have also benefited enormously 
+from faster computers and greater availability of large data sets.)
+State of the art
+Artificial intelligence already outperforms human intelligence in many 
+domains. Table 1 surveys the state of game-playing computers, showing 
+that AIs now beat human champions in a wide range of games.36
+These achievements might not seem impressive today. But this is 
+because our standards for what is impressive keep adapting to the advances 
+being made. Expert chess playing, for example, was once thought to epit-
+omize human intellection. In the view of several experts in the late 1950s: 
+“If one could devise a successful chess machine, one would seem to have 
+penetrated to the core of human intellectual endeavor.”37 This no longer 
+seems so. One sympathizes with John McCarthy, who lamented: “As soon 
+as it works, no one calls it AI anymore.”38
+There is an important sense, however, in which chess-playing AI turned 
+out to be a lesser triumph than many imagined it would be. It was once 
+supposed, perhaps not unreasonably, that in order for a computer to 
+play chess at grandmaster level, it would have to be endowed with a high 
+degree of general intelligence.39 One might have thought, for example, 
+that great chess playing requires being able to learn abstract concepts, 
+think cleverly about strategy, compose flexible plans, make a wide range 
+of ingenious logical deductions, and maybe even model one’s opponent’s 
+thinking. Not so. It turned out to be possible to build a perfectly fine chess 
+engine around a special-purpose algorithm.40 When implemented on the 
+fast processors that became available towards the end of the twentieth 
+century, it produces very strong play. But an AI built like that is narrow. It 
+plays chess; it can do no other.41
+In other domains, solutions have turned out to be more complicated 
+than initially expected, and progress slower. The computer scientist 
+Preview - Copyrighted Material
+
+
+state of the art  |  15
+Table 1  Game-playing AI
+Checkers
+Superhuman
+Arthur Samuel’s checkers program, originally 
+written in 1952 and later improved (the 1955 
+version incorporating machine learning), becomes 
+the first program to learn to play a game 
+better than its creator.42 In 1994, the program 
+CHINOOK beats the reigning human champion, 
+marking the first time a program wins an official 
+world championship in a game of skill. In 2002, 
+Jonathan Schaeffer and his team “solve” checkers, 
+i.e. produce a program that always makes the 
+best possible move (combining alpha-beta search 
+with a database of 39 trillion endgame positions). 
+Perfect play by both sides leads to a draw.43
+Backgammon
+Superhuman
+1979: The backgammon program BKG by Hans 
+Berliner defeats the world champion—the first 
+computer program to defeat (in an exhibition 
+match) a world champion in any ­game—
+though Berliner later attributes the win to luck 
+with the dice rolls.44
+1992: The backgammon program TD-Gammon 
+by Gerry Tesauro reaches championship-level 
+ability, using temporal difference learning (a 
+form of reinforcement learning) and repeated 
+plays against itself to improve.45
+In the years since, backgammon programs have 
+far surpassed the best human players.46
+Traveller  
+TCS
+Superhuman in 
+collaboration 
+with human47
+In both 1981 and 1982, Douglas Lenat’s 
+program Eurisko wins the US championship 
+in Traveller TCS (a futuristic naval war 
+game), prompting rule changes to block its 
+unorthodox strategies.48 Eurisko had heuristics 
+for designing its fleet, and it also had heuristics 
+for modifying its heuristics.
+Othello
+Superhuman
+1997: The program Logistello wins every game 
+in a six-game match against world champion 
+Takeshi Murakami.49
+Chess
+Superhuman
+1997: Deep Blue beats the world chess champion, 
+Garry Kasparov. Kasparov claims to have seen 
+glimpses of true intelligence and creativity in some 
+of the computer’s moves.50 Since then, chess 
+engines have continued to improve.51
+continued
+Preview - Copyrighted Material
+
+
+16  |  Past developments and present capabilities
+Crosswords
+Expert level
+1999: The crossword-solving program Proverb 
+outperforms the average crossword-solver.52
+2012: The program Dr. Fill, created by Matt 
+Ginsberg, scores in the top quartile among the 
+otherwise human contestants in the American 
+Crossword Puzzle Tournament. (Dr. Fill’s 
+performance is uneven. It completes perfectly 
+the puzzle rated most difficult by humans, yet 
+is stumped by a couple of nonstandard puzzles 
+that involved spelling backwards or writing 
+answers diagonally.)53
+Scrabble
+Superhuman
+As of 2002, Scrabble-playing software 
+surpasses the best human players.54
+Bridge
+Equal to the best
+By 2005, contract bridge playing software reaches 
+parity with the best human bridge players.55
+Jeopardy!
+Superhuman
+2010: IBM’s Watson defeats the two all-
+time-greatest human Jeopardy! champions, 
+Ken Jennings and Brad Rutter.56 Jeopardy! is 
+a televised game show with trivia questions 
+about history, literature, sports, geography, pop 
+culture, science, and other topics. Questions 
+are presented in the form of clues, and often 
+involve wordplay.
+Poker
+Varied
+Computer poker players remain slightly below 
+the best humans for full-ring Texas hold ’em 
+but perform at a superhuman level in some 
+poker variants.57
+FreeCell
+Superhuman
+Heuristics evolved using genetic algorithms 
+produce a solver for the solitaire game 
+FreeCell (which in its generalized form is 
+NP-complete) that is able to beat high-ranking 
+human players.58
+Go
+Very strong 
+amateur level
+As of 2012, the Zen series of Go-playing 
+programs has reached rank 6 dan in fast 
+games (the level of a very strong amateur 
+player), using Monte Carlo tree search and 
+machine learning techniques.59 Go-playing 
+programs have been improving at a rate of 
+about 1 dan/year in recent years. If this rate of 
+improvement continues, they might beat the 
+human world champion in about a decade.
+Table 1  Continued
+Preview - Copyrighted Material
+
+
+state of the art  |  17
+Donald Knuth was struck that “AI has by now succeeded in doing essen-
+tially everything that requires ‘thinking’ but has failed to do most of what 
+people and animals do ‘without thinking’—that, somehow, is much hard-
+er!”60 Analyzing visual scenes, recognizing objects, or controlling a robot’s 
+behavior as it interacts with a natural environment has proved challeng-
+ing. Nevertheless, a fair amount of progress has been made and continues 
+to be made, aided by steady improvements in hardware.
+Common sense and natural language understanding have also turned 
+out to be difficult. It is now often thought that achieving a fully human-
+level performance on these tasks is an “AI-complete” problem, meaning 
+that the difficulty of solving these problems is essentially equivalent to 
+the difficulty of building generally human-level intelligent machines.61 In 
+other words, if somebody were to succeed in creating an AI that could 
+understand natural language as well as a human adult, they would in all 
+likelihood also either already have succeeded in creating an AI that could 
+do everything else that human intelligence can do, or they would be but a 
+very short step from such a general capability.62
+Chess-playing expertise turned out to be achievable by means of a 
+surprisingly simple algorithm. It is tempting to speculate that other 
+capabilities—such as general reasoning ability, or some key ability 
+involved in programming—might likewise be achievable through some 
+surprisingly simple algorithm. The fact that the best performance at one 
+time is attained through a complicated mechanism does not mean that no 
+simple mechanism could do the job as well or better. It might simply be 
+that nobody has yet found the simpler alternative. The Ptolemaic system 
+(with the Earth in the center, orbited by the Sun, the Moon, planets, and 
+stars) represented the state of the art in astronomy for over a thousand 
+years, and its predictive accuracy was improved over the centuries by pro-
+gressively complicating the model: adding epicycles upon epicycles to the 
+postulated celestial motions. Then the entire system was overthrown by 
+the heliocentric theory of Copernicus, which was simpler and—though 
+only after further elaboration by Kepler—more predictively accurate.63
+Artificial intelligence methods are now used in more areas than it 
+would make sense to review here, but mentioning a sampling of them will 
+give an idea of the breadth of applications. Aside from the game AIs listed 
+in Table 1, there are hearing aids with algorithms that filter out ambient 
+noise; route-finders that display maps and offer navigation advice to driv-
+ers; recommender systems that suggest books and music albums based 
+Preview - Copyrighted Material
+
+
+18  |  Past developments and present capabilities
+on a user’s previous purchases and ratings; and medical decision support 
+systems that help doctors diagnose breast cancer, recommend treatment 
+plans, and aid in the interpretation of electrocardiograms. There are 
+robotic pets and cleaning robots, lawn-mowing robots, rescue robots, sur-
+gical robots, and over a million industrial robots.64 The world population 
+of robots exceeds 10 million.65
+Modern speech recognition, based on statistical techniques such as hid-
+den Markov models, has become sufficiently accurate for practical use (some 
+fragments of this book were drafted with the help of a speech recognition 
+program). Personal digital assistants, such as Apple’s Siri, respond to spoken 
+commands and can answer simple questions and execute commands. Optic-
+al character recognition of handwritten and typewritten text is routinely 
+used in applications such as mail sorting and digitization of old documents.66
+Machine translation remains imperfect but is good enough for many 
+applications. Early systems used the GOFAI approach of hand-coded 
+grammars that had to be developed by skilled linguists from the ground 
+up for each language. Newer systems use statistical machine learning 
+techniques that automatically build statistical models from observed 
+usage patterns. The machine infers the parameters for these models by 
+analyzing bilingual corpora. This approach dispenses with linguists: the 
+programmers building these systems need not even speak the languages 
+they are working with.67
+Face recognition has improved sufficiently in recent years that it is 
+now used at automated border crossings in Europe and Australia. The 
+US Department of State operates a face recognition system with over 75 
+million photographs for visa processing. Surveillance systems employ 
+increasingly sophisticated AI and data-mining technologies to analyze 
+voice, video, or text, large quantities of which are trawled from the world’s 
+electronic communications media and stored in giant data centers.
+Theorem-proving and equation-solving are by now so well estab-
+lished that they are hardly regarded as AI anymore. Equation solvers are 
+included in scientific computing programs such as Mathematica. Formal 
+verification methods, including automated theorem provers, are routinely 
+used by chip manufacturers to verify the behavior of circuit designs prior 
+to production.
+The US military and intelligence establishments have been leading the 
+way to the large-scale deployment of bomb-disposing robots, surveil-
+lance and attack drones, and other unmanned vehicles. These still depend 
+Preview - Copyrighted Material
+
+
+state of the art  |  19
+mainly on remote control by human operators, but work is underway to 
+extend their autonomous capabilities.
+Intelligent scheduling is a major area of success. The DART tool for 
+automated logistics planning and scheduling was used in Operation 
+Desert Storm in 1991 to such effect that DARPA (the Defense Advanced 
+Research Projects Agency in the United States) claims that this single 
+application more than paid back their thirty-year investment in AI.68 Air-
+line reservation systems use sophisticated scheduling and pricing systems. 
+Businesses make wide use of AI techniques in inventory control systems. 
+They also use automatic telephone reservation systems and helplines con-
+nected to speech recognition software to usher their hapless customers 
+through labyrinths of interlocking menu options.
+AI technologies underlie many internet services. Software polices the 
+world’s email traffic, and despite continual adaptation by spammers to cir-
+cumvent the countermeasures being brought against them, Bayesian spam 
+filters have largely managed to hold the spam tide at bay. Software using 
+AI components is responsible for automatically approving or declining 
+credit card transactions, and continuously monitors account activity for 
+signs of fraudulent use. Information retrieval systems also make extensive 
+use of machine learning. The Google search engine is, arguably, the great-
+est AI system that has yet been built.
+Now, it must be stressed that the demarcation between artificial intelli-
+gence and software in general is not sharp. Some of the applications listed 
+above might be viewed more as generic software applications than as AI 
+in particular—though this brings us back to McCarthy’s dictum that when 
+something works it is no longer called AI. A more relevant distinction for 
+our purposes is that between systems that have a narrow range of cogni-
+tive capability (whether they be called “AI” or not) and systems that have 
+more generally applicable problem-solving capacities. Essentially all the 
+systems currently in use are of the former type: narrow. However, many 
+of them contain components that might also play a role in future artifi-
+cial general intelligence or be of service in its development—­components 
+such as classifiers, search algorithms, planners, solvers, and representa-
+tional frameworks.
+One high-stakes and extremely competitive environment in which AI 
+systems operate today is the global financial market. Automated stock-
+trading systems are widely used by major investing houses. While some of 
+these are simply ways of automating the execution of particular buy or sell 
+Preview - Copyrighted Material
+
+
+20  |  Past developments and present capabilities
+orders issued by a human fund manager, others pursue complicated trad-
+ing strategies that adapt to changing market conditions. Analytic systems 
+use an assortment of data-mining techniques and time series analysis to 
+scan for patterns and trends in securities markets or to correlate historical 
+price movements with external variables such as keywords in news tick-
+ers. Financial news providers sell newsfeeds that are specially formatted 
+for use by such AI programs. Other systems specialize in finding arbitrage 
+opportunities within or between markets, or in high-frequency trading that 
+seeks to profit from minute price movements that occur over the course of 
+milliseconds (a timescale at which communication latencies even for speed-
+of-light signals in optical fiber cable become significant, making it advanta-
+geous to locate computers near the exchange). Algorithmic high-frequency 
+traders account for more than half of equity shares traded on US markets.69  
+Algorithmic trading has been implicated in the 2010 Flash Crash (see Box 2).
+Box 2 The 2010 Flash Crash
+By the afternoon of May 6, 2010, US equity markets were already down 
+4% on worries about the European debt crisis. At 2:32 p.m., a large seller (a 
+mutual fund complex) initiated a sell algorithm to dispose of a large number 
+of the E-Mini S&P 500 futures contracts to be sold off at a sell rate linked to a 
+measure of minute-to-minute liquidity on the exchange. These contracts were 
+bought by algorithmic high-frequency traders, which were programmed to 
+quickly eliminate their temporary long positions by selling the contracts on to 
+other traders. With demand from fundamental buyers slacking, the algorithmic 
+traders started to sell the E-Minis primarily to other algorithmic traders, which 
+in turn passed them on to other algorithmic traders, creating a “hot potato” 
+effect driving up trading volume—this being interpreted by the sell algorithm 
+as an indicator of high liquidity, prompting it to increase the rate at which it was 
+putting E-Mini contracts on the market, pushing the downward spiral. At some 
+point, the high-frequency traders started withdrawing from the market, drying 
+up liquidity while prices continued to fall. At 2:45 p.m., trading on the E-Mini 
+was halted by an automatic circuit breaker, the exchange’s stop logic functional-
+ity. When trading was restarted, a mere five seconds later, prices stabilized and 
+soon began to recover most of the losses. But for a while, at the trough of the 
+crisis, a trillion dollars had been wiped off the market, and spillover effects had 
+Preview - Copyrighted Material
+
+
+state of the art  |  21
+Box 2   Continued
+led to a substantial number of trades in individual securities being executed at 
+“absurd” prices, such as one cent or 100,000 dollars. After the market closed 
+for the day, representatives of the exchanges met with regulators and decided 
+to break all trades that had been executed at prices 60% or more away from 
+their pre-crisis levels (deeming such transactions “clearly erroneous” and thus 
+subject to post facto cancellation under existing trade rules).70
+The retelling here of this episode is a digression because the computer 
+programs involved in the Flash Crash were not particularly intelligent or 
+sophisticated, and the kind of threat they created is fundamentally different 
+from the concerns we shall raise later in this book in relation to the prospect 
+of machine superintelligence. Nevertheless, these events illustrate several 
+useful lessons. One is the reminder that interactions between individually 
+simple components (such as the sell algorithm and the high-frequency algo-
+rithmic trading programs) can produce complicated and unexpected effects. 
+Systemic risk can build up in a system as new elements are introduced, risks 
+that are not obvious until after something goes wrong (and sometimes not 
+even then).71
+Another lesson is that smart professionals might give an instruction to a 
+program based on a sensible-seeming and normally sound assumption (e.g. 
+that trading volume is a good measure of market liquidity) and that this 
+can produce catastrophic results when the program continues to act on 
+the instruction with iron-clad logical consistency even in the unanticipated 
+situation where the assumption turns out to be invalid. The algorithm 
+just does what it does; and unless it is a very special kind of algorithm, it 
+does not care that we clasp our heads and gasp in dumbstruck horror at 
+the absurd inappropriateness of its actions. This is a theme that we will 
+encounter again.
+A third observation in relation to the Flash Crash is that while automa-
+tion contributed to the incident, it also contributed to its resolution. The 
+pre-programmed stop order logic, which suspended trading when prices 
+moved too far out of whack, was set to execute automatically because it had 
+been correctly anticipated that the triggering events could happen on a time-
+scale too swift for humans to respond. The need for pre-installed and auto-
+matically executing safety functionality—as opposed to reliance on runtime 
+human ­supervision—again foreshadows a theme that will be important in our 
+discussion of machine superintelligence.72
+Preview - Copyrighted Material
+
+
+22  |  Past developments and present capabilities
+Opinions about the future of machine  
+intelligence
+Progress on two major fronts—towards a more solid statistical and 
+­information-theoretic foundation for machine learning on the one hand, 
+and towards the practical and commercial success of various problem-
+specific or domain-specific applications on the other—has restored to AI 
+research some of its lost prestige. There may, however, be a residual cul-
+tural effect on the AI community of its earlier history that makes many 
+mainstream researchers reluctant to align themselves with over-grand 
+ambition. Thus Nils Nilsson, one of the old-timers in the field, complains 
+that his present-day colleagues lack the boldness of spirit that propelled 
+the pioneers of his own generation:
+Concern for “respectability” has had, I think, a stultifying effect on some AI 
+researchers. I hear them saying things like, “AI used to be criticized for its flossiness. 
+Now that we have made solid progress, let us not risk losing our respectability.” 
+One result of this conservatism has been increased concentration on “weak AI”—
+the variety devoted to providing aids to human thought—and away from “strong 
+AI”—the variety that attempts to mechanize human-level intelligence.73
+Nilsson’s sentiment has been echoed by several others of the founders, 
+including Marvin Minsky, John McCarthy, and Patrick Winston.74
+The last few years have seen a resurgence of interest in AI, which 
+might yet spill over into renewed efforts towards artificial general intel-
+ligence (what Nilsson calls “strong AI”). In addition to faster hardware, 
+a contemporary project would benefit from the great strides that have 
+been made in the many subfields of AI, in software engineering more 
+generally, and in neighboring fields such as computational neurosci-
+ence. One indication of pent-up demand for quality information and 
+education is shown in the response to the free online offering of an 
+introductory course in artificial intelligence at Stanford University in 
+the fall of 2011, organized by Sebastian Thrun and Peter Norvig. Some 
+160,000 students from around the world signed up to take it (and 23,000 
+completed it).75
+Expert opinions about the future of AI vary wildly. There is disagree-
+ment about timescales as well as about what forms AI might eventually 
+take. Predictions about the future development of artificial intelligence, 
+one recent study noted, “are as confident as they are diverse.”76
+Preview - Copyrighted Material
+
+
+opinions about the future  |  23
+Although the contemporary distribution of belief has not been very 
+carefully measured, we can get a rough impression from various smaller 
+surveys and informal observations. In particular, a series of recent surveys 
+have polled members of several relevant expert communities on the ques-
+tion of when they expect “human-level machine intelligence” (HLMI) to 
+be developed, defined as “one that can carry out most human professions 
+at least as well as a typical human.”77 Results are shown in Table 2. The 
+combined sample gave the following (median) estimate: 10% probabil-
+ity of HLMI by 2022, 50% probability by 2040, and 90% probability by 
+2075. (Respondents were asked to premiss their estimates on the assump-
+tion that “human scientific activity continues without major negative 
+disruption.”)
+These numbers should be taken with some grains of salt: sample sizes 
+are quite small and not necessarily representative of the general expert 
+population. They are, however, in concordance with results from other 
+surveys.78
+The survey results are also in line with some recently published inter-
+views with about two dozen researchers in AI-related fields. For example, 
+Nils Nilsson has spent a long and productive career working on prob-
+lems in search, planning, knowledge representation, and robotics; he has 
+authored textbooks in artificial intelligence; and he recently completed 
+the most comprehensive history of the field written to date.79 When asked 
+about arrival dates for HLMI, he offered the following opinion:80
+10% chance: 2030
+50% chance: 2050
+90% chance: 2100
+Table 2  When will human-level machine intelligence be attained?81
+10%
+50%
+90%
+PT-AI
+2023
+2048
+2080
+AGI
+2022
+2040
+2065
+EETN
+2020
+2050
+2093
+TOP100
+2024
+2050
+2070
+Combined
+2022
+2040
+2075
+Preview - Copyrighted Material
+
+
+24  |  Past developments and present capabilities
+Judging from the published interview transcripts, Professor Nilsson’s 
+probability distribution appears to be quite representative of many 
+experts in the area—though again it must be emphasized that there is a 
+wide spread of opinion: there are practitioners who are substantially more 
+boosterish, confidently expecting HLMI in the 2020–40 range, and others 
+who are confident either that it will never happen or that it is indefinitely 
+far off.82 In addition, some interviewees feel that the notion of a “human 
+level” of artificial intelligence is ill-defined or misleading, or are for other 
+reasons reluctant to go on record with a quantitative prediction.
+My own view is that the median numbers reported in the expert survey 
+do not have enough probability mass on later arrival dates. A 10% prob-
+ability of HLMI not having been developed by 2075 or even 2100 (after 
+conditionalizing on “human scientific activity continuing without major 
+negative disruption”) seems too low.
+Historically, AI researchers have not had a strong record of being able 
+to predict the rate of advances in their own field or the shape that such 
+advances would take. On the one hand, some tasks, like chess playing, 
+turned out to be achievable by means of surprisingly simple programs; and 
+naysayers who claimed that machines would “never” be able to do this or 
+that have repeatedly been proven wrong. On the other hand, the more typ-
+ical errors among practitioners have been to underestimate the difficulties 
+of getting a system to perform robustly on real-world tasks, and to over-
+estimate the advantages of their own particular pet project or technique.
+The survey also asked two other questions of relevance to our inquiry. 
+One inquired of respondents about how much longer they thought it 
+would take to reach superintelligence assuming human-level machine is 
+first achieved. The results are in Table 3.
+Another question inquired what they thought would be the overall 
+long-term impact for humanity of achieving human-level machine intelli-
+gence. The answers are summarized in Figure 2.
+Table 3  How long from human level to superintelligence?
+Within 2 years after HLMI
+Within 30 years after HLMI
+TOP100
+5%
+50%
+Combined
+10%
+75%
+Preview - Copyrighted Material
+
+
+opinions about the future  |  25
+0
+10
+20
+30
+40
+50
+Extremely
+good
+On balance
+good
+More or less
+neutral
+On balance
+bad
+Extremely
+bad
+(existential
+catastrophe)
+TOP100
+Combined
+Figure 2  Overall long-term impact of HLMI.83
+My own views again differ somewhat from the opinions expressed in 
+the survey. I assign a higher probability to superintelligence being cre-
+ated relatively soon after human-level machine intelligence. I also have 
+a more polarized outlook on the consequences, thinking an extremely 
+good or an extremely bad outcome to be somewhat more likely than a 
+more balanced outcome. The reasons for this will become clear later in 
+the book.
+Small sample sizes, selection biases, and—above all—the inherent 
+unreliability of the subjective opinions elicited mean that one should not 
+read too much into these expert surveys and interviews. They do not let 
+us draw any strong conclusion. But they do hint at a weak conclusion. 
+They suggest that (at least in lieu of better data or analysis) it may be 
+reasonable to believe that human-level machine intelligence has a fair-
+ly sizeable chance of being developed by mid-century, and that it has a 
+non-trivial chance of being developed considerably sooner or much later; 
+that it might perhaps fairly soon thereafter result in superintelligence; and 
+that a wide range of outcomes may have a significant chance of occur-
+ring, including extremely good outcomes and outcomes that are as bad as 
+human extinction.84 At the very least, they suggest that the topic is worth 
+a closer look.
+Preview - Copyrighted Material
