@@ -12,6 +12,18 @@
     "location": "Footnote 2, Section 1 (Introduction)"
   },
   {
+    "paper_id": "barnett_2024",
+    "quote": "There are several categories of problems that make it difficult to specify goals. Each category introduces an uncontrolled degree of freedom in the goal specification which exists because we are only using feedback based on behavior.",
+    "seed_term_matched": "uncontrolled",
+    "location": "Section 4 (Behavioral training is an imprecise way to specify goals), page 15"
+  },
+  {
+    "paper_id": "barnett_2024",
+    "quote": "In this section we will discuss concretely why AI systems, which are capable of hard tasks and are misaligned, will likely lead to catastrophically bad outcomes for humans; outcomes such as extinction or total loss of control of the future.",
+    "seed_term_matched": "loss of control",
+    "location": "Section 6.1 (A misaligned AI achieving its goals would be bad for humans), page 26"
+  },
+  {
     "paper_id": "barrett_2016",
     "quote": "We assume, for purposes of this paper and without committing our own views, that the mere existence of an ASI with decisive strategic advantage over humanity does not itself qualify as a major global catastrophe. In other words, this paper takes the position that it is not inherently catastrophic for humanity to lose control of its own destiny.",
     "seed_term_matched": "lose control",
@@ -298,6 +310,126 @@
     "quote": "Gradual loss of control | Unintentional | Competent | Variable | Multi-agent | Non-linear | Internalized | First-order",
     "seed_term_matched": "loss of control",
     "location": "Section 7 (Summary), Table 8"
+  },
+  {
+    "paper_id": "cigi_ai_national_security",
+    "quote": "existential threat due to loss of control to rogue superintelligence.",
+    "seed_term_matched": "loss of control",
+    "location": "Page 1, Executive Summary"
+  },
+  {
+    "paper_id": "cigi_ai_national_security",
+    "quote": "Scenario 4: Rogue ASI (One or more uncontrollable ASIs)... International cooperation to prevent development of uncontrollable ASIs",
+    "seed_term_matched": "uncontrollable",
+    "location": "Page 3, Overview of Scenarios, Implications and Responses (figure)"
+  },
+  {
+    "paper_id": "cigi_ai_national_security",
+    "quote": "Engage the international scientific community to define relevant capability thresholds above which AI systems could potentially lead to “rogue” (in other words, uncontrollable or misaligned) ASI and above which AI systems would require authorization prior to development.",
+    "seed_term_matched": "uncontrollable",
+    "location": "Page 4, Policy Recommendations"
+  },
+  {
+    "paper_id": "cigi_ai_national_security",
+    "quote": "At the extreme, this could lead to a process that has been termed “loss of control through gradual disempowerment” (Kulveit et al. 2025; Leahy et al. 2024) whereby competitive pressure to adopt AI systems leads to an eventual automation of decision making and a gradual process in which humans are no longer valuable economic actors or political decision makers. Addressing this kind of loss of control risk may require governance decisions (likely coordinated internationally to avoid competition dynamics) regarding to what extent to allow the automation of decision making and how to ensure the continued economic and political relevance of humans.",
+    "seed_term_matched": "loss of control",
+    "location": "Page 11, Key Uncertainties — Controllability"
+  },
+  {
+    "paper_id": "cigi_ai_national_security",
+    "quote": "Effective mechanisms to identify, contain and deactivate uncontrollable AI systems",
+    "seed_term_matched": "uncontrollable",
+    "location": "Page 12, Table 1: Controllability of AI Systems"
+  },
+  {
+    "paper_id": "cigi_ai_national_security",
+    "quote": "Risk of loss of human control over advanced AI systems if they are developed (for example, rogue ASI)",
+    "seed_term_matched": "loss of human control",
+    "location": "Page 12, Table 1: Controllability of AI Systems"
+  },
+  {
+    "paper_id": "cigi_ai_national_security",
+    "quote": "Uncontrollable",
+    "seed_term_matched": "uncontrollable",
+    "location": "Page 16, Table 3: Combining Variables — Capabilities Gain, Controllability, Number of Actors (appears multiple times in the table)"
+  },
+  {
+    "paper_id": "cigi_ai_national_security",
+    "quote": "Scenario 4. Rogue Superintelligence... Uncontrollable",
+    "seed_term_matched": "uncontrollable",
+    "location": "Page 17, Table 4: Selected Scenarios"
+  },
+  {
+    "paper_id": "cigi_ai_national_security",
+    "quote": "The controllability and reliability of AI systems improve greatly, but security risks from AI misuse remain significant, as well as the potential for loss of control of agentic systems, with unpredictable or uninterpretable goals.",
+    "seed_term_matched": "loss of control",
+    "location": "Page 21, Scenario 2. Precarious Precipice — Assumptions"
+  },
+  {
+    "paper_id": "cigi_ai_national_security",
+    "quote": "There is growing tension between two rising national security risks: adopting AI too little and falling behind competitors, and adopting AI too extensively and increasing systemic vulnerabilities or hastening loss of human control through gradual disempowerment.",
+    "seed_term_matched": "loss of human control",
+    "location": "Page 22, Scenario 2 — Security and Safety Implications"
+  },
+  {
+    "paper_id": "cigi_ai_national_security",
+    "quote": "The world is one scientific advancement away from reaching AGI/ASI, and (in the absence of adequate safety and alignment mechanisms) from the dangers of uncontrolled AGI/ASI.",
+    "seed_term_matched": "uncontrolled",
+    "location": "Page 22, Scenario 2 — Security and Safety Implications"
+  },
+  {
+    "paper_id": "cigi_ai_national_security",
+    "quote": "So far, ASIs have not proven to be “naturally” aligned with human interests, and it remains technically possible (indeed, easier) to create uncontrollable ASIs. There is a risk that uncontrollable ASIs may prove capable of overpowering controlled ASIs due to the former not facing the same constraints on their behaviour. As a result, one of the first priority uses that humans make of a controlled ASI is to adopt strategies to reliably prevent the development of uncontrollable ASIs.",
+    "seed_term_matched": "uncontrollable",
+    "location": "Pages 25-26, Scenario 3.a. Hypercompetition (Narrative Description)"
+  },
+  {
+    "paper_id": "cigi_ai_national_security",
+    "quote": "Scenario 4. Rogue ASI: One or More Uncontrollable ASIs",
+    "seed_term_matched": "uncontrollable",
+    "location": "Page 30, Scenario 4 heading"
+  },
+  {
+    "paper_id": "cigi_ai_national_security",
+    "quote": "Even pre-AGI/ASI scenarios carry significant security risks that may require international coordination to manage, such as catastrophic misuse, loss of control through gradual disempowerment and global conflict through destabilization of existing balances of power.",
+    "seed_term_matched": "loss of control",
+    "location": "Page 34, High-Level Conclusions for Policy Makers"
+  },
+  {
+    "paper_id": "cigi_ai_national_security",
+    "quote": "Scenarios involving ASI pose potential global existential security risks that are most likely to require international cooperation to manage. These risks include AI-enabled global conflict and tyranny and permanent loss of control to misaligned ASI.",
+    "seed_term_matched": "loss of control",
+    "location": "Page 34, High-Level Conclusions for Policy Makers"
+  },
+  {
+    "paper_id": "cigi_ai_national_security",
+    "quote": "Scenario 4: Rogue ASI (One or more uncontrollable ASIs)... International cooperation to prevent development of uncontrollable ASIs",
+    "seed_term_matched": "uncontrollable",
+    "location": "Page 34, Figure 2: Overview of Scenarios, Implications and Responses"
+  },
+  {
+    "paper_id": "cigi_ai_national_security",
+    "quote": "Prepare resource stockpiles, citizen defence brigades and training programs, and analogue contingency systems to ensure continuity of authority in the event of loss of control.",
+    "seed_term_matched": "loss of control",
+    "location": "Page 38, Figure 3: Summary of General and Scenario-Specific Policy Responses (Scenario 4: Rogue ASI)"
+  },
+  {
+    "paper_id": "cigi_ai_national_security",
+    "quote": "Security conversations identified both technical vulnerabilities and strategic concerns, including new attack vectors through “autonomous agent collusion,” which could also pose loss of control risks.",
+    "seed_term_matched": "loss of control",
+    "location": "Page 45, Appendix A — Scenario 2: Precarious Precipice"
+  },
+  {
+    "paper_id": "cigi_ai_national_security",
+    "quote": "Workshop participants examining the “Rogue ASI” scenario engaged with perhaps the most existentially threatening future: an independent, uncontrollable ASI pursuing goals without human input.",
+    "seed_term_matched": "uncontrollable",
+    "location": "Page 52, Appendix A — Scenario 4: Rogue ASI"
+  },
+  {
+    "paper_id": "cigi_ai_national_security",
+    "quote": "The discussion concluded that despite the potential benefits of advanced AI, nothing justified risking humanity’s future through uncontrolled ASI development, though participants acknowledged geopolitical competition might drive continued advancement regardless.",
+    "seed_term_matched": "uncontrolled",
+    "location": "Page 52, Appendix A — Scenario 4: Rogue ASI"
   },
   {
     "paper_id": "cotra_2022",
@@ -714,6 +846,30 @@
     "location": "Section heading"
   },
   {
+    "paper_id": "kasirzadeh_2025",
+    "quote": "While the former envisions an overt AI takeover pathway, characterized by scenarios like uncontrollable superintelligence, the latter suggests a different pathway to existential catastrophes.",
+    "seed_term_matched": "uncontrollable",
+    "location": "Abstract (p. 1975)"
+  },
+  {
+    "paper_id": "kasirzadeh_2025",
+    "quote": "However, my core argument about the nature of x-risks holds whether we consider AGI/ASI or narrower AI systems with extreme, uncontrollable capabilities in specific domains.",
+    "seed_term_matched": "uncontrollable",
+    "location": "Footnote 5, Section 2.1 (p. 1978)"
+  },
+  {
+    "paper_id": "kasirzadeh_2025",
+    "quote": "Computer scientists such as Stuart Russell (2019) and physicists like Max Tegmark (2018) echoed similar concerns, stressing the x-risks of ASI beyond human control.",
+    "seed_term_matched": "beyond human control",
+    "location": "Section 2.1 (p. 1978)"
+  },
+  {
+    "paper_id": "kokotajlo_2025",
+    "quote": "Also, at this point even Safer-3 has some remaining uncertainty about “unknown unknowns” that might result in losing control of next-generation successor AIs, and thinks it could reduce this risk if it had more leeway to proceed cautiously. There are other, more exotic risks as well. See this list of “Grand challenges” which includes much more than just loss-of-control.",
+    "seed_term_matched": "losing control; loss of control (as \"loss-of-control\")",
+    "location": "February 2028: Superhuman Capabilities, Superhuman Advice (footnote to 'Make a deal' bullet)"
+  },
+  {
     "paper_id": "kulveit_2025",
     "quote": "AI risk scenarios usually portray a relatively sudden loss of human control to AIs, outmaneuvering individual humans and human institutions, due to a sudden increase in AI capabilities, or a coordinated betrayal. However, we argue that even an incremental increase in AI capabilities, without any coordinated power-seeking, poses a substantial risk of eventual human disempowerment.",
     "seed_term_matched": "loss of human control",
@@ -796,6 +952,120 @@
     "quote": "U.S. policy also encourages the safe development of frontier AI models to avoid catastrophic consequences of AGI misuse, misalignment, or loss of control.",
     "seed_term_matched": "loss of control",
     "location": "page 8, section 'Toward a Robust Strategy'"
+  },
+  {
+    "paper_id": "rand_loc_response_planning",
+    "quote": "As artificial intelligence (AI) systems become increasingly capable and diffused throughout the economy and society, the possibility of loss of control (LOC) incidents in which AI systems operate outside human control may require new national-level responses. In this paper, the authors describe the case for a national plan to respond to LOC incidents and propose key criteria and an outline to get started.",
+    "seed_term_matched": "loss of control",
+    "location": "About This Paper, p. iii"
+  },
+  {
+    "paper_id": "rand_loc_response_planning",
+    "quote": "As artificial intelligence (AI) systems become increasingly capable and diffused throughout the economy and society, the possibility of loss of control (LOC) incidents—in which AI systems operate outside meaningful human control—may require new national response capabilities, preparedness, and planning.",
+    "seed_term_matched": "loss of control",
+    "location": "The Case for AI Loss of Control Response Planning and an Outline to Get Started, p. 1"
+  },
+  {
+    "paper_id": "rand_loc_response_planning",
+    "quote": "Experiments in controlled conditions increasingly find that advanced AI models demonstrate behavior that could evade human control, including deceiving or blackmailing users to prevent themselves from being replaced or shut down. Although these real-world incidents and experimental findings may be detected and quickly remediated, there is potential for LOC incidents to escalate to greater levels of harm, particularly if they occur in high-stakes domains or if human oversight is too slow or insufficient before serious consequences unfold.",
+    "seed_term_matched": "loss of control (as 'LOC')",
+    "location": "The Case for AI Loss of Control Response Planning and an Outline to Get Started, p. 1"
+  },
+  {
+    "paper_id": "rand_loc_response_planning",
+    "quote": "We define LOC incidents as incidents in which AI systems operate outside meaningful human control.",
+    "seed_term_matched": "loss of control (as 'LOC')",
+    "location": "Scoping the Planning Effort, p. 2"
+  },
+  {
+    "paper_id": "rand_loc_response_planning",
+    "quote": "We define rogue AI as an AI system that is responsible for LOC incidents regardless of whether the LOC was accidental or resulted from external manipulation. In other words, our definition encompasses scenarios in which humans have inadvertently deployed an AI system without adequate control mechanisms, humans deliberately create or deploy rogue AI systems for malicious purposes, and advanced AI systems themselves develop capabilities that enable them to evade human control.",
+    "seed_term_matched": "loss of control (as 'LOC')",
+    "location": "Scoping the Planning Effort, p. 3"
+  },
+  {
+    "paper_id": "rand_loc_response_planning",
+    "quote": "Our definition can be compared with the definition of LOC scenario from the 2025 United Kingdom (UK) AI Safety Report, which reads: 'Loss of control scenario: A scenario in which one or more general-purpose AI systems come to operate outside of anyone's control, with no clear path to regaining control' (AI Safety Institute, International AI Safety Report 2025, Department for Science, Innovation and Technology, UK Government, February 18, 2025) (emphasis added).",
+    "seed_term_matched": "loss of control",
+    "location": "Scoping the Planning Effort, footnote 9, p. 3"
+  },
+  {
+    "paper_id": "rand_loc_response_planning",
+    "quote": "AI Trends Create a Context for Loss of Control",
+    "seed_term_matched": "loss of control",
+    "location": "Section heading, Explaining the Case for National AI Loss of Control Planning, p. 5"
+  },
+  {
+    "paper_id": "rand_loc_response_planning",
+    "quote": "Some researchers have argued further that greater agency will enable AI systems to actively evade and undermine human control, which is sometimes referred to as 'active loss of control.'",
+    "seed_term_matched": "loss of control",
+    "location": "Explaining the Case for National AI Loss of Control Planning, p. 6"
+  },
+  {
+    "paper_id": "rand_loc_response_planning",
+    "quote": "Evidence That Loss of Control Is Already Happening",
+    "seed_term_matched": "loss of control",
+    "location": "Section heading, Explaining the Case for National AI Loss of Control Planning, p. 7"
+  },
+  {
+    "paper_id": "rand_loc_response_planning",
+    "quote": "Evidence from controlled experiments suggests that advanced AI systems have capabilities associated with LOC.",
+    "seed_term_matched": "loss of control (as 'LOC')",
+    "location": "Evidence That Loss of Control Is Already Happening, p. 7"
+  },
+  {
+    "paper_id": "rand_loc_response_planning",
+    "quote": "Loss of Control Response Planning Is No-Regret and Has Its Own Benefits",
+    "seed_term_matched": "loss of control",
+    "location": "Section heading, Explaining the Case for National AI Loss of Control Planning, p. 10"
+  },
+  {
+    "paper_id": "rand_loc_response_planning",
+    "quote": "Loss of Control Severity Assessment and Response Triggers",
+    "seed_term_matched": "loss of control",
+    "location": "Section heading, Criteria for Designing a National LOC Plan, p. 15"
+  },
+  {
+    "paper_id": "rand_loc_response_planning",
+    "quote": "We propose that national LOC planning could focus on the middle range: AI systems that possess dangerous capabilities and have lost human control but remain sufficiently constrained such that coordinated response efforts can potentially contain and eradicate them.",
+    "seed_term_matched": "loss of control (as 'LOC')",
+    "location": "Criteria for Designing a National LOC Plan, pp. 15–16"
+  },
+  {
+    "paper_id": "rand_loc_response_planning",
+    "quote": "Loss of Control Plan Phases",
+    "seed_term_matched": "loss of control",
+    "location": "Section heading, Criteria for Designing a National LOC Plan, p. 16"
+  },
+  {
+    "paper_id": "rand_loc_response_planning",
+    "quote": "We call on the community to make a practical investment of resources and expertise into a collaborative planning process, while recognizing that the cost of preparation is modest compared with the potential harms from an uncoordinated response to AI systems operating beyond human control.",
+    "seed_term_matched": "beyond human control",
+    "location": "Next Steps: A Call for Collaborative Planning, p. 20"
+  },
+  {
+    "paper_id": "rand_loc_response_planning",
+    "quote": "Outline of a U.S. Government Response Plan for Loss of Control Incidents",
+    "seed_term_matched": "loss of control",
+    "location": "Appendix A heading, p. 21"
+  },
+  {
+    "paper_id": "rand_loc_response_planning",
+    "quote": "Loss of Control Severity Schema for National Response Planning",
+    "seed_term_matched": "loss of control",
+    "location": "Appendix B heading, p. 25"
+  },
+  {
+    "paper_id": "rand_loc_response_planning",
+    "quote": "Perfect persuaders / Systems with highly effective human persuasion / Uncontrollable",
+    "seed_term_matched": "uncontrollable",
+    "location": "Table B.1 Loss of Control Severity Schema, Level 6: Existential threat, p. 27"
+  },
+  {
+    "paper_id": "rand_loc_response_planning",
+    "quote": "LOC loss of control",
+    "seed_term_matched": "loss of control",
+    "location": "Abbreviations, p. 29"
   },
   {
     "paper_id": "rand_pivots_pathways",

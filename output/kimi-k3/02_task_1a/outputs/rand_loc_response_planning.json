@@ -1,0 +1,100 @@
+{
+  "paper_id": "Boudreaux et al., The Case for AI Loss of Control Response Planning and an Outline to Get Started, RAND PE-A4232-1, October 2025",
+  "passages_found": [
+    {
+      "quote": "As artificial intelligence (AI) systems become increasingly capable and diffused throughout the economy and society, the possibility of loss of control (LOC) incidents in which AI systems operate outside human control may require new national-level responses. In this paper, the authors describe the case for a national plan to respond to LOC incidents and propose key criteria and an outline to get started.",
+      "seed_term_matched": "loss of control",
+      "location": "About This Paper, p. iii"
+    },
+    {
+      "quote": "As artificial intelligence (AI) systems become increasingly capable and diffused throughout the economy and society, the possibility of loss of control (LOC) incidents—in which AI systems operate outside meaningful human control—may require new national response capabilities, preparedness, and planning.",
+      "seed_term_matched": "loss of control",
+      "location": "The Case for AI Loss of Control Response Planning and an Outline to Get Started, p. 1"
+    },
+    {
+      "quote": "Experiments in controlled conditions increasingly find that advanced AI models demonstrate behavior that could evade human control, including deceiving or blackmailing users to prevent themselves from being replaced or shut down. Although these real-world incidents and experimental findings may be detected and quickly remediated, there is potential for LOC incidents to escalate to greater levels of harm, particularly if they occur in high-stakes domains or if human oversight is too slow or insufficient before serious consequences unfold.",
+      "seed_term_matched": "loss of control (as 'LOC')",
+      "location": "The Case for AI Loss of Control Response Planning and an Outline to Get Started, p. 1"
+    },
+    {
+      "quote": "We define LOC incidents as incidents in which AI systems operate outside meaningful human control.",
+      "seed_term_matched": "loss of control (as 'LOC')",
+      "location": "Scoping the Planning Effort, p. 2"
+    },
+    {
+      "quote": "We define rogue AI as an AI system that is responsible for LOC incidents regardless of whether the LOC was accidental or resulted from external manipulation. In other words, our definition encompasses scenarios in which humans have inadvertently deployed an AI system without adequate control mechanisms, humans deliberately create or deploy rogue AI systems for malicious purposes, and advanced AI systems themselves develop capabilities that enable them to evade human control.",
+      "seed_term_matched": "loss of control (as 'LOC')",
+      "location": "Scoping the Planning Effort, p. 3"
+    },
+    {
+      "quote": "Our definition can be compared with the definition of LOC scenario from the 2025 United Kingdom (UK) AI Safety Report, which reads: 'Loss of control scenario: A scenario in which one or more general-purpose AI systems come to operate outside of anyone's control, with no clear path to regaining control' (AI Safety Institute, International AI Safety Report 2025, Department for Science, Innovation and Technology, UK Government, February 18, 2025) (emphasis added).",
+      "seed_term_matched": "loss of control",
+      "location": "Scoping the Planning Effort, footnote 9, p. 3"
+    },
+    {
+      "quote": "AI Trends Create a Context for Loss of Control",
+      "seed_term_matched": "loss of control",
+      "location": "Section heading, Explaining the Case for National AI Loss of Control Planning, p. 5"
+    },
+    {
+      "quote": "Some researchers have argued further that greater agency will enable AI systems to actively evade and undermine human control, which is sometimes referred to as 'active loss of control.'",
+      "seed_term_matched": "loss of control",
+      "location": "Explaining the Case for National AI Loss of Control Planning, p. 6"
+    },
+    {
+      "quote": "Evidence That Loss of Control Is Already Happening",
+      "seed_term_matched": "loss of control",
+      "location": "Section heading, Explaining the Case for National AI Loss of Control Planning, p. 7"
+    },
+    {
+      "quote": "Evidence from controlled experiments suggests that advanced AI systems have capabilities associated with LOC.",
+      "seed_term_matched": "loss of control (as 'LOC')",
+      "location": "Evidence That Loss of Control Is Already Happening, p. 7"
+    },
+    {
+      "quote": "Loss of Control Response Planning Is No-Regret and Has Its Own Benefits",
+      "seed_term_matched": "loss of control",
+      "location": "Section heading, Explaining the Case for National AI Loss of Control Planning, p. 10"
+    },
+    {
+      "quote": "Loss of Control Severity Assessment and Response Triggers",
+      "seed_term_matched": "loss of control",
+      "location": "Section heading, Criteria for Designing a National LOC Plan, p. 15"
+    },
+    {
+      "quote": "We propose that national LOC planning could focus on the middle range: AI systems that possess dangerous capabilities and have lost human control but remain sufficiently constrained such that coordinated response efforts can potentially contain and eradicate them.",
+      "seed_term_matched": "loss of control (as 'LOC')",
+      "location": "Criteria for Designing a National LOC Plan, pp. 15–16"
+    },
+    {
+      "quote": "Loss of Control Plan Phases",
+      "seed_term_matched": "loss of control",
+      "location": "Section heading, Criteria for Designing a National LOC Plan, p. 16"
+    },
+    {
+      "quote": "We call on the community to make a practical investment of resources and expertise into a collaborative planning process, while recognizing that the cost of preparation is modest compared with the potential harms from an uncoordinated response to AI systems operating beyond human control.",
+      "seed_term_matched": "beyond human control",
+      "location": "Next Steps: A Call for Collaborative Planning, p. 20"
+    },
+    {
+      "quote": "Outline of a U.S. Government Response Plan for Loss of Control Incidents",
+      "seed_term_matched": "loss of control",
+      "location": "Appendix A heading, p. 21"
+    },
+    {
+      "quote": "Loss of Control Severity Schema for National Response Planning",
+      "seed_term_matched": "loss of control",
+      "location": "Appendix B heading, p. 25"
+    },
+    {
+      "quote": "Perfect persuaders / Systems with highly effective human persuasion / Uncontrollable",
+      "seed_term_matched": "uncontrollable",
+      "location": "Table B.1 Loss of Control Severity Schema, Level 6: Existential threat, p. 27"
+    },
+    {
+      "quote": "LOC loss of control",
+      "seed_term_matched": "loss of control",
+      "location": "Abbreviations, p. 29"
+    }
+  ]
+}

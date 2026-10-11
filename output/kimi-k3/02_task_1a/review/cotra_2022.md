@@ -3,7 +3,7 @@
 **Paper:** Cotra, A. (2022). Without specific countermeasures, the easiest path to transformative AI likely leads to AI takeover.
 **Experiment:** 1a_kimi-k3-nvidia_prompt_1a_v2
 **Model:** moonshotai/kimi-k3
-**Date:** 2026-10-11T08:59:40.373212+00:00
+**Date:** 2026-10-11T13:33:29.133737+00:00
 
 ---
 

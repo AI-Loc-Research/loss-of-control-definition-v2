@@ -1,0 +1,105 @@
+{
+  "paper_id": "CIGI Special Report: Summary Report from the Artificial Intelligence National Security Scenarios Workshop (Cass-Beggs & da Mota, 2026)",
+  "passages_found": [
+    {
+      "quote": "existential threat due to loss of control to rogue superintelligence.",
+      "seed_term_matched": "loss of control",
+      "location": "Page 1, Executive Summary"
+    },
+    {
+      "quote": "Scenario 4: Rogue ASI (One or more uncontrollable ASIs)... International cooperation to prevent development of uncontrollable ASIs",
+      "seed_term_matched": "uncontrollable",
+      "location": "Page 3, Overview of Scenarios, Implications and Responses (figure)"
+    },
+    {
+      "quote": "Engage the international scientific community to define relevant capability thresholds above which AI systems could potentially lead to “rogue” (in other words, uncontrollable or misaligned) ASI and above which AI systems would require authorization prior to development.",
+      "seed_term_matched": "uncontrollable",
+      "location": "Page 4, Policy Recommendations"
+    },
+    {
+      "quote": "At the extreme, this could lead to a process that has been termed “loss of control through gradual disempowerment” (Kulveit et al. 2025; Leahy et al. 2024) whereby competitive pressure to adopt AI systems leads to an eventual automation of decision making and a gradual process in which humans are no longer valuable economic actors or political decision makers. Addressing this kind of loss of control risk may require governance decisions (likely coordinated internationally to avoid competition dynamics) regarding to what extent to allow the automation of decision making and how to ensure the continued economic and political relevance of humans.",
+      "seed_term_matched": "loss of control",
+      "location": "Page 11, Key Uncertainties — Controllability"
+    },
+    {
+      "quote": "Effective mechanisms to identify, contain and deactivate uncontrollable AI systems",
+      "seed_term_matched": "uncontrollable",
+      "location": "Page 12, Table 1: Controllability of AI Systems"
+    },
+    {
+      "quote": "Risk of loss of human control over advanced AI systems if they are developed (for example, rogue ASI)",
+      "seed_term_matched": "loss of human control",
+      "location": "Page 12, Table 1: Controllability of AI Systems"
+    },
+    {
+      "quote": "Uncontrollable",
+      "seed_term_matched": "uncontrollable",
+      "location": "Page 16, Table 3: Combining Variables — Capabilities Gain, Controllability, Number of Actors (appears multiple times in the table)"
+    },
+    {
+      "quote": "Scenario 4. Rogue Superintelligence... Uncontrollable",
+      "seed_term_matched": "uncontrollable",
+      "location": "Page 17, Table 4: Selected Scenarios"
+    },
+    {
+      "quote": "The controllability and reliability of AI systems improve greatly, but security risks from AI misuse remain significant, as well as the potential for loss of control of agentic systems, with unpredictable or uninterpretable goals.",
+      "seed_term_matched": "loss of control",
+      "location": "Page 21, Scenario 2. Precarious Precipice — Assumptions"
+    },
+    {
+      "quote": "There is growing tension between two rising national security risks: adopting AI too little and falling behind competitors, and adopting AI too extensively and increasing systemic vulnerabilities or hastening loss of human control through gradual disempowerment.",
+      "seed_term_matched": "loss of human control",
+      "location": "Page 22, Scenario 2 — Security and Safety Implications"
+    },
+    {
+      "quote": "The world is one scientific advancement away from reaching AGI/ASI, and (in the absence of adequate safety and alignment mechanisms) from the dangers of uncontrolled AGI/ASI.",
+      "seed_term_matched": "uncontrolled",
+      "location": "Page 22, Scenario 2 — Security and Safety Implications"
+    },
+    {
+      "quote": "So far, ASIs have not proven to be “naturally” aligned with human interests, and it remains technically possible (indeed, easier) to create uncontrollable ASIs. There is a risk that uncontrollable ASIs may prove capable of overpowering controlled ASIs due to the former not facing the same constraints on their behaviour. As a result, one of the first priority uses that humans make of a controlled ASI is to adopt strategies to reliably prevent the development of uncontrollable ASIs.",
+      "seed_term_matched": "uncontrollable",
+      "location": "Pages 25-26, Scenario 3.a. Hypercompetition (Narrative Description)"
+    },
+    {
+      "quote": "Scenario 4. Rogue ASI: One or More Uncontrollable ASIs",
+      "seed_term_matched": "uncontrollable",
+      "location": "Page 30, Scenario 4 heading"
+    },
+    {
+      "quote": "Even pre-AGI/ASI scenarios carry significant security risks that may require international coordination to manage, such as catastrophic misuse, loss of control through gradual disempowerment and global conflict through destabilization of existing balances of power.",
+      "seed_term_matched": "loss of control",
+      "location": "Page 34, High-Level Conclusions for Policy Makers"
+    },
+    {
+      "quote": "Scenarios involving ASI pose potential global existential security risks that are most likely to require international cooperation to manage. These risks include AI-enabled global conflict and tyranny and permanent loss of control to misaligned ASI.",
+      "seed_term_matched": "loss of control",
+      "location": "Page 34, High-Level Conclusions for Policy Makers"
+    },
+    {
+      "quote": "Scenario 4: Rogue ASI (One or more uncontrollable ASIs)... International cooperation to prevent development of uncontrollable ASIs",
+      "seed_term_matched": "uncontrollable",
+      "location": "Page 34, Figure 2: Overview of Scenarios, Implications and Responses"
+    },
+    {
+      "quote": "Prepare resource stockpiles, citizen defence brigades and training programs, and analogue contingency systems to ensure continuity of authority in the event of loss of control.",
+      "seed_term_matched": "loss of control",
+      "location": "Page 38, Figure 3: Summary of General and Scenario-Specific Policy Responses (Scenario 4: Rogue ASI)"
+    },
+    {
+      "quote": "Security conversations identified both technical vulnerabilities and strategic concerns, including new attack vectors through “autonomous agent collusion,” which could also pose loss of control risks.",
+      "seed_term_matched": "loss of control",
+      "location": "Page 45, Appendix A — Scenario 2: Precarious Precipice"
+    },
+    {
+      "quote": "Workshop participants examining the “Rogue ASI” scenario engaged with perhaps the most existentially threatening future: an independent, uncontrollable ASI pursuing goals without human input.",
+      "seed_term_matched": "uncontrollable",
+      "location": "Page 52, Appendix A — Scenario 4: Rogue ASI"
+    },
+    {
+      "quote": "The discussion concluded that despite the potential benefits of advanced AI, nothing justified risking humanity’s future through uncontrolled ASI development, though participants acknowledged geopolitical competition might drive continued advancement regardless.",
+      "seed_term_matched": "uncontrolled",
+      "location": "Page 52, Appendix A — Scenario 4: Rogue ASI"
+    }
+  ]
+}

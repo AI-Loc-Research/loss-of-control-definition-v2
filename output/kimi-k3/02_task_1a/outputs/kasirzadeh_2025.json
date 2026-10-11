@@ -1,0 +1,20 @@
+{
+  "paper_id": "Philosophical Studies (2025) 182:1975–2003; https://doi.org/10.1007/s11098-025-02301-3",
+  "passages_found": [
+    {
+      "quote": "While the former envisions an overt AI takeover pathway, characterized by scenarios like uncontrollable superintelligence, the latter suggests a different pathway to existential catastrophes.",
+      "seed_term_matched": "uncontrollable",
+      "location": "Abstract (p. 1975)"
+    },
+    {
+      "quote": "However, my core argument about the nature of x-risks holds whether we consider AGI/ASI or narrower AI systems with extreme, uncontrollable capabilities in specific domains.",
+      "seed_term_matched": "uncontrollable",
+      "location": "Footnote 5, Section 2.1 (p. 1978)"
+    },
+    {
+      "quote": "Computer scientists such as Stuart Russell (2019) and physicists like Max Tegmark (2018) echoed similar concerns, stressing the x-risks of ASI beyond human control.",
+      "seed_term_matched": "beyond human control",
+      "location": "Section 2.1 (p. 1978)"
+    }
+  ]
+}

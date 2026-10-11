@@ -1,0 +1,170 @@
+{
+  "config": {
+    "experiment": "1a_kimi-k3-nvidia_prompt_1a_v2",
+    "prompt_version": "prompt_1a_v2",
+    "seed_terms_version": "v2",
+    "backend": "nvidia",
+    "model": "moonshotai/kimi-k3",
+    "base_url": "https://integrate.api.nvidia.com/v1",
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "max_new_tokens": 32768,
+    "seed_terms": [
+      "loss of control",
+      "losing control",
+      "lose control",
+      "loss of human control",
+      "uncontrollable",
+      "uncontrolled",
+      "beyond human control",
+      "inability to control"
+    ],
+    "dry_run": false,
+    "force": false
+  },
+  "timestamp": "2026-10-11T13:04:35.655903+00:00",
+  "total_runtime_seconds": 1042.23,
+  "total_papers": 29,
+  "papers_processed": 3,
+  "papers_skipped": 26,
+  "errors": [
+    {
+      "paper_id": "ngo_2024",
+      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
+    },
+    {
+      "paper_id": "shah_2022",
+      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
+    }
+  ],
+  "per_paper": [
+    {
+      "paper_id": "amodei_2026",
+      "skipped": true
+    },
+    {
+      "paper_id": "bales_2024",
+      "skipped": true
+    },
+    {
+      "paper_id": "barnett_2024",
+      "skipped": true
+    },
+    {
+      "paper_id": "barrett_2016",
+      "skipped": true
+    },
+    {
+      "paper_id": "bengio_2024",
+      "skipped": true
+    },
+    {
+      "paper_id": "bengio_2025",
+      "skipped": true
+    },
+    {
+      "paper_id": "carlsmith_2021",
+      "skipped": true
+    },
+    {
+      "paper_id": "chan_2023",
+      "skipped": true
+    },
+    {
+      "paper_id": "chin_2025",
+      "skipped": true
+    },
+    {
+      "paper_id": "cigi_ai_national_security",
+      "skipped": false,
+      "extractions_found": 20,
+      "latency_seconds": 437.58,
+      "usage": {
+        "prompt_tokens": 34360,
+        "completion_tokens": 2294
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "paper_id": "cotra_2022",
+      "skipped": true
+    },
+    {
+      "paper_id": "critch_2023",
+      "skipped": true
+    },
+    {
+      "paper_id": "dafoe_2020",
+      "skipped": true
+    },
+    {
+      "paper_id": "dsit_frontier_ai",
+      "skipped": true
+    },
+    {
+      "paper_id": "dung_2024",
+      "skipped": true
+    },
+    {
+      "paper_id": "hendrycks_2023",
+      "skipped": true
+    },
+    {
+      "paper_id": "ist_loss_of_control",
+      "skipped": true
+    },
+    {
+      "paper_id": "kalra_2025",
+      "skipped": true
+    },
+    {
+      "paper_id": "kasirzadeh_2025",
+      "skipped": true
+    },
+    {
+      "paper_id": "kokotajlo_2025",
+      "skipped": true
+    },
+    {
+      "paper_id": "kulveit_2025",
+      "skipped": true
+    },
+    {
+      "paper_id": "macaskill_2025",
+      "skipped": true
+    },
+    {
+      "paper_id": "ngo_2024",
+      "skipped": false,
+      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504",
+      "latency_seconds": 302.49
+    },
+    {
+      "paper_id": "oecd_ai_risks",
+      "skipped": true
+    },
+    {
+      "paper_id": "rand_five_hard_problems",
+      "skipped": true
+    },
+    {
+      "paper_id": "rand_loc_response_planning",
+      "skipped": true
+    },
+    {
+      "paper_id": "rand_pivots_pathways",
+      "skipped": true
+    },
+    {
+      "paper_id": "rand_rise_fall_nations",
+      "skipped": true
+    },
+    {
+      "paper_id": "shah_2022",
+      "skipped": false,
+      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504",
+      "latency_seconds": 302.09
+    }
+  ]
+}

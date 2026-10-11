@@ -3,7 +3,7 @@
 **Paper:** Bengio, Y., Cohen, M., Fornasiere, D., Ghosn, J., Greiner, P. et al. (2025). Superintelligent Agents Pose Catastrophic Risks: Can Scientist AI Offer a Safer Path.
 **Experiment:** 1a_kimi-k3-nvidia_prompt_1a_v2
 **Model:** moonshotai/kimi-k3
-**Date:** 2026-10-11T08:59:40.373212+00:00
+**Date:** 2026-10-11T13:33:29.133737+00:00
 
 ---
 

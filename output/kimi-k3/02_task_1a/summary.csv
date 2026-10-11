@@ -1,12 +1,14 @@
 paper_id,citation,num_extractions,num_verified_quotes,num_unverified_quotes
 amodei_2026,"Amodei, D. (2026). The Adolescence of Technology.",1,1,0
 bales_2024,"Bales, A. (2024). AI takeover and human disempowerment. The Philosophical Quarterly, 75(3), 791–811.",1,1,0
+barnett_2024,"Barnett, P. & Gillen, J. (2024). Without Fundamental Advances, Misalignment and Catastrophe Are the Default Outcomes of Training Powerful AI.",2,2,0
 barrett_2016,"Barrett, A. et al. (2016). A Model of Pathways to Artificial Superintelligence Catastrophe for Risk and Decision Analysis.",2,2,0
 bengio_2024,"Bengio, Y. et al. (2024). Managing extreme AI risks amid rapid progress.",2,2,0
 bengio_2025,"Bengio, Y., Cohen, M., Fornasiere, D., Ghosn, J., Greiner, P. et al. (2025). Superintelligent Agents Pose Catastrophic Risks: Can Scientist AI Offer a Safer Path.",24,24,0
 carlsmith_2021,"Carlsmith, J. (2021). Is Power-Seeking AI an Existential Risk?",6,6,0
 chan_2023,"Chan, A. et al. (2023). Harms from Increasingly Agentic Algorithmic Systems.",0,0,0
 chin_2025,"Chin, Z.S. (2025). Dimensional Characterization and Pathway Modeling for Catastrophic AI Risks.",14,12,2
+cigi_ai_national_security,"Cass-Beggs, D. et al. (2025). AI National Security Scenarios. CIGI Special Report.",20,15,5
 cotra_2022,"Cotra, A. (2022). Without specific countermeasures, the easiest path to transformative AI likely leads to AI takeover.",1,1,0
 critch_2023,"Critch, A. & Russell, S. (2023). TASRA: A Taxonomy and Analysis of Societal-Scale Risks from AI.",1,1,0
 dafoe_2020,"Dafoe, A. (2020). AI Governance: Opportunity and Theory of Impact.",0,0,0
@@ -15,9 +17,14 @@ dung_2024,"Dung, L. (2024). The argument for near-term human disempowerment thro
 hendrycks_2023,"Hendrycks, D., Mazeika, M. & Woodside, T. (2023). An Overview of Catastrophic AI Risks.",21,21,0
 ist_loss_of_control,"Tkeshelashvili, M., Verma, R. & Kelly, S.M. (2026). AI Loss of Control Risk: Indications & Warning. Institute for Security and Technology.",26,25,1
 kalra_2025,"Kalra, N. & Boudreaux, B. (2025). Not Just Superintelligence: The Many Risks of Near-Future AGI.",9,9,0
+kasirzadeh_2025,"Kasirzadeh, A. (2025). Two types of AI existential risk: decisive and accumulative. Philosophical Studies, 182(7), 1975–2003.",3,3,0
+kokotajlo_2025,"Kokotajlo, D., Alexander, S., Larsen, T., Lifland, E. & Dean, R. (2025). AI 2027: A research-backed AI scenario forecast.",1,1,0
 kulveit_2025,"Kulveit, J. et al. (2025). Gradual Disempowerment: Systemic Existential Risks from Incremental AI Development.",2,2,0
 macaskill_2025,"MacAskill, W. & Moorhouse, F. (2025). Preparing for the Intelligence Explosion. Forethought.",5,5,0
+ngo_2024,"Ngo, R. et al. (2024). The Alignment Problem from a Deep Learning Perspective.",0,0,0
 oecd_ai_risks,"Berryhill, J., Hobbs, H. & Docherty, D. (2024). Assessing Potential Future Artificial Intelligence Risks, Benefits and Policy Imperatives. OECD.",4,4,0
 rand_five_hard_problems,"Mitre, J. & Predd, J.B. Artificial General Intelligence's Five Hard National Security Problems. RAND.",3,3,0
+rand_loc_response_planning,"Boudreaux, B., Vermeer, M.J.D., Horton, K. & Kalra, N. The Case for AI Loss of Control Response Planning and an Outline to Get Started. RAND.",19,18,1
 rand_pivots_pathways,"Chessen, M. & Chowdhury, S. (2025). Pivots and Pathways on the Road to Artificial General Intelligence Futures. RAND.",2,2,0
 rand_rise_fall_nations,"Pavel, B., Ke, I., Smith, G., Brown-Heidenreich, S., Sabbag, L., Acharya, A. & Mahmood, Y. How Artificial General Intelligence Could Affect the Rise and Fall of Nations. RAND.",1,1,0
+shah_2022,"Shah, R., Varma, V., Kumar, R., Phuong, M., Krakovna, V. et al. (2022). Goal Misgeneralization: Why Correct Specifications Aren't Enough For Correct Goals.",0,0,0

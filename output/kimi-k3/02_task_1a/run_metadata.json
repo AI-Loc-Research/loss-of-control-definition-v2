@@ -1,345 +1,142 @@
 {
-  "timestamp": "2026-10-11T08:59:40.373212+00:00",
-  "total_runtime_seconds": 7444.19,
+  "timestamp": "2026-10-11T13:33:29.133737+00:00",
+  "total_runtime_seconds": 649.48,
   "total_papers": 29,
-  "papers_processed": 29,
-  "papers_skipped": 0,
-  "errors": [
-    {
-      "paper_id": "barnett_2024",
-      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
-    },
-    {
-      "paper_id": "cigi_ai_national_security",
-      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
-    },
-    {
-      "paper_id": "kasirzadeh_2025",
-      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
-    },
-    {
-      "paper_id": "kokotajlo_2025",
-      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
-    },
-    {
-      "paper_id": "ngo_2024",
-      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
-    },
-    {
-      "paper_id": "rand_loc_response_planning",
-      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
-    },
-    {
-      "paper_id": "shah_2022",
-      "error": "API error: Server error '502 Bad Gateway' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502"
-    }
-  ],
+  "papers_processed": 2,
+  "papers_skipped": 27,
+  "errors": [],
   "per_paper": [
     {
       "paper_id": "amodei_2026",
-      "skipped": false,
-      "extractions_found": 1,
-      "latency_seconds": 203.75,
-      "usage": {
-        "prompt_tokens": 25077,
-        "completion_tokens": 219
-      },
-      "stop_reason": "stop",
-      "model_served": null
+      "skipped": true
     },
     {
       "paper_id": "bales_2024",
-      "skipped": false,
-      "extractions_found": 1,
-      "latency_seconds": 115.67,
-      "usage": {
-        "prompt_tokens": 15004,
-        "completion_tokens": 283
-      },
-      "stop_reason": "stop",
-      "model_served": null
+      "skipped": true
     },
     {
       "paper_id": "barnett_2024",
-      "skipped": false,
-      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504",
-      "latency_seconds": 302.34
+      "skipped": true
     },
     {
       "paper_id": "barrett_2016",
-      "skipped": false,
-      "extractions_found": 2,
-      "latency_seconds": 174.96,
-      "usage": {
-        "prompt_tokens": 14285,
-        "completion_tokens": 352
-      },
-      "stop_reason": "stop",
-      "model_served": null
+      "skipped": true
     },
     {
       "paper_id": "bengio_2024",
-      "skipped": false,
-      "extractions_found": 2,
-      "latency_seconds": 300.5,
-      "usage": {
-        "prompt_tokens": 11568,
-        "completion_tokens": 379
-      },
-      "stop_reason": "stop",
-      "model_served": null
+      "skipped": true
     },
     {
       "paper_id": "bengio_2025",
-      "skipped": false,
-      "extractions_found": 24,
-      "latency_seconds": 229.28,
-      "usage": {
-        "prompt_tokens": 58043,
-        "completion_tokens": 2099
-      },
-      "stop_reason": "stop",
-      "model_served": null
+      "skipped": true
     },
     {
       "paper_id": "carlsmith_2021",
-      "skipped": false,
-      "extractions_found": 6,
-      "latency_seconds": 148.53,
-      "usage": {
-        "prompt_tokens": 58862,
-        "completion_tokens": 633
-      },
-      "stop_reason": "stop",
-      "model_served": null
+      "skipped": true
     },
     {
       "paper_id": "chan_2023",
-      "skipped": false,
-      "extractions_found": 0,
-      "latency_seconds": 151.24,
-      "usage": {
-        "prompt_tokens": 35509,
-        "completion_tokens": 138
-      },
-      "stop_reason": "stop",
-      "model_served": null
+      "skipped": true
     },
     {
       "paper_id": "chin_2025",
-      "skipped": false,
-      "extractions_found": 14,
-      "latency_seconds": 198.03,
-      "usage": {
-        "prompt_tokens": 21792,
-        "completion_tokens": 1393
-      },
-      "stop_reason": "stop",
-      "model_served": null
+      "skipped": true
     },
     {
       "paper_id": "cigi_ai_national_security",
-      "skipped": false,
-      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504",
-      "latency_seconds": 302.34
+      "skipped": true
     },
     {
       "paper_id": "cotra_2022",
-      "skipped": false,
-      "extractions_found": 1,
-      "latency_seconds": 183.36,
-      "usage": {
-        "prompt_tokens": 33805,
-        "completion_tokens": 331
-      },
-      "stop_reason": "stop",
-      "model_served": null
+      "skipped": true
     },
     {
       "paper_id": "critch_2023",
-      "skipped": false,
-      "extractions_found": 1,
-      "latency_seconds": 203.85,
-      "usage": {
-        "prompt_tokens": 15227,
-        "completion_tokens": 263
-      },
-      "stop_reason": "stop",
-      "model_served": null
+      "skipped": true
     },
     {
       "paper_id": "dafoe_2020",
-      "skipped": false,
-      "extractions_found": 0,
-      "latency_seconds": 154.01,
-      "usage": {
-        "prompt_tokens": 6106,
-        "completion_tokens": 205
-      },
-      "stop_reason": "stop",
-      "model_served": null
+      "skipped": true
     },
     {
       "paper_id": "dsit_frontier_ai",
-      "skipped": false,
-      "extractions_found": 11,
-      "latency_seconds": 213.79,
-      "usage": {
-        "prompt_tokens": 26521,
-        "completion_tokens": 1237
-      },
-      "stop_reason": "stop",
-      "model_served": null
+      "skipped": true
     },
     {
       "paper_id": "dung_2024",
-      "skipped": false,
-      "extractions_found": 0,
-      "latency_seconds": 180.68,
-      "usage": {
-        "prompt_tokens": 20878,
-        "completion_tokens": 200
-      },
-      "stop_reason": "stop",
-      "model_served": null
+      "skipped": true
     },
     {
       "paper_id": "hendrycks_2023",
-      "skipped": false,
-      "extractions_found": 21,
-      "latency_seconds": 334.95,
-      "usage": {
-        "prompt_tokens": 47740,
-        "completion_tokens": 2128
-      },
-      "stop_reason": "stop",
-      "model_served": null
+      "skipped": true
     },
     {
       "paper_id": "ist_loss_of_control",
-      "skipped": false,
-      "extractions_found": 26,
-      "latency_seconds": 460.94,
-      "usage": {
-        "prompt_tokens": 20538,
-        "completion_tokens": 2967
-      },
-      "stop_reason": "stop",
-      "model_served": null
+      "skipped": true
     },
     {
       "paper_id": "kalra_2025",
-      "skipped": false,
-      "extractions_found": 9,
-      "latency_seconds": 361.65,
-      "usage": {
-        "prompt_tokens": 4022,
-        "completion_tokens": 895
-      },
-      "stop_reason": "stop",
-      "model_served": null
+      "skipped": true
     },
     {
       "paper_id": "kasirzadeh_2025",
-      "skipped": false,
-      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504",
-      "latency_seconds": 302.44
+      "skipped": true
     },
     {
       "paper_id": "kokotajlo_2025",
-      "skipped": false,
-      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504",
-      "latency_seconds": 302.13
+      "skipped": true
     },
     {
       "paper_id": "kulveit_2025",
-      "skipped": false,
-      "extractions_found": 2,
-      "latency_seconds": 345.63,
-      "usage": {
-        "prompt_tokens": 20981,
-        "completion_tokens": 438
-      },
-      "stop_reason": "stop",
-      "model_served": null
+      "skipped": true
     },
     {
       "paper_id": "macaskill_2025",
-      "skipped": false,
-      "extractions_found": 5,
-      "latency_seconds": 369.09,
-      "usage": {
-        "prompt_tokens": 46972,
-        "completion_tokens": 666
-      },
-      "stop_reason": "stop",
-      "model_served": null
+      "skipped": true
     },
     {
       "paper_id": "ngo_2024",
       "skipped": false,
-      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504",
-      "latency_seconds": 302.4
+      "extractions_found": 0,
+      "latency_seconds": 353.32,
+      "usage": {
+        "prompt_tokens": 32064,
+        "completion_tokens": 224
+      },
+      "stop_reason": "stop",
+      "model_served": null
     },
     {
       "paper_id": "oecd_ai_risks",
-      "skipped": false,
-      "extractions_found": 4,
-      "latency_seconds": 331.56,
-      "usage": {
-        "prompt_tokens": 54559,
-        "completion_tokens": 755
-      },
-      "stop_reason": "stop",
-      "model_served": null
+      "skipped": true
     },
     {
       "paper_id": "rand_five_hard_problems",
-      "skipped": false,
-      "extractions_found": 3,
-      "latency_seconds": 339.16,
-      "usage": {
-        "prompt_tokens": 8919,
-        "completion_tokens": 343
-      },
-      "stop_reason": "stop",
-      "model_served": null
+      "skipped": true
     },
     {
       "paper_id": "rand_loc_response_planning",
-      "skipped": false,
-      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504",
-      "latency_seconds": 302.29
+      "skipped": true
     },
     {
       "paper_id": "rand_pivots_pathways",
-      "skipped": false,
-      "extractions_found": 2,
-      "latency_seconds": 329.88,
-      "usage": {
-        "prompt_tokens": 13864,
-        "completion_tokens": 286
-      },
-      "stop_reason": "stop",
-      "model_served": null
+      "skipped": true
     },
     {
       "paper_id": "rand_rise_fall_nations",
-      "skipped": false,
-      "extractions_found": 1,
-      "latency_seconds": 298.69,
-      "usage": {
-        "prompt_tokens": 24844,
-        "completion_tokens": 314
-      },
-      "stop_reason": "stop",
-      "model_served": null
+      "skipped": true
     },
     {
       "paper_id": "shah_2022",
       "skipped": false,
-      "error": "API error: Server error '502 Bad Gateway' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502",
-      "latency_seconds": 0.3
+      "extractions_found": 0,
+      "latency_seconds": 296.09,
+      "usage": {
+        "prompt_tokens": 20916,
+        "completion_tokens": 110
+      },
+      "stop_reason": "stop",
+      "model_served": null
     }
   ]
 }

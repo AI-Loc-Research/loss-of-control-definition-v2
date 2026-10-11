@@ -1,0 +1,15 @@
+{
+  "paper_id": "Barnett & Gillen (2024), Without Fundamental Advances, Misalignment and Catastrophe Are the Default Outcomes of Training Powerful AI",
+  "passages_found": [
+    {
+      "quote": "There are several categories of problems that make it difficult to specify goals. Each category introduces an uncontrolled degree of freedom in the goal specification which exists because we are only using feedback based on behavior.",
+      "seed_term_matched": "uncontrolled",
+      "location": "Section 4 (Behavioral training is an imprecise way to specify goals), page 15"
+    },
+    {
+      "quote": "In this section we will discuss concretely why AI systems, which are capable of hard tasks and are misaligned, will likely lead to catastrophically bad outcomes for humans; outcomes such as extinction or total loss of control of the future.",
+      "seed_term_matched": "loss of control",
+      "location": "Section 6.1 (A misaligned AI achieving its goals would be bad for humans), page 26"
+    }
+  ]
+}
