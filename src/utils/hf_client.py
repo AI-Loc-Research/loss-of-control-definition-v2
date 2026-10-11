@@ -95,6 +95,7 @@ def query_llm(
             # Accumulate content from streamed chunks
             generated_text = ""
             usage_data = None
+            finish_reason = None
             chunk_count = 0
             for chunk in stream:
                 chunk_count += 1
@@ -104,6 +105,10 @@ def query_llm(
 
                 if chunk.choices and chunk.choices[0].delta.content:
                     generated_text += chunk.choices[0].delta.content
+
+                # The last chunk says why generation stopped ("length" = hit max_new_tokens)
+                if chunk.choices and chunk.choices[0].finish_reason:
+                    finish_reason = chunk.choices[0].finish_reason
 
                 # Some providers send usage on the final chunk
                 if hasattr(chunk, "usage") and chunk.usage is not None:
@@ -132,6 +137,8 @@ def query_llm(
 
     result = {
         "generated_text": generated_text,
+        # Same name and value as the Claude client for a cut-off answer: "max_tokens"
+        "stop_reason": "max_tokens" if finish_reason == "length" else finish_reason,
         "latency_seconds": round(latency, 2),
     }
 
@@ -142,6 +149,7 @@ def query_llm(
             "streaming": True,
             "chunk_count": chunk_count,
             "generated_text_length": len(generated_text),
+            "finish_reason": finish_reason,
         }
 
     # Extract usage if the final chunk included it

@@ -10,6 +10,7 @@ import yaml
 
 from src.paths import final_papers, raw_text_path, task_output_dir
 from src.utils.hf_client import query_llm
+from src.utils.llm import call_model
 from src.utils.prompt import fill_prompt_1a, fill_prompt_1d, fill_prompt_2a, fill_prompt_2b, fill_prompt_2c, load_prompt
 
 
@@ -65,10 +66,11 @@ def _parse_json_response(text: str) -> dict | None:
 
 def run_1a(
     config: dict,
-    hf_token: str,
+    api_key: str,
     repo_root: str = ".",
     force: bool = False,
     dry_run: bool = False,
+    paper_ids: list[str] | None = None,
 ) -> None:
     """Run Prompt 1a on every final paper (papers.yaml entries without `final: false`).
 
@@ -77,21 +79,38 @@ def run_1a(
            (outputs/, logs/, config.json, run_metadata.json, run_history/)
            Dry runs write to output/<model_name>_dryrun/02_task_1a/ instead.
 
+    A refused or cut-off answer (stop_reason "refusal" / "max_tokens") is recorded as
+    an error and its text kept in logs/<paper_id>_incomplete.json; no outputs/ file is
+    written, so the next run tries that paper again.
+
     Args:
-        config: Dict with keys: model, temperature, prompt_version,
-                seed_terms_version, provider, max_new_tokens
-                (optional: experiment, a free-text label saved with the run).
-        hf_token: HuggingFace API token.
+        config: A preset from src.config.get_config(), or a dict with keys: model,
+                prompt_version, seed_terms_version, max_new_tokens, plus the backend's
+                settings (huggingface: provider, temperature; anthropic: effort).
+                Optional: backend (default "huggingface"), experiment (a label).
+        api_key: Key for the config's backend (HF token, or Anthropic API key).
+                 Not used, and may be empty, in a dry run.
         repo_root: Path to the repo root (papers.yaml, prompts, raw text, output).
         force: If True, re-run papers that already have output.
         dry_run: If True, use mock API responses instead of real calls.
+        paper_ids: Run only these final papers (e.g. ["amodei_2026"] for a one-paper
+                   test). None = all final papers.
     """
+    if not dry_run and not api_key:
+        backend = config.get("backend", "huggingface")
+        raise ValueError(f"No API key for backend {backend!r}. Set it, or use dry_run=True.")
+
     run_start = time.time()
     timestamp = datetime.now(timezone.utc).isoformat()
 
     # --- Load configs ---
     papers_path = os.path.join(repo_root, "papers.yaml")
     papers_config = final_papers(_load_yaml(papers_path)["papers"])
+    if paper_ids is not None:
+        unknown = set(paper_ids) - {p["id"] for p in papers_config}
+        if unknown:
+            raise ValueError(f"Not final papers in papers.yaml: {sorted(unknown)}")
+        papers_config = [p for p in papers_config if p["id"] in paper_ids]
 
     # Load seed terms from versioned file: seed_terms.yaml (v1) or seed_terms_v2.yaml (v2)
     seed_version = config.get("seed_terms_version", "v1")
@@ -147,18 +166,10 @@ def run_1a(
         # Fill prompt
         filled_prompt = fill_prompt_1a(template, seed_terms, paper_text)
 
-        # Call LLM — catch HTTP errors per-paper so one failure doesn't kill the run
+        # Call the model (backend from config) — catch errors per paper so one failure doesn't kill the run
         paper_start = time.time()
         try:
-            result = query_llm(
-                prompt=filled_prompt,
-                model=config["model"],
-                hf_token=hf_token,
-                temperature=config.get("temperature", 0.1),
-                max_new_tokens=config.get("max_new_tokens", 8192),
-                provider=config.get("provider", "nscale"),
-                dry_run=dry_run,
-            )
+            result = call_model(filled_prompt, config, api_key, dry_run=dry_run)
         except Exception as e:
             paper_latency = round(time.time() - paper_start, 2)
             msg = f"API error: {e}"
@@ -175,6 +186,27 @@ def run_1a(
 
         # Save raw API response to logs
         _save_json(result.get("raw_response", {}), os.path.join(logs_dir, f"{paper_id}_raw.json"))
+
+        # A refused or cut-off answer is not a result, even if part of it parses as JSON
+        stop_reason = result.get("stop_reason")
+        if stop_reason in ("refusal", "max_tokens"):
+            msg = ("Model declined (refusal)" if stop_reason == "refusal"
+                   else "Answer cut off at max_new_tokens (max_tokens)")
+            print(f"  [{i}/{total}] ERROR {paper_id} — {msg}. Text saved to logs.")
+            _save_json({"stop_reason": stop_reason, "stop_details": result.get("stop_details"),
+                        "generated_text": generated_text},
+                       os.path.join(logs_dir, f"{paper_id}_incomplete.json"))
+            errors.append({"paper_id": paper_id, "error": msg, "stop_reason": stop_reason,
+                           "stop_details": result.get("stop_details")})
+            per_paper_meta.append({
+                "paper_id": paper_id,
+                "skipped": False,
+                "error": msg,
+                "stop_reason": stop_reason,
+                "latency_seconds": paper_latency,
+                "usage": result.get("usage"),
+            })
+            continue
 
         # Parse JSON from response
         parsed = _parse_json_response(generated_text)
@@ -207,6 +239,8 @@ def run_1a(
             "extractions_found": num_items,
             "latency_seconds": paper_latency,
             "usage": result.get("usage"),
+            "stop_reason": stop_reason,
+            "model_served": result.get("model_served"),
         })
 
     # --- Save config snapshot ---
@@ -902,7 +936,7 @@ if __name__ == "__main__":
         }
 
         print("=== DRY RUN TEST ===\n")
-        run_1a(config, hf_token="", repo_root=tmp_repo, dry_run=True)
+        run_1a(config, api_key="", repo_root=tmp_repo, dry_run=True)
 
         out_dir = task_output_dir(tmp_repo, config["model"], "02_task_1a", dry_run=True)
         assert out_dir.endswith(os.path.join("output", "mock-model_dryrun", "02_task_1a")), out_dir

@@ -802,7 +802,8 @@ if __name__ == "__main__":
             yaml.dump(papers_yaml, f)
 
         # Create dummy raw text files
-        raw_text_dir = os.path.join(tmpdir, "raw_text")
+        raw_text_dir = os.path.join(tmpdir, "raw_text_final")
+
         os.makedirs(raw_text_dir)
 
         smith_text = (
@@ -830,11 +831,9 @@ if __name__ == "__main__":
         with open(os.path.join(raw_text_dir, "jones_2023.txt"), "w") as f:
             f.write(jones_text)
 
-        # Create dummy experiment outputs
-        exp_dir = os.path.join(
-            tmpdir, "stages", "1a_definition_extraction",
-            "experiments", "exp001_test",
-        )
+        # Create dummy outputs where run_1a would put them: output/<model_name>/02_task_1a
+        exp_dir = task_output_dir(tmpdir, "test-org/mock-model-v1", "02_task_1a")
+
         outputs_dir = os.path.join(exp_dir, "outputs")
         os.makedirs(outputs_dir)
 
@@ -913,7 +912,7 @@ if __name__ == "__main__":
         # Write config.json and run_metadata.json
         config = {
             "experiment": "exp001_test",
-            "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+            "model": "test-org/mock-model-v1",
             "temperature": 0.1,
             "prompt_version": "prompt_1a_v1",
         }
@@ -926,7 +925,7 @@ if __name__ == "__main__":
 
         # Run generate_review_docs (v1 schema)
         print("=== V1 SCHEMA TEST ===\n")
-        generate_review_docs(config, tmpdir, repo_root=tmpdir)
+        generate_review_docs(config, repo_root=tmpdir)
 
         # Show one review doc
         review_dir_path = os.path.join(exp_dir, "review")
@@ -936,10 +935,8 @@ if __name__ == "__main__":
 
         # --- V2 schema test ---
         print("=== V2 SCHEMA TEST ===\n")
-        exp_dir_v2 = os.path.join(
-            tmpdir, "stages", "1a_definition_extraction",
-            "experiments", "exp002_v2_test",
-        )
+        exp_dir_v2 = task_output_dir(tmpdir, "test-org/mock-model-v2", "02_task_1a")
+
         outputs_dir_v2 = os.path.join(exp_dir_v2, "outputs")
         os.makedirs(outputs_dir_v2)
 
@@ -963,7 +960,7 @@ if __name__ == "__main__":
 
         config_v2 = {
             "experiment": "exp002_v2_test",
-            "model": "meta-llama/Llama-3.1-70B-Instruct",
+            "model": "test-org/mock-model-v2",
             "temperature": 0.1,
             "prompt_version": "prompt_1a_v2",
         }
@@ -972,7 +969,7 @@ if __name__ == "__main__":
         with open(os.path.join(exp_dir_v2, "run_metadata.json"), "w") as f:
             json.dump(run_meta, f)
 
-        generate_review_docs(config_v2, tmpdir, repo_root=tmpdir)
+        generate_review_docs(config_v2, repo_root=tmpdir)
 
         review_dir_v2 = os.path.join(exp_dir_v2, "review")
         with open(os.path.join(review_dir_v2, "smith_2024.md"), "r") as f:

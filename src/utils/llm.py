@@ -8,10 +8,8 @@ Configs without "backend" (older notebooks) use Hugging Face, as before.
 
 from src.utils.hf_client import query_llm
 
-
 def call_model(prompt: str, config: dict, api_key: str, dry_run: bool = False) -> dict:
     """Send one prompt with the settings in config; returns the query_llm dict shape.
-
     dry_run returns the mock reply for every backend: no key, no network, no cost.
     """
     if dry_run:
