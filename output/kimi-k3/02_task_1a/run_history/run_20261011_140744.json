@@ -1,0 +1,45 @@
+{
+  "config": {
+    "experiment": "1a_kimi-k3-nvidia_prompt_1a_v2",
+    "prompt_version": "prompt_1a_v2",
+    "seed_terms_version": "v2",
+    "backend": "nvidia",
+    "model": "moonshotai/kimi-k3",
+    "base_url": "https://integrate.api.nvidia.com/v1",
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "max_new_tokens": 32768,
+    "seed_terms": [
+      "loss of control",
+      "losing control",
+      "lose control",
+      "loss of human control",
+      "uncontrollable",
+      "uncontrolled",
+      "beyond human control",
+      "inability to control"
+    ],
+    "dry_run": false,
+    "force": false
+  },
+  "timestamp": "2026-10-11T08:36:13.364471+00:00",
+  "total_runtime_seconds": 91.09,
+  "total_papers": 1,
+  "papers_processed": 1,
+  "papers_skipped": 0,
+  "errors": [],
+  "per_paper": [
+    {
+      "paper_id": "amodei_2026",
+      "skipped": false,
+      "extractions_found": 1,
+      "latency_seconds": 90.98,
+      "usage": {
+        "prompt_tokens": 25077,
+        "completion_tokens": 264
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    }
+  ]
+}

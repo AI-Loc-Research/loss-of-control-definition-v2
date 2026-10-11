@@ -39,19 +39,29 @@ def query_llm(
     provider: str = "nscale",
     return_full_response: bool = True,
     dry_run: bool = False,
+    base_url: str | None = None,
+    top_p: float | None = None,
+    extra_body: dict | None = None,
 ) -> dict:
     """Send a prompt to the HuggingFace Inference API via InferenceClient.
 
+    With base_url, the same client calls any OpenAI-compatible endpoint directly
+    instead (e.g. NVIDIA: "https://integrate.api.nvidia.com/v1"); provider is then ignored.
+
     Args:
         prompt: The full prompt string to send.
-        model: HF model ID (e.g. "meta-llama/Meta-Llama-3.1-70B-Instruct").
-        hf_token: HuggingFace API token.
+        model: HF model ID (e.g. "meta-llama/Meta-Llama-3.1-70B-Instruct"), or the
+               endpoint's own model ID when base_url is set (e.g. "moonshotai/kimi-k3").
+        hf_token: HuggingFace API token, or the endpoint's API key when base_url is set.
         temperature: Sampling temperature. Default 0.1 for high-fidelity extraction.
         max_new_tokens: Maximum tokens to generate.
         provider: Inference provider (e.g. "nscale"). Routes to the provider
                   directly for full context length support.
         return_full_response: If True, include raw API response in output.
         dry_run: If True, return a mock response without calling the API.
+        base_url: Call this OpenAI-compatible endpoint instead of HF providers.
+        top_p: Nucleus sampling; None = the endpoint's default.
+        extra_body: Endpoint-specific request fields (e.g. {"reasoning_effort": "high"}).
 
     Returns:
         Dict with keys:
@@ -72,7 +82,13 @@ def query_llm(
             "latency_seconds": 0.0,
         }
 
-    client = InferenceClient(model=model, provider=provider, token=hf_token)
+    if base_url:
+        # OpenAI-compatible endpoint: the model ID goes in the request body
+        client = InferenceClient(base_url=base_url, api_key=hf_token)
+        model_in_request = model
+    else:
+        client = InferenceClient(model=model, provider=provider, token=hf_token)
+        model_in_request = None
 
     # Retry on 503 (model loading) and 429 (rate limit) with exponential backoff.
     # 3 attempts total: wait 10s, then 30s before giving up.
@@ -86,9 +102,12 @@ def query_llm(
             # inference (e.g. Kimi K2.5 reasoning model). Streaming keeps
             # the connection alive by sending chunks as they're generated.
             stream = client.chat.completions.create(
+                model=model_in_request,
                 messages=[{"role": "user", "content": prompt}],
                 max_tokens=max_new_tokens,
                 temperature=temperature,
+                top_p=top_p,
+                extra_body=extra_body,
                 stream=True,
             )
 

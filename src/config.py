@@ -26,8 +26,33 @@ MODELS = {
         "max_new_tokens": 16384,
     },
 
-    # Claude, through the Anthropic API. No temperature: these models reject it
-    # models run at the same level (their defaults differ: Opus medium, Sonnet high).
+    # Newer Kimi models through NVIDIA's free API (build.nvidia.com), called directly
+    # with an NVIDIA key. NOT the paper's model (K2.5 is not on NVIDIA): a newer-model run.
+    # Both think before answering (always on, by default), and thinking counts toward
+    # max_new_tokens, hence the larger limit. Sampling = Moonshot's recommendation for
+    # thinking mode (Kimi-K2.6 model card: temperature 1.0, top_p 0.95; Kimi-K3's card
+    # reports its results at temperature 1.0). Optional, unverified on NVIDIA:
+    # "extra_body": {"reasoning_effort": "high"} for K3 (its card lists low/high/max, default max).
+    "kimi-k3-nvidia": {
+        "backend": "nvidia",
+        "model": "moonshotai/kimi-k3",
+        "base_url": "https://integrate.api.nvidia.com/v1",
+        "temperature": 1.0,
+        "top_p": 0.95,
+        "max_new_tokens": 32768,
+    },
+    "kimi-k2.6-nvidia": {
+        "backend": "nvidia",
+        "model": "moonshotai/kimi-k2.6",
+        "base_url": "https://integrate.api.nvidia.com/v1",
+        "temperature": 1.0,
+        "top_p": 0.95,
+        "max_new_tokens": 32768,
+    },
+
+    # Claude, through the Anthropic API. No temperature: these models reject it.
+    # Effort is set explicitly so both Claude models run at the same level
+    # (their defaults differ: Opus medium, Sonnet high).
     # Thinking counts toward max_new_tokens, hence the larger limit.
 
     "claude-sonnet-5.5": {
@@ -46,6 +71,7 @@ MODELS = {
 
 API_KEY_NAMES = {
     "huggingface": "HF_TOKEN",
+    "nvidia": "NVIDIA_API_KEY",
     "anthropic": "ANTHROPIC_API_KEY",
 }
 
