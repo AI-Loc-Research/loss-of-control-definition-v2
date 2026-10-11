@@ -1,0 +1,15 @@
+{
+  "paper_id": "arXiv:2501.16946v2 (Gradual Disempowerment: Systemic Existential Risks from Incremental AI Development)",
+  "passages_found": [
+    {
+      "quote": "AI risk scenarios usually portray a relatively sudden loss of human control to AIs, outmaneuvering individual humans and human institutions, due to a sudden increase in AI capabilities, or a coordinated betrayal. However, we argue that even an incremental increase in AI capabilities, without any coordinated power-seeking, poses a substantial risk of eventual human disempowerment.",
+      "seed_term_matched": "loss of human control",
+      "location": "Executive Summary (page 1)"
+    },
+    {
+      "quote": "A gradual loss of control of our own civilization might sound implausible. Hasn't technological disruption usually improved aggregate human welfare?",
+      "seed_term_matched": "loss of control",
+      "location": "Executive Summary (page 1)"
+    }
+  ]
+}

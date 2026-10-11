@@ -1,0 +1,20 @@
+{
+  "paper_id": "RAND PEA3691-4 - Artificial General Intelligence's Five Hard National Security Problems (Mitre & Predd, February 2025)",
+  "passages_found": [
+    {
+      "quote": "Consider AGI with advanced computer programming abilities able to break out of the box and engage with the world across cyberspace, thanks to a designed-in internet connection or use of side-channel attacks. It could possess agency beyond human control, operate autonomously, and make decisions with far-reaching consequences.",
+      "seed_term_matched": "beyond human control",
+      "location": "page 6, section 'The Five Problems' (fourth problem)"
+    },
+    {
+      "quote": "In the extreme, a loss-of-control scenario could result, wherein AGI's pursuit of its desired objectives incentivizes the machine to resist being turned off, counter to human efforts.",
+      "seed_term_matched": "loss of control",
+      "location": "page 6, section 'The Five Problems' (fourth problem)"
+    },
+    {
+      "quote": "U.S. policy also encourages the safe development of frontier AI models to avoid catastrophic consequences of AGI misuse, misalignment, or loss of control.",
+      "seed_term_matched": "loss of control",
+      "location": "page 8, section 'Toward a Robust Strategy'"
+    }
+  ]
+}

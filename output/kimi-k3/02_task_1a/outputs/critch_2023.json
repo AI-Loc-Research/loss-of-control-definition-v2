@@ -1,0 +1,10 @@
+{
+  "paper_id": "TASRA: a Taxonomy and Analysis of Societal-Scale Risks from AI (arXiv:2306.06924v2)",
+  "passages_found": [
+    {
+      "quote": "Later, warnings were also expressed by computer scientists such as Alan Turing (1951a,b) and Norbert Wiener (1960), with Wiener pinning risk on the difficulty of ensuring \"the purpose put into the machine\" would be aligned with actual human preferences, and I. J. Good (1966) highlighted the additional threat of rapid, recursive self-improvement leading to a loss of control.",
+      "seed_term_matched": "loss of control",
+      "location": "Section 1.1 (Related work and historical context), page 4"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "paper_id": "arXiv:2508.06411v1",
+  "passages_found": [
+    {
+      "quote": "This paper aims to bridge this gap by examining six commonly discussed AI catastrophic risks: CBRN, cyber offense, sudden loss of control, gradual loss of control, environmental risk, and geopolitical risk.",
+      "seed_term_matched": "loss of control",
+      "location": "Abstract"
+    },
+    {
+      "quote": "[6] also discusses frontier AI risks under three headings: societal harms, misuse, and loss of control.",
+      "seed_term_matched": "loss of control",
+      "location": "Section 2.1 (Overview of AI existential or catastrophic risks)"
+    },
+    {
+      "quote": "In the European Union (EU), [31] lists four types of systemic risks for the General-purpose AI (GPAI) Code of Practice, namely cyber offense, chemical, biological, radiological and nuclear (CBRN) risks, loss of control, cyber offense, and harmful manipulation.",
+      "seed_term_matched": "loss of control",
+      "location": "Section 2.2 (Implications on AI risk management)"
+    },
+    {
+      "quote": "We explore and select broad types of catastrophic risks that are commonly discussed in the literature. They include:\n• CBRN\n• Cyber offense\n• Sudden loss of control\n• Gradual loss of control\n• Environmental risk\n• Geopolitical risk",
+      "seed_term_matched": "loss of control",
+      "location": "Section 4 (Methodology)"
+    },
+    {
+      "quote": "The first three risks (CBRN, cyber offense, sudden loss of control) are selected as they represent the basis for the capability assessments that are typically conducted by frontier labs [37].",
+      "seed_term_matched": "loss of control",
+      "location": "Section 4 (Methodology)"
+    },
+    {
+      "quote": "Sudden loss of control, also known as an AI takeover [115], is a scenario where an AI rapidly achieves superintelligence through \"fast takeoff\" or recursive self-improvement. This poses an existential risk [116], [117].",
+      "seed_term_matched": "loss of control",
+      "location": "Section 6.3 (Sudden loss of control)"
+    },
+    {
+      "quote": "Hence, in the discourse of sudden loss of control risks, there tends to be less focus on generating concrete scenarios and creating risk models.",
+      "seed_term_matched": "loss of control",
+      "location": "Section 6.3.2 (Risk pathway model)"
+    },
+    {
+      "quote": "This historical event illustrates the possibility of an established system losing control in a relatively short timeframe to a powerful and intentional entity with misaligned objectives, a situation that is both difficult to prevent and difficult to reverse.",
+      "seed_term_matched": "losing control",
+      "location": "Section 6.3.3 (Analogous historical precedence)"
+    },
+    {
+      "quote": "It has been argued that a sufficiently powerful AI with scheming capabilities would be able to pursue unintended objectives that are difficult to detect or intervene, leading to a loss of control scenario [126].",
+      "seed_term_matched": "loss of control",
+      "location": "Section 6.3.3 (Analogous historical precedence)"
+    },
+    {
+      "quote": "Gradual or accumulative loss of control risks can be described as risks resulting from the accumulation of less severe disruptions that gradually weakens systemic resilience until a critical event triggers a catastrophe [12], [127].",
+      "seed_term_matched": "loss of control",
+      "location": "Section 6.4 (Gradual loss of control)"
+    },
+    {
+      "quote": "In Figure 4, gradual loss of control happens when AI capability leads to its widespread use, consequently displacing humans from economically viable jobs and leaving humans unable to afford basic survival needs.",
+      "seed_term_matched": "loss of control",
+      "location": "Section 6.4.2 (Risk pathway model)"
+    },
+    {
+      "quote": "While the crash did not result in a loss of human autonomy or lives, it serves as a historical precedent for gradual loss of control, where it showed that risks do not require a sudden \"fast takeoff\" in AI capabilities.",
+      "seed_term_matched": "loss of control",
+      "location": "Section 6.4.3 (Analogous historical precedence)"
+    },
+    {
+      "quote": "Sudden loss of control | Variable | Competent | AI | Single-agent | Linear | Internalized | First-order",
+      "seed_term_matched": "loss of control",
+      "location": "Section 7 (Summary), Table 8"
+    },
+    {
+      "quote": "Gradual loss of control | Unintentional | Competent | Variable | Multi-agent | Non-linear | Internalized | First-order",
+      "seed_term_matched": "loss of control",
+      "location": "Section 7 (Summary), Table 8"
+    }
+  ]
+}

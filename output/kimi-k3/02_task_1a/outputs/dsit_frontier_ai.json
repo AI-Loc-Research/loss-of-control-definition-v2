@@ -1,0 +1,60 @@
+{
+  "paper_id": "Frontier AI – Capabilities and Risks: A discussion paper on the need for further research into AI risk (UK Government, October 2023)",
+  "passages_found": [
+    {
+      "quote": "Loss of control __________________________________________________________ 25\nHumans might increasingly hand over control to misaligned AI systems ____________ 26\nFuture AI systems might actively reduce human control _________________________ 26",
+      "seed_term_matched": "loss of control",
+      "location": "Contents, page 2"
+    },
+    {
+      "quote": "In this section, we first review several cross-cutting risk factors – technical and societal conditions that could aggravate a number of particular risks. We then discuss individual risks under three headings: societal harms, misuse and loss of control.",
+      "seed_term_matched": "loss of control",
+      "location": "What risks do frontier AI present?, page 15"
+    },
+    {
+      "quote": "Cyberattacks also often cause significant harm to the public, including physical,232 monetary, mental and emotional harms, abuse,233 discrimination, denial of access to key services and loss of control over personal data.234",
+      "seed_term_matched": "loss of control",
+      "location": "Cyber – Potential Risks and Impact, page 24"
+    },
+    {
+      "quote": "Loss of control\nHumans may increasingly hand over control of important decisions to AI systems, due to economic and geopolitical incentives. Some experts are concerned that future advanced AI systems will seek to increase their own influence and reduce human control, with potentially catastrophic consequences - although this is contested.",
+      "seed_term_matched": "loss of control",
+      "location": "Loss of control section, page 25"
+    },
+    {
+      "quote": "There are broadly two factors that could contribute to loss of control:  \n● Humans increasingly hand over control of important decisions to AIs. It becomes increasingly difficult for humans to take back control.  \n● AI systems actively seek to increase their own influence and reduce human control.",
+      "seed_term_matched": "loss of control",
+      "location": "Loss of control section, page 26"
+    },
+    {
+      "quote": "However, many experts are concerned that losing control of advanced general-purpose AI systems is a real possibility and that loss of control could be permanent and catastrophic.249",
+      "seed_term_matched": "losing control",
+      "location": "Loss of control section, page 26"
+    },
+    {
+      "quote": "However, many experts are concerned that losing control of advanced general-purpose AI systems is a real possibility and that loss of control could be permanent and catastrophic.249",
+      "seed_term_matched": "loss of control",
+      "location": "Loss of control section, page 26"
+    },
+    {
+      "quote": "Loss of control could be accelerated if AI systems take actions to increase their own influence and reduce human control. This threat model is controversial - experts in AI significantly disagree on how likely it is and those who deem it is likely disagree on the timeframe.",
+      "seed_term_matched": "loss of control",
+      "location": "Future AI systems might actively reduce human control, page 26"
+    },
+    {
+      "quote": "If this does materialise such agents might exceed the capabilities of human experts in domains relevant to loss of control, for example political strategy, weapons design, or self-improvement. For loss of control to be a catastrophic risk, AI systems would need to be given or gain some control over systems with significant impacts, such as military or financial systems.",
+      "seed_term_matched": "loss of control",
+      "location": "Frontier AI shows early signs of capabilities that could be used to reduce human control, page 28"
+    },
+    {
+      "quote": "We outlined examples of societal harms, risks of misuse from bad actors, and even the possibility of losing control of the technology itself if it becomes advanced enough.",
+      "seed_term_matched": "losing control",
+      "location": "Conclusion, page 28"
+    },
+    {
+      "quote": "Professors Geoffrey Hinton and Yoshua Bengio, the two most highly cited computer scientists of all time, and winners of the Turing award for their pioneering work in deep learning, have both highlighted concerns around catastrophic harms from loss of control.",
+      "seed_term_matched": "loss of control",
+      "location": "Footnote 249, page 43"
+    }
+  ]
+}

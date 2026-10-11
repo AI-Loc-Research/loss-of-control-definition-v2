@@ -1,0 +1,35 @@
+{
+  "paper_id": "arXiv:2206.13353v2 (Carlsmith, \"Is Power-Seeking AI an Existential Risk?\")",
+  "passages_found": [
+    {
+      "quote": "My current view is that there is a disturbingly substantive chance that a scenario along these lines occurs, and that many people alive today—including myself—live to see humanity permanently disempowered by AI systems we've lost control over.",
+      "seed_term_matched": "lost control",
+      "location": "Section 1 (Introduction)"
+    },
+    {
+      "quote": "Rather, I'm assuming that we want to avoid disempowerment that is imposed on us by artificial systems we've lost control over. See section 7 for more discussion.",
+      "seed_term_matched": "lost control",
+      "location": "Section 1.1 (Preliminaries)"
+    },
+    {
+      "quote": "The worry is that if we create and lose control of such agents, and their objectives are problematic, the result won't just be damage of the type that occurs, for example, when a plane crashes, or a nuclear plant melts down—damage which, for all its costs, remains passive.",
+      "seed_term_matched": "lose control",
+      "location": "Section 1.2.4 (Power)"
+    },
+    {
+      "quote": "This difference—between the usual sort of damage that occurs when a piece of technology malfunctions, and the type that occurs when you lose control over strategically sophisticated, power-seeking agents whose objectives conflict with yours—marks a key distinction not just between worries about AI vs. other sorts of risks, but also between the specific type of AI-related worry I focus on in what follows, and the more inclusive set of worries that sometimes go under the heading of \"AI alignment.\"",
+      "seed_term_matched": "lose control",
+      "location": "Section 1.2.4 (Power)"
+    },
+    {
+      "quote": "Rather, the point is to avoid losing control of our AI systems before we've had time to develop the maturity to really understand what is at stake in different paths into the future—including paths that involve sharing power with AI systems—and to choose wisely amongst them.",
+      "seed_term_matched": "losing control",
+      "location": "Section 7 (Catastrophe)"
+    },
+    {
+      "quote": "Rather, it's that as far as I can presently tell, there is a disturbingly substantive risk that we (or our children) live to see humanity as a whole permanently and involuntarily disempowered by AI systems we've lost control over. What we can and should do about this now is a further question. But the issue seems serious.",
+      "seed_term_matched": "lost control",
+      "location": "Section 8 (Probabilities)"
+    }
+  ]
+}

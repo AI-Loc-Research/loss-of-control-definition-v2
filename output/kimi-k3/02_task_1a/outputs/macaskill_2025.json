@@ -1,0 +1,30 @@
+{
+  "paper_id": "MacAskill & Moorhouse, 'Preparing for the Intelligence Explosion' (March 2025)",
+  "passages_found": [
+    {
+      "quote": "One major grand challenge is the risk of loss of control to AI systems themselves. In short: if we do see an intelligence explosion, then we should expect AIs that can outsmart humans, and the total cognitive capabilities of AI to dwarf humanity's.",
+      "seed_term_matched": "loss of control",
+      "location": "Section 4, 'Grand challenges' — 'AI takeover' subsection (p. 31)"
+    },
+    {
+      "quote": "Moreover, in the largest survey of its kind of more than 2,500 AI researchers, just over 50% of respondents assigned a subjective probability of 10% or more to the possibility that, \"human inability to control future advanced Al systems causing human extinction or similarly permanent and severe disempowerment of the human species\" (Grace et al., 'Thousands of AI Authors on the Future of AI').",
+      "seed_term_matched": "inability to control",
+      "location": "Footnote 91, Section 4 — 'AI takeover' subsection (p. 32)"
+    },
+    {
+      "quote": "One stark and still-underappreciated challenge is that we accidentally lose control over the future to an AI takeover. Power could concentrate in the hands of totalitarian states or antisocial individuals, too; or we could stumble into developing catastrophically destructive technologies before we can protect against them.",
+      "seed_term_matched": "lose control",
+      "location": "Section 4, 'Grand challenges' — 'A recap of the challenges' subsection (p. 46)"
+    },
+    {
+      "quote": "Among those who take the intelligence explosion seriously, the discussion to date has focused on a few key risks, like loss of control to misaligned AI, and preventing catastrophe from bioweapons. These are hugely important challenges that still receive insufficient attention.",
+      "seed_term_matched": "loss of control",
+      "location": "Section 7, 'Taking stock' — 'Not just misalignment' subsection (p. 55)"
+    },
+    {
+      "quote": "One challenge is the possibility that we lose control to AI entirely, because it schemes against us and seizes power. But there are many other challenges, too.",
+      "seed_term_matched": "lose control",
+      "location": "Section 8, 'Conclusion' (p. 57)"
+    }
+  ]
+}

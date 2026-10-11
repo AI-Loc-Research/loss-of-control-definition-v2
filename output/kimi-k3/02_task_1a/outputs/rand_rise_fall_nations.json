@@ -1,0 +1,10 @@
+{
+  "paper_id": "RR-A3034-2 (RAND Corporation, 2025)",
+  "passages_found": [
+    {
+      "quote": "Moreover, unchecked AI could catalyze a loss of human control, leading to scenarios in which nonhuman entities could steer outcomes in unpredictable and potentially harmful directions, akin to existential risks that some experts equate to nuclear threats.",
+      "seed_term_matched": "loss of human control",
+      "location": "Appendix A, section 'If Developed, AGI Would Pose Significant Risks, Whether It Is Aligned or Not', p. 27"
+    }
+  ]
+}

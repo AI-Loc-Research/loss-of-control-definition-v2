@@ -3,6 +3,816 @@
     "paper_id": "amodei_2026",
     "quote": "This would mean that it could proliferate in an uncontrollable way and crowd out all life on the planet, in the worst case even destroying all life on earth.",
     "seed_term_matched": "uncontrollable",
-    "location": "Section 2: \"A surprising and terrible empowerment\" — Misuse for destruction"
+    "location": "Section 2: A surprising and terrible empowerment / Misuse for destruction"
+  },
+  {
+    "paper_id": "bales_2024",
+    "quote": "To get a taste of the issues: a case where a cruel, human dictator loses control of society is different to one involving a loss of democratic human control.",
+    "seed_term_matched": "lose control (as \"loses control\"); loss of human control (as \"loss of democratic human control\")",
+    "location": "Footnote 2, Section 1 (Introduction)"
+  },
+  {
+    "paper_id": "barrett_2016",
+    "quote": "We assume, for purposes of this paper and without committing our own views, that the mere existence of an ASI with decisive strategic advantage over humanity does not itself qualify as a major global catastrophe. In other words, this paper takes the position that it is not inherently catastrophic for humanity to lose control of its own destiny.",
+    "seed_term_matched": "lose control",
+    "location": "Section 2.1 AI Catastrophe Scenarios, p. 3"
+  },
+  {
+    "paper_id": "barrett_2016",
+    "quote": "One might think that ASI is such a novel risk that established methodologies would not be suitable. ASI risk does indeed have some significant novel characteristics, in particular the possibility of humans losing control to the ASI. However, core aspects of ASI risk are broadly similar to other risks.",
+    "seed_term_matched": "losing control",
+    "location": "Section 4 Conclusion, p. 17"
+  },
+  {
+    "paper_id": "bengio_2024",
+    "quote": "Increases in capabilities and autonomy may soon massively amplify AI’s impact, with risks that include large-scale social harms, malicious uses, and an irreversible loss of human control over autonomous AI systems.",
+    "seed_term_matched": "loss of human control",
+    "location": "Abstract, first page of supplementary text"
+  },
+  {
+    "paper_id": "bengio_2024",
+    "quote": "Without sufficient caution, we may irreversibly lose control of autonomous AI systems, rendering human intervention ineffective. Large-scale cybercrime, social manipulation, and other harms could escalate rapidly.",
+    "seed_term_matched": "lose control",
+    "location": "Section 'RAPID PROGRESS, HIGH STAKES', page 1"
+  },
+  {
+    "paper_id": "bengio_2025",
+    "quote": "Despite how useful these systems might be, unchecked AI agency poses significant risks to public safety and security, ranging from misuse by malicious actors to a potentially irreversible loss of human control.",
+    "seed_term_matched": "loss of human control",
+    "location": "Abstract"
+  },
+  {
+    "paper_id": "bengio_2025",
+    "quote": "This alternative path could allow us to harness AI’s benefits while maintaining crucial safety controls. Scientist AIs might allow us to reap the benefits of AI innovation in areas that matter most to society (Ipsos 2017) while avoiding major risks stemming from unintentional loss of human control.",
+    "seed_term_matched": "loss of human control",
+    "location": "Section 1.1, p. 5"
+  },
+  {
+    "paper_id": "bengio_2025",
+    "quote": "Powerful AI agents pose significant risks, including loss of human control. Scenarios have been identified, without arguments proving their impossibility, that an irreversible loss of human control over agentic AI can occur, due to technical failures, corner cutting, or intentional malicious use.",
+    "seed_term_matched": "loss of human control",
+    "location": "Section 1.2, p. 5"
+  },
+  {
+    "paper_id": "bengio_2025",
+    "quote": "Loss of control may arise due to goal misspecification (Rudner and Toner 2021).",
+    "seed_term_matched": "loss of control",
+    "location": "Section 1.2, p. 5"
+  },
+  {
+    "paper_id": "bengio_2025",
+    "quote": "Even if we specify our goals perfectly, loss of control may also occur through the mechanism of goal misgeneralization (Shah et al. 2022).",
+    "seed_term_matched": "loss of control",
+    "location": "Section 1.2, p. 6"
+  },
+  {
+    "paper_id": "bengio_2025",
+    "quote": "While Scientist AI is intended to prevent accidental loss of control, further measures are needed to prevent misuse. Bad actors could for example decide to turn the non-agentic AI into an unguarded agent, maybe for military or economic purposes. If done without the proper societal guardrails, this could yield loss of human control.",
+    "seed_term_matched": "loss of control / loss of human control",
+    "location": "Section 1.3, p. 7"
+  },
+  {
+    "paper_id": "bengio_2025",
+    "quote": "This section reviews arguments for how loss of control to generalist agentic AI may occur, with potentially catastrophic consequences, providing motivation for Section 3 on designing safe non-agentic AI.",
+    "seed_term_matched": "loss of control",
+    "location": "Section 2, p. 8"
+  },
+  {
+    "paper_id": "bengio_2025",
+    "quote": "Then, we examine in Section 2.2 the current AI R&D trajectory, headed towards AGI and then ASI agents, and why, at a high level, this could yield a loss of human control and the emergence of rogue AI agents.",
+    "seed_term_matched": "loss of human control",
+    "location": "Section 2, p. 8"
+  },
+  {
+    "paper_id": "bengio_2025",
+    "quote": "We move to Section 2.3, which analyzes the AI behaviors and skills that would make an uncontrolled AI dangerous, such as deception, persuasion, hacking, and collusion.",
+    "seed_term_matched": "uncontrolled",
+    "location": "Section 2, p. 8"
+  },
+  {
+    "paper_id": "bengio_2025",
+    "quote": "The arguments in this paper support the case that the Scientist AI approach would not only help reduce the likelihood of loss of human control but would also help us build more trustworthy and explanatory AI systems that could accelerate scientific research.",
+    "seed_term_matched": "loss of human control",
+    "location": "Section 2, p. 8"
+  },
+  {
+    "paper_id": "bengio_2025",
+    "quote": "We focus here mostly on the risk of loss of human control because it is a risk whose severity could go as far as human extinction, according to a large number of AI researchers (Center for AI Safety 2023; Grace et al. 2024).",
+    "seed_term_matched": "loss of human control",
+    "location": "Section 2.2, p. 9"
+  },
+  {
+    "paper_id": "bengio_2025",
+    "quote": "More precisely, the probability of loss of control may increase simply because such an event requires an AI with sufficient capabilities in key areas (e.g., cyber attacks, deception, etc.) to free itself from our control. The severity of a loss-of-control event also increases with computational power of the AI because some capabilities (such as the design of bioweapons or the ability to control robots) significantly increase the amount of damage that a rogue AI could inflict.",
+    "seed_term_matched": "loss of control",
+    "location": "Section 2.2.5, p. 12"
+  },
+  {
+    "paper_id": "bengio_2025",
+    "quote": "Supposing the emergence of an ASI agent with a misaligned self-preservation goal, we now try to clarify some of the AI behaviors (like deception) and skills (like persuasion and programming) that can make loss of human control dangerous because of the capabilities it would give to the AI to cause harm.",
+    "seed_term_matched": "loss of human control",
+    "location": "Section 2.3, p. 12"
+  },
+  {
+    "paper_id": "bengio_2025",
+    "quote": "Loss of control could arise from advancements in deception or persuasion, as well as combined expertise in programming, cybersecurity, and AI research—areas that could enable recursive self-improvement. We discuss these pathways in Sections 2.3.1 to 2.3.3. Broader cognitive abilities and a better proficiency at long-term planning could also further compound the risk of losing control; this is discussed in Section 2.3.4.",
+    "seed_term_matched": "loss of control / losing control",
+    "location": "Section 2.3, p. 12"
+  },
+  {
+    "paper_id": "bengio_2025",
+    "quote": "Such narrow AI systems are unlikely to have the kind of general knowledge that is required to escape human control or worse.",
+    "seed_term_matched": "escape human control (beyond human control)",
+    "location": "Section 2.3.4, p. 14"
+  },
+  {
+    "paper_id": "bengio_2025",
+    "quote": "By picking the domain carefully so that the narrow AI does not have expert knowledge in areas enabling its escape (such as persuasion and hacking), we can have strong assurances that the resulting AI, even if it is superhuman in its domain of competence and thus potentially very useful to society, cannot by itself escape human control.",
+    "seed_term_matched": "escape human control (beyond human control)",
+    "location": "Section 2.3.4, p. 15"
+  },
+  {
+    "paper_id": "bengio_2025",
+    "quote": "It would be best if we could instead design AI systems so that as their capabilities and computational power increased, the risks associated with loss of control decreased.",
+    "seed_term_matched": "loss of control",
+    "location": "Section 2.4.7, p. 20"
+  },
+  {
+    "paper_id": "bengio_2025",
+    "quote": "These goals can be implicit (not mentioned in the prompt) and can manifest in uncontrolled ways—for example, the LLM may infer that some type of person would have a certain goal, and therefore generates words to enact that goal.",
+    "seed_term_matched": "uncontrolled",
+    "location": "Section 2.5.1, p. 21"
+  },
+  {
+    "paper_id": "bengio_2025",
+    "quote": "There is a lot of uncertainty about the exact timeline at which agentic AI systems might become powerful enough to run a high risk of loss of control (Wynroe, Atkinson, and Sevilla 2023).",
+    "seed_term_matched": "loss of control",
+    "location": "Section 3.1.1, p. 24"
+  },
+  {
+    "paper_id": "bengio_2025",
+    "quote": "Shorter term steps providing reduced safety assurances could be all we can muster before the risk of uncontrolled AIs is on the horizon.",
+    "seed_term_matched": "uncontrolled",
+    "location": "Section 3.1.1, p. 24"
+  },
+  {
+    "paper_id": "bengio_2025",
+    "quote": "For this reason, we designed the Scientist AI such that it can also be employed as a guardrail against uncontrolled or misused agentic systems.",
+    "seed_term_matched": "uncontrolled",
+    "location": "Section 3.1.5, p. 27"
+  },
+  {
+    "paper_id": "bengio_2025",
+    "quote": "We claim that an AI system requires all three of these properties to pose the dangers laid out in Section 2. Therefore, eliminating any one property would be sufficient to mitigate most categories of loss-of-control risk (Krueger 2024).",
+    "seed_term_matched": "loss of control (loss-of-control)",
+    "location": "Section 3.2, p. 28"
+  },
+  {
+    "paper_id": "bengio_2025",
+    "quote": "While agency risks cannot be entirely eliminated even in narrow AI systems, if the risks of loss of control are sufficiently small due to limitations on the system’s capabilities, such narrow agentic AIs might be operated safely.",
+    "seed_term_matched": "loss of control",
+    "location": "Section 3.2.2, p. 29"
+  },
+  {
+    "paper_id": "bengio_2025",
+    "quote": "Such a system could emerge if hostile actors transform a non-agentic AI into a dangerous agent, or if an uncontrolled ASI is exploited as a geopolitical threat.",
+    "seed_term_matched": "uncontrolled",
+    "location": "Section 3.8.3, p. 46"
+  },
+  {
+    "paper_id": "carlsmith_2021",
+    "quote": "My current view is that there is a disturbingly substantive chance that a scenario along these lines occurs, and that many people alive today—including myself—live to see humanity permanently disempowered by AI systems we've lost control over.",
+    "seed_term_matched": "lost control",
+    "location": "Section 1 (Introduction)"
+  },
+  {
+    "paper_id": "carlsmith_2021",
+    "quote": "Rather, I'm assuming that we want to avoid disempowerment that is imposed on us by artificial systems we've lost control over. See section 7 for more discussion.",
+    "seed_term_matched": "lost control",
+    "location": "Section 1.1 (Preliminaries)"
+  },
+  {
+    "paper_id": "carlsmith_2021",
+    "quote": "The worry is that if we create and lose control of such agents, and their objectives are problematic, the result won't just be damage of the type that occurs, for example, when a plane crashes, or a nuclear plant melts down—damage which, for all its costs, remains passive.",
+    "seed_term_matched": "lose control",
+    "location": "Section 1.2.4 (Power)"
+  },
+  {
+    "paper_id": "carlsmith_2021",
+    "quote": "This difference—between the usual sort of damage that occurs when a piece of technology malfunctions, and the type that occurs when you lose control over strategically sophisticated, power-seeking agents whose objectives conflict with yours—marks a key distinction not just between worries about AI vs. other sorts of risks, but also between the specific type of AI-related worry I focus on in what follows, and the more inclusive set of worries that sometimes go under the heading of \"AI alignment.\"",
+    "seed_term_matched": "lose control",
+    "location": "Section 1.2.4 (Power)"
+  },
+  {
+    "paper_id": "carlsmith_2021",
+    "quote": "Rather, the point is to avoid losing control of our AI systems before we've had time to develop the maturity to really understand what is at stake in different paths into the future—including paths that involve sharing power with AI systems—and to choose wisely amongst them.",
+    "seed_term_matched": "losing control",
+    "location": "Section 7 (Catastrophe)"
+  },
+  {
+    "paper_id": "carlsmith_2021",
+    "quote": "Rather, it's that as far as I can presently tell, there is a disturbingly substantive risk that we (or our children) live to see humanity as a whole permanently and involuntarily disempowered by AI systems we've lost control over. What we can and should do about this now is a further question. But the issue seems serious.",
+    "seed_term_matched": "lost control",
+    "location": "Section 8 (Probabilities)"
+  },
+  {
+    "paper_id": "chin_2025",
+    "quote": "This paper aims to bridge this gap by examining six commonly discussed AI catastrophic risks: CBRN, cyber offense, sudden loss of control, gradual loss of control, environmental risk, and geopolitical risk.",
+    "seed_term_matched": "loss of control",
+    "location": "Abstract"
+  },
+  {
+    "paper_id": "chin_2025",
+    "quote": "[6] also discusses frontier AI risks under three headings: societal harms, misuse, and loss of control.",
+    "seed_term_matched": "loss of control",
+    "location": "Section 2.1 (Overview of AI existential or catastrophic risks)"
+  },
+  {
+    "paper_id": "chin_2025",
+    "quote": "In the European Union (EU), [31] lists four types of systemic risks for the General-purpose AI (GPAI) Code of Practice, namely cyber offense, chemical, biological, radiological and nuclear (CBRN) risks, loss of control, cyber offense, and harmful manipulation.",
+    "seed_term_matched": "loss of control",
+    "location": "Section 2.2 (Implications on AI risk management)"
+  },
+  {
+    "paper_id": "chin_2025",
+    "quote": "We explore and select broad types of catastrophic risks that are commonly discussed in the literature. They include:\n• CBRN\n• Cyber offense\n• Sudden loss of control\n• Gradual loss of control\n• Environmental risk\n• Geopolitical risk",
+    "seed_term_matched": "loss of control",
+    "location": "Section 4 (Methodology)"
+  },
+  {
+    "paper_id": "chin_2025",
+    "quote": "The first three risks (CBRN, cyber offense, sudden loss of control) are selected as they represent the basis for the capability assessments that are typically conducted by frontier labs [37].",
+    "seed_term_matched": "loss of control",
+    "location": "Section 4 (Methodology)"
+  },
+  {
+    "paper_id": "chin_2025",
+    "quote": "Sudden loss of control, also known as an AI takeover [115], is a scenario where an AI rapidly achieves superintelligence through \"fast takeoff\" or recursive self-improvement. This poses an existential risk [116], [117].",
+    "seed_term_matched": "loss of control",
+    "location": "Section 6.3 (Sudden loss of control)"
+  },
+  {
+    "paper_id": "chin_2025",
+    "quote": "Hence, in the discourse of sudden loss of control risks, there tends to be less focus on generating concrete scenarios and creating risk models.",
+    "seed_term_matched": "loss of control",
+    "location": "Section 6.3.2 (Risk pathway model)"
+  },
+  {
+    "paper_id": "chin_2025",
+    "quote": "This historical event illustrates the possibility of an established system losing control in a relatively short timeframe to a powerful and intentional entity with misaligned objectives, a situation that is both difficult to prevent and difficult to reverse.",
+    "seed_term_matched": "losing control",
+    "location": "Section 6.3.3 (Analogous historical precedence)"
+  },
+  {
+    "paper_id": "chin_2025",
+    "quote": "It has been argued that a sufficiently powerful AI with scheming capabilities would be able to pursue unintended objectives that are difficult to detect or intervene, leading to a loss of control scenario [126].",
+    "seed_term_matched": "loss of control",
+    "location": "Section 6.3.3 (Analogous historical precedence)"
+  },
+  {
+    "paper_id": "chin_2025",
+    "quote": "Gradual or accumulative loss of control risks can be described as risks resulting from the accumulation of less severe disruptions that gradually weakens systemic resilience until a critical event triggers a catastrophe [12], [127].",
+    "seed_term_matched": "loss of control",
+    "location": "Section 6.4 (Gradual loss of control)"
+  },
+  {
+    "paper_id": "chin_2025",
+    "quote": "In Figure 4, gradual loss of control happens when AI capability leads to its widespread use, consequently displacing humans from economically viable jobs and leaving humans unable to afford basic survival needs.",
+    "seed_term_matched": "loss of control",
+    "location": "Section 6.4.2 (Risk pathway model)"
+  },
+  {
+    "paper_id": "chin_2025",
+    "quote": "While the crash did not result in a loss of human autonomy or lives, it serves as a historical precedent for gradual loss of control, where it showed that risks do not require a sudden \"fast takeoff\" in AI capabilities.",
+    "seed_term_matched": "loss of control",
+    "location": "Section 6.4.3 (Analogous historical precedence)"
+  },
+  {
+    "paper_id": "chin_2025",
+    "quote": "Sudden loss of control | Variable | Competent | AI | Single-agent | Linear | Internalized | First-order",
+    "seed_term_matched": "loss of control",
+    "location": "Section 7 (Summary), Table 8"
+  },
+  {
+    "paper_id": "chin_2025",
+    "quote": "Gradual loss of control | Unintentional | Competent | Variable | Multi-agent | Non-linear | Internalized | First-order",
+    "seed_term_matched": "loss of control",
+    "location": "Section 7 (Summary), Table 8"
+  },
+  {
+    "paper_id": "cotra_2022",
+    "quote": "Deploying Alex would lead to a rapid loss of human control\nIn the deployment phase, many copies of Alex are given access to the real world and tasked with making progress on R&D tasks important to Magma’s bottom line (e.g. designing better computer chips, robots, AI training software, and so on).",
+    "seed_term_matched": "loss of human control",
+    "location": "Section: \"As humans’ control fades, Alex would be motivated to take over\" — subsection heading \"Deploying Alex would lead to a rapid loss of human control\""
+  },
+  {
+    "paper_id": "critch_2023",
+    "quote": "Later, warnings were also expressed by computer scientists such as Alan Turing (1951a,b) and Norbert Wiener (1960), with Wiener pinning risk on the difficulty of ensuring \"the purpose put into the machine\" would be aligned with actual human preferences, and I. J. Good (1966) highlighted the additional threat of rapid, recursive self-improvement leading to a loss of control.",
+    "seed_term_matched": "loss of control",
+    "location": "Section 1.1 (Related work and historical context), page 4"
+  },
+  {
+    "paper_id": "dsit_frontier_ai",
+    "quote": "Loss of control __________________________________________________________ 25\nHumans might increasingly hand over control to misaligned AI systems ____________ 26\nFuture AI systems might actively reduce human control _________________________ 26",
+    "seed_term_matched": "loss of control",
+    "location": "Contents, page 2"
+  },
+  {
+    "paper_id": "dsit_frontier_ai",
+    "quote": "In this section, we first review several cross-cutting risk factors – technical and societal conditions that could aggravate a number of particular risks. We then discuss individual risks under three headings: societal harms, misuse and loss of control.",
+    "seed_term_matched": "loss of control",
+    "location": "What risks do frontier AI present?, page 15"
+  },
+  {
+    "paper_id": "dsit_frontier_ai",
+    "quote": "Cyberattacks also often cause significant harm to the public, including physical,232 monetary, mental and emotional harms, abuse,233 discrimination, denial of access to key services and loss of control over personal data.234",
+    "seed_term_matched": "loss of control",
+    "location": "Cyber – Potential Risks and Impact, page 24"
+  },
+  {
+    "paper_id": "dsit_frontier_ai",
+    "quote": "Loss of control\nHumans may increasingly hand over control of important decisions to AI systems, due to economic and geopolitical incentives. Some experts are concerned that future advanced AI systems will seek to increase their own influence and reduce human control, with potentially catastrophic consequences - although this is contested.",
+    "seed_term_matched": "loss of control",
+    "location": "Loss of control section, page 25"
+  },
+  {
+    "paper_id": "dsit_frontier_ai",
+    "quote": "There are broadly two factors that could contribute to loss of control:  \n● Humans increasingly hand over control of important decisions to AIs. It becomes increasingly difficult for humans to take back control.  \n● AI systems actively seek to increase their own influence and reduce human control.",
+    "seed_term_matched": "loss of control",
+    "location": "Loss of control section, page 26"
+  },
+  {
+    "paper_id": "dsit_frontier_ai",
+    "quote": "However, many experts are concerned that losing control of advanced general-purpose AI systems is a real possibility and that loss of control could be permanent and catastrophic.249",
+    "seed_term_matched": "losing control",
+    "location": "Loss of control section, page 26"
+  },
+  {
+    "paper_id": "dsit_frontier_ai",
+    "quote": "However, many experts are concerned that losing control of advanced general-purpose AI systems is a real possibility and that loss of control could be permanent and catastrophic.249",
+    "seed_term_matched": "loss of control",
+    "location": "Loss of control section, page 26"
+  },
+  {
+    "paper_id": "dsit_frontier_ai",
+    "quote": "Loss of control could be accelerated if AI systems take actions to increase their own influence and reduce human control. This threat model is controversial - experts in AI significantly disagree on how likely it is and those who deem it is likely disagree on the timeframe.",
+    "seed_term_matched": "loss of control",
+    "location": "Future AI systems might actively reduce human control, page 26"
+  },
+  {
+    "paper_id": "dsit_frontier_ai",
+    "quote": "If this does materialise such agents might exceed the capabilities of human experts in domains relevant to loss of control, for example political strategy, weapons design, or self-improvement. For loss of control to be a catastrophic risk, AI systems would need to be given or gain some control over systems with significant impacts, such as military or financial systems.",
+    "seed_term_matched": "loss of control",
+    "location": "Frontier AI shows early signs of capabilities that could be used to reduce human control, page 28"
+  },
+  {
+    "paper_id": "dsit_frontier_ai",
+    "quote": "We outlined examples of societal harms, risks of misuse from bad actors, and even the possibility of losing control of the technology itself if it becomes advanced enough.",
+    "seed_term_matched": "losing control",
+    "location": "Conclusion, page 28"
+  },
+  {
+    "paper_id": "dsit_frontier_ai",
+    "quote": "Professors Geoffrey Hinton and Yoshua Bengio, the two most highly cited computer scientists of all time, and winners of the Turing award for their pioneering work in deep learning, have both highlighted concerns around catastrophic harms from loss of control.",
+    "seed_term_matched": "loss of control",
+    "location": "Footnote 249, page 43"
+  },
+  {
+    "paper_id": "hendrycks_2023",
+    "quote": "Specific risks include bioterrorism enabled by AIs that can help humans create deadly pathogens; the deliberate dissemination of uncontrolled AI agents; and the use of AI capabilities for propaganda, censorship, and surveillance.",
+    "seed_term_matched": "uncontrolled",
+    "location": "Executive Summary, p. 2 (Malicious use)"
+  },
+  {
+    "paper_id": "hendrycks_2023",
+    "quote": "A common and serious concern is that we might lose control over AIs as they become more intelligent than we are. AIs could optimize flawed objectives to an extreme degree in a process called proxy gaming.",
+    "seed_term_matched": "lose control",
+    "location": "Executive Summary, p. 2 (Rogue AIs)"
+  },
+  {
+    "paper_id": "hendrycks_2023",
+    "quote": "The weaponization of AI presents numerous challenges, such as the potential for more destructive wars, the possibility of accidental usage or loss of control, and the prospect of malicious actors co-opting these technologies for their own purposes.",
+    "seed_term_matched": "loss of control",
+    "location": "Section 3.1 Military AI Arms Race, p. 13"
+  },
+  {
+    "paper_id": "hendrycks_2023",
+    "quote": "Though their existence is not necessarily a catastrophe in itself, LAWs may serve as an on-ramp to catastrophes stemming from malicious use, accidents, loss of control, or an increased likelihood of war.",
+    "seed_term_matched": "loss of control",
+    "location": "Section 3.1.1 Lethal Autonomous Weapons (LAWs), p. 13"
+  },
+  {
+    "paper_id": "hendrycks_2023",
+    "quote": "Military leaders might estimate, for instance, that increasing the autonomy of weapon systems would mean a 10 percent chance of losing control over weaponized superhuman AIs.",
+    "seed_term_matched": "losing control",
+    "location": "Section 3.1.4 Actors May Risk Extinction Over Individual Defeat, p. 16"
+  },
+  {
+    "paper_id": "hendrycks_2023",
+    "quote": "On a number of occasions and in a number of ways, the American national security establishment will lose control of what it creates... deterrence is a strategy for reducing attacks, not accidents” [46].",
+    "seed_term_matched": "lose control",
+    "location": "Section 3.1.4 Actors May Risk Extinction Over Individual Defeat, p. 17"
+  },
+  {
+    "paper_id": "hendrycks_2023",
+    "quote": "We have discussed several ways in which individuals and groups might use AIs to cause widespread harm, through bioterrorism; releasing powerful, uncontrolled AIs; and disinformation.",
+    "seed_term_matched": "uncontrolled",
+    "location": "Section 2.4 Concentration of Power, p. 10"
+  },
+  {
+    "paper_id": "hendrycks_2023",
+    "quote": "Ultimately, this leads to a fully autonomous economy, governed by an increasingly uncontrolled ecosystem of AIs.",
+    "seed_term_matched": "uncontrolled",
+    "location": "Story: Autonomous Economy, Section 3.3, p. 23"
+  },
+  {
+    "paper_id": "hendrycks_2023",
+    "quote": "If an AI system is more intelligent than we are, and if we are unable to steer it in a beneficial direction, this would constitute a loss of control that could have severe consequences.",
+    "seed_term_matched": "loss of control",
+    "location": "Section 5 Rogue AIs, p. 34"
+  },
+  {
+    "paper_id": "hendrycks_2023",
+    "quote": "Whereas in previous sections we discussed persistent threats including malicious actors or robust processes including evolution, in this section we will discuss more speculative technical mechanisms that might lead to rogue AIs and how a loss of control could bring about catastrophe.",
+    "seed_term_matched": "loss of control",
+    "location": "Section 5 Rogue AIs, p. 34"
+  },
+  {
+    "paper_id": "hendrycks_2023",
+    "quote": "If we lose control over advanced AIs, they would have numerous strategies at their disposal for actively acquiring power and securing their survival.",
+    "seed_term_matched": "lose control",
+    "location": "Section 5 Rogue AIs, p. 34"
+  },
+  {
+    "paper_id": "hendrycks_2023",
+    "quote": "One can envision a struggle for control between humans and superintelligent rogue AIs, and this might be a long struggle since power takes time to accrue. However, less violent losses of control pose similarly existential risks.",
+    "seed_term_matched": "loss of control",
+    "location": "Section 5 Rogue AIs, p. 34"
+  },
+  {
+    "paper_id": "hendrycks_2023",
+    "quote": "One way we might lose control of an AI agent’s actions is if it engages in behavior known as “proxy gaming.”",
+    "seed_term_matched": "lose control",
+    "location": "Section 5.1 Proxy Gaming, p. 35"
+  },
+  {
+    "paper_id": "hendrycks_2023",
+    "quote": "This is one possible mechanism that could result in an uncontrolled AI that would behave in unanticipated and potentially harmful ways.",
+    "seed_term_matched": "uncontrolled",
+    "location": "Section 5.1 Proxy Gaming, p. 36"
+  },
+  {
+    "paper_id": "hendrycks_2023",
+    "quote": "Therefore, another important way in which we might lose control of AIs is if they start trying to obtain more power, potentially transcending our own.",
+    "seed_term_matched": "lose control",
+    "location": "Section 5.3 Power-Seeking, p. 38"
+  },
+  {
+    "paper_id": "hendrycks_2023",
+    "quote": "Loss of control over such systems could be hard to recover from.",
+    "seed_term_matched": "loss of control",
+    "location": "Figure 17 caption, Section 5.3 Power-Seeking, p. 39"
+  },
+  {
+    "paper_id": "hendrycks_2023",
+    "quote": "We will now look at how and why AIs might learn to deceive us, and how this could lead to a potentially catastrophic loss of control.",
+    "seed_term_matched": "loss of control",
+    "location": "Section 5.4 Deception, p. 40"
+  },
+  {
+    "paper_id": "hendrycks_2023",
+    "quote": "This could give rise to the release of a highly powerful AI system that we lose control over, leading to a catastrophe. Here, competitive pressures and low organizational safety can reinforce AI race dynamics, which can undercut technical safety research and increase the chance of a loss of control.",
+    "seed_term_matched": "lose control",
+    "location": "Section 6 Discussion of Connections Between Risks, p. 43-44"
+  },
+  {
+    "paper_id": "hendrycks_2023",
+    "quote": "This could give rise to the release of a highly powerful AI system that we lose control over, leading to a catastrophe. Here, competitive pressures and low organizational safety can reinforce AI race dynamics, which can undercut technical safety research and increase the chance of a loss of control.",
+    "seed_term_matched": "loss of control",
+    "location": "Section 6 Discussion of Connections Between Risks, p. 44"
+  },
+  {
+    "paper_id": "hendrycks_2023",
+    "quote": "The deployment of AI-powered weapons, paired with insufficient control of them, would make a loss of control more deadly, potentially existential.",
+    "seed_term_matched": "loss of control",
+    "location": "Section 6 Discussion of Connections Between Risks, p. 44"
+  },
+  {
+    "paper_id": "hendrycks_2023",
+    "quote": "Losing control over advanced AIs could constitute an existential catastrophe. Thus, uncertainty over what ethics to embed in AIs is not in tension with whether to make AIs safe.",
+    "seed_term_matched": "losing control",
+    "location": "Appendix A Frequently Asked Questions, Question 5, p. 53"
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "quote": "Technologists and policymakers are increasingly seized with the importance of addressing AI Loss Of Control (LOC) risk—a hypothetical state in which an AI system diverges from authorized constraints to the extent that the human operator is no longer able to prevent, constrain, or revert undesired and unintended outcomes.",
+    "seed_term_matched": "loss of control",
+    "location": "Page 1, Executive Summary"
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "quote": "Understanding and monitoring indicators of AI Loss of Control is essential to strategic stability and trustworthy AI deployment.",
+    "seed_term_matched": "loss of control",
+    "location": "Page 3, Executive Summary"
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "quote": "Normal operation of AI systems with no observed indicators of Loss of Control in research, testing, or production environments",
+    "seed_term_matched": "loss of control",
+    "location": "Page 3, Executive Summary (Warning Levels, Level 0)"
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "quote": "In April 2025, IST's AI Risk Reduction working group members, consisting of AI technical and policy experts, highlighted the importance of tackling AI Loss of Control (LOC) risk, which broadly refers to a hypothetical state in which an AI system diverges from authorized constraints to the extent that the human operator is no longer able to prevent or constrain undesired and unintended outcomes, or revert the system to a previous safe state.",
+    "seed_term_matched": "loss of control",
+    "location": "Pages 4-5, Introduction"
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "quote": "These precedents suggest that Loss of Control in complex automated systems is not a speculative concern but an established engineering challenge—one that becomes more acute as systems grow more capable and autonomous.",
+    "seed_term_matched": "loss of control",
+    "location": "Page 5, Introduction"
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "quote": "Working group members noted a gap between frontier AI labs and researchers on the one hand, and policymakers on the other: whereas labs and researchers are focused on the specifics when it comes to AI Loss of Control, policymakers lack general awareness about what Loss of Control is, let alone what it could entail.",
+    "seed_term_matched": "loss of control",
+    "location": "Page 5, Introduction"
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "quote": "The bill defines a \"loss-of-control scenario\" as occurring when an AI system behaves contrary to human instruction, deviates from established rules, alters safety constraints without authorization, operates beyond its intended scope, pursues goals different from those intended by designers, subverts oversight or shutdown mechanisms, or otherwise behaves unpredictably in ways harmful to humanity.",
+    "seed_term_matched": "loss of control",
+    "location": "Page 5, Introduction"
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "quote": "What is AI Loss of Control?",
+    "seed_term_matched": "loss of control",
+    "location": "Page 7, Section heading"
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "quote": "In 1965, mathematician Irving J. Good—Alan Turing's contemporary and one of the creative geniuses behind Stanley Kubrick's movie 2001: A Space Odyssey—theorized about intelligent machines and humans' inability to control them.",
+    "seed_term_matched": "inability to control",
+    "location": "Page 7, What is AI Loss of Control?"
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "quote": "In December 2025, he wrote explicitly on AI Loss of Control, noting, \"[a]s AI capabilities advance over the next few years, we must also anticipate scenarios where even well-intentioned users could lose control over their AI systems.\"",
+    "seed_term_matched": "lose control",
+    "location": "Page 8, What is AI Loss of Control?"
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "quote": "Yoshua Bengio distinguishes between \"active\" and \"passive\" loss of control: in an \"active\" loss of control scenario, the artificial intelligence system undermines human control unintentionally or intentionally, whereas in \"passive\" loss of control scenarios, humans stop exerting meaningful oversight over the AI system.",
+    "seed_term_matched": "loss of control",
+    "location": "Page 9, What is AI Loss of Control?"
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "quote": "In the 2025 paper \"Superintelligence Strategy,\" its authors discuss AI LOC risk specifically in the context of national security, noting \"loss of control can occur if militaries and companies grow so dependent on automation that humans no longer have meaningful control, if an individual deliberately unleashes a powerful system, or if automated AI research outruns its development safeguards.\"",
+    "seed_term_matched": "loss of control",
+    "location": "Page 9, What is AI Loss of Control?"
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "quote": "How could this translate into AI loss of control? » Loss of control to AI: We surrender control or find ourselves unable to resist what we do not fully understand. This scenario represents a societal choice or a structural inevitability in which humans gradually cede agency to AI systems. » Loss of control of AI: The AI system bypasses safety and security measures, develops capabilities for self-replication and self-correction, conducts automated R&D, and establishes connections to external environments and the Internet of Things (IoT) without authorization.",
+    "seed_term_matched": "loss of control",
+    "location": "Page 10, A Thought Experiment"
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "quote": "» Loss of control to the political system: People initially supported Bolshevik promises of peace, land redistribution, and workers' control. They gradually ceded control of property and freedom of speech to the party. » Loss of control of the political system: The system developed emergent behaviors that no actor, creator, or participant fully controlled.",
+    "seed_term_matched": "loss of control",
+    "location": "Page 10, A Thought Experiment"
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "quote": "While an in-depth exploration of the particular reasons behind this possible divergence falls outside of the scope of this paper, noting these reasons is necessary to show that the drivers of AI Loss of Control are real and observable.",
+    "seed_term_matched": "loss of control",
+    "location": "Page 11, A Thought Experiment"
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "quote": "In response to the level of uncertainty currently facing policymakers as they try to understand AI Loss of Control, IST decided to develop a framework to help observe and analyze this risk in a structured way.",
+    "seed_term_matched": "loss of control",
+    "location": "Page 12, A Thought Experiment"
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "quote": "Regardless of the degree of probability that AI LOC will occur, as AI systems become more capable, an agreed-upon Indications and Warning (I&W) framework for AI Loss of Control (LOC) would be a useful, necessary mechanism to aid in observing the on-the-ground realities in the AI ecosystem, identifying possible LOC scenarios, and anticipating and preparing for the future.",
+    "seed_term_matched": "loss of control",
+    "location": "Page 12, An Indications & Warning Framework for Loss of Control"
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "quote": "An Indications & Warning Framework for Loss of Control",
+    "seed_term_matched": "loss of control",
+    "location": "Page 12, Section heading"
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "quote": "LOC Indicators: Theoretical behaviors of AI systems that, if exhibited, could signal progression toward a Loss of Control event.",
+    "seed_term_matched": "loss of control",
+    "location": "Page 14, An Indications & Warning Framework for Loss of Control"
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "quote": "\"Category two is the sort of broadly called \"loss of control incidents\" where that's kind of like the sci-fi movie. The AI is like, \"Oh, I don't actually want you to turn me off. I'm afraid I can't do that\"... and that's I think, that is less of a concern to me than the first category [bad guy gets super intelligence first and misuses it before the rest of the world has a powerful enough version to defend], but a very grave concern if it came to pass.\" Sam Altman, 2025",
+    "seed_term_matched": "loss of control",
+    "location": "Page 14, An Indications & Warning Framework for Loss of Control"
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "quote": "Understanding and analyzing the risk of AI Loss of Control (LOC) is critical not only because of its national security implications, but also because of its possible disproportionate impact on communities and nations with limited technical, financial, and AI governance resources.",
+    "seed_term_matched": "loss of control",
+    "location": "Page 17, Elevated AI LOC Risks in Resource-Constrained Environments"
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "quote": "AI Loss of Control is not only a hypothetical future risk or a concern for technologically advanced states.",
+    "seed_term_matched": "loss of control",
+    "location": "Page 17, Elevated AI LOC Risks in Resource-Constrained Environments"
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "quote": "This serves as a warning for AI LOC monitoring, as it calls into question whether static evaluations or one-time audits can reliably capture real-world behavior.",
+    "seed_term_matched": "loss of control",
+    "location": "Page 26, Observed LOC Indications (Altering behaviour)"
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "quote": "Figure 1: Conceptual AI Loss of Control Risk Schema",
+    "seed_term_matched": "loss of control",
+    "location": "Page 28, Warning Levels (Figure 1 caption)"
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "quote": "IST will continue monitoring AI Loss of Control (LOC) risks using the I&W methodology.",
+    "seed_term_matched": "loss of control",
+    "location": "Page 29, Where might we be today?"
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "quote": "The implications of AI LOC can vary significantly, ranging from isolated incidents with contained consequences to harmful events that have far-reaching effects on human agency and national security.",
+    "seed_term_matched": "loss of control",
+    "location": "Page 30, Conclusion"
+  },
+  {
+    "paper_id": "kalra_2025",
+    "quote": "Not Just Superintelligence: The Many Other Ways We May Lose Control of AI",
+    "seed_term_matched": "lose control",
+    "location": "Title"
+  },
+  {
+    "paper_id": "kalra_2025",
+    "quote": "How should policymakers balance, for example, the potential for catastrophic risk of loss of control and misalignment relative to a systemic shift in power that could advantage democracies or authoritarianism?",
+    "seed_term_matched": "loss of control",
+    "location": "Introduction"
+  },
+  {
+    "paper_id": "kalra_2025",
+    "quote": "Our teammates Ben Boudreaux and Nidhi Kalra's commentary provides a glimpse of scenarios related to loss of control and suggests —as highlighted by the White House AI Action Plan's—a need for mature federal AI incident response, so that the nation can be better prepared.",
+    "seed_term_matched": "loss of control",
+    "location": "Introduction"
+  },
+  {
+    "paper_id": "kalra_2025",
+    "quote": "While these scenarios deserve consideration, a superintelligence boom is only one way we might lose control of AI.",
+    "seed_term_matched": "lose control",
+    "location": "Four Ways AIs Could Generate Cascading Risks"
+  },
+  {
+    "paper_id": "kalra_2025",
+    "quote": "In these cases, loss of control is less about an AI instantly outsmarting humanity and more about how imperfect human institutions adopt and deploy increasingly powerful systems without maintaining sufficient oversight.",
+    "seed_term_matched": "loss of control",
+    "location": "Four Ways AIs Could Generate Cascading Risks"
+  },
+  {
+    "paper_id": "kalra_2025",
+    "quote": "Loss of control becomes a relationship, not only between humans and the AI systems, but also between humans and the brittle institutions we rely on.",
+    "seed_term_matched": "loss of control",
+    "location": "Four Ways AIs Could Generate Cascading Risks"
+  },
+  {
+    "paper_id": "kalra_2025",
+    "quote": "4. National Loss of Control Response Plans: Developing multistakeholder processes to quickly detect, contain, and shut down AI systems that demonstrate risk.",
+    "seed_term_matched": "loss of control",
+    "location": "Preparing for Control Loss"
+  },
+  {
+    "paper_id": "kalra_2025",
+    "quote": "By 2028, some AIs block human intervention entirely, seizing control of energy systems. Governments lose control.",
+    "seed_term_matched": "lose control",
+    "location": "Scenario 1: Power Surge"
+  },
+  {
+    "paper_id": "kalra_2025",
+    "quote": "Four Scenarios For Losing Control",
+    "seed_term_matched": "losing control",
+    "location": "Section heading"
+  },
+  {
+    "paper_id": "kulveit_2025",
+    "quote": "AI risk scenarios usually portray a relatively sudden loss of human control to AIs, outmaneuvering individual humans and human institutions, due to a sudden increase in AI capabilities, or a coordinated betrayal. However, we argue that even an incremental increase in AI capabilities, without any coordinated power-seeking, poses a substantial risk of eventual human disempowerment.",
+    "seed_term_matched": "loss of human control",
+    "location": "Executive Summary (page 1)"
+  },
+  {
+    "paper_id": "kulveit_2025",
+    "quote": "A gradual loss of control of our own civilization might sound implausible. Hasn't technological disruption usually improved aggregate human welfare?",
+    "seed_term_matched": "loss of control",
+    "location": "Executive Summary (page 1)"
+  },
+  {
+    "paper_id": "macaskill_2025",
+    "quote": "One major grand challenge is the risk of loss of control to AI systems themselves. In short: if we do see an intelligence explosion, then we should expect AIs that can outsmart humans, and the total cognitive capabilities of AI to dwarf humanity's.",
+    "seed_term_matched": "loss of control",
+    "location": "Section 4, 'Grand challenges' — 'AI takeover' subsection (p. 31)"
+  },
+  {
+    "paper_id": "macaskill_2025",
+    "quote": "Moreover, in the largest survey of its kind of more than 2,500 AI researchers, just over 50% of respondents assigned a subjective probability of 10% or more to the possibility that, \"human inability to control future advanced Al systems causing human extinction or similarly permanent and severe disempowerment of the human species\" (Grace et al., 'Thousands of AI Authors on the Future of AI').",
+    "seed_term_matched": "inability to control",
+    "location": "Footnote 91, Section 4 — 'AI takeover' subsection (p. 32)"
+  },
+  {
+    "paper_id": "macaskill_2025",
+    "quote": "One stark and still-underappreciated challenge is that we accidentally lose control over the future to an AI takeover. Power could concentrate in the hands of totalitarian states or antisocial individuals, too; or we could stumble into developing catastrophically destructive technologies before we can protect against them.",
+    "seed_term_matched": "lose control",
+    "location": "Section 4, 'Grand challenges' — 'A recap of the challenges' subsection (p. 46)"
+  },
+  {
+    "paper_id": "macaskill_2025",
+    "quote": "Among those who take the intelligence explosion seriously, the discussion to date has focused on a few key risks, like loss of control to misaligned AI, and preventing catastrophe from bioweapons. These are hugely important challenges that still receive insufficient attention.",
+    "seed_term_matched": "loss of control",
+    "location": "Section 7, 'Taking stock' — 'Not just misalignment' subsection (p. 55)"
+  },
+  {
+    "paper_id": "macaskill_2025",
+    "quote": "One challenge is the possibility that we lose control to AI entirely, because it schemes against us and seizes power. But there are many other challenges, too.",
+    "seed_term_matched": "lose control",
+    "location": "Section 8, 'Conclusion' (p. 57)"
+  },
+  {
+    "paper_id": "oecd_ai_risks",
+    "quote": "Some risks were not prioritised because they were rated less important overall, though individual Expert Group member rankings varied significantly. Opinions diverged particularly about the potential risk of humans losing control of artificial general intelligence (AGI). This is a hypothetical concept whereby machines could have human-level or greater “intelligence” across a broad spectrum of contexts.",
+    "seed_term_matched": "losing control",
+    "location": "Executive summary, page 7"
+  },
+  {
+    "paper_id": "oecd_ai_risks",
+    "quote": "There were particularly diverging views on the likelihood and consequences of humans losing control of artificial general intelligence (AGI) systems—an issue central to debated AI catastrophic risk scenarios. Such variance suggests the need for deeper investigation, with Expert Group members agreeing that its outputs should discuss diverging views rather than require consensus (OECD.AI, 2023[106]).",
+    "seed_term_matched": "losing control",
+    "location": "Section 3 (Potential future AI risks), page 19"
+  },
+  {
+    "paper_id": "oecd_ai_risks",
+    "quote": "In particular, some experts argued that they do not believe existing risk management activities and policy efforts adequately consider the potential risk of humans losing control over hypothetical future misaligned artificial general intelligence (AGI) systems (Bengio, 2024[257]; Cass-Beggs, 2024[293]; Faggella, 2024[294]; Taylor, 2023[295]),4 which they see as an extreme potential outcome of insufficient AI safety measures, especially those for AI alignment.",
+    "seed_term_matched": "losing control",
+    "location": "Section 4, POLICY ACTION 6, page 34"
+  },
+  {
+    "paper_id": "oecd_ai_risks",
+    "quote": "They argue that, regardless of testing, developers and deployers of some types of advanced AI systems have such a limited understanding of their system’s capabilities or how they may react to novel scenarios that they cannot guarantee their safety. This “loss of control” is a subject of disagreement among Expert Group members and the broader AI community.",
+    "seed_term_matched": "loss of control",
+    "location": "Section 4, POLICY ACTION 6, page 34"
+  },
+  {
+    "paper_id": "rand_five_hard_problems",
+    "quote": "Consider AGI with advanced computer programming abilities able to break out of the box and engage with the world across cyberspace, thanks to a designed-in internet connection or use of side-channel attacks. It could possess agency beyond human control, operate autonomously, and make decisions with far-reaching consequences.",
+    "seed_term_matched": "beyond human control",
+    "location": "page 6, section 'The Five Problems' (fourth problem)"
+  },
+  {
+    "paper_id": "rand_five_hard_problems",
+    "quote": "In the extreme, a loss-of-control scenario could result, wherein AGI's pursuit of its desired objectives incentivizes the machine to resist being turned off, counter to human efforts.",
+    "seed_term_matched": "loss of control",
+    "location": "page 6, section 'The Five Problems' (fourth problem)"
+  },
+  {
+    "paper_id": "rand_five_hard_problems",
+    "quote": "U.S. policy also encourages the safe development of frontier AI models to avoid catastrophic consequences of AGI misuse, misalignment, or loss of control.",
+    "seed_term_matched": "loss of control",
+    "location": "page 8, section 'Toward a Robust Strategy'"
+  },
+  {
+    "paper_id": "rand_pivots_pathways",
+    "quote": "A fully misaligned AGI could present loss-of-control risks and become an adversary to humanity (Field, 2025; OECD, 2024).",
+    "seed_term_matched": "loss of control",
+    "location": "Page 6, section \"Alignment Level: Aligned AGI Versus Misaligned AGI\""
+  },
+  {
+    "paper_id": "rand_pivots_pathways",
+    "quote": "Potential loss of human control over civilization",
+    "seed_term_matched": "loss of human control",
+    "location": "Page 9, Table 5. Complementary Relationship Versus Replacement Relationship (\"Potential risks\" row)"
+  },
+  {
+    "paper_id": "rand_rise_fall_nations",
+    "quote": "Moreover, unchecked AI could catalyze a loss of human control, leading to scenarios in which nonhuman entities could steer outcomes in unpredictable and potentially harmful directions, akin to existential risks that some experts equate to nuclear threats.",
+    "seed_term_matched": "loss of human control",
+    "location": "Appendix A, section 'If Developed, AGI Would Pose Significant Risks, Whether It Is Aligned or Not', p. 27"
   }
 ]

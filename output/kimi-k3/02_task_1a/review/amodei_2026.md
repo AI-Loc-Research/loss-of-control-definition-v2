@@ -3,14 +3,14 @@
 **Paper:** Amodei, D. (2026). The Adolescence of Technology.
 **Experiment:** 1a_kimi-k3-nvidia_prompt_1a_v2
 **Model:** moonshotai/kimi-k3
-**Date:** 2026-10-11T08:36:13.364471+00:00
+**Date:** 2026-10-11T08:59:40.373212+00:00
 
 ---
 
 ## Extraction 1
 
 **Term:** uncontrollable
-**Location:** Section 2: "A surprising and terrible empowerment" — Misuse for destruction
+**Location:** Section 2: A surprising and terrible empowerment / Misuse for destruction
 
 **Extracted quote:**
 > This would mean that it could proliferate in an uncontrollable way and crowd out all life on the planet, in the worst case even destroying all life on earth.

@@ -1,0 +1,25 @@
+{
+  "paper_id": "OECD Artificial Intelligence Papers, November 2024 No. 27 - Assessing Potential Future Artificial Intelligence Risks, Benefits and Policy Imperatives",
+  "passages_found": [
+    {
+      "quote": "Some risks were not prioritised because they were rated less important overall, though individual Expert Group member rankings varied significantly. Opinions diverged particularly about the potential risk of humans losing control of artificial general intelligence (AGI). This is a hypothetical concept whereby machines could have human-level or greater “intelligence” across a broad spectrum of contexts.",
+      "seed_term_matched": "losing control",
+      "location": "Executive summary, page 7"
+    },
+    {
+      "quote": "There were particularly diverging views on the likelihood and consequences of humans losing control of artificial general intelligence (AGI) systems—an issue central to debated AI catastrophic risk scenarios. Such variance suggests the need for deeper investigation, with Expert Group members agreeing that its outputs should discuss diverging views rather than require consensus (OECD.AI, 2023[106]).",
+      "seed_term_matched": "losing control",
+      "location": "Section 3 (Potential future AI risks), page 19"
+    },
+    {
+      "quote": "In particular, some experts argued that they do not believe existing risk management activities and policy efforts adequately consider the potential risk of humans losing control over hypothetical future misaligned artificial general intelligence (AGI) systems (Bengio, 2024[257]; Cass-Beggs, 2024[293]; Faggella, 2024[294]; Taylor, 2023[295]),4 which they see as an extreme potential outcome of insufficient AI safety measures, especially those for AI alignment.",
+      "seed_term_matched": "losing control",
+      "location": "Section 4, POLICY ACTION 6, page 34"
+    },
+    {
+      "quote": "They argue that, regardless of testing, developers and deployers of some types of advanced AI systems have such a limited understanding of their system’s capabilities or how they may react to novel scenarios that they cannot guarantee their safety. This “loss of control” is a subject of disagreement among Expert Group members and the broader AI community.",
+      "seed_term_matched": "loss of control",
+      "location": "Section 4, POLICY ACTION 6, page 34"
+    }
+  ]
+}

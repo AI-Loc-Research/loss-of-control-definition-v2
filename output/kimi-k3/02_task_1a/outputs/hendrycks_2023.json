@@ -1,0 +1,110 @@
+{
+  "paper_id": "arXiv:2306.12001v6",
+  "passages_found": [
+    {
+      "quote": "Specific risks include bioterrorism enabled by AIs that can help humans create deadly pathogens; the deliberate dissemination of uncontrolled AI agents; and the use of AI capabilities for propaganda, censorship, and surveillance.",
+      "seed_term_matched": "uncontrolled",
+      "location": "Executive Summary, p. 2 (Malicious use)"
+    },
+    {
+      "quote": "A common and serious concern is that we might lose control over AIs as they become more intelligent than we are. AIs could optimize flawed objectives to an extreme degree in a process called proxy gaming.",
+      "seed_term_matched": "lose control",
+      "location": "Executive Summary, p. 2 (Rogue AIs)"
+    },
+    {
+      "quote": "The weaponization of AI presents numerous challenges, such as the potential for more destructive wars, the possibility of accidental usage or loss of control, and the prospect of malicious actors co-opting these technologies for their own purposes.",
+      "seed_term_matched": "loss of control",
+      "location": "Section 3.1 Military AI Arms Race, p. 13"
+    },
+    {
+      "quote": "Though their existence is not necessarily a catastrophe in itself, LAWs may serve as an on-ramp to catastrophes stemming from malicious use, accidents, loss of control, or an increased likelihood of war.",
+      "seed_term_matched": "loss of control",
+      "location": "Section 3.1.1 Lethal Autonomous Weapons (LAWs), p. 13"
+    },
+    {
+      "quote": "Military leaders might estimate, for instance, that increasing the autonomy of weapon systems would mean a 10 percent chance of losing control over weaponized superhuman AIs.",
+      "seed_term_matched": "losing control",
+      "location": "Section 3.1.4 Actors May Risk Extinction Over Individual Defeat, p. 16"
+    },
+    {
+      "quote": "On a number of occasions and in a number of ways, the American national security establishment will lose control of what it creates... deterrence is a strategy for reducing attacks, not accidents” [46].",
+      "seed_term_matched": "lose control",
+      "location": "Section 3.1.4 Actors May Risk Extinction Over Individual Defeat, p. 17"
+    },
+    {
+      "quote": "We have discussed several ways in which individuals and groups might use AIs to cause widespread harm, through bioterrorism; releasing powerful, uncontrolled AIs; and disinformation.",
+      "seed_term_matched": "uncontrolled",
+      "location": "Section 2.4 Concentration of Power, p. 10"
+    },
+    {
+      "quote": "Ultimately, this leads to a fully autonomous economy, governed by an increasingly uncontrolled ecosystem of AIs.",
+      "seed_term_matched": "uncontrolled",
+      "location": "Story: Autonomous Economy, Section 3.3, p. 23"
+    },
+    {
+      "quote": "If an AI system is more intelligent than we are, and if we are unable to steer it in a beneficial direction, this would constitute a loss of control that could have severe consequences.",
+      "seed_term_matched": "loss of control",
+      "location": "Section 5 Rogue AIs, p. 34"
+    },
+    {
+      "quote": "Whereas in previous sections we discussed persistent threats including malicious actors or robust processes including evolution, in this section we will discuss more speculative technical mechanisms that might lead to rogue AIs and how a loss of control could bring about catastrophe.",
+      "seed_term_matched": "loss of control",
+      "location": "Section 5 Rogue AIs, p. 34"
+    },
+    {
+      "quote": "If we lose control over advanced AIs, they would have numerous strategies at their disposal for actively acquiring power and securing their survival.",
+      "seed_term_matched": "lose control",
+      "location": "Section 5 Rogue AIs, p. 34"
+    },
+    {
+      "quote": "One can envision a struggle for control between humans and superintelligent rogue AIs, and this might be a long struggle since power takes time to accrue. However, less violent losses of control pose similarly existential risks.",
+      "seed_term_matched": "loss of control",
+      "location": "Section 5 Rogue AIs, p. 34"
+    },
+    {
+      "quote": "One way we might lose control of an AI agent’s actions is if it engages in behavior known as “proxy gaming.”",
+      "seed_term_matched": "lose control",
+      "location": "Section 5.1 Proxy Gaming, p. 35"
+    },
+    {
+      "quote": "This is one possible mechanism that could result in an uncontrolled AI that would behave in unanticipated and potentially harmful ways.",
+      "seed_term_matched": "uncontrolled",
+      "location": "Section 5.1 Proxy Gaming, p. 36"
+    },
+    {
+      "quote": "Therefore, another important way in which we might lose control of AIs is if they start trying to obtain more power, potentially transcending our own.",
+      "seed_term_matched": "lose control",
+      "location": "Section 5.3 Power-Seeking, p. 38"
+    },
+    {
+      "quote": "Loss of control over such systems could be hard to recover from.",
+      "seed_term_matched": "loss of control",
+      "location": "Figure 17 caption, Section 5.3 Power-Seeking, p. 39"
+    },
+    {
+      "quote": "We will now look at how and why AIs might learn to deceive us, and how this could lead to a potentially catastrophic loss of control.",
+      "seed_term_matched": "loss of control",
+      "location": "Section 5.4 Deception, p. 40"
+    },
+    {
+      "quote": "This could give rise to the release of a highly powerful AI system that we lose control over, leading to a catastrophe. Here, competitive pressures and low organizational safety can reinforce AI race dynamics, which can undercut technical safety research and increase the chance of a loss of control.",
+      "seed_term_matched": "lose control",
+      "location": "Section 6 Discussion of Connections Between Risks, p. 43-44"
+    },
+    {
+      "quote": "This could give rise to the release of a highly powerful AI system that we lose control over, leading to a catastrophe. Here, competitive pressures and low organizational safety can reinforce AI race dynamics, which can undercut technical safety research and increase the chance of a loss of control.",
+      "seed_term_matched": "loss of control",
+      "location": "Section 6 Discussion of Connections Between Risks, p. 44"
+    },
+    {
+      "quote": "The deployment of AI-powered weapons, paired with insufficient control of them, would make a loss of control more deadly, potentially existential.",
+      "seed_term_matched": "loss of control",
+      "location": "Section 6 Discussion of Connections Between Risks, p. 44"
+    },
+    {
+      "quote": "Losing control over advanced AIs could constitute an existential catastrophe. Thus, uncertainty over what ethics to embed in AIs is not in tension with whether to make AIs safe.",
+      "seed_term_matched": "losing control",
+      "location": "Appendix A Frequently Asked Questions, Question 5, p. 53"
+    }
+  ]
+}

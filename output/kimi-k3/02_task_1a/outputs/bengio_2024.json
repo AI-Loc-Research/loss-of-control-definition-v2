@@ -1,0 +1,15 @@
+{
+  "paper_id": "10.1126/science.adn0117",
+  "passages_found": [
+    {
+      "quote": "Increases in capabilities and autonomy may soon massively amplify AI’s impact, with risks that include large-scale social harms, malicious uses, and an irreversible loss of human control over autonomous AI systems.",
+      "seed_term_matched": "loss of human control",
+      "location": "Abstract, first page of supplementary text"
+    },
+    {
+      "quote": "Without sufficient caution, we may irreversibly lose control of autonomous AI systems, rendering human intervention ineffective. Large-scale cybercrime, social manipulation, and other harms could escalate rapidly.",
+      "seed_term_matched": "lose control",
+      "location": "Section 'RAPID PROGRESS, HIGH STAKES', page 1"
+    }
+  ]
+}

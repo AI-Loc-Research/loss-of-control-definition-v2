@@ -1,0 +1,15 @@
+{
+  "paper_id": "A Model of Pathways to Artificial Superintelligence Catastrophe for Risk and Decision Analysis (Barrett & Baum, 2016)",
+  "passages_found": [
+    {
+      "quote": "We assume, for purposes of this paper and without committing our own views, that the mere existence of an ASI with decisive strategic advantage over humanity does not itself qualify as a major global catastrophe. In other words, this paper takes the position that it is not inherently catastrophic for humanity to lose control of its own destiny.",
+      "seed_term_matched": "lose control",
+      "location": "Section 2.1 AI Catastrophe Scenarios, p. 3"
+    },
+    {
+      "quote": "One might think that ASI is such a novel risk that established methodologies would not be suitable. ASI risk does indeed have some significant novel characteristics, in particular the possibility of humans losing control to the ASI. However, core aspects of ASI risk are broadly similar to other risks.",
+      "seed_term_matched": "losing control",
+      "location": "Section 4 Conclusion, p. 17"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "Without specific countermeasures, the easiest path to transformative AI likely leads to AI takeover by Ajeya Cotra (Best of LessWrong 2022)",
+  "passages_found": [
+    {
+      "quote": "Deploying Alex would lead to a rapid loss of human control\nIn the deployment phase, many copies of Alex are given access to the real world and tasked with making progress on R&D tasks important to Magma’s bottom line (e.g. designing better computer chips, robots, AI training software, and so on).",
+      "seed_term_matched": "loss of human control",
+      "location": "Section: \"As humans’ control fades, Alex would be motivated to take over\" — subsection heading \"Deploying Alex would lead to a rapid loss of human control\""
+    }
+  ]
+}

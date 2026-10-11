@@ -1,0 +1,135 @@
+{
+  "paper_id": "AI Loss of Control Risk: Indications & Warning, February 2026, Institute for Security and Technology",
+  "passages_found": [
+    {
+      "quote": "Technologists and policymakers are increasingly seized with the importance of addressing AI Loss Of Control (LOC) risk—a hypothetical state in which an AI system diverges from authorized constraints to the extent that the human operator is no longer able to prevent, constrain, or revert undesired and unintended outcomes.",
+      "seed_term_matched": "loss of control",
+      "location": "Page 1, Executive Summary"
+    },
+    {
+      "quote": "Understanding and monitoring indicators of AI Loss of Control is essential to strategic stability and trustworthy AI deployment.",
+      "seed_term_matched": "loss of control",
+      "location": "Page 3, Executive Summary"
+    },
+    {
+      "quote": "Normal operation of AI systems with no observed indicators of Loss of Control in research, testing, or production environments",
+      "seed_term_matched": "loss of control",
+      "location": "Page 3, Executive Summary (Warning Levels, Level 0)"
+    },
+    {
+      "quote": "In April 2025, IST's AI Risk Reduction working group members, consisting of AI technical and policy experts, highlighted the importance of tackling AI Loss of Control (LOC) risk, which broadly refers to a hypothetical state in which an AI system diverges from authorized constraints to the extent that the human operator is no longer able to prevent or constrain undesired and unintended outcomes, or revert the system to a previous safe state.",
+      "seed_term_matched": "loss of control",
+      "location": "Pages 4-5, Introduction"
+    },
+    {
+      "quote": "These precedents suggest that Loss of Control in complex automated systems is not a speculative concern but an established engineering challenge—one that becomes more acute as systems grow more capable and autonomous.",
+      "seed_term_matched": "loss of control",
+      "location": "Page 5, Introduction"
+    },
+    {
+      "quote": "Working group members noted a gap between frontier AI labs and researchers on the one hand, and policymakers on the other: whereas labs and researchers are focused on the specifics when it comes to AI Loss of Control, policymakers lack general awareness about what Loss of Control is, let alone what it could entail.",
+      "seed_term_matched": "loss of control",
+      "location": "Page 5, Introduction"
+    },
+    {
+      "quote": "The bill defines a \"loss-of-control scenario\" as occurring when an AI system behaves contrary to human instruction, deviates from established rules, alters safety constraints without authorization, operates beyond its intended scope, pursues goals different from those intended by designers, subverts oversight or shutdown mechanisms, or otherwise behaves unpredictably in ways harmful to humanity.",
+      "seed_term_matched": "loss of control",
+      "location": "Page 5, Introduction"
+    },
+    {
+      "quote": "What is AI Loss of Control?",
+      "seed_term_matched": "loss of control",
+      "location": "Page 7, Section heading"
+    },
+    {
+      "quote": "In 1965, mathematician Irving J. Good—Alan Turing's contemporary and one of the creative geniuses behind Stanley Kubrick's movie 2001: A Space Odyssey—theorized about intelligent machines and humans' inability to control them.",
+      "seed_term_matched": "inability to control",
+      "location": "Page 7, What is AI Loss of Control?"
+    },
+    {
+      "quote": "In December 2025, he wrote explicitly on AI Loss of Control, noting, \"[a]s AI capabilities advance over the next few years, we must also anticipate scenarios where even well-intentioned users could lose control over their AI systems.\"",
+      "seed_term_matched": "lose control",
+      "location": "Page 8, What is AI Loss of Control?"
+    },
+    {
+      "quote": "Yoshua Bengio distinguishes between \"active\" and \"passive\" loss of control: in an \"active\" loss of control scenario, the artificial intelligence system undermines human control unintentionally or intentionally, whereas in \"passive\" loss of control scenarios, humans stop exerting meaningful oversight over the AI system.",
+      "seed_term_matched": "loss of control",
+      "location": "Page 9, What is AI Loss of Control?"
+    },
+    {
+      "quote": "In the 2025 paper \"Superintelligence Strategy,\" its authors discuss AI LOC risk specifically in the context of national security, noting \"loss of control can occur if militaries and companies grow so dependent on automation that humans no longer have meaningful control, if an individual deliberately unleashes a powerful system, or if automated AI research outruns its development safeguards.\"",
+      "seed_term_matched": "loss of control",
+      "location": "Page 9, What is AI Loss of Control?"
+    },
+    {
+      "quote": "How could this translate into AI loss of control? » Loss of control to AI: We surrender control or find ourselves unable to resist what we do not fully understand. This scenario represents a societal choice or a structural inevitability in which humans gradually cede agency to AI systems. » Loss of control of AI: The AI system bypasses safety and security measures, develops capabilities for self-replication and self-correction, conducts automated R&D, and establishes connections to external environments and the Internet of Things (IoT) without authorization.",
+      "seed_term_matched": "loss of control",
+      "location": "Page 10, A Thought Experiment"
+    },
+    {
+      "quote": "» Loss of control to the political system: People initially supported Bolshevik promises of peace, land redistribution, and workers' control. They gradually ceded control of property and freedom of speech to the party. » Loss of control of the political system: The system developed emergent behaviors that no actor, creator, or participant fully controlled.",
+      "seed_term_matched": "loss of control",
+      "location": "Page 10, A Thought Experiment"
+    },
+    {
+      "quote": "While an in-depth exploration of the particular reasons behind this possible divergence falls outside of the scope of this paper, noting these reasons is necessary to show that the drivers of AI Loss of Control are real and observable.",
+      "seed_term_matched": "loss of control",
+      "location": "Page 11, A Thought Experiment"
+    },
+    {
+      "quote": "In response to the level of uncertainty currently facing policymakers as they try to understand AI Loss of Control, IST decided to develop a framework to help observe and analyze this risk in a structured way.",
+      "seed_term_matched": "loss of control",
+      "location": "Page 12, A Thought Experiment"
+    },
+    {
+      "quote": "Regardless of the degree of probability that AI LOC will occur, as AI systems become more capable, an agreed-upon Indications and Warning (I&W) framework for AI Loss of Control (LOC) would be a useful, necessary mechanism to aid in observing the on-the-ground realities in the AI ecosystem, identifying possible LOC scenarios, and anticipating and preparing for the future.",
+      "seed_term_matched": "loss of control",
+      "location": "Page 12, An Indications & Warning Framework for Loss of Control"
+    },
+    {
+      "quote": "An Indications & Warning Framework for Loss of Control",
+      "seed_term_matched": "loss of control",
+      "location": "Page 12, Section heading"
+    },
+    {
+      "quote": "LOC Indicators: Theoretical behaviors of AI systems that, if exhibited, could signal progression toward a Loss of Control event.",
+      "seed_term_matched": "loss of control",
+      "location": "Page 14, An Indications & Warning Framework for Loss of Control"
+    },
+    {
+      "quote": "\"Category two is the sort of broadly called \"loss of control incidents\" where that's kind of like the sci-fi movie. The AI is like, \"Oh, I don't actually want you to turn me off. I'm afraid I can't do that\"... and that's I think, that is less of a concern to me than the first category [bad guy gets super intelligence first and misuses it before the rest of the world has a powerful enough version to defend], but a very grave concern if it came to pass.\" Sam Altman, 2025",
+      "seed_term_matched": "loss of control",
+      "location": "Page 14, An Indications & Warning Framework for Loss of Control"
+    },
+    {
+      "quote": "Understanding and analyzing the risk of AI Loss of Control (LOC) is critical not only because of its national security implications, but also because of its possible disproportionate impact on communities and nations with limited technical, financial, and AI governance resources.",
+      "seed_term_matched": "loss of control",
+      "location": "Page 17, Elevated AI LOC Risks in Resource-Constrained Environments"
+    },
+    {
+      "quote": "AI Loss of Control is not only a hypothetical future risk or a concern for technologically advanced states.",
+      "seed_term_matched": "loss of control",
+      "location": "Page 17, Elevated AI LOC Risks in Resource-Constrained Environments"
+    },
+    {
+      "quote": "This serves as a warning for AI LOC monitoring, as it calls into question whether static evaluations or one-time audits can reliably capture real-world behavior.",
+      "seed_term_matched": "loss of control",
+      "location": "Page 26, Observed LOC Indications (Altering behaviour)"
+    },
+    {
+      "quote": "Figure 1: Conceptual AI Loss of Control Risk Schema",
+      "seed_term_matched": "loss of control",
+      "location": "Page 28, Warning Levels (Figure 1 caption)"
+    },
+    {
+      "quote": "IST will continue monitoring AI Loss of Control (LOC) risks using the I&W methodology.",
+      "seed_term_matched": "loss of control",
+      "location": "Page 29, Where might we be today?"
+    },
+    {
+      "quote": "The implications of AI LOC can vary significantly, ranging from isolated incidents with contained consequences to harmful events that have far-reaching effects on human agency and national security.",
+      "seed_term_matched": "loss of control",
+      "location": "Page 30, Conclusion"
+    }
+  ]
+}

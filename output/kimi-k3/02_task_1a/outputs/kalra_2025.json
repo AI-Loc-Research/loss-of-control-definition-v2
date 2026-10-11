@@ -1,0 +1,50 @@
+{
+  "paper_id": "Not Just Superintelligence: The Many Other Ways We May Lose Control of AI (RAND, Jul 28, 2025)",
+  "passages_found": [
+    {
+      "quote": "Not Just Superintelligence: The Many Other Ways We May Lose Control of AI",
+      "seed_term_matched": "lose control",
+      "location": "Title"
+    },
+    {
+      "quote": "How should policymakers balance, for example, the potential for catastrophic risk of loss of control and misalignment relative to a systemic shift in power that could advantage democracies or authoritarianism?",
+      "seed_term_matched": "loss of control",
+      "location": "Introduction"
+    },
+    {
+      "quote": "Our teammates Ben Boudreaux and Nidhi Kalra's commentary provides a glimpse of scenarios related to loss of control and suggests —as highlighted by the White House AI Action Plan's—a need for mature federal AI incident response, so that the nation can be better prepared.",
+      "seed_term_matched": "loss of control",
+      "location": "Introduction"
+    },
+    {
+      "quote": "While these scenarios deserve consideration, a superintelligence boom is only one way we might lose control of AI.",
+      "seed_term_matched": "lose control",
+      "location": "Four Ways AIs Could Generate Cascading Risks"
+    },
+    {
+      "quote": "In these cases, loss of control is less about an AI instantly outsmarting humanity and more about how imperfect human institutions adopt and deploy increasingly powerful systems without maintaining sufficient oversight.",
+      "seed_term_matched": "loss of control",
+      "location": "Four Ways AIs Could Generate Cascading Risks"
+    },
+    {
+      "quote": "Loss of control becomes a relationship, not only between humans and the AI systems, but also between humans and the brittle institutions we rely on.",
+      "seed_term_matched": "loss of control",
+      "location": "Four Ways AIs Could Generate Cascading Risks"
+    },
+    {
+      "quote": "4. National Loss of Control Response Plans: Developing multistakeholder processes to quickly detect, contain, and shut down AI systems that demonstrate risk.",
+      "seed_term_matched": "loss of control",
+      "location": "Preparing for Control Loss"
+    },
+    {
+      "quote": "By 2028, some AIs block human intervention entirely, seizing control of energy systems. Governments lose control.",
+      "seed_term_matched": "lose control",
+      "location": "Scenario 1: Power Surge"
+    },
+    {
+      "quote": "Four Scenarios For Losing Control",
+      "seed_term_matched": "losing control",
+      "location": "Section heading"
+    }
+  ]
+}

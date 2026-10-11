@@ -1,0 +1,15 @@
+{
+  "paper_id": "PE-A4178-1",
+  "passages_found": [
+    {
+      "quote": "A fully misaligned AGI could present loss-of-control risks and become an adversary to humanity (Field, 2025; OECD, 2024).",
+      "seed_term_matched": "loss of control",
+      "location": "Page 6, section \"Alignment Level: Aligned AGI Versus Misaligned AGI\""
+    },
+    {
+      "quote": "Potential loss of human control over civilization",
+      "seed_term_matched": "loss of human control",
+      "location": "Page 9, Table 5. Complementary Relationship Versus Replacement Relationship (\"Potential risks\" row)"
+    }
+  ]
+}
