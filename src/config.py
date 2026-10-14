@@ -14,6 +14,10 @@ TASKS = {
         "prompt_version": "prompt_1a_v2",
         "seed_terms_version": "v2",
     },
+    # Threat model extraction per scenario (paper setting: prompt v2, 7 components)
+    "2c": {
+        "prompt_version": "prompt_2c_v2",
+    },
 }
 
 MODELS = {

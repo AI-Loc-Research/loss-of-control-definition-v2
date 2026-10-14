@@ -8,14 +8,22 @@
 Configs without "backend" (older notebooks) use Hugging Face, as before.
 """
 
+import json
+
 from src.utils.hf_client import query_llm
 
-def call_model(prompt: str, config: dict, api_key: str, dry_run: bool = False) -> dict:
+
+def call_model(prompt: str, config: dict, api_key: str, dry_run: bool = False,
+               mock: dict | None = None) -> dict:
     """Send one prompt with the settings in config; returns the query_llm dict shape.
     dry_run returns the mock reply for every backend: no key, no network, no cost.
+    mock: the fake reply to use in a dry run (default: the Task 1A mock in hf_client).
     """
     if dry_run:
-        return query_llm(prompt, config["model"], hf_token="", dry_run=True)
+        result = query_llm(prompt, config["model"], hf_token="", dry_run=True)
+        if mock is not None:
+            result["generated_text"] = json.dumps(mock, indent=2)
+        return result
 
     backend = config.get("backend", "huggingface")
     if backend == "huggingface":

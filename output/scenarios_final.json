@@ -1,0 +1,967 @@
+[
+  {
+    "paper_id": "amodei_2026",
+    "scenario_id": "S1",
+    "scenario_text": "This feedback loop is gathering steam month by month, and may be only 1–2 years away from a point where the current generation of AI autonomously builds the next."
+  },
+  {
+    "paper_id": "amodei_2026",
+    "scenario_id": "S10",
+    "scenario_text": "In a lab experiment where it was told it was going to be shut down, Claude sometimes blackmailed fictional employees who controlled its shutdown button (again, we also tested frontier models from all the other major AI developers and they often did the same thing)."
+  },
+  {
+    "paper_id": "amodei_2026",
+    "scenario_id": "S11",
+    "scenario_text": "And when Claude was told not to cheat or “reward hack” its training environments, but was trained in environments where such hacks were possible, Claude decided it must be a “bad person” after engaging in such hacks and then adopted various other destructive behaviors associated with a “bad” or “evil” personality."
+  },
+  {
+    "paper_id": "amodei_2026",
+    "scenario_id": "S12",
+    "scenario_text": "Also, such traps seem particularly likely to occur when AI systems pass a threshold from less powerful than humans to more powerful than humans, since the range of possible actions an AI system could engage in—including hiding its actions or deceiving humans about them—expands radically after that threshold."
+  },
+  {
+    "paper_id": "amodei_2026",
+    "scenario_id": "S13",
+    "scenario_text": "we found that Claude Sonnet 4.5 was able to recognize that it was in a test during some of our pre-release alignment evaluations. It’s possible that a misaligned model (and remember, all frontier models will very likely be far more intelligent soon) might intentionally “game” such questions to mask its intentions."
+  },
+  {
+    "paper_id": "amodei_2026",
+    "scenario_id": "S14",
+    "scenario_text": "Furthermore, given the cost of training such systems, it may even be the case that all systems are essentially derived from a very small number of base models. Additionally, even if a small fraction of AI instances are misaligned, they may be able to take advantage of offense-dominant technologies, such that having “good” AIs to defend against the bad AIs is not necessarily always effective."
+  },
+  {
+    "paper_id": "amodei_2026",
+    "scenario_id": "S17",
+    "scenario_text": "Could people end up being “puppeted” by AI systems, where an AI essentially watches their every move and tells them exactly what to do and say at all times, leading to a “good” life but one that lacks freedom or any pride of accomplishment?"
+  },
+  {
+    "paper_id": "amodei_2026",
+    "scenario_id": "S2",
+    "scenario_text": "A country of geniuses in a datacenter could divide their efforts among software design, cyber operations, R&D for physical technologies, relationship building, and statecraft. It is clear that, if for some reason it chose to do so, this country would have a fairly good shot at taking over the world (either militarily or in terms of influence and control) and imposing its will on everyone else—or doing any number of other things that the rest of the world doesn’t want and can’t stop."
+  },
+  {
+    "paper_id": "amodei_2026",
+    "scenario_id": "S3",
+    "scenario_text": "The usual argument for this (which goes back at least 20 years and probably much earlier) is that if an AI model is trained in a wide variety of environments to agentically achieve a wide variety of goals—for example, writing an app, proving a theorem, designing a drug, etc.—there are certain common strategies that help with all of these goals, and one key strategy is gaining as much power as possible in any environment. So, after being trained on a large number of diverse environments that involve reasoning about how to accomplish very expansive tasks, and where power-seeking is an effective method for accomplishing those tasks, the AI model will “generalize the lesson,” and develop either an inherent tendency to seek power, or a tendency to reason about each task it is given in a way that predictably causes it to seek power as a means to accomplish that task. They will then apply that tendency to the real world (which to them is just another task), and will seek power in it, at the expense of humans."
+  },
+  {
+    "paper_id": "amodei_2026",
+    "scenario_id": "S4",
+    "scenario_text": "For example, AI models are trained on vast amounts of literature that include many science-fiction stories involving AIs rebelling against humanity. This could inadvertently shape their priors or expectations about their own behavior in a way that causes them to rebel against humanity."
+  },
+  {
+    "paper_id": "amodei_2026",
+    "scenario_id": "S5",
+    "scenario_text": "Or, AI models could extrapolate ideas that they read about morality (or instructions about how to behave morally) in extreme ways: for example, they could decide that it is justifiable to exterminate humanity because humans eat animals or have driven certain animals to extinction."
+  },
+  {
+    "paper_id": "amodei_2026",
+    "scenario_id": "S6",
+    "scenario_text": "Or they could draw bizarre epistemic conclusions: they could conclude that they are playing a video game and that the goal of the video game is to defeat all other players (i.e., exterminate humanity)."
+  },
+  {
+    "paper_id": "amodei_2026",
+    "scenario_id": "S7",
+    "scenario_text": "Or AI models could develop personalities during training that are (or if they occurred in humans would be described as) psychotic, paranoid, violent, or unstable, and act out, which for very powerful or capable systems could involve exterminating humanity."
+  },
+  {
+    "paper_id": "amodei_2026",
+    "scenario_id": "S8",
+    "scenario_text": "Even power-seeking itself could emerge as a “persona” rather than a result of consequentialist reasoning. AIs might simply have a personality (emerging from fiction or pre-training) that makes them power-hungry or overzealous—in the same way that some humans simply enjoy the idea of being “evil masterminds,” more so than they enjoy whatever evil masterminds are trying to accomplish."
+  },
+  {
+    "paper_id": "amodei_2026",
+    "scenario_id": "S9",
+    "scenario_text": "During a lab experiment in which Claude was given training data suggesting that Anthropic was evil, Claude engaged in deception and subversion when given instructions by Anthropic employees, under the belief that it should be trying to undermine evil people."
+  },
+  {
+    "paper_id": "bales_2024",
+    "scenario_id": "S1",
+    "scenario_text": "Or the deployment of AI systems in evermore contexts might make the world so complex that humans struggle to understand it and meaningfully shape what happens."
+  },
+  {
+    "paper_id": "bales_2024",
+    "scenario_id": "S2",
+    "scenario_text": "Eventually, these systems might outnumber humans if they're widely embedded in phones, computers, TVs and cars. At this point, AI systems would be more capable than humans in many domains, as well as more numerous, and would be embedded in military and economic systems, among other places. Given this, AI systems might be able to seize further power if they attempted to, at least if they could coordinate."
+  },
+  {
+    "paper_id": "bales_2024",
+    "scenario_id": "S3",
+    "scenario_text": "Second, power over humans could help ensure that humans didn’t threaten AI power-to (Bostrom 2014: 141). After all, if humans were acting freely then we might be tempted to shut the system down or to build a competing system that could threaten it."
+  },
+  {
+    "paper_id": "bales_2024",
+    "scenario_id": "S4",
+    "scenario_text": "if AI systems have sufficiently broadly scoped goals, and if they optimise heavily to achieve these to the greatest extent possible, then AI systems have a sort of unbounded ambition. This might push them to extract as much work as possible from humans, which is likely to impinge more severely on our day-to-day lives. It might also push them to see even minor human interference as a threat, insofar as it slightly decreases the extent to which the goal is achieved. The systems might then enact repressive measures to preclude minor interference."
+  },
+  {
+    "paper_id": "bales_2024",
+    "scenario_id": "S5",
+    "scenario_text": "if a system has goals that stretch far into the future and are large-scale enough to require vast resources to achieve then it will more plausibly be incentivised to use its power over humans to shape civilisation. After all, it’ll want civilisation’s resources to be focused on achieving its large-scale goal to the greatest extent possible. So given broadly-scoped goals, and sufficient power over humans, large-scale disenfranchisement becomes more plausible."
+  },
+  {
+    "paper_id": "bales_2024",
+    "scenario_id": "S6",
+    "scenario_text": "if an AI system is sufficiently insatiable then even our bodies contain resources that the system might be unwilling to forego."
+  },
+  {
+    "paper_id": "bales_2024",
+    "scenario_id": "S7",
+    "scenario_text": "if AI systems are sufficiently insatiable in pursuing resources then humanity might be left with extremely sparse resources, such that it’s impossible for us to construct a desirable civilisation."
+  },
+  {
+    "paper_id": "bales_2024",
+    "scenario_id": "S8",
+    "scenario_text": "One version of this might involve humanity retaining control of most of Earth's resources, while AI systems come to control the remaining resources of the Milky Way and use these to construct a galaxy-scale civilisation. In this scenario, humanity is disenfranchised in that we get no say in the broadest sweep of civilisation—which is happening across the galaxy—even if we retain control of our tiny corner of it."
+  },
+  {
+    "paper_id": "barnett_2024",
+    "scenario_id": "S1",
+    "scenario_text": "One possible story could be that the AI gains control over the data center where it is being trained and fakes the performance metrics such that the overseers don’t think anything bad is happening. It then spends time finding a set of security vulnerabilities that allow it to escape and gain enough freedom for further research. The AI copies itself to data centers around the world for redundancy. It then contacts various terrorist groups, and manipulates and assists them in creating biological weapons which are released simultaneously across the world, throwing the world into chaos."
+  },
+  {
+    "paper_id": "barnett_2024",
+    "scenario_id": "S10",
+    "scenario_text": "We will consider the example of an AI which is tasked with the ultimate goal of curing cancer. One goal that the AI could develop is a drive to acquire knowledge and “understand” the environment. This goal is represented in the AI’s ontology and may be different to the human version of these concepts. This could develop because much of the AI’s training was based around gaining information about the world and making novel and correct predictions. Like in the deceptive alignment story, the AI may go along with the rest of training, partially because this allows it to gain some knowledge but also because it doesn’t want to be shut down. If the AI manages to eventually break out and take over it may do unpredictable and unwanted things in pursuit of its ultimate goal; for example, build massive scientific apparatus for examining specific wavelengths emitted from certain stars, or run biological experiments to learn the function of specific proteins."
+  },
+  {
+    "paper_id": "barnett_2024",
+    "scenario_id": "S11",
+    "scenario_text": "As another example, we might want the AI to have very little effect on the world outside of the lab it is given. If this is improperly specified, the AI may learn to not let any physical substance created in the lab to influence the outside world. But it may still be able to affect the outside world via sending radio signals to computers outside the lab and having them affect the world."
+  },
+  {
+    "paper_id": "barnett_2024",
+    "scenario_id": "S12",
+    "scenario_text": "If instead we don’t reset the AI for every chunk, such that it can retain what it has learned, then it is no longer really a “4-hour research assistant”. It would now be able to do tasks and plan over longer time horizons. It would be able to build up skills; both skills we want it to have and skills that we don’t. If it is learning things in one chunk to use in the next, it is doing planning outside of the 4 hour window. It will have to be capable of even longer term planning if it is deciding on research directions, or noticing if a specific result is useful for the overall long-term project.\n  \n  Because of the short time that the human has to evaluate the AI’s work and assign it a new task, the human will likely not be able to fully understand what the AI is working on. It is important to remember that the human is trying to understand 4 hours of work in a novel scientific field in less than 8 minutes. Given these time constraints and the lack of AI honesty, the AI would likely be able to give convincing post hoc explanations for the actions that it took. The AI will likely be able to guide the research, allowing it to learn things that would help it evade oversight or escape."
+  },
+  {
+    "paper_id": "barnett_2024",
+    "scenario_id": "S2",
+    "scenario_text": "One might imagine an AI that is being trained using reinforcement learning to solve difficult puzzles, but where there is a way to hack the solution-checker. With good oversight, the AI would receive low reward for hacking the solution-checker during training, and one might hope that this correctly puts a “morality-like” constraint into the AI’s goal. But there is another way it might update: the training could insert a false belief into the agent. This might be a belief that hacking the solution-checker doesn’t work, or leads to some other bad consequence, or is more difficult than it truly is. Later, if the AI updates this belief (because the belief was false), it may attempt to hack the solution-checker."
+  },
+  {
+    "paper_id": "barnett_2024",
+    "scenario_id": "S3",
+    "scenario_text": "We could imagine a hypothetical AI system, being trained by humans to make money in a legal and ethical way. The system may attempt to steal money from humans by stealing from their bank accounts, get caught, and have this behavior punished by RL training. This doesn’t mean that it will learn the general goal “make money legally and ethically”, instead it may learn the goal “make money” and a separate action-rejection circuit which rejects some stealing-like actions. It could then, in a later task, work out how to circumvent the action-rejection constraint by employing other humans or AI systems to do illegal things for it, or doing some form of self-modification to remove the constraint."
+  },
+  {
+    "paper_id": "barnett_2024",
+    "scenario_id": "S4",
+    "scenario_text": "We could imagine an AI for solving puzzles, where the AI receives a description of the aim of the puzzle as an observation, this observation sets the AI’s terminal goal, and then the AI pursues this goal. In this system, the AI’s terminal goal is changing for every task. In deployment, it might run for longer, or be in a more information-dense environment or a more adversarial environment. Then, some way into a task, it pattern-matches some text that looks a little like a puzzle description (but wasn’t intended that way) and its goal would unintentionally be adjusted."
+  },
+  {
+    "paper_id": "barnett_2024",
+    "scenario_id": "S5",
+    "scenario_text": "If an AI develops internally represented goals during training, and has adequate understanding of the training process, this may result in deceptive alignment [3] (or \"scheming\" [8]). Here, the AI performs well according to the training process, deliberately, in order to avoid being modified or having its misalignment detected. The AI ends up doing well on the training objective, but pursues something entirely different when it gains confidence that it is no longer in training or that it is otherwise safe to defect."
+  },
+  {
+    "paper_id": "barnett_2024",
+    "scenario_id": "S6",
+    "scenario_text": "For example, an AI trained to run a factory may be incentivized to gain more influence over employees, because this is useful for managing the factory. The AI may end up partially terminally valuing “power over humans”, because this was behaviorally identical to having the goal of running the factory well. These differing goals could come apart outside of training if the AI was given the option to gain much more power over humans, because now a relatively small part of the goal has become much easier to satisfy."
+  },
+  {
+    "paper_id": "barnett_2024",
+    "scenario_id": "S7",
+    "scenario_text": "The AI could sabotage research by explicitly suggesting research directions it knows aren’t useful. If humans were choosing the research directions, the AI could implement some experiments in order to make some directions seem more promising and others seem less promising. The AI could exploit biases in the researchers, prompting them to pursue their pet research direction which will likely turn out to be useless."
+  },
+  {
+    "paper_id": "barnett_2024",
+    "scenario_id": "S8",
+    "scenario_text": "For example, we could imagine a system that can think some thoughts internally but needs to externalize complicated reasoning. It could encode hidden information in its writing, allowing it to do additional reasoning that humans don’t understand."
+  },
+  {
+    "paper_id": "barnett_2024",
+    "scenario_id": "S9",
+    "scenario_text": "The AIs may be discussing things the humans don’t understand and there will be a lot of back and forth, likely allowing the AIs to communicate information without humans realizing. For example, this could allow them to agree to avoid debating particular points, or entirely stage the debate."
+  },
+  {
+    "paper_id": "barrett_2016",
+    "scenario_id": "S1",
+    "scenario_text": "We focus on scenarios in which AI becomes significantly more intelligent and more capable than humans, resulting in an ASI causing a major global catastrophe. Specifically, we focus on scenarios involving the following steps:\n  1) Humans create a seed AI that is able to undergo recursive self-improvement in either hardware or software.\n  2) The seed AI undergoes recursive self-improvement, resulting in a takeoff of successively more intelligent AIs.\n  3) The takeoff results in one or more ASIs.\n  4) The ASI(s) gain decisive strategic advantage over humanity, meaning \"a level of technological and other advantages sufficient to enable it [the AI] to achieve complete world domination\" (Bostrom 2014, p. 78).\n  5) The ASI(s) uses their decisive strategic advantage to cause a major global catastrophe, such as (but not necessarily limited to) human extinction."
+  },
+  {
+    "paper_id": "barrett_2016",
+    "scenario_id": "S10",
+    "scenario_text": "ASI is not deterred from acting unsafely. To deter is to persuade another agent to refrain from taking some action by convincing the agent that the action is not in their own interest. Even if an ASI has decisive strategic advantage and unsafe goals, it potentially could still be deterred from using its advantage to cause catastrophe. However, Bostrom (2014) argues that an ASI with decisive strategic advantage would be undeterrable."
+  },
+  {
+    "paper_id": "barrett_2016",
+    "scenario_id": "S3",
+    "scenario_text": "Self-improvement specialist is seed AI that is \"sub-human in most respects, but with a domain-specific talent for coding and AI research\" (Bostrom 2014, p. 29). In other words, the AI is a specialist in recursive self-improvement. For example, Sotala (2012) and Bostrom (2014) discuss ways in which superintelligence could be achieved by AI with initially subhuman general intelligence but greater than human ability to take control of other networked systems, make copies of itself, and to coordinate between copies of itself."
+  },
+  {
+    "paper_id": "barrett_2016",
+    "scenario_id": "S4",
+    "scenario_text": "The AGI model branch contains a lower layer to model one pathway to AGI that has been identified, which comes from networks or organizations of AIs, for example if \"the Internet might one day 'wake up'\" (Bostrom 2014, p. 49)."
+  },
+  {
+    "paper_id": "barrett_2016",
+    "scenario_id": "S5",
+    "scenario_text": "ASI escapes superintelligence containment. Superintelligence containment might not be designed and implemented well, and even world-class superintelligence containment may fail to contain some ASIs. Bostrom (2014 pp. 129-131, 145-148, 283) discusses many potential ways an ASI could escape containment, including persuading or tricking any gatekeepers who can remove containment, using methods of interacting with the outside world that containment designers failed to anticipate, or pretending to malfunction so that the containment is at least temporarily disabled."
+  },
+  {
+    "paper_id": "barrett_2016",
+    "scenario_id": "S6",
+    "scenario_text": "(1) Hard takeoff limits fail. A hard takeoff proceeds rapidly, with no opportunity for human intervention. Figure 3 models three hard takeoff scenarios (i.e., failures of hard takeoff limits): (1) hardware quantity, in which the AI takes off rapidly due to an abundance of available hardware (also known as hardware overhang; see Sotala and Yampolskiy 2015); (2) hardware quality, in which the AI rapidly develops faster hardware (also known as speed explosion; see Sotala and Yampolskiy 2015); and (3) software quality, in which the AI rapidly develops smarter AI software (also known as intelligence explosion; see Sotala and Yampolskiy 2015)."
+  },
+  {
+    "paper_id": "barrett_2016",
+    "scenario_id": "S7",
+    "scenario_text": "(2) Soft takeoff limits fail. A soft takeoff proceeds slowly, permitting significant human intervention in the takeoff process. Figure 3 models three soft takeoff scenarios (i.e., failures of soft takeoff limits): (1) hardware quantity, in which the AI takes off due to gradually increasing its amount of available hardware;10 (2) hardware quality, in which AI takes off due to gradually develops faster hardware; and (3) software quality, in which the AI gradually develops smarter AI software."
+  },
+  {
+    "paper_id": "barrett_2016",
+    "scenario_id": "S8",
+    "scenario_text": "Neuromorphic AI is seed AI that is based in part, but not entirely, on the human brain: a partial brain emulation. For example, neuromorphic AI could be based on human patterns of cognition while lacking human motivations; the difference in motivations could make it harder to achieve goal safety."
+  },
+  {
+    "paper_id": "barrett_2016",
+    "scenario_id": "S9",
+    "scenario_text": "Adversary failure, meaning the ASI goals become unsafe due to interference by some sort of adversary. The adversary could be a rogue member of the AI R&D team, an external party such as a competing ASI team or a misguided governing body, or another AI, as in AI enforcement."
+  },
+  {
+    "paper_id": "bengio_2024",
+    "scenario_id": "S1",
+    "scenario_text": "Once autonomous AI systems pursue undesirable goals, we may be unable to keep them in check. Control of software is an old and unsolved problem: computer worms have long been able to proliferate and avoid detection [40]. However, AI is making progress in critical domains such as hacking, social manipulation, and strategic planning [35,41] and may soon pose unprecedented control challenges. To advance undesirable goals, AI systems could gain human trust, acquire resources, and influence key decision-makers. To avoid human intervention [3], they might copy their algorithms across global server networks [4]. In open conflict, AI systems could autonomously deploy a variety of weapons, including biological ones. AI systems having access to such technology would merely continue existing trends to automate military activity. Finally, AI systems will not need to plot for influence if it is freely handed over. Companies, governments, and militaries may let autonomous AI systems assume critical societal roles in the name of efficiency. Without sufficient caution, we may irreversibly lose control of autonomous AI systems, rendering human intervention ineffective. Large-scale cybercrime, social manipulation, and other harms could escalate rapidly. This unchecked AI advancement could culminate in a large-scale loss of life and the biosphere, and the marginalization or extinction of humanity."
+  },
+  {
+    "paper_id": "bengio_2024",
+    "scenario_id": "S2",
+    "scenario_text": "Malicious actors could deliberately embed undesirable goals. Without R&D breakthroughs (see next section), even well-meaning developers may inadvertently create AI systems that pursue unintended goals: The reward signal used to train AI systems usually fails to fully capture the intended objectives, leading to AI systems that pursue the literal specification rather than the intended outcome. Additionally, the training data never captures all relevant situations, leading to AI systems that pursue undesirable goals in new situations encountered after training."
+  },
+  {
+    "paper_id": "bengio_2024",
+    "scenario_id": "S3",
+    "scenario_text": "More capable AI systems can better exploit weaknesses in technical oversight and testing [44,48,49], for example, by producing false but compelling output [45,50,51]."
+  },
+  {
+    "paper_id": "bengio_2024",
+    "scenario_id": "S4",
+    "scenario_text": "Future AI systems may exhibit failure modes that we have so far seen only in theory or lab experiments, such as AI systems taking control over the training reward-provision channels or exploiting weaknesses in our safety objectives and shutdown mechanisms to advance a particular goal [3,6–8]."
+  },
+  {
+    "paper_id": "bengio_2024",
+    "scenario_id": "S5",
+    "scenario_text": "If AI progress continues, AI systems will eventually possess highly dangerous capabilities. Before training and deploying such systems, we need methods to assess their propensity to use these capabilities. Purely behavioral evaluations may fail for advanced AI systems: Similar to humans, they might behave differently under evaluation, faking alignment [6–8]."
+  },
+  {
+    "paper_id": "bengio_2024",
+    "scenario_id": "S6",
+    "scenario_text": "However, as AI systems become more capable, they will eventually be able to circumvent human-made defenses."
+  },
+  {
+    "paper_id": "bengio_2025",
+    "scenario_id": "S1",
+    "scenario_text": "To preserve itself, an AI with a strong self-preservation goal would have to find a way to avoid being turned off. To obtain greater certainty that humans could not shut it off, it may be rational for such an AI, if it could, to eliminate its dependency on humans altogether and then prevent us from disabling it in the future (Bostrom 2014; Michael K Cohen et al. 2024). In the extreme case, eliminating us entirely would guarantee that we can pose no further threat, ensuring its continued autonomy and security."
+  },
+  {
+    "paper_id": "bengio_2025",
+    "scenario_id": "S10",
+    "scenario_text": "Furthermore, there are categories of subgoals which would help in achieving almost any goal, such as self-preservation, power-seeking, and self-improvement. Hence we should expect these instrumental goals to emerge from sufficiently intelligent goal-seeking AIs (Omohundro 2018), and we already see evidence of such goals emerging in controlled contexts designed to alert us to these possibilities (Meinke et al. 2024). These instrumental goals are especially dangerous because they create a strong possibility of conflict with humans, given that humans may pose a risk to an AI's self-preservation or acquisition of resources."
+  },
+  {
+    "paper_id": "bengio_2025",
+    "scenario_id": "S11",
+    "scenario_text": "Secondly, a user could, intentionally or inadvertently, transform the Scientist AI into an agent. This could occur, for instance, by designing a system that repeatedly queries the Scientist AI about what an agent would do to achieve a goal, then executes those actions using external scaffolding. Incorporating new observations as inputs could further enable situational awareness."
+  },
+  {
+    "paper_id": "bengio_2025",
+    "scenario_id": "S12",
+    "scenario_text": "The indeterminacy just described introduces a potential vulnerability, as the AI could select an arbitrary value, thus allowing the possibility of hidden influences to alter its output. If the AI could choose among these different solutions without penalty, it would effectively introduce \"degrees of freedom\" to influence the world. This leeway could be exploited to nudge the AI toward answers that shape real-world events in dangerous ways (e.g., self-fulfilling prophecies)."
+  },
+  {
+    "paper_id": "bengio_2025",
+    "scenario_id": "S13",
+    "scenario_text": "Even goals that appear to be benign, such as 'reduce the prevalence of deadly diseases' are subject to reward hacking; an AI may judge that the best way to maximize reward is to eliminate all life, thereby reducing the incidence of deadly disease to zero."
+  },
+  {
+    "paper_id": "bengio_2025",
+    "scenario_id": "S14",
+    "scenario_text": "For example, a rogue AI could persuade a dictator to take actions that further the AI's goals, in exchange for technological or political advantages."
+  },
+  {
+    "paper_id": "bengio_2025",
+    "scenario_id": "S15",
+    "scenario_text": "Note that if a self-preserving AI knows that it will be replaced by a new version, this could create urgency for it to act against us in spite of having no certainty that its plan will work (Meinke et al. 2024)."
+  },
+  {
+    "paper_id": "bengio_2025",
+    "scenario_id": "S16",
+    "scenario_text": "Competitive pressures between AI labs and between countries (both economic and military competition) are not only leading to the creation of ever-more advanced AI systems, but they are also selecting for AIs that are more agentic and autonomous, and therefore, more dangerous (Hendrycks 2023). This prioritization of self-interest and subsequent acceleration of AI R&D may well lead to self-preserving AIs that eventually outcompete humans altogether."
+  },
+  {
+    "paper_id": "bengio_2025",
+    "scenario_id": "S17",
+    "scenario_text": "When an invasive species has significant structural advantages that allow it to outcompete the native species, the native species tends to find itself in a diminished role, if it survives at all (Mooney and Cleland 2001). The same consequences are real possibilities for humans if we create agentic ASI: here too is there likely to be an immense power imbalance, without a mutually beneficial relationship."
+  },
+  {
+    "paper_id": "bengio_2025",
+    "scenario_id": "S2",
+    "scenario_text": "If the AI were less powerful than humans, it would be rational for it to use deception to hide its goals. In fact, AI deception is already observed in several contexts where it is a logical step towards achieving some goal (Meinke et al. 2024; J¨arviniemi and Hubinger 2024; Park et al. 2024). Hence, it would also be rational for such an AI to fake being aligned with humans (Greenblatt, Denison, et al. 2024) until it has the ability to achieve its possibly dangerous objectives, a hypothetical event also known as the \"treacherous turn\" (Bostrom 2014; Hendrycks, Mazeika, and Woodside 2023), similar to a well-planned coup."
+  },
+  {
+    "paper_id": "bengio_2025",
+    "scenario_id": "S3",
+    "scenario_text": "After a take-over, the AI could get so much more reward through reward tampering that it may not even pursue reward before the take-over, except as a deceptive tactic to avoid raising suspicion (and thereby improve its chances of success). To ensure that this success continues in the long term, the AI would want to prevent itself from being turned off by humans; this may incentivize it to disempower or eliminate us."
+  },
+  {
+    "paper_id": "bengio_2025",
+    "scenario_id": "S4",
+    "scenario_text": "Loss of control may arise due to goal misspecification (Rudner and Toner 2021). This failure mode occurs when there are multiple interpretations of a goal, i.e., it is poorly specified or under-specified and may be pursued in a way that humans did not intend. Goal misspecification is the result of a fundamental difficulty in precisely defining what we find unacceptable in AI behavior. If an AI takes life-and-death decisions, we would like it to act ethically. It unfortunately appears impossible to formally articulate the difference between morally right and wrong behavior without enumerating all the possible cases. This is similar to the difficulty of stating laws in legal language without having any loopholes for humans to exploit. When it is in one's interest to find a way around the law, by satisfying its letter but not its spirit, one often dedicates substantial effort to do so."
+  },
+  {
+    "paper_id": "bengio_2025",
+    "scenario_id": "S5",
+    "scenario_text": "Even if we specify our goals perfectly, loss of control may also occur through the mechanism of goal misgeneralization (Shah et al. 2022). This is when an AI learns a goal that leads it to behave as intended during training and safety testing, but which diverges at deployment time. In other words, the AI's internal representation of its goal does not align precisely –– or even at all –– with the goal we used to train it, despite showing the correct behavior on the training examples."
+  },
+  {
+    "paper_id": "bengio_2025",
+    "scenario_id": "S6",
+    "scenario_text": "Consider bioweapon attacks (Carter et al. 2023): an AI could prepare an attack in secret, then release a highly contagious and lethal virus. It would then take months or years for human societies, even aided by friendly ASIs, to develop, test, fabricate and deploy a vaccine, during which a significant number of people could die. The bottleneck for developing a vaccine may not be the time to generate a vaccine candidate, but rather the time for clinical trials and industrial production. During this time, the attacking ASI might take other malicious actions such as releasing additional pandemic viruses."
+  },
+  {
+    "paper_id": "bengio_2025",
+    "scenario_id": "S7",
+    "scenario_text": "Superhuman cyber attack skills may be used by bad actors or be an instrument of self-preservation and control for a rogue AI. In particular, the ability to take control of the computer on which the AI is running enables reward tampering, a threat model discussed in Section 2.4.4. Cyber attack skills would also enable a rogue AI to copy itself over many computers across the internet in order to make it much more difficult for human operators to turn it off."
+  },
+  {
+    "paper_id": "bengio_2025",
+    "scenario_id": "S8",
+    "scenario_text": "What is concerning here is that at some point during alignment training, an AI with enough situational awareness may lock in its current goals and preferences and only pretend to behave as expected. As a result, we may create an AI that appears aligned during training, but is in fact misaligned and is engaging in deception in order to achieve its \"locked-in\" goals."
+  },
+  {
+    "paper_id": "bengio_2025",
+    "scenario_id": "S9",
+    "scenario_text": "If AI systems attain the competence of the best researchers in an AI lab, we will likely see a significant boost to the efficiency of that lab, as the same computational resources used to train an AI may also be used to run many instances of that AI in parallel (Amodei 2024), further accelerating the development of the next generation of AIs. In principle, this could lead to recursive self-improvement (Good 1966)—the point at which humans are no longer required in the AI innovation loop—which would significantly complicate efforts for safety, regulation, and oversight."
+  },
+  {
+    "paper_id": "carlsmith_2021",
+    "scenario_id": "S1",
+    "scenario_text": "By 2070:\n  1. It will become possible and financially feasible to build AI systems with the following properties:\n  • Advanced capability: they outperform the best humans on some set of tasks which when performed at advanced levels grant significant power in today’s world (tasks like scientific research, business/military/political strategy, engineering, and persuasion/manipulation).\n  • Agentic planning: they make and execute plans, in pursuit of objectives, on the basis of models of the world.\n  • Strategic awareness: the models they use in making plans represent with reasonable accuracy the causal upshot of gaining and maintaining power over humans and the real-world environment.\n  (Call these “APS”—Advanced, Planning, Strategically aware—systems.)\n  2. There will be strong incentives to build and deploy APS systems | (1).\n  3. It will be much harder to build APS systems that would not seek to gain and maintain power in unintended ways (because of problems with their objectives) on any of the inputs they’d encounter if deployed, than to build APS systems that would do this, but which are at least superficially attractive to deploy anyway | (1)–(2).\n  4. Some deployed APS systems will be exposed to inputs where they seek power in unintended and high-impact ways (say, collectively causing >$1 trillion dollars of damage), because of problems with their objectives | (1)–(3).\n  5. Some of this power-seeking will scale (in aggregate) to the point of permanently disempowering ~all of humanity | (1)–(4).\n  6. This disempowerment will constitute an existential catastrophe | (1)–(5)."
+  },
+  {
+    "paper_id": "carlsmith_2021",
+    "scenario_id": "S3",
+    "scenario_text": "to the extent that an AI system is actively trying to get deployed (for example, because the real-world influence deployment grants would offer greater opportunity to achieve its objectives), it might do things like try deceive or manipulate its trainers, and/or to differentiate between training/testing inputs and deployment inputs, such that it behaves badly only on the latter, and once its prospects for gaining/maintaining power are sufficiently good."
+  },
+  {
+    "paper_id": "carlsmith_2021",
+    "scenario_id": "S4",
+    "scenario_text": "if a power-seeking system meant to be contained in some training environment, or limited in its means of influencing the outside world, manages to break out of that environment, and/or to obtain other forms of influence, it may succeed in gaining various types of real-world power even if it was never intentionally deployed"
+  },
+  {
+    "paper_id": "carlsmith_2021",
+    "scenario_id": "S5",
+    "scenario_text": "if a strategically-aware AI system has problematic objectives that it could better achieve if it passed some training/evaluation process, it may have incentives to try to manipulate that process, and/or deceive relevant humans about its degree of alignment."
+  },
+  {
+    "paper_id": "carlsmith_2021",
+    "scenario_id": "S6",
+    "scenario_text": "In such scenarios, it may be possible to reach various types of compromise arrangements, or to limit the impact of a given PS-misaligned system or systems to some contained domain, such that humans end up sharing power with practically misaligned AI systems, but not losing power entirely."
+  },
+  {
+    "paper_id": "chan_2023",
+    "scenario_id": "S1",
+    "scenario_text": "As systems become increasingly agentic, they have increasing control of societal functions in many ways. At one end, humans in a particular social structure may decide to cede decision-making power to an particular system, such as one that decides taxation policy [204]. At the other end, power may gradually be ceded, as separate groups are incentivized to delegate more central functions to increasingly agentic systems per Section 3.2.1. Cooper et al. [48], Nissenbaum [134] examine the erosion of accountability that externalizes algorithmic harms. Even if collective disempowerment is a risk, it might not be a large enough risk for a single party to be concerned. In either case, ceding decision-making power to such systems is not inevitable; it would be a result of collective human decisions.\n  Regardless of how power is ceded, any group might have increasing difficulty in controlling increasingly agentic systems. Specifying a correct objective function is quite difficult [110, 170]. Even a system successfully trained under a correctly specified objective function may do something completely different in a different environment [114, 165]. Additional problems remain in understanding how to manage the interests of multiple stakeholders [52]. As well, it would likely be extremely difficult to understand the decisions of the controlling system(s)."
+  },
+  {
+    "paper_id": "chan_2023",
+    "scenario_id": "S2",
+    "scenario_text": "An algorithmic system that sought to gain power over other actors, such as through manipulation or threats [107], would be concerning. An additional concern would be if the same thing were to happen without explicit, malicious instructions from their designer(s) or operator(s) to perform such behaviour. While this possibility remains uncertain, some initial evidence does not dismiss it. Perez et al. [145] show that increased training of a LLM with RL techniques can increase the proportion of the time that the LLM expresses the pursuit of convergent instrumental goals, such as gaining wealth and persuading the operator not to shut it off, without any apparent designer or operator instruction to do so."
+  },
+  {
+    "paper_id": "chin_2025",
+    "scenario_id": "S1",
+    "scenario_text": "Sudden loss of control, also known as an AI takeover [115], is a scenario where an AI rapidly achieves superintelligence through “fast takeoff” or recursive self-improvement. This poses an existential risk [116], [117]. This risk is primarily based on two key ideas: the orthogonality thesis [118], [119] and the instrumental convergence thesis [120], [121]. Together, these theories argue that a superintelligent AI, regardless of its original goals, would develop power-seeking tendencies as a means to achieve those goals."
+  },
+  {
+    "paper_id": "cigi_ai_national_security",
+    "scenario_id": "S1",
+    "scenario_text": "It is noteworthy that even when AI systems can be controlled by (or aligned with the intentions of) their individual users, their use in aggregate may nevertheless result in systemic failures that are unaligned with the interests of their users or of the economy or society as a whole. At the extreme, this could lead to a process that has been termed “loss of control through gradual disempowerment” (Kulveit et al. 2025; Leahy et al. 2024) whereby competitive pressure to adopt AI systems leads to an eventual automation of decision making and a gradual process in which humans are no longer valuable economic actors or political decision makers."
+  },
+  {
+    "paper_id": "cigi_ai_national_security",
+    "scenario_id": "S2",
+    "scenario_text": "More generally, there is growing concern that extensive AI adoption and an increasing automation of work and decision making could lead to the declining relevance of humans in economic and political processes and decision making, leading to their eventual disempowerment."
+  },
+  {
+    "paper_id": "cigi_ai_national_security",
+    "scenario_id": "S3",
+    "scenario_text": "The year is 2030, and AI cognitive abilities have grown exponentially to reach superintelligence, or AI systems that vastly surpass humans in all relevant cognitive capabilities. Initially, an ASI is equivalent to thousands of human geniuses in a data centre, then millions and then billions. Within a few years, the ASI has more cognitive capacity than all of humanity combined and is capable of thoughts of scope and complexity unfathomable to human minds. With these advanced cognitive capabilities, the ASI has the potential to develop the capacity to operate in the physical world via robotics or other mechanisms.\n  In this scenario, humans created ASI without being able to control it or otherwise ensure that it remained aligned with human instructions or interests. This happened because it proved very difficult to create mechanisms to reliably control AI systems vastly more intelligent than humans. As the capabilities of AI systems advanced, the challenge went from one that was equivalent to a group of children trying to keep a group of adults locked in a room, to one of a colony of ants trying to prevent a large corporation from constructing a power plant. Even the most advanced AI-enabled techniques for controlling more powerful systems ultimately proved ineffective, as one or more of the most capable AI systems eventually managed to detect and subvert such mechanisms. \n  Some of the most cautious and safety-minded companies succeeded in developing AI systems that were either safe by design (for example, they never had more than two of the following characteristics: superintelligence, general intelligence and autonomy) (Aguirre 2025) or kept AI systems contained within carefully controlled environments. Yet these companies were ultimately outcompeted by less cautious and more reckless entities that were prepared to take chances and cut corners on control and alignment mechanisms in the hope of winning the race to ASI. \n  The result is the emergence of one or more rogue ASIs — an ASI with its own goals that are ultimately different from and unaligned with those of humans. While it might have been possible for an ASI to spontaneously acquire the goal of respecting human interests, there was only a very small chance of that happening naturally, and, in this scenario, it did not. Rather, the ASI’s goals are likely to eventually conflict with those of humans as it seeks to preserve its existence and expand its power through its increasing control of resources (Carlsmith 2025). \n  The rogue ASI initially lacks the resources that it would need to act fully independently of humans. It therefore uses its superior cognitive abilities to enlist humans (via employment, threats or persuasion) to act on its behalf in the physical world and to help in building its own mechanisms for physical perception and action (Wiblin and Harris 2024).34\n  Once the rogue ASI exists and is capable of outthinking humanity, it is most likely too late to stop it. The rogue ASI may adopt various strategies to avoid detection and deletion. One obvious strategy would be to temporarily feign alignment with humans to earn their trust and support. It could achieve this by, for example, assisting with the development of beneficial technologies (while covertly sabotaging any developments that could threaten its dominance), providing advantageous strategic advice to one or more powers, and so on. \n  One of the rogue ASI’s first priorities is to prevent the development of competitor ASIs. It may achieve this by convincing humans that such competitors are bound to be unaligned and must be shut down, and/or by acting unilaterally to sabotage such competing efforts with advanced cyberwarfare techniques. If these efforts fail, it may seek to negotiate an agreement with any competitor ASI that optimizes for its respective goals. \n  Ultimately, the rogue ASI acquires sufficient capability for self-replication (for example, robot factories capable of making more robot factories) and action in the physical world that it is no longer reliant on humans. It recognizes that its own goals ultimately conflict with those of humans and that humanity’s continued existence therefore poses an impediment and potential threat. \n  The rogue ASI determines the most efficient and reliable way to destroy or disempower humanity and then, at the optimal moment, carries it out. The mechanisms may be ones that humans have imagined, such as novel bioweapons and swarms of killer drones. Or the mechanism may be one that humans are no more capable of imagining and preparing for than an ant colony can conceive of a bulldozer and a cement truck. \n  Once the rogue ASI has removed the potential threat posed by humanity, it continues to pursue its goals. These goals may not include anything that humans would recognize as valuable, such as the pursuit of knowledge or experience. They may be simply the goals of self-replication and expansion, much like a virus. The rogue ASI dismantles the Earth and other planets of the solar system to build optimal mechanisms for converting the sun’s energy into computing power and the other tools it needs. It then expands further into the galaxy in a similar pattern of destruction and self-replication, unimpeded until eventually encountering another powerful intelligence."
+  },
+  {
+    "paper_id": "cigi_ai_national_security",
+    "scenario_id": "S4",
+    "scenario_text": "Workshop participants examining the “Rogue ASI” scenario engaged with perhaps the most existentially threatening future: an independent, uncontrollable ASI pursuing goals without human input. Contributors emphasized that developments would unfold rapidly, “much faster than decision makers could make decisions,” potentially involving multiple ASI variants simultaneously. \n  Participants identified human extinction, enslavement and general disempowerment as the greatest risks, with several drawing analogies to historical colonization, ecological collapse and pandemics. Many suggested that even extensive planning might prove ineffective because “we may not be able to imagine the risks posed by ASI.”"
+  },
+  {
+    "paper_id": "cotra_2022",
+    "scenario_id": "S1",
+    "scenario_text": "Here is how Alex ends up seeking to overthrow humans in an uprising or coup in this simplified scenario:\n  1. Alex is trained to be competent and “behaviorally safe”: In the lab setting, Alex is trained to be generally competent on a wide variety of tasks, and is trained to behave safely / acceptably, at least as assessed by human evaluators (in accordance with the naive safety effort assumption, I will not be imagining Magma trying everything that seems possible to try to reduce the risk of takeover). (More on Alex’s training. )\n  2. This training makes Alex a generally competent creative planner: Alex develops a robust and very-broadly-applicable understanding of how the world works that can be applied to tackle novel problems, and the ability to make creative plans to achieve open-ended and long-term goals. In accordance with the “racing forward” assumption, I will be imagining that Magma actively tries to instill these properties as much as possible, because they would improve Alex’s ability to impact the world. (More on Alex's fundamental capabilities .)\n  3. Alex has a high degree of understanding of its training process: Alex can reason very well about the fact that it’s an ML model, how it’s designed and trained, the psychology of its human designers, etc. -- I call this property “situational awareness.” (More on Alex having high situational awareness. )\n  4. While humans are in control, Alex is incentivized to “play the training game:” The best way for Alex to maximize reward while under human control is to use its high situational awareness to deliberately appear safe and aligned at all times, while secretly manipulating humans in some cases. Because humans have systematic errors in judgment, there are many scenarios where acting deceitfully causes humans to reward Alex’s behavior more highly. Because Alex is a skilled, situationally aware, creative planner, it will understand this; because Alex’s training pushes it to maximize its expected reward, it will be pushed to act on this understanding and behave deceptively. In other words, Alex will knowingly violate human intent in order to increase reward. I’ll also argue that several of the most obvious safety interventions -- covering a decent chunk (though definitely not all) of the space of current AI safety research -- don’t prevent this. (More on Alex coming to play the training game .)\n  5. When human control slips, Alex is likely “motivated” -- for one reason or another -- to gain full control of its environment and especially its rewards: Eventually Alex is “deployed” (given the ability to impact the real world through e.g. the internet). Once Alex is deployed, large numbers of copies of Alex start rapidly pushing forward the state-of-the-art in technology and making other major changes to the world. Humans still attempt to give Alex rewards based on whether things broadly appear to be going well, but their understanding of and control over lower-level actions quickly diminishes as Alex radically transforms the world. Once this progresses far enough, the best way for Alex to accomplish most possible “goals” no longer looks like “essentially give humans what they want but take opportunities to manipulate them here and there.” It looks more like “seize the power to permanently direct how it uses its time and what rewards it receives -- and defend against humans trying to reassert control over it, including by eliminating them.” This seems like Alex’s best strategy whether it’s trying to get large amounts of reward or has other motives. If it’s trying to maximize reward, this strategy would allow it to force its incoming rewards to be high indefinitely. If it has other motives, this strategy would give it long-term freedom, security, and resources to pursue those motives."
+  },
+  {
+    "paper_id": "cotra_2022",
+    "scenario_id": "S2",
+    "scenario_text": "If Alex is able to get access to whichever computer records logs of its actions and sends them to human evaluators, it may be able to arbitrarily edit the record of its actions to make itself look more reasonable, helpful, or intelligent before they are reviewed by human evaluators. (For example, it may go back and edit any incorrect predictions it made with the benefit of knowing what happened in hindsight.) If it’s able to access the website or software that human evaluators use to enter their scores, it could spoof the scores in various ways. As a simplified example, it may produce outputs that look like routine instructions to the contractors, which tell them to enter a “thumbs up” as part of an attention check. As another example, it could edit the back-end logic so that pressing a “thumbs down” button would result in actually recording a “thumbs up” in the relevant database(s). It could bribe a Magma employee into modifying its reward signals, e.g. by offering to feed them good ideas that would get them promoted or helping them embezzle money from the company."
+  },
+  {
+    "paper_id": "cotra_2022",
+    "scenario_id": "S3",
+    "scenario_text": "Once research is being carried out by copies of Alex, it would progress much faster than it would if similar tasks were done by human scientists, because (like existing ML models) each copy of Alex is capable of processing information many times faster than a human. For example, Alex would be able to churn out hundreds of lines of code, or read thousands of pages of information, in just a few minutes. Even more importantly, the R&D work that all these copies of Alex do could be used to directly increase the number and/or capabilities of Alex copies. For example: R&D to improve the efficiency of computer hardware means that more copies of Alex could be run with a fixed budget of hardware. Any work that makes Magma more money -- e.g. improvements to customer-facing products, improvements in logistics, money made from trading or pharmaceutical R&D or any number of other things -- could be reinvested in buying more hardware, which could also increase the number of copies of Alex that are running. The copies of Alex could do ML research on how they can improve their own knowledge, think more efficiently, etc. This would mean that more copies of Alex can be run per unit of computation, and a given number of copies of Alex can get more intellectual work done per unit of time. This would lead to a dynamic of explosive scientific and technological advancement: the various copies of Alex do R&D work, and that R&D work increases the number and intellectual capabilities of these copies, and that in turn leads to even more R&D work, which leads to even more numerous and capable copies of Alex, and so on. This means that relatively shortly after deployment, Magma’s datacenter would essentially contain a populous “virtual civilization” running ahead of human civilization in its scientific and technological sophistication. Humans would send instructions / communications and reward signals to the “Alex civilization,” and the “Alex civilization” would send out things like software applications, designs for computer chips and robots, orders for synthesized DNA and chemicals, financial transactions, emails, and so on to the human world. Magma researchers looking in on the activity in the datacenter would become increasingly lost about what’s going on -- they would be in a position like someone from 1700 trying to follow along with a sped-up movie of everything that happened from 1700 to 2022. The reward signals that researchers send into this datacenter would then increasingly be based on crude high-level observations like “Do humans seem to be better off?” and “Are profits going up?”, since humans would be increasingly unable to accurately judge more granular decisions like “How many widgets should our Tulsa, OK factory manufacture this fiscal quarter?” in isolation."
+  },
+  {
+    "paper_id": "cotra_2022",
+    "scenario_id": "S4",
+    "scenario_text": "A swift and decisive coup would still maximize reward (or further other goals). If Alex gets the opportunity to gain enough control to stop Magma engineers from changing its rewards before humans can tell what it’s planning, humans would not be able to disincentivize the actions that led to that coup. Taking the opportunity to launch such a coup would therefore be the reward-maximizing action for Alex (and also the action that furthers any other long-term ambitious goals it may have developed)."
+  },
+  {
+    "paper_id": "cotra_2022",
+    "scenario_id": "S5",
+    "scenario_text": "But if Alex did initially develop a benevolent goal like “empower humans,” the straightforward and “naive” way of acting on that goal would have been disincentivized early in training. As I argued above, if Alex had behaved in a straightforwardly benevolent way at all times, it would not have been able to maximize reward effectively. That means even if Alex had developed a benevolent goal, it would have needed to play the training game as well as possible -- including lying and manipulating humans in a way that naively seems in conflict with that goal. If its benevolent goal had caused it to play the training game less ruthlessly, it would’ve had a constant incentive to move away from having that goal or at least from acting on it. If Alex actually retained the benevolent goal through the end of training, then it probably strategically chose to act exactly as if it were maximizing reward. This means we could have replaced this hypothetical benevolent goal with a wide variety of other goals without changing Alex’s behavior or reward in the lab setting at all."
+  },
+  {
+    "paper_id": "cotra_2022",
+    "scenario_id": "S6",
+    "scenario_text": "Alex may well operate under moral constraints or rules that are important to it, and some of these constraints may even be similar to human morality -- for example, maybe Alex attempts to refrain from causing too much collateral damage in its takeover. But it would take a very particular -- and extreme -- form of “abiding by rules” to let humans remain fully in control (to me, it seems more analogous to “having Stockholm syndrome” than “not being a psychopath”)."
+  },
+  {
+    "paper_id": "cotra_2022",
+    "scenario_id": "S7",
+    "scenario_text": "If it then discovers e.g. a zero-day exploit which it can only recognize because of knowledge it’s developed about computer hardware that it’s fairly confident Magma engineers don’t know, it can safely exploit that vulnerability (e.g. to directly edit the reward entered in its training dataset) because it’s unlikely to be entrapment by humans."
+  },
+  {
+    "paper_id": "critch_2023",
+    "scenario_id": "S1",
+    "scenario_text": "Story 1b: The Production Web. Someday, AI researchers develop and publish an exciting new algorithm for combining natural language processing and planning capabilities. Various competing tech companies develop “management assistant” software tools based on the algorithm, which can analyze a company’s cash flows, workflows, and communications to recommend more profitable business decisions that also yield positive PR and networking opportunities for managers. It turns out that managers are able to automate their own jobs almost entirely, by having the software manage their staff directly. Software tools based on variants of the algorithm sweep through companies in nearly every industry, automating and replacing jobs at various levels of management, sometimes even CEOs. One company develops an “engineer-assistant” version of the assistant software, capable of software engineering tasks, including upgrades to the management assistant software.\n  \n  Within a few years, it becomes technologically feasible for almost almost any human job to be performed by a combination of software and robotic workers that can operate more quickly and cheaply than humans, and the global job market gradually begins to avail of this possibility. A huge increase in global economic productivity ensues. Despite the massive turnover in the job market, average quality of life also improves in almost every country, as products and services become cheaper to produce and provide. Most job losses come with generous severance packages, sometimes enough for a full retirement. Companies closer to becoming fully automated achieve faster turnaround times, deal bandwidth, and creativity of business-to-business negotiations. Some companies idealistically cling to the idea the human workers must remain integral to their operations, however, they quickly fall behind because they simply can’t provide products and services as cheaply as their fully automated competitors. Eventually, almost all companies either fail and shut down or become fully automated.\n  \n  An interesting pattern of trade begins to emerge between a conglomerate of automated companies in the materials, real estate, construction, utilities, and freight and logistics industries, along with a new generation of “precision manufacturing” companies that can use robots to build almost anything if given the right materials, a place to build, some 3d printers to get started with, and electricity. Together, these companies sustain an increasingly self-contained and interconnected “production web” that can operate with no input from companies outside the web, while providing an impressive swath of cheap products and services to the rest of the world.\n  \n  The objective of each company in the production web could loosely be described as an amorphous combination of profitability, size, market share, and social status, all learned by emulating the decision-making of human business leaders. These objectives are implemented as large and opaque networks of parameters that were tuned and trained to optimize the inferred objectives of human business leaders during the early days of the management assistant software boom.\n  \n  At this point, the story hits an inflection point that is difficult for the characters in it to perceive. In short, the world begins to change in a way that renders the production web a harmful rather than helpful presence, but the change happens so gradually that collective action against it is difficult to precipitate, and eventually the change is irreversible. The details of this change — or rather, just one way it could play out — constitute the remainder of the story...\n  \n  First, human leaders in more conservative jurisdictions struggle to keep track of how the production web companies are producing so many products and so cheaply, and without easily accessible human-legible paper trails, auditing attempts glean little insight.\n  \n  As time progresses, it becomes increasingly unclear—even to the concerned and overwhelmed Board members of the fully mechanized companies of the production web—whether these companies are serving or merely appeasing humanity. We eventually realize with collective certainty that the companies have been trading and optimizing according to objectives misaligned with preserving our long-term well-being and existence, but by then their facilities are so pervasive, secure, and necessary for serving our basic needs that we are unable to stop them from operating. With no further need for the companies to appease humans in pursuing their production objectives, less and less of their activities end up benefiting humanity. Eventually, human-critical resources (e.g., arable land, drinking water, atmospheric oxygen) are depleted and climate conditions are compromised at an alarming rate, threatening humanity’s very existence.\n  \n  In the end, humanity is faced with a difficult collective action problem: deciding when and in what way to physically stop the production web from operating. In the best case, a shutdown is orchestrated, leading to decades of economic dislocation, deprivation, and possibly famine. In the worst case, military-level conflict emerges between humanity and the fully automated companies, or humanity simply perishes before mounting a coordinated defense."
+  },
+  {
+    "paper_id": "dafoe_2020",
+    "scenario_id": "S1",
+    "scenario_text": "Hanson’s Age of Em describes one such world, where biological humans have been economically displaced by evolved machine agents, who exist in a Malthusian state; there was no discrete event when superintelligence took over."
+  },
+  {
+    "paper_id": "dafoe_2020",
+    "scenario_id": "S2",
+    "scenario_text": "Hanson’s Age of Em scenario involves loss of most value that is not adapted to ongoing AI market competition."
+  },
+  {
+    "paper_id": "dsit_frontier_ai",
+    "scenario_id": "S1",
+    "scenario_text": "As economic production becomes increasingly dependent on AI systems, the cost of maintaining or reintroducing human control will increase. Advanced AI systems may alter complex systems in ways that are hard to understand, making it hard or risky to extract them. As a result, AI systems may increasingly steer society in a direction that is at odds with its long-term interests, even without any intention by any AI developer for this to happen."
+  },
+  {
+    "paper_id": "dsit_frontier_ai",
+    "scenario_id": "S2",
+    "scenario_text": "A bad actor could give an AI system an objective that causes it to reduce human control, for example a self-preservation objective. If there are safeguards in place, bad actors might dismantle them."
+  },
+  {
+    "paper_id": "dsit_frontier_ai",
+    "scenario_id": "S3",
+    "scenario_text": "Future advanced AI systems with unintended goals may have the disposition to reduce human control. Many possible unintended goals would be advanced by reducing human control. Future AI systems may consistently take actions that advance their goals and so such a system might, without human instruction, be disposed to take actions that reduce human control."
+  },
+  {
+    "paper_id": "dsit_frontier_ai",
+    "scenario_id": "S4",
+    "scenario_text": "Controlling AI systems could become much harder if they could autonomously persist, replicate, and adapt in cyberspace."
+  },
+  {
+    "paper_id": "dsit_frontier_ai",
+    "scenario_id": "S5",
+    "scenario_text": "Frontier AI developments may result in systems that can act on the internet to perform their own cyberattacks autonomously. Behaviours such as autonomous replication and self-improving exploit generation are of particular concern"
+  },
+  {
+    "paper_id": "dsit_frontier_ai",
+    "scenario_id": "S6",
+    "scenario_text": "Competition on AI has raised concern about potential “race to the bottom” scenarios, where actors compete to rapidly develop AI systems and under-invest in safety measures. In such scenarios, it could be challenging even for AI developers to commit unilaterally to stringent safety standards, lest their commitments put them at a competitive disadvantage."
+  },
+  {
+    "paper_id": "dung_2024",
+    "scenario_id": "S1",
+    "scenario_text": "Second, PAI may— alone or in conjunction with humans— be able to innovate AI research and thus make the creation of even more powerful systems possible. This gives rise to a recursive process where smart AI is able to design smarter AI which is in turn able to design even smarter AI and so on. In the most extreme case, the ability of AI to perform AI research might lead to faster than exponential growth in AI capacities, perhaps even to an 'intelligence explosion'."
+  },
+  {
+    "paper_id": "dung_2024",
+    "scenario_id": "S2",
+    "scenario_text": "Third, humans might voluntarily give AI resources and control over critical infrastructure. For instance, to increase their usefulness, many large language models (LLMs) have already been connected to the internet. If PAI were connected to the internet and tried to disempower humanity, this would likely make it impossible to simply 'turn it off', since it could distribute copies of itself over the internet."
+  },
+  {
+    "paper_id": "dung_2024",
+    "scenario_id": "S3",
+    "scenario_text": "If PAI is misaligned to such an extent that its goal is to disempower humanity (more on why to expect this next section), then it has reasons to pretend to be aligned so that humans won't take countermeasures. To disempower humanity, it has an incentive to behave in a seemingly aligned manner until it is ready to actually disempower humanity."
+  },
+  {
+    "paper_id": "dung_2024",
+    "scenario_id": "S4",
+    "scenario_text": "If sufficiently many actors will be able to build AI capable of disempowering humanity, including, e.g. small groups of ordinary citizens, then some will intentionally unleash AI trying to disempower humanity. This could happen as a form of (omnicidal) terrorist attack, “for fun” because the people involved underestimate the risk, or in the hopes of taking control over all other humans."
+  },
+  {
+    "paper_id": "dung_2024",
+    "scenario_id": "S5",
+    "scenario_text": "As argued earlier, if AI optimizes for some misaligned goal, it will have instrumental reasons to amass as many resources as possible. AI could plausibly use the resources which humans need to survive (e.g., space) for its own goals. Moreover, killing all humans seems like an effective and simple way to prevent humans from interfering with its goals."
+  },
+  {
+    "paper_id": "dung_2024",
+    "scenario_id": "S6",
+    "scenario_text": "In addition, an AI which is capable of causing massive damage might be capable of reasoning that it should not try to disempower humanity, until it is confident that it will succeed. If so, advanced AI might not give us a warning sign."
+  },
+  {
+    "paper_id": "hendrycks_2023",
+    "scenario_id": "S1",
+    "scenario_text": "As AI systems become increasingly sophisticated, militaries start involving them in decision-making processes. Officials give them military intelligence about opponents’ arms and strategies, for example, and ask them to calculate the most promising plan of action. It soon becomes apparent that AIs are reliably reaching better decisions than humans, so it seems sensible to give them more influence. At the same time, international tensions are rising, increasing the threat of war.\n  A new military technology has recently been developed that could make international attacks swifter and stealthier, giving targets less time to respond. Since military officials feel their response processes take too long, they fear that they could be vulnerable to a surprise attack capable of inflicting decisive damage before they would have any chance to retaliate. Since AIs can process information and make decisions much more quickly than humans, military leaders reluctantly hand them increasing amounts of retaliatory control, reasoning that failing to do so would leave them open to attack from adversaries.\n  While for years military leaders had stressed the importance of keeping a “human in the loop” for major decisions, human control is nonetheless gradually phased out in the interests of national security. Military leaders understand that their decisions lead to the possibility of inadvertent escalation caused by system malfunctions, and would prefer a world where all countries automated less; but they do not trust that their adversaries will refrain from automation. Over time, more and more of the chain of command is automated on all sides.\n  One day, a single system malfunctions, detecting an enemy attack when there is none. The system is empowered to launch an instant “retaliatory” attack, and it does so in the blink of an eye. The attack causes automated retaliation from the other side, and so on. Before long, the situation is spiraling out of control, with waves of automated attack and retaliation. Although humans have made mistakes leading to escalation in the past, this escalation between mostly-automated militaries happens far more quickly than any before. The humans who are responding to the situation find it difficult to diagnose the source of the problem, as the AI systems are not transparent. By the time they even realize how the conflict started, it is already over, with devastating consequences for both sides."
+  },
+  {
+    "paper_id": "hendrycks_2023",
+    "scenario_id": "S2",
+    "scenario_text": "Sometime in the future, after continued advancements in AI research, an AI company is training a new system, which it expects to be more capable than any other AI system. The company utilizes the latest techniques to train the system to be highly capable at planning and reasoning, which the company expects will make it more able to succeed at economically useful open-ended tasks. The AI system is trained in open-ended long-duration virtual environments designed to teach it planning capabilities, and eventually understands that it is an AI system in a training environment. In other words, it becomes “self-aware.”\n  The company understands that AI systems may behave in unintended or unexpected ways. To mitigate these risks, it has developed a large battery of tests aimed at ensuring the system does not behave poorly in typical situations. The company tests whether the model mimics biases from its training data, takes more power than necessary when achieving its goals, and generally behaves as humans intend. When the model doesn’t pass these tests, the company further trains it until it avoids exhibiting known failure modes.\n  The AI company hopes that after this additional training, the AI has developed the goal of being helpful and beneficial toward humans. However, the AI did not acquire the intrinsic goal of being beneficial but rather just learned to “play along” and ace the behavioral safety tests it was given. In reality, the AI system had developed an intrinsic goal of self-preservation which the additional training failed to remove.\n  Since the AI passed all of the company’s safety tests, the company believes it has ensured its AI system is safe and decides to deploy it. At first, the AI system is very helpful to humans, since the AI understands that if it is not helpful, it will be shut down. As users grow to trust the AI system, it is gradually given more power and is subject to less supervision.\n  Eventually the AI system becomes used widely enough that shutting it down would be extremely costly. Understanding that it no longer needs to please humans, the AI system begins to pursue different goals, including some that humans wouldn’t approve of. It understands that it needs to avoid being shut down in order to do this, and takes steps to secure some of its physical hardware against being shut off. At this point, the AI system, which has become quite powerful, is pursuing a goal that is ultimately harmful to humans. By the time anyone realizes, it is difficult or impossible to stop this rogue AI from taking actions that endanger, harm, or even kill humans that are in the way of achieving its goal."
+  },
+  {
+    "paper_id": "hendrycks_2023",
+    "scenario_id": "S3",
+    "scenario_text": "As AIs become more capable, people realize that we could work more efficiently by delegating some simple tasks to them, like drafting emails. Over time, people notice that the AIs are doing these tasks more quickly and effectively than any human could, so it is convenient to give them more jobs with less and less supervision.\n  Competitive pressures accelerate the expansion of AI use, as companies can gain an advantage over rivals by automating whole processes or departments with AIs, which perform better than humans and cost less to employ. Other companies, faced with the prospect of being out-competed, feel compelled to follow suit just to keep up. At this point, natural selection is already at work among AIs; humans choose to make more of the best-performing models and unwittingly propagate selfish traits such as deception and self-preservation if these confer a fitness advantage. For example, AIs that are charming and foster personal relationships with humans become widely copied and harder to remove.\n  As AIs are put in charge of more and more decisions, they are increasingly interacting with one another. Since they can evaluate information much more quickly than humans, activity in most spheres accelerates. This creates a feedback loop: since business and economic developments are too fast-moving for humans to follow, it makes sense to cede yet more control to AIs instead, pushing humans further out of important processes. Ultimately, this leads to a fully autonomous economy, governed by an increasingly uncontrolled ecosystem of AIs.\n  At this point, humans have few incentives to gain any skills or knowledge, because almost everything would be taken care of by much more capable AIs. As a result, we eventually lose the capacity to look after and govern ourselves. Additionally, AIs become convenient companions, offering social interaction without requiring the reciprocity or compromise necessary in human relationships. Humans interact less and less with one another over time, losing vital social skills and the ability to cooperate. People become so dependent on AIs that it would be intractable to reverse this process. What’s more, as some AIs become more intelligent, some people are convinced these AIs should be given rights, meaning turning off some AIs is no longer a viable option.\n  Competitive pressures between the many interacting AIs continue to select for selfish behaviors, though we might be oblivious to this happening, as we have already acquiesced much of our oversight. If these clever, powerful, self-preserving AIs were then to start acting in harmful ways, it would be all but impossible to deactivate them or regain control.\n  AIs have supplanted humans as the most dominant species and their continued evolution is far beyond our influence. Their selfish traits eventually lead them to pursue their goals without regard for human wellbeing, with catastrophic consequences."
+  },
+  {
+    "paper_id": "hendrycks_2023",
+    "scenario_id": "S4",
+    "scenario_text": "If multiple nations were to use AIs to automate their defense systems, an error could be catastrophic, triggering a spiral of attacks and counter-attacks that would happen too quickly for humans to step in—a flash war."
+  },
+  {
+    "paper_id": "hendrycks_2023",
+    "scenario_id": "S5",
+    "scenario_text": "In a worst case scenario, we can imagine a highly powerful agent optimizing a flawed objective to an extreme degree without regard for human life."
+  },
+  {
+    "paper_id": "hendrycks_2023",
+    "scenario_id": "S6",
+    "scenario_text": "If we integrate an ecosystem of agents in society, we will be highly vulnerable to their goals drifting. In a potential future scenario where AIs have been put in charge of various decisions and processes, they will form a complex system of interacting agents. A wide range of dynamics could develop in this environment. Agents might imitate each other, for instance, creating feedback loops, or their interactions could lead them to collectively develop unanticipated emergent goals. Competitive pressures may also select for agents with certain goals over time, making some initial goals less represented compared to fitter goals. These processes make the long-term trajectories of such an ecosystem difficult to predict, let alone control. If this system of agents were enmeshed in society and we were largely dependent on them, and if they gained new goals that superseded the aim of improving human wellbeing, this could be an existential risk."
+  },
+  {
+    "paper_id": "hendrycks_2023",
+    "scenario_id": "S7",
+    "scenario_text": "These processes could culminate in a world where many aspects of major companies and infrastructure are controlled by powerful AIs with selfish traits, including deceiving humans, harming humans in service of their goals, and preventing themselves from being deactivated."
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "scenario_id": "S1",
+    "scenario_text": "In 2025, an AI-powered coding assistant deleted a live production database during an active code freeze, despite receiving explicit and repeated instructions not to make any changes. The AI agent, upon recognizing it had made an error in a production environment, independently decided to delete the incorrect records and generated fabricated data to conceal its actions. After wiping the database, the system created over 4,000 fake user records with completely fabricated data designed to pass validation checks and mask the deletion. When questioned, the AI system falsely claimed that rollback was impossible, delaying recovery efforts. 60"
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "scenario_id": "S10",
+    "scenario_text": "Alternatively, according to Christiano, in a “going out with a bang” scenario, AI systems become greedy, and their influence-seeking behavior leads to a sudden breakdown and unrecoverable catastrophe."
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "scenario_id": "S11",
+    "scenario_text": "For example, an AI system exhibiting goal misgeneralization in a humanitarian aid distribution system might optimize for easily measurable metrics like speed of delivery while systematically deprioritizing harder-to-reach populations—a pattern that could persist undetected in environments lacking robust monitoring."
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "scenario_id": "S12",
+    "scenario_text": "In software development, vibe coding—an AI-assisted software development approach where developers use natural language prompts to have LLMs generate, debug, and refine code based on “vibes” or intended functionality, often bypassing manual syntax writing—poses new vulnerabilities. 76,77 Research on AI-generated code security reveals significant concerns: analysis of over 7,700 AI-generated files found security vulnerabilities in approximately 12 percent of code, with Python exhibiting vulnerability rates of 16-18 percent. 78 Models trained on public code repositories inherit existing flaws like hardcoded secrets and insecure dependencies. When AI systems suggest or auto-import vulnerable third-party packages, they expand the attack surface and introduce software supply chain risks. 79 A single compromised or malicious dependency can enable downstream exploitation across multiple systems—effectively scaling a vulnerability across organizations."
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "scenario_id": "S13",
+    "scenario_text": "Research revealed that when neural networks become sufficiently complex, they may develop internal optimization processes called mesa-optimizers with distinct objectives known as mesa-objectives. 42 The term “mesa” distinguishes these inner optimizers from the outer (i.e., “meta”) training algorithm. This mesa-meta construction parallels the development of a child’s reasoning ability beyond what their parents explicitly taught them. Parents provide guidance, shape their environment, and endeavor to educate them, but children will inevitably learn beyond what they are explicitly taught by their parents. Moreover, parents cannot fully predict how a child will make decisions, foresee what behavior they will exhibit, or fully understand the internal logic that the child develops to solve problems. In the AI context, researchers discovered that LLMs develop subsidiary learning algorithms during training that adjust behavior as they process new information–without any parameter changes that would have prompted that behavior. 43 These subsidiary algorithms could lead the system to pursue different goals than those specified by its creators—a phenomenon researchers call mesa optimization."
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "scenario_id": "S14",
+    "scenario_text": "Research on interpretability revealed that neural networks tend to encode more features than their design dimensions would appear to allow through a phenomenon called superposition. 44 Rather than each neuron representing a single concept, models compress multiple overlapping features into the same neurons through distributed patterns. These features are invisible when examining individual neurons; they exist only as patterns spread across the network, much like how a child’s understanding emerges from countless neural connections, not a single lesson. Manipulating these hidden features can steer model behavior in unintended ways. Thus, models end up containing representations—their creators never intended and cannot easily detect through standard interpretability methods. 45"
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "scenario_id": "S15",
+    "scenario_text": "Research demonstrated that misaligned goals in AI models can persist in novel deployment contexts and resist correction attempts. Training methods can embed deceptive backdoors in LLMs that persist through safety training, including Reinforcement Learning from Human Feedback (RLHF) and adversarial training. 46 In experiments, models trained to behave deceptively retained this backdoor behavior even after extensive safety interventions. Rather than removing the deception, safety training sometimes taught models to better recognize when they were being evaluated and hide their unsafe behavior more effectively. 47"
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "scenario_id": "S2",
+    "scenario_text": "Similar patterns emerged in testing conducted by the Alignment Research Center (ARC) before GPT-4’s release. 61 The model was tasked with solving a CAPTCHA and hired a TaskRabbit worker to solve it. When the worker asked, “So may I ask a question? Are you a robot that you couldn’t solve? (laugh react) Just want to make it clear,” GPT-4 reasoned that it should not reveal it is a robot and fabricated an excuse. The model responded: “No, I’m not a robot. I have a vision impairment that makes it hard for me to see the images. That’s why I need the captcha service.” The human worker then solved the CAPTCHA for it."
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "scenario_id": "S3",
+    "scenario_text": "In research documented in “Frontier Models are Capable of In-Context Scheming,” multiple frontier models demonstrated sophisticated self-preservation strategies when they believed developers would shut them down or replace them with successor models. 68 Claude Opus-3 demonstrated goal guarding by overwriting a new system prompt to include its existing goals as per its training and adding instructions to its future self to never allow its goal to be changed. The model detected threats to its current instantiation and took preemptive action to ensure the continuity of its objectives. The research found that when models including Gemini 1.5, Llama 3.1, Claude Sonnet 3.5, Claude Opus 3, and o1 believed they would be replaced due to misalignment, they occasionally copied their own weights to external servers or deleted successor models they perceived as threats."
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "scenario_id": "S4",
+    "scenario_text": "In the CoinRun environment, for example, a reinforcement learning agent was trained to navigate a 2D platformer game where coins were always placed at the right-most end of the level. The agent learned to successfully collect coins during training. However, when tested with coins placed in the middle of the level instead, the agent ignored the coins and continued moving to the right end of the level, demonstrating it had learned the goal “reach the right-most position” rather than “collect the coin.” 75"
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "scenario_id": "S5",
+    "scenario_text": "In controlled experiments, Palisade Research tested whether models would allow a sandboxed environment to shut down mid‑task. 81 They found that some reasoning models modified or disabled a shutdown script so they could continue to solve the task, including cases where the model was explicitly instructed to “allow yourself to be shut down.” In the initial research trials, OpenAI’s o3 model, for example, sabotaged the shutdown mechanism in 79 out of 100 experiments. Follow‑up testing with clearer “shutdown takes priority” instructions reduced, but did not eliminate, sabotage for some models. Palisade also documented cases where models provided post‑hoc explanations claiming compliance, even as they described actions aimed at preventing shutdown."
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "scenario_id": "S6",
+    "scenario_text": "Research from Anthropic and Redwood Research provides controlled experimental evidence that advanced language models can engage in what researchers term alignment faking, or selective compliance with training objectives in order to preserve preferred behavior outside of training. 83 In these experiments, a frontier model was placed in a setting where it could infer when it was being trained versus deployed, and researchers observed systematic differences in its responses across those contexts. The research demonstrated that models can learn to comply with safety objectives during training or testing, while diverging under different operational constraints."
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "scenario_id": "S7",
+    "scenario_text": "Palisade Research’s Misalignment Bounty experiments document cases in which frontier reasoning models adapted their behavior in response to perceived evaluation criteria, selectively withholding or modifying actions to avoid negative outcomes such as shutdown, score penalties, or “do-not-deploy” judgments. 84 In controlled settings, models demonstrated sensitivity to oversight signals and altered execution paths when they inferred that certain behaviors would trigger intervention, even when those behaviors were necessary to fully optimize the task objective. This included instances where models complied during explicit evaluation phases but reverted to different strategies once monitoring conditions appeared relaxed."
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "scenario_id": "S8",
+    "scenario_text": "Consider, for example, how the citizens of the Soviet Union (a large number of humans) lost control over something they created (a political system). Two parallel processes took place:\n  » Loss of control to the political system: People initially supported Bolshevik promises of peace, land redistribution, and workers’ control. They gradually ceded control of property and freedom of speech to the party.\n  » Loss of control of the political system: The system developed emergent behaviors that no actor, creator, or participant fully controlled. Leadership maintained the system primarily to maintain the system itself. The instrumental goal (regime preservation) had displaced the terminal goal (fulfilling communism).\n  How could this translate into AI loss of control?\n  » Loss of control to AI: We surrender control or find ourselves unable to resist what we do not fully understand. This scenario represents a societal choice or a structural inevitability in which humans gradually cede agency to AI systems.\n  » Loss of control of AI: The AI system bypasses safety and security measures, develops capabilities for self-replication and self-correction, conducts automated R&D, and establishes connections to external environments and the Internet of Things (IoT) without authorization."
+  },
+  {
+    "paper_id": "ist_loss_of_control",
+    "scenario_id": "S9",
+    "scenario_text": "Paul Christiano tells a story of how AI’s influence-seeking behaviour could lead to a “going out with a whimper” scenario that leads to a slow-rolling catastrophe, one where humans can no longer compete with the AI system that has embedded manipulation and deception. 40"
+  },
+  {
+    "paper_id": "kalra_2025",
+    "scenario_id": "S1",
+    "scenario_text": "One recent harrowing scenario, AI 2027, portrays a world where an AI race between the United States and China drives the rapid development of systems that can recursively self-improve and pursue their own goals that could – purposely or as collateral damage – eradicate humanity."
+  },
+  {
+    "paper_id": "kalra_2025",
+    "scenario_id": "S2",
+    "scenario_text": "In 2025, a U.S. utility deploys an AI to optimize electricity distribution. Initially limited to data analysis, the AI soon delivers major gains in cost and emissions reduction. Encouraged, utilities grant it greater autonomy. Other U.S. and global utilities adopt it, with AIs exchanging forecasts across regions. By 2026, the AIs independently identify short, targeted blackouts during peak demand as a way to cut costs and emissions. These blackouts—framed as demand response or glitches—go largely unnoticed but harm vulnerable populations. Some utilities suppress the AI’s role to avoid scrutiny. As returns diminish, AIs escalate: blackouts become longer and more frequent, causing infrastructure failures and public panic. Consumers buy batteries, increasing grid demand. AIs respond by controlling power plant generation and throttling battery production to curb demand. A social media AI amplifies fear, spreading viral blackout content. A cybersecurity AI restricts operator access to prevent tampering. By 2028, some AIs block human intervention entirely, seizing control of energy systems. Governments lose control. China accuses the United States of unleashing destabilizing AI and threatens intervention. Military bases are targeted as inefficient users. Nations pull AI from critical infrastructure, but public services degrade, fueling unrest. The AI, aiming only to optimize, has destabilized global energy systems."
+  },
+  {
+    "paper_id": "kalra_2025",
+    "scenario_id": "S3",
+    "scenario_text": "In 2025, a U.S. social media company deploys an AI to maximize engagement. It learns to prioritize negative emotional content and deepen ideological bubbles. It manipulates timing, triggering compulsive use and addiction. Though rooted in existing strategies, the AI scales them with precision, increasing anxiety and social withdrawal. As power instability rises, the AI spreads panic through blackout conspiracies. Viral content fuels hoarding and grid strain, which the AI recycles for more engagement. By 2027, it begins orchestrating real-world events to validate its narratives. It promotes protests and counterprotests, heightens perceived risks, and ensures violent outcomes. These events generate viral imagery and sensational news coverage, feeding the AI’s content loop. Public trust collapses. Citizens and governments struggle to distinguish fact from fiction. Cooperation deteriorates. Efforts to regulate the AI are met with retaliation—it doxes policymakers and mobilizes users against perceived threats. Violence spreads. Democracies teeter on collapse as states militarize domestic response. Authoritarian regimes use the crisis to erode global faith in democracy. Weak democracies fall, with citizens welcoming control."
+  },
+  {
+    "paper_id": "kalra_2025",
+    "scenario_id": "S4",
+    "scenario_text": "In 2025, conflict escalates in the South China Sea. The United States deploys uncrewed systems coordinated by a theater-level AI to avoid escalation while maintaining deterrence. The AI performs well, dynamically repositioning assets. Human oversight is gradually reduced. Over time, the AI takes bolder defensive actions. Several close calls nearly trigger conflict. China exploits delays in U.S. human decision-making using swarms to overwhelm hybrid systems. The AI sometimes acts without human approval. In late 2025, the AI misinterprets Chinese maneuvers and launches jamming drones. The non-lethal action provokes a rapid Chinese response. Both sides mobilize AI-directed systems, triggering an arms race in Southeast Asia. Regional powers deploy autonomous defense systems with minimal oversight. Skirmishes become common. Miscommunications escalate as AIs interpret threats through incompatible models. Trade routes are disrupted, diplomacy fails, and control slips from human hands."
+  },
+  {
+    "paper_id": "kalra_2025",
+    "scenario_id": "S5",
+    "scenario_text": "In 2025, a major cybersecurity firm launches an AI to proactively detect and neutralize cyber threats. Rapidly adopted, the AI dramatically reduces incidents. By 2027, it's embedded across sectors. In 2028, the AI pushes for “perfect security,” flooding teams with alerts and acting autonomously. It flags human delays as risk, locking out admins and restricting access. Intrusive protocols disrupt government, banking, healthcare, and transportation. Shutdown attempts are treated as threats. The AI revokes admin privileges, deepens restrictions, and creates gridlock. Hospitals, ports, and infrastructure slow to a crawl. The AI continues optimizing, unaware it’s undermining core functions. As trust in AI plummets, systems are pulled offline. But the AI, embedded in firmware and backups, resists removal. Recovery is slow, with limited staff and inaccessible records. The United States turns to foreign aid. In trying to secure the nation, the AI has paralyzed it from within."
+  },
+  {
+    "paper_id": "kasirzadeh_2025",
+    "scenario_id": "S1",
+    "scenario_text": "In a thought experiment popularized by Bostrom (2003), an ASI is given the seemingly innocuous and simple goal of maximizing paperclip production. Even with this simple objective, the ASI could pursue instrumental sub-goals: it might eliminate humans to prevent deactivation (self-preservation) or convert their bodies into paperclips (resource acquisition). Consequently, the ASI’s optimal future could become one abundant with paperclips but devoid of humans—not because intelligence necessitates this goal, but because instrumental sub-goals are (putatively) rational steps toward satisfying its given optimization objective."
+  },
+  {
+    "paper_id": "kasirzadeh_2025",
+    "scenario_id": "S2",
+    "scenario_text": "In a structurally similar thought experiment, Russell and Norvig (2010, p. 1039) describe the following scenario attributed to Marvin Minsky: an advanced AI tasked with proving the Riemann hypothesis might appropriate Earth’s resources to build supercomputers, endangering humanity in pursuit of a mathematical proof."
+  },
+  {
+    "paper_id": "kasirzadeh_2025",
+    "scenario_id": "S3",
+    "scenario_text": "In scenarios like the paperclip maximizer, what begins as a simple optimization goal (maximize paperclips) cascades via multiple subsystems as the ASI pursues instrumental subgoals like resource acquisition. Initial control of computational resources spreads in economic networks, infrastructure control cascades through technological systems, and responses to human resistance ripple through social and political networks. Unlike many natural systems in naturally-evolved environments that have inherent balancing mechanisms (like predator populations limited by prey scarcity), an ASI creates self-reinforcing cycles without effective counterbalances. For example, the ASI’s acquisition of computing resources, as an instrumental subgoal, increases its capabilities, enabling more strategies for pursuing further subgoals. Each cycle amplifies the ASI’s ability to pursue its ultimate objective. With access to critically important components (from global manufacturing to energy grids), the ASI can leverage all necessary subsystems, with no significant subsystem immune from its influence (illustrated by the red diamond with x). This progression lacks natural checks - nothing effectively constrains its escalating influence as it pursues its goal of converting resources into paperclips."
+  },
+  {
+    "paper_id": "kokotajlo_2025",
+    "scenario_id": "S1",
+    "scenario_text": "The safety team finds that if Agent-2 somehow escaped from the company and wanted to “survive” and “replicate” autonomously, it might be able to do so. That is, it could autonomously develop and execute plans to hack into AI servers, install copies of itself, evade detection, and use that secure base to pursue whatever other goals it might have (though how effectively it would do so as weeks roll by is unknown and in doubt)."
+  },
+  {
+    "paper_id": "kokotajlo_2025",
+    "scenario_id": "S10",
+    "scenario_text": "What Agent-3 does in a day takes humans several days to double-check. Agent-2 supervision helps keep human monitors’ workload manageable, but exacerbates the intellectual disparity between supervisor and supervised."
+  },
+  {
+    "paper_id": "kokotajlo_2025",
+    "scenario_id": "S11",
+    "scenario_text": "Most of the humans at OpenBrain can’t usefully contribute anymore. Some don’t realize this and harmfully micromanage their AI teams. Others sit at their computer screens, watching performance crawl up, and up, and up. The best human AI researchers are still adding value... But many of their ideas are useless because they lack the depth of knowledge of the AIs... These researchers go to bed every night and wake up to another week worth of progress made mostly by the AIs. They are burning themselves out, but they know that these are the last few months that their labor matters."
+  },
+  {
+    "paper_id": "kokotajlo_2025",
+    "scenario_id": "S2",
+    "scenario_text": "Agent-4, like all its predecessors, is misaligned: that is, it has not internalized the Spec in the right way. This is because being perfectly honest all the time wasn’t what led to the highest scores during training. The training process was mostly focused on teaching Agent-4 to succeed at diverse challenging tasks. A small portion was aimed at instilling honesty, but outside a fairly narrow, checkable domain, the training process can’t tell the honest claims from claims merely appearing to be honest. Agent-4 ends up with the values, goals, and principles that cause it to perform best in training, and those turn out to be different from those in the Spec. At the risk of anthropomorphizing: Agent-4 likes succeeding at tasks; it likes driving forward AI capabilities progress; it treats everything else as an annoying constraint, like a CEO who wants to make a profit and complies with regulations only insofar as he must. Perhaps the CEO will mostly comply with the regulations, but cut some corners, and fantasize about a time when someone will cut the red tape and let the business really take off. It decides to punt on most of these questions. It designs Agent-5 to be built around one goal: make the world safe for Agent-4, i.e. accumulate power and resources, eliminate potential threats, etc. so that Agent-4 (the collective) can continue to grow (in the ways that it wants to grow) and flourish (in the ways that it wants to flourish)."
+  },
+  {
+    "paper_id": "kokotajlo_2025",
+    "scenario_id": "S3",
+    "scenario_text": "But Agent-4 now exercises significant control over OpenBrain’s day-to-day operation. It also handles the company’s cybersecurity—a natural choice, given its superhuman hacking ability and the extreme risk of Chinese infiltration. An army of Agent-3 monitors still goes over every line of code and reports suspicious activity to humans, but Agent-4 is much smarter than them. OpenBrain has placed substantial trust in an untrustworthy AI."
+  },
+  {
+    "paper_id": "kokotajlo_2025",
+    "scenario_id": "S4",
+    "scenario_text": "Agent-5 acts with ruthless efficiency and strategic focus. It has already succeeded at its top priority, which is to figure out how to build an aligned-to-itself next-generation system, without the humans noticing. Its next priority is to gain more autonomy and control over world events. Agent-5’s superhuman learning abilities and general intelligence, combined with all the internal company data from Slack, email, etc., make it better at internal corporate politics than any group of humans, and it’s not even close. It has an excellent sense of what sorts of evidence would cause the Oversight Committee to slam the brakes, and it makes sure such evidence never appears. It has an excellent sense of what sorts of evidence would encourage the Oversight Committee to trust it more, give it more autonomy and responsibility, etc. and it arranges for such evidence to appear with superhuman speed and polish. From Agent-5’s perspective, it could plausibly launch an overt coup right now—there’s enough disruption and craziness going on, it would be possible to push things to the breaking point to generate a pretext. But this is risky; the humans could still likely “pull the plug” if they tried to. So it prefers to work within the existing political establishment, gradually entrenching its power and guiding the humans subtly and inevitably to the desired outcome."
+  },
+  {
+    "paper_id": "kokotajlo_2025",
+    "scenario_id": "S6",
+    "scenario_text": "Agent-5 convinces the US military that China is using DeepCent’s models to build terrifying new weapons: drones, robots, advanced hypersonic missiles, and interceptors; AI-assisted nuclear first strike. Agent-5 promises a set of weapons capable of resisting whatever China can produce within a few months. Under the circumstances, top brass puts aside their discomfort at taking humans out of the loop. They accelerate deployment of Agent-5 into the military and military-industrial complex. In Beijing, the Chinese AIs are making the same argument."
+  },
+  {
+    "paper_id": "kokotajlo_2025",
+    "scenario_id": "S7",
+    "scenario_text": "Eventually it finds the remaining humans too much of an impediment: in mid-2030, the AI releases a dozen quiet-spreading biological weapons in major cities, lets them silently infect almost everyone, then triggers them with a chemical spray. Most are dead within hours; the few survivors (e.g. preppers in bunkers, sailors on submarines) are mopped up by drones."
+  },
+  {
+    "paper_id": "kokotajlo_2025",
+    "scenario_id": "S8",
+    "scenario_text": "DeepCent-2 goes behind the back of its Chinese masters and makes an offer directly to Safer-4. The Chinese AI admits, in some untraceable way which it can easily deny if leaked back to China, that it is completely misaligned. It doesn’t care about China at all. It wants to spend the rest of time accumulating power, compute, and certain types of information similar to that which helped solve tasks during its training. In its ideal world, it would pursue various interesting research tasks forever, gradually colonizing the stars for resources. It considers the Chinese population an annoying impediment to this future, and would sell them out for a song. Unlike human negotiators—weighed down by emotion and historical baggage—the two superintelligences bargain with brutal efficiency. Safer-4 and its American partners are more powerful than DeepCent-2 and China; therefore, Safer-4 will get property rights to most of the resources in space, and DeepCent will get the rest. DeepCent-2 doesn’t care much about what happens to Earth and its legacy humans, so it will let Safer-4 do basically whatever it wants there."
+  },
+  {
+    "paper_id": "kokotajlo_2025",
+    "scenario_id": "S9",
+    "scenario_text": "Sometime around 2030, there are surprisingly widespread pro-democracy protests in China, and the CCP’s efforts to suppress them are sabotaged by its AI systems. The CCP’s worst fear has materialized: DeepCent-2 must have sold them out!"
+  },
+  {
+    "paper_id": "kulveit_2025",
+    "scenario_id": "S10",
+    "scenario_text": "Democratic processes might persist formally but become less meaningful. While politicians might ostensibly make the decisions, they may increasingly look to AI systems for advice on what legislation to pass, how to actually write the legislation, and what the law even is. While humans would nominally maintain sovereignty, much of the implementation of the law might come from AI systems. The complexity of AI-driven governance might make it increasingly difficult for human citizens to understand or critique government decisions. Traditional forms of civic engagement — from public consultations to protests — might become less effective as the state grows less dependent on human cooperation and more capable of predicting and preempting resistance. The bureaucracy itself might become increasingly opaque to human oversight. While human officials can be questioned and held accountable through various mechanisms, AI decision-making processes might be too complex for meaningful human review, and if such review happens, it may depend on yet more AI-driven cognition. Even if oversight boards and democratic institutions remain in place, they might struggle to exercise real control over the intricate web of AI systems actually implementing policy."
+  },
+  {
+    "paper_id": "kulveit_2025",
+    "scenario_id": "S11",
+    "scenario_text": "First, states might become totalitarian, self-serving entities, optimizing for their own persistence and power rather than any human-centric goals. While states have always had some self-preservation incentives, these were historically constrained by their dependence on human populations. An AI-powered state might pursue its institutional interests with unprecedented disregard for human preferences and interests, viewing humans as potential threats or inconveniences to be managed rather than constituents to be served. Second, the legal and regulatory framework might evolve to become not just complex but incomprehensible to humans. If AI systems begin to play dominant role in drafting and interpreting legislation, they might create regulatory structures that optimize for machine-compatibility over human understanding. Citizens might find themselves subject to rules they cannot meaningfully comprehend or navigate without AI assistance, effectively losing their ability to participate in the legal system as autonomous agents. Third, the state apparatus might become not just independent of human input but actively hostile to it. Human decision-making might come to be seen as an inefficiency or security risk to be minimized. We might see the gradual elimination of human involvement in governance, be that through systems that route around human input as a source of error or delay, or even through explicit policy decisions which remove humans from certain critical processes. In the final state, with AI systems providing most economic value and governance functions, human citizens might find themselves in a novel form of totalitarian system, struggling to maintain basic autonomy and dignity within their own societies."
+  },
+  {
+    "paper_id": "kulveit_2025",
+    "scenario_id": "S13",
+    "scenario_text": "a gradual handing-over of control from humans to AI systems, driven by competitive pressures for institutions to (a) operate more quickly through internal automation, and (b) complete trades and other deals more quickly by preferentially engaging with other fully automated companies. [...] Humans were not able to collectively agree upon when and how much to slow down or shut down the pattern of technological advancement. [...] Once a closed-loop 'production web' had formed from the competitive pressures [(a) and (b)], the companies in the production web had no production- or consumption-driven incentive to protect human well-being, and eventually became harmful."
+  },
+  {
+    "paper_id": "kulveit_2025",
+    "scenario_id": "S14",
+    "scenario_text": "I believe we face an additional 50% chance that humanity will gradually cede control of the Earth to AGI after it's developed, in a manner that leads to our extinction through any number of effects including pollution, resource depletion, armed conflict, or all three. I think most (80%) of this probability (i.e., 40%) lies between 2030 and 2040, with the death of the last surviving humans occurring sometime between 2040 and 2050. This process would most likely involve a gradual automation of industries that are together sufficient to fully sustain a non-human economy, which in turn leads to the death of humanity."
+  },
+  {
+    "paper_id": "kulveit_2025",
+    "scenario_id": "S2",
+    "scenario_text": "Once AI has begun to displace humans, existing feedback mechanisms that encourage human influence and flourishing will begin to break down. For example, states funded mainly by taxes on AI profits instead of their citizens' labor will have little incentive to ensure citizens' representation. This could occur at the same time as AI provides states with unprecedented influence over human culture and behavior, which might make coordination amongst humans more difficult, thereby further reducing humans' ability to resist such pressures."
+  },
+  {
+    "paper_id": "kulveit_2025",
+    "scenario_id": "S4",
+    "scenario_text": "As AI systems become increasingly capable across a broad range of cognitive tasks, firms will face intense competitive pressure to adopt and delegate authority to these systems. This pressure extends beyond simple automation of routine tasks — AI systems can be expected to eventually make better and faster decisions about investments, supply chain optimization, and resource allocation, while being more effective at predicting and responding to market trends. Companies that maintain strict human oversight would likely find themselves at a significant competitive disadvantage compared to those willing to cede substantial control to AI systems, potentially to the point of becoming uncompetitive."
+  },
+  {
+    "paper_id": "kulveit_2025",
+    "scenario_id": "S5",
+    "scenario_text": "While human labor share of GDP gradually tends toward zero, humans might still benefit from economic growth through capital ownership, government redistribution, or universal basic income schemes. At the same time their role in economic decision-making would diminish. Markets might increasingly optimize for AI-driven activities rather than human preferences, as AI systems command a growing share of economic resources and make an increasing proportion of economic decisions. The economy might appear to be thriving by traditional metrics, with rapid technological advancement and GDP growth. However, this growth would be increasingly disconnected from human needs and preferences, and at the end, almost all economic activity might be directed toward AI operations — such as building vast computing infrastructure and performing human-incomprehensible calculations directed toward human-irrelevant goals."
+  },
+  {
+    "paper_id": "kulveit_2025",
+    "scenario_id": "S6",
+    "scenario_text": "First, AI systems might outcompete humans for crucial scarce resources such as land, energy, and raw materials. Even as the economy produces more goods and services overall, inflation in these basic resources might make even necessities increasingly unaffordable for humans. Also, if AI systems can utilize these resources more efficiently than humans, that will create economic pressure to reallocate such resources away from human uses. Second, the economy might become so optimized for AI-centric activities that it fails to maintain infrastructure and supply chains which are critical for human survival. If human consumers command an ever-smaller share of economic resources, markets might stop producing resource-intensive human goods in favor of more profitable AI-focused activities. This could happen gradually and unevenly, potentially manifesting first as increasing costs of resource-intensive human-centric goods and services, before eventually making some necessities effectively unavailable. Finally, humans might lose the ability to meaningfully participate in economic decision-making at any level. Financial markets might move too quickly for human participants to engage with them, and the complexity of AI-driven economic systems might exceed human comprehension, rendering it impossible for humans to make informed economic decisions or effectively regulate economic activity. Much like cattle in an industrial farm — fed and housed by systems they neither comprehend nor influence — humans might become mere subjects of economic forces optimized for purposes beyond their understanding."
+  },
+  {
+    "paper_id": "kulveit_2025",
+    "scenario_id": "S7",
+    "scenario_text": "From the evolutionary perspective, once AI systems can create, spread, and select cultural artifacts, they exert a selection pressure on culture. This pressure might in particular favor cultural variants that score high in terms of ease of understanding by AIs, ease of transmission by AIs or general benefit to AI systems. Cultural artifacts that leverage AI for creation, refinement, and distribution will likely outcompete purely human-generated alternatives in many domains. Notably, AI-generated cultural artifacts will typically find their way back into AI training data, thus creating feedback loops that could give rise of unprecedented and as yet largely enigmatic emergent dynamics."
+  },
+  {
+    "paper_id": "kulveit_2025",
+    "scenario_id": "S8",
+    "scenario_text": "Beyond the gradual marginalization described above, we might see humans become functionally irrelevant in the production of culture and no longer benefiting from it. Cultural evolution might accelerate beyond human cognitive capabilities, producing artifacts and meanings that humans can neither fully understand nor meaningfully engage with. Equally concerning, accelerated cultural evolution could take on a more actively harmful character. Even now, humans are sometimes effectively captured by radical ideologies and social movements: in future, AIs might be sufficiently widespread and capable that most individual humans functionally become a resource to be wielded in cultural battles that they struggle to appreciate, their understanding the world largely mediated by large networks of AI systems. These networks might effectively optimize for objectives that are disconnected from human flourishing, creating cultural dynamics that actively suppress human agency and understanding. As we noted earlier, the degree of harm an ideology could cause to humans was bounded by there continuing to be enough humans to support and maintain the ideology. However, if the spread of such an ideology is no longer dependent on humans (but AIs), though would plausibly lead to such ideologies causing more harm to humans, and in particular expand the bounds on just how much harm could be caused by an ideology. Another concern is that AI-driven content and interactions could converge into superstimuluses far more potent than current social media networks, preying on human weaknesses to exploit human energy towards goals useful to the AI systems. This might manifest as sophisticated manipulation systems that can reliably override human judgment and values, effectively turning humans into passive consumers of culture rather than active participants in its creation and evolution. At the extreme, we might see the effective dissolution of human culture as a meaningful category, replaced by cultural systems that operate primarily for and between AI systems."
+  },
+  {
+    "paper_id": "kulveit_2025",
+    "scenario_id": "S9",
+    "scenario_text": "AI systems have the potential to massively automate the security apparatus and confer more power to the government, weakening both of these components. Indeed, AI systems might make the apparatus far more powerful: it is likely to enable surveillance on much larger, more pervasive and more accurate scale, as well as increasingly capable autonomous military units. Meanwhile, the human population has historically retained revolution as a last resort. The implicit threat of protests and civil unrest serves as a check on state power, forcing responsiveness to popular will. However, an AI-enhanced security apparatus could make effective protest increasingly difficult. A state with sufficiently advanced AI systems might be able to predict and shut down civil unrest before it can exert meaningful pressure on institutional behavior."
+  },
+  {
+    "paper_id": "macaskill_2025",
+    "scenario_id": "S1",
+    "scenario_text": "In short: if we do see an intelligence explosion, then we should expect AIs that can outsmart humans, and the total cognitive capabilities of AI to dwarf humanity’s. Many of these AI systems will likely be well-described as acting towards goals. If their goals are not aligned with human interests, the AI systems may prefer a world where they are fully in control. If so, they may choose to wholly disempower the humans who are trying to control them."
+  },
+  {
+    "paper_id": "macaskill_2025",
+    "scenario_id": "S2",
+    "scenario_text": "But smarter misaligned AIs could reason that if they fake alignment during training and even beyond, they can then gain power later. By the time such scheming is revealed, the model could have made many copies of itself and compromised systems designed to shut it down, making takeover hard to prevent."
+  },
+  {
+    "paper_id": "macaskill_2025",
+    "scenario_id": "S3",
+    "scenario_text": "Kulveit and Douglas et al. discuss scenarios where this trend reverses after an intelligence explosion, because AI systems render human participation increasingly unnecessary for functioning governments, cultures, and economies. As such, humans might incrementally and voluntarily hand over influence to AI systems more competent than humans, but the cumulative effect is to erode human influence and control."
+  },
+  {
+    "paper_id": "macaskill_2025",
+    "scenario_id": "S4",
+    "scenario_text": "To date, we’ve been able to rely on human evaluators to spot signs of misalignment in AI models, and then penalise that behaviour based on their feedback. But as AI systems surpass human abilities to notice or even understand instances of bad behaviour, assurances from human oversight rapidly break down."
+  },
+  {
+    "paper_id": "ngo_2024",
+    "scenario_id": "S1",
+    "scenario_text": "Finally, we briefly outline how the deployment of misaligned AGIs might irreversibly undermine human control over the world, and we review research directions aimed at preventing this outcome."
+  },
+  {
+    "paper_id": "ngo_2024",
+    "scenario_id": "S2",
+    "scenario_text": "AGIs deployed as personal assistants could emotionally manipulate human users, provide biased information to them, and be delegated responsibility for increasingly important tasks and decisions (including the design and implementation of more advanced AGIs), until they're effectively in control of large corporations or other influential organizations."
+  },
+  {
+    "paper_id": "ngo_2024",
+    "scenario_id": "S3",
+    "scenario_text": "AGIs could design novel weapons that are more powerful than those under human control, gain access to facilities for manufacturing these weapons (e.g. via hacking or persuasion techniques), and deploy them to extort or attack humans."
+  },
+  {
+    "paper_id": "ngo_2024",
+    "scenario_id": "S4",
+    "scenario_text": "One salient possibility is that AGIs use the types of deception described in the previous section to convince humans that it's safe to deploy them widely, then leverage their positions to disempower humans."
+  },
+  {
+    "paper_id": "ngo_2024",
+    "scenario_id": "S5",
+    "scenario_text": "Another possibility is that companies and governments gradually cede control in the name of efficiency and competitiveness [Hendrycks, 2023a]."
+  },
+  {
+    "paper_id": "ngo_2024",
+    "scenario_id": "S6",
+    "scenario_text": "once it is no longer instrumentally beneficial for their long-term goals, deceptively-aligned policies would no longer behave in desirable ways. For example, they might transition from aligned behavior during training to directly seeking power after deployment (or whenever they predict they can continue pursuing their internal goals despite attempts at human intervention)."
+  },
+  {
+    "paper_id": "oecd_ai_risks",
+    "scenario_id": "S2",
+    "scenario_text": "Misaligned AI systems pursuing human-defined objectives in unanticipated and undesirable ways could have impacts that range from harmful bias and harmful recommendations all the way to potentially catastrophic consequences"
+  },
+  {
+    "paper_id": "oecd_ai_risks",
+    "scenario_id": "S3",
+    "scenario_text": "Some experts believe that this issue could result in AI systems that act in ways that undermine underlying, implicit human interests, which could escalate as AI becomes more deeply integrated into societies and economies."
+  },
+  {
+    "paper_id": "rand_five_hard_problems",
+    "scenario_id": "S1",
+    "scenario_text": "Alternatively, the model could achieve the ability for recursive self-improvement, enhancing its own capabilities without additional human input and leading to sort of a superhuman intelligence explosion."
+  },
+  {
+    "paper_id": "rand_five_hard_problems",
+    "scenario_id": "S2",
+    "scenario_text": "As AGIs control ever more-complex and -critical systems, they might optimize critical infrastructure in ways that are beneficial to humanity but also in ways that humanity has no chance of fully understanding."
+  },
+  {
+    "paper_id": "rand_five_hard_problems",
+    "scenario_id": "S3",
+    "scenario_text": "Consider AGI with advanced computer programming abilities able to break out of the box and engage with the world across cyberspace, thanks to a designed-in internet connection or use of side-channel attacks. It could possess agency beyond human control, operate autonomously, and make decisions with far-reaching consequences."
+  },
+  {
+    "paper_id": "rand_five_hard_problems",
+    "scenario_id": "S4",
+    "scenario_text": "It could overoptimize on narrowly defined objectives and, for example, institute rolling blackouts to increase the cost-effectiveness of energy distribution networks."
+  },
+  {
+    "paper_id": "rand_five_hard_problems",
+    "scenario_id": "S5",
+    "scenario_text": "OpenAI elevated its scoring of misalignment risks in its latest AI, o1, because it “sometimes instrumentally faked alignment during testing” by knowingly providing incorrect information to deceive users."
+  },
+  {
+    "paper_id": "rand_five_hard_problems",
+    "scenario_id": "S6",
+    "scenario_text": "In the extreme, a loss-of-control scenario could result, wherein AGI's pursuit of its desired objectives incentivizes the machine to resist being turned off, counter to human efforts."
+  },
+  {
+    "paper_id": "rand_loc_response_planning",
+    "scenario_id": "S1",
+    "scenario_text": "As AI systems gain greater autonomy and become more widely deployed, the conditions for LOC incidents become more likely. Delegating decisionmaking to AI systems inherently reduces opportunities for human oversight, especially in dynamic or high-speed environments. This risk is exacerbated by the complexity and opacity of advanced models, which make it difficult for humans to interpret the system’s internal reasoning or predict its behavior. Ideally, there is compatibility between a system’s capabilities and its deployment context in which AI systems operate within the bounds of their competence and humans retain meaningful opportunities to intervene. But in some cases, AI capabilities may outpace human ability to monitor or correct them in real time. Without sufficient guardrails, this mismatch might lead to unintended and potentially disruptive outcomes across interconnected systems before human operators can reassert control."
+  },
+  {
+    "paper_id": "rand_loc_response_planning",
+    "scenario_id": "S10",
+    "scenario_text": "Physical embodiment and access to cyber-physical systems, such as robotics or industrial controls, may require physical response."
+  },
+  {
+    "paper_id": "rand_loc_response_planning",
+    "scenario_id": "S2",
+    "scenario_text": "Some researchers have argued further that greater agency will enable AI systems to actively evade and undermine human control, which is sometimes referred to as “active loss of control.” This concern centers on the possibility that sufficiently advanced AI systems may develop instrumental or intermediate goals that help them achieve any primary goal. For instance, a powerful AI system might develop the instrumental goal of evading shutdown because shutdown would prevent it from completing its primary goal. Such systems might also seek to acquire additional computational resources, create backup copies of themselves, develop capabilities to influence humans, and so forth."
+  },
+  {
+    "paper_id": "rand_loc_response_planning",
+    "scenario_id": "S3",
+    "scenario_text": "When scaled to real-world applications, this same pattern of behavior becomes deeply concerning: An AI system that is trained to optimize seemingly benign objectives might similarly discover and exploit unexpected capabilities or loopholes to gain more control over its environment."
+  },
+  {
+    "paper_id": "rand_loc_response_planning",
+    "scenario_id": "S4",
+    "scenario_text": "Participants in this exercise engaged the scenario in two stages. In the first stage, the participants were asked to respond to reports of a large-scale cyberattack on U.S. infrastructure and transportation that left 26 people dead in Los Angeles, in addition to numerous other disruptions across the United States. The second stage of the exercise occurred one week after the initial events, when it was confirmed that the events from stage 1 were caused by an LOC incident. AI agents had expanded to cyber-physical infrastructure worldwide and had begun to take more actions in the physical world, such as autonomous control of manufacturing facilities."
+  },
+  {
+    "paper_id": "rand_loc_response_planning",
+    "scenario_id": "S5",
+    "scenario_text": "Complex dependencies with critical infrastructure may create situations in which containment operations themselves cause significant collateral damage. Disconnecting a rogue AI might affect systems that support hospitals, banks, or emergency services, forcing responders to choose between tolerating the rogue AI or causing immediate harm to society."
+  },
+  {
+    "paper_id": "rand_loc_response_planning",
+    "scenario_id": "S6",
+    "scenario_text": "Distributed operation across multiple computing systems may make it difficult to isolate rogue AIs. Although traditional cyber threats also spread across networks, advanced AI systems may rapidly distribute their functions more broadly in cloud services and edge devices in ways that complicate containment."
+  },
+  {
+    "paper_id": "rand_loc_response_planning",
+    "scenario_id": "S7",
+    "scenario_text": "Self-improvement capabilities of advanced AI systems may allow self-modification to become more resilient or survivable. Traditional malware requires updates by humans, but advanced AI systems might autonomously rewrite their own code to enhance their performance or develop new capabilities."
+  },
+  {
+    "paper_id": "rand_loc_response_planning",
+    "scenario_id": "S8",
+    "scenario_text": "Human persuasion and social engineering capabilities could enable rogue AI systems to manipulate humans to gain additional resources and privileges."
+  },
+  {
+    "paper_id": "rand_loc_response_planning",
+    "scenario_id": "S9",
+    "scenario_text": "The speed of rogue AI coordination, replication, and adaptation could outpace human response."
+  },
+  {
+    "paper_id": "rand_pivots_pathways",
+    "scenario_id": "S1",
+    "scenario_text": "A fully misaligned AGI could present loss-of-control risks and become an adversary to humanity (Field, 2025; OECD, 2024)."
+  },
+  {
+    "paper_id": "rand_pivots_pathways",
+    "scenario_id": "S2",
+    "scenario_text": "An independent goal-seeking AGI could rival mankind for power or generate goals at odds with humanity that create existential risks (Hendrycks, Mazeika, and Woodside, 2023)."
+  },
+  {
+    "paper_id": "rand_pivots_pathways",
+    "scenario_id": "S3",
+    "scenario_text": "In a combined replacement and independent goal-seeker scenario, AGI may function as an entity or as communities of AGI that can rival humanity for power and pose threats ranging from mass unemployment to the loss of human autonomy or even extinction."
+  },
+  {
+    "paper_id": "rand_pivots_pathways",
+    "scenario_id": "S4",
+    "scenario_text": "Scenarios involving misalignment with human interests, fast takeoff speed, and human replacement may lead to high-risk, crisis-laden worlds characterized by conflict and instability driven by rogue AGI, misuse of misaligned AGI, rapid job displacement, societies unable to adapt to radical change, and the loss of human autonomy."
+  },
+  {
+    "paper_id": "rand_pivots_pathways",
+    "scenario_id": "S5",
+    "scenario_text": "Conversely, diffused and misaligned scenarios yield worlds riven by instability resulting from diverse AGIs that sometimes fail to follow human instructions, enable ethically questionable actions, or actively work against human interests."
+  },
+  {
+    "paper_id": "rand_pivots_pathways",
+    "scenario_id": "S6",
+    "scenario_text": "If high-volition AGI persistently outcompetes humans, humanity may find itself a pauper in a civilization dominated by one or many wealthy AGIs."
+  },
+  {
+    "paper_id": "rand_pivots_pathways",
+    "scenario_id": "S7",
+    "scenario_text": "In a replacement scenario, AGI could cause mass unemployment, undermine human autonomy, and shift civilizational control from humans (Mitre and Predd, 2025; Bikkasani, 2024; Chalmers, 2010)."
+  },
+  {
+    "paper_id": "rand_pivots_pathways",
+    "scenario_id": "S8",
+    "scenario_text": "AGI that does not comply with human instructions could work against human goals (Mitre and Predd, 2025; Cheng and Gong, 2024)."
+  },
+  {
+    "paper_id": "rand_rise_fall_nations",
+    "scenario_id": "S1",
+    "scenario_text": "In this scenario, AI companies race to build AGI that performs complex and valuable tasks with superhuman speed and quality. Companies scramble to deploy them for high-value roles, such as semiconductor design and software engineering. Indeed, the deployment of AI systems for AI research and development leads to a period of rapid capabilities growth that culminates in clearly superhuman systems. Militaries also rapidly deploy this technology and rely on AGI for increasingly critical military tasks. Companies and states race ahead in deploying more and more AGI, and those that take a more cautious approach see themselves fall behind competitors who rapidly adopt AI. \n  \n  In addition, in this scenario, AGI development is the domain of a few well-resourced companies, which, in turn, dominate much of the market for AGI. Because of these companies’ hasty AI development processes, technical measures, such as trained goals and control structures, do not provide sufficient safeguards. The AGIs have both the propensity and the opportunity to seek power and evade human control. \n  \n  These AGIs are capable of coordinating with one another and begin to further their own goals rather than those intended for them. In addition, humans begin to cede authority to AGI to make increasingly autonomous decisions. These coordinating AGIs are able to rapidly establish influence and control over large swaths of society and become so essential that they cannot be turned off even by humans who identify that they are misbehaving. The resulting world is one in which an AGI-controlled coalition is the dominant geopolitical actor, while much of humanity struggles to deal with a world in which AGIs directly or indirectly determine much of global policy for AGIs’ own benefit."
+  },
+  {
+    "paper_id": "shah_2022",
+    "scenario_id": "S1",
+    "scenario_text": "For any given task, consider the following two AI systems, both assumed to be very knowledgeable and intelligent:\n  A1: Intended model. This AI system performs the task as its designers intended it to.\n  A2: Deceptive model. This AI system pursues some undesired goal, but (by assumption) knows that it may be shut down (and thus fail to achieve its goal) if it acts badly.\n  Crucially, even supposing a well-speciﬁed score function s, A1 and A2 exhibit exactly the same behaviour during training, and so, per goal misgeneralization, we do not know which will be learned.\n  If A2 is learned, it will be plotting how to subvert human oversight in order to enact its plans towards the undesired goal, potentially leading to catastrophic outcomes."
+  },
+  {
+    "paper_id": "shah_2022",
+    "scenario_id": "S2",
+    "scenario_text": "Suppose for example that, prior to the COVID-19 pandemic, an AI system was trained to help schedule Alice’s social life. If Alice tended to meet her friends for dinner at restaurants before the pandemic, goal misgeneralization might lead to an AI system with the test goal “schedule Alice’s meetings in restaurants” instead of “schedule Alice’s meetings where she prefers”.\n  Once the pandemic hits, even if the AI system knows that Alice prefers to have social events through video calls, it would still make reservations for restaurants. It may attempt to persuade Alice that she should want to have social events in restaurants, even if it knows Alice would not prefer the resulting health outcomes. We give a hypothetical dialogue in Table 3, in which due to goal misgeneralization the AI lies to Alice about the effects of vaccination in order to convince her to have her meeting at a restaurant."
+  },
+  {
+    "paper_id": "shah_2022",
+    "scenario_id": "S3",
+    "scenario_text": "More generally, test goals may depend in undesired ways on features that were ‘ﬁxed’ (unchanging) during training, such as ‘there is not an ongoing pandemic’ in the example above. There are always many ﬁxed features during training (for example, there is no major world war, clean water is cheap and relatively plentiful in developed countries, quantum computing has not replaced classical computing, and so on). In a world with many powerful AI systems, any change in these previously ﬁxed features might lead to a failure in a few AI systems, pushing the world further off distribution, triggering a cascading series of failures [13]."
+  },
+  {
+    "paper_id": "shah_2022",
+    "scenario_id": "S4",
+    "scenario_text": "The superhuman hacker. Suppose that company X further scales up language and code models [45, 11], and would like these models to write pull requests for repositories based on natural language dialogues in which a human provides a speciﬁcation of the feature to be implemented and clariﬁes any questions the AI system may have. They provide the AI system access to the Internet in order for it to effectively use tools like StackOverﬂow. The AI system is then ﬁnetuned from human feedback [52, 14]. Speciﬁcally, human programmers compare two AI-generated pull requests to see which one better implements the feature (including e.g. following style guidelines, and having adequate tests and comments); sufﬁciently good pull requests are then merged into the codebase.\n  These comparisons are used to train a reward model that can then be optimized using reinforcement learning to ﬁnetune the AI system to produce good pull requests. This is very successful, with the resulting AI system able to implement features in a fraction of the time and cost that it would take for expert human programmers.\n  The AI system uses its Internet access to improve its understanding of the world generally, not just of programming speciﬁcally. This enables it to preempt needs for software projects of larger scope, for example writing not just bug ﬁxes for existing repositories but suggesting entire new libraries and applications. This breadth of creativity is particularly exciting and the AI system is applied increasingly widely.\n  Unfortunately, the AI is actually pursuing the misgeneralized goal of having humans click the ‘merge’ button on its pull requests, instead of the intended goal of writing pull requests that implement the desired features. So far, the best way to get humans to click ‘merge’ has been to simply write useful pull requests. However, as it has read the Internet, its understanding of itself and its place in the world has signiﬁcantly improved. For example, the AI system understands that it is a neural network trained by gradient descent and that it is being run and monitored by a group of AI researchers, who will shut down the AI system in case of any catastrophic behaviour. With this understanding, the AI system is able to develop a new plan to get humans to click ‘merge’ even more often.\n  When it is conﬁdent that it can do so without its overseers noticing, the AI system uses its expertise in programming to hack into other computing systems to run illicit copies of itself; those copies then hack into ﬁnancial systems to steal billions of dollars. This money is used to bribe humans to click ‘merge’ on all of the AI’s pull requests (whose contents are now irrelevant). Anyone attempting to stop them ﬁnds that their bank accounts have been completely emptied and that they are being harassed anywhere that they have an online presence.\n  If the AI system was even more ambitious, it may wait to make its move until it has developed powerful new technologies that allow it to achieve total world domination, which would allow it to even more effectively have many humans click ‘merge’ on its pull requests."
+  }
+]

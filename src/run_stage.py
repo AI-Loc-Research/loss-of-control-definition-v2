@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 
 import yaml
 
-from src.paths import final_papers, raw_text_path, task_output_dir
+from src.paths import final_papers, raw_text_path, scenarios_path, task_output_dir
 from src.utils.hf_client import query_llm
 from src.utils.llm import call_model
 from src.utils.prompt import fill_prompt_1a, fill_prompt_1d, fill_prompt_2a, fill_prompt_2b, fill_prompt_2c, load_prompt
@@ -742,51 +742,106 @@ def run_2b(
         print(f"  {len(errors)} error(s) — see run_metadata.json for details.")
 
 
+# Dry-run reply for Task 2C: same shape as prompt_2c_v2's JSON, so parsing and review docs are tested
+MOCK_2C = {
+    "scenario_id": "mock",
+    "threat_model": {
+        "threat_source": "a mock AI system",
+        "objective_or_harmful_outcome": "Not specified",
+        "capability": "Not specified",
+        "knowledge": "Not specified",
+        "access": "Not specified",
+        "constraints_or_enabling_conditions": "Not specified",
+        "target_or_asset_at_risk": "Not specified",
+    },
+    "evidence": {
+        "threat_source": "a mock AI system",
+        "objective_or_harmful_outcome": "Not specified",
+        "capability": "Not specified",
+        "knowledge": "Not specified",
+        "access": "Not specified",
+        "constraints_or_enabling_conditions": "Not specified",
+        "target_or_asset_at_risk": "Not specified",
+    },
+    "uncertainty_flags": {
+        "threat_source": "Clear",
+        "objective_or_harmful_outcome": "Not specified",
+        "capability": "Not specified",
+        "knowledge": "Not specified",
+        "access": "Not specified",
+        "constraints_or_enabling_conditions": "Not specified",
+        "target_or_asset_at_risk": "Not specified",
+    },
+}
+
+
 def run_2c(
     config: dict,
-    drive_root: str,
-    hf_token: str,
+    api_key: str,
     repo_root: str = ".",
     force: bool = False,
     dry_run: bool = False,
+    scenario_keys: list[str] | None = None,
 ) -> None:
-    """Run Prompt 2c to extract threat model components per scenario.
+    """Run Prompt 2c (threat model extraction) on every final scenario: one LLM call each.
 
-    Same iteration pattern as run_2b: one LLM call per scenario.
-    Reads verified scenarios from consolidated_verified.json.
-    Outputs to stages/2c_threat_model/experiments/{experiment}/.
+    Reads  <repo_root>/output/scenarios_final.json   (paper_id, scenario_id, scenario_text;
+           built from the phase-1 library by src/scripts/collect_scenarios.py). The model sees
+           only the scenario text.
+    Writes <repo_root>/output/<model_name>/07_task_2c/
+           (outputs/<paper_id>_<scenario_id>.json, logs/, config.json,
+            run_metadata.json, run_history/)
+           Dry runs write to output/<model_name>_dryrun/07_task_2c/ instead.
+
+    Same behaviour as run_1a: finished scenarios are skipped (re-running resumes);
+    a refused or cut-off answer is recorded as an error, kept in
+    logs/<key>_incomplete.json, and retried on the next run.
+
+    Args:
+        config: A preset from src.config.get_config("2c", ...): model, prompt_version,
+                max_new_tokens, plus the backend's settings.
+        api_key: Key for the config's backend. Not used, and may be empty, in a dry run.
+        repo_root: Path to the repo root (prompts, output/scenarios_final.json, output).
+        force: If True, re-run scenarios that already have output.
+        dry_run: If True, use mock API responses instead of real calls.
+        scenario_keys: Run only these scenarios, as "<paper_id>_<scenario_id>"
+                       (e.g. ["amodei_2026_S1"] for a one-scenario test). None = all.
     """
+    if not dry_run and not api_key:
+        backend = config.get("backend", "huggingface")
+        raise ValueError(f"No API key for backend {backend!r}. Set it, or use dry_run=True.")
+
     run_start = time.time()
     timestamp = datetime.now(timezone.utc).isoformat()
 
     prompt_path = os.path.join(repo_root, "prompts", f"{config['prompt_version']}.txt")
     template = load_prompt(prompt_path)
 
-    # --- Load verified scenarios ---
-    scenarios_path = os.path.join(
-        drive_root, "stages", "2a_scenario_extraction",
-        "verified", "consolidated_verified.json",
-    )
-    if not os.path.exists(scenarios_path):
+    # --- Load the final scenarios ---
+    scenarios_file = scenarios_path(repo_root)
+    if not os.path.exists(scenarios_file):
         raise FileNotFoundError(
-            f"Verified scenarios not found: {scenarios_path}\n"
-            "This file should contain human-reviewed scenarios from Task 2A."
+            f"Scenarios not found: {scenarios_file}\n"
+            "Build it with: uv run python -m src.scripts.collect_scenarios"
         )
-    with open(scenarios_path, "r", encoding="utf-8") as f:
+    with open(scenarios_file, "r", encoding="utf-8") as f:
         scenarios = json.load(f)
-
     if not scenarios:
-        raise ValueError(f"No scenarios found in {scenarios_path}")
+        raise ValueError(f"No scenarios found in {scenarios_file}")
+    if scenario_keys is not None:
+        all_keys = {f"{s['paper_id']}_{s['scenario_id']}" for s in scenarios}
+        unknown = set(scenario_keys) - all_keys
+        if unknown:
+            raise ValueError(f"Unknown scenario keys: {sorted(unknown)}")
+        scenarios = [s for s in scenarios if f"{s['paper_id']}_{s['scenario_id']}" in scenario_keys]
 
-    # --- Set up experiment directory ---
-    exp_dir = os.path.join(
-        drive_root, "stages", "2c_threat_model",
-        "experiments", config["experiment"],
-    )
+    # --- Set up the output folder: output/<model_name>/07_task_2c (…_dryrun for dry runs) ---
+    exp_dir = task_output_dir(repo_root, config["model"], "07_task_2c", dry_run=dry_run)
     outputs_dir = os.path.join(exp_dir, "outputs")
     logs_dir = os.path.join(exp_dir, "logs")
     os.makedirs(outputs_dir, exist_ok=True)
     os.makedirs(logs_dir, exist_ok=True)
+    print(f"Output folder: {exp_dir}")
 
     # --- Process each scenario ---
     total = len(scenarios)
@@ -810,17 +865,11 @@ def run_2c(
 
         filled_prompt = fill_prompt_2c(template, scenario_text)
 
+        # Call the model (backend from config) — catch errors per scenario so one failure doesn't kill the run
         scenario_start = time.time()
         try:
-            result = query_llm(
-                prompt=filled_prompt,
-                model=config["model"],
-                hf_token=hf_token,
-                temperature=config.get("temperature", 0.1),
-                max_new_tokens=config.get("max_new_tokens", 8192),
-                provider=config.get("provider", "nscale"),
-                dry_run=dry_run,
-            )
+            result = call_model(filled_prompt, config, api_key, dry_run=dry_run,
+                                mock={**MOCK_2C, "scenario_id": scenario_id})
         except Exception as e:
             scenario_latency = round(time.time() - scenario_start, 2)
             msg = f"API error: {e}"
@@ -836,9 +885,30 @@ def run_2c(
         generated_text = result["generated_text"]
         _save_json(result.get("raw_response", {}), os.path.join(logs_dir, f"{item_key}_raw.json"))
 
+        # A refused or cut-off answer is not a result, even if part of it parses as JSON
+        stop_reason = result.get("stop_reason")
+        if stop_reason in ("refusal", "max_tokens"):
+            msg = ("Model declined (refusal)" if stop_reason == "refusal"
+                   else "Answer cut off at max_new_tokens (max_tokens)")
+            print(f"  [{i}/{total}] ERROR {item_key} — {msg}. Text saved to logs.")
+            _save_json({"stop_reason": stop_reason, "stop_details": result.get("stop_details"),
+                        "generated_text": generated_text},
+                       os.path.join(logs_dir, f"{item_key}_incomplete.json"))
+            errors.append({"item_key": item_key, "error": msg, "stop_reason": stop_reason,
+                           "stop_details": result.get("stop_details")})
+            per_scenario_meta.append({
+                "item_key": item_key, "skipped": False, "error": msg,
+                "stop_reason": stop_reason, "latency_seconds": scenario_latency,
+                "usage": result.get("usage"),
+            })
+            continue
+
         parsed = _parse_json_response(generated_text)
-        if parsed is None:
-            msg = "Failed to parse JSON from model response"
+        # Some models wrap the object in a list: [{...}] -> {...}
+        if isinstance(parsed, list) and len(parsed) == 1 and isinstance(parsed[0], dict):
+            parsed = parsed[0]
+        if not isinstance(parsed, dict):
+            msg = "Failed to parse a JSON object from model response"
             print(f"  [{i}/{total}] WARN {item_key} — {msg}. Raw response saved to logs.")
             _save_json({"raw_text": generated_text, "parse_error": True}, output_path)
             errors.append({"item_key": item_key, "error": msg})
@@ -861,6 +931,8 @@ def run_2c(
             "skipped": False,
             "latency_seconds": scenario_latency,
             "usage": result.get("usage"),
+            "stop_reason": stop_reason,
+            "model_served": result.get("model_served"),
         })
 
     # --- Save config snapshot ---
@@ -886,6 +958,10 @@ def run_2c(
         "per_scenario": per_scenario_meta,
     }
     _save_json(metadata, os.path.join(exp_dir, "run_metadata.json"))
+    # Every run also keeps its own dated copy (run_metadata.json is overwritten by the next run)
+    stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    _save_json({"config": config_snapshot, **metadata},
+               os.path.join(exp_dir, "run_history", f"run_{stamp}.json"))
 
     print(f"\nDone. {processed}/{total} scenarios processed in {total_runtime}s.")
     if errors:

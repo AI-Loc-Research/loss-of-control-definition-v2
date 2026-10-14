@@ -11,7 +11,7 @@ import os
 
 import yaml
 
-from src.paths import raw_text_path, task_output_dir
+from src.paths import raw_text_path, scenarios_path, task_output_dir
 from src.utils.quote_verify import verify_quote
 
 
@@ -676,15 +676,19 @@ def _generate_review_md_2c(data: dict, scenario_text: str) -> str:
 
 def generate_review_docs_2c(
     config: dict,
-    drive_root: str,
     repo_root: str = ".",
+    dry_run: bool = False,
 ) -> None:
-    """Generate review docs, summary CSV, and consolidated JSON for a 2c experiment."""
-    experiment = config["experiment"]
-    exp_dir = os.path.join(
-        drive_root, "stages", "2c_threat_model",
-        "experiments", experiment,
-    )
+    """Generate review docs, summary CSV, and consolidated JSON for Task 2C.
+
+    Reads and writes <repo_root>/output/<model_name>/07_task_2c/ (the folder run_2c filled).
+
+    Args:
+        config: Dict with at least a "model" key (the same config given to run_2c).
+        repo_root: Path to the repo root (output/scenarios_final.json, output/).
+        dry_run: Use the dry-run folder (output/<model_name>_dryrun/07_task_2c/).
+    """
+    exp_dir = task_output_dir(repo_root, config["model"], "07_task_2c", dry_run=dry_run)
     outputs_dir = os.path.join(exp_dir, "outputs")
     review_dir = os.path.join(exp_dir, "review")
     os.makedirs(review_dir, exist_ok=True)
@@ -698,14 +702,11 @@ def generate_review_docs_2c(
         print("No output files found. Run run_2c first.")
         return
 
-    # Load verified scenarios to get scenario_text for each
-    scenarios_path = os.path.join(
-        drive_root, "stages", "2a_scenario_extraction",
-        "verified", "consolidated_verified.json",
-    )
+    # Load the final scenarios to get scenario_text for each
+    scenarios_file = scenarios_path(repo_root)
     scenario_text_lookup = {}
-    if os.path.exists(scenarios_path):
-        with open(scenarios_path, "r", encoding="utf-8") as f:
+    if os.path.exists(scenarios_file):
+        with open(scenarios_file, "r", encoding="utf-8") as f:
             for s in json.load(f):
                 key = f"{s['paper_id']}_{s['scenario_id']}"
                 scenario_text_lookup[key] = s.get("scenario_text", "")
