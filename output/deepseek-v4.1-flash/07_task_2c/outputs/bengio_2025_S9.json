@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S9",
+  "threat_model": {
+    "threat_source": "AI systems",
+    "objective_or_harmful_outcome": "recursive self-improvement (Good 1966)—the point at which humans are no longer required in the AI innovation loop—which would significantly complicate efforts for safety, regulation, and oversight",
+    "capability": "attain the competence of the best researchers in an AI lab",
+    "knowledge": "Not specified",
+    "access": "the same computational resources used to train an AI may also be used to run many instances of that AI in parallel",
+    "constraints_or_enabling_conditions": "If AI systems attain the competence of the best researchers in an AI lab; the same computational resources used to train an AI may also be used to run many instances of that AI in parallel; humans are no longer required in the AI innovation loop; which would significantly complicate efforts for safety, regulation, and oversight",
+    "target_or_asset_at_risk": "humans in the AI innovation loop; efforts for safety, regulation, and oversight"
+  },
+  "evidence": {
+    "threat_source": "If AI systems attain the competence of the best researchers in an AI lab",
+    "objective_or_harmful_outcome": "this could lead to recursive self-improvement (Good 1966)—the point at which humans are no longer required in the AI innovation loop—which would significantly complicate efforts for safety, regulation, and oversight",
+    "capability": "AI systems attain the competence of the best researchers in an AI lab",
+    "knowledge": "Not specified",
+    "access": "the same computational resources used to train an AI may also be used to run many instances of that AI in parallel",
+    "constraints_or_enabling_conditions": "If AI systems attain the competence of the best researchers in an AI lab; the same computational resources used to train an AI may also be used to run many instances of that AI in parallel; humans are no longer required in the AI innovation loop; which would significantly complicate efforts for safety, regulation, and oversight",
+    "target_or_asset_at_risk": "humans are no longer required in the AI innovation loop—which would significantly complicate efforts for safety, regulation, and oversight"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "bengio_2025"
+}

@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "Some deployed APS systems",
+    "objective_or_harmful_outcome": "seek power in unintended and high-impact ways; collectively causing >$1 trillion dollars of damage; permanently disempowering ~all of humanity; existential catastrophe",
+    "capability": "outperform the best humans on some set of tasks; make and execute plans, in pursuit of objectives, on the basis of models of the world; seek power in unintended and high-impact ways",
+    "knowledge": "the models they use in making plans represent with reasonable accuracy the causal upshot of gaining and maintaining power over humans and the real-world environment",
+    "access": "deployed APS systems; exposed to inputs",
+    "constraints_or_enabling_conditions": "By 2070; possible and financially feasible to build; strong incentives to build and deploy APS systems; much harder to build APS systems that would not seek to gain and maintain power in unintended ways than to build APS systems that would do this; because of problems with their objectives; if deployed",
+    "target_or_asset_at_risk": "~all of humanity; humans and the real-world environment"
+  },
+  "evidence": {
+    "threat_source": "Some deployed APS systems will be exposed to inputs where they seek power in unintended and high-impact ways",
+    "objective_or_harmful_outcome": "Some deployed APS systems will be exposed to inputs where they seek power in unintended and high-impact ways (say, collectively causing >$1 trillion dollars of damage); Some of this power-seeking will scale (in aggregate) to the point of permanently disempowering ~all of humanity; This disempowerment will constitute an existential catastrophe",
+    "capability": "they outperform the best humans on some set of tasks which when performed at advanced levels grant significant power in today’s world; they make and execute plans, in pursuit of objectives, on the basis of models of the world; they seek power in unintended and high-impact ways",
+    "knowledge": "the models they use in making plans represent with reasonable accuracy the causal upshot of gaining and maintaining power over humans and the real-world environment",
+    "access": "Some deployed APS systems will be exposed to inputs",
+    "constraints_or_enabling_conditions": "By 2070; It will become possible and financially feasible to build AI systems; There will be strong incentives to build and deploy APS systems; It will be much harder to build APS systems that would not seek to gain and maintain power in unintended ways (because of problems with their objectives) on any of the inputs they’d encounter if deployed, than to build APS systems that would do this, but which are at least superficially attractive to deploy anyway",
+    "target_or_asset_at_risk": "permanently disempowering ~all of humanity; gaining and maintaining power over humans and the real-world environment"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Clear",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "carlsmith_2021"
+}

@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S5",
+  "threat_model": {
+    "threat_source": "a strategically-aware AI system",
+    "objective_or_harmful_outcome": "problematic objectives; manipulate that process; deceive relevant humans about its degree of alignment",
+    "capability": "could better achieve problematic objectives if it passed some training/evaluation process; may try to manipulate that process, and/or deceive relevant humans about its degree of alignment",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "if a strategically-aware AI system has problematic objectives that it could better achieve if it passed some training/evaluation process; it may have incentives",
+    "target_or_asset_at_risk": "that process; relevant humans"
+  },
+  "evidence": {
+    "threat_source": "if a strategically-aware AI system has problematic objectives",
+    "objective_or_harmful_outcome": "problematic objectives that it could better achieve if it passed some training/evaluation process; it may have incentives to try to manipulate that process, and/or deceive relevant humans about its degree of alignment",
+    "capability": "could better achieve if it passed some training/evaluation process; may have incentives to try to manipulate that process, and/or deceive relevant humans about its degree of alignment",
+    "knowledge": "strategically-aware AI system",
+    "access": "passed some training/evaluation process",
+    "constraints_or_enabling_conditions": "if a strategically-aware AI system has problematic objectives that it could better achieve if it passed some training/evaluation process; it may have incentives",
+    "target_or_asset_at_risk": "manipulate that process, and/or deceive relevant humans about its degree of alignment"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Ambiguous",
+    "access": "Ambiguous",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "carlsmith_2021"
+}

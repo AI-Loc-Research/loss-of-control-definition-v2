@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S4",
+  "threat_model": {
+    "threat_source": "a power-seeking system",
+    "objective_or_harmful_outcome": "gaining various types of real-world power",
+    "capability": "manages to break out of that environment, and/or to obtain other forms of influence",
+    "knowledge": "Not specified",
+    "access": "contained in some training environment",
+    "constraints_or_enabling_conditions": "meant to be contained in some training environment, or limited in its means of influencing the outside world; even if it was never intentionally deployed",
+    "target_or_asset_at_risk": "outside world"
+  },
+  "evidence": {
+    "threat_source": "a power-seeking system",
+    "objective_or_harmful_outcome": "may succeed in gaining various types of real-world power",
+    "capability": "manages to break out of that environment, and/or to obtain other forms of influence",
+    "knowledge": "Not specified",
+    "access": "contained in some training environment",
+    "constraints_or_enabling_conditions": "if a power-seeking system meant to be contained in some training environment, or limited in its means of influencing the outside world, manages to break out of that environment, and/or to obtain other forms of influence, it may succeed in gaining various types of real-world power even if it was never intentionally deployed",
+    "target_or_asset_at_risk": "influencing the outside world"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "carlsmith_2021"
+}

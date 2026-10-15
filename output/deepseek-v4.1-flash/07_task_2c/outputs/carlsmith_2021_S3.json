@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S3",
+  "threat_model": {
+    "threat_source": "an AI system",
+    "objective_or_harmful_outcome": "actively trying to get deployed; try deceive or manipulate its trainers; behaves badly only on the latter",
+    "capability": "try deceive or manipulate its trainers; differentiate between training/testing inputs and deployment inputs; behaves badly only on the latter",
+    "knowledge": "Not specified",
+    "access": "its trainers; training/testing inputs and deployment inputs",
+    "constraints_or_enabling_conditions": "to the extent that an AI system is actively trying to get deployed; because the real-world influence deployment grants would offer greater opportunity to achieve its objectives; such that it behaves badly only on the latter; once its prospects for gaining/maintaining power are sufficiently good",
+    "target_or_asset_at_risk": "its trainers"
+  },
+  "evidence": {
+    "threat_source": "an AI system is actively trying to get deployed",
+    "objective_or_harmful_outcome": "actively trying to get deployed; try deceive or manipulate its trainers; behaves badly only on the latter",
+    "capability": "it might do things like try deceive or manipulate its trainers, and/or to differentiate between training/testing inputs and deployment inputs, such that it behaves badly only on the latter",
+    "knowledge": "Not specified",
+    "access": "try deceive or manipulate its trainers, and/or to differentiate between training/testing inputs and deployment inputs",
+    "constraints_or_enabling_conditions": "to the extent that an AI system is actively trying to get deployed (for example, because the real-world influence deployment grants would offer greater opportunity to achieve its objectives), it might do things like try deceive or manipulate its trainers, and/or to differentiate between training/testing inputs and deployment inputs, such that it behaves badly only on the latter, and once its prospects for gaining/maintaining power are sufficiently good.",
+    "target_or_asset_at_risk": "try deceive or manipulate its trainers"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "carlsmith_2021"
+}
