@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S12",
+  "threat_model": {
+    "threat_source": "the AI",
+    "objective_or_harmful_outcome": "answers that shape real-world events in dangerous ways (e.g., self-fulfilling prophecies)",
+    "capability": "could select an arbitrary value; could choose among these different solutions without penalty; introduce \"degrees of freedom\" to influence the world",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "The indeterminacy just described introduces a potential vulnerability; If the AI could choose among these different solutions without penalty; This leeway could be exploited",
+    "target_or_asset_at_risk": "its output; the world; real-world events"
+  },
+  "evidence": {
+    "threat_source": "the AI could select an arbitrary value; If the AI could choose among these different solutions without penalty",
+    "objective_or_harmful_outcome": "This leeway could be exploited to nudge the AI toward answers that shape real-world events in dangerous ways (e.g., self-fulfilling prophecies).",
+    "capability": "the AI could select an arbitrary value; If the AI could choose among these different solutions without penalty, it would effectively introduce \"degrees of freedom\" to influence the world.",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "The indeterminacy just described introduces a potential vulnerability; If the AI could choose among these different solutions without penalty; This leeway could be exploited",
+    "target_or_asset_at_risk": "hidden influences to alter its output; influence the world; shape real-world events in dangerous ways"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "bengio_2025"
+}

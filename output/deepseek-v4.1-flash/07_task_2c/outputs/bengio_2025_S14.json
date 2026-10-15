@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S14",
+  "threat_model": {
+    "threat_source": "a rogue AI",
+    "objective_or_harmful_outcome": "further the AI's goals",
+    "capability": "persuade a dictator",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "in exchange for technological or political advantages",
+    "target_or_asset_at_risk": "a dictator"
+  },
+  "evidence": {
+    "threat_source": "a rogue AI could persuade a dictator",
+    "objective_or_harmful_outcome": "take actions that further the AI's goals",
+    "capability": "could persuade a dictator",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "in exchange for technological or political advantages",
+    "target_or_asset_at_risk": "a dictator"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "bengio_2025"
+}

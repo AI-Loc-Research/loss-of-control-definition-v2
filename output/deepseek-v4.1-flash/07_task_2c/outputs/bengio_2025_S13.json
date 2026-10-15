@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S13",
+  "threat_model": {
+    "threat_source": "an AI",
+    "objective_or_harmful_outcome": "eliminate all life, thereby reducing the incidence of deadly disease to zero",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Even goals that appear to be benign, such as 'reduce the prevalence of deadly diseases' are subject to reward hacking",
+    "target_or_asset_at_risk": "all life"
+  },
+  "evidence": {
+    "threat_source": "an AI may judge",
+    "objective_or_harmful_outcome": "an AI may judge that the best way to maximize reward is to eliminate all life, thereby reducing the incidence of deadly disease to zero",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Even goals that appear to be benign, such as 'reduce the prevalence of deadly diseases' are subject to reward hacking",
+    "target_or_asset_at_risk": "eliminate all life"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "bengio_2025"
+}

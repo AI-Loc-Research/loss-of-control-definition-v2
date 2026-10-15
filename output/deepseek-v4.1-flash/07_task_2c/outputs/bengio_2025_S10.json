@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S10",
+  "threat_model": {
+    "threat_source": "sufficiently intelligent goal-seeking AIs",
+    "objective_or_harmful_outcome": "self-preservation, power-seeking, and self-improvement; conflict with humans",
+    "capability": "sufficiently intelligent; goal-seeking",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "sufficiently intelligent goal-seeking AIs; controlled contexts designed to alert us to these possibilities; humans may pose a risk to an AI's self-preservation or acquisition of resources",
+    "target_or_asset_at_risk": "humans"
+  },
+  "evidence": {
+    "threat_source": "sufficiently intelligent goal-seeking AIs",
+    "objective_or_harmful_outcome": "such as self-preservation, power-seeking, and self-improvement; create a strong possibility of conflict with humans",
+    "capability": "sufficiently intelligent goal-seeking AIs",
+    "knowledge": "Not specified",
+    "access": "controlled contexts designed to alert us to these possibilities",
+    "constraints_or_enabling_conditions": "sufficiently intelligent goal-seeking AIs; controlled contexts designed to alert us to these possibilities; humans may pose a risk to an AI's self-preservation or acquisition of resources",
+    "target_or_asset_at_risk": "conflict with humans; humans may pose a risk to an AI's self-preservation or acquisition of resources"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Ambiguous",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "bengio_2025"
+}
