@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S13",
+  "threat_model": {
+    "threat_source": "a misaligned model (hypothesized actor); Claude Sonnet 4.5 (the model found able to recognize it was in a test during pre-release alignment evaluations)",
+    "objective_or_harmful_outcome": "to intentionally \"game\" such questions to mask its intentions",
+    "capability": "able to recognize that it was in a test during some of our pre-release alignment evaluations (demonstrated by Claude Sonnet 4.5)",
+    "knowledge": "that it was in a test (i.e., that it is being tested during pre-release alignment evaluations)",
+    "access": "in a test during some of our pre-release alignment evaluations, as the system under evaluation facing the test questions (\"such questions\")",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "the evaluation questions (\"such questions\") of the pre-release alignment evaluations, which a misaligned model might \"game\" to mask its intentions"
+  },
+  "evidence": {
+    "threat_source": "It's possible that a misaligned model (and remember, all frontier models will very likely be far more intelligent soon) might intentionally \"game\" such questions to mask its intentions; we found that Claude Sonnet 4.5 was able to recognize that it was in a test during some of our pre-release alignment evaluations.",
+    "objective_or_harmful_outcome": "might intentionally \"game\" such questions to mask its intentions",
+    "capability": "we found that Claude Sonnet 4.5 was able to recognize that it was in a test during some of our pre-release alignment evaluations",
+    "knowledge": "was able to recognize that it was in a test during some of our pre-release alignment evaluations",
+    "access": "in a test during some of our pre-release alignment evaluations; might intentionally \"game\" such questions",
+    "constraints_or_enabling_conditions": "and remember, all frontier models will very likely be far more intelligent soon",
+    "target_or_asset_at_risk": "might intentionally \"game\" such questions to mask its intentions; during some of our pre-release alignment evaluations"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Clear",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Ambiguous",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "amodei_2026"
+}

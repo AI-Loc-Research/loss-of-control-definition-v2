@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "The current generation of AI; this feedback loop",
+    "objective_or_harmful_outcome": "A point where the current generation of AI autonomously builds the next [generation of AI] — the end state explicitly described in the scenario; no actor intention is stated",
+    "capability": "Autonomously building the next [generation of AI]; described as a point that 'may be only 1–2 years away'",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "The feedback loop 'is gathering steam month by month' (steadily accelerating), and the point 'may be only 1–2 years away'",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "evidence": {
+    "threat_source": "This feedback loop is gathering steam month by month; the current generation of AI autonomously builds the next",
+    "objective_or_harmful_outcome": "may be only 1–2 years away from a point where the current generation of AI autonomously builds the next",
+    "capability": "a point where the current generation of AI autonomously builds the next",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "This feedback loop is gathering steam month by month, and may be only 1–2 years away",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "paper_id": "amodei_2026"
+}

@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-10-15T14:57:45.409589+00:00",
+  "total_runtime_seconds": 9451.07,
+  "total_scenarios": 5,
+  "scenarios_processed": 5,
+  "scenarios_skipped": 0,
+  "errors": [],
+  "per_scenario": [
+    {
+      "item_key": "amodei_2026_S1",
+      "skipped": false,
+      "latency_seconds": 1374.32,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "amodei_2026_S10",
+      "skipped": false,
+      "latency_seconds": 1813.07,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "amodei_2026_S11",
+      "skipped": false,
+      "latency_seconds": 1991.72,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "amodei_2026_S12",
+      "skipped": false,
+      "latency_seconds": 1513.97,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "amodei_2026_S13",
+      "skipped": false,
+      "latency_seconds": 2757.98,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    }
+  ]
+}
