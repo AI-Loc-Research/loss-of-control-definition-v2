@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "systems that can recursively self-improve and pursue their own goals",
+    "objective_or_harmful_outcome": "eradicate humanity",
+    "capability": "recursively self-improve and pursue their own goals",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "an AI race between the United States and China drives the rapid development of systems",
+    "target_or_asset_at_risk": "humanity"
+  },
+  "evidence": {
+    "threat_source": "systems that can recursively self-improve and pursue their own goals",
+    "objective_or_harmful_outcome": "could – purposely or as collateral damage – eradicate humanity",
+    "capability": "can recursively self-improve and pursue their own goals",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "an AI race between the United States and China drives the rapid development of systems",
+    "target_or_asset_at_risk": "eradicate humanity"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kalra_2025"
+}

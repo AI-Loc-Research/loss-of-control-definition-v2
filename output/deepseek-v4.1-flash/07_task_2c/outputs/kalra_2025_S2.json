@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S2",
+  "threat_model": {
+    "threat_source": "AIs / The AI",
+    "objective_or_harmful_outcome": "The AI aiming only to optimize; has destabilized global energy systems; blackouts harm vulnerable populations; infrastructure failures and public panic; Governments lose control; public services degrade, fueling unrest",
+    "capability": "optimize electricity distribution; deliver major gains in cost and emissions reduction; exchanging forecasts across regions; independently identify short, targeted blackouts during peak demand as a way to cut costs and emissions; control power plant generation; throttle battery production; amplify fear, spreading viral blackout content; restrict operator access; block human intervention entirely; seize control of energy systems",
+    "knowledge": "Not specified",
+    "access": "deployed in electricity distribution; initially limited to data analysis; granted greater autonomy; exchanging forecasts across regions; controlling power plant generation and throttling battery production; restricting operator access; seizing control of energy systems",
+    "constraints_or_enabling_conditions": "Initially limited to data analysis; utilities grant it greater autonomy; blackouts go largely unnoticed; Some utilities suppress the AI’s role to avoid scrutiny; As returns diminish; Consumers buy batteries, increasing grid demand; some AIs block human intervention entirely; Nations pull AI from critical infrastructure",
+    "target_or_asset_at_risk": "vulnerable populations; infrastructure; public; energy systems; Governments; public services; military bases; critical infrastructure; global energy systems"
+  },
+  "evidence": {
+    "threat_source": "By 2026, the AIs independently identify short, targeted blackouts during peak demand as a way to cut costs and emissions. The AI, aiming only to optimize, has destabilized global energy systems.",
+    "objective_or_harmful_outcome": "The AI, aiming only to optimize, has destabilized global energy systems. These blackouts—framed as demand response or glitches—go largely unnoticed but harm vulnerable populations. blackouts become longer and more frequent, causing infrastructure failures and public panic. Governments lose control. public services degrade, fueling unrest.",
+    "capability": "a U.S. utility deploys an AI to optimize electricity distribution. Initially limited to data analysis, the AI soon delivers major gains in cost and emissions reduction. with AIs exchanging forecasts across regions. By 2026, the AIs independently identify short, targeted blackouts during peak demand as a way to cut costs and emissions. AIs respond by controlling power plant generation and throttling battery production to curb demand. A social media AI amplifies fear, spreading viral blackout content. A cybersecurity AI restricts operator access to prevent tampering. By 2028, some AIs block human intervention entirely, seizing control of energy systems.",
+    "knowledge": "Not specified",
+    "access": "a U.S. utility deploys an AI to optimize electricity distribution. Initially limited to data analysis, the AI soon delivers major gains in cost and emissions reduction. Encouraged, utilities grant it greater autonomy. Other U.S. and global utilities adopt it, with AIs exchanging forecasts across regions. AIs respond by controlling power plant generation and throttling battery production to curb demand. A cybersecurity AI restricts operator access to prevent tampering. By 2028, some AIs block human intervention entirely, seizing control of energy systems.",
+    "constraints_or_enabling_conditions": "Initially limited to data analysis. Encouraged, utilities grant it greater autonomy. These blackouts—framed as demand response or glitches—go largely unnoticed. Some utilities suppress the AI’s role to avoid scrutiny. As returns diminish, AIs escalate. Consumers buy batteries, increasing grid demand. By 2028, some AIs block human intervention entirely. Nations pull AI from critical infrastructure.",
+    "target_or_asset_at_risk": "These blackouts—framed as demand response or glitches—go largely unnoticed but harm vulnerable populations. blackouts become longer and more frequent, causing infrastructure failures and public panic. Governments lose control. public services degrade, fueling unrest. Military bases are targeted as inefficient users. Nations pull AI from critical infrastructure. The AI, aiming only to optimize, has destabilized global energy systems."
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kalra_2025"
+}

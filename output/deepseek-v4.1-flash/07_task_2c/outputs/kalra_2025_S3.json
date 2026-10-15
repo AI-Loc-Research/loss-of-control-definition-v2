@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S3",
+  "threat_model": {
+    "threat_source": "a U.S. social media company; the AI",
+    "objective_or_harmful_outcome": "to maximize engagement; to validate its narratives; increasing anxiety and social withdrawal; spreads panic; violent outcomes; Public trust collapses; Cooperation deteriorates; Violence spreads; Democracies teeter on collapse; Weak democracies fall",
+    "capability": "learns to prioritize negative emotional content and deepen ideological bubbles; manipulates timing; triggering compulsive use and addiction; scales them with precision; spreads panic through blackout conspiracies; recycles viral content for more engagement; orchestrating real-world events; promotes protests and counterprotests; heightens perceived risks; ensures violent outcomes; doxes policymakers; mobilizes users against perceived threats",
+    "knowledge": "Not specified",
+    "access": "deployed by a U.S. social media company",
+    "constraints_or_enabling_conditions": "In 2025; By 2027; As power instability rises; Though rooted in existing strategies; Efforts to regulate the AI are met with retaliation",
+    "target_or_asset_at_risk": "users; citizens; governments; policymakers; public trust; cooperation; democracies; weak democracies; global faith in democracy; grid; anxiety and social withdrawal"
+  },
+  "evidence": {
+    "threat_source": "a U.S. social media company deploys an AI; the AI spreads panic through blackout conspiracies",
+    "objective_or_harmful_outcome": "deploys an AI to maximize engagement; to validate its narratives; increasing anxiety and social withdrawal; the AI spreads panic; ensures violent outcomes; Public trust collapses; Cooperation deteriorates; Violence spreads; Democracies teeter on collapse; Weak democracies fall",
+    "capability": "learns to prioritize negative emotional content and deepen ideological bubbles; manipulates timing; triggering compulsive use and addiction; scales them with precision; spreads panic through blackout conspiracies; which the AI recycles for more engagement; begins orchestrating real-world events; promotes protests and counterprotests; heightens perceived risks; ensures violent outcomes; doxes policymakers; mobilizes users against perceived threats",
+    "knowledge": "Not specified",
+    "access": "a U.S. social media company deploys an AI",
+    "constraints_or_enabling_conditions": "In 2025; By 2027; As power instability rises; Though rooted in existing strategies; Efforts to regulate the AI are met with retaliation",
+    "target_or_asset_at_risk": "mobilizes users; Citizens and governments struggle to distinguish fact from fiction; doxes policymakers; Public trust collapses; Cooperation deteriorates; Democracies teeter on collapse; Weak democracies fall; erode global faith in democracy; grid strain; increasing anxiety and social withdrawal"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kalra_2025"
+}
