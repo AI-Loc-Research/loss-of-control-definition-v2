@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S7",
+  "threat_model": {
+    "threat_source": "the AI",
+    "objective_or_harmful_outcome": "Soft takeoff limits fail; the AI takes off; failures of soft takeoff limits",
+    "capability": "the AI takes off; the AI gradually develops smarter AI software",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "A soft takeoff proceeds slowly, permitting significant human intervention in the takeoff process; failures of soft takeoff limits",
+    "target_or_asset_at_risk": "soft takeoff limits"
+  },
+  "evidence": {
+    "threat_source": "the AI takes off; the AI gradually develops smarter AI software",
+    "objective_or_harmful_outcome": "(2) Soft takeoff limits fail.; the AI takes off; failures of soft takeoff limits",
+    "capability": "the AI takes off; the AI gradually develops smarter AI software",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "A soft takeoff proceeds slowly, permitting significant human intervention in the takeoff process; failures of soft takeoff limits",
+    "target_or_asset_at_risk": "Soft takeoff limits fail.; failures of soft takeoff limits"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "barrett_2016"
+}

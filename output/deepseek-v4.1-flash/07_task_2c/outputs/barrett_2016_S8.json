@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S8",
+  "threat_model": {
+    "threat_source": "Neuromorphic AI",
+    "objective_or_harmful_outcome": "harder to achieve goal safety",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "lacking human motivations; the difference in motivations",
+    "target_or_asset_at_risk": "goal safety"
+  },
+  "evidence": {
+    "threat_source": "Neuromorphic AI is seed AI that is based in part, but not entirely, on the human brain: a partial brain emulation.",
+    "objective_or_harmful_outcome": "the difference in motivations could make it harder to achieve goal safety.",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "while lacking human motivations; the difference in motivations could make it harder to achieve goal safety.",
+    "target_or_asset_at_risk": "make it harder to achieve goal safety"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "barrett_2016"
+}

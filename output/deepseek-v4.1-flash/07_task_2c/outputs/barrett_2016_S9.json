@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S9",
+  "threat_model": {
+    "threat_source": "some sort of adversary: a rogue member of the AI R&D team, an external party such as a competing ASI team or a misguided governing body, or another AI, as in AI enforcement",
+    "objective_or_harmful_outcome": "ASI goals become unsafe",
+    "capability": "interference",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "ASI goals"
+  },
+  "evidence": {
+    "threat_source": "The adversary could be a rogue member of the AI R&D team, an external party such as a competing ASI team or a misguided governing body, or another AI, as in AI enforcement.",
+    "objective_or_harmful_outcome": "the ASI goals become unsafe due to interference by some sort of adversary",
+    "capability": "due to interference by some sort of adversary",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "the ASI goals become unsafe"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "barrett_2016"
+}

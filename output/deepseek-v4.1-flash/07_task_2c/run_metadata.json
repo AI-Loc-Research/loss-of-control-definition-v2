@@ -1,65 +1,65 @@
 {
-  "timestamp": "2026-10-15T18:04:53.270570+00:00",
-  "total_runtime_seconds": 1138.69,
+  "timestamp": "2026-10-15T18:23:53.744916+00:00",
+  "total_runtime_seconds": 1264.47,
   "total_scenarios": 5,
   "scenarios_processed": 5,
   "scenarios_skipped": 0,
-  "errors": [],
+  "errors": [
+    {
+      "item_key": "bengio_2024_S2",
+      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
+    }
+  ],
   "per_scenario": [
     {
-      "item_key": "barrett_2016_S10",
+      "item_key": "barrett_2016_S7",
       "skipped": false,
-      "latency_seconds": 265.62,
+      "latency_seconds": 284.21,
       "usage": {
-        "prompt_tokens": 1398,
-        "completion_tokens": 6823
+        "prompt_tokens": 1412,
+        "completion_tokens": 7955
       },
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "barrett_2016_S3",
+      "item_key": "barrett_2016_S8",
       "skipped": false,
-      "latency_seconds": 214.72,
+      "latency_seconds": 260.82,
       "usage": {
-        "prompt_tokens": 1426,
-        "completion_tokens": 8340
+        "prompt_tokens": 1368,
+        "completion_tokens": 3998
       },
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "barrett_2016_S4",
+      "item_key": "barrett_2016_S9",
       "skipped": false,
-      "latency_seconds": 217.68,
+      "latency_seconds": 186.91,
       "usage": {
-        "prompt_tokens": 1366,
-        "completion_tokens": 7329
+        "prompt_tokens": 1368,
+        "completion_tokens": 2626
       },
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "barrett_2016_S5",
+      "item_key": "bengio_2024_S1",
       "skipped": false,
-      "latency_seconds": 215.5,
+      "latency_seconds": 230.37,
       "usage": {
-        "prompt_tokens": 1418,
-        "completion_tokens": 7405
+        "prompt_tokens": 1564,
+        "completion_tokens": 9784
       },
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "barrett_2016_S6",
+      "item_key": "bengio_2024_S2",
       "skipped": false,
-      "latency_seconds": 225.17,
-      "usage": {
-        "prompt_tokens": 1465,
-        "completion_tokens": 4337
-      },
-      "stop_reason": "stop",
-      "model_served": null
+      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504",
+      "latency_seconds": 302.15
     }
   ]
 }
