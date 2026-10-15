@@ -59,6 +59,19 @@ MODELS = {
         "top_p": 0.95,
         "max_new_tokens": 32768,
     },
+
+    # GLM-5.3 (Zhipu / Z.ai; open weights, "glm-5.3" license) through NVIDIA's free API.
+    # Sampling = the setting its model card reports (temperature 1.0, top_p 0.95).
+    # Its card: thinking depth via "reasoning_effort" (low/high/max, default max); not set here,
+    # same as the other presets. max_new_tokens as the other NVIDIA presets.
+    "glm-5.3-nvidia": {
+        "backend": "nvidia",
+        "model": "z-ai/glm-5.3",
+        "base_url": "https://integrate.api.nvidia.com/v1",
+        "temperature": 1.0,
+        "top_p": 0.95,
+        "max_new_tokens": 32768,
+    },
 }
 
 API_KEY_NAMES = {
