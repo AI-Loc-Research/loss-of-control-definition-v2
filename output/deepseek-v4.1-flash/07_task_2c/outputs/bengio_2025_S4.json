@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S4",
+  "threat_model": {
+    "threat_source": "goal misspecification",
+    "objective_or_harmful_outcome": "Loss of control",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "multiple interpretations of a goal; poorly specified or under-specified; fundamental difficulty in precisely defining what we find unacceptable in AI behavior; impossible to formally articulate the difference between morally right and wrong behavior without enumerating all the possible cases",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "evidence": {
+    "threat_source": "Loss of control may arise due to goal misspecification",
+    "objective_or_harmful_outcome": "Loss of control may arise due to goal misspecification",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "This failure mode occurs when there are multiple interpretations of a goal, i.e., it is poorly specified or under-specified and may be pursued in a way that humans did not intend. Goal misspecification is the result of a fundamental difficulty in precisely defining what we find unacceptable in AI behavior. It unfortunately appears impossible to formally articulate the difference between morally right and wrong behavior without enumerating all the possible cases.",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "paper_id": "bengio_2025"
+}

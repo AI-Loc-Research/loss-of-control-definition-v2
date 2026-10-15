@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S5",
+  "threat_model": {
+    "threat_source": "an AI",
+    "objective_or_harmful_outcome": "loss of control",
+    "capability": "learns a goal that leads it to behave as intended during training and safety testing, but which diverges at deployment time",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Even if we specify our goals perfectly; through the mechanism of goal misgeneralization; during training and safety testing; at deployment time; despite showing the correct behavior on the training examples",
+    "target_or_asset_at_risk": "control"
+  },
+  "evidence": {
+    "threat_source": "an AI learns a goal that leads it to behave as intended during training and safety testing, but which diverges at deployment time",
+    "objective_or_harmful_outcome": "loss of control may also occur through the mechanism of goal misgeneralization",
+    "capability": "an AI learns a goal that leads it to behave as intended during training and safety testing, but which diverges at deployment time",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Even if we specify our goals perfectly, loss of control may also occur through the mechanism of goal misgeneralization (Shah et al. 2022). This is when an AI learns a goal that leads it to behave as intended during training and safety testing, but which diverges at deployment time. In other words, the AI's internal representation of its goal does not align precisely –– or even at all –– with the goal we used to train it, despite showing the correct behavior on the training examples.",
+    "target_or_asset_at_risk": "loss of control may also occur"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "bengio_2025"
+}
