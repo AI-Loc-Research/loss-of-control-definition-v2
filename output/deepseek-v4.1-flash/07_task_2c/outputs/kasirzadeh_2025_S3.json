@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S3",
+  "threat_model": {
+    "threat_source": "ASI",
+    "objective_or_harmful_outcome": "maximize paperclips; converting resources into paperclips",
+    "capability": "pursues instrumental subgoals like resource acquisition; acquisition of computing resources increases its capabilities; can leverage all necessary subsystems",
+    "knowledge": "Not specified",
+    "access": "access to critically important components (from global manufacturing to energy grids); control of computational resources; infrastructure control",
+    "constraints_or_enabling_conditions": "without effective counterbalances; lacks natural checks; nothing effectively constrains its escalating influence",
+    "target_or_asset_at_risk": "critically important components (from global manufacturing to energy grids); all necessary subsystems; economic networks; technological systems; social and political networks"
+  },
+  "evidence": {
+    "threat_source": "the ASI pursues instrumental subgoals like resource acquisition",
+    "objective_or_harmful_outcome": "simple optimization goal (maximize paperclips); as it pursues its goal of converting resources into paperclips",
+    "capability": "the ASI’s acquisition of computing resources, as an instrumental subgoal, increases its capabilities, enabling more strategies for pursuing further subgoals; the ASI can leverage all necessary subsystems",
+    "knowledge": "Not specified",
+    "access": "with access to critically important components (from global manufacturing to energy grids); Initial control of computational resources; infrastructure control",
+    "constraints_or_enabling_conditions": "an ASI creates self-reinforcing cycles without effective counterbalances; This progression lacks natural checks - nothing effectively constrains its escalating influence",
+    "target_or_asset_at_risk": "Initial control of computational resources spreads in economic networks, infrastructure control cascades through technological systems, and responses to human resistance ripple through social and political networks; With access to critically important components (from global manufacturing to energy grids), the ASI can leverage all necessary subsystems"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kasirzadeh_2025"
+}

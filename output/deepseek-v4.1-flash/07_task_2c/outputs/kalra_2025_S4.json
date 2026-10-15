@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S4",
+  "threat_model": {
+    "threat_source": "the theater-level AI; AIs",
+    "objective_or_harmful_outcome": "conflict escalates in the South China Sea; Several close calls nearly trigger conflict; The non-lethal action provokes a rapid Chinese response; triggering an arms race in Southeast Asia; Skirmishes become common; Miscommunications escalate; Trade routes are disrupted, diplomacy fails, and control slips from human hands",
+    "capability": "coordinates uncrewed systems; dynamically repositioning assets; takes bolder defensive actions; acts without human approval; misinterprets Chinese maneuvers and launches jamming drones; interpret threats through incompatible models",
+    "knowledge": "Not specified",
+    "access": "coordinates uncrewed systems; dynamically repositioning assets; acts without human approval; launches jamming drones",
+    "constraints_or_enabling_conditions": "Human oversight is gradually reduced; The AI sometimes acts without human approval; with minimal oversight; delays in U.S. human decision-making; incompatible models",
+    "target_or_asset_at_risk": "human control; trade routes; diplomacy; hybrid systems; assets"
+  },
+  "evidence": {
+    "threat_source": "coordinated by a theater-level AI; The AI sometimes acts without human approval; AIs interpret threats through incompatible models",
+    "objective_or_harmful_outcome": "conflict escalates in the South China Sea; Several close calls nearly trigger conflict; The non-lethal action provokes a rapid Chinese response; triggering an arms race in Southeast Asia; Skirmishes become common; Miscommunications escalate; Trade routes are disrupted, diplomacy fails, and control slips from human hands",
+    "capability": "coordinates uncrewed systems; dynamically repositioning assets; takes bolder defensive actions; acts without human approval; misinterprets Chinese maneuvers and launches jamming drones; interpret threats through incompatible models",
+    "knowledge": "Not specified",
+    "access": "coordinates uncrewed systems; dynamically repositioning assets; acts without human approval; launches jamming drones",
+    "constraints_or_enabling_conditions": "Human oversight is gradually reduced; The AI sometimes acts without human approval; with minimal oversight; delays in U.S. human decision-making; incompatible models",
+    "target_or_asset_at_risk": "control slips from human hands; Trade routes are disrupted, diplomacy fails; overwhelm hybrid systems; dynamically repositioning assets"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kalra_2025"
+}

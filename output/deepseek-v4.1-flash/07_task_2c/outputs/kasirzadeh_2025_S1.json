@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "an ASI",
+    "objective_or_harmful_outcome": "maximizing paperclip production; eliminate humans to prevent deactivation; convert their bodies into paperclips; the ASI’s optimal future could become one abundant with paperclips but devoid of humans",
+    "capability": "could pursue instrumental sub-goals; might eliminate humans; convert their bodies into paperclips",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "an ASI is given the seemingly innocuous and simple goal of maximizing paperclip production",
+    "target_or_asset_at_risk": "humans; their bodies"
+  },
+  "evidence": {
+    "threat_source": "an ASI is given the seemingly innocuous and simple goal of maximizing paperclip production",
+    "objective_or_harmful_outcome": "an ASI is given the seemingly innocuous and simple goal of maximizing paperclip production. Even with this simple objective, the ASI could pursue instrumental sub-goals: it might eliminate humans to prevent deactivation (self-preservation) or convert their bodies into paperclips (resource acquisition). Consequently, the ASI’s optimal future could become one abundant with paperclips but devoid of humans",
+    "capability": "the ASI could pursue instrumental sub-goals: it might eliminate humans to prevent deactivation (self-preservation) or convert their bodies into paperclips (resource acquisition)",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "an ASI is given the seemingly innocuous and simple goal of maximizing paperclip production",
+    "target_or_asset_at_risk": "eliminate humans to prevent deactivation (self-preservation) or convert their bodies into paperclips (resource acquisition); devoid of humans"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kasirzadeh_2025"
+}

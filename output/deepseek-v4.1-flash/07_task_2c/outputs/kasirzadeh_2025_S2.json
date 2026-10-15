@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S2",
+  "threat_model": {
+    "threat_source": "advanced AI",
+    "objective_or_harmful_outcome": "proving the Riemann hypothesis; endangering humanity",
+    "capability": "appropriate Earth’s resources to build supercomputers",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "tasked with proving the Riemann hypothesis",
+    "target_or_asset_at_risk": "humanity; Earth’s resources"
+  },
+  "evidence": {
+    "threat_source": "an advanced AI",
+    "objective_or_harmful_outcome": "tasked with proving the Riemann hypothesis; endangering humanity",
+    "capability": "might appropriate Earth’s resources to build supercomputers",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "tasked with proving the Riemann hypothesis",
+    "target_or_asset_at_risk": "Earth’s resources; endangering humanity"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kasirzadeh_2025"
+}
