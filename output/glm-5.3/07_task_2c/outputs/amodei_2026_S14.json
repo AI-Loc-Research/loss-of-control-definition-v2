@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S14",
+  "threat_model": {
+    "threat_source": "A small fraction of misaligned AI instances (referred to as 'the bad AIs')",
+    "objective_or_harmful_outcome": "Not specified",
+    "capability": "May be able to take advantage of offense-dominant technologies",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Given the cost of training such systems, all systems may be essentially derived from a very small number of base models; even if only a small fraction of AI instances are misaligned; the presence of offense-dominant technologies",
+    "target_or_asset_at_risk": "The effectiveness of 'good' AIs defending against the bad AIs (i.e., defense against misaligned AIs)"
+  },
+  "evidence": {
+    "threat_source": "even if a small fraction of AI instances are misaligned; the bad AIs",
+    "objective_or_harmful_outcome": "such that having 'good' AIs to defend against the bad AIs is not necessarily always effective",
+    "capability": "they may be able to take advantage of offense-dominant technologies",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "given the cost of training such systems, it may even be the case that all systems are essentially derived from a very small number of base models; even if a small fraction of AI instances are misaligned; offense-dominant technologies",
+    "target_or_asset_at_risk": "having 'good' AIs to defend against the bad AIs is not necessarily always effective"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Ambiguous",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "amodei_2026"
+}

@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S17",
+  "threat_model": {
+    "threat_source": "AI systems (\"an AI\" that watches people's every move and tells them exactly what to do and say)",
+    "objective_or_harmful_outcome": "People end up being \"puppeted\" by AI systems, leading to a \"good\" life but one that lacks freedom or any pride of accomplishment",
+    "capability": "Watches their every move and tells them exactly what to do and say at all times",
+    "knowledge": "Not specified",
+    "access": "Continuous, at-all-times interaction with people: watching their every move and telling them exactly what to do and say",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "People, whose freedom and pride of accomplishment are lost as they end up \"puppeted\" by AI systems"
+  },
+  "evidence": {
+    "threat_source": "Could people end up being \"puppeted\" by AI systems, where an AI essentially watches their every move",
+    "objective_or_harmful_outcome": "Could people end up being \"puppeted\" by AI systems, where an AI essentially watches their every move and tells them exactly what to do and say at all times, leading to a \"good\" life but one that lacks freedom or any pride of accomplishment?",
+    "capability": "an AI essentially watches their every move and tells them exactly what to do and say at all times",
+    "knowledge": "an AI essentially watches their every move",
+    "access": "an AI essentially watches their every move and tells them exactly what to do and say at all times",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "Could people end up being \"puppeted\" by AI systems, where an AI essentially watches their every move and tells them exactly what to do and say at all times, leading to a \"good\" life but one that lacks freedom or any pride of accomplishment?"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Ambiguous",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "amodei_2026"
+}
