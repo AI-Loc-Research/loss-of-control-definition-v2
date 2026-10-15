@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S6",
+  "threat_model": {
+    "threat_source": "actors",
+    "objective_or_harmful_outcome": "potential “race to the bottom” scenarios, where actors compete to rapidly develop AI systems and under-invest in safety measures",
+    "capability": "rapidly develop AI systems and under-invest in safety measures",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Competition on AI; it could be challenging even for AI developers to commit unilaterally to stringent safety standards; lest their commitments put them at a competitive disadvantage",
+    "target_or_asset_at_risk": "safety measures; stringent safety standards"
+  },
+  "evidence": {
+    "threat_source": "actors compete to rapidly develop AI systems and under-invest in safety measures",
+    "objective_or_harmful_outcome": "potential “race to the bottom” scenarios, where actors compete to rapidly develop AI systems and under-invest in safety measures",
+    "capability": "actors compete to rapidly develop AI systems and under-invest in safety measures",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Competition on AI has raised concern about potential “race to the bottom” scenarios, where actors compete to rapidly develop AI systems and under-invest in safety measures. In such scenarios, it could be challenging even for AI developers to commit unilaterally to stringent safety standards, lest their commitments put them at a competitive disadvantage.",
+    "target_or_asset_at_risk": "under-invest in safety measures; commit unilaterally to stringent safety standards"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "dsit_frontier_ai"
+}

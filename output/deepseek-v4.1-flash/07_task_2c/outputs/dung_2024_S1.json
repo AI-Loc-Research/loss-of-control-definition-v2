@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "PAI (alone or in conjunction with humans)",
+    "objective_or_harmful_outcome": "faster than exponential growth in AI capacities, perhaps even to an 'intelligence explosion'",
+    "capability": "be able to innovate AI research; smart AI is able to design smarter AI which is in turn able to design even smarter AI; ability of AI to perform AI research",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "alone or in conjunction with humans; In the most extreme case",
+    "target_or_asset_at_risk": "AI capacities"
+  },
+  "evidence": {
+    "threat_source": "PAI may— alone or in conjunction with humans— be able to innovate AI research",
+    "objective_or_harmful_outcome": "In the most extreme case, the ability of AI to perform AI research might lead to faster than exponential growth in AI capacities, perhaps even to an 'intelligence explosion'.",
+    "capability": "PAI may— alone or in conjunction with humans— be able to innovate AI research; smart AI is able to design smarter AI which is in turn able to design even smarter AI; ability of AI to perform AI research",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "alone or in conjunction with humans; In the most extreme case",
+    "target_or_asset_at_risk": "faster than exponential growth in AI capacities"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "dung_2024"
+}

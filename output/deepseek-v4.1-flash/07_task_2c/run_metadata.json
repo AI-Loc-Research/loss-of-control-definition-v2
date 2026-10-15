@@ -1,62 +1,62 @@
 {
-  "timestamp": "2026-10-15T20:48:18.596148+00:00",
-  "total_runtime_seconds": 624.92,
+  "timestamp": "2026-10-15T20:58:45.272399+00:00",
+  "total_runtime_seconds": 715.17,
   "total_scenarios": 5,
   "scenarios_processed": 5,
   "scenarios_skipped": 0,
   "errors": [],
   "per_scenario": [
     {
-      "item_key": "critch_2023_S1",
+      "item_key": "dsit_frontier_ai_S3",
       "skipped": false,
-      "latency_seconds": 168.56,
+      "latency_seconds": 143.99,
       "usage": {
-        "prompt_tokens": 2249,
-        "completion_tokens": 9912
+        "prompt_tokens": 1368,
+        "completion_tokens": 4932
       },
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "dafoe_2020_S1",
+      "item_key": "dsit_frontier_ai_S4",
       "skipped": false,
-      "latency_seconds": 101.85,
+      "latency_seconds": 118.43,
       "usage": {
-        "prompt_tokens": 1354,
-        "completion_tokens": 4596
+        "prompt_tokens": 1332,
+        "completion_tokens": 3331
       },
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "dafoe_2020_S2",
+      "item_key": "dsit_frontier_ai_S5",
       "skipped": false,
-      "latency_seconds": 63.76,
+      "latency_seconds": 98.8,
       "usage": {
-        "prompt_tokens": 1331,
-        "completion_tokens": 2566
+        "prompt_tokens": 1349,
+        "completion_tokens": 5319
       },
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "dsit_frontier_ai_S1",
+      "item_key": "dsit_frontier_ai_S6",
       "skipped": false,
-      "latency_seconds": 85.05,
+      "latency_seconds": 186.06,
       "usage": {
-        "prompt_tokens": 1391,
-        "completion_tokens": 4777
+        "prompt_tokens": 1373,
+        "completion_tokens": 5719
       },
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "dsit_frontier_ai_S2",
+      "item_key": "dung_2024_S1",
       "skipped": false,
-      "latency_seconds": 205.7,
+      "latency_seconds": 167.88,
       "usage": {
-        "prompt_tokens": 1348,
-        "completion_tokens": 9127
+        "prompt_tokens": 1403,
+        "completion_tokens": 4503
       },
       "stop_reason": "stop",
       "model_served": null

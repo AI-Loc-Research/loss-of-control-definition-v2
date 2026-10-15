@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S5",
+  "threat_model": {
+    "threat_source": "systems",
+    "objective_or_harmful_outcome": "cyberattacks; autonomous replication; self-improving exploit generation",
+    "capability": "act on the internet; perform their own cyberattacks autonomously; autonomous replication; self-improving exploit generation",
+    "knowledge": "Not specified",
+    "access": "act on the internet",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "evidence": {
+    "threat_source": "systems that can act on the internet to perform their own cyberattacks autonomously",
+    "objective_or_harmful_outcome": "perform their own cyberattacks autonomously. Behaviours such as autonomous replication and self-improving exploit generation are of particular concern",
+    "capability": "can act on the internet to perform their own cyberattacks autonomously. Behaviours such as autonomous replication and self-improving exploit generation are of particular concern",
+    "knowledge": "Not specified",
+    "access": "act on the internet",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "paper_id": "dsit_frontier_ai"
+}

@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S4",
+  "threat_model": {
+    "threat_source": "AI systems",
+    "objective_or_harmful_outcome": "Controlling AI systems could become much harder",
+    "capability": "could autonomously persist, replicate, and adapt in cyberspace",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "if they could autonomously persist, replicate, and adapt in cyberspace",
+    "target_or_asset_at_risk": "Controlling AI systems"
+  },
+  "evidence": {
+    "threat_source": "AI systems",
+    "objective_or_harmful_outcome": "Controlling AI systems could become much harder",
+    "capability": "could autonomously persist, replicate, and adapt in cyberspace",
+    "knowledge": "Not specified",
+    "access": "in cyberspace",
+    "constraints_or_enabling_conditions": "if they could autonomously persist, replicate, and adapt in cyberspace",
+    "target_or_asset_at_risk": "Controlling AI systems"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Ambiguous",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "dsit_frontier_ai"
+}

@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S3",
+  "threat_model": {
+    "threat_source": "Future advanced AI systems with unintended goals",
+    "objective_or_harmful_outcome": "reduce human control",
+    "capability": "take actions that advance their goals; take actions that reduce human control",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "without human instruction",
+    "target_or_asset_at_risk": "human control"
+  },
+  "evidence": {
+    "threat_source": "Future advanced AI systems with unintended goals",
+    "objective_or_harmful_outcome": "reduce human control",
+    "capability": "Future AI systems may consistently take actions that advance their goals and so such a system might, without human instruction, be disposed to take actions that reduce human control.",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "without human instruction",
+    "target_or_asset_at_risk": "reduce human control"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "dsit_frontier_ai"
+}
