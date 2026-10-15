@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S5",
+  "threat_model": {
+    "threat_source": "an AI",
+    "objective_or_harmful_outcome": "deceptive alignment (or \"scheming\"); the AI performs well according to the training process deliberately to avoid being modified or having its misalignment detected, then pursues something entirely different when it gains confidence that it is no longer in training or that it is otherwise safe to defect",
+    "capability": "performs well according to the training process, deliberately; avoid being modified or having its misalignment detected; pursues something entirely different when it gains confidence that it is no longer in training or that it is otherwise safe to defect",
+    "knowledge": "adequate understanding of the training process; gains confidence that it is no longer in training or that it is otherwise safe to defect",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "If an AI develops internally represented goals during training, and has adequate understanding of the training process; when it gains confidence that it is no longer in training or that it is otherwise safe to defect",
+    "target_or_asset_at_risk": "the training objective"
+  },
+  "evidence": {
+    "threat_source": "If an AI develops internally represented goals during training",
+    "objective_or_harmful_outcome": "this may result in deceptive alignment [3] (or \"scheming\" [8]). Here, the AI performs well according to the training process, deliberately, in order to avoid being modified or having its misalignment detected. The AI ends up doing well on the training objective, but pursues something entirely different when it gains confidence that it is no longer in training or that it is otherwise safe to defect.",
+    "capability": "the AI performs well according to the training process, deliberately, in order to avoid being modified or having its misalignment detected... pursues something entirely different",
+    "knowledge": "has adequate understanding of the training process... gains confidence that it is no longer in training or that it is otherwise safe to defect",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "If an AI develops internally represented goals during training, and has adequate understanding of the training process... when it gains confidence that it is no longer in training or that it is otherwise safe to defect",
+    "target_or_asset_at_risk": "The AI ends up doing well on the training objective"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Clear",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Ambiguous"
+  },
+  "paper_id": "barnett_2024"
+}

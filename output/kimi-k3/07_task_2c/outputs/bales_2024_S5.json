@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S5",
+  "threat_model": {
+    "threat_source": "a system",
+    "objective_or_harmful_outcome": "civilisation’s resources to be focused on achieving its large-scale goal; large-scale disenfranchisement",
+    "capability": "use its power over humans to shape civilisation",
+    "knowledge": "Not specified",
+    "access": "power over humans",
+    "constraints_or_enabling_conditions": "goals that stretch far into the future and are large-scale enough to require vast resources; broadly-scoped goals, and sufficient power over humans",
+    "target_or_asset_at_risk": "humans; civilisation; civilisation’s resources"
+  },
+  "evidence": {
+    "threat_source": "if a system has goals that stretch far into the future",
+    "objective_or_harmful_outcome": "it’ll want civilisation’s resources to be focused on achieving its large-scale goal to the greatest extent possible; large-scale disenfranchisement becomes more plausible",
+    "capability": "incentivised to use its power over humans to shape civilisation",
+    "knowledge": "Not specified",
+    "access": "sufficient power over humans",
+    "constraints_or_enabling_conditions": "goals that stretch far into the future and are large-scale enough to require vast resources; given broadly-scoped goals, and sufficient power over humans",
+    "target_or_asset_at_risk": "power over humans; shape civilisation; civilisation’s resources"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "bales_2024"
+}

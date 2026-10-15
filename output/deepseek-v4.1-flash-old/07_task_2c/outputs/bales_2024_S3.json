@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S3",
+  "threat_model": {
+    "threat_source": "humans",
+    "objective_or_harmful_outcome": "we might be tempted to shut the system down or to build a competing system that could threaten it",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "if humans were acting freely",
+    "target_or_asset_at_risk": "the system; AI power-to"
+  },
+  "evidence": {
+    "threat_source": "if humans were acting freely then we might be tempted to shut the system down or to build a competing system that could threaten it.",
+    "objective_or_harmful_outcome": "we might be tempted to shut the system down or to build a competing system that could threaten it.",
+    "capability": "we might be tempted to shut the system down or to build a competing system",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "if humans were acting freely",
+    "target_or_asset_at_risk": "AI power-to; the system"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Ambiguous",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "bales_2024"
+}

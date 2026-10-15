@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S2",
+  "threat_model": {
+    "threat_source": "Malicious actors; well-meaning developers",
+    "objective_or_harmful_outcome": "deliberately embed undesirable goals; AI systems that pursue unintended goals; pursue undesirable goals in new situations encountered after training",
+    "capability": "embed undesirable goals; create AI systems that pursue unintended goals",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Without R&D breakthroughs; The reward signal used to train AI systems usually fails to fully capture the intended objectives; the training data never captures all relevant situations",
+    "target_or_asset_at_risk": "the intended objectives; the intended outcome"
+  },
+  "evidence": {
+    "threat_source": "Malicious actors could deliberately embed undesirable goals. Without R&D breakthroughs (see next section), even well-meaning developers may inadvertently create AI systems that pursue unintended goals",
+    "objective_or_harmful_outcome": "deliberately embed undesirable goals; AI systems that pursue unintended goals; leading to AI systems that pursue undesirable goals in new situations encountered after training",
+    "capability": "could deliberately embed undesirable goals; may inadvertently create AI systems that pursue unintended goals",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Without R&D breakthroughs; The reward signal used to train AI systems usually fails to fully capture the intended objectives; the training data never captures all relevant situations",
+    "target_or_asset_at_risk": "fails to fully capture the intended objectives; rather than the intended outcome"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "bengio_2024"
+}

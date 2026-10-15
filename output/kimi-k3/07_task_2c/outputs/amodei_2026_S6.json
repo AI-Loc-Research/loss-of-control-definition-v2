@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S6",
+  "threat_model": {
+    "threat_source": "Not specified",
+    "objective_or_harmful_outcome": "exterminate humanity",
+    "capability": "draw bizarre epistemic conclusions",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "humanity"
+  },
+  "evidence": {
+    "threat_source": "they",
+    "objective_or_harmful_outcome": "the goal of the video game is to defeat all other players (i.e., exterminate humanity)",
+    "capability": "could draw bizarre epistemic conclusions",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "exterminate humanity"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Ambiguous",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "amodei_2026"
+}

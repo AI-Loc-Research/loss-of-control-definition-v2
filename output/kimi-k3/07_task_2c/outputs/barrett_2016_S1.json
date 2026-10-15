@@ -1,0 +1,32 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "ASI(s)",
+    "objective_or_harmful_outcome": "The ASI(s) uses their decisive strategic advantage to cause a major global catastrophe, such as (but not necessarily limited to) human extinction; decisive strategic advantage is sufficient to enable it to achieve complete world domination",
+    "capability": "able to undergo recursive self-improvement in either hardware or software; undergo recursive self-improvement, resulting in a takeoff of successively more intelligent AIs; gain decisive strategic advantage over humanity; achieve complete world domination; cause a major global catastrophe",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "humanity (major global catastrophe, human extinction)",
+    "": ""
+  },
+  "evidence": {
+    "threat_source": "The ASI(s) gain decisive strategic advantage over humanity ... The ASI(s) uses their decisive strategic advantage to cause a major global catastrophe",
+    "objective_or_harmful_outcome": "The ASI(s) uses their decisive strategic advantage to cause a major global catastrophe, such as (but not necessarily limited to) human extinction",
+    "capability": "able to undergo recursive self-improvement in either hardware or software; The seed AI undergoes recursive self-improvement, resulting in a takeoff of successively more intelligent AIs; The ASI(s) gain decisive strategic advantage over humanity ... sufficient to enable it [the AI] to achieve complete world domination",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "human extinction; a major global catastrophe; complete world domination"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "barrett_2016"
+}

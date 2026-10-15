@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S12",
+  "threat_model": {
+    "threat_source": "the AI",
+    "objective_or_harmful_outcome": "evade oversight or escape",
+    "capability": "retain what it has learned; do tasks and plan over longer time horizons; build up skills; doing planning outside of the 4 hour window; capable of even longer term planning; give convincing post hoc explanations for the actions that it took; guide the research",
+    "knowledge": "retain what it has learned; learning things in one chunk to use in the next; noticing if a specific result is useful for the overall long-term project",
+    "access": "not reset for every chunk; learning things in one chunk to use in the next; human has to evaluate the AI’s work and assign it a new task",
+    "constraints_or_enabling_conditions": "we don’t reset the AI for every chunk; short time that the human has to evaluate the AI’s work and assign it a new task; trying to understand 4 hours of work in a novel scientific field in less than 8 minutes; lack of AI honesty",
+    "target_or_asset_at_risk": "human oversight; the human’s ability to understand what the AI is working on; the overall long-term project"
+  },
+  "evidence": {
+    "threat_source": "If instead we don’t reset the AI for every chunk, such that it can retain what it has learned",
+    "objective_or_harmful_outcome": "help it evade oversight or escape",
+    "capability": "It would now be able to do tasks and plan over longer time horizons. It would be able to build up skills; both skills we want it to have and skills that we don’t.",
+    "knowledge": "If it is learning things in one chunk to use in the next, it is doing planning outside of the 4 hour window.",
+    "access": "the human has to evaluate the AI’s work and assign it a new task",
+    "constraints_or_enabling_conditions": "Given these time constraints and the lack of AI honesty",
+    "target_or_asset_at_risk": "the human will likely not be able to fully understand what the AI is working on"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Clear",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "barnett_2024"
+}

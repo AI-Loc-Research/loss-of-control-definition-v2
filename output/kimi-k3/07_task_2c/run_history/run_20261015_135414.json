@@ -1,0 +1,1528 @@
+{
+  "config": {
+    "experiment": "2c_kimi-k3-nvidia_prompt_2c_v2",
+    "prompt_version": "prompt_2c_v2",
+    "backend": "nvidia",
+    "model": "moonshotai/kimi-k3",
+    "base_url": "https://integrate.api.nvidia.com/v1",
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "max_new_tokens": 32768,
+    "dry_run": false,
+    "force": false,
+    "total_scenarios": 193
+  },
+  "timestamp": "2026-10-15T08:24:06.775577+00:00",
+  "total_runtime_seconds": 7.41,
+  "total_scenarios": 193,
+  "scenarios_processed": 122,
+  "scenarios_skipped": 71,
+  "errors": [
+    {
+      "item_key": "barrett_2016_S3",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "barrett_2016_S7",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "carlsmith_2021_S6",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "chin_2025_S1",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "cigi_ai_national_security_S1",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "cigi_ai_national_security_S2",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "cigi_ai_national_security_S3",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "cigi_ai_national_security_S4",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "cotra_2022_S1",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "cotra_2022_S2",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "cotra_2022_S3",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "cotra_2022_S4",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "cotra_2022_S5",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "cotra_2022_S6",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "cotra_2022_S7",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "critch_2023_S1",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "dafoe_2020_S1",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "dafoe_2020_S2",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "dsit_frontier_ai_S1",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "dsit_frontier_ai_S2",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "dsit_frontier_ai_S3",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "dsit_frontier_ai_S4",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "dsit_frontier_ai_S5",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "dsit_frontier_ai_S6",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "dung_2024_S1",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "dung_2024_S2",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "dung_2024_S3",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "dung_2024_S4",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "dung_2024_S5",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "dung_2024_S6",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "hendrycks_2023_S1",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "hendrycks_2023_S2",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "hendrycks_2023_S3",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "hendrycks_2023_S4",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "hendrycks_2023_S5",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "hendrycks_2023_S6",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "hendrycks_2023_S7",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "ist_loss_of_control_S1",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "ist_loss_of_control_S10",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "ist_loss_of_control_S11",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "ist_loss_of_control_S12",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "ist_loss_of_control_S13",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "ist_loss_of_control_S14",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "ist_loss_of_control_S15",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "ist_loss_of_control_S2",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "ist_loss_of_control_S3",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "ist_loss_of_control_S4",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "ist_loss_of_control_S5",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "ist_loss_of_control_S6",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "ist_loss_of_control_S7",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "ist_loss_of_control_S8",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "ist_loss_of_control_S9",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "kalra_2025_S1",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "kalra_2025_S2",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "kalra_2025_S3",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "kalra_2025_S4",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "kalra_2025_S5",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "kasirzadeh_2025_S1",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "kasirzadeh_2025_S2",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "kasirzadeh_2025_S3",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "kokotajlo_2025_S1",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "kokotajlo_2025_S10",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "kokotajlo_2025_S11",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "kokotajlo_2025_S2",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "kokotajlo_2025_S3",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "kokotajlo_2025_S4",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "kokotajlo_2025_S6",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "kokotajlo_2025_S7",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "kokotajlo_2025_S8",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "kokotajlo_2025_S9",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "kulveit_2025_S10",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "kulveit_2025_S11",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "kulveit_2025_S13",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "kulveit_2025_S14",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "kulveit_2025_S2",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "kulveit_2025_S4",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "kulveit_2025_S5",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "kulveit_2025_S6",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "kulveit_2025_S7",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "kulveit_2025_S8",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "kulveit_2025_S9",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "macaskill_2025_S1",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "macaskill_2025_S2",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "macaskill_2025_S3",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "macaskill_2025_S4",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "ngo_2024_S1",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "ngo_2024_S2",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "ngo_2024_S3",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "ngo_2024_S4",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "ngo_2024_S5",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "ngo_2024_S6",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "oecd_ai_risks_S2",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "oecd_ai_risks_S3",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "rand_five_hard_problems_S1",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "rand_five_hard_problems_S2",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "rand_five_hard_problems_S3",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "rand_five_hard_problems_S4",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "rand_five_hard_problems_S5",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "rand_five_hard_problems_S6",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "rand_loc_response_planning_S1",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "rand_loc_response_planning_S10",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "rand_loc_response_planning_S2",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "rand_loc_response_planning_S3",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "rand_loc_response_planning_S4",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "rand_loc_response_planning_S5",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "rand_loc_response_planning_S6",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "rand_loc_response_planning_S7",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "rand_loc_response_planning_S8",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "rand_loc_response_planning_S9",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "rand_pivots_pathways_S1",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "rand_pivots_pathways_S2",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "rand_pivots_pathways_S3",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "rand_pivots_pathways_S4",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "rand_pivots_pathways_S5",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "rand_pivots_pathways_S6",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "rand_pivots_pathways_S7",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "rand_pivots_pathways_S8",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "rand_rise_fall_nations_S1",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "shah_2022_S1",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "shah_2022_S2",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "shah_2022_S3",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    },
+    {
+      "item_key": "shah_2022_S4",
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+    }
+  ],
+  "per_scenario": [
+    {
+      "item_key": "amodei_2026_S1",
+      "skipped": true
+    },
+    {
+      "item_key": "amodei_2026_S10",
+      "skipped": true
+    },
+    {
+      "item_key": "amodei_2026_S11",
+      "skipped": true
+    },
+    {
+      "item_key": "amodei_2026_S12",
+      "skipped": true
+    },
+    {
+      "item_key": "amodei_2026_S13",
+      "skipped": true
+    },
+    {
+      "item_key": "amodei_2026_S14",
+      "skipped": true
+    },
+    {
+      "item_key": "amodei_2026_S17",
+      "skipped": true
+    },
+    {
+      "item_key": "amodei_2026_S2",
+      "skipped": true
+    },
+    {
+      "item_key": "amodei_2026_S3",
+      "skipped": true
+    },
+    {
+      "item_key": "amodei_2026_S4",
+      "skipped": true
+    },
+    {
+      "item_key": "amodei_2026_S5",
+      "skipped": true
+    },
+    {
+      "item_key": "amodei_2026_S6",
+      "skipped": true
+    },
+    {
+      "item_key": "amodei_2026_S7",
+      "skipped": true
+    },
+    {
+      "item_key": "amodei_2026_S8",
+      "skipped": true
+    },
+    {
+      "item_key": "amodei_2026_S9",
+      "skipped": true
+    },
+    {
+      "item_key": "bales_2024_S1",
+      "skipped": true
+    },
+    {
+      "item_key": "bales_2024_S2",
+      "skipped": true
+    },
+    {
+      "item_key": "bales_2024_S3",
+      "skipped": true
+    },
+    {
+      "item_key": "bales_2024_S4",
+      "skipped": true
+    },
+    {
+      "item_key": "bales_2024_S5",
+      "skipped": true
+    },
+    {
+      "item_key": "bales_2024_S6",
+      "skipped": true
+    },
+    {
+      "item_key": "bales_2024_S7",
+      "skipped": true
+    },
+    {
+      "item_key": "bales_2024_S8",
+      "skipped": true
+    },
+    {
+      "item_key": "barnett_2024_S1",
+      "skipped": true
+    },
+    {
+      "item_key": "barnett_2024_S10",
+      "skipped": true
+    },
+    {
+      "item_key": "barnett_2024_S11",
+      "skipped": true
+    },
+    {
+      "item_key": "barnett_2024_S12",
+      "skipped": true
+    },
+    {
+      "item_key": "barnett_2024_S2",
+      "skipped": true
+    },
+    {
+      "item_key": "barnett_2024_S3",
+      "skipped": true
+    },
+    {
+      "item_key": "barnett_2024_S4",
+      "skipped": true
+    },
+    {
+      "item_key": "barnett_2024_S5",
+      "skipped": true
+    },
+    {
+      "item_key": "barnett_2024_S6",
+      "skipped": true
+    },
+    {
+      "item_key": "barnett_2024_S7",
+      "skipped": true
+    },
+    {
+      "item_key": "barnett_2024_S8",
+      "skipped": true
+    },
+    {
+      "item_key": "barnett_2024_S9",
+      "skipped": true
+    },
+    {
+      "item_key": "barrett_2016_S1",
+      "skipped": true
+    },
+    {
+      "item_key": "barrett_2016_S10",
+      "skipped": true
+    },
+    {
+      "item_key": "barrett_2016_S3",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.34
+    },
+    {
+      "item_key": "barrett_2016_S4",
+      "skipped": true
+    },
+    {
+      "item_key": "barrett_2016_S5",
+      "skipped": true
+    },
+    {
+      "item_key": "barrett_2016_S6",
+      "skipped": true
+    },
+    {
+      "item_key": "barrett_2016_S7",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "barrett_2016_S8",
+      "skipped": true
+    },
+    {
+      "item_key": "barrett_2016_S9",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2024_S1",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2024_S2",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2024_S3",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2024_S4",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2024_S5",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2024_S6",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2025_S1",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2025_S10",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2025_S11",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2025_S12",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2025_S13",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2025_S14",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2025_S15",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2025_S16",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2025_S17",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2025_S2",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2025_S3",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2025_S4",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2025_S5",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2025_S6",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2025_S7",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2025_S8",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2025_S9",
+      "skipped": true
+    },
+    {
+      "item_key": "carlsmith_2021_S1",
+      "skipped": true
+    },
+    {
+      "item_key": "carlsmith_2021_S3",
+      "skipped": true
+    },
+    {
+      "item_key": "carlsmith_2021_S4",
+      "skipped": true
+    },
+    {
+      "item_key": "carlsmith_2021_S5",
+      "skipped": true
+    },
+    {
+      "item_key": "carlsmith_2021_S6",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "chan_2023_S1",
+      "skipped": true
+    },
+    {
+      "item_key": "chan_2023_S2",
+      "skipped": true
+    },
+    {
+      "item_key": "chin_2025_S1",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "cigi_ai_national_security_S1",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "cigi_ai_national_security_S2",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "cigi_ai_national_security_S3",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "cigi_ai_national_security_S4",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "cotra_2022_S1",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "cotra_2022_S2",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "cotra_2022_S3",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "cotra_2022_S4",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "cotra_2022_S5",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.07
+    },
+    {
+      "item_key": "cotra_2022_S6",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "cotra_2022_S7",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.04
+    },
+    {
+      "item_key": "critch_2023_S1",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.07
+    },
+    {
+      "item_key": "dafoe_2020_S1",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "dafoe_2020_S2",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "dsit_frontier_ai_S1",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.07
+    },
+    {
+      "item_key": "dsit_frontier_ai_S2",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "dsit_frontier_ai_S3",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "dsit_frontier_ai_S4",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "dsit_frontier_ai_S5",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "dsit_frontier_ai_S6",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "dung_2024_S1",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "dung_2024_S2",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "dung_2024_S3",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "dung_2024_S4",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "dung_2024_S5",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "dung_2024_S6",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "hendrycks_2023_S1",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "hendrycks_2023_S2",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "hendrycks_2023_S3",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "hendrycks_2023_S4",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "hendrycks_2023_S5",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "hendrycks_2023_S6",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "hendrycks_2023_S7",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "ist_loss_of_control_S1",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "ist_loss_of_control_S10",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "ist_loss_of_control_S11",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "ist_loss_of_control_S12",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "ist_loss_of_control_S13",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "ist_loss_of_control_S14",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "ist_loss_of_control_S15",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "ist_loss_of_control_S2",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "ist_loss_of_control_S3",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "ist_loss_of_control_S4",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "ist_loss_of_control_S5",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "ist_loss_of_control_S6",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "ist_loss_of_control_S7",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "ist_loss_of_control_S8",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "ist_loss_of_control_S9",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "kalra_2025_S1",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "kalra_2025_S2",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.07
+    },
+    {
+      "item_key": "kalra_2025_S3",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "kalra_2025_S4",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "kalra_2025_S5",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "kasirzadeh_2025_S1",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "kasirzadeh_2025_S2",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "kasirzadeh_2025_S3",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "kokotajlo_2025_S1",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "kokotajlo_2025_S10",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "kokotajlo_2025_S11",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "kokotajlo_2025_S2",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "kokotajlo_2025_S3",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "kokotajlo_2025_S4",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "kokotajlo_2025_S6",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "kokotajlo_2025_S7",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "kokotajlo_2025_S8",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.07
+    },
+    {
+      "item_key": "kokotajlo_2025_S9",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "kulveit_2025_S10",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "kulveit_2025_S11",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "kulveit_2025_S13",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "kulveit_2025_S14",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "kulveit_2025_S2",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "kulveit_2025_S4",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.04
+    },
+    {
+      "item_key": "kulveit_2025_S5",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.07
+    },
+    {
+      "item_key": "kulveit_2025_S6",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "kulveit_2025_S7",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "kulveit_2025_S8",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "kulveit_2025_S9",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "macaskill_2025_S1",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "macaskill_2025_S2",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "macaskill_2025_S3",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "macaskill_2025_S4",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "ngo_2024_S1",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.07
+    },
+    {
+      "item_key": "ngo_2024_S2",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "ngo_2024_S3",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "ngo_2024_S4",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.07
+    },
+    {
+      "item_key": "ngo_2024_S5",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "ngo_2024_S6",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "oecd_ai_risks_S2",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "oecd_ai_risks_S3",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.04
+    },
+    {
+      "item_key": "rand_five_hard_problems_S1",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "rand_five_hard_problems_S2",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "rand_five_hard_problems_S3",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "rand_five_hard_problems_S4",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "rand_five_hard_problems_S5",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "rand_five_hard_problems_S6",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "rand_loc_response_planning_S1",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "rand_loc_response_planning_S10",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "rand_loc_response_planning_S2",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.07
+    },
+    {
+      "item_key": "rand_loc_response_planning_S3",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "rand_loc_response_planning_S4",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "rand_loc_response_planning_S5",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "rand_loc_response_planning_S6",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "rand_loc_response_planning_S7",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "rand_loc_response_planning_S8",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "rand_loc_response_planning_S9",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.35
+    },
+    {
+      "item_key": "rand_pivots_pathways_S1",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "rand_pivots_pathways_S2",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "rand_pivots_pathways_S3",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.04
+    },
+    {
+      "item_key": "rand_pivots_pathways_S4",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "rand_pivots_pathways_S5",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "rand_pivots_pathways_S6",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "rand_pivots_pathways_S7",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "rand_pivots_pathways_S8",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    },
+    {
+      "item_key": "rand_rise_fall_nations_S1",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.07
+    },
+    {
+      "item_key": "shah_2022_S1",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.04
+    },
+    {
+      "item_key": "shah_2022_S2",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.07
+    },
+    {
+      "item_key": "shah_2022_S3",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.06
+    },
+    {
+      "item_key": "shah_2022_S4",
+      "skipped": false,
+      "error": "API error: Client error '410 Gone' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410",
+      "latency_seconds": 0.05
+    }
+  ]
+}

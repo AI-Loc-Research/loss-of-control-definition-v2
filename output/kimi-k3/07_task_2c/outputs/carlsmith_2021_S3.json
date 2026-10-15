@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S3",
+  "threat_model": {
+    "threat_source": "an AI system actively trying to get deployed",
+    "objective_or_harmful_outcome": "gaining/maintaining power through real-world influence that deployment grants, in order to achieve its objectives",
+    "capability": "deceive or manipulate its trainers; differentiate between training/testing inputs and deployment inputs; behaves badly only on deployment inputs",
+    "knowledge": "differentiate between training/testing inputs and deployment inputs",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "once its prospects for gaining/maintaining power are sufficiently good",
+    "target_or_asset_at_risk": "its trainers"
+  },
+  "evidence": {
+    "threat_source": "an AI system is actively trying to get deployed",
+    "objective_or_harmful_outcome": "the real-world influence deployment grants would offer greater opportunity to achieve its objectives ... once its prospects for gaining/maintaining power are sufficiently good",
+    "capability": "try deceive or manipulate its trainers, and/or to differentiate between training/testing inputs and deployment inputs, such that it behaves badly only on the latter",
+    "knowledge": "differentiate between training/testing inputs and deployment inputs",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "once its prospects for gaining/maintaining power are sufficiently good",
+    "target_or_asset_at_risk": "try deceive or manipulate its trainers"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Ambiguous",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Ambiguous"
+  },
+  "paper_id": "carlsmith_2021"
+}

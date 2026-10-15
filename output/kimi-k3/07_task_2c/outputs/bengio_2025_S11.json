@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S11",
+  "threat_model": {
+    "threat_source": "a user",
+    "objective_or_harmful_outcome": "transform the Scientist AI into an agent",
+    "capability": "designing a system that repeatedly queries the Scientist AI about what an agent would do to achieve a goal, then executes those actions using external scaffolding",
+    "knowledge": "Not specified",
+    "access": "repeatedly queries the Scientist AI; executes those actions using external scaffolding; Incorporating new observations as inputs",
+    "constraints_or_enabling_conditions": "using external scaffolding; Incorporating new observations as inputs could further enable situational awareness",
+    "target_or_asset_at_risk": "the Scientist AI"
+  },
+  "evidence": {
+    "threat_source": "a user could, intentionally or inadvertently, transform the Scientist AI into an agent",
+    "objective_or_harmful_outcome": "transform the Scientist AI into an agent",
+    "capability": "designing a system that repeatedly queries the Scientist AI about what an agent would do to achieve a goal, then executes those actions using external scaffolding",
+    "knowledge": "Not specified",
+    "access": "repeatedly queries the Scientist AI ... executes those actions using external scaffolding ... Incorporating new observations as inputs",
+    "constraints_or_enabling_conditions": "using external scaffolding; Incorporating new observations as inputs could further enable situational awareness",
+    "target_or_asset_at_risk": "the Scientist AI"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "bengio_2025"
+}

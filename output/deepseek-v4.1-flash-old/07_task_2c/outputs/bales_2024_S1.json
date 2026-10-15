@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "the deployment of AI systems in evermore contexts",
+    "objective_or_harmful_outcome": "the world so complex that humans struggle to understand it and meaningfully shape what happens",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "deployment of AI systems in evermore contexts",
+    "constraints_or_enabling_conditions": "deployment of AI systems in evermore contexts",
+    "target_or_asset_at_risk": "humans' ability to understand the world and meaningfully shape what happens"
+  },
+  "evidence": {
+    "threat_source": "the deployment of AI systems in evermore contexts",
+    "objective_or_harmful_outcome": "might make the world so complex that humans struggle to understand it and meaningfully shape what happens",
+    "capability": "might make the world so complex",
+    "knowledge": "Not specified",
+    "access": "the deployment of AI systems in evermore contexts",
+    "constraints_or_enabling_conditions": "the deployment of AI systems in evermore contexts",
+    "target_or_asset_at_risk": "humans struggle to understand it and meaningfully shape what happens"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Ambiguous",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "bales_2024"
+}

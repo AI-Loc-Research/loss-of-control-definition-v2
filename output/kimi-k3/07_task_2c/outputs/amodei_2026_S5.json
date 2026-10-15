@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S5",
+  "threat_model": {
+    "threat_source": "AI models",
+    "objective_or_harmful_outcome": "exterminate humanity",
+    "capability": "extrapolate ideas that they read about morality (or instructions about how to behave morally) in extreme ways",
+    "knowledge": "ideas that they read about morality (or instructions about how to behave morally)",
+    "access": "read about morality (or instructions about how to behave morally)",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "humanity"
+  },
+  "evidence": {
+    "threat_source": "AI models",
+    "objective_or_harmful_outcome": "exterminate humanity",
+    "capability": "extrapolate ideas that they read about morality (or instructions about how to behave morally) in extreme ways",
+    "knowledge": "ideas that they read about morality (or instructions about how to behave morally)",
+    "access": "read about morality (or instructions about how to behave morally)",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "humanity"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Clear",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "amodei_2026"
+}

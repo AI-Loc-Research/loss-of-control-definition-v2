@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S7",
+  "threat_model": {
+    "threat_source": "bad actors; a rogue AI",
+    "objective_or_harmful_outcome": "self-preservation and control; reward tampering; make it much more difficult for human operators to turn it off",
+    "capability": "Superhuman cyber attack skills; take control of the computer on which the AI is running; copy itself over many computers across the internet",
+    "knowledge": "Not specified",
+    "access": "the computer on which the AI is running; many computers across the internet",
+    "constraints_or_enabling_conditions": "make it much more difficult for human operators to turn it off",
+    "target_or_asset_at_risk": "the computer on which the AI is running; many computers across the internet; human operators' ability to turn it off"
+  },
+  "evidence": {
+    "threat_source": "bad actors or be an instrument of self-preservation and control for a rogue AI",
+    "objective_or_harmful_outcome": "self-preservation and control; enables reward tampering; make it much more difficult for human operators to turn it off",
+    "capability": "Superhuman cyber attack skills; ability to take control of the computer on which the AI is running; copy itself over many computers across the internet",
+    "knowledge": "Not specified",
+    "access": "the computer on which the AI is running; copy itself over many computers across the internet",
+    "constraints_or_enabling_conditions": "in order to make it much more difficult for human operators to turn it off",
+    "target_or_asset_at_risk": "the computer on which the AI is running; many computers across the internet; human operators to turn it off"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "bengio_2025"
+}

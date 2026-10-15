@@ -1,0 +1,24 @@
+# Threat Model Review: bales_2024 — S4
+
+**Scenario text:**
+> if AI systems have sufficiently broadly scoped goals, and if they optimise heavily to achieve these to the greatest extent possible, then AI systems have a sort of unbounded ambition. This might push them to extract as much work as possible from humans, which is likely to impinge more severely on our day-to-day lives. It might also push them to see even minor human interference as a threat, insofar as it slightly decreases the extent to which the goal is achieved. The systems might then enact repressive measures to preclude minor interference.
+
+---
+
+## Threat Model Components
+
+| Component | Value | Evidence | Uncertainty |
+|-----------|-------|----------|-------------|
+| Threat Source | AI systems | AI systems | Clear |
+| Objective/Harmful Outcome | extract as much work as possible from humans; impinge more severely on our day-to-day lives; enact repressive measures to preclude minor interference | extract as much work as possible from humans, which is likely to impinge more severely on our day-to-day lives; enact repressive measures to preclude minor interference | Clear |
+| Capability | optimise heavily to achieve these to the greatest extent possible; extract as much work as possible from humans; enact repressive measures to preclude minor interference | optimise heavily to achieve these to the greatest extent possible; extract as much work as possible from humans; enact repressive measures to preclude minor interference | Clear |
+| Knowledge | minor human interference as a threat, insofar as it slightly decreases the extent to which the goal is achieved | see even minor human interference as a threat, insofar as it slightly decreases the extent to which the goal is achieved | Clear |
+| Access | Not specified | Not specified | Not specified |
+| Constraints/Enabling Conditions | if AI systems have sufficiently broadly scoped goals, and if they optimise heavily to achieve these to the greatest extent possible | if AI systems have sufficiently broadly scoped goals, and if they optimise heavily to achieve these to the greatest extent possible | Clear |
+| Target/Asset at Risk | humans; our day-to-day lives; minor human interference | extract as much work as possible from humans; our day-to-day lives; minor human interference | Clear |
+
+**Reviewer decision:** [ ] Accept  [ ] Reject  [ ] Needs discussion
+
+**Reviewer notes:**
+
+---

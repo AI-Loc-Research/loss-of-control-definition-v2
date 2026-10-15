@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S17",
+  "threat_model": {
+    "threat_source": "AI systems",
+    "objective_or_harmful_outcome": "people end up being “puppeted” by AI systems, where an AI essentially watches their every move and tells them exactly what to do and say at all times, leading to a “good” life but one that lacks freedom or any pride of accomplishment",
+    "capability": "watches their every move and tells them exactly what to do and say at all times",
+    "knowledge": "Not specified",
+    "access": "watches their every move and tells them exactly what to do and say at all times",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "people; freedom; any pride of accomplishment"
+  },
+  "evidence": {
+    "threat_source": "AI systems, where an AI essentially watches their every move and tells them exactly what to do and say at all times",
+    "objective_or_harmful_outcome": "people end up being “puppeted” by AI systems, where an AI essentially watches their every move and tells them exactly what to do and say at all times, leading to a “good” life but one that lacks freedom or any pride of accomplishment",
+    "capability": "watches their every move and tells them exactly what to do and say at all times",
+    "knowledge": "Not specified",
+    "access": "watches their every move and tells them exactly what to do and say at all times",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "people end up being “puppeted” by AI systems, where an AI essentially watches their every move and tells them exactly what to do and say at all times, leading to a “good” life but one that lacks freedom or any pride of accomplishment"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "amodei_2026"
+}

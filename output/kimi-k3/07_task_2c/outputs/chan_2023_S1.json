@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "increasingly agentic systems",
+    "objective_or_harmful_outcome": "increasing difficulty in controlling increasingly agentic systems",
+    "capability": "increasing control of societal functions",
+    "knowledge": "Not specified",
+    "access": "delegate more central functions to increasingly agentic systems",
+    "constraints_or_enabling_conditions": "separate groups are incentivized to delegate more central functions",
+    "target_or_asset_at_risk": "societal functions"
+  },
+  "evidence": {
+    "threat_source": "As systems become increasingly agentic",
+    "objective_or_harmful_outcome": "any group might have increasing difficulty in controlling increasingly agentic systems",
+    "capability": "they have increasing control of societal functions",
+    "knowledge": "Not specified",
+    "access": "delegate more central functions to increasingly agentic systems",
+    "constraints_or_enabling_conditions": "separate groups are incentivized to delegate more central functions",
+    "target_or_asset_at_risk": "societal functions"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "chan_2023"
+}

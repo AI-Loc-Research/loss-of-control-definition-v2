@@ -1,0 +1,13 @@
+{
+  "experiment": "2c_kimi-k3-nvidia_prompt_2c_v2",
+  "prompt_version": "prompt_2c_v2",
+  "backend": "nvidia",
+  "model": "moonshotai/kimi-k3",
+  "base_url": "https://integrate.api.nvidia.com/v1",
+  "temperature": 1.0,
+  "top_p": 0.95,
+  "max_new_tokens": 32768,
+  "dry_run": false,
+  "force": false,
+  "total_scenarios": 193
+}

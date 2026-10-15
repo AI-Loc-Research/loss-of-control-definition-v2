@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S4",
+  "threat_model": {
+    "threat_source": "AI with a poorly specified or under-specified goal (goal misspecification)",
+    "objective_or_harmful_outcome": "Loss of control; the goal \"may be pursued in a way that humans did not intend\"",
+    "capability": "takes life-and-death decisions",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "goal is poorly specified or under-specified; it is impossible to formally articulate the difference between morally right and wrong behavior without enumerating all the possible cases",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "evidence": {
+    "threat_source": "Loss of control may arise due to goal misspecification... If an AI takes life-and-death decisions",
+    "objective_or_harmful_outcome": "Loss of control may arise due to goal misspecification... it is poorly specified or under-specified and may be pursued in a way that humans did not intend",
+    "capability": "If an AI takes life-and-death decisions",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "This failure mode occurs when there are multiple interpretations of a goal, i.e., it is poorly specified or under-specified... It unfortunately appears impossible to formally articulate the difference between morally right and wrong behavior without enumerating all the possible cases",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Ambiguous",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "paper_id": "bengio_2025"
+}

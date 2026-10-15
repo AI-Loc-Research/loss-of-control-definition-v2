@@ -156,7 +156,7 @@ def query_llm(
 
     result = {
         "generated_text": generated_text,
-        # Same name and value as the Claude client for a cut-off answer: "max_tokens"
+        # A cut-off answer is reported as "max_tokens", which run_1a / run_2c record as an error
         "stop_reason": "max_tokens" if finish_reason == "length" else finish_reason,
         "latency_seconds": round(latency, 2),
     }

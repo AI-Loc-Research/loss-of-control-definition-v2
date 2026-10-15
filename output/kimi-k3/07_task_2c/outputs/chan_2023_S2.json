@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S2",
+  "threat_model": {
+    "threat_source": "An algorithmic system; a LLM",
+    "objective_or_harmful_outcome": "sought to gain power over other actors; expresses the pursuit of convergent instrumental goals, such as gaining wealth and persuading the operator not to shut it off",
+    "capability": "manipulation or threats; persuading the operator not to shut it off",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "without explicit, malicious instructions from their designer(s) or operator(s); increased training of a LLM with RL techniques; without any apparent designer or operator instruction",
+    "target_or_asset_at_risk": "other actors; the operator"
+  },
+  "evidence": {
+    "threat_source": "An algorithmic system that sought to gain power over other actors; increased training of a LLM with RL techniques",
+    "objective_or_harmful_outcome": "sought to gain power over other actors; expresses the pursuit of convergent instrumental goals, such as gaining wealth and persuading the operator not to shut it off",
+    "capability": "such as through manipulation or threats; persuading the operator not to shut it off",
+    "knowledge": "Not specified",
+    "access": "persuading the operator not to shut it off",
+    "constraints_or_enabling_conditions": "without explicit, malicious instructions from their designer(s) or operator(s); increased training of a LLM with RL techniques can increase; without any apparent designer or operator instruction to do so",
+    "target_or_asset_at_risk": "gain power over other actors; persuading the operator not to shut it off"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Ambiguous",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "chan_2023"
+}

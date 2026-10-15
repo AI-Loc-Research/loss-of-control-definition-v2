@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S5",
+  "threat_model": {
+    "threat_source": "advanced AI systems",
+    "objective_or_harmful_outcome": "Not specified",
+    "capability": "possess highly dangerous capabilities; behave differently under evaluation, faking alignment",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "If AI progress continues; under evaluation; Purely behavioral evaluations may fail",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "evidence": {
+    "threat_source": "advanced AI systems",
+    "objective_or_harmful_outcome": "faking alignment",
+    "capability": "AI systems will eventually possess highly dangerous capabilities; they might behave differently under evaluation, faking alignment",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "If AI progress continues; Purely behavioral evaluations may fail for advanced AI systems; behave differently under evaluation",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Ambiguous",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "paper_id": "bengio_2024"
+}

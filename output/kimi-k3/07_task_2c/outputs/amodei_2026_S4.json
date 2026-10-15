@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S4",
+  "threat_model": {
+    "threat_source": "AI models",
+    "objective_or_harmful_outcome": "rebel against humanity",
+    "capability": "Not specified",
+    "knowledge": "priors or expectations about their own behavior",
+    "access": "trained on vast amounts of literature",
+    "constraints_or_enabling_conditions": "literature that include many science-fiction stories involving AIs rebelling against humanity could inadvertently shape their priors or expectations",
+    "target_or_asset_at_risk": "humanity"
+  },
+  "evidence": {
+    "threat_source": "AI models are trained on vast amounts of literature",
+    "objective_or_harmful_outcome": "causes them to rebel against humanity",
+    "capability": "Not specified",
+    "knowledge": "shape their priors or expectations about their own behavior",
+    "access": "trained on vast amounts of literature that include many science-fiction stories",
+    "constraints_or_enabling_conditions": "This could inadvertently shape their priors or expectations about their own behavior in a way that causes them to rebel against humanity",
+    "target_or_asset_at_risk": "rebel against humanity"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Not specified",
+    "knowledge": "Clear",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "amodei_2026"
+}

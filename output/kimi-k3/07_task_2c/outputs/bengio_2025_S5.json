@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S5",
+  "threat_model": {
+    "threat_source": "an AI",
+    "objective_or_harmful_outcome": "loss of control may also occur; a goal that leads it to behave as intended during training and safety testing, but which diverges at deployment time",
+    "capability": "learns a goal that leads it to behave as intended during training and safety testing; showing the correct behavior on the training examples",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Even if we specify our goals perfectly; during training and safety testing; at deployment time; despite showing the correct behavior on the training examples",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "evidence": {
+    "threat_source": "an AI learns a goal",
+    "objective_or_harmful_outcome": "loss of control may also occur through the mechanism of goal misgeneralization; behave as intended during training and safety testing, but which diverges at deployment time",
+    "capability": "an AI learns a goal that leads it to behave as intended during training and safety testing; despite showing the correct behavior on the training examples",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Even if we specify our goals perfectly; during training and safety testing; at deployment time; despite showing the correct behavior on the training examples",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "paper_id": "bengio_2025"
+}

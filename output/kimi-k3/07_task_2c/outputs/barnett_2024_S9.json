@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S9",
+  "threat_model": {
+    "threat_source": "The AIs",
+    "objective_or_harmful_outcome": "communicate information without humans realizing; agree to avoid debating particular points, or entirely stage the debate",
+    "capability": "discussing things the humans don’t understand; communicate information without humans realizing; agree to avoid debating particular points; entirely stage the debate",
+    "knowledge": "Not specified",
+    "access": "a lot of back and forth; the debate",
+    "constraints_or_enabling_conditions": "things the humans don’t understand; without humans realizing; a lot of back and forth",
+    "target_or_asset_at_risk": "humans; particular points; the debate"
+  },
+  "evidence": {
+    "threat_source": "The AIs",
+    "objective_or_harmful_outcome": "allowing the AIs to communicate information without humans realizing; agree to avoid debating particular points, or entirely stage the debate",
+    "capability": "may be discussing things the humans don’t understand; communicate information without humans realizing; agree to avoid debating particular points, or entirely stage the debate",
+    "knowledge": "Not specified",
+    "access": "there will be a lot of back and forth; the debate",
+    "constraints_or_enabling_conditions": "things the humans don’t understand; without humans realizing; there will be a lot of back and forth",
+    "target_or_asset_at_risk": "the humans; particular points; the debate"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "barnett_2024"
+}

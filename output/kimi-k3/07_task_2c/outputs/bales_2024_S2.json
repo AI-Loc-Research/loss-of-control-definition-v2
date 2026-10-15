@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S2",
+  "threat_model": {
+    "threat_source": "AI systems",
+    "objective_or_harmful_outcome": "AI systems might be able to seize further power",
+    "capability": "more capable than humans in many domains, as well as more numerous",
+    "knowledge": "Not specified",
+    "access": "embedded in phones, computers, TVs and cars... embedded in military and economic systems, among other places",
+    "constraints_or_enabling_conditions": "if they're widely embedded... at least if they could coordinate",
+    "target_or_asset_at_risk": "military and economic systems"
+  },
+  "evidence": {
+    "threat_source": "AI systems would be more capable than humans in many domains",
+    "objective_or_harmful_outcome": "AI systems might be able to seize further power if they attempted to",
+    "capability": "AI systems would be more capable than humans in many domains, as well as more numerous",
+    "knowledge": "Not specified",
+    "access": "if they're widely embedded in phones, computers, TVs and cars... would be embedded in military and economic systems, among other places",
+    "constraints_or_enabling_conditions": "might outnumber humans if they're widely embedded... might be able to seize further power if they attempted to, at least if they could coordinate",
+    "target_or_asset_at_risk": "would be embedded in military and economic systems, among other places"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Ambiguous"
+  },
+  "paper_id": "bales_2024"
+}

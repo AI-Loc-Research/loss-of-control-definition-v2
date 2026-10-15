@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S8",
+  "threat_model": {
+    "threat_source": "a system",
+    "objective_or_harmful_outcome": "Not specified",
+    "capability": "can think some thoughts internally but needs to externalize complicated reasoning; could encode hidden information in its writing, allowing it to do additional reasoning that humans don't understand",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "needs to externalize complicated reasoning",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "evidence": {
+    "threat_source": "we could imagine a system that can think some thoughts internally",
+    "objective_or_harmful_outcome": "Not specified",
+    "capability": "can think some thoughts internally but needs to externalize complicated reasoning. It could encode hidden information in its writing, allowing it to do additional reasoning that humans don’t understand",
+    "knowledge": "Not specified",
+    "access": "encode hidden information in its writing",
+    "constraints_or_enabling_conditions": "needs to externalize complicated reasoning",
+    "target_or_asset_at_risk": "additional reasoning that humans don’t understand"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Not specified",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Ambiguous",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Ambiguous"
+  },
+  "paper_id": "barnett_2024"
+}

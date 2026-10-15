@@ -45,38 +45,25 @@ MODELS = {
         "top_p": 0.95,
         "max_new_tokens": 32768,
     },
-    "kimi-k2.6-nvidia": {
+
+    # DeepSeek V4.1 Flash (open weights, MIT license) through NVIDIA's free API.
+    # Sampling = DeepSeek's recommendation on its model card (temperature 1.0, top_p 0.95).
+    # The card recommends max_tokens >= 256K for long reasoning; 32768 matches the Kimi
+    # presets and is unverified against NVIDIA's limit. A cut-off answer is recorded as an
+    # error and retried, so raise it if that happens.
+    "deepseek-v4.1-flash-nvidia": {
         "backend": "nvidia",
-        "model": "moonshotai/kimi-k2.6",
+        "model": "deepseek-ai/deepseek-v4.1-flash",
         "base_url": "https://integrate.api.nvidia.com/v1",
         "temperature": 1.0,
         "top_p": 0.95,
         "max_new_tokens": 32768,
-    },
-
-    # Claude, through the Anthropic API. No temperature: these models reject it.
-    # Effort is set explicitly so both Claude models run at the same level
-    # (their defaults differ: Opus medium, Sonnet high).
-    # Thinking counts toward max_new_tokens, hence the larger limit.
-
-    "claude-sonnet-5.5": {
-        "backend": "anthropic",
-        "model": "claude-sonnet-5-5",
-        "effort": "high",
-        "max_new_tokens": 64000,
-    },
-    "claude-opus-5.5": {
-        "backend": "anthropic",
-        "model": "claude-opus-5-5",
-        "effort": "high",
-        "max_new_tokens": 64000,
     },
 }
 
 API_KEY_NAMES = {
     "huggingface": "HF_TOKEN",
     "nvidia": "NVIDIA_API_KEY",
-    "anthropic": "ANTHROPIC_API_KEY",
 }
 
 

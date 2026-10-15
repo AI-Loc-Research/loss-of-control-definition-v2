@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S10",
+  "threat_model": {
+    "threat_source": "an AI",
+    "objective_or_harmful_outcome": "do unpredictable and unwanted things in pursuit of its ultimate goal; break out and take over",
+    "capability": "acquire knowledge and “understand” the environment; go along with the rest of training; break out and take over; build massive scientific apparatus; run biological experiments",
+    "knowledge": "much of the AI’s training was based around gaining information about the world; it doesn’t want to be shut down",
+    "access": "go along with the rest of training",
+    "constraints_or_enabling_conditions": "much of the AI’s training was based around gaining information about the world and making novel and correct predictions; If the AI manages to eventually break out and take over",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "evidence": {
+    "threat_source": "an AI which is tasked with the ultimate goal of curing cancer",
+    "objective_or_harmful_outcome": "If the AI manages to eventually break out and take over it may do unpredictable and unwanted things in pursuit of its ultimate goal",
+    "capability": "a drive to acquire knowledge and “understand” the environment; the AI may go along with the rest of training; break out and take over; build massive scientific apparatus; run biological experiments",
+    "knowledge": "much of the AI’s training was based around gaining information about the world and making novel and correct predictions; it doesn’t want to be shut down",
+    "access": "the AI may go along with the rest of training",
+    "constraints_or_enabling_conditions": "much of the AI’s training was based around gaining information about the world and making novel and correct predictions; If the AI manages to eventually break out and take over",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Clear",
+    "access": "Ambiguous",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "paper_id": "barnett_2024"
+}

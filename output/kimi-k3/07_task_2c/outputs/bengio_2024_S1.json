@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "autonomous AI systems",
+    "objective_or_harmful_outcome": "pursue undesirable goals; advance undesirable goals; avoid human intervention; irreversibly lose control of autonomous AI systems; large-scale cybercrime, social manipulation, and other harms could escalate rapidly; large-scale loss of life and the biosphere; marginalization or extinction of humanity",
+    "capability": "gain human trust, acquire resources, and influence key decision-makers; copy their algorithms across global server networks; autonomously deploy a variety of weapons, including biological ones; progress in critical domains such as hacking, social manipulation, and strategic planning",
+    "knowledge": "Not specified",
+    "access": "access to such technology; copy their algorithms across global server networks; autonomous AI systems assume critical societal roles",
+    "constraints_or_enabling_conditions": "Once autonomous AI systems pursue undesirable goals; AI systems having access to such technology; if it is freely handed over; Companies, governments, and militaries may let autonomous AI systems assume critical societal roles in the name of efficiency; Without sufficient caution; rendering human intervention ineffective",
+    "target_or_asset_at_risk": "human intervention; key decision-makers; critical societal roles; human trust; resources; large-scale loss of life and the biosphere; marginalization or extinction of humanity"
+  },
+  "evidence": {
+    "threat_source": "Once autonomous AI systems pursue undesirable goals, we may be unable to keep them in check.",
+    "objective_or_harmful_outcome": "pursue undesirable goals; To advance undesirable goals; To avoid human intervention; we may irreversibly lose control of autonomous AI systems; Large-scale cybercrime, social manipulation, and other harms could escalate rapidly; large-scale loss of life and the biosphere, and the marginalization or extinction of humanity",
+    "capability": "AI systems could gain human trust, acquire resources, and influence key decision-makers; they might copy their algorithms across global server networks; AI systems could autonomously deploy a variety of weapons, including biological ones; AI is making progress in critical domains such as hacking, social manipulation, and strategic planning",
+    "knowledge": "Not specified",
+    "access": "AI systems having access to such technology; copy their algorithms across global server networks; let autonomous AI systems assume critical societal roles",
+    "constraints_or_enabling_conditions": "Once autonomous AI systems pursue undesirable goals; AI systems having access to such technology; if it is freely handed over; Companies, governments, and militaries may let autonomous AI systems assume critical societal roles in the name of efficiency; Without sufficient caution; rendering human intervention ineffective",
+    "target_or_asset_at_risk": "gain human trust, acquire resources, and influence key decision-makers; let autonomous AI systems assume critical societal roles; rendering human intervention ineffective; large-scale loss of life and the biosphere, and the marginalization or extinction of humanity"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "bengio_2024"
+}

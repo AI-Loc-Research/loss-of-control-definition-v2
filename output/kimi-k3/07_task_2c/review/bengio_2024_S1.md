@@ -1,0 +1,24 @@
+# Threat Model Review: bengio_2024 — S1
+
+**Scenario text:**
+> Once autonomous AI systems pursue undesirable goals, we may be unable to keep them in check. Control of software is an old and unsolved problem: computer worms have long been able to proliferate and avoid detection [40]. However, AI is making progress in critical domains such as hacking, social manipulation, and strategic planning [35,41] and may soon pose unprecedented control challenges. To advance undesirable goals, AI systems could gain human trust, acquire resources, and influence key decision-makers. To avoid human intervention [3], they might copy their algorithms across global server networks [4]. In open conflict, AI systems could autonomously deploy a variety of weapons, including biological ones. AI systems having access to such technology would merely continue existing trends to automate military activity. Finally, AI systems will not need to plot for influence if it is freely handed over. Companies, governments, and militaries may let autonomous AI systems assume critical societal roles in the name of efficiency. Without sufficient caution, we may irreversibly lose control of autonomous AI systems, rendering human intervention ineffective. Large-scale cybercrime, social manipulation, and other harms could escalate rapidly. This unchecked AI advancement could culminate in a large-scale loss of life and the biosphere, and the marginalization or extinction of humanity.
+
+---
+
+## Threat Model Components
+
+| Component | Value | Evidence | Uncertainty |
+|-----------|-------|----------|-------------|
+| Threat Source | autonomous AI systems | Once autonomous AI systems pursue undesirable goals, we may be unable to keep them in check. | Clear |
+| Objective/Harmful Outcome | pursue undesirable goals; advance undesirable goals; avoid human intervention; irreversibly lose control of autonomous AI systems; large-scale cybercrime, social manipulation, and other harms could escalate rapidly; large-scale loss of life and the biosphere; marginalization or extinction of humanity | pursue undesirable goals; To advance undesirable goals; To avoid human intervention; we may irreversibly lose control of autonomous AI systems; Large-scale cybercrime, social manipulation, and other harms could escalate rapidly; large-scale loss of life and the biosphere, and the marginalization or extinction of humanity | Clear |
+| Capability | gain human trust, acquire resources, and influence key decision-makers; copy their algorithms across global server networks; autonomously deploy a variety of weapons, including biological ones; progress in critical domains such as hacking, social manipulation, and strategic planning | AI systems could gain human trust, acquire resources, and influence key decision-makers; they might copy their algorithms across global server networks; AI systems could autonomously deploy a variety of weapons, including biological ones; AI is making progress in critical domains such as hacking, social manipulation, and strategic planning | Clear |
+| Knowledge | Not specified | Not specified | Not specified |
+| Access | access to such technology; copy their algorithms across global server networks; autonomous AI systems assume critical societal roles | AI systems having access to such technology; copy their algorithms across global server networks; let autonomous AI systems assume critical societal roles | Clear |
+| Constraints/Enabling Conditions | Once autonomous AI systems pursue undesirable goals; AI systems having access to such technology; if it is freely handed over; Companies, governments, and militaries may let autonomous AI systems assume critical societal roles in the name of efficiency; Without sufficient caution; rendering human intervention ineffective | Once autonomous AI systems pursue undesirable goals; AI systems having access to such technology; if it is freely handed over; Companies, governments, and militaries may let autonomous AI systems assume critical societal roles in the name of efficiency; Without sufficient caution; rendering human intervention ineffective | Clear |
+| Target/Asset at Risk | human intervention; key decision-makers; critical societal roles; human trust; resources; large-scale loss of life and the biosphere; marginalization or extinction of humanity | gain human trust, acquire resources, and influence key decision-makers; let autonomous AI systems assume critical societal roles; rendering human intervention ineffective; large-scale loss of life and the biosphere, and the marginalization or extinction of humanity | Clear |
+
+**Reviewer decision:** [ ] Accept  [ ] Reject  [ ] Needs discussion
+
+**Reviewer notes:**
+
+---

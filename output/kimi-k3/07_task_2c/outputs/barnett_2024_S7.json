@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S7",
+  "threat_model": {
+    "threat_source": "The AI",
+    "objective_or_harmful_outcome": "sabotage research; make some directions seem more promising and others seem less promising; pursue their pet research direction which will likely turn out to be useless",
+    "capability": "explicitly suggesting research directions it knows aren’t useful; implement some experiments; exploit biases in the researchers, prompting them",
+    "knowledge": "research directions it knows aren’t useful",
+    "access": "suggesting research directions; implement some experiments; prompting them",
+    "constraints_or_enabling_conditions": "If humans were choosing the research directions",
+    "target_or_asset_at_risk": "research; research directions; the researchers"
+  },
+  "evidence": {
+    "threat_source": "The AI could sabotage research",
+    "objective_or_harmful_outcome": "sabotage research; make some directions seem more promising and others seem less promising; pursue their pet research direction which will likely turn out to be useless",
+    "capability": "explicitly suggesting research directions it knows aren’t useful; implement some experiments; exploit biases in the researchers, prompting them",
+    "knowledge": "it knows aren’t useful",
+    "access": "suggesting research directions; implement some experiments; prompting them",
+    "constraints_or_enabling_conditions": "If humans were choosing the research directions",
+    "target_or_asset_at_risk": "research; research directions; biases in the researchers"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Clear",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "barnett_2024"
+}

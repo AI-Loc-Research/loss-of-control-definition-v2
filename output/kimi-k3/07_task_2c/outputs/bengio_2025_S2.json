@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S2",
+  "threat_model": {
+    "threat_source": "AI (less powerful than humans)",
+    "objective_or_harmful_outcome": "possibly dangerous objectives",
+    "capability": "use deception to hide its goals; fake being aligned with humans",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "If the AI were less powerful than humans; until it has the ability to achieve its possibly dangerous objectives",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "evidence": {
+    "threat_source": "If the AI were less powerful than humans, it would be rational for it to use deception to hide its goals.",
+    "objective_or_harmful_outcome": "until it has the ability to achieve its possibly dangerous objectives",
+    "capability": "it would be rational for it to use deception to hide its goals... it would also be rational for such an AI to fake being aligned with humans",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "If the AI were less powerful than humans... until it has the ability to achieve its possibly dangerous objectives, a hypothetical event also known as the \"treacherous turn\"",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "paper_id": "bengio_2025"
+}

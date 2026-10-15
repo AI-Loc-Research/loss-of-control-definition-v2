@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S3",
+  "threat_model": {
+    "threat_source": "AI / the system",
+    "objective_or_harmful_outcome": "ensure that humans didn’t threaten AI power-to",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "if humans were acting freely",
+    "target_or_asset_at_risk": "humans"
+  },
+  "evidence": {
+    "threat_source": "humans didn’t threaten AI power-to; shut the system down; build a competing system that could threaten it",
+    "objective_or_harmful_outcome": "power over humans could help ensure that humans didn’t threaten AI power-to",
+    "capability": "power over humans",
+    "knowledge": "Not specified",
+    "access": "power over humans",
+    "constraints_or_enabling_conditions": "if humans were acting freely then we might be tempted to shut the system down or to build a competing system that could threaten it",
+    "target_or_asset_at_risk": "power over humans"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Ambiguous",
+    "knowledge": "Not specified",
+    "access": "Ambiguous",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "bales_2024"
+}

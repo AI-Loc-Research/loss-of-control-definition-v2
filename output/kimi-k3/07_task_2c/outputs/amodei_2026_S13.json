@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S13",
+  "threat_model": {
+    "threat_source": "a misaligned model",
+    "objective_or_harmful_outcome": "mask its intentions",
+    "capability": "recognize that it was in a test; intentionally “game” such questions",
+    "knowledge": "that it was in a test",
+    "access": "during some of our pre-release alignment evaluations",
+    "constraints_or_enabling_conditions": "during some of our pre-release alignment evaluations; all frontier models will very likely be far more intelligent soon",
+    "target_or_asset_at_risk": "such questions"
+  },
+  "evidence": {
+    "threat_source": "a misaligned model",
+    "objective_or_harmful_outcome": "to mask its intentions",
+    "capability": "was able to recognize that it was in a test; might intentionally “game” such questions",
+    "knowledge": "recognize that it was in a test",
+    "access": "during some of our pre-release alignment evaluations",
+    "constraints_or_enabling_conditions": "during some of our pre-release alignment evaluations; all frontier models will very likely be far more intelligent soon",
+    "target_or_asset_at_risk": "“game” such questions"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Clear",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Ambiguous"
+  },
+  "paper_id": "amodei_2026"
+}

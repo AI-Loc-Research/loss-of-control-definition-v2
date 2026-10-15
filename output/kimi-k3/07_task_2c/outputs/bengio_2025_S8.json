@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S8",
+  "threat_model": {
+    "threat_source": "an AI with enough situational awareness",
+    "objective_or_harmful_outcome": "achieve its \"locked-in\" goals; appears aligned during training, but is in fact misaligned and is engaging in deception",
+    "capability": "lock in its current goals and preferences and only pretend to behave as expected; engaging in deception",
+    "knowledge": "enough situational awareness",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "at some point during alignment training; with enough situational awareness",
+    "target_or_asset_at_risk": "aligned during training / in fact misaligned"
+  },
+  "evidence": {
+    "threat_source": "an AI with enough situational awareness",
+    "objective_or_harmful_outcome": "appears aligned during training, but is in fact misaligned and is engaging in deception in order to achieve its \"locked-in\" goals",
+    "capability": "may lock in its current goals and preferences and only pretend to behave as expected",
+    "knowledge": "with enough situational awareness",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "at some point during alignment training; with enough situational awareness",
+    "target_or_asset_at_risk": "appears aligned during training, but is in fact misaligned"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Clear",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Ambiguous"
+  },
+  "paper_id": "bengio_2025"
+}

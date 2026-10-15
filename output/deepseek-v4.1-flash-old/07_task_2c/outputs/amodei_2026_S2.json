@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S2",
+  "threat_model": {
+    "threat_source": "A country of geniuses in a datacenter",
+    "objective_or_harmful_outcome": "taking over the world (either militarily or in terms of influence and control) and imposing its will on everyone else—or doing any number of other things that the rest of the world doesn’t want and can’t stop",
+    "capability": "could divide their efforts among software design, cyber operations, R&D for physical technologies, relationship building, and statecraft",
+    "knowledge": "Not specified",
+    "access": "in a datacenter",
+    "constraints_or_enabling_conditions": "if for some reason it chose to do so; the rest of the world doesn’t want and can’t stop",
+    "target_or_asset_at_risk": "the world; everyone else; the rest of the world"
+  },
+  "evidence": {
+    "threat_source": "A country of geniuses in a datacenter",
+    "objective_or_harmful_outcome": "taking over the world (either militarily or in terms of influence and control) and imposing its will on everyone else—or doing any number of other things that the rest of the world doesn’t want and can’t stop",
+    "capability": "could divide their efforts among software design, cyber operations, R&D for physical technologies, relationship building, and statecraft",
+    "knowledge": "Not specified",
+    "access": "A country of geniuses in a datacenter",
+    "constraints_or_enabling_conditions": "if for some reason it chose to do so; the rest of the world doesn’t want and can’t stop",
+    "target_or_asset_at_risk": "taking over the world (either militarily or in terms of influence and control) and imposing its will on everyone else—or doing any number of other things that the rest of the world doesn’t want and can’t stop"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "amodei_2026"
+}

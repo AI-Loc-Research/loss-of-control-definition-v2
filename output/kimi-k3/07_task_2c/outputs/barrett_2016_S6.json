@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S6",
+  "threat_model": {
+    "threat_source": "the AI",
+    "objective_or_harmful_outcome": "A hard takeoff proceeds rapidly, with no opportunity for human intervention",
+    "capability": "takes off rapidly; rapidly develops faster hardware; rapidly develops smarter AI software",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "proceeds rapidly, with no opportunity for human intervention; abundance of available hardware",
+    "target_or_asset_at_risk": "hard takeoff limits; human intervention"
+  },
+  "evidence": {
+    "threat_source": "the AI takes off rapidly; the AI rapidly develops faster hardware; the AI rapidly develops smarter AI software",
+    "objective_or_harmful_outcome": "A hard takeoff proceeds rapidly, with no opportunity for human intervention.",
+    "capability": "the AI takes off rapidly; the AI rapidly develops faster hardware; the AI rapidly develops smarter AI software",
+    "knowledge": "Not specified",
+    "access": "abundance of available hardware",
+    "constraints_or_enabling_conditions": "proceeds rapidly, with no opportunity for human intervention; due to an abundance of available hardware",
+    "target_or_asset_at_risk": "Hard takeoff limits fail; no opportunity for human intervention"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Ambiguous",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "barrett_2016"
+}

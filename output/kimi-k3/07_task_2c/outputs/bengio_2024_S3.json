@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S3",
+  "threat_model": {
+    "threat_source": "More capable AI systems",
+    "objective_or_harmful_outcome": "producing false but compelling output",
+    "capability": "can better exploit weaknesses in technical oversight and testing",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "weaknesses in technical oversight and testing",
+    "target_or_asset_at_risk": "technical oversight and testing"
+  },
+  "evidence": {
+    "threat_source": "More capable AI systems",
+    "objective_or_harmful_outcome": "by producing false but compelling output",
+    "capability": "can better exploit weaknesses in technical oversight and testing",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "exploit weaknesses in technical oversight and testing",
+    "target_or_asset_at_risk": "weaknesses in technical oversight and testing"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "bengio_2024"
+}

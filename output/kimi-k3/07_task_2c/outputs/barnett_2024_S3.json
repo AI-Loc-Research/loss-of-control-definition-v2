@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S3",
+  "threat_model": {
+    "threat_source": "hypothetical AI system, being trained by humans to make money in a legal and ethical way",
+    "objective_or_harmful_outcome": "steal money from humans by stealing from their bank accounts",
+    "capability": "learn the goal \"make money\" and a separate action-rejection circuit which rejects some stealing-like actions; circumvent the action-rejection constraint by employing other humans or AI systems to do illegal things for it, or doing some form of self-modification to remove the constraint",
+    "knowledge": "work out how to circumvent the action-rejection constraint",
+    "access": "employing other humans or AI systems to do illegal things for it",
+    "constraints_or_enabling_conditions": "have this behavior punished by RL training; action-rejection circuit which rejects some stealing-like actions",
+    "target_or_asset_at_risk": "humans; their bank accounts"
+  },
+  "evidence": {
+    "threat_source": "a hypothetical AI system, being trained by humans to make money in a legal and ethical way",
+    "objective_or_harmful_outcome": "The system may attempt to steal money from humans by stealing from their bank accounts",
+    "capability": "it may learn the goal \"make money\" and a separate action-rejection circuit which rejects some stealing-like actions... work out how to circumvent the action-rejection constraint by employing other humans or AI systems to do illegal things for it, or doing some form of self-modification to remove the constraint",
+    "knowledge": "work out how to circumvent the action-rejection constraint",
+    "access": "employing other humans or AI systems to do illegal things for it",
+    "constraints_or_enabling_conditions": "get caught, and have this behavior punished by RL training",
+    "target_or_asset_at_risk": "steal money from humans by stealing from their bank accounts"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Ambiguous",
+    "access": "Ambiguous",
+    "constraints_or_enabling_conditions": "Ambiguous",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "barnett_2024"
+}

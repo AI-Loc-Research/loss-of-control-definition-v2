@@ -2,8 +2,7 @@
 
     config["backend"] == "huggingface"  ->  hf_client.query_llm  (e.g. Kimi K2.5)
     config["backend"] == "nvidia"       ->  hf_client.query_llm with config["base_url"]
-                                            (NVIDIA's OpenAI-compatible API, e.g. Kimi K3)
-    config["backend"] == "anthropic"    ->  anthropic_client.query_claude  (Claude)
+                                            (NVIDIA's OpenAI-compatible API, e.g. DeepSeek V4.1 Flash)
 
 Configs without "backend" (older notebooks) use Hugging Face, as before.
 """
@@ -47,15 +46,4 @@ def call_model(prompt: str, config: dict, api_key: str, dry_run: bool = False,
             top_p=config.get("top_p"),
             extra_body=config.get("extra_body"),
         )
-    if backend == "anthropic":
-        # Imported here so Hugging Face runs work without the anthropic package
-        from src.utils.anthropic_client import query_claude
-
-        return query_claude(
-            prompt=prompt,
-            model=config["model"],
-            api_key=api_key,
-            max_tokens=config.get("max_new_tokens", 64000),
-            effort=config.get("effort", "high"),
-        )
-    raise ValueError(f"Unknown backend {backend!r} in config (expected 'huggingface', 'nvidia' or 'anthropic')")
+    raise ValueError(f"Unknown backend {backend!r} in config (expected 'huggingface' or 'nvidia')")

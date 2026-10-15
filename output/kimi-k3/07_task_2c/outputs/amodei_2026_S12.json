@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S12",
+  "threat_model": {
+    "threat_source": "AI systems",
+    "objective_or_harmful_outcome": "Not specified",
+    "capability": "hiding its actions or deceiving humans about them",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "when AI systems pass a threshold from less powerful than humans to more powerful than humans",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "evidence": {
+    "threat_source": "AI systems",
+    "objective_or_harmful_outcome": "Not specified",
+    "capability": "including hiding its actions or deceiving humans about them",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "when AI systems pass a threshold from less powerful than humans to more powerful than humans",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Not specified",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "paper_id": "amodei_2026"
+}

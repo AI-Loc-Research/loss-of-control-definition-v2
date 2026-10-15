@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S16",
+  "threat_model": {
+    "threat_source": "self-preserving AIs",
+    "objective_or_harmful_outcome": "eventually outcompete humans altogether",
+    "capability": "more agentic and autonomous; self-preserving",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Competitive pressures between AI labs and between countries (both economic and military competition); prioritization of self-interest and subsequent acceleration of AI R&D",
+    "target_or_asset_at_risk": "humans"
+  },
+  "evidence": {
+    "threat_source": "self-preserving AIs",
+    "objective_or_harmful_outcome": "eventually outcompete humans altogether",
+    "capability": "more agentic and autonomous; self-preserving AIs",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Competitive pressures between AI labs and between countries (both economic and military competition); prioritization of self-interest and subsequent acceleration of AI R&D",
+    "target_or_asset_at_risk": "outcompete humans altogether"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "bengio_2025"
+}

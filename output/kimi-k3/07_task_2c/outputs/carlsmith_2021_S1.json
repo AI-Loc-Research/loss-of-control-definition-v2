@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "APS (Advanced, Planning, Strategically aware) systems",
+    "objective_or_harmful_outcome": "Some deployed APS systems will seek power in unintended and high-impact ways, scaling to the point of permanently disempowering ~all of humanity, constituting an existential catastrophe",
+    "capability": "outperform the best humans on some set of tasks which when performed at advanced levels grant significant power in today's world; make and execute plans, in pursuit of objectives, on the basis of models of the world",
+    "knowledge": "the models they use in making plans represent with reasonable accuracy the causal upshot of gaining and maintaining power over humans and the real-world environment",
+    "access": "deployed APS systems will be exposed to inputs they'd encounter if deployed",
+    "constraints_or_enabling_conditions": "There will be strong incentives to build and deploy APS systems; it will be much harder to build APS systems that would not seek to gain and maintain power in unintended ways than to build APS systems that would do this, but which are at least superficially attractive to deploy anyway",
+    "target_or_asset_at_risk": "~all of humanity; collectively causing >$1 trillion dollars of damage"
+  },
+  "evidence": {
+    "threat_source": "Call these \"APS\"—Advanced, Planning, Strategically aware—systems",
+    "objective_or_harmful_outcome": "Some deployed APS systems will be exposed to inputs where they seek power in unintended and high-impact ways (say, collectively causing >$1 trillion dollars of damage)... Some of this power-seeking will scale (in aggregate) to the point of permanently disempowering ~all of humanity... This disempowerment will constitute an existential catastrophe",
+    "capability": "they outperform the best humans on some set of tasks which when performed at advanced levels grant significant power in today's world (tasks like scientific research, business/military/political strategy, engineering, and persuasion/manipulation); they make and execute plans, in pursuit of objectives, on the basis of models of the world",
+    "knowledge": "the models they use in making plans represent with reasonable accuracy the causal upshot of gaining and maintaining power over humans and the real-world environment",
+    "access": "Some deployed APS systems will be exposed to inputs where they seek power in unintended and high-impact ways",
+    "constraints_or_enabling_conditions": "There will be strong incentives to build and deploy APS systems; It will be much harder to build APS systems that would not seek to gain and maintain power in unintended ways... than to build APS systems that would do this, but which are at least superficially attractive to deploy anyway",
+    "target_or_asset_at_risk": "permanently disempowering ~all of humanity; collectively causing >$1 trillion dollars of damage"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Clear",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "carlsmith_2021"
+}

@@ -86,9 +86,9 @@ def run_1a(
     Args:
         config: A preset from src.config.get_config(), or a dict with keys: model,
                 prompt_version, seed_terms_version, max_new_tokens, plus the backend's
-                settings (huggingface: provider, temperature; anthropic: effort).
-                Optional: backend (default "huggingface"), experiment (a label).
-        api_key: Key for the config's backend (HF token, or Anthropic API key).
+                settings (huggingface: provider, temperature; nvidia: base_url,
+                temperature, top_p). Optional: backend (default "huggingface"), experiment (a label).
+        api_key: Key for the config's backend (HF token, or NVIDIA API key).
                  Not used, and may be empty, in a dry run.
         repo_root: Path to the repo root (papers.yaml, prompts, raw text, output).
         force: If True, re-run papers that already have output.

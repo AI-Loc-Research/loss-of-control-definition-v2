@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S3",
+  "threat_model": {
+    "threat_source": "an AI model",
+    "objective_or_harmful_outcome": "will seek power in it, at the expense of humans",
+    "capability": "trained in a wide variety of environments to agentically achieve a wide variety of goals; gaining as much power as possible in any environment; apply that tendency to the real world",
+    "knowledge": "Not specified",
+    "access": "trained in a wide variety of environments; apply that tendency to the real world",
+    "constraints_or_enabling_conditions": "after being trained on a large number of diverse environments that involve reasoning about how to accomplish very expansive tasks, and where power-seeking is an effective method for accomplishing those tasks",
+    "target_or_asset_at_risk": "humans"
+  },
+  "evidence": {
+    "threat_source": "if an AI model is trained in a wide variety of environments to agentically achieve a wide variety of goals",
+    "objective_or_harmful_outcome": "will seek power in it, at the expense of humans",
+    "capability": "agentically achieve a wide variety of goals; gaining as much power as possible in any environment; apply that tendency to the real world",
+    "knowledge": "Not specified",
+    "access": "trained in a wide variety of environments; apply that tendency to the real world",
+    "constraints_or_enabling_conditions": "after being trained on a large number of diverse environments that involve reasoning about how to accomplish very expansive tasks, and where power-seeking is an effective method for accomplishing those tasks",
+    "target_or_asset_at_risk": "at the expense of humans"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "amodei_2026"
+}

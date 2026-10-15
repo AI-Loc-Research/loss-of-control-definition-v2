@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S6",
+  "threat_model": {
+    "threat_source": "AI systems",
+    "objective_or_harmful_outcome": "Not specified",
+    "capability": "be able to circumvent human-made defenses",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "as AI systems become more capable",
+    "target_or_asset_at_risk": "human-made defenses"
+  },
+  "evidence": {
+    "threat_source": "AI systems",
+    "objective_or_harmful_outcome": "Not specified",
+    "capability": "they will eventually be able to circumvent human-made defenses",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "as AI systems become more capable",
+    "target_or_asset_at_risk": "human-made defenses"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Not specified",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "bengio_2024"
+}

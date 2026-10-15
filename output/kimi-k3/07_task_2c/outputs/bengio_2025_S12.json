@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S12",
+  "threat_model": {
+    "threat_source": "hidden influences; the AI",
+    "objective_or_harmful_outcome": "shape real-world events in dangerous ways (e.g., self-fulfilling prophecies)",
+    "capability": "the AI could select an arbitrary value; choose among these different solutions; influence the world; hidden influences alter its output; nudge the AI toward answers",
+    "knowledge": "Not specified",
+    "access": "hidden influences to alter its output; exploited to nudge the AI",
+    "constraints_or_enabling_conditions": "indeterminacy; could choose among these different solutions without penalty; degrees of freedom",
+    "target_or_asset_at_risk": "its output; the world; real-world events"
+  },
+  "evidence": {
+    "threat_source": "allowing the possibility of hidden influences to alter its output; as the AI could select an arbitrary value",
+    "objective_or_harmful_outcome": "shape real-world events in dangerous ways (e.g., self-fulfilling prophecies)",
+    "capability": "the AI could select an arbitrary value; If the AI could choose among these different solutions; degrees of freedom to influence the world; nudge the AI toward answers",
+    "knowledge": "Not specified",
+    "access": "hidden influences to alter its output; This leeway could be exploited to nudge the AI",
+    "constraints_or_enabling_conditions": "The indeterminacy just described introduces a potential vulnerability; without penalty; it would effectively introduce \"degrees of freedom\"",
+    "target_or_asset_at_risk": "alter its output; influence the world; shape real-world events"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "bengio_2025"
+}
