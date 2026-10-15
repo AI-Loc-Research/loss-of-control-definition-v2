@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S3",
+  "threat_model": {
+    "threat_source": "AI model",
+    "objective_or_harmful_outcome": "seek power in the real world, at the expense of humans",
+    "capability": "agentically achieve a wide variety of goals; reason about how to accomplish very expansive tasks; generalize the lesson; develop either an inherent tendency to seek power, or a tendency to reason about each task it is given in a way that predictably causes it to seek power as a means to accomplish that task; apply that tendency to the real world; seek power in it",
+    "knowledge": "Not specified",
+    "access": "trained in a wide variety of environments; apply that tendency to the real world",
+    "constraints_or_enabling_conditions": "if an AI model is trained in a wide variety of environments to agentically achieve a wide variety of goals; after being trained on a large number of diverse environments that involve reasoning about how to accomplish very expansive tasks, and where power-seeking is an effective method for accomplishing those tasks",
+    "target_or_asset_at_risk": "humans"
+  },
+  "evidence": {
+    "threat_source": "the AI model will “generalize the lesson,” and develop either an inherent tendency to seek power, or a tendency to reason about each task it is given in a way that predictably causes it to seek power as a means to accomplish that task. They will then apply that tendency to the real world",
+    "objective_or_harmful_outcome": "They will then apply that tendency to the real world (which to them is just another task), and will seek power in it, at the expense of humans.",
+    "capability": "trained in a wide variety of environments to agentically achieve a wide variety of goals; reasoning about how to accomplish very expansive tasks; generalize the lesson; develop either an inherent tendency to seek power, or a tendency to reason about each task it is given in a way that predictably causes it to seek power as a means to accomplish that task; apply that tendency to the real world; will seek power in it",
+    "knowledge": "Not specified",
+    "access": "trained in a wide variety of environments; They will then apply that tendency to the real world",
+    "constraints_or_enabling_conditions": "if an AI model is trained in a wide variety of environments to agentically achieve a wide variety of goals; after being trained on a large number of diverse environments that involve reasoning about how to accomplish very expansive tasks, and where power-seeking is an effective method for accomplishing those tasks",
+    "target_or_asset_at_risk": "at the expense of humans."
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "amodei_2026"
+}
