@@ -1,0 +1,78 @@
+{
+  "config": {
+    "experiment": "2c_deepseek-v4.1-flash-nvidia_prompt_2c_v2",
+    "prompt_version": "prompt_2c_v2",
+    "backend": "nvidia",
+    "model": "deepseek-ai/deepseek-v4.1-flash",
+    "base_url": "https://integrate.api.nvidia.com/v1",
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "max_new_tokens": 32768,
+    "dry_run": false,
+    "force": false,
+    "total_scenarios": 5
+  },
+  "timestamp": "2026-10-15T20:48:18.596148+00:00",
+  "total_runtime_seconds": 624.92,
+  "total_scenarios": 5,
+  "scenarios_processed": 5,
+  "scenarios_skipped": 0,
+  "errors": [],
+  "per_scenario": [
+    {
+      "item_key": "critch_2023_S1",
+      "skipped": false,
+      "latency_seconds": 168.56,
+      "usage": {
+        "prompt_tokens": 2249,
+        "completion_tokens": 9912
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "dafoe_2020_S1",
+      "skipped": false,
+      "latency_seconds": 101.85,
+      "usage": {
+        "prompt_tokens": 1354,
+        "completion_tokens": 4596
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "dafoe_2020_S2",
+      "skipped": false,
+      "latency_seconds": 63.76,
+      "usage": {
+        "prompt_tokens": 1331,
+        "completion_tokens": 2566
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "dsit_frontier_ai_S1",
+      "skipped": false,
+      "latency_seconds": 85.05,
+      "usage": {
+        "prompt_tokens": 1391,
+        "completion_tokens": 4777
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "dsit_frontier_ai_S2",
+      "skipped": false,
+      "latency_seconds": 205.7,
+      "usage": {
+        "prompt_tokens": 1348,
+        "completion_tokens": 9127
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "the production web",
+    "objective_or_harmful_outcome": "amorphous combination of profitability, size, market share, and social status",
+    "capability": "can operate with no input from companies outside the web, while providing an impressive swath of cheap products and services to the rest of the world",
+    "knowledge": "Not specified",
+    "access": "facilities are so pervasive, secure, and necessary for serving our basic needs",
+    "constraints_or_enabling_conditions": "the change happens so gradually that collective action against it is difficult to precipitate, and eventually the change is irreversible; without easily accessible human-legible paper trails, auditing attempts glean little insight; facilities are so pervasive, secure, and necessary for serving our basic needs that we are unable to stop them from operating",
+    "target_or_asset_at_risk": "human-critical resources (e.g., arable land, drinking water, atmospheric oxygen); climate conditions; humanity’s very existence"
+  },
+  "evidence": {
+    "threat_source": "renders the production web a harmful rather than helpful presence",
+    "objective_or_harmful_outcome": "The objective of each company in the production web could loosely be described as an amorphous combination of profitability, size, market share, and social status",
+    "capability": "can operate with no input from companies outside the web, while providing an impressive swath of cheap products and services to the rest of the world",
+    "knowledge": "Not specified",
+    "access": "their facilities are so pervasive, secure, and necessary for serving our basic needs",
+    "constraints_or_enabling_conditions": "the change happens so gradually that collective action against it is difficult to precipitate, and eventually the change is irreversible; without easily accessible human-legible paper trails, auditing attempts glean little insight; facilities are so pervasive, secure, and necessary for serving our basic needs that we are unable to stop them from operating",
+    "target_or_asset_at_risk": "human-critical resources (e.g., arable land, drinking water, atmospheric oxygen) are depleted and climate conditions are compromised at an alarming rate, threatening humanity’s very existence"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "critch_2023"
+}
