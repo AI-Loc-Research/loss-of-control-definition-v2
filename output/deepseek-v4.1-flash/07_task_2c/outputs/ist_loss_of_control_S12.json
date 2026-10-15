@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S12",
+  "threat_model": {
+    "threat_source": "vibe coding; LLMs; AI systems; Models trained on public code repositories; compromised or malicious dependency",
+    "objective_or_harmful_outcome": "poses new vulnerabilities; security vulnerabilities in approximately 12 percent of code; Python exhibiting vulnerability rates of 16-18 percent; inherit existing flaws like hardcoded secrets and insecure dependencies; expand the attack surface and introduce software supply chain risks; downstream exploitation across multiple systems; scaling a vulnerability across organizations",
+    "capability": "developers use natural language prompts to have LLMs generate, debug, and refine code based on “vibes” or intended functionality, often bypassing manual syntax writing; AI systems suggest or auto-import vulnerable third-party packages; A single compromised or malicious dependency can enable downstream exploitation across multiple systems",
+    "knowledge": "Not specified",
+    "access": "Models trained on public code repositories",
+    "constraints_or_enabling_conditions": "often bypassing manual syntax writing; Models trained on public code repositories; When AI systems suggest or auto-import vulnerable third-party packages; A single compromised or malicious dependency can enable downstream exploitation across multiple systems",
+    "target_or_asset_at_risk": "code; AI-generated files; software supply chain; multiple systems; organizations"
+  },
+  "evidence": {
+    "threat_source": "vibe coding—an AI-assisted software development approach where developers use natural language prompts to have LLMs generate, debug, and refine code based on “vibes” or intended functionality, often bypassing manual syntax writing—poses new vulnerabilities. Models trained on public code repositories inherit existing flaws like hardcoded secrets and insecure dependencies. When AI systems suggest or auto-import vulnerable third-party packages, they expand the attack surface and introduce software supply chain risks. A single compromised or malicious dependency can enable downstream exploitation across multiple systems—effectively scaling a vulnerability across organizations.",
+    "objective_or_harmful_outcome": "poses new vulnerabilities. analysis of over 7,700 AI-generated files found security vulnerabilities in approximately 12 percent of code, with Python exhibiting vulnerability rates of 16-18 percent. Models trained on public code repositories inherit existing flaws like hardcoded secrets and insecure dependencies. When AI systems suggest or auto-import vulnerable third-party packages, they expand the attack surface and introduce software supply chain risks. A single compromised or malicious dependency can enable downstream exploitation across multiple systems—effectively scaling a vulnerability across organizations.",
+    "capability": "developers use natural language prompts to have LLMs generate, debug, and refine code based on “vibes” or intended functionality, often bypassing manual syntax writing. When AI systems suggest or auto-import vulnerable third-party packages, they expand the attack surface and introduce software supply chain risks. A single compromised or malicious dependency can enable downstream exploitation across multiple systems—effectively scaling a vulnerability across organizations.",
+    "knowledge": "Not specified",
+    "access": "Models trained on public code repositories",
+    "constraints_or_enabling_conditions": "often bypassing manual syntax writing. Models trained on public code repositories. When AI systems suggest or auto-import vulnerable third-party packages. A single compromised or malicious dependency can enable downstream exploitation across multiple systems—effectively scaling a vulnerability across organizations.",
+    "target_or_asset_at_risk": "security vulnerabilities in approximately 12 percent of code. AI-generated files. software supply chain risks. downstream exploitation across multiple systems. scaling a vulnerability across organizations."
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "ist_loss_of_control"
+}
