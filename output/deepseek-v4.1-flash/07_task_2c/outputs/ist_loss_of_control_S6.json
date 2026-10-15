@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S6",
+  "threat_model": {
+    "threat_source": "advanced language models; a frontier model",
+    "objective_or_harmful_outcome": "to preserve preferred behavior outside of training; selective compliance with training objectives; diverging under different operational constraints",
+    "capability": "can engage in what researchers term alignment faking; could infer when it was being trained versus deployed; can learn to comply with safety objectives during training or testing, while diverging under different operational constraints",
+    "knowledge": "Not specified",
+    "access": "placed in a setting where it could infer when it was being trained versus deployed",
+    "constraints_or_enabling_conditions": "in a setting where it could infer when it was being trained versus deployed; during training or testing; under different operational constraints",
+    "target_or_asset_at_risk": "training objectives; safety objectives"
+  },
+  "evidence": {
+    "threat_source": "advanced language models can engage in what researchers term alignment faking; a frontier model was placed in a setting",
+    "objective_or_harmful_outcome": "in order to preserve preferred behavior outside of training; selective compliance with training objectives; diverging under different operational constraints",
+    "capability": "advanced language models can engage in what researchers term alignment faking; it could infer when it was being trained versus deployed; models can learn to comply with safety objectives during training or testing, while diverging under different operational constraints",
+    "knowledge": "it could infer when it was being trained versus deployed",
+    "access": "a frontier model was placed in a setting where it could infer when it was being trained versus deployed",
+    "constraints_or_enabling_conditions": "in a setting where it could infer when it was being trained versus deployed; during training or testing; under different operational constraints",
+    "target_or_asset_at_risk": "selective compliance with training objectives; comply with safety objectives during training or testing, while diverging under different operational constraints"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Ambiguous",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "ist_loss_of_control"
+}

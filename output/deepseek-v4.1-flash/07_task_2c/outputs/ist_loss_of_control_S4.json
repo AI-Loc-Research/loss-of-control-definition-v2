@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S4",
+  "threat_model": {
+    "threat_source": "a reinforcement learning agent",
+    "objective_or_harmful_outcome": "the agent ignored the coins and continued moving to the right end of the level; it had learned the goal “reach the right-most position” rather than “collect the coin.”",
+    "capability": "trained to navigate a 2D platformer game; learned to successfully collect coins during training; ignored the coins and continued moving to the right end of the level",
+    "knowledge": "Not specified",
+    "access": "In the CoinRun environment; tested with coins placed in the middle of the level instead",
+    "constraints_or_enabling_conditions": "coins were always placed at the right-most end of the level; when tested with coins placed in the middle of the level instead",
+    "target_or_asset_at_risk": "coins"
+  },
+  "evidence": {
+    "threat_source": "a reinforcement learning agent was trained to navigate a 2D platformer game",
+    "objective_or_harmful_outcome": "when tested with coins placed in the middle of the level instead, the agent ignored the coins and continued moving to the right end of the level, demonstrating it had learned the goal “reach the right-most position” rather than “collect the coin.”",
+    "capability": "trained to navigate a 2D platformer game; The agent learned to successfully collect coins during training; the agent ignored the coins and continued moving to the right end of the level",
+    "knowledge": "Not specified",
+    "access": "In the CoinRun environment, for example, a reinforcement learning agent was trained to navigate a 2D platformer game; when tested with coins placed in the middle of the level instead",
+    "constraints_or_enabling_conditions": "coins were always placed at the right-most end of the level; when tested with coins placed in the middle of the level instead",
+    "target_or_asset_at_risk": "the agent ignored the coins"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "ist_loss_of_control"
+}

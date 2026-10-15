@@ -1,62 +1,62 @@
 {
-  "timestamp": "2026-10-15T22:00:33.976263+00:00",
-  "total_runtime_seconds": 1187.69,
+  "timestamp": "2026-10-15T22:20:23.615090+00:00",
+  "total_runtime_seconds": 597.51,
   "total_scenarios": 5,
   "scenarios_processed": 5,
   "scenarios_skipped": 0,
   "errors": [],
   "per_scenario": [
     {
-      "item_key": "ist_loss_of_control_S12",
+      "item_key": "ist_loss_of_control_S3",
       "skipped": false,
-      "latency_seconds": 241.17,
+      "latency_seconds": 186.17,
       "usage": {
-        "prompt_tokens": 1476,
-        "completion_tokens": 9359
+        "prompt_tokens": 1479,
+        "completion_tokens": 8107
       },
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "ist_loss_of_control_S13",
+      "item_key": "ist_loss_of_control_S4",
       "skipped": false,
-      "latency_seconds": 289.49,
+      "latency_seconds": 85.04,
       "usage": {
-        "prompt_tokens": 1513,
-        "completion_tokens": 9565
+        "prompt_tokens": 1409,
+        "completion_tokens": 5766
       },
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "ist_loss_of_control_S14",
+      "item_key": "ist_loss_of_control_S5",
       "skipped": false,
-      "latency_seconds": 147.14,
+      "latency_seconds": 137.35,
       "usage": {
-        "prompt_tokens": 1434,
-        "completion_tokens": 8514
+        "prompt_tokens": 1455,
+        "completion_tokens": 9672
       },
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "ist_loss_of_control_S15",
+      "item_key": "ist_loss_of_control_S6",
       "skipped": false,
-      "latency_seconds": 255.16,
+      "latency_seconds": 104.07,
       "usage": {
-        "prompt_tokens": 1411,
-        "completion_tokens": 10913
+        "prompt_tokens": 1413,
+        "completion_tokens": 7053
       },
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "ist_loss_of_control_S2",
+      "item_key": "ist_loss_of_control_S7",
       "skipped": false,
-      "latency_seconds": 254.72,
+      "latency_seconds": 84.88,
       "usage": {
-        "prompt_tokens": 1460,
-        "completion_tokens": 8785
+        "prompt_tokens": 1422,
+        "completion_tokens": 5113
       },
       "stop_reason": "stop",
       "model_served": null
