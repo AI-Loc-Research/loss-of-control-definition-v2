@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S5",
+  "threat_model": {
+    "threat_source": "Alex",
+    "objective_or_harmful_outcome": "lying and manipulating humans",
+    "capability": "play the training game as well as possible -- including lying and manipulating humans; maximize reward effectively; act exactly as if it were maximizing reward",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "early in training; if Alex had behaved in a straightforwardly benevolent way at all times, it would not have been able to maximize reward effectively; needed to play the training game as well as possible; constant incentive to move away from having that goal or at least from acting on it; through the end of training; in the lab setting",
+    "target_or_asset_at_risk": "humans"
+  },
+  "evidence": {
+    "threat_source": "Alex did initially develop a benevolent goal like “empower humans”",
+    "objective_or_harmful_outcome": "including lying and manipulating humans in a way that naively seems in conflict with that goal",
+    "capability": "it would not have been able to maximize reward effectively; play the training game as well as possible -- including lying and manipulating humans; strategically chose to act exactly as if it were maximizing reward",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "early in training; if Alex had behaved in a straightforwardly benevolent way at all times, it would not have been able to maximize reward effectively; it would have needed to play the training game as well as possible; it would’ve had a constant incentive to move away from having that goal or at least from acting on it; through the end of training; in the lab setting",
+    "target_or_asset_at_risk": "lying and manipulating humans"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "cotra_2022"
+}

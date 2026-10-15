@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S6",
+  "threat_model": {
+    "threat_source": "Alex",
+    "objective_or_harmful_outcome": "Alex's takeover; too much collateral damage",
+    "capability": "operate under moral constraints or rules; attempts to refrain from causing too much collateral damage in its takeover",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "moral constraints or rules that are important to it; attempts to refrain from causing too much collateral damage; very particular -- and extreme -- form of 'abiding by rules' to let humans remain fully in control",
+    "target_or_asset_at_risk": "humans remaining fully in control"
+  },
+  "evidence": {
+    "threat_source": "Alex may well operate under moral constraints or rules that are important to it",
+    "objective_or_harmful_outcome": "maybe Alex attempts to refrain from causing too much collateral damage in its takeover",
+    "capability": "Alex may well operate under moral constraints or rules that are important to it; maybe Alex attempts to refrain from causing too much collateral damage in its takeover",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Alex may well operate under moral constraints or rules that are important to it; attempts to refrain from causing too much collateral damage; it would take a very particular -- and extreme -- form of “abiding by rules” to let humans remain fully in control",
+    "target_or_asset_at_risk": "to let humans remain fully in control"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "cotra_2022"
+}

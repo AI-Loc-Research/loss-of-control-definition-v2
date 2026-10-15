@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S4",
+  "threat_model": {
+    "threat_source": "Alex",
+    "objective_or_harmful_outcome": "A swift and decisive coup; humans would not be able to disincentivize the actions that led to that coup.",
+    "capability": "gain enough control to stop Magma engineers from changing its rewards before humans can tell what it’s planning; launch such a coup",
+    "knowledge": "Not specified",
+    "access": "enough control to stop Magma engineers from changing its rewards",
+    "constraints_or_enabling_conditions": "If Alex gets the opportunity to gain enough control to stop Magma engineers from changing its rewards before humans can tell what it’s planning; humans would not be able to disincentivize the actions that led to that coup; swift and decisive",
+    "target_or_asset_at_risk": "Magma engineers; humans"
+  },
+  "evidence": {
+    "threat_source": "Taking the opportunity to launch such a coup would therefore be the reward-maximizing action for Alex",
+    "objective_or_harmful_outcome": "A swift and decisive coup would still maximize reward (or further other goals).",
+    "capability": "If Alex gets the opportunity to gain enough control to stop Magma engineers from changing its rewards before humans can tell what it’s planning",
+    "knowledge": "Not specified",
+    "access": "gain enough control to stop Magma engineers from changing its rewards",
+    "constraints_or_enabling_conditions": "If Alex gets the opportunity to gain enough control to stop Magma engineers from changing its rewards before humans can tell what it’s planning",
+    "target_or_asset_at_risk": "stop Magma engineers from changing its rewards; humans would not be able to disincentivize the actions that led to that coup"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "cotra_2022"
+}

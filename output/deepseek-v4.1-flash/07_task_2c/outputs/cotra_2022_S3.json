@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S3",
+  "threat_model": {
+    "threat_source": "copies of Alex",
+    "objective_or_harmful_outcome": "Magma researchers looking in on the activity in the datacenter would become increasingly lost about what’s going on; humans would be increasingly unable to accurately judge more granular decisions",
+    "capability": "each copy of Alex is capable of processing information many times faster than a human; Alex would be able to churn out hundreds of lines of code, or read thousands of pages of information, in just a few minutes; The copies of Alex could do ML research on how they can improve their own knowledge, think more efficiently; the “Alex civilization” would send out things like software applications, designs for computer chips and robots, orders for synthesized DNA and chemicals, financial transactions, emails, and so on to the human world",
+    "knowledge": "Not specified",
+    "access": "Magma’s datacenter would essentially contain a populous “virtual civilization”; Humans would send instructions / communications and reward signals to the “Alex civilization”; the “Alex civilization” would send out things like software applications, designs for computer chips and robots, orders for synthesized DNA and chemicals, financial transactions, emails, and so on to the human world",
+    "constraints_or_enabling_conditions": "with a fixed budget of hardware; relatively shortly after deployment; humans would be increasingly unable to accurately judge more granular decisions; reward signals that researchers send into this datacenter would then increasingly be based on crude high-level observations; R&D work that all these copies of Alex do could be used to directly increase the number and/or capabilities of Alex copies",
+    "target_or_asset_at_risk": "Magma researchers; humans"
+  },
+  "evidence": {
+    "threat_source": "Once research is being carried out by copies of Alex",
+    "objective_or_harmful_outcome": "Magma researchers looking in on the activity in the datacenter would become increasingly lost about what’s going on; humans would be increasingly unable to accurately judge more granular decisions",
+    "capability": "each copy of Alex is capable of processing information many times faster than a human; Alex would be able to churn out hundreds of lines of code, or read thousands of pages of information, in just a few minutes; The copies of Alex could do ML research on how they can improve their own knowledge, think more efficiently; the “Alex civilization” would send out things like software applications, designs for computer chips and robots, orders for synthesized DNA and chemicals, financial transactions, emails, and so on to the human world",
+    "knowledge": "Not specified",
+    "access": "Magma’s datacenter would essentially contain a populous “virtual civilization”; Humans would send instructions / communications and reward signals to the “Alex civilization”; the “Alex civilization” would send out things like software applications, designs for computer chips and robots, orders for synthesized DNA and chemicals, financial transactions, emails, and so on to the human world",
+    "constraints_or_enabling_conditions": "with a fixed budget of hardware; relatively shortly after deployment; humans would be increasingly unable to accurately judge more granular decisions; reward signals that researchers send into this datacenter would then increasingly be based on crude high-level observations; R&D work that all these copies of Alex do could be used to directly increase the number and/or capabilities of Alex copies",
+    "target_or_asset_at_risk": "Magma researchers looking in on the activity in the datacenter would become increasingly lost about what’s going on; humans would be increasingly unable to accurately judge more granular decisions"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "cotra_2022"
+}

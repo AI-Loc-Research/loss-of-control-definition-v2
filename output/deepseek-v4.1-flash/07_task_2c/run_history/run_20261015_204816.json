@@ -1,0 +1,78 @@
+{
+  "config": {
+    "experiment": "2c_deepseek-v4.1-flash-nvidia_prompt_2c_v2",
+    "prompt_version": "prompt_2c_v2",
+    "backend": "nvidia",
+    "model": "deepseek-ai/deepseek-v4.1-flash",
+    "base_url": "https://integrate.api.nvidia.com/v1",
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "max_new_tokens": 32768,
+    "dry_run": false,
+    "force": false,
+    "total_scenarios": 5
+  },
+  "timestamp": "2026-10-15T20:34:03.497760+00:00",
+  "total_runtime_seconds": 853.43,
+  "total_scenarios": 5,
+  "scenarios_processed": 5,
+  "scenarios_skipped": 0,
+  "errors": [],
+  "per_scenario": [
+    {
+      "item_key": "cotra_2022_S3",
+      "skipped": false,
+      "latency_seconds": 161.81,
+      "usage": {
+        "prompt_tokens": 1851,
+        "completion_tokens": 7200
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "cotra_2022_S4",
+      "skipped": false,
+      "latency_seconds": 204.28,
+      "usage": {
+        "prompt_tokens": 1408,
+        "completion_tokens": 9594
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "cotra_2022_S5",
+      "skipped": false,
+      "latency_seconds": 98.74,
+      "usage": {
+        "prompt_tokens": 1520,
+        "completion_tokens": 4748
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "cotra_2022_S6",
+      "skipped": false,
+      "latency_seconds": 245.55,
+      "usage": {
+        "prompt_tokens": 1402,
+        "completion_tokens": 7727
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "cotra_2022_S7",
+      "skipped": false,
+      "latency_seconds": 143.05,
+      "usage": {
+        "prompt_tokens": 1382,
+        "completion_tokens": 8547
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    }
+  ]
+}
