@@ -1,62 +1,62 @@
 {
-  "timestamp": "2026-10-15T20:01:45.725370+00:00",
-  "total_runtime_seconds": 1015.06,
+  "timestamp": "2026-10-15T20:18:42.688557+00:00",
+  "total_runtime_seconds": 918.52,
   "total_scenarios": 5,
   "scenarios_processed": 5,
   "scenarios_skipped": 0,
   "errors": [],
   "per_scenario": [
     {
-      "item_key": "carlsmith_2021_S6",
+      "item_key": "cigi_ai_national_security_S2",
       "skipped": false,
-      "latency_seconds": 178.02,
+      "latency_seconds": 234.88,
       "usage": {
-        "prompt_tokens": 1366,
-        "completion_tokens": 6430
+        "prompt_tokens": 1354,
+        "completion_tokens": 5311
       },
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "chan_2023_S1",
+      "item_key": "cigi_ai_national_security_S3",
       "skipped": false,
-      "latency_seconds": 253.68,
+      "latency_seconds": 143.33,
       "usage": {
-        "prompt_tokens": 1571,
-        "completion_tokens": 9140
+        "prompt_tokens": 2338,
+        "completion_tokens": 9567
       },
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "chan_2023_S2",
+      "item_key": "cigi_ai_national_security_S4",
       "skipped": false,
-      "latency_seconds": 206.25,
+      "latency_seconds": 140.15,
       "usage": {
-        "prompt_tokens": 1441,
-        "completion_tokens": 7825
+        "prompt_tokens": 1430,
+        "completion_tokens": 6266
       },
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "chin_2025_S1",
+      "item_key": "cotra_2022_S1",
       "skipped": false,
-      "latency_seconds": 188.19,
+      "latency_seconds": 196.88,
       "usage": {
-        "prompt_tokens": 1420,
-        "completion_tokens": 4358
+        "prompt_tokens": 2071,
+        "completion_tokens": 9314
       },
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "cigi_ai_national_security_S1",
+      "item_key": "cotra_2022_S2",
       "skipped": false,
-      "latency_seconds": 188.93,
+      "latency_seconds": 203.28,
       "usage": {
-        "prompt_tokens": 1442,
-        "completion_tokens": 8695
+        "prompt_tokens": 1534,
+        "completion_tokens": 9222
       },
       "stop_reason": "stop",
       "model_served": null

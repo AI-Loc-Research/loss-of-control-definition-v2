@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S2",
+  "threat_model": {
+    "threat_source": "extensive AI adoption and an increasing automation of work and decision making",
+    "objective_or_harmful_outcome": "the declining relevance of humans in economic and political processes and decision making, leading to their eventual disempowerment",
+    "capability": "increasing automation of work and decision making",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "extensive AI adoption and an increasing automation of work and decision making",
+    "target_or_asset_at_risk": "humans in economic and political processes and decision making"
+  },
+  "evidence": {
+    "threat_source": "extensive AI adoption and an increasing automation of work and decision making",
+    "objective_or_harmful_outcome": "the declining relevance of humans in economic and political processes and decision making, leading to their eventual disempowerment",
+    "capability": "increasing automation of work and decision making",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "extensive AI adoption and an increasing automation of work and decision making",
+    "target_or_asset_at_risk": "humans in economic and political processes and decision making"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "cigi_ai_national_security"
+}

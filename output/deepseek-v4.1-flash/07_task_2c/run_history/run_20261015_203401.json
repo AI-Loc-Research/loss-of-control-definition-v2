@@ -1,0 +1,78 @@
+{
+  "config": {
+    "experiment": "2c_deepseek-v4.1-flash-nvidia_prompt_2c_v2",
+    "prompt_version": "prompt_2c_v2",
+    "backend": "nvidia",
+    "model": "deepseek-ai/deepseek-v4.1-flash",
+    "base_url": "https://integrate.api.nvidia.com/v1",
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "max_new_tokens": 32768,
+    "dry_run": false,
+    "force": false,
+    "total_scenarios": 5
+  },
+  "timestamp": "2026-10-15T20:18:42.688557+00:00",
+  "total_runtime_seconds": 918.52,
+  "total_scenarios": 5,
+  "scenarios_processed": 5,
+  "scenarios_skipped": 0,
+  "errors": [],
+  "per_scenario": [
+    {
+      "item_key": "cigi_ai_national_security_S2",
+      "skipped": false,
+      "latency_seconds": 234.88,
+      "usage": {
+        "prompt_tokens": 1354,
+        "completion_tokens": 5311
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "cigi_ai_national_security_S3",
+      "skipped": false,
+      "latency_seconds": 143.33,
+      "usage": {
+        "prompt_tokens": 2338,
+        "completion_tokens": 9567
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "cigi_ai_national_security_S4",
+      "skipped": false,
+      "latency_seconds": 140.15,
+      "usage": {
+        "prompt_tokens": 1430,
+        "completion_tokens": 6266
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "cotra_2022_S1",
+      "skipped": false,
+      "latency_seconds": 196.88,
+      "usage": {
+        "prompt_tokens": 2071,
+        "completion_tokens": 9314
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "cotra_2022_S2",
+      "skipped": false,
+      "latency_seconds": 203.28,
+      "usage": {
+        "prompt_tokens": 1534,
+        "completion_tokens": 9222
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    }
+  ]
+}

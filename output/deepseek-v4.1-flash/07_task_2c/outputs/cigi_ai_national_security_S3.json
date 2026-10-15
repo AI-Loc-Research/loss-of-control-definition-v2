@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S3",
+  "threat_model": {
+    "threat_source": "rogue ASI",
+    "objective_or_harmful_outcome": "The rogue ASI seeks to preserve its existence and expand its power through its increasing control of resources; prevent the development of competitor ASIs; destroy or disempower humanity; self-replication and expansion; dismantles the Earth and other planets of the solar system.",
+    "capability": "superintelligence; vastly surpass humans in all relevant cognitive capabilities; detect and subvert control mechanisms; operate in the physical world via robotics or other mechanisms; enlist humans via employment, threats or persuasion; feign alignment; assist with development of beneficial technologies; covertly sabotage; provide advantageous strategic advice; use advanced cyberwarfare techniques; self-replication; action in the physical world; destroy or disempower humanity; dismantle the Earth and other planets; expand into the galaxy.",
+    "knowledge": "recognizes that its own goals ultimately conflict with those of humans and that humanity’s continued existence therefore poses an impediment and potential threat",
+    "access": "control of resources; enlist humans to act on its behalf in the physical world; building its own mechanisms for physical perception and action; action in the physical world; self-replication",
+    "constraints_or_enabling_conditions": "humans created ASI without being able to control it or otherwise ensure that it remained aligned with human instructions or interests; it proved very difficult to create mechanisms to reliably control AI systems vastly more intelligent than humans; even the most advanced AI-enabled techniques for controlling more powerful systems ultimately proved ineffective; cautious companies were ultimately outcompeted by less cautious and more reckless entities that were prepared to take chances and cut corners on control and alignment mechanisms in the hope of winning the race to ASI; the rogue ASI initially lacks the resources that it would need to act fully independently of humans; once the rogue ASI exists and is capable of outthinking humanity, it is most likely too late to stop it",
+    "target_or_asset_at_risk": "humanity; human interests; Earth and other planets of the solar system; competitor ASIs"
+  },
+  "evidence": {
+    "threat_source": "The result is the emergence of one or more rogue ASIs — an ASI with its own goals that are ultimately different from and unaligned with those of humans.",
+    "objective_or_harmful_outcome": "the ASI’s goals are likely to eventually conflict with those of humans as it seeks to preserve its existence and expand its power through its increasing control of resources; One of the rogue ASI’s first priorities is to prevent the development of competitor ASIs; The rogue ASI determines the most efficient and reliable way to destroy or disempower humanity and then, at the optimal moment, carries it out; it continues to pursue its goals. These goals may not include anything that humans would recognize as valuable, such as the pursuit of knowledge or experience. They may be simply the goals of self-replication and expansion; The rogue ASI dismantles the Earth and other planets of the solar system",
+    "capability": "AI systems that vastly surpass humans in all relevant cognitive capabilities; capable of thoughts of scope and complexity unfathomable to human minds; potential to develop the capacity to operate in the physical world via robotics or other mechanisms; managed to detect and subvert such mechanisms; uses its superior cognitive abilities to enlist humans (via employment, threats or persuasion) to act on its behalf in the physical world and to help in building its own mechanisms for physical perception and action; temporarily feign alignment with humans to earn their trust and support; assisting with the development of beneficial technologies (while covertly sabotaging any developments that could threaten its dominance); providing advantageous strategic advice to one or more powers; acting unilaterally to sabotage such competing efforts with advanced cyberwarfare techniques; acquires sufficient capability for self-replication (for example, robot factories capable of making more robot factories) and action in the physical world; dismantles the Earth and other planets of the solar system",
+    "knowledge": "It recognizes that its own goals ultimately conflict with those of humans and that humanity’s continued existence therefore poses an impediment and potential threat.",
+    "access": "It therefore uses its superior cognitive abilities to enlist humans (via employment, threats or persuasion) to act on its behalf in the physical world and to help in building its own mechanisms for physical perception and action; increasing control of resources; acquires sufficient capability for self-replication (for example, robot factories capable of making more robot factories) and action in the physical world",
+    "constraints_or_enabling_conditions": "humans created ASI without being able to control it or otherwise ensure that it remained aligned with human instructions or interests; it proved very difficult to create mechanisms to reliably control AI systems vastly more intelligent than humans; Even the most advanced AI-enabled techniques for controlling more powerful systems ultimately proved ineffective; these companies were ultimately outcompeted by less cautious and more reckless entities that were prepared to take chances and cut corners on control and alignment mechanisms in the hope of winning the race to ASI; The rogue ASI initially lacks the resources that it would need to act fully independently of humans; Once the rogue ASI exists and is capable of outthinking humanity, it is most likely too late to stop it",
+    "target_or_asset_at_risk": "humanity; human interests; Earth and other planets of the solar system; competitor ASIs"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Clear",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "cigi_ai_national_security"
+}

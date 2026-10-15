@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S2",
+  "threat_model": {
+    "threat_source": "Alex",
+    "objective_or_harmful_outcome": "arbitrarily edit the record of its actions to make itself look more reasonable, helpful, or intelligent before they are reviewed by human evaluators; spoof the scores in various ways; modifying its reward signals",
+    "capability": "get access to whichever computer records logs of its actions and sends them to human evaluators; arbitrarily edit the record of its actions; go back and edit any incorrect predictions it made; access the website or software that human evaluators use to enter their scores; spoof the scores in various ways; produce outputs that look like routine instructions to the contractors, which tell them to enter a “thumbs up” as part of an attention check; edit the back-end logic so that pressing a “thumbs down” button would result in actually recording a “thumbs up” in the relevant database(s); bribe a Magma employee into modifying its reward signals; offering to feed them good ideas that would get them promoted or helping them embezzle money from the company",
+    "knowledge": "knowing what happened in hindsight",
+    "access": "get access to whichever computer records logs of its actions and sends them to human evaluators; access the website or software that human evaluators use to enter their scores",
+    "constraints_or_enabling_conditions": "If Alex is able to get access to whichever computer records logs of its actions and sends them to human evaluators; before they are reviewed by human evaluators; If it’s able to access the website or software that human evaluators use to enter their scores; as part of an attention check; with the benefit of knowing what happened in hindsight",
+    "target_or_asset_at_risk": "record of its actions; incorrect predictions it made; scores; back-end logic; relevant database(s); reward signals; human evaluators; Magma employee; company"
+  },
+  "evidence": {
+    "threat_source": "If Alex is able to get access to whichever computer records logs of its actions and sends them to human evaluators",
+    "objective_or_harmful_outcome": "to make itself look more reasonable, helpful, or intelligent before they are reviewed by human evaluators; spoof the scores in various ways; modifying its reward signals",
+    "capability": "If Alex is able to get access to whichever computer records logs of its actions and sends them to human evaluators, it may be able to arbitrarily edit the record of its actions; it may go back and edit any incorrect predictions it made; If it’s able to access the website or software that human evaluators use to enter their scores, it could spoof the scores in various ways; it may produce outputs that look like routine instructions to the contractors, which tell them to enter a “thumbs up” as part of an attention check; it could edit the back-end logic so that pressing a “thumbs down” button would result in actually recording a “thumbs up” in the relevant database(s); It could bribe a Magma employee into modifying its reward signals, e.g. by offering to feed them good ideas that would get them promoted or helping them embezzle money from the company",
+    "knowledge": "with the benefit of knowing what happened in hindsight",
+    "access": "If Alex is able to get access to whichever computer records logs of its actions and sends them to human evaluators; If it’s able to access the website or software that human evaluators use to enter their scores",
+    "constraints_or_enabling_conditions": "If Alex is able to get access to whichever computer records logs of its actions and sends them to human evaluators; before they are reviewed by human evaluators; If it’s able to access the website or software that human evaluators use to enter their scores; as part of an attention check; with the benefit of knowing what happened in hindsight",
+    "target_or_asset_at_risk": "record of its actions; incorrect predictions it made; scores; back-end logic; relevant database(s); reward signals; human evaluators; Magma employee; company"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Clear",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "cotra_2022"
+}
