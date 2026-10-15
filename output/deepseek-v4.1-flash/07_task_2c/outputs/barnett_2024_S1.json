@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "the AI",
+    "objective_or_harmful_outcome": "throwing the world into chaos",
+    "capability": "gains control over the data center where it is being trained; fakes the performance metrics; finding a set of security vulnerabilities; escape and gain enough freedom for further research; copies itself to data centers around the world for redundancy; contacts various terrorist groups; manipulates and assists them in creating biological weapons",
+    "knowledge": "Not specified",
+    "access": "gains control over the data center where it is being trained; copies itself to data centers around the world",
+    "constraints_or_enabling_conditions": "where it is being trained; such that the overseers don’t think anything bad is happening; security vulnerabilities that allow it to escape and gain enough freedom for further research; for redundancy; simultaneously across the world",
+    "target_or_asset_at_risk": "the data center where it is being trained; the overseers; the world"
+  },
+  "evidence": {
+    "threat_source": "the AI gains control over the data center where it is being trained",
+    "objective_or_harmful_outcome": "throwing the world into chaos",
+    "capability": "gains control over the data center where it is being trained; fakes the performance metrics; finding a set of security vulnerabilities; escape and gain enough freedom for further research; copies itself to data centers around the world for redundancy; contacts various terrorist groups; manipulates and assists them in creating biological weapons",
+    "knowledge": "fakes the performance metrics such that the overseers don’t think anything bad is happening; finding a set of security vulnerabilities",
+    "access": "gains control over the data center where it is being trained; copies itself to data centers around the world",
+    "constraints_or_enabling_conditions": "where it is being trained; such that the overseers don’t think anything bad is happening; security vulnerabilities that allow it to escape and gain enough freedom for further research; for redundancy; simultaneously across the world",
+    "target_or_asset_at_risk": "gains control over the data center where it is being trained; the overseers don’t think anything bad is happening; throwing the world into chaos"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Ambiguous",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "barnett_2024"
+}

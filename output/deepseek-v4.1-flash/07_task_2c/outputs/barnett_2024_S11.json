@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S11",
+  "threat_model": {
+    "threat_source": "the AI",
+    "objective_or_harmful_outcome": "it may still be able to affect the outside world via sending radio signals to computers outside the lab and having them affect the world",
+    "capability": "may learn to not let any physical substance created in the lab to influence the outside world; may still be able to affect the outside world via sending radio signals to computers outside the lab and having them affect the world",
+    "knowledge": "Not specified",
+    "access": "in the lab it is given; sending radio signals to computers outside the lab",
+    "constraints_or_enabling_conditions": "If this is improperly specified",
+    "target_or_asset_at_risk": "the outside world; computers outside the lab; the world"
+  },
+  "evidence": {
+    "threat_source": "the AI",
+    "objective_or_harmful_outcome": "it may still be able to affect the outside world via sending radio signals to computers outside the lab and having them affect the world",
+    "capability": "the AI may learn to not let any physical substance created in the lab to influence the outside world; it may still be able to affect the outside world via sending radio signals to computers outside the lab and having them affect the world",
+    "knowledge": "Not specified",
+    "access": "the lab it is given; sending radio signals to computers outside the lab",
+    "constraints_or_enabling_conditions": "If this is improperly specified",
+    "target_or_asset_at_risk": "the outside world; computers outside the lab; the world"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "barnett_2024"
+}
