@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S17",
+  "threat_model": {
+    "threat_source": "agentic ASI",
+    "objective_or_harmful_outcome": "an immense power imbalance, without a mutually beneficial relationship",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "if we create agentic ASI",
+    "target_or_asset_at_risk": "humans"
+  },
+  "evidence": {
+    "threat_source": "if we create agentic ASI",
+    "objective_or_harmful_outcome": "here too is there likely to be an immense power imbalance, without a mutually beneficial relationship",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "if we create agentic ASI",
+    "target_or_asset_at_risk": "The same consequences are real possibilities for humans"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "bengio_2025"
+}

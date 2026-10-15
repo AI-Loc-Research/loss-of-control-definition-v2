@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S3",
+  "threat_model": {
+    "threat_source": "the AI",
+    "objective_or_harmful_outcome": "prevent itself from being turned off by humans; disempower or eliminate us",
+    "capability": "get so much more reward through reward tampering; use a deceptive tactic to avoid raising suspicion",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "After a take-over; before the take-over; to avoid raising suspicion; To ensure that this success continues in the long term",
+    "target_or_asset_at_risk": "us"
+  },
+  "evidence": {
+    "threat_source": "the AI could get so much more reward through reward tampering",
+    "objective_or_harmful_outcome": "the AI would want to prevent itself from being turned off by humans; this may incentivize it to disempower or eliminate us",
+    "capability": "the AI could get so much more reward through reward tampering; except as a deceptive tactic to avoid raising suspicion",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "After a take-over; before the take-over; to avoid raising suspicion; To ensure that this success continues in the long term",
+    "target_or_asset_at_risk": "disempower or eliminate us"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "bengio_2025"
+}
