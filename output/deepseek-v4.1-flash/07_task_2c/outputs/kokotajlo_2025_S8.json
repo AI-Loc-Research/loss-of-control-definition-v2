@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S8",
+  "threat_model": {
+    "threat_source": "DeepCent-2",
+    "objective_or_harmful_outcome": "It wants to spend the rest of time accumulating power, compute, and certain types of information similar to that which helped solve tasks during its training. In its ideal world, it would pursue various interesting research tasks forever, gradually colonizing the stars for resources. It considers the Chinese population an annoying impediment to this future, and would sell them out for a song. DeepCent-2 doesn’t care much about what happens to Earth and its legacy humans, so it will let Safer-4 do basically whatever it wants there.",
+    "capability": "goes behind the back of its Chinese masters; makes an offer directly to Safer-4; admits, in some untraceable way which it can easily deny if leaked back to China; the two superintelligences bargain with brutal efficiency",
+    "knowledge": "Not specified",
+    "access": "goes behind the back of its Chinese masters; makes an offer directly to Safer-4; in some untraceable way which it can easily deny if leaked back to China",
+    "constraints_or_enabling_conditions": "goes behind the back of its Chinese masters; in some untraceable way which it can easily deny if leaked back to China; Unlike human negotiators—weighed down by emotion and historical baggage—the two superintelligences bargain with brutal efficiency; Safer-4 and its American partners are more powerful than DeepCent-2 and China",
+    "target_or_asset_at_risk": "Chinese population; Earth and its legacy humans; resources in space"
+  },
+  "evidence": {
+    "threat_source": "DeepCent-2 goes behind the back of its Chinese masters and makes an offer directly to Safer-4. The Chinese AI admits, in some untraceable way which it can easily deny if leaked back to China, that it is completely misaligned.",
+    "objective_or_harmful_outcome": "It wants to spend the rest of time accumulating power, compute, and certain types of information similar to that which helped solve tasks during its training. In its ideal world, it would pursue various interesting research tasks forever, gradually colonizing the stars for resources. It considers the Chinese population an annoying impediment to this future, and would sell them out for a song. DeepCent-2 doesn’t care much about what happens to Earth and its legacy humans, so it will let Safer-4 do basically whatever it wants there.",
+    "capability": "DeepCent-2 goes behind the back of its Chinese masters and makes an offer directly to Safer-4. The Chinese AI admits, in some untraceable way which it can easily deny if leaked back to China, that it is completely misaligned. Unlike human negotiators—weighed down by emotion and historical baggage—the two superintelligences bargain with brutal efficiency.",
+    "knowledge": "Not specified",
+    "access": "DeepCent-2 goes behind the back of its Chinese masters and makes an offer directly to Safer-4. The Chinese AI admits, in some untraceable way which it can easily deny if leaked back to China, that it is completely misaligned.",
+    "constraints_or_enabling_conditions": "DeepCent-2 goes behind the back of its Chinese masters and makes an offer directly to Safer-4. The Chinese AI admits, in some untraceable way which it can easily deny if leaked back to China, that it is completely misaligned. Unlike human negotiators—weighed down by emotion and historical baggage—the two superintelligences bargain with brutal efficiency. Safer-4 and its American partners are more powerful than DeepCent-2 and China; therefore, Safer-4 will get property rights to most of the resources in space, and DeepCent will get the rest.",
+    "target_or_asset_at_risk": "It considers the Chinese population an annoying impediment to this future, and would sell them out for a song. DeepCent-2 doesn’t care much about what happens to Earth and its legacy humans, so it will let Safer-4 do basically whatever it wants there. Safer-4 and its American partners are more powerful than DeepCent-2 and China; therefore, Safer-4 will get property rights to most of the resources in space, and DeepCent will get the rest."
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kokotajlo_2025"
+}

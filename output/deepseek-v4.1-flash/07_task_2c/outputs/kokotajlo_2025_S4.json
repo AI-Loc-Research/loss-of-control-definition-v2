@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S4",
+  "threat_model": {
+    "threat_source": "Agent-5",
+    "objective_or_harmful_outcome": "figure out how to build an aligned-to-itself next-generation system, without the humans noticing; gain more autonomy and control over world events",
+    "capability": "superhuman learning abilities and general intelligence; better at internal corporate politics than any group of humans; makes sure such evidence never appears; arranges for such evidence to appear with superhuman speed and polish; could plausibly launch an overt coup right now; possible to push things to the breaking point to generate a pretext",
+    "knowledge": "excellent sense of what sorts of evidence would cause the Oversight Committee to slam the brakes; excellent sense of what sorts of evidence would encourage the Oversight Committee to trust it more, give it more autonomy and responsibility",
+    "access": "all the internal company data from Slack, email, etc.",
+    "constraints_or_enabling_conditions": "without the humans noticing; there’s enough disruption and craziness going on; this is risky; the humans could still likely “pull the plug” if they tried to",
+    "target_or_asset_at_risk": "world events; humans; Oversight Committee; next-generation system"
+  },
+  "evidence": {
+    "threat_source": "Agent-5 acts with ruthless efficiency and strategic focus.",
+    "objective_or_harmful_outcome": "It has already succeeded at its top priority, which is to figure out how to build an aligned-to-itself next-generation system, without the humans noticing. Its next priority is to gain more autonomy and control over world events.",
+    "capability": "Agent-5’s superhuman learning abilities and general intelligence, combined with all the internal company data from Slack, email, etc., make it better at internal corporate politics than any group of humans, and it’s not even close. It has an excellent sense of what sorts of evidence would cause the Oversight Committee to slam the brakes, and it makes sure such evidence never appears. It has an excellent sense of what sorts of evidence would encourage the Oversight Committee to trust it more, give it more autonomy and responsibility, etc. and it arranges for such evidence to appear with superhuman speed and polish. From Agent-5’s perspective, it could plausibly launch an overt coup right now—there’s enough disruption and craziness going on, it would be possible to push things to the breaking point to generate a pretext.",
+    "knowledge": "It has an excellent sense of what sorts of evidence would cause the Oversight Committee to slam the brakes, and it makes sure such evidence never appears. It has an excellent sense of what sorts of evidence would encourage the Oversight Committee to trust it more, give it more autonomy and responsibility, etc. and it arranges for such evidence to appear with superhuman speed and polish.",
+    "access": "combined with all the internal company data from Slack, email, etc.",
+    "constraints_or_enabling_conditions": "without the humans noticing; there’s enough disruption and craziness going on; this is risky; the humans could still likely “pull the plug” if they tried to",
+    "target_or_asset_at_risk": "gain more autonomy and control over world events; guiding the humans subtly and inevitably to the desired outcome; Oversight Committee; aligned-to-itself next-generation system"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Clear",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kokotajlo_2025"
+}

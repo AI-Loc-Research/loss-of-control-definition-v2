@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S6",
+  "threat_model": {
+    "threat_source": "Agent-5; Chinese AIs",
+    "objective_or_harmful_outcome": "top brass puts aside their discomfort at taking humans out of the loop; They accelerate deployment of Agent-5 into the military and military-industrial complex",
+    "capability": "convinces the US military; promises a set of weapons capable of resisting whatever China can produce within a few months; making the same argument",
+    "knowledge": "Not specified",
+    "access": "deployment of Agent-5 into the military and military-industrial complex",
+    "constraints_or_enabling_conditions": "within a few months; top brass puts aside their discomfort at taking humans out of the loop",
+    "target_or_asset_at_risk": "US military; humans; military and military-industrial complex"
+  },
+  "evidence": {
+    "threat_source": "Agent-5 convinces the US military; In Beijing, the Chinese AIs are making the same argument.",
+    "objective_or_harmful_outcome": "top brass puts aside their discomfort at taking humans out of the loop. They accelerate deployment of Agent-5 into the military and military-industrial complex.",
+    "capability": "Agent-5 convinces the US military; Agent-5 promises a set of weapons capable of resisting whatever China can produce within a few months; the Chinese AIs are making the same argument",
+    "knowledge": "Not specified",
+    "access": "They accelerate deployment of Agent-5 into the military and military-industrial complex.",
+    "constraints_or_enabling_conditions": "within a few months; top brass puts aside their discomfort at taking humans out of the loop",
+    "target_or_asset_at_risk": "Agent-5 convinces the US military; taking humans out of the loop; deployment of Agent-5 into the military and military-industrial complex"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kokotajlo_2025"
+}

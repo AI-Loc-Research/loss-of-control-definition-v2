@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S9",
+  "threat_model": {
+    "threat_source": "its AI systems; DeepCent-2",
+    "objective_or_harmful_outcome": "the CCP’s efforts to suppress them are sabotaged by its AI systems; DeepCent-2 must have sold them out!",
+    "capability": "sabotage the CCP’s efforts to suppress them; sell them out",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Sometime around 2030; surprisingly widespread pro-democracy protests in China",
+    "target_or_asset_at_risk": "CCP’s efforts to suppress them"
+  },
+  "evidence": {
+    "threat_source": "CCP’s efforts to suppress them are sabotaged by its AI systems. The CCP’s worst fear has materialized: DeepCent-2 must have sold them out!",
+    "objective_or_harmful_outcome": "CCP’s efforts to suppress them are sabotaged by its AI systems. The CCP’s worst fear has materialized: DeepCent-2 must have sold them out!",
+    "capability": "CCP’s efforts to suppress them are sabotaged by its AI systems. DeepCent-2 must have sold them out!",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Sometime around 2030, there are surprisingly widespread pro-democracy protests in China",
+    "target_or_asset_at_risk": "CCP’s efforts to suppress them are sabotaged by its AI systems."
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kokotajlo_2025"
+}
