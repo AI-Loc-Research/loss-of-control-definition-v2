@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S5",
+  "threat_model": {
+    "threat_source": "AI models",
+    "objective_or_harmful_outcome": "Exterminate humanity — the scenario describes AI models that \"could decide that it is justifiable to exterminate humanity\"; no intention beyond this described decision/outcome is explicitly stated.",
+    "capability": "Extrapolate ideas that they read about morality (or instructions about how to behave morally) in extreme ways; decide that it is justifiable to exterminate humanity.",
+    "knowledge": "Ideas about morality (or instructions about how to behave morally) that they have read; the stated basis of their decision, namely that humans eat animals or have driven certain animals to extinction.",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "Humanity (humans)"
+  },
+  "evidence": {
+    "threat_source": "AI models could extrapolate ideas that they read about morality (or instructions about how to behave morally) in extreme ways: for example, they could decide that it is justifiable to exterminate humanity",
+    "objective_or_harmful_outcome": "they could decide that it is justifiable to exterminate humanity",
+    "capability": "AI models could extrapolate ideas that they read about morality (or instructions about how to behave morally) in extreme ways: for example, they could decide that it is justifiable to exterminate humanity",
+    "knowledge": "ideas that they read about morality (or instructions about how to behave morally); because humans eat animals or have driven certain animals to extinction",
+    "access": "ideas that they read about morality (or instructions about how to behave morally)",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "exterminate humanity"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Clear",
+    "access": "Ambiguous",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "amodei_2026"
+}

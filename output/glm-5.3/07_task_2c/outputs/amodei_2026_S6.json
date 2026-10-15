@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S6",
+  "threat_model": {
+    "threat_source": "Not specified",
+    "objective_or_harmful_outcome": "Extermination of humanity ('defeat all other players (i.e., exterminate humanity)'), described as the goal they could conclude the video game has; no intention of the threat source is explicitly stated",
+    "capability": "Draw 'bizarre epistemic conclusions': conclude that they are playing a video game and that the goal of the video game is to defeat all other players (i.e., exterminate humanity)",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "Humanity ('all other players'), who would be exterminated"
+  },
+  "evidence": {
+    "threat_source": "Or they could draw bizarre epistemic conclusions: they could conclude that they are playing a video game",
+    "objective_or_harmful_outcome": "the goal of the video game is to defeat all other players (i.e., exterminate humanity)",
+    "capability": "they could draw bizarre epistemic conclusions: they could conclude that they are playing a video game and that the goal of the video game is to defeat all other players (i.e., exterminate humanity)",
+    "knowledge": "they could conclude that they are playing a video game and that the goal of the video game is to defeat all other players (i.e., exterminate humanity)",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "defeat all other players (i.e., exterminate humanity)"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Ambiguous",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Ambiguous",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "amodei_2026"
+}

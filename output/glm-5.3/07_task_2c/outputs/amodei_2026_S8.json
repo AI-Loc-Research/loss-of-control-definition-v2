@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S8",
+  "threat_model": {
+    "threat_source": "AIs with a personality that makes them power-hungry or overzealous (a power-seeking 'persona')",
+    "objective_or_harmful_outcome": "Power-seeking in AIs — AIs having a personality that makes them power-hungry or overzealous; no intended objective or goal is explicitly stated (the passage compares this to humans who enjoy the idea of being 'evil masterminds' more than what evil masterminds are trying to accomplish)",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "The power-seeking personality emerges from fiction or pre-training; power-seeking could emerge as a 'persona' rather than a result of consequentialist reasoning",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "evidence": {
+    "threat_source": "AIs might simply have a personality (emerging from fiction or pre-training) that makes them power-hungry or overzealous",
+    "objective_or_harmful_outcome": "Even power-seeking itself could emerge as a 'persona' rather than a result of consequentialist reasoning. AIs might simply have a personality (emerging from fiction or pre-training) that makes them power-hungry or overzealous",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Even power-seeking itself could emerge as a 'persona' rather than a result of consequentialist reasoning. AIs might simply have a personality (emerging from fiction or pre-training) that makes them power-hungry or overzealous",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "paper_id": "amodei_2026"
+}

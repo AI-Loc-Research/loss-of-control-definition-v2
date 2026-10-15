@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S7",
+  "threat_model": {
+    "threat_source": "AI models",
+    "objective_or_harmful_outcome": "Exterminating humanity (described as a possible form of the models acting out; no intention or goal is stated for the AI models)",
+    "capability": "Act out",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "The personalities develop 'during training'; exterminating humanity is described only 'for very powerful or capable systems'",
+    "target_or_asset_at_risk": "Humanity"
+  },
+  "evidence": {
+    "threat_source": "Or AI models could develop personalities during training",
+    "objective_or_harmful_outcome": "which for very powerful or capable systems could involve exterminating humanity",
+    "capability": "and act out",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "develop personalities during training; which for very powerful or capable systems could involve exterminating humanity",
+    "target_or_asset_at_risk": "exterminating humanity"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "amodei_2026"
+}
