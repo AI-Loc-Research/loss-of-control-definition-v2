@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "increasingly agentic systems",
+    "objective_or_harmful_outcome": "increasing difficulty in controlling increasingly agentic systems; erosion of accountability that externalizes algorithmic harms; collective disempowerment is a risk",
+    "capability": "have increasing control of societal functions; decides taxation policy; may do something completely different in a different environment",
+    "knowledge": "Not specified",
+    "access": "control of societal functions; decision-making power; central functions",
+    "constraints_or_enabling_conditions": "separate groups are incentivized to delegate more central functions to increasingly agentic systems; Even if collective disempowerment is a risk, it might not be a large enough risk for a single party to be concerned; ceding decision-making power to such systems is not inevitable; it would be a result of collective human decisions; Specifying a correct objective function is quite difficult; Even a system successfully trained under a correctly specified objective function may do something completely different in a different environment; Additional problems remain in understanding how to manage the interests of multiple stakeholders; it would likely be extremely difficult to understand the decisions of the controlling system(s)",
+    "target_or_asset_at_risk": "societal functions; decision-making power; accountability; interests of multiple stakeholders"
+  },
+  "evidence": {
+    "threat_source": "increasingly agentic systems",
+    "objective_or_harmful_outcome": "erosion of accountability that externalizes algorithmic harms; collective disempowerment is a risk; increasing difficulty in controlling increasingly agentic systems",
+    "capability": "they have increasing control of societal functions; one that decides taxation policy; may do something completely different in a different environment",
+    "knowledge": "Not specified",
+    "access": "they have increasing control of societal functions; cede decision-making power to an particular system; delegate more central functions to increasingly agentic systems",
+    "constraints_or_enabling_conditions": "separate groups are incentivized to delegate more central functions to increasingly agentic systems; Even if collective disempowerment is a risk, it might not be a large enough risk for a single party to be concerned; ceding decision-making power to such systems is not inevitable; it would be a result of collective human decisions; Specifying a correct objective function is quite difficult; Even a system successfully trained under a correctly specified objective function may do something completely different in a different environment; Additional problems remain in understanding how to manage the interests of multiple stakeholders; it would likely be extremely difficult to understand the decisions of the controlling system(s)",
+    "target_or_asset_at_risk": "increasing control of societal functions; cede decision-making power; erosion of accountability; manage the interests of multiple stakeholders"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "chan_2023"
+}

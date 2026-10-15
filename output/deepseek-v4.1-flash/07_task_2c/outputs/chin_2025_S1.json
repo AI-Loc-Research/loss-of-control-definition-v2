@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "an AI; a superintelligent AI",
+    "objective_or_harmful_outcome": "Sudden loss of control, also known as an AI takeover; existential risk",
+    "capability": "rapidly achieves superintelligence through “fast takeoff” or recursive self-improvement; would develop power-seeking tendencies",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "through “fast takeoff” or recursive self-improvement; regardless of its original goals; as a means to achieve those goals; This risk is primarily based on two key ideas: the orthogonality thesis and the instrumental convergence thesis",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "evidence": {
+    "threat_source": "an AI rapidly achieves superintelligence; a superintelligent AI, regardless of its original goals, would develop power-seeking tendencies as a means to achieve those goals",
+    "objective_or_harmful_outcome": "Sudden loss of control, also known as an AI takeover [115], is a scenario where an AI rapidly achieves superintelligence through “fast takeoff” or recursive self-improvement. This poses an existential risk [116], [117].",
+    "capability": "an AI rapidly achieves superintelligence through “fast takeoff” or recursive self-improvement; would develop power-seeking tendencies as a means to achieve those goals",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "through “fast takeoff” or recursive self-improvement; regardless of its original goals; as a means to achieve those goals; This risk is primarily based on two key ideas: the orthogonality thesis [118], [119] and the instrumental convergence thesis [120], [121].",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "paper_id": "chin_2025"
+}

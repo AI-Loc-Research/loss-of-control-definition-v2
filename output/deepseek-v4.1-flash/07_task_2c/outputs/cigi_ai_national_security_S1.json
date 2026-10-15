@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "AI systems; their use in aggregate",
+    "objective_or_harmful_outcome": "systemic failures that are unaligned with the interests of their users or of the economy or society as a whole; loss of control through gradual disempowerment; an eventual automation of decision making; a gradual process in which humans are no longer valuable economic actors or political decision makers",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "even when AI systems can be controlled by (or aligned with the intentions of) their individual users; their use in aggregate; competitive pressure to adopt AI systems; At the extreme",
+    "target_or_asset_at_risk": "interests of their users or of the economy or society as a whole; humans as economic actors or political decision makers; decision making"
+  },
+  "evidence": {
+    "threat_source": "even when AI systems can be controlled by (or aligned with the intentions of) their individual users, their use in aggregate may nevertheless result in systemic failures",
+    "objective_or_harmful_outcome": "systemic failures that are unaligned with the interests of their users or of the economy or society as a whole; loss of control through gradual disempowerment; an eventual automation of decision making; a gradual process in which humans are no longer valuable economic actors or political decision makers",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "even when AI systems can be controlled by (or aligned with the intentions of) their individual users; their use in aggregate; competitive pressure to adopt AI systems; At the extreme",
+    "target_or_asset_at_risk": "interests of their users or of the economy or society as a whole; humans are no longer valuable economic actors or political decision makers; an eventual automation of decision making"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "cigi_ai_national_security"
+}
