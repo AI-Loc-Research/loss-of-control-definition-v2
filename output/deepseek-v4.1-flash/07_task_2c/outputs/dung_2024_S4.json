@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S4",
+  "threat_model": {
+    "threat_source": "some actors; small groups of ordinary citizens",
+    "objective_or_harmful_outcome": "disempowering humanity; taking control over all other humans; (omnicidal) terrorist attack",
+    "capability": "build AI capable of disempowering humanity; unleash AI",
+    "knowledge": "the people involved underestimate the risk",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "If sufficiently many actors will be able to build AI capable of disempowering humanity; because the people involved underestimate the risk",
+    "target_or_asset_at_risk": "humanity; all other humans"
+  },
+  "evidence": {
+    "threat_source": "If sufficiently many actors will be able to build AI capable of disempowering humanity, including, e.g. small groups of ordinary citizens, then some will intentionally unleash AI trying to disempower humanity.",
+    "objective_or_harmful_outcome": "trying to disempower humanity; in the hopes of taking control over all other humans; (omnicidal) terrorist attack",
+    "capability": "will be able to build AI capable of disempowering humanity; intentionally unleash AI",
+    "knowledge": "because the people involved underestimate the risk",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "If sufficiently many actors will be able to build AI capable of disempowering humanity; because the people involved underestimate the risk",
+    "target_or_asset_at_risk": "disempowering humanity; taking control over all other humans"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Clear",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "dung_2024"
+}

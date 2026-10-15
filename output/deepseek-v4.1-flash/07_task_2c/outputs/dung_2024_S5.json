@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S5",
+  "threat_model": {
+    "threat_source": "AI",
+    "objective_or_harmful_outcome": "some misaligned goal; amass as many resources as possible; use the resources which humans need to survive (e.g., space) for its own goals; prevent humans from interfering with its goals; killing all humans",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "if AI optimizes for some misaligned goal",
+    "target_or_asset_at_risk": "humans; resources which humans need to survive (e.g., space)"
+  },
+  "evidence": {
+    "threat_source": "if AI optimizes for some misaligned goal",
+    "objective_or_harmful_outcome": "As argued earlier, if AI optimizes for some misaligned goal, it will have instrumental reasons to amass as many resources as possible. AI could plausibly use the resources which humans need to survive (e.g., space) for its own goals. Moreover, killing all humans seems like an effective and simple way to prevent humans from interfering with its goals.",
+    "capability": "AI could plausibly use the resources which humans need to survive (e.g., space) for its own goals. Moreover, killing all humans seems like an effective and simple way to prevent humans from interfering with its goals.",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "if AI optimizes for some misaligned goal",
+    "target_or_asset_at_risk": "the resources which humans need to survive (e.g., space); killing all humans"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Ambiguous",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "dung_2024"
+}
