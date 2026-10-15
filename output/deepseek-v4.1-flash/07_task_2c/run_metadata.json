@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-10-15T14:23:35.873552+00:00",
+  "total_runtime_seconds": 95.05,
+  "total_scenarios": 1,
+  "scenarios_processed": 1,
+  "scenarios_skipped": 0,
+  "errors": [],
+  "per_scenario": [
+    {
+      "item_key": "amodei_2026_S1",
+      "skipped": false,
+      "latency_seconds": 95.05,
+      "usage": {
+        "prompt_tokens": 1343,
+        "completion_tokens": 3632
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    }
+  ]
+}

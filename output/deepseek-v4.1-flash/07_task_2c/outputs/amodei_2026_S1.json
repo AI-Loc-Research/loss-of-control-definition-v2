@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "current generation of AI",
+    "objective_or_harmful_outcome": "Not specified",
+    "capability": "autonomously builds the next",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "This feedback loop is gathering steam month by month, and may be only 1–2 years away from a point",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "evidence": {
+    "threat_source": "the current generation of AI",
+    "objective_or_harmful_outcome": "Not specified",
+    "capability": "autonomously builds the next",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "This feedback loop is gathering steam month by month, and may be only 1–2 years away from a point",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Not specified",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "paper_id": "amodei_2026"
+}
