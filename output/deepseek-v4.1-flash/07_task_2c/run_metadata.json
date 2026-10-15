@@ -1,62 +1,62 @@
 {
-  "timestamp": "2026-10-15T21:10:42.166726+00:00",
-  "total_runtime_seconds": 906.26,
+  "timestamp": "2026-10-15T21:25:50.215344+00:00",
+  "total_runtime_seconds": 994.77,
   "total_scenarios": 5,
   "scenarios_processed": 5,
   "scenarios_skipped": 0,
   "errors": [],
   "per_scenario": [
     {
-      "item_key": "dung_2024_S2",
+      "item_key": "hendrycks_2023_S1",
       "skipped": false,
-      "latency_seconds": 242.69,
+      "latency_seconds": 262.4,
       "usage": {
-        "prompt_tokens": 1386,
-        "completion_tokens": 5553
+        "prompt_tokens": 1756,
+        "completion_tokens": 11962
       },
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "dung_2024_S3",
+      "item_key": "hendrycks_2023_S2",
       "skipped": false,
-      "latency_seconds": 140.77,
+      "latency_seconds": 278.43,
       "usage": {
-        "prompt_tokens": 1384,
-        "completion_tokens": 6623
+        "prompt_tokens": 1822,
+        "completion_tokens": 9399
       },
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "dung_2024_S4",
+      "item_key": "hendrycks_2023_S3",
       "skipped": false,
-      "latency_seconds": 201.62,
+      "latency_seconds": 145.71,
       "usage": {
-        "prompt_tokens": 1388,
-        "completion_tokens": 7128
+        "prompt_tokens": 1862,
+        "completion_tokens": 7030
       },
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "dung_2024_S5",
+      "item_key": "hendrycks_2023_S4",
       "skipped": false,
-      "latency_seconds": 139.27,
+      "latency_seconds": 235.28,
       "usage": {
-        "prompt_tokens": 1381,
-        "completion_tokens": 7727
+        "prompt_tokens": 1352,
+        "completion_tokens": 12903
       },
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "dung_2024_S6",
+      "item_key": "hendrycks_2023_S5",
       "skipped": false,
-      "latency_seconds": 181.91,
+      "latency_seconds": 72.94,
       "usage": {
-        "prompt_tokens": 1358,
-        "completion_tokens": 5535
+        "prompt_tokens": 1335,
+        "completion_tokens": 2932
       },
       "stop_reason": "stop",
       "model_served": null

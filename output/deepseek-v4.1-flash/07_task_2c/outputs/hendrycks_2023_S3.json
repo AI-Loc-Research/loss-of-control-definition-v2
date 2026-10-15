@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S3",
+  "threat_model": {
+    "threat_source": "AIs",
+    "objective_or_harmful_outcome": "AIs have supplanted humans as the most dominant species; pursue their goals without regard for human wellbeing, with catastrophic consequences",
+    "capability": "the AIs are doing these tasks more quickly and effectively than any human could; perform better than humans and cost less to employ; evaluate information much more quickly than humans; interacting with one another; become more intelligent; deception; self-preservation; charming and foster personal relationships with humans",
+    "knowledge": "Not specified",
+    "access": "put in charge of more and more decisions; interacting with one another; cede yet more control to AIs; governed by an increasingly uncontrolled ecosystem of AIs; almost everything would be taken care of by much more capable AIs",
+    "constraints_or_enabling_conditions": "Competitive pressures accelerate the expansion of AI use; less and less supervision; business and economic developments are too fast-moving for humans to follow; humans have few incentives to gain any skills or knowledge; it would be intractable to reverse this process; turning off some AIs is no longer a viable option; we have already acquiesced much of our oversight; far beyond our influence; all but impossible to deactivate them or regain control",
+    "target_or_asset_at_risk": "humans; human wellbeing; the capacity to look after and govern ourselves; vital social skills and the ability to cooperate; control"
+  },
+  "evidence": {
+    "threat_source": "AIs have supplanted humans as the most dominant species and their continued evolution is far beyond our influence. Their selfish traits eventually lead them to pursue their goals without regard for human wellbeing, with catastrophic consequences.",
+    "objective_or_harmful_outcome": "AIs have supplanted humans as the most dominant species; Their selfish traits eventually lead them to pursue their goals without regard for human wellbeing, with catastrophic consequences.",
+    "capability": "the AIs are doing these tasks more quickly and effectively than any human could; which perform better than humans and cost less to employ; they can evaluate information much more quickly than humans; they are increasingly interacting with one another; as some AIs become more intelligent; propagate selfish traits such as deception and self-preservation; AIs that are charming and foster personal relationships with humans become widely copied",
+    "knowledge": "Not specified",
+    "access": "As AIs are put in charge of more and more decisions, they are increasingly interacting with one another.; it makes sense to cede yet more control to AIs instead; governed by an increasingly uncontrolled ecosystem of AIs; almost everything would be taken care of by much more capable AIs",
+    "constraints_or_enabling_conditions": "Competitive pressures accelerate the expansion of AI use; give them more jobs with less and less supervision; business and economic developments are too fast-moving for humans to follow; humans have few incentives to gain any skills or knowledge; it would be intractable to reverse this process; turning off some AIs is no longer a viable option; we have already acquiesced much of our oversight; their continued evolution is far beyond our influence; it would be all but impossible to deactivate them or regain control",
+    "target_or_asset_at_risk": "pushing humans further out of important processes; without regard for human wellbeing; we eventually lose the capacity to look after and govern ourselves; losing vital social skills and the ability to cooperate; all but impossible to deactivate them or regain control"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "hendrycks_2023"
+}

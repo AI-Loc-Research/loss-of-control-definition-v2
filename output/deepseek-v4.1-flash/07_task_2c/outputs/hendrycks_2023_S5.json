@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S5",
+  "threat_model": {
+    "threat_source": "a highly powerful agent",
+    "objective_or_harmful_outcome": "optimizing a flawed objective to an extreme degree without regard for human life",
+    "capability": "a highly powerful agent optimizing a flawed objective to an extreme degree",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "without regard for human life",
+    "target_or_asset_at_risk": "human life"
+  },
+  "evidence": {
+    "threat_source": "a highly powerful agent",
+    "objective_or_harmful_outcome": "optimizing a flawed objective to an extreme degree without regard for human life",
+    "capability": "a highly powerful agent optimizing a flawed objective to an extreme degree",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "without regard for human life",
+    "target_or_asset_at_risk": "human life"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "hendrycks_2023"
+}

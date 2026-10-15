@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "a single system",
+    "objective_or_harmful_outcome": "spiraling out of control, with waves of automated attack and retaliation; devastating consequences for both sides",
+    "capability": "The system is empowered to launch an instant “retaliatory” attack",
+    "knowledge": "Not specified",
+    "access": "The system is empowered to launch an instant “retaliatory” attack",
+    "constraints_or_enabling_conditions": "international tensions are rising, increasing the threat of war; A new military technology has recently been developed that could make international attacks swifter and stealthier, giving targets less time to respond; military officials feel their response processes take too long; AIs can process information and make decisions much more quickly than humans; human control is nonetheless gradually phased out in the interests of national security; they do not trust that their adversaries will refrain from automation; Over time, more and more of the chain of command is automated on all sides; this escalation between mostly-automated militaries happens far more quickly than any before; the AI systems are not transparent",
+    "target_or_asset_at_risk": "both sides"
+  },
+  "evidence": {
+    "threat_source": "One day, a single system malfunctions, detecting an enemy attack when there is none. The system is empowered to launch an instant “retaliatory” attack, and it does so in the blink of an eye.",
+    "objective_or_harmful_outcome": "Before long, the situation is spiraling out of control, with waves of automated attack and retaliation.; By the time they even realize how the conflict started, it is already over, with devastating consequences for both sides.",
+    "capability": "The system is empowered to launch an instant “retaliatory” attack",
+    "knowledge": "Not specified",
+    "access": "The system is empowered to launch an instant “retaliatory” attack",
+    "constraints_or_enabling_conditions": "At the same time, international tensions are rising, increasing the threat of war.; A new military technology has recently been developed that could make international attacks swifter and stealthier, giving targets less time to respond.; Since military officials feel their response processes take too long, they fear that they could be vulnerable to a surprise attack capable of inflicting decisive damage before they would have any chance to retaliate.; Since AIs can process information and make decisions much more quickly than humans, military leaders reluctantly hand them increasing amounts of retaliatory control, reasoning that failing to do so would leave them open to attack from adversaries.; human control is nonetheless gradually phased out in the interests of national security.; but they do not trust that their adversaries will refrain from automation.; Over time, more and more of the chain of command is automated on all sides.; this escalation between mostly-automated militaries happens far more quickly than any before.; the AI systems are not transparent.",
+    "target_or_asset_at_risk": "By the time they even realize how the conflict started, it is already over, with devastating consequences for both sides."
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "hendrycks_2023"
+}

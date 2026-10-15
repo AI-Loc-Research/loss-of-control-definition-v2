@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S4",
+  "threat_model": {
+    "threat_source": "multiple nations; AIs; an error",
+    "objective_or_harmful_outcome": "catastrophic; a spiral of attacks and counter-attacks; a flash war",
+    "capability": "use AIs to automate their defense systems; automate their defense systems; triggering a spiral of attacks and counter-attacks",
+    "knowledge": "Not specified",
+    "access": "defense systems",
+    "constraints_or_enabling_conditions": "If multiple nations were to use AIs to automate their defense systems; too quickly for humans to step in",
+    "target_or_asset_at_risk": "humans' ability to step in"
+  },
+  "evidence": {
+    "threat_source": "If multiple nations were to use AIs to automate their defense systems, an error could be catastrophic, triggering a spiral of attacks and counter-attacks that would happen too quickly for humans to step in—a flash war.",
+    "objective_or_harmful_outcome": "If multiple nations were to use AIs to automate their defense systems, an error could be catastrophic, triggering a spiral of attacks and counter-attacks that would happen too quickly for humans to step in—a flash war.",
+    "capability": "If multiple nations were to use AIs to automate their defense systems, an error could be catastrophic, triggering a spiral of attacks and counter-attacks that would happen too quickly for humans to step in—a flash war.",
+    "knowledge": "Not specified",
+    "access": "If multiple nations were to use AIs to automate their defense systems, an error could be catastrophic, triggering a spiral of attacks and counter-attacks that would happen too quickly for humans to step in—a flash war.",
+    "constraints_or_enabling_conditions": "If multiple nations were to use AIs to automate their defense systems, an error could be catastrophic, triggering a spiral of attacks and counter-attacks that would happen too quickly for humans to step in—a flash war.",
+    "target_or_asset_at_risk": "If multiple nations were to use AIs to automate their defense systems, an error could be catastrophic, triggering a spiral of attacks and counter-attacks that would happen too quickly for humans to step in—a flash war."
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "hendrycks_2023"
+}
