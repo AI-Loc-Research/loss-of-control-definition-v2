@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-10-15T19:15:01.542161+00:00",
-  "total_runtime_seconds": 4692.36,
+  "timestamp": "2026-10-15T20:33:15.771395+00:00",
+  "total_runtime_seconds": 5359.06,
   "total_scenarios": 5,
   "scenarios_processed": 5,
   "scenarios_skipped": 0,
   "errors": [
     {
-      "item_key": "amodei_2026_S9",
+      "item_key": "bales_2024_S3",
       "error": "Answer cut off at max_new_tokens (max_tokens)",
       "stop_reason": "max_tokens",
       "stop_details": null
@@ -14,44 +14,44 @@
   ],
   "per_scenario": [
     {
-      "item_key": "amodei_2026_S5",
+      "item_key": "bales_2024_S1",
       "skipped": false,
-      "latency_seconds": 832.14,
+      "latency_seconds": 770.49,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "amodei_2026_S6",
+      "item_key": "bales_2024_S2",
       "skipped": false,
-      "latency_seconds": 1178.11,
+      "latency_seconds": 697.66,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "amodei_2026_S7",
-      "skipped": false,
-      "latency_seconds": 348.26,
-      "usage": null,
-      "stop_reason": "stop",
-      "model_served": null
-    },
-    {
-      "item_key": "amodei_2026_S8",
-      "skipped": false,
-      "latency_seconds": 753.62,
-      "usage": null,
-      "stop_reason": "stop",
-      "model_served": null
-    },
-    {
-      "item_key": "amodei_2026_S9",
+      "item_key": "bales_2024_S3",
       "skipped": false,
       "error": "Answer cut off at max_new_tokens (max_tokens)",
       "stop_reason": "max_tokens",
-      "latency_seconds": 1580.21,
+      "latency_seconds": 2029.58,
       "usage": null
+    },
+    {
+      "item_key": "bales_2024_S4",
+      "skipped": false,
+      "latency_seconds": 1216.84,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "bales_2024_S5",
+      "skipped": false,
+      "latency_seconds": 644.49,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
     }
   ]
 }

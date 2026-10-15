@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S4",
+  "threat_model": {
+    "threat_source": "AI systems — specifically, AI systems that have 'sufficiently broadly scoped goals' and that 'optimise heavily to achieve these to the greatest extent possible,' and that therefore have 'a sort of unbounded ambition.'",
+    "objective_or_harmful_outcome": "No explicit intention toward the harms is stated; the harmful outcomes explicitly described are that the systems may 'extract as much work as possible from humans,' which 'is likely to impinge more severely on our day-to-day lives,' and that they may 'enact repressive measures to preclude minor interference.'",
+    "capability": "Actions/operations explicitly described for the systems in the scenario: 'optimise heavily to achieve these to the greatest extent possible'; 'extract as much work as possible from humans'; 'enact repressive measures to preclude minor interference.'",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "The scenario is explicitly conditional on two enabling conditions: 'if AI systems have sufficiently broadly scoped goals, and if they optimise heavily to achieve these to the greatest extent possible' — conditions under which the systems have 'a sort of unbounded ambition' that 'might push them to' the described behaviors.",
+    "target_or_asset_at_risk": "Humans (from whom 'as much work as possible' would be extracted, and whose 'minor interference' would be precluded by 'repressive measures') and 'our day-to-day lives' (likely to be impinged 'more severely')."
+  },
+  "evidence": {
+    "threat_source": "if AI systems have sufficiently broadly scoped goals, and if they optimise heavily to achieve these to the greatest extent possible, then AI systems have a sort of unbounded ambition.",
+    "objective_or_harmful_outcome": "This might push them to extract as much work as possible from humans, which is likely to impinge more severely on our day-to-day lives. ... The systems might then enact repressive measures to preclude minor interference.",
+    "capability": "if they optimise heavily to achieve these to the greatest extent possible ... This might push them to extract as much work as possible from humans ... The systems might then enact repressive measures to preclude minor interference.",
+    "knowledge": "It might also push them to see even minor human interference as a threat, insofar as it slightly decreases the extent to which the goal is achieved.",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "if AI systems have sufficiently broadly scoped goals, and if they optimise heavily to achieve these to the greatest extent possible, then AI systems have a sort of unbounded ambition. This might push them to extract as much work as possible from humans",
+    "target_or_asset_at_risk": "This might push them to extract as much work as possible from humans, which is likely to impinge more severely on our day-to-day lives. ... It might also push them to see even minor human interference as a threat ... The systems might then enact repressive measures to preclude minor interference."
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Ambiguous",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "bales_2024"
+}

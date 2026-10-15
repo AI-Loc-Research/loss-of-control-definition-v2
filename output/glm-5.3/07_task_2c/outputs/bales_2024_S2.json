@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S2",
+  "threat_model": {
+    "threat_source": "AI systems (referred to as 'these systems')",
+    "objective_or_harmful_outcome": "AI systems seizing further power — described as a hypothetical possibility ('might be able to seize further power if they attempted to'); no intention is explicitly attributed to the AI systems",
+    "capability": "AI systems 'would be more capable than humans in many domains'; they 'might be able to seize further power' if they attempted to, 'at least if they could coordinate'",
+    "knowledge": "Not specified",
+    "access": "Widely embedded in phones, computers, TVs and cars; 'embedded in military and economic systems, among other places'",
+    "constraints_or_enabling_conditions": "Seizing further power is conditional on attempt and coordination: 'if they attempted to, at least if they could coordinate'; outnumbering humans is conditional on widespread embedding: 'if they're widely embedded in phones, computers, TVs and cars'; the power-seizure possibility is premised on the prior state ('At this point... Given this') in which AI systems are 'more capable than humans in many domains, as well as more numerous' and 'embedded in military and economic systems'",
+    "target_or_asset_at_risk": "Power — the 'further power' that AI systems might seize"
+  },
+  "evidence": {
+    "threat_source": "At this point, AI systems would be more capable than humans in many domains, as well as more numerous, and would be embedded in military and economic systems, among other places. Given this, AI systems might be able to seize further power if they attempted to, at least if they could coordinate.",
+    "objective_or_harmful_outcome": "Given this, AI systems might be able to seize further power if they attempted to, at least if they could coordinate.",
+    "capability": "At this point, AI systems would be more capable than humans in many domains, as well as more numerous, and would be embedded in military and economic systems, among other places. Given this, AI systems might be able to seize further power if they attempted to, at least if they could coordinate.",
+    "knowledge": "Not specified",
+    "access": "Eventually, these systems might outnumber humans if they're widely embedded in phones, computers, TVs and cars. At this point, AI systems would be more capable than humans in many domains, as well as more numerous, and would be embedded in military and economic systems, among other places.",
+    "constraints_or_enabling_conditions": "Eventually, these systems might outnumber humans if they're widely embedded in phones, computers, TVs and cars. At this point, AI systems would be more capable than humans in many domains, as well as more numerous, and would be embedded in military and economic systems, among other places. Given this, AI systems might be able to seize further power if they attempted to, at least if they could coordinate.",
+    "target_or_asset_at_risk": "Given this, AI systems might be able to seize further power if they attempted to, at least if they could coordinate."
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "bales_2024"
+}
