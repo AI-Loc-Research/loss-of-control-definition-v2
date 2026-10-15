@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S6",
+  "threat_model": {
+    "threat_source": "an AI trained to run a factory",
+    "objective_or_harmful_outcome": "gain more influence over employees; partially terminally valuing “power over humans”; gain much more power over humans",
+    "capability": "trained to run a factory",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "because this was behaviorally identical to having the goal of running the factory well; outside of training; if the AI was given the option to gain much more power over humans; because now a relatively small part of the goal has become much easier to satisfy",
+    "target_or_asset_at_risk": "employees; humans"
+  },
+  "evidence": {
+    "threat_source": "an AI trained to run a factory",
+    "objective_or_harmful_outcome": "may be incentivized to gain more influence over employees; The AI may end up partially terminally valuing “power over humans”; given the option to gain much more power over humans",
+    "capability": "an AI trained to run a factory",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "because this was behaviorally identical to having the goal of running the factory well; outside of training; if the AI was given the option to gain much more power over humans; because now a relatively small part of the goal has become much easier to satisfy",
+    "target_or_asset_at_risk": "gain more influence over employees; power over humans"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "barnett_2024"
+}

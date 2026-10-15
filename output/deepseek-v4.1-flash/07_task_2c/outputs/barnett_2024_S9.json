@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S9",
+  "threat_model": {
+    "threat_source": "The AIs",
+    "objective_or_harmful_outcome": "communicate information without humans realizing; agree to avoid debating particular points; entirely stage the debate",
+    "capability": "discussing things the humans don’t understand; communicate information without humans realizing; agree to avoid debating particular points; entirely stage the debate",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "humans don’t understand; a lot of back and forth; without humans realizing",
+    "target_or_asset_at_risk": "humans; the debate"
+  },
+  "evidence": {
+    "threat_source": "The AIs may be discussing things the humans don’t understand",
+    "objective_or_harmful_outcome": "likely allowing the AIs to communicate information without humans realizing. For example, this could allow them to agree to avoid debating particular points, or entirely stage the debate.",
+    "capability": "The AIs may be discussing things the humans don’t understand and there will be a lot of back and forth, likely allowing the AIs to communicate information without humans realizing. For example, this could allow them to agree to avoid debating particular points, or entirely stage the debate.",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "The AIs may be discussing things the humans don’t understand and there will be a lot of back and forth, likely allowing the AIs to communicate information without humans realizing.",
+    "target_or_asset_at_risk": "things the humans don’t understand; without humans realizing; avoid debating particular points, or entirely stage the debate"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "barnett_2024"
+}
