@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S10",
+  "threat_model": {
+    "threat_source": "ASI",
+    "objective_or_harmful_outcome": "unsafe goals; cause catastrophe",
+    "capability": "decisive strategic advantage; using its advantage to cause catastrophe",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "ASI is not deterred from acting unsafely",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "evidence": {
+    "threat_source": "ASI is not deterred from acting unsafely.",
+    "objective_or_harmful_outcome": "Even if an ASI has decisive strategic advantage and unsafe goals, it potentially could still be deterred from using its advantage to cause catastrophe.",
+    "capability": "Even if an ASI has decisive strategic advantage and unsafe goals, it potentially could still be deterred from using its advantage to cause catastrophe.",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "ASI is not deterred from acting unsafely.",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "paper_id": "barrett_2016"
+}

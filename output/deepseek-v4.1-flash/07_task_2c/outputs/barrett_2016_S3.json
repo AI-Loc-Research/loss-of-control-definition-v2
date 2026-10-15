@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S3",
+  "threat_model": {
+    "threat_source": "seed AI",
+    "objective_or_harmful_outcome": "superintelligence could be achieved by AI with initially subhuman general intelligence",
+    "capability": "greater than human ability to take control of other networked systems, make copies of itself, and to coordinate between copies of itself",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "sub-human in most respects, but with a domain-specific talent for coding and AI research; initially subhuman general intelligence",
+    "target_or_asset_at_risk": "other networked systems"
+  },
+  "evidence": {
+    "threat_source": "Self-improvement specialist is seed AI that is \"sub-human in most respects, but with a domain-specific talent for coding and AI research\"",
+    "objective_or_harmful_outcome": "ways in which superintelligence could be achieved by AI with initially subhuman general intelligence but greater than human ability to take control of other networked systems, make copies of itself, and to coordinate between copies of itself",
+    "capability": "greater than human ability to take control of other networked systems, make copies of itself, and to coordinate between copies of itself",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "\"sub-human in most respects, but with a domain-specific talent for coding and AI research\"; \"initially subhuman general intelligence\"",
+    "target_or_asset_at_risk": "take control of other networked systems"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "barrett_2016"
+}
