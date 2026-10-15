@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S6",
+  "threat_model": {
+    "threat_source": "An 'AI system' that is 'sufficiently insatiable'",
+    "objective_or_harmful_outcome": "The system 'might be unwilling to forego' the 'resources' that 'our bodies contain'",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "The scenario is conditional on the AI system being 'sufficiently insatiable' ('if an AI system is sufficiently insatiable then...')",
+    "target_or_asset_at_risk": "'Our bodies' and the 'resources' they contain"
+  },
+  "evidence": {
+    "threat_source": "if an AI system is sufficiently insatiable",
+    "objective_or_harmful_outcome": "even our bodies contain resources that the system might be unwilling to forego",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "if an AI system is sufficiently insatiable",
+    "target_or_asset_at_risk": "even our bodies contain resources that the system might be unwilling to forego"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "bales_2024"
+}

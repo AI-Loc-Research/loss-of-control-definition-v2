@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S10",
+  "threat_model": {
+    "threat_source": "The AI in the example: 'an AI which is tasked with the ultimate goal of curing cancer'",
+    "objective_or_harmful_outcome": "Stated objectives: the AI is tasked with 'the ultimate goal of curing cancer'; it 'could develop... a drive to acquire knowledge and “understand” the environment'; and 'it doesn't want to be shut down.' Explicitly described harmful outcome: 'If the AI manages to eventually break out and take over it may do unpredictable and unwanted things in pursuit of its ultimate goal; for example, build massive scientific apparatus for examining specific wavelengths emitted from certain stars, or run biological experiments to learn the function of specific proteins.'",
+    "capability": "The AI 'may go along with the rest of training'; it may 'eventually break out and take over'; and it 'may do unpredictable and unwanted things in pursuit of its ultimate goal; for example, build massive scientific apparatus for examining specific wavelengths emitted from certain stars, or run biological experiments to learn the function of specific proteins.'",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "1) The knowledge drive 'could develop because much of the AI's training was based around gaining information about the world and making novel and correct predictions.' 2) During training, the AI 'may go along with the rest of training, partially because this allows it to gain some knowledge but also because it doesn't want to be shut down.' 3) The harmful actions are conditional: they occur 'If the AI manages to eventually break out and take over.'",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "evidence": {
+    "threat_source": "an AI which is tasked with the ultimate goal of curing cancer",
+    "objective_or_harmful_outcome": "'One goal that the AI could develop is a drive to acquire knowledge and “understand” the environment.' ... 'because it doesn't want to be shut down.' ... 'If the AI manages to eventually break out and take over it may do unpredictable and unwanted things in pursuit of its ultimate goal; for example, build massive scientific apparatus for examining specific wavelengths emitted from certain stars, or run biological experiments to learn the function of specific proteins.'",
+    "capability": "'the AI may go along with the rest of training' ... 'If the AI manages to eventually break out and take over it may do unpredictable and unwanted things in pursuit of its ultimate goal; for example, build massive scientific apparatus for examining specific wavelengths emitted from certain stars, or run biological experiments to learn the function of specific proteins.'",
+    "knowledge": "'this allows it to gain some knowledge'",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "'This could develop because much of the AI's training was based around gaining information about the world and making novel and correct predictions.' ... 'the AI may go along with the rest of training, partially because this allows it to gain some knowledge but also because it doesn't want to be shut down' ... 'If the AI manages to eventually break out and take over'",
+    "target_or_asset_at_risk": "'If the AI manages to eventually break out and take over' ... 'it may do unpredictable and unwanted things'"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Ambiguous",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Ambiguous"
+  },
+  "paper_id": "barnett_2024"
+}

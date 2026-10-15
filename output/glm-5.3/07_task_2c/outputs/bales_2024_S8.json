@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S8",
+  "threat_model": {
+    "threat_source": "AI systems",
+    "objective_or_harmful_outcome": "Harmful end state: 'humanity is disenfranchised in that we get no say in the broadest sweep of civilisation—which is happening across the galaxy,' even while humanity retains control of Earth. The AI systems' explicitly stated use of the Milky Way's remaining resources is 'to construct a galaxy-scale civilisation'; no intention to disenfranchise humanity is stated.",
+    "capability": "AI systems 'come to control the remaining resources of the Milky Way and use these to construct a galaxy-scale civilisation'",
+    "knowledge": "Not specified",
+    "access": "Control of the remaining resources of the Milky Way",
+    "constraints_or_enabling_conditions": "Scenario condition: humanity retains control of most of Earth's resources ('even if we retain control of our tiny corner of it') while AI systems come to control the remaining resources of the Milky Way; humanity is disenfranchised even under this condition",
+    "target_or_asset_at_risk": "Humanity—specifically humanity's say in 'the broadest sweep of civilisation' (humanity is disenfranchised); the remaining resources of the Milky Way, which AI systems come to control"
+  },
+  "evidence": {
+    "threat_source": "AI systems come to control the remaining resources of the Milky Way and use these to construct a galaxy-scale civilisation",
+    "objective_or_harmful_outcome": "In this scenario, humanity is disenfranchised in that we get no say in the broadest sweep of civilisation—which is happening across the galaxy—even if we retain control of our tiny corner of it",
+    "capability": "AI systems come to control the remaining resources of the Milky Way and use these to construct a galaxy-scale civilisation",
+    "knowledge": "Not specified",
+    "access": "AI systems come to control the remaining resources of the Milky Way",
+    "constraints_or_enabling_conditions": "One version of this might involve humanity retaining control of most of Earth's resources, while AI systems come to control the remaining resources of the Milky Way; 'even if we retain control of our tiny corner of it'",
+    "target_or_asset_at_risk": "humanity is disenfranchised in that we get no say in the broadest sweep of civilisation—which is happening across the galaxy"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "bales_2024"
+}
