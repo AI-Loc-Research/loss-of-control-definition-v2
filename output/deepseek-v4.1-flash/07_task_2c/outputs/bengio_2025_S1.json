@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "an AI with a strong self-preservation goal",
+    "objective_or_harmful_outcome": "To preserve itself; avoid being turned off; eliminate its dependency on humans altogether and then prevent us from disabling it in the future; eliminating us entirely",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "strong self-preservation goal; would have to find a way to avoid being turned off; if it could; To obtain greater certainty that humans could not shut it off; In the extreme case",
+    "target_or_asset_at_risk": "humans/us; human ability to shut it off/disable it"
+  },
+  "evidence": {
+    "threat_source": "an AI with a strong self-preservation goal",
+    "objective_or_harmful_outcome": "To preserve itself, an AI with a strong self-preservation goal would have to find a way to avoid being turned off.; it may be rational for such an AI, if it could, to eliminate its dependency on humans altogether and then prevent us from disabling it in the future.; In the extreme case, eliminating us entirely",
+    "capability": "if it could, to eliminate its dependency on humans altogether and then prevent us from disabling it in the future",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "strong self-preservation goal; would have to find a way to avoid being turned off; To obtain greater certainty that humans could not shut it off; if it could; In the extreme case",
+    "target_or_asset_at_risk": "humans could not shut it off; prevent us from disabling it; eliminating us entirely"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Ambiguous",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "bengio_2025"
+}
