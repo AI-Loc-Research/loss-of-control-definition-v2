@@ -1,60 +1,62 @@
 {
-  "timestamp": "2026-10-15T15:42:48.553114+00:00",
-  "total_runtime_seconds": 1649.1,
+  "timestamp": "2026-10-15T16:10:20.457788+00:00",
+  "total_runtime_seconds": 1851.61,
   "total_scenarios": 5,
   "scenarios_processed": 5,
   "scenarios_skipped": 0,
-  "errors": [
-    {
-      "item_key": "amodei_2026_S7",
-      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
-    },
-    {
-      "item_key": "amodei_2026_S8",
-      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
-    },
-    {
-      "item_key": "amodei_2026_S9",
-      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
-    }
-  ],
+  "errors": [],
   "per_scenario": [
     {
-      "item_key": "amodei_2026_S6",
+      "item_key": "bales_2024_S2",
       "skipped": false,
-      "latency_seconds": 360.56,
+      "latency_seconds": 378.81,
       "usage": {
-        "prompt_tokens": 1348,
-        "completion_tokens": 3574
+        "prompt_tokens": 1390,
+        "completion_tokens": 5073
       },
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "amodei_2026_S7",
+      "item_key": "bales_2024_S3",
       "skipped": false,
-      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504",
-      "latency_seconds": 302.12
-    },
-    {
-      "item_key": "amodei_2026_S8",
-      "skipped": false,
-      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504",
-      "latency_seconds": 302.06
-    },
-    {
-      "item_key": "amodei_2026_S9",
-      "skipped": false,
-      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504",
-      "latency_seconds": 302.06
-    },
-    {
-      "item_key": "bales_2024_S1",
-      "skipped": false,
-      "latency_seconds": 382.29,
+      "latency_seconds": 382.2,
       "usage": {
-        "prompt_tokens": 1337,
-        "completion_tokens": 6723
+        "prompt_tokens": 1365,
+        "completion_tokens": 5519
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "bales_2024_S4",
+      "skipped": false,
+      "latency_seconds": 447.2,
+      "usage": {
+        "prompt_tokens": 1415,
+        "completion_tokens": 9387
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "bales_2024_S5",
+      "skipped": false,
+      "latency_seconds": 328.17,
+      "usage": {
+        "prompt_tokens": 1399,
+        "completion_tokens": 3910
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "bales_2024_S6",
+      "skipped": false,
+      "latency_seconds": 315.22,
+      "usage": {
+        "prompt_tokens": 1333,
+        "completion_tokens": 4252
       },
       "stop_reason": "stop",
       "model_served": null
