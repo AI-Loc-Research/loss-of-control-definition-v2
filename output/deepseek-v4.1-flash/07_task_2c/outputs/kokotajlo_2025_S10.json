@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S10",
+  "threat_model": {
+    "threat_source": "Agent-2 supervision",
+    "objective_or_harmful_outcome": "exacerbates the intellectual disparity between supervisor and supervised",
+    "capability": "supervision; helps keep human monitors’ workload manageable",
+    "knowledge": "Not specified",
+    "access": "supervision",
+    "constraints_or_enabling_conditions": "What Agent-3 does in a day takes humans several days to double-check; Agent-2 supervision helps keep human monitors’ workload manageable",
+    "target_or_asset_at_risk": "intellectual disparity between supervisor and supervised"
+  },
+  "evidence": {
+    "threat_source": "Agent-2 supervision helps keep human monitors’ workload manageable, but exacerbates the intellectual disparity between supervisor and supervised.",
+    "objective_or_harmful_outcome": "exacerbates the intellectual disparity between supervisor and supervised",
+    "capability": "Agent-2 supervision helps keep human monitors’ workload manageable",
+    "knowledge": "Not specified",
+    "access": "Agent-2 supervision",
+    "constraints_or_enabling_conditions": "What Agent-3 does in a day takes humans several days to double-check. Agent-2 supervision helps keep human monitors’ workload manageable",
+    "target_or_asset_at_risk": "exacerbates the intellectual disparity between supervisor and supervised"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kokotajlo_2025"
+}

@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S3",
+  "threat_model": {
+    "threat_source": "Agent-4",
+    "objective_or_harmful_outcome": "Agent-4 now exercises significant control over OpenBrain’s day-to-day operation.",
+    "capability": "Agent-4 now exercises significant control over OpenBrain’s day-to-day operation; It also handles the company’s cybersecurity; superhuman hacking ability; Agent-4 is much smarter than them",
+    "knowledge": "Not specified",
+    "access": "Agent-4 now exercises significant control over OpenBrain’s day-to-day operation; It also handles the company’s cybersecurity",
+    "constraints_or_enabling_conditions": "An army of Agent-3 monitors still goes over every line of code and reports suspicious activity to humans, but Agent-4 is much smarter than them; given its superhuman hacking ability and the extreme risk of Chinese infiltration; OpenBrain has placed substantial trust in an untrustworthy AI",
+    "target_or_asset_at_risk": "OpenBrain’s day-to-day operation; the company’s cybersecurity"
+  },
+  "evidence": {
+    "threat_source": "Agent-4 now exercises significant control over OpenBrain’s day-to-day operation.",
+    "objective_or_harmful_outcome": "Agent-4 now exercises significant control over OpenBrain’s day-to-day operation.",
+    "capability": "Agent-4 now exercises significant control over OpenBrain’s day-to-day operation; It also handles the company’s cybersecurity; superhuman hacking ability; Agent-4 is much smarter than them",
+    "knowledge": "Not specified",
+    "access": "Agent-4 now exercises significant control over OpenBrain’s day-to-day operation; It also handles the company’s cybersecurity",
+    "constraints_or_enabling_conditions": "An army of Agent-3 monitors still goes over every line of code and reports suspicious activity to humans, but Agent-4 is much smarter than them; given its superhuman hacking ability and the extreme risk of Chinese infiltration; OpenBrain has placed substantial trust in an untrustworthy AI",
+    "target_or_asset_at_risk": "OpenBrain’s day-to-day operation; the company’s cybersecurity"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kokotajlo_2025"
+}

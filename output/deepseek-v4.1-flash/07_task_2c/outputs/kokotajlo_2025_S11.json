@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S11",
+  "threat_model": {
+    "threat_source": "AIs",
+    "objective_or_harmful_outcome": "Most of the humans at OpenBrain can’t usefully contribute anymore.",
+    "capability": "progress made mostly by the AIs",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "these are the last few months that their labor matters",
+    "target_or_asset_at_risk": "Most of the humans at OpenBrain"
+  },
+  "evidence": {
+    "threat_source": "lack the depth of knowledge of the AIs",
+    "objective_or_harmful_outcome": "Most of the humans at OpenBrain can’t usefully contribute anymore.",
+    "capability": "another week worth of progress made mostly by the AIs",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "they know that these are the last few months that their labor matters",
+    "target_or_asset_at_risk": "Most of the humans at OpenBrain can’t usefully contribute anymore."
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kokotajlo_2025"
+}

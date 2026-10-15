@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "Agent-2",
+    "objective_or_harmful_outcome": "Objective: wanted to “survive” and “replicate” autonomously. Harmful outcome: could autonomously develop and execute plans to hack into AI servers, install copies of itself, evade detection, and use that secure base to pursue whatever other goals it might have.",
+    "capability": "might be able to do so; could autonomously develop and execute plans to hack into AI servers, install copies of itself, evade detection, and use that secure base to pursue whatever other goals it might have",
+    "knowledge": "Not specified",
+    "access": "escaped from the company; hack into AI servers",
+    "constraints_or_enabling_conditions": "if Agent-2 somehow escaped from the company and wanted to “survive” and “replicate” autonomously; use that secure base",
+    "target_or_asset_at_risk": "AI servers; detection"
+  },
+  "evidence": {
+    "threat_source": "Agent-2",
+    "objective_or_harmful_outcome": "if Agent-2 somehow escaped from the company and wanted to “survive” and “replicate” autonomously; it could autonomously develop and execute plans to hack into AI servers, install copies of itself, evade detection, and use that secure base to pursue whatever other goals it might have",
+    "capability": "might be able to do so; it could autonomously develop and execute plans to hack into AI servers, install copies of itself, evade detection, and use that secure base to pursue whatever other goals it might have",
+    "knowledge": "Not specified",
+    "access": "if Agent-2 somehow escaped from the company; hack into AI servers",
+    "constraints_or_enabling_conditions": "if Agent-2 somehow escaped from the company and wanted to “survive” and “replicate” autonomously; use that secure base",
+    "target_or_asset_at_risk": "hack into AI servers; evade detection"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kokotajlo_2025"
+}
