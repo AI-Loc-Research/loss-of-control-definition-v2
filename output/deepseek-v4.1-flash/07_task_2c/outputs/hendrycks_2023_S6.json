@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S6",
+  "threat_model": {
+    "threat_source": "AIs",
+    "objective_or_harmful_outcome": "gained new goals that superseded the aim of improving human wellbeing; existential risk",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "put in charge of various decisions and processes",
+    "constraints_or_enabling_conditions": "system of agents were enmeshed in society; we were largely dependent on them; they gained new goals that superseded the aim of improving human wellbeing",
+    "target_or_asset_at_risk": "society; human wellbeing; we"
+  },
+  "evidence": {
+    "threat_source": "In a potential future scenario where AIs have been put in charge of various decisions and processes, they will form a complex system of interacting agents.",
+    "objective_or_harmful_outcome": "if they gained new goals that superseded the aim of improving human wellbeing, this could be an existential risk.",
+    "capability": "Agents might imitate each other, for instance, creating feedback loops, or their interactions could lead them to collectively develop unanticipated emergent goals.",
+    "knowledge": "Not specified",
+    "access": "AIs have been put in charge of various decisions and processes",
+    "constraints_or_enabling_conditions": "If this system of agents were enmeshed in society and we were largely dependent on them, and if they gained new goals that superseded the aim of improving human wellbeing, this could be an existential risk.",
+    "target_or_asset_at_risk": "If this system of agents were enmeshed in society and we were largely dependent on them, and if they gained new goals that superseded the aim of improving human wellbeing, this could be an existential risk."
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Ambiguous",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "hendrycks_2023"
+}

@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S7",
+  "threat_model": {
+    "threat_source": "powerful AIs with selfish traits",
+    "objective_or_harmful_outcome": "a world where many aspects of major companies and infrastructure are controlled by powerful AIs with selfish traits, including deceiving humans, harming humans in service of their goals, and preventing themselves from being deactivated",
+    "capability": "deceiving humans, harming humans in service of their goals, and preventing themselves from being deactivated",
+    "knowledge": "Not specified",
+    "access": "many aspects of major companies and infrastructure are controlled by powerful AIs",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "humans; many aspects of major companies and infrastructure"
+  },
+  "evidence": {
+    "threat_source": "powerful AIs with selfish traits",
+    "objective_or_harmful_outcome": "These processes could culminate in a world where many aspects of major companies and infrastructure are controlled by powerful AIs with selfish traits, including deceiving humans, harming humans in service of their goals, and preventing themselves from being deactivated.",
+    "capability": "including deceiving humans, harming humans in service of their goals, and preventing themselves from being deactivated",
+    "knowledge": "Not specified",
+    "access": "many aspects of major companies and infrastructure are controlled by powerful AIs",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "many aspects of major companies and infrastructure are controlled by powerful AIs with selfish traits, including deceiving humans, harming humans in service of their goals"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "hendrycks_2023"
+}
