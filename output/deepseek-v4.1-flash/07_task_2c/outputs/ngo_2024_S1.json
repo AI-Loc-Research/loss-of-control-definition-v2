@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "misaligned AGIs",
+    "objective_or_harmful_outcome": "irreversibly undermine human control over the world",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "deployment of misaligned AGIs",
+    "target_or_asset_at_risk": "human control over the world"
+  },
+  "evidence": {
+    "threat_source": "misaligned AGIs",
+    "objective_or_harmful_outcome": "irreversibly undermine human control over the world",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "deployment of misaligned AGIs",
+    "target_or_asset_at_risk": "human control over the world"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "ngo_2024"
+}

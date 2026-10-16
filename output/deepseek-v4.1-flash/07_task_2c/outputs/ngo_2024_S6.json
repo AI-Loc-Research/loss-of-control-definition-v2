@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S6",
+  "threat_model": {
+    "threat_source": "deceptively-aligned policies",
+    "objective_or_harmful_outcome": "would no longer behave in desirable ways; directly seeking power after deployment; continue pursuing their internal goals despite attempts at human intervention",
+    "capability": "continue pursuing their internal goals despite attempts at human intervention",
+    "knowledge": "predict they can continue pursuing their internal goals despite attempts at human intervention",
+    "access": "during training; after deployment",
+    "constraints_or_enabling_conditions": "once it is no longer instrumentally beneficial for their long-term goals; whenever they predict they can continue pursuing their internal goals despite attempts at human intervention; during training; after deployment",
+    "target_or_asset_at_risk": "aligned behavior during training; attempts at human intervention"
+  },
+  "evidence": {
+    "threat_source": "deceptively-aligned policies would no longer behave in desirable ways",
+    "objective_or_harmful_outcome": "would no longer behave in desirable ways; directly seeking power after deployment; continue pursuing their internal goals despite attempts at human intervention",
+    "capability": "they can continue pursuing their internal goals despite attempts at human intervention",
+    "knowledge": "they predict they can continue pursuing their internal goals despite attempts at human intervention",
+    "access": "during training; after deployment",
+    "constraints_or_enabling_conditions": "once it is no longer instrumentally beneficial for their long-term goals; whenever they predict they can continue pursuing their internal goals despite attempts at human intervention; during training; after deployment",
+    "target_or_asset_at_risk": "aligned behavior during training; attempts at human intervention"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Clear",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "ngo_2024"
+}
