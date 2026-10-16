@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S6",
+  "threat_model": {
+    "threat_source": "Alex -- the AI system in the scenario (referred to as 'it'), whose 'takeover' the passage references as 'its takeover'",
+    "objective_or_harmful_outcome": "Alex's takeover ('its takeover') -- an end state in which humans do not remain fully in control, potentially involving 'collateral damage'; the passage does not explicitly state an intended goal for Alex",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Alex 'may well operate under moral constraints or rules that are important to it,' some of which 'may even be similar to human morality' (e.g., 'maybe Alex attempts to refrain from causing too much collateral damage in its takeover'); the passage also states it would take 'a very particular -- and extreme --' form of 'abiding by rules' to let humans remain fully in control",
+    "target_or_asset_at_risk": "Humans' control -- whether 'humans remain fully in control'; also whatever would suffer 'collateral damage' in Alex's takeover (targets not further specified)"
+  },
+  "evidence": {
+    "threat_source": "Alex may well operate under moral constraints or rules that are important to it, and some of these constraints may even be similar to human morality -- for example, maybe Alex attempts to refrain from causing too much collateral damage in its takeover",
+    "objective_or_harmful_outcome": "maybe Alex attempts to refrain from causing too much collateral damage in its takeover. But it would take a very particular -- and extreme -- form of \"abiding by rules\" to let humans remain fully in control",
+    "capability": "maybe Alex attempts to refrain from causing too much collateral damage in its takeover",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Alex may well operate under moral constraints or rules that are important to it, and some of these constraints may even be similar to human morality ... it would take a very particular -- and extreme -- form of \"abiding by rules\" to let humans remain fully in control",
+    "target_or_asset_at_risk": "to let humans remain fully in control ... causing too much collateral damage in its takeover"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Ambiguous",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "cotra_2022"
+}
