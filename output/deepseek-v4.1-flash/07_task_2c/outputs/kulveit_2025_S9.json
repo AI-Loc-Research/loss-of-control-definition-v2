@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S9",
+  "threat_model": {
+    "threat_source": "AI systems; AI-enhanced security apparatus; a state with sufficiently advanced AI systems",
+    "objective_or_harmful_outcome": "make effective protest increasingly difficult; predict and shut down civil unrest before it can exert meaningful pressure on institutional behavior",
+    "capability": "massively automate the security apparatus; enable surveillance on much larger, more pervasive and more accurate scale; increasingly capable autonomous military units; make effective protest increasingly difficult; predict and shut down civil unrest",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "sufficiently advanced AI systems; AI-enhanced security apparatus; implicit threat of protests and civil unrest serves as a check on state power; human population has historically retained revolution as a last resort",
+    "target_or_asset_at_risk": "effective protest; civil unrest; check on state power; responsiveness to popular will; human population"
+  },
+  "evidence": {
+    "threat_source": "AI systems have the potential to massively automate the security apparatus and confer more power to the government, weakening both of these components.; an AI-enhanced security apparatus could make effective protest increasingly difficult.; A state with sufficiently advanced AI systems might be able to predict and shut down civil unrest before it can exert meaningful pressure on institutional behavior.",
+    "objective_or_harmful_outcome": "an AI-enhanced security apparatus could make effective protest increasingly difficult. A state with sufficiently advanced AI systems might be able to predict and shut down civil unrest before it can exert meaningful pressure on institutional behavior.",
+    "capability": "AI systems have the potential to massively automate the security apparatus; it is likely to enable surveillance on much larger, more pervasive and more accurate scale, as well as increasingly capable autonomous military units; an AI-enhanced security apparatus could make effective protest increasingly difficult; A state with sufficiently advanced AI systems might be able to predict and shut down civil unrest",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "A state with sufficiently advanced AI systems; an AI-enhanced security apparatus; The implicit threat of protests and civil unrest serves as a check on state power; The human population has historically retained revolution as a last resort",
+    "target_or_asset_at_risk": "effective protest; civil unrest; a check on state power; responsiveness to popular will; human population"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kulveit_2025"
+}

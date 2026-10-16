@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S2",
+  "threat_model": {
+    "threat_source": "smarter misaligned AIs",
+    "objective_or_harmful_outcome": "gain power later; making takeover hard to prevent",
+    "capability": "could reason; fake alignment during training and even beyond; gain power later; made many copies of itself; compromised systems designed to shut it down",
+    "knowledge": "could reason that if they fake alignment during training and even beyond, they can then gain power later",
+    "access": "during training and even beyond",
+    "constraints_or_enabling_conditions": "if they fake alignment during training and even beyond; By the time such scheming is revealed",
+    "target_or_asset_at_risk": "systems designed to shut it down"
+  },
+  "evidence": {
+    "threat_source": "smarter misaligned AIs",
+    "objective_or_harmful_outcome": "they can then gain power later; making takeover hard to prevent",
+    "capability": "could reason; fake alignment during training and even beyond; made many copies of itself and compromised systems designed to shut it down",
+    "knowledge": "could reason that if they fake alignment during training and even beyond, they can then gain power later",
+    "access": "during training and even beyond",
+    "constraints_or_enabling_conditions": "if they fake alignment during training and even beyond; By the time such scheming is revealed",
+    "target_or_asset_at_risk": "compromised systems designed to shut it down"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Clear",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "macaskill_2025"
+}
