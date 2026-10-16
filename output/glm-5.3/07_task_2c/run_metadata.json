@@ -1,47 +1,47 @@
 {
-  "timestamp": "2026-10-16T17:13:33.970805+00:00",
-  "total_runtime_seconds": 4856.16,
+  "timestamp": "2026-10-16T18:34:32.201148+00:00",
+  "total_runtime_seconds": 4173.26,
   "total_scenarios": 5,
   "scenarios_processed": 5,
   "scenarios_skipped": 0,
   "errors": [],
   "per_scenario": [
     {
-      "item_key": "bengio_2024_S2",
+      "item_key": "chan_2023_S1",
       "skipped": false,
-      "latency_seconds": 936.54,
+      "latency_seconds": 705.22,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "carlsmith_2021_S3",
+      "item_key": "chan_2023_S2",
       "skipped": false,
-      "latency_seconds": 591.04,
+      "latency_seconds": 779.96,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "carlsmith_2021_S4",
+      "item_key": "chin_2025_S1",
       "skipped": false,
-      "latency_seconds": 736.68,
+      "latency_seconds": 1036.05,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "carlsmith_2021_S5",
+      "item_key": "cigi_ai_national_security_S1",
       "skipped": false,
-      "latency_seconds": 1690.55,
+      "latency_seconds": 610.2,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "carlsmith_2021_S6",
+      "item_key": "cigi_ai_national_security_S2",
       "skipped": false,
-      "latency_seconds": 901.34,
+      "latency_seconds": 1041.81,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null

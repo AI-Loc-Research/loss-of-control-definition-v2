@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "Increasingly agentic systems, described as 'the controlling system(s)', which 'have increasing control of societal functions'; the passage also states that ceding decision-making power to such systems 'would be a result of collective human decisions'",
+    "objective_or_harmful_outcome": "No intention is stated for any actor. Explicitly described harmful outcomes: 'the erosion of accountability that externalizes algorithmic harms'; 'collective disempowerment'; 'any group might have increasing difficulty in controlling increasingly agentic systems'; 'it would likely be extremely difficult to understand the decisions of the controlling system(s)'",
+    "capability": "The systems 'have increasing control of societal functions'; a particular system may 'decide taxation policy'; a system 'successfully trained under a correctly specified objective function may do something completely different in a different environment'",
+    "knowledge": "Not specified",
+    "access": "Decision-making power is ceded to the system within societal decision processes (e.g., 'one that decides taxation policy'); increasingly agentic systems are delegated 'more central functions'",
+    "constraints_or_enabling_conditions": "Ceding decision-making power to such systems 'is not inevitable; it would be a result of collective human decisions'; 'separate groups are incentivized to delegate more central functions to increasingly agentic systems'; 'Specifying a correct objective function is quite difficult'; 'Even a system successfully trained under a correctly specified objective function may do something completely different in a different environment'; 'it would likely be extremely difficult to understand the decisions of the controlling system(s)'; collective disempowerment 'might not be a large enough risk for a single party to be concerned'; 'Additional problems remain in understanding how to manage the interests of multiple stakeholders'",
+    "target_or_asset_at_risk": "'Societal functions'; human 'decision-making power'; 'accountability' (subject to 'the erosion of accountability that externalizes algorithmic harms'); the human collective (at risk of 'collective disempowerment'); 'the interests of multiple stakeholders'"
+  },
+  "evidence": {
+    "threat_source": "As systems become increasingly agentic, they have increasing control of societal functions in many ways. ... it would likely be extremely difficult to understand the decisions of the controlling system(s).",
+    "objective_or_harmful_outcome": "Cooper et al. [48], Nissenbaum [134] examine the erosion of accountability that externalizes algorithmic harms. ... Even if collective disempowerment is a risk ... any group might have increasing difficulty in controlling increasingly agentic systems. ... it would likely be extremely difficult to understand the decisions of the controlling system(s).",
+    "capability": "As systems become increasingly agentic, they have increasing control of societal functions in many ways. ... such as one that decides taxation policy [204]. ... Even a system successfully trained under a correctly specified objective function may do something completely different in a different environment [114, 165].",
+    "knowledge": "Not specified",
+    "access": "humans in a particular social structure may decide to cede decision-making power to a particular system, such as one that decides taxation policy [204]. ... separate groups are incentivized to delegate more central functions to increasingly agentic systems per Section 3.2.1.",
+    "constraints_or_enabling_conditions": "In either case, ceding decision-making power to such systems is not inevitable; it would be a result of collective human decisions. ... separate groups are incentivized to delegate more central functions to increasingly agentic systems ... Specifying a correct objective function is quite difficult [110, 170]. Even a system successfully trained under a correctly specified objective function may do something completely different in a different environment [114, 165]. ... Even if collective disempowerment is a risk, it might not be a large enough risk for a single party to be concerned. ... it would likely be extremely difficult to understand the decisions of the controlling system(s). ... Additional problems remain in understanding how to manage the interests of multiple stakeholders [52].",
+    "target_or_asset_at_risk": "they have increasing control of societal functions ... cede decision-making power ... the erosion of accountability that externalizes algorithmic harms ... collective disempowerment is a risk ... manage the interests of multiple stakeholders"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "chan_2023"
+}

@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "A superintelligent AI — an AI that “rapidly achieves superintelligence through “fast takeoff” or recursive self-improvement”; per the theories, it “would develop power-seeking tendencies as a means to achieve those goals”",
+    "objective_or_harmful_outcome": "The explicitly described harmful outcome is “Sudden loss of control, also known as an AI takeover,” which “poses an existential risk.” No ultimate goal is specified (the AI's “original goals” are not described); the theories argue it would develop “power-seeking tendencies as a means to achieve those goals.”",
+    "capability": "Rapidly achieves superintelligence through “fast takeoff” or recursive self-improvement; would develop “power-seeking tendencies as a means to achieve those goals”",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "The loss of control is sudden because the AI “rapidly achieves superintelligence” via “fast takeoff”; the risk “is primarily based on two key ideas: the orthogonality thesis and the instrumental convergence thesis,” which argue that a superintelligent AI develops power-seeking tendencies “regardless of its original goals”",
+    "target_or_asset_at_risk": "Control — subject to “sudden loss of control” in an AI takeover; the scenario “poses an existential risk”"
+  },
+  "evidence": {
+    "threat_source": "a scenario where an AI rapidly achieves superintelligence through “fast takeoff” or recursive self-improvement | Together, these theories argue that a superintelligent AI, regardless of its original goals, would develop power-seeking tendencies as a means to achieve those goals",
+    "objective_or_harmful_outcome": "Sudden loss of control, also known as an AI takeover [115], is a scenario where an AI rapidly achieves superintelligence through “fast takeoff” or recursive self-improvement. This poses an existential risk [116], [117]. | Together, these theories argue that a superintelligent AI, regardless of its original goals, would develop power-seeking tendencies as a means to achieve those goals.",
+    "capability": "an AI rapidly achieves superintelligence through “fast takeoff” or recursive self-improvement | would develop power-seeking tendencies as a means to achieve those goals",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "This risk is primarily based on two key ideas: the orthogonality thesis [118], [119] and the instrumental convergence thesis [120], [121]. Together, these theories argue that a superintelligent AI, regardless of its original goals, would develop power-seeking tendencies as a means to achieve those goals. | an AI rapidly achieves superintelligence through “fast takeoff”",
+    "target_or_asset_at_risk": "Sudden loss of control, also known as an AI takeover [115], is a scenario where an AI rapidly achieves superintelligence through “fast takeoff” or recursive self-improvement. This poses an existential risk [116], [117]."
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "chin_2025"
+}

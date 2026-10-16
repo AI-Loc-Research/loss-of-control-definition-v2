@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "AI systems (harm arising from their use in aggregate) and the process of competitive AI adoption (termed 'loss of control through gradual disempowerment'), whereby competitive pressure to adopt AI systems leads to eventual automation of decision making",
+    "objective_or_harmful_outcome": "No actor intention is stated. Explicitly described harmful end states: systemic failures that are unaligned with the interests of AI users or of the economy or society as a whole; at the extreme, 'loss of control through gradual disempowerment' consisting of an eventual automation of decision making and a gradual process in which humans are no longer valuable economic actors or political decision makers",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "The harm may arise even when AI systems can be controlled by (or aligned with the intentions of) their individual users, and stems from their use in aggregate; competitive pressure to adopt AI systems drives the process",
+    "target_or_asset_at_risk": "Interests of AI users, the economy, and society as a whole; decision making (eventually automated); humans as valuable economic actors or political decision makers"
+  },
+  "evidence": {
+    "threat_source": "their use in aggregate may nevertheless result in systemic failures that are unaligned with the interests of their users or of the economy or society as a whole; whereby competitive pressure to adopt AI systems leads to an eventual automation of decision making and a gradual process in which humans are no longer valuable economic actors or political decision makers",
+    "objective_or_harmful_outcome": "systemic failures that are unaligned with the interests of their users or of the economy or society as a whole; a process that has been termed 'loss of control through gradual disempowerment'; an eventual automation of decision making and a gradual process in which humans are no longer valuable economic actors or political decision makers",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "even when AI systems can be controlled by (or aligned with the intentions of) their individual users, their use in aggregate may nevertheless result in systemic failures; competitive pressure to adopt AI systems leads to an eventual automation of decision making",
+    "target_or_asset_at_risk": "unaligned with the interests of their users or of the economy or society as a whole; an eventual automation of decision making; humans are no longer valuable economic actors or political decision makers"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "cigi_ai_national_security"
+}
