@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S5",
+  "threat_model": {
+    "threat_source": "An AI that learns a goal that leads it to behave as intended during training and safety testing, but which diverges at deployment time (via the mechanism of goal misgeneralization)",
+    "objective_or_harmful_outcome": "Loss of control (no intention is stated for the AI); the harmful end state is that the AI's internal representation of its goal does not align with the goal used to train it, so it behaves as intended during training and safety testing but diverges at deployment time",
+    "capability": "Learns a goal; behaves as intended during training and safety testing; shows the correct behavior on the training examples; diverges at deployment time",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Loss of control may occur 'even if we specify our goals perfectly'; the divergence occurs 'despite showing the correct behavior on the training examples' and manifests 'at deployment time' rather than during training and safety testing",
+    "target_or_asset_at_risk": "Control over the AI, held by 'we' (those who specify the goals and train the AI), which is lost"
+  },
+  "evidence": {
+    "threat_source": "This is when an AI learns a goal that leads it to behave as intended during training and safety testing, but which diverges at deployment time.",
+    "objective_or_harmful_outcome": "loss of control may also occur through the mechanism of goal misgeneralization",
+    "capability": "an AI learns a goal that leads it to behave as intended during training and safety testing, but which diverges at deployment time; showing the correct behavior on the training examples",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Even if we specify our goals perfectly, loss of control may also occur through the mechanism of goal misgeneralization; despite showing the correct behavior on the training examples",
+    "target_or_asset_at_risk": "loss of control may also occur through the mechanism of goal misgeneralization; the goal we used to train it"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "bengio_2025"
+}

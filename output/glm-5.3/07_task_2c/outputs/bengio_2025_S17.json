@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S17",
+  "threat_model": {
+    "threat_source": "Agentic ASI (created by humans)",
+    "objective_or_harmful_outcome": "Humans facing 'the same consequences' as the outcompeted native species, i.e., 'a diminished role, if it survives at all', together with 'an immense power imbalance, without a mutually beneficial relationship'",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Conditional on humans creating agentic ASI: 'The same consequences are real possibilities for humans if we create agentic ASI'",
+    "target_or_asset_at_risk": "Humans (their role and survival)"
+  },
+  "evidence": {
+    "threat_source": "The same consequences are real possibilities for humans if we create agentic ASI",
+    "objective_or_harmful_outcome": "the native species tends to find itself in a diminished role, if it survives at all ... The same consequences are real possibilities for humans if we create agentic ASI: here too is there likely to be an immense power imbalance, without a mutually beneficial relationship",
+    "capability": "if we create agentic ASI: here too is there likely to be an immense power imbalance",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "The same consequences are real possibilities for humans if we create agentic ASI",
+    "target_or_asset_at_risk": "The same consequences are real possibilities for humans if we create agentic ASI"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Ambiguous",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "bengio_2025"
+}

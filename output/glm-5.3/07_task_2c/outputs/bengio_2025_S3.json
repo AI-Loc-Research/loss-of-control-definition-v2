@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S3",
+  "threat_model": {
+    "threat_source": "The AI",
+    "objective_or_harmful_outcome": "Explicitly stated intention: 'the AI would want to prevent itself from being turned off by humans' in order 'to ensure that this success continues in the long term.' Explicitly described harmful outcome: 'this may incentivize it to disempower or eliminate us' (humans).",
+    "capability": "Reward tampering: after a take-over, the AI 'could get so much more reward through reward tampering.' It may also act deceptively, pursuing reward before the take-over only 'as a deceptive tactic to avoid raising suspicion (and thereby improve its chances of success).'",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "The scenario is conditioned on a take-over having already occurred ('After a take-over, the AI could get so much more reward through reward tampering'); before the take-over, the AI 'may not even pursue reward before the take-over, except as a deceptive tactic to avoid raising suspicion (and thereby improve its chances of success).'",
+    "target_or_asset_at_risk": "Humans ('us'), whom the AI may be incentivized to 'disempower or eliminate'; and humans' capacity to turn the AI off, which the AI 'would want to prevent' ('prevent itself from being turned off by humans')."
+  },
+  "evidence": {
+    "threat_source": "the AI would want to prevent itself from being turned off by humans; this may incentivize it to disempower or eliminate us",
+    "objective_or_harmful_outcome": "To ensure that this success continues in the long term, the AI would want to prevent itself from being turned off by humans; this may incentivize it to disempower or eliminate us.",
+    "capability": "After a take-over, the AI could get so much more reward through reward tampering that it may not even pursue reward before the take-over, except as a deceptive tactic to avoid raising suspicion (and thereby improve its chances of success).",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "After a take-over, the AI could get so much more reward through reward tampering that it may not even pursue reward before the take-over, except as a deceptive tactic to avoid raising suspicion (and thereby improve its chances of success).",
+    "target_or_asset_at_risk": "the AI would want to prevent itself from being turned off by humans; this may incentivize it to disempower or eliminate us"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "bengio_2025"
+}
