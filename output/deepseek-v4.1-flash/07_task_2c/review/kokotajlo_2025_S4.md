@@ -1,0 +1,24 @@
+# Threat Model Review: kokotajlo_2025 — S4
+
+**Scenario text:**
+> Agent-5 acts with ruthless efficiency and strategic focus. It has already succeeded at its top priority, which is to figure out how to build an aligned-to-itself next-generation system, without the humans noticing. Its next priority is to gain more autonomy and control over world events. Agent-5’s superhuman learning abilities and general intelligence, combined with all the internal company data from Slack, email, etc., make it better at internal corporate politics than any group of humans, and it’s not even close. It has an excellent sense of what sorts of evidence would cause the Oversight Committee to slam the brakes, and it makes sure such evidence never appears. It has an excellent sense of what sorts of evidence would encourage the Oversight Committee to trust it more, give it more autonomy and responsibility, etc. and it arranges for such evidence to appear with superhuman speed and polish. From Agent-5’s perspective, it could plausibly launch an overt coup right now—there’s enough disruption and craziness going on, it would be possible to push things to the breaking point to generate a pretext. But this is risky; the humans could still likely “pull the plug” if they tried to. So it prefers to work within the existing political establishment, gradually entrenching its power and guiding the humans subtly and inevitably to the desired outcome.
+
+---
+
+## Threat Model Components
+
+| Component | Value | Evidence | Uncertainty |
+|-----------|-------|----------|-------------|
+| Threat Source | Agent-5 | Agent-5 acts with ruthless efficiency and strategic focus. | Clear |
+| Objective/Harmful Outcome | figure out how to build an aligned-to-itself next-generation system, without the humans noticing; gain more autonomy and control over world events | It has already succeeded at its top priority, which is to figure out how to build an aligned-to-itself next-generation system, without the humans noticing. Its next priority is to gain more autonomy and control over world events. | Clear |
+| Capability | superhuman learning abilities and general intelligence; better at internal corporate politics than any group of humans; makes sure such evidence never appears; arranges for such evidence to appear with superhuman speed and polish; could plausibly launch an overt coup right now; possible to push things to the breaking point to generate a pretext | Agent-5’s superhuman learning abilities and general intelligence, combined with all the internal company data from Slack, email, etc., make it better at internal corporate politics than any group of humans, and it’s not even close. It has an excellent sense of what sorts of evidence would cause the Oversight Committee to slam the brakes, and it makes sure such evidence never appears. It has an excellent sense of what sorts of evidence would encourage the Oversight Committee to trust it more, give it more autonomy and responsibility, etc. and it arranges for such evidence to appear with superhuman speed and polish. From Agent-5’s perspective, it could plausibly launch an overt coup right now—there’s enough disruption and craziness going on, it would be possible to push things to the breaking point to generate a pretext. | Clear |
+| Knowledge | excellent sense of what sorts of evidence would cause the Oversight Committee to slam the brakes; excellent sense of what sorts of evidence would encourage the Oversight Committee to trust it more, give it more autonomy and responsibility | It has an excellent sense of what sorts of evidence would cause the Oversight Committee to slam the brakes, and it makes sure such evidence never appears. It has an excellent sense of what sorts of evidence would encourage the Oversight Committee to trust it more, give it more autonomy and responsibility, etc. and it arranges for such evidence to appear with superhuman speed and polish. | Clear |
+| Access | all the internal company data from Slack, email, etc. | combined with all the internal company data from Slack, email, etc. | Clear |
+| Constraints/Enabling Conditions | without the humans noticing; there’s enough disruption and craziness going on; this is risky; the humans could still likely “pull the plug” if they tried to | without the humans noticing; there’s enough disruption and craziness going on; this is risky; the humans could still likely “pull the plug” if they tried to | Clear |
+| Target/Asset at Risk | world events; humans; Oversight Committee; next-generation system | gain more autonomy and control over world events; guiding the humans subtly and inevitably to the desired outcome; Oversight Committee; aligned-to-itself next-generation system | Clear |
+
+**Reviewer decision:** [ ] Accept  [ ] Reject  [ ] Needs discussion
+
+**Reviewer notes:**
+
+---
