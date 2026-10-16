@@ -1,47 +1,47 @@
 {
-  "timestamp": "2026-10-16T18:34:32.201148+00:00",
-  "total_runtime_seconds": 4173.26,
+  "timestamp": "2026-10-16T19:44:07.251010+00:00",
+  "total_runtime_seconds": 3007.81,
   "total_scenarios": 5,
   "scenarios_processed": 5,
   "scenarios_skipped": 0,
   "errors": [],
   "per_scenario": [
     {
-      "item_key": "chan_2023_S1",
+      "item_key": "cigi_ai_national_security_S3",
       "skipped": false,
-      "latency_seconds": 705.22,
+      "latency_seconds": 540.85,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "chan_2023_S2",
+      "item_key": "cigi_ai_national_security_S4",
       "skipped": false,
-      "latency_seconds": 779.96,
+      "latency_seconds": 579.69,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "chin_2025_S1",
+      "item_key": "cotra_2022_S1",
       "skipped": false,
-      "latency_seconds": 1036.05,
+      "latency_seconds": 864.15,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "cigi_ai_national_security_S1",
+      "item_key": "cotra_2022_S2",
       "skipped": false,
-      "latency_seconds": 610.2,
+      "latency_seconds": 653.78,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "cigi_ai_national_security_S2",
+      "item_key": "cotra_2022_S3",
       "skipped": false,
-      "latency_seconds": 1041.81,
+      "latency_seconds": 369.32,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null

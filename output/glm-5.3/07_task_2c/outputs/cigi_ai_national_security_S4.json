@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S4",
+  "threat_model": {
+    "threat_source": "An independent, uncontrollable ASI (the \"Rogue ASI\")",
+    "objective_or_harmful_outcome": "Human extinction, enslavement and general disempowerment (explicitly identified as the greatest risks; no intended goal of the ASI is stated beyond unspecified \"goals\")",
+    "capability": "Pursuing goals without human input",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Developments would unfold rapidly, \"much faster than decision makers could make decisions,\" potentially involving multiple ASI variants simultaneously; even extensive planning might prove ineffective because \"we may not be able to imagine the risks posed by ASI\"",
+    "target_or_asset_at_risk": "Humans (humanity), facing extinction, enslavement and general disempowerment"
+  },
+  "evidence": {
+    "threat_source": "an independent, uncontrollable ASI pursuing goals without human input",
+    "objective_or_harmful_outcome": "Participants identified human extinction, enslavement and general disempowerment as the greatest risks",
+    "capability": "an independent, uncontrollable ASI pursuing goals without human input",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Contributors emphasized that developments would unfold rapidly, \"much faster than decision makers could make decisions,\" potentially involving multiple ASI variants simultaneously. Many suggested that even extensive planning might prove ineffective because \"we may not be able to imagine the risks posed by ASI.\"",
+    "target_or_asset_at_risk": "Participants identified human extinction, enslavement and general disempowerment as the greatest risks"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "cigi_ai_national_security"
+}

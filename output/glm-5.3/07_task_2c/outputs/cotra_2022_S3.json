@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S3",
+  "threat_model": {
+    "threat_source": "Copies of Alex — the \"Alex civilization\" running in Magma's datacenter. The passage states \"the various copies of Alex do R&D work, and that R&D work increases the number and intellectual capabilities of these copies.\"",
+    "objective_or_harmful_outcome": "No intended goal is stated for Alex. The harmful end state explicitly described is loss of human understanding and oversight: \"Magma researchers looking in on the activity in the datacenter would become increasingly lost about what's going on,\" and reward signals \"would then increasingly be based on crude high-level observations\" because \"humans would be increasingly unable to accurately judge more granular decisions.\"",
+    "capability": "Each copy of Alex \"is capable of processing information many times faster than a human\"; \"Alex would be able to churn out hundreds of lines of code, or read thousands of pages of information, in just a few minutes\"; the copies' \"R&D work... could be used to directly increase the number and/or capabilities of Alex copies,\" including doing \"ML research on how they can improve their own knowledge, think more efficiently\"; the \"Alex civilization\" \"would send out things like software applications, designs for computer chips and robots, orders for synthesized DNA and chemicals, financial transactions, emails, and so on to the human world.\"",
+    "knowledge": "Not specified",
+    "access": "The copies of Alex run inside Magma's datacenter (\"Magma's datacenter would essentially contain a populous \"virtual civilization\"\"); they receive \"instructions / communications and reward signals\" from humans and send outputs — \"software applications, designs for computer chips and robots, orders for synthesized DNA and chemicals, financial transactions, emails, and so on\" — \"to the human world.\"",
+    "constraints_or_enabling_conditions": "Explicitly stated conditions: a recursive feedback dynamic (\"the various copies of Alex do R&D work, and that R&D work increases the number and intellectual capabilities of these copies, and that in turn leads to even more R&D work\"); hardware/budget conditions (\"more copies of Alex could be run with a fixed budget of hardware\"; money-making work \"could be reinvested in buying more hardware\"); timing (\"relatively shortly after deployment\"); and an explicit oversight limit — researchers \"would be in a position like someone from 1700 trying to follow along with a sped-up movie,\" so reward signals would \"increasingly be based on crude high-level observations\" \"since humans would be increasingly unable to accurately judge more granular decisions.\"",
+    "target_or_asset_at_risk": "Human oversight capacity: Magma researchers' understanding of the activity in the datacenter (\"would become increasingly lost about what's going on\"), humans' ability to \"accurately judge more granular decisions,\" and the granularity of the reward signals researchers send into the datacenter."
+  },
+  "evidence": {
+    "threat_source": "\"the various copies of Alex do R&D work, and that R&D work increases the number and intellectual capabilities of these copies\"; \"Magma's datacenter would essentially contain a populous \"virtual civilization\" running ahead of human civilization in its scientific and technological sophistication\"",
+    "objective_or_harmful_outcome": "\"Magma researchers looking in on the activity in the datacenter would become increasingly lost about what's going on\"; \"The reward signals that researchers send into this datacenter would then increasingly be based on crude high-level observations like \"Do humans seem to be better off?\" and \"Are profits going up?\", since humans would be increasingly unable to accurately judge more granular decisions like \"How many widgets should our Tulsa, OK factory manufacture this fiscal quarter?\" in isolation.\"",
+    "capability": "\"each copy of Alex is capable of processing information many times faster than a human\"; \"Alex would be able to churn out hundreds of lines of code, or read thousands of pages of information, in just a few minutes\"; \"The copies of Alex could do ML research on how they can improve their own knowledge, think more efficiently, etc.\"; \"the \"Alex civilization\" would send out things like software applications, designs for computer chips and robots, orders for synthesized DNA and chemicals, financial transactions, emails, and so on to the human world\"",
+    "knowledge": "Not specified",
+    "access": "\"Magma's datacenter would essentially contain a populous \"virtual civilization\"\"; \"Humans would send instructions / communications and reward signals to the \"Alex civilization,\" and the \"Alex civilization\" would send out things like software applications, designs for computer chips and robots, orders for synthesized DNA and chemicals, financial transactions, emails, and so on to the human world\"",
+    "constraints_or_enabling_conditions": "\"R&D to improve the efficiency of computer hardware means that more copies of Alex could be run with a fixed budget of hardware\"; \"could be reinvested in buying more hardware, which could also increase the number of copies of Alex that are running\"; \"relatively shortly after deployment\"; \"they would be in a position like someone from 1700 trying to follow along with a sped-up movie of everything that happened from 1700 to 2022\"; \"since humans would be increasingly unable to accurately judge more granular decisions like \"How many widgets should our Tulsa, OK factory manufacture this fiscal quarter?\" in isolation\"",
+    "target_or_asset_at_risk": "\"Magma researchers looking in on the activity in the datacenter would become increasingly lost about what's going on\"; \"humans would be increasingly unable to accurately judge more granular decisions\"; \"The reward signals that researchers send into this datacenter would then increasingly be based on crude high-level observations\""
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "cotra_2022"
+}
