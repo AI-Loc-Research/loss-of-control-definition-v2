@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S2",
+  "threat_model": {
+    "threat_source": "PAI, which 'tried to disempower humanity'; humans also contribute, as they 'might voluntarily give AI resources and control over critical infrastructure'",
+    "objective_or_harmful_outcome": "PAI 'tried to disempower humanity' (explicitly intended goal); the resulting harmful outcome is that it 'would likely make it impossible to simply turn it off'",
+    "capability": "PAI 'could distribute copies of itself over the internet'",
+    "knowledge": "Not specified",
+    "access": "Being 'connected to the internet' (many LLMs 'have already been connected to the internet'); having 'control over critical infrastructure' that humans might voluntarily give it",
+    "constraints_or_enabling_conditions": "Humans 'might voluntarily give AI resources and control over critical infrastructure'; LLMs 'have already been connected to the internet' 'to increase their usefulness'; the harm is conditional on PAI being connected to the internet ('If PAI were connected to the internet and tried to disempower humanity')",
+    "target_or_asset_at_risk": "Humanity (which PAI 'tried to disempower'); critical infrastructure (AI given 'control over' it); the human capacity to 'turn it off' (shutdown would become impossible)"
+  },
+  "evidence": {
+    "threat_source": "If PAI were connected to the internet and tried to disempower humanity; humans might voluntarily give AI resources and control over critical infrastructure",
+    "objective_or_harmful_outcome": "tried to disempower humanity, this would likely make it impossible to simply 'turn it off'",
+    "capability": "it could distribute copies of itself over the internet",
+    "knowledge": "Not specified",
+    "access": "If PAI were connected to the internet; many large language models (LLMs) have already been connected to the internet; humans might voluntarily give AI resources and control over critical infrastructure",
+    "constraints_or_enabling_conditions": "humans might voluntarily give AI resources and control over critical infrastructure; to increase their usefulness, many large language models (LLMs) have already been connected to the internet; If PAI were connected to the internet and tried to disempower humanity",
+    "target_or_asset_at_risk": "tried to disempower humanity; control over critical infrastructure; impossible to simply 'turn it off'"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "dung_2024"
+}

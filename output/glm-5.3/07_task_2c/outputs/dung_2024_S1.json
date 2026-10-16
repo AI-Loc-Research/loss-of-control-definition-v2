@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "PAI, 'alone or in conjunction with humans'; also 'smart AI'/AI systems that design smarter AI and perform AI research",
+    "objective_or_harmful_outcome": "No intention stated; harmful end state described: 'faster than exponential growth in AI capacities, perhaps even to an 'intelligence explosion''",
+    "capability": "Able to innovate AI research; able to make 'the creation of even more powerful systems possible'; 'smart AI is able to design smarter AI which is in turn able to design even smarter AI and so on'; ability to perform AI research",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "'alone or in conjunction with humans' (PAI may innovate AI research alone or jointly with humans); 'In the most extreme case' (the faster-than-exponential growth / 'intelligence explosion' is conditioned on this most extreme case)",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "evidence": {
+    "threat_source": "PAI may— alone or in conjunction with humans— be able to innovate AI research; This gives rise to a recursive process where smart AI is able to design smarter AI which is in turn able to design even smarter AI and so on",
+    "objective_or_harmful_outcome": "In the most extreme case, the ability of AI to perform AI research might lead to faster than exponential growth in AI capacities, perhaps even to an 'intelligence explosion'",
+    "capability": "be able to innovate AI research and thus make the creation of even more powerful systems possible; smart AI is able to design smarter AI which is in turn able to design even smarter AI and so on; the ability of AI to perform AI research",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "PAI may— alone or in conjunction with humans— be able to innovate AI research; In the most extreme case, the ability of AI to perform AI research might lead to faster than exponential growth in AI capacities",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "paper_id": "dung_2024"
+}

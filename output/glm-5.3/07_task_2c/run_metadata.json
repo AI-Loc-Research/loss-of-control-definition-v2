@@ -1,47 +1,47 @@
 {
-  "timestamp": "2026-10-16T22:11:20.154237+00:00",
-  "total_runtime_seconds": 3469.77,
+  "timestamp": "2026-10-16T23:09:11.676742+00:00",
+  "total_runtime_seconds": 3047.0,
   "total_scenarios": 5,
   "scenarios_processed": 5,
   "scenarios_skipped": 0,
   "errors": [],
   "per_scenario": [
     {
-      "item_key": "dafoe_2020_S1",
+      "item_key": "dsit_frontier_ai_S4",
       "skipped": false,
-      "latency_seconds": 414.7,
+      "latency_seconds": 568.0,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "dafoe_2020_S2",
+      "item_key": "dsit_frontier_ai_S5",
       "skipped": false,
-      "latency_seconds": 892.51,
+      "latency_seconds": 507.97,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "dsit_frontier_ai_S1",
+      "item_key": "dsit_frontier_ai_S6",
       "skipped": false,
-      "latency_seconds": 803.03,
+      "latency_seconds": 317.81,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "dsit_frontier_ai_S2",
+      "item_key": "dung_2024_S1",
       "skipped": false,
-      "latency_seconds": 897.37,
+      "latency_seconds": 1019.45,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "dsit_frontier_ai_S3",
+      "item_key": "dung_2024_S2",
       "skipped": false,
-      "latency_seconds": 462.14,
+      "latency_seconds": 633.76,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
