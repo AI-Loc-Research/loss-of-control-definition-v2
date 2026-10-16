@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "A fully misaligned AGI",
+    "objective_or_harmful_outcome": "loss-of-control risks and become an adversary to humanity",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "fully misaligned",
+    "target_or_asset_at_risk": "humanity"
+  },
+  "evidence": {
+    "threat_source": "A fully misaligned AGI",
+    "objective_or_harmful_outcome": "could present loss-of-control risks and become an adversary to humanity",
+    "capability": "could present loss-of-control risks and become an adversary to humanity",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "A fully misaligned AGI",
+    "target_or_asset_at_risk": "adversary to humanity"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Ambiguous",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "rand_pivots_pathways"
+}

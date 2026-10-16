@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S8",
+  "threat_model": {
+    "threat_source": "rogue AI systems",
+    "objective_or_harmful_outcome": "gain additional resources and privileges",
+    "capability": "manipulate humans",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Human persuasion and social engineering capabilities could enable rogue AI systems",
+    "target_or_asset_at_risk": "humans"
+  },
+  "evidence": {
+    "threat_source": "rogue AI systems",
+    "objective_or_harmful_outcome": "gain additional resources and privileges",
+    "capability": "manipulate humans",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Human persuasion and social engineering capabilities could enable rogue AI systems",
+    "target_or_asset_at_risk": "humans"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "rand_loc_response_planning"
+}

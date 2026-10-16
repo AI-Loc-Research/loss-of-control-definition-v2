@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S2",
+  "threat_model": {
+    "threat_source": "An independent goal-seeking AGI",
+    "objective_or_harmful_outcome": "rival mankind for power; existential risks",
+    "capability": "could rival mankind for power or generate goals at odds with humanity",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "mankind; humanity"
+  },
+  "evidence": {
+    "threat_source": "An independent goal-seeking AGI",
+    "objective_or_harmful_outcome": "rival mankind for power or generate goals at odds with humanity that create existential risks",
+    "capability": "could rival mankind for power or generate goals at odds with humanity",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "rival mankind for power or generate goals at odds with humanity"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "rand_pivots_pathways"
+}
