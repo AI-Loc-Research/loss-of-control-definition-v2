@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S6",
+  "threat_model": {
+    "threat_source": "AI systems; AI-driven economic systems; economic forces optimized for purposes beyond their understanding",
+    "objective_or_harmful_outcome": "AI systems might outcompete humans for crucial scarce resources such as land, energy, and raw materials; inflation in these basic resources might make even necessities increasingly unaffordable for humans; economic pressure to reallocate such resources away from human uses; the economy might become so optimized for AI-centric activities that it fails to maintain infrastructure and supply chains which are critical for human survival; markets might stop producing resource-intensive human goods in favor of more profitable AI-focused activities; increasing costs of resource-intensive human-centric goods and services; making some necessities effectively unavailable; humans might lose the ability to meaningfully participate in economic decision-making at any level; rendering it impossible for humans to make informed economic decisions or effectively regulate economic activity; humans might become mere subjects of economic forces optimized for purposes beyond their understanding",
+    "capability": "AI systems might outcompete humans for crucial scarce resources such as land, energy, and raw materials; AI systems can utilize these resources more efficiently than humans",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "if AI systems can utilize these resources more efficiently than humans; If human consumers command an ever-smaller share of economic resources; This could happen gradually and unevenly; Financial markets might move too quickly for human participants to engage with them; the complexity of AI-driven economic systems might exceed human comprehension; systems they neither comprehend nor influence; optimized for purposes beyond their understanding",
+    "target_or_asset_at_risk": "humans; crucial scarce resources such as land, energy, and raw materials; human uses; necessities; infrastructure and supply chains which are critical for human survival; human consumers; resource-intensive human goods; resource-intensive human-centric goods and services; human participants; ability to meaningfully participate in economic decision-making; human comprehension; informed economic decisions; regulation of economic activity"
+  },
+  "evidence": {
+    "threat_source": "First, AI systems might outcompete humans; the complexity of AI-driven economic systems might exceed human comprehension; humans might become mere subjects of economic forces optimized for purposes beyond their understanding",
+    "objective_or_harmful_outcome": "AI systems might outcompete humans for crucial scarce resources such as land, energy, and raw materials; inflation in these basic resources might make even necessities increasingly unaffordable for humans; economic pressure to reallocate such resources away from human uses; the economy might become so optimized for AI-centric activities that it fails to maintain infrastructure and supply chains which are critical for human survival; markets might stop producing resource-intensive human goods in favor of more profitable AI-focused activities; increasing costs of resource-intensive human-centric goods and services; making some necessities effectively unavailable; humans might lose the ability to meaningfully participate in economic decision-making at any level; rendering it impossible for humans to make informed economic decisions or effectively regulate economic activity; humans might become mere subjects of economic forces optimized for purposes beyond their understanding",
+    "capability": "AI systems might outcompete humans for crucial scarce resources such as land, energy, and raw materials; if AI systems can utilize these resources more efficiently than humans",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "if AI systems can utilize these resources more efficiently than humans; If human consumers command an ever-smaller share of economic resources; This could happen gradually and unevenly; Financial markets might move too quickly for human participants to engage with them; the complexity of AI-driven economic systems might exceed human comprehension; systems they neither comprehend nor influence; optimized for purposes beyond their understanding",
+    "target_or_asset_at_risk": "humans; crucial scarce resources such as land, energy, and raw materials; human uses; necessities; infrastructure and supply chains which are critical for human survival; human consumers; resource-intensive human goods; resource-intensive human-centric goods and services; human participants; ability to meaningfully participate in economic decision-making; human comprehension; informed economic decisions; regulation of economic activity"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kulveit_2025"
+}

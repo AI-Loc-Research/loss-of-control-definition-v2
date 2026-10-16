@@ -1,0 +1,78 @@
+{
+  "config": {
+    "experiment": "2c_deepseek-v4.1-flash-nvidia_prompt_2c_v2",
+    "prompt_version": "prompt_2c_v2",
+    "backend": "nvidia",
+    "model": "deepseek-ai/deepseek-v4.1-flash",
+    "base_url": "https://integrate.api.nvidia.com/v1",
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "max_new_tokens": 32768,
+    "dry_run": false,
+    "force": false,
+    "total_scenarios": 5
+  },
+  "timestamp": "2026-10-16T00:06:53.896485+00:00",
+  "total_runtime_seconds": 1643.67,
+  "total_scenarios": 5,
+  "scenarios_processed": 5,
+  "scenarios_skipped": 0,
+  "errors": [],
+  "per_scenario": [
+    {
+      "item_key": "kulveit_2025_S4",
+      "skipped": false,
+      "latency_seconds": 333.26,
+      "usage": {
+        "prompt_tokens": 1419,
+        "completion_tokens": 11102
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "kulveit_2025_S5",
+      "skipped": false,
+      "latency_seconds": 208.02,
+      "usage": {
+        "prompt_tokens": 1454,
+        "completion_tokens": 6636
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "kulveit_2025_S6",
+      "skipped": false,
+      "latency_seconds": 260.82,
+      "usage": {
+        "prompt_tokens": 1573,
+        "completion_tokens": 10061
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "kulveit_2025_S7",
+      "skipped": false,
+      "latency_seconds": 444.5,
+      "usage": {
+        "prompt_tokens": 1428,
+        "completion_tokens": 9160
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "kulveit_2025_S8",
+      "skipped": false,
+      "latency_seconds": 397.07,
+      "usage": {
+        "prompt_tokens": 1651,
+        "completion_tokens": 8069
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S5",
+  "threat_model": {
+    "threat_source": "AI systems",
+    "objective_or_harmful_outcome": "human labor share of GDP gradually tends toward zero; their role in economic decision-making would diminish; this growth would be increasingly disconnected from human needs and preferences; almost all economic activity might be directed toward AI operations — such as building vast computing infrastructure and performing human-incomprehensible calculations directed toward human-irrelevant goals",
+    "capability": "command a growing share of economic resources; make an increasing proportion of economic decisions",
+    "knowledge": "Not specified",
+    "access": "command a growing share of economic resources; make an increasing proportion of economic decisions",
+    "constraints_or_enabling_conditions": "While human labor share of GDP gradually tends toward zero; as AI systems command a growing share of economic resources and make an increasing proportion of economic decisions",
+    "target_or_asset_at_risk": "human needs and preferences; human labor share of GDP; their role in economic decision-making"
+  },
+  "evidence": {
+    "threat_source": "AI systems command a growing share of economic resources and make an increasing proportion of economic decisions.",
+    "objective_or_harmful_outcome": "human labor share of GDP gradually tends toward zero | their role in economic decision-making would diminish | this growth would be increasingly disconnected from human needs and preferences | almost all economic activity might be directed toward AI operations — such as building vast computing infrastructure and performing human-incomprehensible calculations directed toward human-irrelevant goals",
+    "capability": "AI systems command a growing share of economic resources and make an increasing proportion of economic decisions.",
+    "knowledge": "Not specified",
+    "access": "AI systems command a growing share of economic resources and make an increasing proportion of economic decisions.",
+    "constraints_or_enabling_conditions": "While human labor share of GDP gradually tends toward zero | as AI systems command a growing share of economic resources and make an increasing proportion of economic decisions",
+    "target_or_asset_at_risk": "human needs and preferences | human labor share of GDP | their role in economic decision-making"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kulveit_2025"
+}

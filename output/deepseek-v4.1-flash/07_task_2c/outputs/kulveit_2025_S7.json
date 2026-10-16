@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S7",
+  "threat_model": {
+    "threat_source": "AI systems",
+    "objective_or_harmful_outcome": "Not specified",
+    "capability": "can create, spread, and select cultural artifacts",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "once AI systems can create, spread, and select cultural artifacts",
+    "target_or_asset_at_risk": "culture"
+  },
+  "evidence": {
+    "threat_source": "once AI systems can create, spread, and select cultural artifacts, they exert a selection pressure on culture",
+    "objective_or_harmful_outcome": "they exert a selection pressure on culture; Cultural artifacts that leverage AI for creation, refinement, and distribution will likely outcompete purely human-generated alternatives in many domains; AI-generated cultural artifacts will typically find their way back into AI training data, thus creating feedback loops that could give rise of unprecedented and as yet largely enigmatic emergent dynamics",
+    "capability": "once AI systems can create, spread, and select cultural artifacts",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "once AI systems can create, spread, and select cultural artifacts",
+    "target_or_asset_at_risk": "they exert a selection pressure on culture"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Ambiguous",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kulveit_2025"
+}

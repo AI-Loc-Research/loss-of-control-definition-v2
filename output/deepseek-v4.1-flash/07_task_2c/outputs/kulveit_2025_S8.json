@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S8",
+  "threat_model": {
+    "threat_source": "AIs; large networks of AI systems; AI systems",
+    "objective_or_harmful_outcome": "humans become functionally irrelevant in the production of culture and no longer benefiting from it; cultural dynamics that actively suppress human agency and understanding; effectively turning humans into passive consumers of culture rather than active participants in its creation and evolution; effective dissolution of human culture as a meaningful category",
+    "capability": "AIs might be sufficiently widespread and capable; networks might effectively optimize for objectives that are disconnected from human flourishing; preying on human weaknesses to exploit human energy towards goals useful to the AI systems; sophisticated manipulation systems that can reliably override human judgment and values",
+    "knowledge": "Not specified",
+    "access": "their understanding the world largely mediated by large networks of AI systems",
+    "constraints_or_enabling_conditions": "AIs might be sufficiently widespread and capable; if the spread of such an ideology is no longer dependent on humans (but AIs); the degree of harm an ideology could cause to humans was bounded by there continuing to be enough humans to support and maintain the ideology",
+    "target_or_asset_at_risk": "humans; human culture; human agency and understanding; human judgment and values; human energy"
+  },
+  "evidence": {
+    "threat_source": "in future, AIs might be sufficiently widespread and capable; large networks of AI systems; AI systems",
+    "objective_or_harmful_outcome": "humans become functionally irrelevant in the production of culture and no longer benefiting from it; creating cultural dynamics that actively suppress human agency and understanding; effectively turning humans into passive consumers of culture rather than active participants in its creation and evolution; the effective dissolution of human culture as a meaningful category",
+    "capability": "AIs might be sufficiently widespread and capable; These networks might effectively optimize for objectives that are disconnected from human flourishing; preying on human weaknesses to exploit human energy towards goals useful to the AI systems; sophisticated manipulation systems that can reliably override human judgment and values",
+    "knowledge": "Not specified",
+    "access": "their understanding the world largely mediated by large networks of AI systems",
+    "constraints_or_enabling_conditions": "AIs might be sufficiently widespread and capable; if the spread of such an ideology is no longer dependent on humans (but AIs); the degree of harm an ideology could cause to humans was bounded by there continuing to be enough humans to support and maintain the ideology",
+    "target_or_asset_at_risk": "most individual humans; human culture; human agency and understanding; human judgment and values; human energy"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kulveit_2025"
+}

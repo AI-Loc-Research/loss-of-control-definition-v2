@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S4",
+  "threat_model": {
+    "threat_source": "AI systems",
+    "objective_or_harmful_outcome": "Companies that maintain strict human oversight would likely find themselves at a significant competitive disadvantage compared to those willing to cede substantial control to AI systems, potentially to the point of becoming uncompetitive.",
+    "capability": "increasingly capable across a broad range of cognitive tasks; can be expected to eventually make better and faster decisions about investments, supply chain optimization, and resource allocation, while being more effective at predicting and responding to market trends.",
+    "knowledge": "Not specified",
+    "access": "adopt and delegate authority to these systems; cede substantial control to AI systems",
+    "constraints_or_enabling_conditions": "intense competitive pressure; As AI systems become increasingly capable across a broad range of cognitive tasks",
+    "target_or_asset_at_risk": "Companies that maintain strict human oversight"
+  },
+  "evidence": {
+    "threat_source": "As AI systems become increasingly capable across a broad range of cognitive tasks, firms will face intense competitive pressure to adopt and delegate authority to these systems.",
+    "objective_or_harmful_outcome": "Companies that maintain strict human oversight would likely find themselves at a significant competitive disadvantage compared to those willing to cede substantial control to AI systems, potentially to the point of becoming uncompetitive.",
+    "capability": "increasingly capable across a broad range of cognitive tasks; AI systems can be expected to eventually make better and faster decisions about investments, supply chain optimization, and resource allocation, while being more effective at predicting and responding to market trends.",
+    "knowledge": "Not specified",
+    "access": "adopt and delegate authority to these systems; willing to cede substantial control to AI systems",
+    "constraints_or_enabling_conditions": "firms will face intense competitive pressure; As AI systems become increasingly capable across a broad range of cognitive tasks",
+    "target_or_asset_at_risk": "Companies that maintain strict human oversight would likely find themselves at a significant competitive disadvantage compared to those willing to cede substantial control to AI systems, potentially to the point of becoming uncompetitive."
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kulveit_2025"
+}
