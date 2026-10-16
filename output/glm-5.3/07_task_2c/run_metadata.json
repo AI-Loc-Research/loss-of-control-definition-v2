@@ -1,47 +1,47 @@
 {
-  "timestamp": "2026-10-16T11:21:26.693657+00:00",
-  "total_runtime_seconds": 5324.09,
+  "timestamp": "2026-10-16T17:13:33.970805+00:00",
+  "total_runtime_seconds": 4856.16,
   "total_scenarios": 5,
   "scenarios_processed": 5,
   "scenarios_skipped": 0,
   "errors": [],
   "per_scenario": [
     {
-      "item_key": "bengio_2025_S6",
+      "item_key": "bengio_2024_S2",
       "skipped": false,
-      "latency_seconds": 287.96,
+      "latency_seconds": 936.54,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "bengio_2025_S7",
+      "item_key": "carlsmith_2021_S3",
       "skipped": false,
-      "latency_seconds": 956.71,
+      "latency_seconds": 591.04,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "bengio_2025_S8",
+      "item_key": "carlsmith_2021_S4",
       "skipped": false,
-      "latency_seconds": 2043.09,
+      "latency_seconds": 736.68,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "bengio_2025_S9",
+      "item_key": "carlsmith_2021_S5",
       "skipped": false,
-      "latency_seconds": 1646.56,
+      "latency_seconds": 1690.55,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "carlsmith_2021_S1",
+      "item_key": "carlsmith_2021_S6",
       "skipped": false,
-      "latency_seconds": 389.77,
+      "latency_seconds": 901.34,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null

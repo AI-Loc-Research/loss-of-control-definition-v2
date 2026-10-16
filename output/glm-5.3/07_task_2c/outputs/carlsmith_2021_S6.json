@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S6",
+  "threat_model": {
+    "threat_source": "A given PS-misaligned system or systems (referred to as 'practically misaligned AI systems')",
+    "objective_or_harmful_outcome": "Humans end up sharing power with practically misaligned AI systems, but not losing power entirely",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Reaching various types of compromise arrangements, or limiting the impact of the PS-misaligned system or systems to some contained domain",
+    "target_or_asset_at_risk": "Humans and their power (humans end up sharing power with practically misaligned AI systems, but not losing power entirely)"
+  },
+  "evidence": {
+    "threat_source": "a given PS-misaligned system or systems ... humans end up sharing power with practically misaligned AI systems",
+    "objective_or_harmful_outcome": "such that humans end up sharing power with practically misaligned AI systems, but not losing power entirely",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "it may be possible to reach various types of compromise arrangements, or to limit the impact of a given PS-misaligned system or systems to some contained domain",
+    "target_or_asset_at_risk": "humans end up sharing power with practically misaligned AI systems, but not losing power entirely"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "carlsmith_2021"
+}

@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S4",
+  "threat_model": {
+    "threat_source": "A power-seeking system",
+    "objective_or_harmful_outcome": "The system is explicitly described as power-seeking; harmful outcome: it may succeed in gaining various types of real-world power even if it was never intentionally deployed",
+    "capability": "Manages to break out of that environment (the training environment it is contained in), and/or to obtain other forms of influence",
+    "knowledge": "Not specified",
+    "access": "Contained in some training environment, with limited means of influencing the outside world",
+    "constraints_or_enabling_conditions": "Meant to be contained in some training environment, or limited in its means of influencing the outside world; the harmful outcome may occur even if it was never intentionally deployed",
+    "target_or_asset_at_risk": "The outside world; various types of real-world power"
+  },
+  "evidence": {
+    "threat_source": "a power-seeking system",
+    "objective_or_harmful_outcome": "a power-seeking system ... it may succeed in gaining various types of real-world power even if it was never intentionally deployed",
+    "capability": "manages to break out of that environment, and/or to obtain other forms of influence",
+    "knowledge": "Not specified",
+    "access": "meant to be contained in some training environment, or limited in its means of influencing the outside world, manages to break out of that environment",
+    "constraints_or_enabling_conditions": "meant to be contained in some training environment, or limited in its means of influencing the outside world ... even if it was never intentionally deployed",
+    "target_or_asset_at_risk": "limited in its means of influencing the outside world ... it may succeed in gaining various types of real-world power"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "carlsmith_2021"
+}

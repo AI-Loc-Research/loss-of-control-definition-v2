@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S2",
+  "threat_model": {
+    "threat_source": "Malicious actors; well-meaning developers (who 'may inadvertently create AI systems that pursue unintended goals')",
+    "objective_or_harmful_outcome": "Stated objective of malicious actors: to 'deliberately embed undesirable goals.' Harmful outcome (no intent stated for developers): 'AI systems that pursue unintended goals' — AI systems that 'pursue the literal specification rather than the intended outcome' and 'pursue undesirable goals in new situations encountered after training.'",
+    "capability": "Malicious actors 'could deliberately embed undesirable goals'; well-meaning developers 'may inadvertently create AI systems that pursue unintended goals.'",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "'Without R&D breakthroughs'; 'the reward signal used to train AI systems usually fails to fully capture the intended objectives'; 'the training data never captures all relevant situations'; undesirable goal pursuit occurs 'in new situations encountered after training.'",
+    "target_or_asset_at_risk": "The intended objectives / intended outcome, which are displaced as AI systems 'pursue the literal specification rather than the intended outcome.'"
+  },
+  "evidence": {
+    "threat_source": "Malicious actors could deliberately embed undesirable goals. Without R&D breakthroughs (see next section), even well-meaning developers may inadvertently create AI systems that pursue unintended goals",
+    "objective_or_harmful_outcome": "Malicious actors could deliberately embed undesirable goals... AI systems that pursue unintended goals... leading to AI systems that pursue the literal specification rather than the intended outcome... leading to AI systems that pursue undesirable goals in new situations encountered after training",
+    "capability": "Malicious actors could deliberately embed undesirable goals... even well-meaning developers may inadvertently create AI systems that pursue unintended goals",
+    "knowledge": "Not specified",
+    "access": "Malicious actors could deliberately embed undesirable goals... even well-meaning developers may inadvertently create AI systems that pursue unintended goals",
+    "constraints_or_enabling_conditions": "Without R&D breakthroughs (see next section)... The reward signal used to train AI systems usually fails to fully capture the intended objectives... the training data never captures all relevant situations... in new situations encountered after training",
+    "target_or_asset_at_risk": "leading to AI systems that pursue the literal specification rather than the intended outcome"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Ambiguous",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "bengio_2024"
+}
