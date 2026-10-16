@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S4",
+  "threat_model": {
+    "threat_source": "Networks or organizations of AIs (for example, the Internet)",
+    "objective_or_harmful_outcome": "Not specified",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "evidence": {
+    "threat_source": "one pathway to AGI that has been identified, which comes from networks or organizations of AIs, for example if \"the Internet might one day 'wake up'\"",
+    "objective_or_harmful_outcome": "the Internet might one day 'wake up'",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Ambiguous",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "paper_id": "barrett_2016"
+}

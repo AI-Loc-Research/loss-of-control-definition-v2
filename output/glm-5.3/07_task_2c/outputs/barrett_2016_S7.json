@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S7",
+  "threat_model": {
+    "threat_source": "The AI",
+    "objective_or_harmful_outcome": "The AI takes off, i.e., soft takeoff limits fail (no intention or objective is stated for the AI)",
+    "capability": "Gradually increasing its amount of available hardware; gradually developing faster hardware; gradually developing smarter AI software",
+    "knowledge": "Not specified",
+    "access": "Its amount of available hardware (hardware available to the AI)",
+    "constraints_or_enabling_conditions": "A soft takeoff proceeds slowly, permitting significant human intervention in the takeoff process",
+    "target_or_asset_at_risk": "Soft takeoff limits (which fail)"
+  },
+  "evidence": {
+    "threat_source": "the AI takes off due to gradually increasing its amount of available hardware; ... the AI gradually develops smarter AI software",
+    "objective_or_harmful_outcome": "Soft takeoff limits fail. ... Figure 3 models three soft takeoff scenarios (i.e., failures of soft takeoff limits): (1) hardware quantity, in which the AI takes off due to gradually increasing its amount of available hardware; (2) hardware quality, in which AI takes off due to gradually develops faster hardware",
+    "capability": "(1) hardware quantity, in which the AI takes off due to gradually increasing its amount of available hardware; (2) hardware quality, in which AI takes off due to gradually develops faster hardware; and (3) software quality, in which the AI gradually develops smarter AI software",
+    "knowledge": "Not specified",
+    "access": "its amount of available hardware",
+    "constraints_or_enabling_conditions": "A soft takeoff proceeds slowly, permitting significant human intervention in the takeoff process.",
+    "target_or_asset_at_risk": "Soft takeoff limits fail ... three soft takeoff scenarios (i.e., failures of soft takeoff limits)"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "barrett_2016"
+}

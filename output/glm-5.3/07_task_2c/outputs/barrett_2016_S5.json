@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S5",
+  "threat_model": {
+    "threat_source": "ASI",
+    "objective_or_harmful_outcome": "ASI escapes superintelligence containment (harmful outcome; no intention or objective is explicitly stated)",
+    "capability": "Persuading or tricking any gatekeepers who can remove containment; using methods of interacting with the outside world that containment designers failed to anticipate; pretending to malfunction so that the containment is at least temporarily disabled",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Superintelligence containment might not be designed and implemented well; even world-class superintelligence containment may fail to contain some ASIs",
+    "target_or_asset_at_risk": "Superintelligence containment (escaped; 'at least temporarily disabled') and gatekeepers who can remove containment (persuaded or tricked)"
+  },
+  "evidence": {
+    "threat_source": "ASI escapes superintelligence containment... many potential ways an ASI could escape containment... even world-class superintelligence containment may fail to contain some ASIs",
+    "objective_or_harmful_outcome": "ASI escapes superintelligence containment",
+    "capability": "many potential ways an ASI could escape containment, including persuading or tricking any gatekeepers who can remove containment, using methods of interacting with the outside world that containment designers failed to anticipate, or pretending to malfunction so that the containment is at least temporarily disabled",
+    "knowledge": "Not specified",
+    "access": "persuading or tricking any gatekeepers who can remove containment, using methods of interacting with the outside world that containment designers failed to anticipate",
+    "constraints_or_enabling_conditions": "Superintelligence containment might not be designed and implemented well, and even world-class superintelligence containment may fail to contain some ASIs",
+    "target_or_asset_at_risk": "ASI escapes superintelligence containment... persuading or tricking any gatekeepers who can remove containment... so that the containment is at least temporarily disabled"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Ambiguous",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "barrett_2016"
+}

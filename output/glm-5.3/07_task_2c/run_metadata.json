@@ -1,47 +1,47 @@
 {
-  "timestamp": "2026-10-16T03:47:03.236021+00:00",
-  "total_runtime_seconds": 4416.91,
+  "timestamp": "2026-10-16T05:00:41.721755+00:00",
+  "total_runtime_seconds": 4423.86,
   "total_scenarios": 5,
   "scenarios_processed": 5,
   "scenarios_skipped": 0,
   "errors": [],
   "per_scenario": [
     {
-      "item_key": "barnett_2024_S8",
+      "item_key": "barrett_2016_S4",
       "skipped": false,
-      "latency_seconds": 1168.95,
+      "latency_seconds": 671.02,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "barnett_2024_S9",
+      "item_key": "barrett_2016_S5",
       "skipped": false,
-      "latency_seconds": 870.61,
+      "latency_seconds": 1117.31,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "barrett_2016_S1",
+      "item_key": "barrett_2016_S6",
       "skipped": false,
-      "latency_seconds": 997.8,
+      "latency_seconds": 815.2,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "barrett_2016_S10",
+      "item_key": "barrett_2016_S7",
       "skipped": false,
-      "latency_seconds": 105.4,
+      "latency_seconds": 1237.32,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "barrett_2016_S3",
+      "item_key": "barrett_2016_S8",
       "skipped": false,
-      "latency_seconds": 1274.15,
+      "latency_seconds": 583.0,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null

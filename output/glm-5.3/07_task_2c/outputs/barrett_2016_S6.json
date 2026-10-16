@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S6",
+  "threat_model": {
+    "threat_source": "The AI (the system that 'takes off rapidly,' 'rapidly develops faster hardware,' and 'rapidly develops smarter AI software' in the three hard takeoff scenarios)",
+    "objective_or_harmful_outcome": "No intention is stated. Harmful outcome: hard takeoff limits fail — 'a hard takeoff proceeds rapidly, with no opportunity for human intervention' (the three scenarios are described as 'failures of hard takeoff limits')",
+    "capability": "The AI 'takes off rapidly' (hardware quantity scenario), 'rapidly develops faster hardware' (hardware quality scenario), and 'rapidly develops smarter AI software' (software quality scenario)",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "The hard takeoff 'proceeds rapidly, with no opportunity for human intervention'; in the hardware quantity scenario, the AI takes off rapidly 'due to an abundance of available hardware' (hardware overhang)",
+    "target_or_asset_at_risk": "Hard takeoff limits (which 'fail'); the opportunity for human intervention (absent — 'no opportunity for human intervention')"
+  },
+  "evidence": {
+    "threat_source": "(1) hardware quantity, in which the AI takes off rapidly due to an abundance of available hardware (also known as hardware overhang; see Sotala and Yampolskiy 2015); (2) hardware quality, in which the AI rapidly develops faster hardware (also known as speed explosion; see Sotala and Yampolskiy 2015); and (3) software quality, in which the AI rapidly develops smarter AI software (also known as intelligence explosion; see Sotala and Yampolskiy 2015)",
+    "objective_or_harmful_outcome": "Hard takeoff limits fail. A hard takeoff proceeds rapidly, with no opportunity for human intervention. ... Figure 3 models three hard takeoff scenarios (i.e., failures of hard takeoff limits)",
+    "capability": "the AI takes off rapidly due to an abundance of available hardware ... the AI rapidly develops faster hardware ... the AI rapidly develops smarter AI software",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "A hard takeoff proceeds rapidly, with no opportunity for human intervention. ... due to an abundance of available hardware",
+    "target_or_asset_at_risk": "Hard takeoff limits fail. ... with no opportunity for human intervention"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "barrett_2016"
+}
