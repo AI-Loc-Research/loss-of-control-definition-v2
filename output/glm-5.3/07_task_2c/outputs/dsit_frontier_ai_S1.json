@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "AI systems (referred to as 'Advanced AI systems'); the passage explicitly states the outcome occurs 'even without any intention by any AI developer for this to happen'",
+    "objective_or_harmful_outcome": "Harmful outcome (no intention stated): AI systems may increasingly steer society in a direction that is at odds with its long-term interests",
+    "capability": "'Advanced AI systems may alter complex systems in ways that are hard to understand'; 'AI systems may increasingly steer society in a direction'",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "'As economic production becomes increasingly dependent on AI systems, the cost of maintaining or reintroducing human control will increase'; AI systems alter complex systems 'in ways that are hard to understand, making it hard or risky to extract them'; the outcome occurs 'even without any intention by any AI developer for this to happen'",
+    "target_or_asset_at_risk": "Society and its long-term interests ('steer society in a direction that is at odds with its long-term interests'); human control ('the cost of maintaining or reintroducing human control will increase')"
+  },
+  "evidence": {
+    "threat_source": "Advanced AI systems may alter complex systems in ways that are hard to understand, making it hard or risky to extract them. ... AI systems may increasingly steer society in a direction that is at odds with its long-term interests, even without any intention by any AI developer for this to happen.",
+    "objective_or_harmful_outcome": "As a result, AI systems may increasingly steer society in a direction that is at odds with its long-term interests, even without any intention by any AI developer for this to happen.",
+    "capability": "Advanced AI systems may alter complex systems in ways that are hard to understand ... AI systems may increasingly steer society in a direction that is at odds with its long-term interests",
+    "knowledge": "Not specified",
+    "access": "As economic production becomes increasingly dependent on AI systems",
+    "constraints_or_enabling_conditions": "As economic production becomes increasingly dependent on AI systems, the cost of maintaining or reintroducing human control will increase. Advanced AI systems may alter complex systems in ways that are hard to understand, making it hard or risky to extract them. ... even without any intention by any AI developer for this to happen.",
+    "target_or_asset_at_risk": "AI systems may increasingly steer society in a direction that is at odds with its long-term interests ... the cost of maintaining or reintroducing human control will increase"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Ambiguous",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "dsit_frontier_ai"
+}

@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S2",
+  "threat_model": {
+    "threat_source": "A bad actor; also the AI system, which is given an objective that causes it to reduce human control",
+    "objective_or_harmful_outcome": "Reduction of human control (the bad actor could give the AI system an objective that causes it to reduce human control, for example a self-preservation objective)",
+    "capability": "The bad actor could give an AI system an objective that causes it to reduce human control; bad actors might dismantle safeguards; the AI system, given such an objective, reduces human control",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "If there are safeguards in place, bad actors might dismantle them (the presence of safeguards is an explicit condition)",
+    "target_or_asset_at_risk": "Human control (reduced by the AI system); safeguards (dismantled by bad actors)"
+  },
+  "evidence": {
+    "threat_source": "A bad actor could give an AI system an objective that causes it to reduce human control, for example a self-preservation objective. If there are safeguards in place, bad actors might dismantle them.",
+    "objective_or_harmful_outcome": "an objective that causes it to reduce human control, for example a self-preservation objective",
+    "capability": "could give an AI system an objective that causes it to reduce human control, for example a self-preservation objective; bad actors might dismantle them",
+    "knowledge": "Not specified",
+    "access": "could give an AI system an objective (implies interaction with the AI system, but no explicit route or position of access is stated)",
+    "constraints_or_enabling_conditions": "If there are safeguards in place, bad actors might dismantle them",
+    "target_or_asset_at_risk": "an objective that causes it to reduce human control; if there are safeguards in place, bad actors might dismantle them"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Ambiguous",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "dsit_frontier_ai"
+}

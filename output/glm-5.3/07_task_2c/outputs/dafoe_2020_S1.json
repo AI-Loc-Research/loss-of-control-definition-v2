@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "Evolved machine agents; the passage also refers to superintelligence, which 'took over'",
+    "objective_or_harmful_outcome": "Biological humans have been economically displaced (by evolved machine agents), and superintelligence took over; no intended goal is explicitly stated, so these are described harmful end states",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "The evolved machine agents 'exist in a Malthusian state'; 'there was no discrete event when superintelligence took over' (the takeover occurred without a discrete event)",
+    "target_or_asset_at_risk": "Biological humans, who have been economically displaced"
+  },
+  "evidence": {
+    "threat_source": "biological humans have been economically displaced by evolved machine agents; there was no discrete event when superintelligence took over",
+    "objective_or_harmful_outcome": "biological humans have been economically displaced by evolved machine agents; superintelligence took over",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "evolved machine agents, who exist in a Malthusian state; there was no discrete event when superintelligence took over",
+    "target_or_asset_at_risk": "biological humans have been economically displaced by evolved machine agents"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "dafoe_2020"
+}

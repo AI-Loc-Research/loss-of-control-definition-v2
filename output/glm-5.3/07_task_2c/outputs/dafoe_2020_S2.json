@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S2",
+  "threat_model": {
+    "threat_source": "ongoing AI market competition",
+    "objective_or_harmful_outcome": "loss of most value that is not adapted to ongoing AI market competition",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "ongoing AI market competition",
+    "target_or_asset_at_risk": "most value that is not adapted to ongoing AI market competition"
+  },
+  "evidence": {
+    "threat_source": "loss of most value that is not adapted to ongoing AI market competition",
+    "objective_or_harmful_outcome": "loss of most value that is not adapted to ongoing AI market competition",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "loss of most value that is not adapted to ongoing AI market competition",
+    "target_or_asset_at_risk": "loss of most value that is not adapted to ongoing AI market competition"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "dafoe_2020"
+}

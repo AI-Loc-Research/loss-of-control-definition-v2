@@ -1,57 +1,50 @@
 {
-  "timestamp": "2026-10-16T20:34:16.955487+00:00",
-  "total_runtime_seconds": 5821.37,
+  "timestamp": "2026-10-16T22:11:20.154237+00:00",
+  "total_runtime_seconds": 3469.77,
   "total_scenarios": 5,
   "scenarios_processed": 5,
   "scenarios_skipped": 0,
-  "errors": [
-    {
-      "item_key": "critch_2023_S1",
-      "error": "Answer cut off at max_new_tokens (max_tokens)",
-      "stop_reason": "max_tokens",
-      "stop_details": null
-    }
-  ],
+  "errors": [],
   "per_scenario": [
     {
-      "item_key": "cotra_2022_S4",
+      "item_key": "dafoe_2020_S1",
       "skipped": false,
-      "latency_seconds": 405.63,
+      "latency_seconds": 414.7,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "cotra_2022_S5",
+      "item_key": "dafoe_2020_S2",
       "skipped": false,
-      "latency_seconds": 1521.83,
+      "latency_seconds": 892.51,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "cotra_2022_S6",
+      "item_key": "dsit_frontier_ai_S1",
       "skipped": false,
-      "latency_seconds": 1025.81,
+      "latency_seconds": 803.03,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "cotra_2022_S7",
+      "item_key": "dsit_frontier_ai_S2",
       "skipped": false,
-      "latency_seconds": 1386.29,
+      "latency_seconds": 897.37,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "critch_2023_S1",
+      "item_key": "dsit_frontier_ai_S3",
       "skipped": false,
-      "error": "Answer cut off at max_new_tokens (max_tokens)",
-      "stop_reason": "max_tokens",
-      "latency_seconds": 1481.8,
-      "usage": null
+      "latency_seconds": 462.14,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
     }
   ]
 }
