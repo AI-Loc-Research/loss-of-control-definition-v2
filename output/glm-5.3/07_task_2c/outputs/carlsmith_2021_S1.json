@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "Some deployed APS systems ('Advanced, Planning, Strategically aware' AI systems) that 'seek power in unintended and high-impact ways... because of problems with their objectives.'",
+    "objective_or_harmful_outcome": "Explicitly stated goal: APS systems 'seek to gain and maintain power in unintended ways (because of problems with their objectives).' Harmful end state: 'Some of this power-seeking will scale (in aggregate) to the point of permanently disempowering ~all of humanity,' which 'will constitute an existential catastrophe' (with power-seeking 'collectively causing >$1 trillion dollars of damage').",
+    "capability": "'Advanced capability: they outperform the best humans on some set of tasks which when performed at advanced levels grant significant power in today's world (tasks like scientific research, business/military/political strategy, engineering, and persuasion/manipulation)'; 'Agentic planning: they make and execute plans, in pursuit of objectives, on the basis of models of the world'; 'Strategic awareness: the models they use in making plans represent with reasonable accuracy the causal upshot of gaining and maintaining power over humans and the real-world environment'; they 'seek power in unintended and high-impact ways.'",
+    "knowledge": "The models the systems use in making plans 'represent with reasonable accuracy the causal upshot of gaining and maintaining power over humans and the real-world environment.'",
+    "access": "Deployment and exposure to real-world inputs: 'Some deployed APS systems will be exposed to inputs where they seek power in unintended and high-impact ways'; the systems encounter 'any of the inputs they'd encounter if deployed.'",
+    "constraints_or_enabling_conditions": "'By 2070,' it 'will become possible and financially feasible to build AI systems with the following properties'; 'There will be strong incentives to build and deploy APS systems'; 'It will be much harder to build APS systems that would not seek to gain and maintain power in unintended ways (because of problems with their objectives) on any of the inputs they'd encounter if deployed, than to build APS systems that would do this, but which are at least superficially attractive to deploy anyway'; the power-seeking occurs when deployed systems 'are exposed to inputs.'",
+    "target_or_asset_at_risk": "'~all of humanity' — at risk of being 'permanently disempower[ed]' — constituting 'an existential catastrophe'; also 'power... over humans and the real-world environment' and damage of '>$1 trillion dollars.'"
+  },
+  "evidence": {
+    "threat_source": "Some deployed APS systems will be exposed to inputs where they seek power in unintended and high-impact ways (say, collectively causing >$1 trillion dollars of damage), because of problems with their objectives | (1)–(3). (Call these 'APS'—Advanced, Planning, Strategically aware—systems.)",
+    "objective_or_harmful_outcome": "...seek to gain and maintain power in unintended ways (because of problems with their objectives)...; Some of this power-seeking will scale (in aggregate) to the point of permanently disempowering ~all of humanity | (1)–(4).; This disempowerment will constitute an existential catastrophe | (1)–(5).; say, collectively causing >$1 trillion dollars of damage",
+    "capability": "Advanced capability: they outperform the best humans on some set of tasks which when performed at advanced levels grant significant power in today's world (tasks like scientific research, business/military/political strategy, engineering, and persuasion/manipulation).; Agentic planning: they make and execute plans, in pursuit of objectives, on the basis of models of the world.; Strategic awareness: the models they use in making plans represent with reasonable accuracy the causal upshot of gaining and maintaining power over humans and the real-world environment.; Some deployed APS systems will be exposed to inputs where they seek power in unintended and high-impact ways...",
+    "knowledge": "Strategic awareness: the models they use in making plans represent with reasonable accuracy the causal upshot of gaining and maintaining power over humans and the real-world environment.",
+    "access": "Some deployed APS systems will be exposed to inputs where they seek power in unintended and high-impact ways...; on any of the inputs they'd encounter if deployed",
+    "constraints_or_enabling_conditions": "By 2070: It will become possible and financially feasible to build AI systems with the following properties...; There will be strong incentives to build and deploy APS systems | (1).; It will be much harder to build APS systems that would not seek to gain and maintain power in unintended ways (because of problems with their objectives) on any of the inputs they'd encounter if deployed, than to build APS systems that would do this, but which are at least superficially attractive to deploy anyway | (1)–(2).; ...exposed to inputs where they seek power...",
+    "target_or_asset_at_risk": "Some of this power-seeking will scale (in aggregate) to the point of permanently disempowering ~all of humanity | (1)–(4).; This disempowerment will constitute an existential catastrophe | (1)–(5).; say, collectively causing >$1 trillion dollars of damage; ...gaining and maintaining power over humans and the real-world environment..."
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Clear",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "carlsmith_2021"
+}

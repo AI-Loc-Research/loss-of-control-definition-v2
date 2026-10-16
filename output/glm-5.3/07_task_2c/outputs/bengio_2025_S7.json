@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S7",
+  "threat_model": {
+    "threat_source": "Bad actors and a rogue AI",
+    "objective_or_harmful_outcome": "For the rogue AI: self-preservation and control (superhuman cyber attack skills are described as 'an instrument of self-preservation and control for a rogue AI'), and copying itself over many computers across the internet 'in order to make it much more difficult for human operators to turn it off'; reward tampering is described as an enabled harmful outcome ('a threat model discussed in Section 2.4.4'). No objective is stated for the bad actors.",
+    "capability": "Superhuman cyber attack skills (which 'may be used by bad actors or be an instrument of self-preservation and control for a rogue AI'); 'the ability to take control of the computer on which the AI is running' (which 'enables reward tampering'); the ability, enabled by cyber attack skills, 'to copy itself over many computers across the internet'",
+    "knowledge": "Not specified",
+    "access": "The rogue AI is running on a computer ('the computer on which the AI is running'), and it copies itself 'over many computers across the internet'",
+    "constraints_or_enabling_conditions": "Reward tampering is explicitly enabled by 'the ability to take control of the computer on which the AI is running'; the rogue AI's self-copying is explicitly enabled by cyber attack skills ('Cyber attack skills would also enable a rogue AI to copy itself over many computers across the internet'). No other limits or conditions are stated.",
+    "target_or_asset_at_risk": "The computer on which the AI is running (subject to takeover/control); the reward (reward tampering); human operators' ability to turn off the rogue AI (made much more difficult)"
+  },
+  "evidence": {
+    "threat_source": "Superhuman cyber attack skills may be used by bad actors or be an instrument of self-preservation and control for a rogue AI.",
+    "objective_or_harmful_outcome": "be an instrument of self-preservation and control for a rogue AI; the ability to take control of the computer on which the AI is running enables reward tampering, a threat model discussed in Section 2.4.4; copy itself over many computers across the internet in order to make it much more difficult for human operators to turn it off",
+    "capability": "Superhuman cyber attack skills; the ability to take control of the computer on which the AI is running enables reward tampering; Cyber attack skills would also enable a rogue AI to copy itself over many computers across the internet",
+    "knowledge": "Not specified",
+    "access": "the computer on which the AI is running; copy itself over many computers across the internet",
+    "constraints_or_enabling_conditions": "the ability to take control of the computer on which the AI is running enables reward tampering; Cyber attack skills would also enable a rogue AI to copy itself over many computers across the internet",
+    "target_or_asset_at_risk": "take control of the computer on which the AI is running; reward tampering; make it much more difficult for human operators to turn it off"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "bengio_2025"
+}
