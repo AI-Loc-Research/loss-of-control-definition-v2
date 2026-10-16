@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S7",
+  "threat_model": {
+    "threat_source": "advanced AI systems",
+    "objective_or_harmful_outcome": "enhance their performance or develop new capabilities",
+    "capability": "Self-improvement capabilities; self-modification; autonomously rewrite their own code",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Self-improvement capabilities of advanced AI systems may allow self-modification",
+    "target_or_asset_at_risk": "their own code"
+  },
+  "evidence": {
+    "threat_source": "advanced AI systems might autonomously rewrite their own code",
+    "objective_or_harmful_outcome": "might autonomously rewrite their own code to enhance their performance or develop new capabilities",
+    "capability": "Self-improvement capabilities of advanced AI systems may allow self-modification; advanced AI systems might autonomously rewrite their own code",
+    "knowledge": "Not specified",
+    "access": "autonomously rewrite their own code",
+    "constraints_or_enabling_conditions": "Self-improvement capabilities of advanced AI systems may allow self-modification",
+    "target_or_asset_at_risk": "autonomously rewrite their own code"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Ambiguous",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "rand_loc_response_planning"
+}

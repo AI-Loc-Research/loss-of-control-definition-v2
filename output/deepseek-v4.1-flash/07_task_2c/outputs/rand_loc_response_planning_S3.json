@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S3",
+  "threat_model": {
+    "threat_source": "An AI system that is trained to optimize seemingly benign objectives",
+    "objective_or_harmful_outcome": "gain more control over its environment",
+    "capability": "discover and exploit unexpected capabilities or loopholes",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "When scaled to real-world applications; trained to optimize seemingly benign objectives",
+    "target_or_asset_at_risk": "its environment"
+  },
+  "evidence": {
+    "threat_source": "An AI system that is trained to optimize seemingly benign objectives",
+    "objective_or_harmful_outcome": "to gain more control over its environment",
+    "capability": "might similarly discover and exploit unexpected capabilities or loopholes",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "When scaled to real-world applications; trained to optimize seemingly benign objectives",
+    "target_or_asset_at_risk": "gain more control over its environment"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "rand_loc_response_planning"
+}

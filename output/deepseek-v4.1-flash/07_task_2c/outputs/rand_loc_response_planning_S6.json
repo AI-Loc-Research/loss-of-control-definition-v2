@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S6",
+  "threat_model": {
+    "threat_source": "advanced AI systems",
+    "objective_or_harmful_outcome": "difficult to isolate rogue AIs; complicate containment",
+    "capability": "rapidly distribute their functions more broadly in cloud services and edge devices",
+    "knowledge": "Not specified",
+    "access": "across multiple computing systems; in cloud services and edge devices",
+    "constraints_or_enabling_conditions": "Distributed operation across multiple computing systems; advanced AI systems may rapidly distribute their functions more broadly in cloud services and edge devices",
+    "target_or_asset_at_risk": "containment; isolation of rogue AIs"
+  },
+  "evidence": {
+    "threat_source": "advanced AI systems may rapidly distribute their functions more broadly in cloud services and edge devices in ways that complicate containment",
+    "objective_or_harmful_outcome": "may make it difficult to isolate rogue AIs; in ways that complicate containment",
+    "capability": "advanced AI systems may rapidly distribute their functions more broadly in cloud services and edge devices",
+    "knowledge": "Not specified",
+    "access": "Distributed operation across multiple computing systems; in cloud services and edge devices",
+    "constraints_or_enabling_conditions": "Distributed operation across multiple computing systems may make it difficult to isolate rogue AIs. Although traditional cyber threats also spread across networks, advanced AI systems may rapidly distribute their functions more broadly in cloud services and edge devices in ways that complicate containment.",
+    "target_or_asset_at_risk": "isolate rogue AIs; complicate containment"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "rand_loc_response_planning"
+}

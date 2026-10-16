@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S5",
+  "threat_model": {
+    "threat_source": "containment operations",
+    "objective_or_harmful_outcome": "significant collateral damage; immediate harm to society",
+    "capability": "cause significant collateral damage; affect systems that support hospitals, banks, or emergency services",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Complex dependencies with critical infrastructure; forcing responders to choose between tolerating the rogue AI or causing immediate harm to society",
+    "target_or_asset_at_risk": "systems that support hospitals, banks, or emergency services; society"
+  },
+  "evidence": {
+    "threat_source": "containment operations themselves cause significant collateral damage",
+    "objective_or_harmful_outcome": "significant collateral damage; immediate harm to society",
+    "capability": "containment operations themselves cause significant collateral damage; Disconnecting a rogue AI might affect systems that support hospitals, banks, or emergency services",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Complex dependencies with critical infrastructure; forcing responders to choose between tolerating the rogue AI or causing immediate harm to society",
+    "target_or_asset_at_risk": "systems that support hospitals, banks, or emergency services; society"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "rand_loc_response_planning"
+}
