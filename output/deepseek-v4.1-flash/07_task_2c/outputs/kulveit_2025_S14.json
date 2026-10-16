@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S14",
+  "threat_model": {
+    "threat_source": "AGI",
+    "objective_or_harmful_outcome": "our extinction; death of humanity",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "control of the Earth",
+    "constraints_or_enabling_conditions": "after it's developed; between 2030 and 2040; sometime between 2040 and 2050; gradual automation of industries that are together sufficient to fully sustain a non-human economy",
+    "target_or_asset_at_risk": "humanity"
+  },
+  "evidence": {
+    "threat_source": "cede control of the Earth to AGI after it's developed",
+    "objective_or_harmful_outcome": "in a manner that leads to our extinction; which in turn leads to the death of humanity",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "humanity will gradually cede control of the Earth to AGI",
+    "constraints_or_enabling_conditions": "after it's developed; between 2030 and 2040; sometime between 2040 and 2050; gradual automation of industries that are together sufficient to fully sustain a non-human economy",
+    "target_or_asset_at_risk": "our extinction; death of the last surviving humans; death of humanity"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kulveit_2025"
+}

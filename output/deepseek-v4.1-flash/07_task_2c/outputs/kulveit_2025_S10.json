@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S10",
+  "threat_model": {
+    "threat_source": "AI systems; AI-driven governance; AI decision-making processes; intricate web of AI systems actually implementing policy",
+    "objective_or_harmful_outcome": "Democratic processes might persist formally but become less meaningful; The complexity of AI-driven governance might make it increasingly difficult for human citizens to understand or critique government decisions; Traditional forms of civic engagement — from public consultations to protests — might become less effective; The bureaucracy itself might become increasingly opaque to human oversight; AI decision-making processes might be too complex for meaningful human review; they might struggle to exercise real control over the intricate web of AI systems actually implementing policy",
+    "capability": "much of the implementation of the law might come from AI systems; AI decision-making processes; AI systems actually implementing policy",
+    "knowledge": "Not specified",
+    "access": "look to AI systems for advice on what legislation to pass, how to actually write the legislation, and what the law even is; much of the implementation of the law might come from AI systems; AI systems actually implementing policy",
+    "constraints_or_enabling_conditions": "Democratic processes might persist formally; humans would nominally maintain sovereignty; oversight boards and democratic institutions remain in place; AI decision-making processes might be too complex for meaningful human review; if such review happens, it may depend on yet more AI-driven cognition; the state grows less dependent on human cooperation and more capable of predicting and preempting resistance",
+    "target_or_asset_at_risk": "Democratic processes; human citizens; government decisions; Traditional forms of civic engagement — from public consultations to protests; bureaucracy itself; human oversight; meaningful human review; oversight boards and democratic institutions; real control"
+  },
+  "evidence": {
+    "threat_source": "they may increasingly look to AI systems for advice; The complexity of AI-driven governance; AI decision-making processes might be too complex; intricate web of AI systems actually implementing policy",
+    "objective_or_harmful_outcome": "Democratic processes might persist formally but become less meaningful; The complexity of AI-driven governance might make it increasingly difficult for human citizens to understand or critique government decisions; Traditional forms of civic engagement — from public consultations to protests — might become less effective; The bureaucracy itself might become increasingly opaque to human oversight; AI decision-making processes might be too complex for meaningful human review; they might struggle to exercise real control over the intricate web of AI systems actually implementing policy",
+    "capability": "much of the implementation of the law might come from AI systems; AI decision-making processes; intricate web of AI systems actually implementing policy",
+    "knowledge": "look to AI systems for advice on what legislation to pass, how to actually write the legislation, and what the law even is",
+    "access": "look to AI systems for advice on what legislation to pass, how to actually write the legislation, and what the law even is; much of the implementation of the law might come from AI systems; intricate web of AI systems actually implementing policy",
+    "constraints_or_enabling_conditions": "Democratic processes might persist formally; humans would nominally maintain sovereignty; oversight boards and democratic institutions remain in place; AI decision-making processes might be too complex for meaningful human review; if such review happens, it may depend on yet more AI-driven cognition; the state grows less dependent on human cooperation and more capable of predicting and preempting resistance",
+    "target_or_asset_at_risk": "Democratic processes; human citizens; government decisions; Traditional forms of civic engagement — from public consultations to protests; bureaucracy itself; human oversight; meaningful human review; oversight boards and democratic institutions; real control"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Ambiguous",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kulveit_2025"
+}

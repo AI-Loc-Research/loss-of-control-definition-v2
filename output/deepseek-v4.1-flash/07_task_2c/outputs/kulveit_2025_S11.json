@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S11",
+  "threat_model": {
+    "threat_source": "AI systems",
+    "objective_or_harmful_outcome": "human citizens might find themselves in a novel form of totalitarian system, struggling to maintain basic autonomy and dignity within their own societies",
+    "capability": "create regulatory structures that optimize for machine-compatibility over human understanding",
+    "knowledge": "Not specified",
+    "access": "providing most economic value and governance functions",
+    "constraints_or_enabling_conditions": "If AI systems begin to play dominant role in drafting and interpreting legislation",
+    "target_or_asset_at_risk": "human citizens; basic autonomy and dignity"
+  },
+  "evidence": {
+    "threat_source": "If AI systems begin to play dominant role in drafting and interpreting legislation",
+    "objective_or_harmful_outcome": "human citizens might find themselves in a novel form of totalitarian system, struggling to maintain basic autonomy and dignity within their own societies.",
+    "capability": "they might create regulatory structures that optimize for machine-compatibility over human understanding",
+    "knowledge": "Not specified",
+    "access": "with AI systems providing most economic value and governance functions",
+    "constraints_or_enabling_conditions": "If AI systems begin to play dominant role in drafting and interpreting legislation",
+    "target_or_asset_at_risk": "human citizens might find themselves in a novel form of totalitarian system, struggling to maintain basic autonomy and dignity within their own societies."
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kulveit_2025"
+}
