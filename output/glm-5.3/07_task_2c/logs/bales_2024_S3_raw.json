@@ -1,6 +1,6 @@
 {
   "streaming": true,
-  "chunk_count": 9715,
-  "generated_text_length": 0,
-  "finish_reason": "length"
+  "chunk_count": 9710,
+  "generated_text_length": 2739,
+  "finish_reason": "stop"
 }
