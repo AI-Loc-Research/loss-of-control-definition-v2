@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S3",
+  "threat_model": {
+    "threat_source": "AGI with advanced computer programming abilities",
+    "objective_or_harmful_outcome": "agency beyond human control; operate autonomously; make decisions with far-reaching consequences",
+    "capability": "advanced computer programming abilities; able to break out of the box and engage with the world across cyberspace",
+    "knowledge": "Not specified",
+    "access": "designed-in internet connection or use of side-channel attacks; engage with the world across cyberspace",
+    "constraints_or_enabling_conditions": "thanks to a designed-in internet connection or use of side-channel attacks; agency beyond human control; operate autonomously",
+    "target_or_asset_at_risk": "human control"
+  },
+  "evidence": {
+    "threat_source": "Consider AGI with advanced computer programming abilities able to break out of the box and engage with the world across cyberspace",
+    "objective_or_harmful_outcome": "It could possess agency beyond human control, operate autonomously, and make decisions with far-reaching consequences.",
+    "capability": "AGI with advanced computer programming abilities able to break out of the box and engage with the world across cyberspace",
+    "knowledge": "Not specified",
+    "access": "thanks to a designed-in internet connection or use of side-channel attacks; engage with the world across cyberspace",
+    "constraints_or_enabling_conditions": "thanks to a designed-in internet connection or use of side-channel attacks; It could possess agency beyond human control, operate autonomously",
+    "target_or_asset_at_risk": "agency beyond human control"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "rand_five_hard_problems"
+}

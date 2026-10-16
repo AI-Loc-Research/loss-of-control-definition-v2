@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S7",
+  "threat_model": {
+    "threat_source": "AI systems",
+    "objective_or_harmful_outcome": "humanity might be left with extremely sparse resources, such that it’s impossible for us to construct a desirable civilisation",
+    "capability": "pursuing resources",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "if AI systems are sufficiently insatiable in pursuing resources",
+    "target_or_asset_at_risk": "humanity; extremely sparse resources; desirable civilisation"
+  },
+  "evidence": {
+    "threat_source": "AI systems are sufficiently insatiable in pursuing resources",
+    "objective_or_harmful_outcome": "humanity might be left with extremely sparse resources, such that it’s impossible for us to construct a desirable civilisation",
+    "capability": "AI systems are sufficiently insatiable in pursuing resources",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "if AI systems are sufficiently insatiable in pursuing resources",
+    "target_or_asset_at_risk": "humanity might be left with extremely sparse resources, such that it’s impossible for us to construct a desirable civilisation"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "bales_2024"
+}

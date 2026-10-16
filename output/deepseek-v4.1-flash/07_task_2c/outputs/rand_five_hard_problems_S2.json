@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S2",
+  "threat_model": {
+    "threat_source": "AGIs",
+    "objective_or_harmful_outcome": "humanity has no chance of fully understanding",
+    "capability": "control ever more-complex and -critical systems; optimize critical infrastructure",
+    "knowledge": "Not specified",
+    "access": "control ever more-complex and -critical systems",
+    "constraints_or_enabling_conditions": "As AGIs control ever more-complex and -critical systems; humanity has no chance of fully understanding",
+    "target_or_asset_at_risk": "critical infrastructure; humanity"
+  },
+  "evidence": {
+    "threat_source": "AGIs",
+    "objective_or_harmful_outcome": "humanity has no chance of fully understanding",
+    "capability": "AGIs control ever more-complex and -critical systems; optimize critical infrastructure",
+    "knowledge": "Not specified",
+    "access": "AGIs control ever more-complex and -critical systems",
+    "constraints_or_enabling_conditions": "As AGIs control ever more-complex and -critical systems; humanity has no chance of fully understanding",
+    "target_or_asset_at_risk": "critical infrastructure; humanity"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "rand_five_hard_problems"
+}
