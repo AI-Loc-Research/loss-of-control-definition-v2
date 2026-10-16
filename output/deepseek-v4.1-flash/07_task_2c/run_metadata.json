@@ -1,64 +1,32 @@
 {
-  "timestamp": "2026-10-16T08:19:31.872642+00:00",
-  "total_runtime_seconds": 1988.85,
-  "total_scenarios": 5,
-  "scenarios_processed": 5,
+  "timestamp": "2026-10-16T08:52:42.626972+00:00",
+  "total_runtime_seconds": 715.19,
+  "total_scenarios": 2,
+  "scenarios_processed": 2,
   "scenarios_skipped": 0,
   "errors": [
     {
-      "item_key": "rand_five_hard_problems_S5",
-      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
-    },
-    {
-      "item_key": "rand_five_hard_problems_S6",
+      "item_key": "shah_2022_S4",
       "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
     }
   ],
   "per_scenario": [
     {
-      "item_key": "rand_five_hard_problems_S4",
+      "item_key": "rand_rise_fall_nations_S1",
       "skipped": false,
-      "latency_seconds": 614.06,
+      "latency_seconds": 413.0,
       "usage": {
-        "prompt_tokens": 1336,
-        "completion_tokens": 8830
+        "prompt_tokens": 1644,
+        "completion_tokens": 12230
       },
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "rand_five_hard_problems_S5",
+      "item_key": "shah_2022_S4",
       "skipped": false,
       "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504",
-      "latency_seconds": 302.15
-    },
-    {
-      "item_key": "rand_five_hard_problems_S6",
-      "skipped": false,
-      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504",
-      "latency_seconds": 302.06
-    },
-    {
-      "item_key": "rand_loc_response_planning_S4",
-      "skipped": false,
-      "latency_seconds": 575.02,
-      "usage": {
-        "prompt_tokens": 1428,
-        "completion_tokens": 10345
-      },
-      "stop_reason": "stop",
-      "model_served": null
-    },
-    {
-      "item_key": "rand_pivots_pathways_S6",
-      "skipped": false,
-      "latency_seconds": 195.55,
-      "usage": {
-        "prompt_tokens": 1339,
-        "completion_tokens": 1963
-      },
-      "stop_reason": "stop",
-      "model_served": null
+      "latency_seconds": 302.18
     }
   ]
 }

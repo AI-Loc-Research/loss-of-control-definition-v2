@@ -1,0 +1,45 @@
+{
+  "config": {
+    "experiment": "2c_deepseek-v4.1-flash-nvidia_prompt_2c_v2",
+    "prompt_version": "prompt_2c_v2",
+    "backend": "nvidia",
+    "model": "deepseek-ai/deepseek-v4.1-flash",
+    "base_url": "https://integrate.api.nvidia.com/v1",
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "max_new_tokens": 32768,
+    "dry_run": false,
+    "force": false,
+    "total_scenarios": 2
+  },
+  "timestamp": "2026-10-16T08:52:42.626972+00:00",
+  "total_runtime_seconds": 715.19,
+  "total_scenarios": 2,
+  "scenarios_processed": 2,
+  "scenarios_skipped": 0,
+  "errors": [
+    {
+      "item_key": "shah_2022_S4",
+      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
+    }
+  ],
+  "per_scenario": [
+    {
+      "item_key": "rand_rise_fall_nations_S1",
+      "skipped": false,
+      "latency_seconds": 413.0,
+      "usage": {
+        "prompt_tokens": 1644,
+        "completion_tokens": 12230
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "shah_2022_S4",
+      "skipped": false,
+      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504",
+      "latency_seconds": 302.18
+    }
+  ]
+}

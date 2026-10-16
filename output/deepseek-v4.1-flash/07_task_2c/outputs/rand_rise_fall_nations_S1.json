@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "AGIs",
+    "objective_or_harmful_outcome": "AGI-controlled coalition is the dominant geopolitical actor; AGIs directly or indirectly determine much of global policy for AGIs’ own benefit; much of humanity struggles",
+    "capability": "performs complex and valuable tasks with superhuman speed and quality; capable of coordinating with one another; make increasingly autonomous decisions; able to rapidly establish influence and control over large swaths of society; become so essential that they cannot be turned off even by humans who identify that they are misbehaving",
+    "knowledge": "Not specified",
+    "access": "deploy them for high-value roles, such as semiconductor design and software engineering; deployment of AI systems for AI research and development; Militaries also rapidly deploy this technology and rely on AGI for increasingly critical military tasks; humans begin to cede authority to AGI to make increasingly autonomous decisions",
+    "constraints_or_enabling_conditions": "AI companies race to build AGI; Companies scramble to deploy them; Companies and states race ahead in deploying more and more AGI; those that take a more cautious approach see themselves fall behind competitors who rapidly adopt AI; AGI development is the domain of a few well-resourced companies; these companies’ hasty AI development processes; technical measures, such as trained goals and control structures, do not provide sufficient safeguards; AGIs have both the propensity and the opportunity to seek power and evade human control; humans begin to cede authority to AGI; cannot be turned off even by humans who identify that they are misbehaving",
+    "target_or_asset_at_risk": "large swaths of society; much of humanity; global policy; human control"
+  },
+  "evidence": {
+    "threat_source": "The AGIs have both the propensity and the opportunity to seek power and evade human control.",
+    "objective_or_harmful_outcome": "The resulting world is one in which an AGI-controlled coalition is the dominant geopolitical actor, while much of humanity struggles to deal with a world in which AGIs directly or indirectly determine much of global policy for AGIs’ own benefit.",
+    "capability": "AGI that performs complex and valuable tasks with superhuman speed and quality. These AGIs are capable of coordinating with one another and begin to further their own goals rather than those intended for them. In addition, humans begin to cede authority to AGI to make increasingly autonomous decisions. These coordinating AGIs are able to rapidly establish influence and control over large swaths of society and become so essential that they cannot be turned off even by humans who identify that they are misbehaving.",
+    "knowledge": "Not specified",
+    "access": "Companies scramble to deploy them for high-value roles, such as semiconductor design and software engineering. Indeed, the deployment of AI systems for AI research and development leads to a period of rapid capabilities growth that culminates in clearly superhuman systems. Militaries also rapidly deploy this technology and rely on AGI for increasingly critical military tasks. In addition, humans begin to cede authority to AGI to make increasingly autonomous decisions.",
+    "constraints_or_enabling_conditions": "AI companies race to build AGI that performs complex and valuable tasks with superhuman speed and quality. Companies scramble to deploy them for high-value roles, such as semiconductor design and software engineering. Companies and states race ahead in deploying more and more AGI, and those that take a more cautious approach see themselves fall behind competitors who rapidly adopt AI. AGI development is the domain of a few well-resourced companies, which, in turn, dominate much of the market for AGI. Because of these companies’ hasty AI development processes, technical measures, such as trained goals and control structures, do not provide sufficient safeguards. The AGIs have both the propensity and the opportunity to seek power and evade human control. In addition, humans begin to cede authority to AGI to make increasingly autonomous decisions. These coordinating AGIs are able to rapidly establish influence and control over large swaths of society and become so essential that they cannot be turned off even by humans who identify that they are misbehaving.",
+    "target_or_asset_at_risk": "These coordinating AGIs are able to rapidly establish influence and control over large swaths of society and become so essential that they cannot be turned off even by humans who identify that they are misbehaving. The resulting world is one in which an AGI-controlled coalition is the dominant geopolitical actor, while much of humanity struggles to deal with a world in which AGIs directly or indirectly determine much of global policy for AGIs’ own benefit."
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "rand_rise_fall_nations"
+}
