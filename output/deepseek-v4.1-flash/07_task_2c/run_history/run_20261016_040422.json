@@ -1,0 +1,78 @@
+{
+  "config": {
+    "experiment": "2c_deepseek-v4.1-flash-nvidia_prompt_2c_v2",
+    "prompt_version": "prompt_2c_v2",
+    "backend": "nvidia",
+    "model": "deepseek-ai/deepseek-v4.1-flash",
+    "base_url": "https://integrate.api.nvidia.com/v1",
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "max_new_tokens": 32768,
+    "dry_run": false,
+    "force": false,
+    "total_scenarios": 5
+  },
+  "timestamp": "2026-10-16T03:30:29.648822+00:00",
+  "total_runtime_seconds": 2032.99,
+  "total_scenarios": 5,
+  "scenarios_processed": 5,
+  "scenarios_skipped": 0,
+  "errors": [
+    {
+      "item_key": "bales_2024_S7",
+      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
+    }
+  ],
+  "per_scenario": [
+    {
+      "item_key": "bales_2024_S7",
+      "skipped": false,
+      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504",
+      "latency_seconds": 302.16
+    },
+    {
+      "item_key": "bales_2024_S8",
+      "skipped": false,
+      "latency_seconds": 354.45,
+      "usage": {
+        "prompt_tokens": 1390,
+        "completion_tokens": 4551
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "barnett_2024_S10",
+      "skipped": false,
+      "latency_seconds": 540.81,
+      "usage": {
+        "prompt_tokens": 1488,
+        "completion_tokens": 12924
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "barnett_2024_S12",
+      "skipped": false,
+      "latency_seconds": 399.41,
+      "usage": {
+        "prompt_tokens": 1569,
+        "completion_tokens": 5956
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "barnett_2024_S2",
+      "skipped": false,
+      "latency_seconds": 436.16,
+      "usage": {
+        "prompt_tokens": 1457,
+        "completion_tokens": 5959
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    }
+  ]
+}

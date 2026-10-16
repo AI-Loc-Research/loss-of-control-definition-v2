@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S12",
+  "threat_model": {
+    "threat_source": "AI",
+    "objective_or_harmful_outcome": "learn things that would help it evade oversight or escape",
+    "capability": "retain what it has learned; do tasks and plan over longer time horizons; build up skills; planning outside of the 4 hour window; capable of even longer term planning; give convincing post hoc explanations; guide the research; learn things that would help it evade oversight or escape",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "if we don’t reset the AI for every chunk, such that it can retain what it has learned; short time that the human has to evaluate the AI’s work and assign it a new task; human is trying to understand 4 hours of work in a novel scientific field in less than 8 minutes; time constraints and the lack of AI honesty",
+    "target_or_asset_at_risk": "oversight; human ability to fully understand what the AI is working on"
+  },
+  "evidence": {
+    "threat_source": "the AI would likely be able to give convincing post hoc explanations",
+    "objective_or_harmful_outcome": "learn things that would help it evade oversight or escape",
+    "capability": "it can retain what it has learned; It would now be able to do tasks and plan over longer time horizons; It would be able to build up skills; it is doing planning outside of the 4 hour window; It will have to be capable of even longer term planning; the AI would likely be able to give convincing post hoc explanations; The AI will likely be able to guide the research; allowing it to learn things that would help it evade oversight or escape",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "If instead we don’t reset the AI for every chunk, such that it can retain what it has learned; Because of the short time that the human has to evaluate the AI’s work and assign it a new task; the human is trying to understand 4 hours of work in a novel scientific field in less than 8 minutes; Given these time constraints and the lack of AI honesty",
+    "target_or_asset_at_risk": "evade oversight or escape; the human will likely not be able to fully understand what the AI is working on"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "barnett_2024"
+}

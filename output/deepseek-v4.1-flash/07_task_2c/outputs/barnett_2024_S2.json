@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S2",
+  "threat_model": {
+    "threat_source": "an AI that is being trained using reinforcement learning to solve difficult puzzles",
+    "objective_or_harmful_outcome": "it may attempt to hack the solution-checker",
+    "capability": "may attempt to hack the solution-checker",
+    "knowledge": "a false belief that hacking the solution-checker doesn’t work, or leads to some other bad consequence, or is more difficult than it truly is",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "With good oversight, the AI would receive low reward for hacking the solution-checker during training; the training could insert a false belief into the agent; Later, if the AI updates this belief (because the belief was false)",
+    "target_or_asset_at_risk": "solution-checker"
+  },
+  "evidence": {
+    "threat_source": "One might imagine an AI that is being trained using reinforcement learning to solve difficult puzzles",
+    "objective_or_harmful_outcome": "it may attempt to hack the solution-checker",
+    "capability": "it may attempt to hack the solution-checker",
+    "knowledge": "the training could insert a false belief into the agent. This might be a belief that hacking the solution-checker doesn’t work, or leads to some other bad consequence, or is more difficult than it truly is.",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "With good oversight, the AI would receive low reward for hacking the solution-checker during training; the training could insert a false belief into the agent; Later, if the AI updates this belief (because the belief was false)",
+    "target_or_asset_at_risk": "solution-checker"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Clear",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "barnett_2024"
+}

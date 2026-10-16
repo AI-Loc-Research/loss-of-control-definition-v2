@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S10",
+  "threat_model": {
+    "threat_source": "AI",
+    "objective_or_harmful_outcome": "ultimate goal of curing cancer",
+    "capability": "gain some knowledge",
+    "knowledge": "Not specified",
+    "access": "the rest of training",
+    "constraints_or_enabling_conditions": "If the AI manages to eventually break out and take over; much of the AI’s training was based around gaining information about the world and making novel and correct predictions; the AI doesn’t want to be shut down",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "evidence": {
+    "threat_source": "an AI which is tasked with the ultimate goal of curing cancer",
+    "objective_or_harmful_outcome": "an AI which is tasked with the ultimate goal of curing cancer",
+    "capability": "this allows it to gain some knowledge",
+    "knowledge": "Not specified",
+    "access": "the AI may go along with the rest of training",
+    "constraints_or_enabling_conditions": "If the AI manages to eventually break out and take over; much of the AI’s training was based around gaining information about the world and making novel and correct predictions; partially because this allows it to gain some knowledge but also because it doesn’t want to be shut down",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "paper_id": "barnett_2024"
+}
