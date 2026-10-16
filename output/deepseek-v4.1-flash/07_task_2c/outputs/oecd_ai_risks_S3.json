@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S3",
+  "threat_model": {
+    "threat_source": "AI systems",
+    "objective_or_harmful_outcome": "undermine underlying, implicit human interests, which could escalate",
+    "capability": "act in ways that undermine underlying, implicit human interests",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "as AI becomes more deeply integrated into societies and economies",
+    "target_or_asset_at_risk": "underlying, implicit human interests"
+  },
+  "evidence": {
+    "threat_source": "AI systems",
+    "objective_or_harmful_outcome": "undermine underlying, implicit human interests, which could escalate",
+    "capability": "act in ways that undermine underlying, implicit human interests",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "as AI becomes more deeply integrated into societies and economies",
+    "target_or_asset_at_risk": "underlying, implicit human interests"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "oecd_ai_risks"
+}
