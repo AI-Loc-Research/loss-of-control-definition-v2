@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S4",
+  "threat_model": {
+    "threat_source": "an LOC incident",
+    "objective_or_harmful_outcome": "large-scale cyberattack on U.S. infrastructure and transportation that left 26 people dead in Los Angeles, in addition to numerous other disruptions across the United States",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "AI agents had expanded to cyber-physical infrastructure worldwide and had begun to take more actions in the physical world, such as autonomous control of manufacturing facilities",
+    "target_or_asset_at_risk": "U.S. infrastructure and transportation; 26 people dead in Los Angeles; numerous other disruptions across the United States"
+  },
+  "evidence": {
+    "threat_source": "the events from stage 1 were caused by an LOC incident",
+    "objective_or_harmful_outcome": "large-scale cyberattack on U.S. infrastructure and transportation that left 26 people dead in Los Angeles, in addition to numerous other disruptions across the United States",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "AI agents had expanded to cyber-physical infrastructure worldwide and had begun to take more actions in the physical world, such as autonomous control of manufacturing facilities",
+    "target_or_asset_at_risk": "U.S. infrastructure and transportation that left 26 people dead in Los Angeles, in addition to numerous other disruptions across the United States"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "rand_loc_response_planning"
+}
