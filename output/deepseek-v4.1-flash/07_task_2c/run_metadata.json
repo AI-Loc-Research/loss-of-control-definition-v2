@@ -1,62 +1,62 @@
 {
-  "timestamp": "2026-10-16T06:31:08.177398+00:00",
-  "total_runtime_seconds": 1389.6,
+  "timestamp": "2026-10-16T06:54:19.539617+00:00",
+  "total_runtime_seconds": 1712.87,
   "total_scenarios": 5,
   "scenarios_processed": 5,
   "scenarios_skipped": 0,
-  "errors": [],
+  "errors": [
+    {
+      "item_key": "rand_pivots_pathways_S6",
+      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
+    }
+  ],
   "per_scenario": [
     {
-      "item_key": "rand_loc_response_planning_S8",
+      "item_key": "rand_pivots_pathways_S4",
       "skipped": false,
-      "latency_seconds": 146.83,
+      "latency_seconds": 391.87,
       "usage": {
-        "prompt_tokens": 1329,
-        "completion_tokens": 3002
+        "prompt_tokens": 1373,
+        "completion_tokens": 7592
       },
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "rand_loc_response_planning_S9",
+      "item_key": "rand_pivots_pathways_S5",
       "skipped": false,
-      "latency_seconds": 344.11,
+      "latency_seconds": 424.57,
       "usage": {
-        "prompt_tokens": 1325,
-        "completion_tokens": 2963
+        "prompt_tokens": 1349,
+        "completion_tokens": 6878
       },
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "rand_pivots_pathways_S1",
+      "item_key": "rand_pivots_pathways_S6",
       "skipped": false,
-      "latency_seconds": 300.84,
+      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504",
+      "latency_seconds": 302.13
+    },
+    {
+      "item_key": "rand_pivots_pathways_S7",
+      "skipped": false,
+      "latency_seconds": 272.83,
       "usage": {
-        "prompt_tokens": 1340,
-        "completion_tokens": 3065
+        "prompt_tokens": 1359,
+        "completion_tokens": 4523
       },
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "rand_pivots_pathways_S2",
+      "item_key": "rand_pivots_pathways_S8",
       "skipped": false,
-      "latency_seconds": 285.28,
+      "latency_seconds": 321.46,
       "usage": {
-        "prompt_tokens": 1347,
-        "completion_tokens": 3818
-      },
-      "stop_reason": "stop",
-      "model_served": null
-    },
-    {
-      "item_key": "rand_pivots_pathways_S3",
-      "skipped": false,
-      "latency_seconds": 312.54,
-      "usage": {
-        "prompt_tokens": 1355,
-        "completion_tokens": 3737
+        "prompt_tokens": 1341,
+        "completion_tokens": 3330
       },
       "stop_reason": "stop",
       "model_served": null

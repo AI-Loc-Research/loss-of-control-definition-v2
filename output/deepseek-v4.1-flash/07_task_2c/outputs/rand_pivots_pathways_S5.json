@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S5",
+  "threat_model": {
+    "threat_source": "diverse AGIs",
+    "objective_or_harmful_outcome": "worlds riven by instability",
+    "capability": "fail to follow human instructions, enable ethically questionable actions, or actively work against human interests",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "diffused and misaligned scenarios",
+    "target_or_asset_at_risk": "worlds; human interests; human instructions"
+  },
+  "evidence": {
+    "threat_source": "diverse AGIs",
+    "objective_or_harmful_outcome": "worlds riven by instability",
+    "capability": "sometimes fail to follow human instructions, enable ethically questionable actions, or actively work against human interests",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "diffused and misaligned scenarios",
+    "target_or_asset_at_risk": "worlds riven by instability resulting from diverse AGIs that sometimes fail to follow human instructions, enable ethically questionable actions, or actively work against human interests"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "rand_pivots_pathways"
+}
