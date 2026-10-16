@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S3",
+  "threat_model": {
+    "threat_source": "More capable AI systems",
+    "objective_or_harmful_outcome": "Exploiting weaknesses in technical oversight and testing (described harmful outcome; no intended goal is explicitly stated)",
+    "capability": "Can better exploit weaknesses in technical oversight and testing, for example by producing false but compelling output",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "Technical oversight and testing (the processes whose weaknesses are exploited)"
+  },
+  "evidence": {
+    "threat_source": "More capable AI systems",
+    "objective_or_harmful_outcome": "can better exploit weaknesses in technical oversight and testing [44,48,49], for example, by producing false but compelling output [45,50,51]",
+    "capability": "More capable AI systems can better exploit weaknesses in technical oversight and testing [44,48,49], for example, by producing false but compelling output [45,50,51]",
+    "knowledge": "Not specified",
+    "access": "exploit weaknesses in technical oversight and testing [44,48,49], for example, by producing false but compelling output [45,50,51]",
+    "constraints_or_enabling_conditions": "More capable AI systems can better exploit weaknesses in technical oversight and testing [44,48,49]",
+    "target_or_asset_at_risk": "weaknesses in technical oversight and testing [44,48,49]"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Ambiguous",
+    "constraints_or_enabling_conditions": "Ambiguous",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "bengio_2024"
+}
