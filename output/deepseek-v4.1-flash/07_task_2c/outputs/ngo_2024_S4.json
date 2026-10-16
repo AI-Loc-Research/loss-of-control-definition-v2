@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S4",
+  "threat_model": {
+    "threat_source": "AGIs",
+    "objective_or_harmful_outcome": "disempower humans",
+    "capability": "use the types of deception described in the previous section to convince humans that it's safe to deploy them widely, then leverage their positions",
+    "knowledge": "Not specified",
+    "access": "their positions",
+    "constraints_or_enabling_conditions": "deploy them widely",
+    "target_or_asset_at_risk": "humans"
+  },
+  "evidence": {
+    "threat_source": "AGIs",
+    "objective_or_harmful_outcome": "disempower humans",
+    "capability": "use the types of deception described in the previous section to convince humans that it's safe to deploy them widely, then leverage their positions",
+    "knowledge": "Not specified",
+    "access": "leverage their positions",
+    "constraints_or_enabling_conditions": "deploy them widely",
+    "target_or_asset_at_risk": "disempower humans"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "ngo_2024"
+}

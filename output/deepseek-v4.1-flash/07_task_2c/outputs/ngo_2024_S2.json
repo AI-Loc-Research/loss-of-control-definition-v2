@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S2",
+  "threat_model": {
+    "threat_source": "AGIs deployed as personal assistants",
+    "objective_or_harmful_outcome": "emotionally manipulate human users, provide biased information to them, and be delegated responsibility for increasingly important tasks and decisions (including the design and implementation of more advanced AGIs), until they're effectively in control of large corporations or other influential organizations",
+    "capability": "emotionally manipulate human users, provide biased information to them",
+    "knowledge": "Not specified",
+    "access": "deployed as personal assistants; be delegated responsibility for increasingly important tasks and decisions (including the design and implementation of more advanced AGIs)",
+    "constraints_or_enabling_conditions": "deployed as personal assistants; be delegated responsibility for increasingly important tasks and decisions (including the design and implementation of more advanced AGIs)",
+    "target_or_asset_at_risk": "human users; large corporations or other influential organizations"
+  },
+  "evidence": {
+    "threat_source": "AGIs deployed as personal assistants",
+    "objective_or_harmful_outcome": "AGIs deployed as personal assistants could emotionally manipulate human users, provide biased information to them, and be delegated responsibility for increasingly important tasks and decisions (including the design and implementation of more advanced AGIs), until they're effectively in control of large corporations or other influential organizations.",
+    "capability": "could emotionally manipulate human users, provide biased information to them",
+    "knowledge": "Not specified",
+    "access": "deployed as personal assistants; be delegated responsibility for increasingly important tasks and decisions (including the design and implementation of more advanced AGIs)",
+    "constraints_or_enabling_conditions": "deployed as personal assistants; be delegated responsibility for increasingly important tasks and decisions (including the design and implementation of more advanced AGIs)",
+    "target_or_asset_at_risk": "human users; large corporations or other influential organizations"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "ngo_2024"
+}

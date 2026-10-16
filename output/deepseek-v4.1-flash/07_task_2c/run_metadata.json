@@ -1,65 +1,63 @@
 {
-  "timestamp": "2026-10-16T00:34:19.400919+00:00",
-  "total_runtime_seconds": 2032.64,
+  "timestamp": "2026-10-16T01:08:13.745090+00:00",
+  "total_runtime_seconds": 1754.68,
   "total_scenarios": 5,
   "scenarios_processed": 5,
   "scenarios_skipped": 0,
   "errors": [
     {
-      "item_key": "macaskill_2025_S4",
+      "item_key": "ngo_2024_S1",
+      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
+    },
+    {
+      "item_key": "ngo_2024_S3",
+      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
+    },
+    {
+      "item_key": "ngo_2024_S5",
       "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
     }
   ],
   "per_scenario": [
     {
-      "item_key": "kulveit_2025_S9",
-      "skipped": false,
-      "latency_seconds": 461.73,
-      "usage": {
-        "prompt_tokens": 1448,
-        "completion_tokens": 13245
-      },
-      "stop_reason": "stop",
-      "model_served": null
-    },
-    {
-      "item_key": "macaskill_2025_S1",
-      "skipped": false,
-      "latency_seconds": 338.79,
-      "usage": {
-        "prompt_tokens": 1403,
-        "completion_tokens": 4469
-      },
-      "stop_reason": "stop",
-      "model_served": null
-    },
-    {
-      "item_key": "macaskill_2025_S2",
-      "skipped": false,
-      "latency_seconds": 337.71,
-      "usage": {
-        "prompt_tokens": 1368,
-        "completion_tokens": 6892
-      },
-      "stop_reason": "stop",
-      "model_served": null
-    },
-    {
-      "item_key": "macaskill_2025_S3",
-      "skipped": false,
-      "latency_seconds": 592.25,
-      "usage": {
-        "prompt_tokens": 1378,
-        "completion_tokens": 7621
-      },
-      "stop_reason": "stop",
-      "model_served": null
-    },
-    {
-      "item_key": "macaskill_2025_S4",
+      "item_key": "ngo_2024_S1",
       "skipped": false,
       "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504",
-      "latency_seconds": 302.16
+      "latency_seconds": 302.06
+    },
+    {
+      "item_key": "ngo_2024_S2",
+      "skipped": false,
+      "latency_seconds": 404.85,
+      "usage": {
+        "prompt_tokens": 1362,
+        "completion_tokens": 6933
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "ngo_2024_S3",
+      "skipped": false,
+      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504",
+      "latency_seconds": 302.18
+    },
+    {
+      "item_key": "ngo_2024_S4",
+      "skipped": false,
+      "latency_seconds": 443.44,
+      "usage": {
+        "prompt_tokens": 1347,
+        "completion_tokens": 4559
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "ngo_2024_S5",
+      "skipped": false,
+      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504",
+      "latency_seconds": 302.14
     }
   ]
 }
