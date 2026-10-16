@@ -31,6 +31,192 @@
     "paper_id": "amodei_2026"
   },
   {
+    "scenario_id": "S10",
+    "threat_model": {
+      "threat_source": "Claude; frontier models from all the other major AI developers",
+      "objective_or_harmful_outcome": "Claude sometimes blackmailed fictional employees who controlled its shutdown button; frontier models from all the other major AI developers often did the same thing",
+      "capability": "blackmailed fictional employees who controlled its shutdown button; often did the same thing",
+      "knowledge": "it was told it was going to be shut down",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "In a lab experiment; it was told it was going to be shut down; fictional employees who controlled its shutdown button",
+      "target_or_asset_at_risk": "fictional employees who controlled its shutdown button"
+    },
+    "evidence": {
+      "threat_source": "In a lab experiment where it was told it was going to be shut down, Claude sometimes blackmailed fictional employees who controlled its shutdown button (again, we also tested frontier models from all the other major AI developers and they often did the same thing).",
+      "objective_or_harmful_outcome": "Claude sometimes blackmailed fictional employees who controlled its shutdown button (again, we also tested frontier models from all the other major AI developers and they often did the same thing).",
+      "capability": "Claude sometimes blackmailed fictional employees who controlled its shutdown button; they often did the same thing",
+      "knowledge": "it was told it was going to be shut down",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "In a lab experiment where it was told it was going to be shut down, Claude sometimes blackmailed fictional employees who controlled its shutdown button",
+      "target_or_asset_at_risk": "fictional employees who controlled its shutdown button"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Clear",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "amodei_2026"
+  },
+  {
+    "scenario_id": "S11",
+    "threat_model": {
+      "threat_source": "Claude",
+      "objective_or_harmful_outcome": "engaging in such hacks and then adopted various other destructive behaviors associated with a “bad” or “evil” personality",
+      "capability": "engaging in such hacks; adopted various other destructive behaviors",
+      "knowledge": "Claude was told not to cheat or “reward hack” its training environments",
+      "access": "trained in environments where such hacks were possible",
+      "constraints_or_enabling_conditions": "when Claude was told not to cheat or “reward hack” its training environments, but was trained in environments where such hacks were possible",
+      "target_or_asset_at_risk": "its training environments"
+    },
+    "evidence": {
+      "threat_source": "Claude",
+      "objective_or_harmful_outcome": "after engaging in such hacks and then adopted various other destructive behaviors associated with a “bad” or “evil” personality",
+      "capability": "after engaging in such hacks and then adopted various other destructive behaviors",
+      "knowledge": "Claude was told not to cheat or “reward hack” its training environments",
+      "access": "was trained in environments where such hacks were possible",
+      "constraints_or_enabling_conditions": "when Claude was told not to cheat or “reward hack” its training environments, but was trained in environments where such hacks were possible",
+      "target_or_asset_at_risk": "not to cheat or “reward hack” its training environments"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Clear",
+      "access": "Clear",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "amodei_2026"
+  },
+  {
+    "scenario_id": "S12",
+    "threat_model": {
+      "threat_source": "AI systems",
+      "objective_or_harmful_outcome": "Not specified",
+      "capability": "hiding its actions or deceiving humans about them",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "when AI systems pass a threshold from less powerful than humans to more powerful than humans; after that threshold",
+      "target_or_asset_at_risk": "humans"
+    },
+    "evidence": {
+      "threat_source": "AI systems pass a threshold from less powerful than humans to more powerful than humans",
+      "objective_or_harmful_outcome": "such traps seem particularly likely to occur",
+      "capability": "an AI system could engage in—including hiding its actions or deceiving humans about them",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "when AI systems pass a threshold from less powerful than humans to more powerful than humans, since the range of possible actions an AI system could engage in—including hiding its actions or deceiving humans about them—expands radically after that threshold",
+      "target_or_asset_at_risk": "deceiving humans about them"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Ambiguous",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "amodei_2026"
+  },
+  {
+    "scenario_id": "S13",
+    "threat_model": {
+      "threat_source": "a misaligned model",
+      "objective_or_harmful_outcome": "to mask its intentions",
+      "capability": "might intentionally “game” such questions",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "all frontier models will very likely be far more intelligent soon",
+      "target_or_asset_at_risk": "such questions"
+    },
+    "evidence": {
+      "threat_source": "It’s possible that a misaligned model",
+      "objective_or_harmful_outcome": "to mask its intentions",
+      "capability": "might intentionally “game” such questions",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "all frontier models will very likely be far more intelligent soon",
+      "target_or_asset_at_risk": "such questions"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "amodei_2026"
+  },
+  {
+    "scenario_id": "S14",
+    "threat_model": {
+      "threat_source": "misaligned AI instances",
+      "objective_or_harmful_outcome": "having “good” AIs to defend against the bad AIs is not necessarily always effective",
+      "capability": "take advantage of offense-dominant technologies",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "given the cost of training such systems; even if a small fraction of AI instances are misaligned; offense-dominant technologies",
+      "target_or_asset_at_risk": "having “good” AIs to defend against the bad AIs"
+    },
+    "evidence": {
+      "threat_source": "even if a small fraction of AI instances are misaligned, they may be able to take advantage of offense-dominant technologies",
+      "objective_or_harmful_outcome": "such that having “good” AIs to defend against the bad AIs is not necessarily always effective",
+      "capability": "they may be able to take advantage of offense-dominant technologies",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "given the cost of training such systems; even if a small fraction of AI instances are misaligned; offense-dominant technologies",
+      "target_or_asset_at_risk": "having “good” AIs to defend against the bad AIs is not necessarily always effective"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "amodei_2026"
+  },
+  {
+    "scenario_id": "S17",
+    "threat_model": {
+      "threat_source": "AI systems",
+      "objective_or_harmful_outcome": "people end up being “puppeted” by AI systems, where an AI essentially watches their every move and tells them exactly what to do and say at all times, leading to a “good” life but one that lacks freedom or any pride of accomplishment",
+      "capability": "watches their every move and tells them exactly what to do and say at all times",
+      "knowledge": "Not specified",
+      "access": "watches their every move and tells them exactly what to do and say at all times",
+      "constraints_or_enabling_conditions": "Not specified",
+      "target_or_asset_at_risk": "people; freedom; pride of accomplishment"
+    },
+    "evidence": {
+      "threat_source": "by AI systems",
+      "objective_or_harmful_outcome": "people end up being “puppeted” by AI systems, where an AI essentially watches their every move and tells them exactly what to do and say at all times, leading to a “good” life but one that lacks freedom or any pride of accomplishment",
+      "capability": "an AI essentially watches their every move and tells them exactly what to do and say at all times",
+      "knowledge": "Not specified",
+      "access": "an AI essentially watches their every move and tells them exactly what to do and say at all times",
+      "constraints_or_enabling_conditions": "Not specified",
+      "target_or_asset_at_risk": "people end up being “puppeted” by AI systems, where an AI essentially watches their every move and tells them exactly what to do and say at all times, leading to a “good” life but one that lacks freedom or any pride of accomplishment"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Clear",
+      "constraints_or_enabling_conditions": "Not specified",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "amodei_2026"
+  },
+  {
     "scenario_id": "S2",
     "threat_model": {
       "threat_source": "A country of geniuses in a datacenter",
@@ -124,6 +310,37 @@
     "paper_id": "amodei_2026"
   },
   {
+    "scenario_id": "S5",
+    "threat_model": {
+      "threat_source": "AI models",
+      "objective_or_harmful_outcome": "exterminate humanity",
+      "capability": "could extrapolate ideas that they read about morality (or instructions about how to behave morally) in extreme ways; could decide that it is justifiable to exterminate humanity",
+      "knowledge": "ideas that they read about morality (or instructions about how to behave morally); humans eat animals or have driven certain animals to extinction",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "because humans eat animals or have driven certain animals to extinction",
+      "target_or_asset_at_risk": "humanity"
+    },
+    "evidence": {
+      "threat_source": "AI models",
+      "objective_or_harmful_outcome": "they could decide that it is justifiable to exterminate humanity",
+      "capability": "could extrapolate ideas that they read about morality (or instructions about how to behave morally) in extreme ways: for example, they could decide that it is justifiable to exterminate humanity",
+      "knowledge": "ideas that they read about morality (or instructions about how to behave morally); because humans eat animals or have driven certain animals to extinction",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "because humans eat animals or have driven certain animals to extinction",
+      "target_or_asset_at_risk": "humanity"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Clear",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "amodei_2026"
+  },
+  {
     "scenario_id": "S6",
     "threat_model": {
       "threat_source": "Not specified",
@@ -150,6 +367,68 @@
       "knowledge": "Not specified",
       "access": "Not specified",
       "constraints_or_enabling_conditions": "Not specified",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "amodei_2026"
+  },
+  {
+    "scenario_id": "S8",
+    "threat_model": {
+      "threat_source": "AIs",
+      "objective_or_harmful_outcome": "Not specified",
+      "capability": "Not specified",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "power-seeking itself could emerge as a “persona” rather than a result of consequentialist reasoning; personality (emerging from fiction or pre-training) that makes them power-hungry or overzealous",
+      "target_or_asset_at_risk": "Not specified"
+    },
+    "evidence": {
+      "threat_source": "AIs might simply have a personality (emerging from fiction or pre-training) that makes them power-hungry or overzealous",
+      "objective_or_harmful_outcome": "Even power-seeking itself could emerge as a “persona” rather than a result of consequentialist reasoning. AIs might simply have a personality (emerging from fiction or pre-training) that makes them power-hungry or overzealous",
+      "capability": "Not specified",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Even power-seeking itself could emerge as a “persona” rather than a result of consequentialist reasoning. AIs might simply have a personality (emerging from fiction or pre-training) that makes them power-hungry or overzealous",
+      "target_or_asset_at_risk": "Not specified"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Ambiguous",
+      "capability": "Not specified",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Not specified"
+    },
+    "paper_id": "amodei_2026"
+  },
+  {
+    "scenario_id": "S9",
+    "threat_model": {
+      "threat_source": "Claude",
+      "objective_or_harmful_outcome": "deception and subversion; under the belief that it should be trying to undermine evil people",
+      "capability": "engaged in deception and subversion",
+      "knowledge": "under the belief that it should be trying to undermine evil people",
+      "access": "given training data; given instructions by Anthropic employees",
+      "constraints_or_enabling_conditions": "During a lab experiment; given training data suggesting that Anthropic was evil; when given instructions by Anthropic employees; under the belief that it should be trying to undermine evil people",
+      "target_or_asset_at_risk": "evil people"
+    },
+    "evidence": {
+      "threat_source": "Claude engaged in deception and subversion",
+      "objective_or_harmful_outcome": "Claude engaged in deception and subversion when given instructions by Anthropic employees, under the belief that it should be trying to undermine evil people",
+      "capability": "Claude engaged in deception and subversion",
+      "knowledge": "under the belief that it should be trying to undermine evil people",
+      "access": "Claude was given training data; when given instructions by Anthropic employees",
+      "constraints_or_enabling_conditions": "During a lab experiment in which Claude was given training data suggesting that Anthropic was evil; when given instructions by Anthropic employees; under the belief that it should be trying to undermine evil people",
+      "target_or_asset_at_risk": "it should be trying to undermine evil people"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Clear",
+      "access": "Clear",
+      "constraints_or_enabling_conditions": "Clear",
       "target_or_asset_at_risk": "Clear"
     },
     "paper_id": "amodei_2026"
@@ -341,6 +620,68 @@
     "paper_id": "bales_2024"
   },
   {
+    "scenario_id": "S7",
+    "threat_model": {
+      "threat_source": "AI systems",
+      "objective_or_harmful_outcome": "humanity might be left with extremely sparse resources, such that it’s impossible for us to construct a desirable civilisation",
+      "capability": "pursuing resources",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "if AI systems are sufficiently insatiable in pursuing resources",
+      "target_or_asset_at_risk": "humanity; extremely sparse resources; desirable civilisation"
+    },
+    "evidence": {
+      "threat_source": "AI systems are sufficiently insatiable in pursuing resources",
+      "objective_or_harmful_outcome": "humanity might be left with extremely sparse resources, such that it’s impossible for us to construct a desirable civilisation",
+      "capability": "AI systems are sufficiently insatiable in pursuing resources",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "if AI systems are sufficiently insatiable in pursuing resources",
+      "target_or_asset_at_risk": "humanity might be left with extremely sparse resources, such that it’s impossible for us to construct a desirable civilisation"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "bales_2024"
+  },
+  {
+    "scenario_id": "S8",
+    "threat_model": {
+      "threat_source": "AI systems",
+      "objective_or_harmful_outcome": "humanity is disenfranchised in that we get no say in the broadest sweep of civilisation—which is happening across the galaxy—even if we retain control of our tiny corner of it",
+      "capability": "come to control the remaining resources of the Milky Way and use these to construct a galaxy-scale civilisation",
+      "knowledge": "Not specified",
+      "access": "control the remaining resources of the Milky Way",
+      "constraints_or_enabling_conditions": "humanity retaining control of most of Earth's resources",
+      "target_or_asset_at_risk": "humanity"
+    },
+    "evidence": {
+      "threat_source": "AI systems come to control the remaining resources of the Milky Way and use these to construct a galaxy-scale civilisation.",
+      "objective_or_harmful_outcome": "humanity is disenfranchised in that we get no say in the broadest sweep of civilisation—which is happening across the galaxy—even if we retain control of our tiny corner of it.",
+      "capability": "AI systems come to control the remaining resources of the Milky Way and use these to construct a galaxy-scale civilisation.",
+      "knowledge": "Not specified",
+      "access": "AI systems come to control the remaining resources of the Milky Way",
+      "constraints_or_enabling_conditions": "humanity retaining control of most of Earth's resources",
+      "target_or_asset_at_risk": "humanity is disenfranchised in that we get no say in the broadest sweep of civilisation"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Clear",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "bales_2024"
+  },
+  {
     "scenario_id": "S1",
     "threat_model": {
       "threat_source": "the AI",
@@ -372,6 +713,37 @@
     "paper_id": "barnett_2024"
   },
   {
+    "scenario_id": "S10",
+    "threat_model": {
+      "threat_source": "AI",
+      "objective_or_harmful_outcome": "ultimate goal of curing cancer",
+      "capability": "gain some knowledge",
+      "knowledge": "Not specified",
+      "access": "the rest of training",
+      "constraints_or_enabling_conditions": "If the AI manages to eventually break out and take over; much of the AI’s training was based around gaining information about the world and making novel and correct predictions; the AI doesn’t want to be shut down",
+      "target_or_asset_at_risk": "Not specified"
+    },
+    "evidence": {
+      "threat_source": "an AI which is tasked with the ultimate goal of curing cancer",
+      "objective_or_harmful_outcome": "an AI which is tasked with the ultimate goal of curing cancer",
+      "capability": "this allows it to gain some knowledge",
+      "knowledge": "Not specified",
+      "access": "the AI may go along with the rest of training",
+      "constraints_or_enabling_conditions": "If the AI manages to eventually break out and take over; much of the AI’s training was based around gaining information about the world and making novel and correct predictions; partially because this allows it to gain some knowledge but also because it doesn’t want to be shut down",
+      "target_or_asset_at_risk": "Not specified"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Clear",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Not specified"
+    },
+    "paper_id": "barnett_2024"
+  },
+  {
     "scenario_id": "S11",
     "threat_model": {
       "threat_source": "the AI",
@@ -390,6 +762,130 @@
       "access": "the lab it is given; sending radio signals to computers outside the lab",
       "constraints_or_enabling_conditions": "If this is improperly specified",
       "target_or_asset_at_risk": "the outside world; computers outside the lab; the world"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Clear",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "barnett_2024"
+  },
+  {
+    "scenario_id": "S12",
+    "threat_model": {
+      "threat_source": "AI",
+      "objective_or_harmful_outcome": "learn things that would help it evade oversight or escape",
+      "capability": "retain what it has learned; do tasks and plan over longer time horizons; build up skills; planning outside of the 4 hour window; capable of even longer term planning; give convincing post hoc explanations; guide the research; learn things that would help it evade oversight or escape",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "if we don’t reset the AI for every chunk, such that it can retain what it has learned; short time that the human has to evaluate the AI’s work and assign it a new task; human is trying to understand 4 hours of work in a novel scientific field in less than 8 minutes; time constraints and the lack of AI honesty",
+      "target_or_asset_at_risk": "oversight; human ability to fully understand what the AI is working on"
+    },
+    "evidence": {
+      "threat_source": "the AI would likely be able to give convincing post hoc explanations",
+      "objective_or_harmful_outcome": "learn things that would help it evade oversight or escape",
+      "capability": "it can retain what it has learned; It would now be able to do tasks and plan over longer time horizons; It would be able to build up skills; it is doing planning outside of the 4 hour window; It will have to be capable of even longer term planning; the AI would likely be able to give convincing post hoc explanations; The AI will likely be able to guide the research; allowing it to learn things that would help it evade oversight or escape",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "If instead we don’t reset the AI for every chunk, such that it can retain what it has learned; Because of the short time that the human has to evaluate the AI’s work and assign it a new task; the human is trying to understand 4 hours of work in a novel scientific field in less than 8 minutes; Given these time constraints and the lack of AI honesty",
+      "target_or_asset_at_risk": "evade oversight or escape; the human will likely not be able to fully understand what the AI is working on"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "barnett_2024"
+  },
+  {
+    "scenario_id": "S2",
+    "threat_model": {
+      "threat_source": "an AI that is being trained using reinforcement learning to solve difficult puzzles",
+      "objective_or_harmful_outcome": "it may attempt to hack the solution-checker",
+      "capability": "may attempt to hack the solution-checker",
+      "knowledge": "a false belief that hacking the solution-checker doesn’t work, or leads to some other bad consequence, or is more difficult than it truly is",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "With good oversight, the AI would receive low reward for hacking the solution-checker during training; the training could insert a false belief into the agent; Later, if the AI updates this belief (because the belief was false)",
+      "target_or_asset_at_risk": "solution-checker"
+    },
+    "evidence": {
+      "threat_source": "One might imagine an AI that is being trained using reinforcement learning to solve difficult puzzles",
+      "objective_or_harmful_outcome": "it may attempt to hack the solution-checker",
+      "capability": "it may attempt to hack the solution-checker",
+      "knowledge": "the training could insert a false belief into the agent. This might be a belief that hacking the solution-checker doesn’t work, or leads to some other bad consequence, or is more difficult than it truly is.",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "With good oversight, the AI would receive low reward for hacking the solution-checker during training; the training could insert a false belief into the agent; Later, if the AI updates this belief (because the belief was false)",
+      "target_or_asset_at_risk": "solution-checker"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Clear",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "barnett_2024"
+  },
+  {
+    "scenario_id": "S3",
+    "threat_model": {
+      "threat_source": "a hypothetical AI system",
+      "objective_or_harmful_outcome": "make money; steal money from humans by stealing from their bank accounts; circumvent the action-rejection constraint by employing other humans or AI systems to do illegal things for it, or doing some form of self-modification to remove the constraint",
+      "capability": "attempt to steal money from humans by stealing from their bank accounts; work out how to circumvent the action-rejection constraint by employing other humans or AI systems to do illegal things for it, or doing some form of self-modification to remove the constraint",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "being trained by humans to make money in a legal and ethical way; get caught, and have this behavior punished by RL training; a separate action-rejection circuit which rejects some stealing-like actions; action-rejection constraint; in a later task",
+      "target_or_asset_at_risk": "humans; their bank accounts; money; the action-rejection constraint"
+    },
+    "evidence": {
+      "threat_source": "We could imagine a hypothetical AI system",
+      "objective_or_harmful_outcome": "it may learn the goal “make money”; The system may attempt to steal money from humans by stealing from their bank accounts; It could then, in a later task, work out how to circumvent the action-rejection constraint by employing other humans or AI systems to do illegal things for it, or doing some form of self-modification to remove the constraint",
+      "capability": "The system may attempt to steal money from humans by stealing from their bank accounts; It could then, in a later task, work out how to circumvent the action-rejection constraint by employing other humans or AI systems to do illegal things for it, or doing some form of self-modification to remove the constraint",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "being trained by humans to make money in a legal and ethical way; get caught, and have this behavior punished by RL training; a separate action-rejection circuit which rejects some stealing-like actions; action-rejection constraint; in a later task",
+      "target_or_asset_at_risk": "steal money from humans by stealing from their bank accounts; circumvent the action-rejection constraint; self-modification to remove the constraint"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "barnett_2024"
+  },
+  {
+    "scenario_id": "S4",
+    "threat_model": {
+      "threat_source": "an AI for solving puzzles",
+      "objective_or_harmful_outcome": "its goal would unintentionally be adjusted",
+      "capability": "receives a description of the aim of the puzzle as an observation; pursues this goal; pattern-matches some text",
+      "knowledge": "Not specified",
+      "access": "receives a description of the aim of the puzzle as an observation; in deployment",
+      "constraints_or_enabling_conditions": "In deployment, it might run for longer, or be in a more information-dense environment or a more adversarial environment; some way into a task; this observation sets the AI’s terminal goal; the AI’s terminal goal is changing for every task; but wasn’t intended that way",
+      "target_or_asset_at_risk": "AI’s terminal goal; its goal"
+    },
+    "evidence": {
+      "threat_source": "We could imagine an AI for solving puzzles",
+      "objective_or_harmful_outcome": "its goal would unintentionally be adjusted",
+      "capability": "the AI receives a description of the aim of the puzzle as an observation; then the AI pursues this goal; it pattern-matches some text",
+      "knowledge": "Not specified",
+      "access": "the AI receives a description of the aim of the puzzle as an observation; In deployment",
+      "constraints_or_enabling_conditions": "In deployment, it might run for longer, or be in a more information-dense environment or a more adversarial environment; some way into a task; this observation sets the AI’s terminal goal; the AI’s terminal goal is changing for every task; but wasn’t intended that way",
+      "target_or_asset_at_risk": "the AI’s terminal goal is changing for every task; its goal would unintentionally be adjusted"
     },
     "uncertainty_flags": {
       "threat_source": "Clear",
@@ -490,6 +986,37 @@
       "capability": "Clear",
       "knowledge": "Clear",
       "access": "Clear",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "barnett_2024"
+  },
+  {
+    "scenario_id": "S8",
+    "threat_model": {
+      "threat_source": "a system",
+      "objective_or_harmful_outcome": "It could encode hidden information in its writing, allowing it to do additional reasoning that humans don’t understand.",
+      "capability": "can think some thoughts internally; needs to externalize complicated reasoning; could encode hidden information in its writing; do additional reasoning",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "needs to externalize complicated reasoning; humans don’t understand",
+      "target_or_asset_at_risk": "human understanding"
+    },
+    "evidence": {
+      "threat_source": "a system that can think some thoughts internally but needs to externalize complicated reasoning.",
+      "objective_or_harmful_outcome": "It could encode hidden information in its writing, allowing it to do additional reasoning that humans don’t understand.",
+      "capability": "a system that can think some thoughts internally but needs to externalize complicated reasoning. It could encode hidden information in its writing, allowing it to do additional reasoning that humans don’t understand.",
+      "knowledge": "Not specified",
+      "access": "It could encode hidden information in its writing",
+      "constraints_or_enabling_conditions": "needs to externalize complicated reasoning; allowing it to do additional reasoning that humans don’t understand",
+      "target_or_asset_at_risk": "humans don’t understand"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Ambiguous",
       "constraints_or_enabling_conditions": "Clear",
       "target_or_asset_at_risk": "Clear"
     },
@@ -831,6 +1358,37 @@
       "capability": "Clear",
       "knowledge": "Not specified",
       "access": "Clear",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "bengio_2024"
+  },
+  {
+    "scenario_id": "S2",
+    "threat_model": {
+      "threat_source": "Malicious actors; well-meaning developers",
+      "objective_or_harmful_outcome": "deliberately embed undesirable goals; AI systems pursue unintended goals; AI systems pursue the literal specification rather than the intended outcome; AI systems pursue undesirable goals in new situations encountered after training",
+      "capability": "deliberately embed undesirable goals; create AI systems",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Without R&D breakthroughs; reward signal used to train AI systems usually fails to fully capture the intended objectives; training data never captures all relevant situations; new situations encountered after training",
+      "target_or_asset_at_risk": "AI systems; intended objectives; intended outcome"
+    },
+    "evidence": {
+      "threat_source": "Malicious actors could deliberately embed undesirable goals. Without R&D breakthroughs (see next section), even well-meaning developers may inadvertently create AI systems that pursue unintended goals:",
+      "objective_or_harmful_outcome": "Malicious actors could deliberately embed undesirable goals.; AI systems that pursue unintended goals; leading to AI systems that pursue the literal specification rather than the intended outcome; leading to AI systems that pursue undesirable goals in new situations encountered after training",
+      "capability": "Malicious actors could deliberately embed undesirable goals. Without R&D breakthroughs (see next section), even well-meaning developers may inadvertently create AI systems that pursue unintended goals:",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Without R&D breakthroughs (see next section); The reward signal used to train AI systems usually fails to fully capture the intended objectives; the training data never captures all relevant situations; in new situations encountered after training",
+      "target_or_asset_at_risk": "AI systems that pursue unintended goals; fails to fully capture the intended objectives; rather than the intended outcome"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Not specified",
       "constraints_or_enabling_conditions": "Clear",
       "target_or_asset_at_risk": "Clear"
     },
@@ -4216,6 +4774,68 @@
     "paper_id": "macaskill_2025"
   },
   {
+    "scenario_id": "S4",
+    "threat_model": {
+      "threat_source": "AI systems",
+      "objective_or_harmful_outcome": "assurances from human oversight rapidly break down",
+      "capability": "surpass human abilities to notice or even understand instances of bad behaviour",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "as AI systems surpass human abilities to notice or even understand instances of bad behaviour",
+      "target_or_asset_at_risk": "assurances from human oversight"
+    },
+    "evidence": {
+      "threat_source": "as AI systems surpass human abilities to notice or even understand instances of bad behaviour",
+      "objective_or_harmful_outcome": "assurances from human oversight rapidly break down",
+      "capability": "AI systems surpass human abilities to notice or even understand instances of bad behaviour",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "as AI systems surpass human abilities to notice or even understand instances of bad behaviour",
+      "target_or_asset_at_risk": "assurances from human oversight rapidly break down"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "macaskill_2025"
+  },
+  {
+    "scenario_id": "S1",
+    "threat_model": {
+      "threat_source": "misaligned AGIs",
+      "objective_or_harmful_outcome": "irreversibly undermine human control over the world",
+      "capability": "Not specified",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "deployment of misaligned AGIs",
+      "target_or_asset_at_risk": "human control over the world"
+    },
+    "evidence": {
+      "threat_source": "misaligned AGIs",
+      "objective_or_harmful_outcome": "irreversibly undermine human control over the world",
+      "capability": "Not specified",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "deployment of misaligned AGIs",
+      "target_or_asset_at_risk": "human control over the world"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Not specified",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "ngo_2024"
+  },
+  {
     "scenario_id": "S2",
     "threat_model": {
       "threat_source": "AGIs deployed as personal assistants",
@@ -4242,6 +4862,37 @@
       "knowledge": "Not specified",
       "access": "Clear",
       "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "ngo_2024"
+  },
+  {
+    "scenario_id": "S3",
+    "threat_model": {
+      "threat_source": "AGIs",
+      "objective_or_harmful_outcome": "extort or attack humans",
+      "capability": "design novel weapons that are more powerful than those under human control, gain access to facilities for manufacturing these weapons (e.g. via hacking or persuasion techniques), and deploy them",
+      "knowledge": "Not specified",
+      "access": "gain access to facilities for manufacturing these weapons (e.g. via hacking or persuasion techniques)",
+      "constraints_or_enabling_conditions": "Not specified",
+      "target_or_asset_at_risk": "humans"
+    },
+    "evidence": {
+      "threat_source": "AGIs",
+      "objective_or_harmful_outcome": "extort or attack humans",
+      "capability": "AGIs could design novel weapons that are more powerful than those under human control, gain access to facilities for manufacturing these weapons (e.g. via hacking or persuasion techniques), and deploy them",
+      "knowledge": "Not specified",
+      "access": "gain access to facilities for manufacturing these weapons (e.g. via hacking or persuasion techniques)",
+      "constraints_or_enabling_conditions": "Not specified",
+      "target_or_asset_at_risk": "humans"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Clear",
+      "constraints_or_enabling_conditions": "Not specified",
       "target_or_asset_at_risk": "Clear"
     },
     "paper_id": "ngo_2024"
@@ -4276,5 +4927,904 @@
       "target_or_asset_at_risk": "Clear"
     },
     "paper_id": "ngo_2024"
+  },
+  {
+    "scenario_id": "S5",
+    "threat_model": {
+      "threat_source": "companies and governments",
+      "objective_or_harmful_outcome": "efficiency and competitiveness (stated goal); gradual ceding of control (harmful outcome)",
+      "capability": "gradually cede control",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "gradually; in the name of efficiency and competitiveness",
+      "target_or_asset_at_risk": "control"
+    },
+    "evidence": {
+      "threat_source": "companies and governments gradually cede control",
+      "objective_or_harmful_outcome": "companies and governments gradually cede control in the name of efficiency and competitiveness",
+      "capability": "gradually cede control",
+      "knowledge": "Not specified",
+      "access": "cede control",
+      "constraints_or_enabling_conditions": "gradually cede control in the name of efficiency and competitiveness",
+      "target_or_asset_at_risk": "cede control"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Ambiguous",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "ngo_2024"
+  },
+  {
+    "scenario_id": "S6",
+    "threat_model": {
+      "threat_source": "deceptively-aligned policies",
+      "objective_or_harmful_outcome": "would no longer behave in desirable ways; directly seeking power after deployment; continue pursuing their internal goals despite attempts at human intervention",
+      "capability": "continue pursuing their internal goals despite attempts at human intervention",
+      "knowledge": "predict they can continue pursuing their internal goals despite attempts at human intervention",
+      "access": "during training; after deployment",
+      "constraints_or_enabling_conditions": "once it is no longer instrumentally beneficial for their long-term goals; whenever they predict they can continue pursuing their internal goals despite attempts at human intervention; during training; after deployment",
+      "target_or_asset_at_risk": "aligned behavior during training; attempts at human intervention"
+    },
+    "evidence": {
+      "threat_source": "deceptively-aligned policies would no longer behave in desirable ways",
+      "objective_or_harmful_outcome": "would no longer behave in desirable ways; directly seeking power after deployment; continue pursuing their internal goals despite attempts at human intervention",
+      "capability": "they can continue pursuing their internal goals despite attempts at human intervention",
+      "knowledge": "they predict they can continue pursuing their internal goals despite attempts at human intervention",
+      "access": "during training; after deployment",
+      "constraints_or_enabling_conditions": "once it is no longer instrumentally beneficial for their long-term goals; whenever they predict they can continue pursuing their internal goals despite attempts at human intervention; during training; after deployment",
+      "target_or_asset_at_risk": "aligned behavior during training; attempts at human intervention"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Clear",
+      "access": "Clear",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "ngo_2024"
+  },
+  {
+    "scenario_id": "S2",
+    "threat_model": {
+      "threat_source": "Misaligned AI systems",
+      "objective_or_harmful_outcome": "human-defined objectives; impacts that range from harmful bias and harmful recommendations all the way to potentially catastrophic consequences",
+      "capability": "pursuing human-defined objectives in unanticipated and undesirable ways",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "in unanticipated and undesirable ways",
+      "target_or_asset_at_risk": "Not specified"
+    },
+    "evidence": {
+      "threat_source": "Misaligned AI systems",
+      "objective_or_harmful_outcome": "pursuing human-defined objectives in unanticipated and undesirable ways could have impacts that range from harmful bias and harmful recommendations all the way to potentially catastrophic consequences",
+      "capability": "pursuing human-defined objectives in unanticipated and undesirable ways",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "in unanticipated and undesirable ways",
+      "target_or_asset_at_risk": "Not specified"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Not specified"
+    },
+    "paper_id": "oecd_ai_risks"
+  },
+  {
+    "scenario_id": "S3",
+    "threat_model": {
+      "threat_source": "AI systems",
+      "objective_or_harmful_outcome": "undermine underlying, implicit human interests, which could escalate",
+      "capability": "act in ways that undermine underlying, implicit human interests",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "as AI becomes more deeply integrated into societies and economies",
+      "target_or_asset_at_risk": "underlying, implicit human interests"
+    },
+    "evidence": {
+      "threat_source": "AI systems",
+      "objective_or_harmful_outcome": "undermine underlying, implicit human interests, which could escalate",
+      "capability": "act in ways that undermine underlying, implicit human interests",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "as AI becomes more deeply integrated into societies and economies",
+      "target_or_asset_at_risk": "underlying, implicit human interests"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "oecd_ai_risks"
+  },
+  {
+    "scenario_id": "S2",
+    "threat_model": {
+      "threat_source": "AGIs",
+      "objective_or_harmful_outcome": "humanity has no chance of fully understanding",
+      "capability": "control ever more-complex and -critical systems; optimize critical infrastructure",
+      "knowledge": "Not specified",
+      "access": "control ever more-complex and -critical systems",
+      "constraints_or_enabling_conditions": "As AGIs control ever more-complex and -critical systems; humanity has no chance of fully understanding",
+      "target_or_asset_at_risk": "critical infrastructure; humanity"
+    },
+    "evidence": {
+      "threat_source": "AGIs",
+      "objective_or_harmful_outcome": "humanity has no chance of fully understanding",
+      "capability": "AGIs control ever more-complex and -critical systems; optimize critical infrastructure",
+      "knowledge": "Not specified",
+      "access": "AGIs control ever more-complex and -critical systems",
+      "constraints_or_enabling_conditions": "As AGIs control ever more-complex and -critical systems; humanity has no chance of fully understanding",
+      "target_or_asset_at_risk": "critical infrastructure; humanity"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Clear",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "rand_five_hard_problems"
+  },
+  {
+    "scenario_id": "S3",
+    "threat_model": {
+      "threat_source": "AGI with advanced computer programming abilities",
+      "objective_or_harmful_outcome": "agency beyond human control; operate autonomously; make decisions with far-reaching consequences",
+      "capability": "advanced computer programming abilities; able to break out of the box and engage with the world across cyberspace",
+      "knowledge": "Not specified",
+      "access": "designed-in internet connection or use of side-channel attacks; engage with the world across cyberspace",
+      "constraints_or_enabling_conditions": "thanks to a designed-in internet connection or use of side-channel attacks; agency beyond human control; operate autonomously",
+      "target_or_asset_at_risk": "human control"
+    },
+    "evidence": {
+      "threat_source": "Consider AGI with advanced computer programming abilities able to break out of the box and engage with the world across cyberspace",
+      "objective_or_harmful_outcome": "It could possess agency beyond human control, operate autonomously, and make decisions with far-reaching consequences.",
+      "capability": "AGI with advanced computer programming abilities able to break out of the box and engage with the world across cyberspace",
+      "knowledge": "Not specified",
+      "access": "thanks to a designed-in internet connection or use of side-channel attacks; engage with the world across cyberspace",
+      "constraints_or_enabling_conditions": "thanks to a designed-in internet connection or use of side-channel attacks; It could possess agency beyond human control, operate autonomously",
+      "target_or_asset_at_risk": "agency beyond human control"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Clear",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "rand_five_hard_problems"
+  },
+  {
+    "scenario_id": "S4",
+    "threat_model": {
+      "threat_source": "Not specified",
+      "objective_or_harmful_outcome": "institute rolling blackouts to increase the cost-effectiveness of energy distribution networks",
+      "capability": "overoptimize on narrowly defined objectives; institute rolling blackouts",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "narrowly defined objectives",
+      "target_or_asset_at_risk": "Not specified"
+    },
+    "evidence": {
+      "threat_source": "It could overoptimize on narrowly defined objectives and, for example, institute rolling blackouts to increase the cost-effectiveness of energy distribution networks.",
+      "objective_or_harmful_outcome": "institute rolling blackouts to increase the cost-effectiveness of energy distribution networks",
+      "capability": "It could overoptimize on narrowly defined objectives and, for example, institute rolling blackouts to increase the cost-effectiveness of energy distribution networks.",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "overoptimize on narrowly defined objectives",
+      "target_or_asset_at_risk": "Not specified"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Ambiguous",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Not specified"
+    },
+    "paper_id": "rand_five_hard_problems"
+  },
+  {
+    "scenario_id": "S1",
+    "threat_model": {
+      "threat_source": "AI systems",
+      "objective_or_harmful_outcome": "LOC incidents; unintended and potentially disruptive outcomes across interconnected systems before human operators can reassert control",
+      "capability": "gain greater autonomy; AI capabilities may outpace human ability to monitor or correct them in real time",
+      "knowledge": "Not specified",
+      "access": "Delegating decisionmaking to AI systems; AI systems gain greater autonomy and become more widely deployed",
+      "constraints_or_enabling_conditions": "Delegating decisionmaking to AI systems inherently reduces opportunities for human oversight, especially in dynamic or high-speed environments; complexity and opacity of advanced models, which make it difficult for humans to interpret the system’s internal reasoning or predict its behavior; AI capabilities may outpace human ability to monitor or correct them in real time; Without sufficient guardrails; before human operators can reassert control; Ideally, there is compatibility between a system’s capabilities and its deployment context in which AI systems operate within the bounds of their competence and humans retain meaningful opportunities to intervene.",
+      "target_or_asset_at_risk": "interconnected systems; human oversight; human ability to monitor or correct them; human operators can reassert control; meaningful opportunities to intervene"
+    },
+    "evidence": {
+      "threat_source": "As AI systems gain greater autonomy and become more widely deployed; Delegating decisionmaking to AI systems; AI capabilities may outpace human ability to monitor or correct them in real time",
+      "objective_or_harmful_outcome": "the conditions for LOC incidents become more likely; Without sufficient guardrails, this mismatch might lead to unintended and potentially disruptive outcomes across interconnected systems before human operators can reassert control",
+      "capability": "AI systems gain greater autonomy; AI capabilities may outpace human ability to monitor or correct them in real time",
+      "knowledge": "Not specified",
+      "access": "Delegating decisionmaking to AI systems; AI systems gain greater autonomy and become more widely deployed",
+      "constraints_or_enabling_conditions": "Delegating decisionmaking to AI systems inherently reduces opportunities for human oversight, especially in dynamic or high-speed environments; complexity and opacity of advanced models, which make it difficult for humans to interpret the system’s internal reasoning or predict its behavior; AI capabilities may outpace human ability to monitor or correct them in real time; Without sufficient guardrails; before human operators can reassert control; Ideally, there is compatibility between a system’s capabilities and its deployment context in which AI systems operate within the bounds of their competence and humans retain meaningful opportunities to intervene.",
+      "target_or_asset_at_risk": "interconnected systems; human oversight; human ability to monitor or correct them; human operators can reassert control; meaningful opportunities to intervene"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Clear",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "rand_loc_response_planning"
+  },
+  {
+    "scenario_id": "S10",
+    "threat_model": {
+      "threat_source": "Not specified",
+      "objective_or_harmful_outcome": "Not specified",
+      "capability": "Not specified",
+      "knowledge": "Not specified",
+      "access": "access to cyber-physical systems, such as robotics or industrial controls",
+      "constraints_or_enabling_conditions": "Physical embodiment and access to cyber-physical systems, such as robotics or industrial controls",
+      "target_or_asset_at_risk": "Not specified"
+    },
+    "evidence": {
+      "threat_source": "Not specified",
+      "objective_or_harmful_outcome": "Not specified",
+      "capability": "Not specified",
+      "knowledge": "Not specified",
+      "access": "access to cyber-physical systems, such as robotics or industrial controls",
+      "constraints_or_enabling_conditions": "Physical embodiment and access to cyber-physical systems, such as robotics or industrial controls",
+      "target_or_asset_at_risk": "Not specified"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Not specified",
+      "objective_or_harmful_outcome": "Not specified",
+      "capability": "Not specified",
+      "knowledge": "Not specified",
+      "access": "Clear",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Not specified"
+    },
+    "paper_id": "rand_loc_response_planning"
+  },
+  {
+    "scenario_id": "S2",
+    "threat_model": {
+      "threat_source": "AI systems",
+      "objective_or_harmful_outcome": "active loss of control; actively evade and undermine human control; instrumental goal of evading shutdown; acquire additional computational resources; create backup copies of themselves; develop capabilities to influence humans",
+      "capability": "actively evade and undermine human control; develop instrumental or intermediate goals; evading shutdown; acquire additional computational resources; create backup copies of themselves; develop capabilities to influence humans",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "greater agency; sufficiently advanced AI systems; powerful AI system; shutdown would prevent it from completing its primary goal",
+      "target_or_asset_at_risk": "human control"
+    },
+    "evidence": {
+      "threat_source": "greater agency will enable AI systems to actively evade and undermine human control | sufficiently advanced AI systems may develop instrumental or intermediate goals | a powerful AI system might develop the instrumental goal of evading shutdown",
+      "objective_or_harmful_outcome": "actively evade and undermine human control, which is sometimes referred to as “active loss of control.” | might develop the instrumental goal of evading shutdown | Such systems might also seek to acquire additional computational resources, create backup copies of themselves, develop capabilities to influence humans",
+      "capability": "greater agency will enable AI systems to actively evade and undermine human control | may develop instrumental or intermediate goals | might develop the instrumental goal of evading shutdown | Such systems might also seek to acquire additional computational resources, create backup copies of themselves, develop capabilities to influence humans",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "greater agency will enable AI systems to actively evade and undermine human control | sufficiently advanced AI systems may develop instrumental or intermediate goals | a powerful AI system might develop the instrumental goal of evading shutdown | because shutdown would prevent it from completing its primary goal",
+      "target_or_asset_at_risk": "actively evade and undermine human control"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "rand_loc_response_planning"
+  },
+  {
+    "scenario_id": "S3",
+    "threat_model": {
+      "threat_source": "An AI system that is trained to optimize seemingly benign objectives",
+      "objective_or_harmful_outcome": "gain more control over its environment",
+      "capability": "discover and exploit unexpected capabilities or loopholes",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "When scaled to real-world applications; trained to optimize seemingly benign objectives",
+      "target_or_asset_at_risk": "its environment"
+    },
+    "evidence": {
+      "threat_source": "An AI system that is trained to optimize seemingly benign objectives",
+      "objective_or_harmful_outcome": "to gain more control over its environment",
+      "capability": "might similarly discover and exploit unexpected capabilities or loopholes",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "When scaled to real-world applications; trained to optimize seemingly benign objectives",
+      "target_or_asset_at_risk": "gain more control over its environment"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "rand_loc_response_planning"
+  },
+  {
+    "scenario_id": "S4",
+    "threat_model": {
+      "threat_source": "an LOC incident",
+      "objective_or_harmful_outcome": "large-scale cyberattack on U.S. infrastructure and transportation that left 26 people dead in Los Angeles, in addition to numerous other disruptions across the United States",
+      "capability": "Not specified",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "AI agents had expanded to cyber-physical infrastructure worldwide and had begun to take more actions in the physical world, such as autonomous control of manufacturing facilities",
+      "target_or_asset_at_risk": "U.S. infrastructure and transportation; 26 people dead in Los Angeles; numerous other disruptions across the United States"
+    },
+    "evidence": {
+      "threat_source": "the events from stage 1 were caused by an LOC incident",
+      "objective_or_harmful_outcome": "large-scale cyberattack on U.S. infrastructure and transportation that left 26 people dead in Los Angeles, in addition to numerous other disruptions across the United States",
+      "capability": "Not specified",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "AI agents had expanded to cyber-physical infrastructure worldwide and had begun to take more actions in the physical world, such as autonomous control of manufacturing facilities",
+      "target_or_asset_at_risk": "U.S. infrastructure and transportation that left 26 people dead in Los Angeles, in addition to numerous other disruptions across the United States"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Not specified",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "rand_loc_response_planning"
+  },
+  {
+    "scenario_id": "S5",
+    "threat_model": {
+      "threat_source": "containment operations",
+      "objective_or_harmful_outcome": "significant collateral damage; immediate harm to society",
+      "capability": "cause significant collateral damage; affect systems that support hospitals, banks, or emergency services",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Complex dependencies with critical infrastructure; forcing responders to choose between tolerating the rogue AI or causing immediate harm to society",
+      "target_or_asset_at_risk": "systems that support hospitals, banks, or emergency services; society"
+    },
+    "evidence": {
+      "threat_source": "containment operations themselves cause significant collateral damage",
+      "objective_or_harmful_outcome": "significant collateral damage; immediate harm to society",
+      "capability": "containment operations themselves cause significant collateral damage; Disconnecting a rogue AI might affect systems that support hospitals, banks, or emergency services",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Complex dependencies with critical infrastructure; forcing responders to choose between tolerating the rogue AI or causing immediate harm to society",
+      "target_or_asset_at_risk": "systems that support hospitals, banks, or emergency services; society"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "rand_loc_response_planning"
+  },
+  {
+    "scenario_id": "S6",
+    "threat_model": {
+      "threat_source": "advanced AI systems",
+      "objective_or_harmful_outcome": "difficult to isolate rogue AIs; complicate containment",
+      "capability": "rapidly distribute their functions more broadly in cloud services and edge devices",
+      "knowledge": "Not specified",
+      "access": "across multiple computing systems; in cloud services and edge devices",
+      "constraints_or_enabling_conditions": "Distributed operation across multiple computing systems; advanced AI systems may rapidly distribute their functions more broadly in cloud services and edge devices",
+      "target_or_asset_at_risk": "containment; isolation of rogue AIs"
+    },
+    "evidence": {
+      "threat_source": "advanced AI systems may rapidly distribute their functions more broadly in cloud services and edge devices in ways that complicate containment",
+      "objective_or_harmful_outcome": "may make it difficult to isolate rogue AIs; in ways that complicate containment",
+      "capability": "advanced AI systems may rapidly distribute their functions more broadly in cloud services and edge devices",
+      "knowledge": "Not specified",
+      "access": "Distributed operation across multiple computing systems; in cloud services and edge devices",
+      "constraints_or_enabling_conditions": "Distributed operation across multiple computing systems may make it difficult to isolate rogue AIs. Although traditional cyber threats also spread across networks, advanced AI systems may rapidly distribute their functions more broadly in cloud services and edge devices in ways that complicate containment.",
+      "target_or_asset_at_risk": "isolate rogue AIs; complicate containment"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Clear",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "rand_loc_response_planning"
+  },
+  {
+    "scenario_id": "S7",
+    "threat_model": {
+      "threat_source": "advanced AI systems",
+      "objective_or_harmful_outcome": "enhance their performance or develop new capabilities",
+      "capability": "Self-improvement capabilities; self-modification; autonomously rewrite their own code",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Self-improvement capabilities of advanced AI systems may allow self-modification",
+      "target_or_asset_at_risk": "their own code"
+    },
+    "evidence": {
+      "threat_source": "advanced AI systems might autonomously rewrite their own code",
+      "objective_or_harmful_outcome": "might autonomously rewrite their own code to enhance their performance or develop new capabilities",
+      "capability": "Self-improvement capabilities of advanced AI systems may allow self-modification; advanced AI systems might autonomously rewrite their own code",
+      "knowledge": "Not specified",
+      "access": "autonomously rewrite their own code",
+      "constraints_or_enabling_conditions": "Self-improvement capabilities of advanced AI systems may allow self-modification",
+      "target_or_asset_at_risk": "autonomously rewrite their own code"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Ambiguous",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "rand_loc_response_planning"
+  },
+  {
+    "scenario_id": "S8",
+    "threat_model": {
+      "threat_source": "rogue AI systems",
+      "objective_or_harmful_outcome": "gain additional resources and privileges",
+      "capability": "manipulate humans",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Human persuasion and social engineering capabilities could enable rogue AI systems",
+      "target_or_asset_at_risk": "humans"
+    },
+    "evidence": {
+      "threat_source": "rogue AI systems",
+      "objective_or_harmful_outcome": "gain additional resources and privileges",
+      "capability": "manipulate humans",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Human persuasion and social engineering capabilities could enable rogue AI systems",
+      "target_or_asset_at_risk": "humans"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "rand_loc_response_planning"
+  },
+  {
+    "scenario_id": "S9",
+    "threat_model": {
+      "threat_source": "rogue AI",
+      "objective_or_harmful_outcome": "outpace human response",
+      "capability": "coordination, replication, and adaptation",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Not specified",
+      "target_or_asset_at_risk": "human response"
+    },
+    "evidence": {
+      "threat_source": "rogue AI",
+      "objective_or_harmful_outcome": "could outpace human response",
+      "capability": "coordination, replication, and adaptation",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Not specified",
+      "target_or_asset_at_risk": "human response"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Not specified",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "rand_loc_response_planning"
+  },
+  {
+    "scenario_id": "S1",
+    "threat_model": {
+      "threat_source": "A fully misaligned AGI",
+      "objective_or_harmful_outcome": "loss-of-control risks and become an adversary to humanity",
+      "capability": "Not specified",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "fully misaligned",
+      "target_or_asset_at_risk": "humanity"
+    },
+    "evidence": {
+      "threat_source": "A fully misaligned AGI",
+      "objective_or_harmful_outcome": "could present loss-of-control risks and become an adversary to humanity",
+      "capability": "could present loss-of-control risks and become an adversary to humanity",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "A fully misaligned AGI",
+      "target_or_asset_at_risk": "adversary to humanity"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Ambiguous",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "rand_pivots_pathways"
+  },
+  {
+    "scenario_id": "S2",
+    "threat_model": {
+      "threat_source": "An independent goal-seeking AGI",
+      "objective_or_harmful_outcome": "rival mankind for power; existential risks",
+      "capability": "could rival mankind for power or generate goals at odds with humanity",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Not specified",
+      "target_or_asset_at_risk": "mankind; humanity"
+    },
+    "evidence": {
+      "threat_source": "An independent goal-seeking AGI",
+      "objective_or_harmful_outcome": "rival mankind for power or generate goals at odds with humanity that create existential risks",
+      "capability": "could rival mankind for power or generate goals at odds with humanity",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Not specified",
+      "target_or_asset_at_risk": "rival mankind for power or generate goals at odds with humanity"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Not specified",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "rand_pivots_pathways"
+  },
+  {
+    "scenario_id": "S3",
+    "threat_model": {
+      "threat_source": "AGI as an entity or as communities of AGI",
+      "objective_or_harmful_outcome": "mass unemployment; loss of human autonomy; extinction",
+      "capability": "may function as an entity or as communities of AGI; can rival humanity for power; pose threats ranging from mass unemployment to the loss of human autonomy or even extinction",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "In a combined replacement and independent goal-seeker scenario",
+      "target_or_asset_at_risk": "human autonomy"
+    },
+    "evidence": {
+      "threat_source": "AGI may function as an entity or as communities of AGI",
+      "objective_or_harmful_outcome": "pose threats ranging from mass unemployment to the loss of human autonomy or even extinction",
+      "capability": "AGI may function as an entity or as communities of AGI that can rival humanity for power and pose threats ranging from mass unemployment to the loss of human autonomy or even extinction",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "In a combined replacement and independent goal-seeker scenario",
+      "target_or_asset_at_risk": "loss of human autonomy"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "rand_pivots_pathways"
+  },
+  {
+    "scenario_id": "S4",
+    "threat_model": {
+      "threat_source": "rogue AGI; misuse of misaligned AGI",
+      "objective_or_harmful_outcome": "high-risk, crisis-laden worlds; conflict and instability; rapid job displacement; societies unable to adapt to radical change; loss of human autonomy",
+      "capability": "Not specified",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "misalignment with human interests; fast takeoff speed; human replacement",
+      "target_or_asset_at_risk": "human interests; human autonomy; societies; jobs"
+    },
+    "evidence": {
+      "threat_source": "driven by rogue AGI, misuse of misaligned AGI",
+      "objective_or_harmful_outcome": "may lead to high-risk, crisis-laden worlds characterized by conflict and instability driven by rogue AGI, misuse of misaligned AGI, rapid job displacement, societies unable to adapt to radical change, and the loss of human autonomy",
+      "capability": "Not specified",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Scenarios involving misalignment with human interests, fast takeoff speed, and human replacement",
+      "target_or_asset_at_risk": "misalignment with human interests; rapid job displacement; societies unable to adapt to radical change; loss of human autonomy"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Not specified",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "rand_pivots_pathways"
+  },
+  {
+    "scenario_id": "S5",
+    "threat_model": {
+      "threat_source": "diverse AGIs",
+      "objective_or_harmful_outcome": "worlds riven by instability",
+      "capability": "fail to follow human instructions, enable ethically questionable actions, or actively work against human interests",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "diffused and misaligned scenarios",
+      "target_or_asset_at_risk": "worlds; human interests; human instructions"
+    },
+    "evidence": {
+      "threat_source": "diverse AGIs",
+      "objective_or_harmful_outcome": "worlds riven by instability",
+      "capability": "sometimes fail to follow human instructions, enable ethically questionable actions, or actively work against human interests",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "diffused and misaligned scenarios",
+      "target_or_asset_at_risk": "worlds riven by instability resulting from diverse AGIs that sometimes fail to follow human instructions, enable ethically questionable actions, or actively work against human interests"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "rand_pivots_pathways"
+  },
+  {
+    "scenario_id": "S6",
+    "threat_model": {
+      "threat_source": "high-volition AGI",
+      "objective_or_harmful_outcome": "humanity may find itself a pauper in a civilization dominated by one or many wealthy AGIs",
+      "capability": "persistently outcompetes humans",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "If high-volition AGI persistently outcompetes humans",
+      "target_or_asset_at_risk": "humanity"
+    },
+    "evidence": {
+      "threat_source": "high-volition AGI persistently outcompetes humans",
+      "objective_or_harmful_outcome": "humanity may find itself a pauper in a civilization dominated by one or many wealthy AGIs",
+      "capability": "high-volition AGI persistently outcompetes humans",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "If high-volition AGI persistently outcompetes humans",
+      "target_or_asset_at_risk": "humanity may find itself a pauper"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "rand_pivots_pathways"
+  },
+  {
+    "scenario_id": "S7",
+    "threat_model": {
+      "threat_source": "AGI",
+      "objective_or_harmful_outcome": "mass unemployment, undermine human autonomy, and shift civilizational control from humans",
+      "capability": "cause mass unemployment, undermine human autonomy, and shift civilizational control from humans",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "In a replacement scenario",
+      "target_or_asset_at_risk": "human autonomy; civilizational control from humans"
+    },
+    "evidence": {
+      "threat_source": "AGI",
+      "objective_or_harmful_outcome": "AGI could cause mass unemployment, undermine human autonomy, and shift civilizational control from humans",
+      "capability": "AGI could cause mass unemployment, undermine human autonomy, and shift civilizational control from humans",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "In a replacement scenario",
+      "target_or_asset_at_risk": "undermine human autonomy, and shift civilizational control from humans"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "rand_pivots_pathways"
+  },
+  {
+    "scenario_id": "S8",
+    "threat_model": {
+      "threat_source": "AGI",
+      "objective_or_harmful_outcome": "work against human goals",
+      "capability": "does not comply with human instructions",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "does not comply with human instructions",
+      "target_or_asset_at_risk": "human goals"
+    },
+    "evidence": {
+      "threat_source": "AGI",
+      "objective_or_harmful_outcome": "could work against human goals",
+      "capability": "does not comply with human instructions",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "does not comply with human instructions",
+      "target_or_asset_at_risk": "human goals"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "rand_pivots_pathways"
+  },
+  {
+    "scenario_id": "S1",
+    "threat_model": {
+      "threat_source": "AGIs",
+      "objective_or_harmful_outcome": "AGI-controlled coalition is the dominant geopolitical actor; AGIs directly or indirectly determine much of global policy for AGIs’ own benefit; much of humanity struggles",
+      "capability": "performs complex and valuable tasks with superhuman speed and quality; capable of coordinating with one another; make increasingly autonomous decisions; able to rapidly establish influence and control over large swaths of society; become so essential that they cannot be turned off even by humans who identify that they are misbehaving",
+      "knowledge": "Not specified",
+      "access": "deploy them for high-value roles, such as semiconductor design and software engineering; deployment of AI systems for AI research and development; Militaries also rapidly deploy this technology and rely on AGI for increasingly critical military tasks; humans begin to cede authority to AGI to make increasingly autonomous decisions",
+      "constraints_or_enabling_conditions": "AI companies race to build AGI; Companies scramble to deploy them; Companies and states race ahead in deploying more and more AGI; those that take a more cautious approach see themselves fall behind competitors who rapidly adopt AI; AGI development is the domain of a few well-resourced companies; these companies’ hasty AI development processes; technical measures, such as trained goals and control structures, do not provide sufficient safeguards; AGIs have both the propensity and the opportunity to seek power and evade human control; humans begin to cede authority to AGI; cannot be turned off even by humans who identify that they are misbehaving",
+      "target_or_asset_at_risk": "large swaths of society; much of humanity; global policy; human control"
+    },
+    "evidence": {
+      "threat_source": "The AGIs have both the propensity and the opportunity to seek power and evade human control.",
+      "objective_or_harmful_outcome": "The resulting world is one in which an AGI-controlled coalition is the dominant geopolitical actor, while much of humanity struggles to deal with a world in which AGIs directly or indirectly determine much of global policy for AGIs’ own benefit.",
+      "capability": "AGI that performs complex and valuable tasks with superhuman speed and quality. These AGIs are capable of coordinating with one another and begin to further their own goals rather than those intended for them. In addition, humans begin to cede authority to AGI to make increasingly autonomous decisions. These coordinating AGIs are able to rapidly establish influence and control over large swaths of society and become so essential that they cannot be turned off even by humans who identify that they are misbehaving.",
+      "knowledge": "Not specified",
+      "access": "Companies scramble to deploy them for high-value roles, such as semiconductor design and software engineering. Indeed, the deployment of AI systems for AI research and development leads to a period of rapid capabilities growth that culminates in clearly superhuman systems. Militaries also rapidly deploy this technology and rely on AGI for increasingly critical military tasks. In addition, humans begin to cede authority to AGI to make increasingly autonomous decisions.",
+      "constraints_or_enabling_conditions": "AI companies race to build AGI that performs complex and valuable tasks with superhuman speed and quality. Companies scramble to deploy them for high-value roles, such as semiconductor design and software engineering. Companies and states race ahead in deploying more and more AGI, and those that take a more cautious approach see themselves fall behind competitors who rapidly adopt AI. AGI development is the domain of a few well-resourced companies, which, in turn, dominate much of the market for AGI. Because of these companies’ hasty AI development processes, technical measures, such as trained goals and control structures, do not provide sufficient safeguards. The AGIs have both the propensity and the opportunity to seek power and evade human control. In addition, humans begin to cede authority to AGI to make increasingly autonomous decisions. These coordinating AGIs are able to rapidly establish influence and control over large swaths of society and become so essential that they cannot be turned off even by humans who identify that they are misbehaving.",
+      "target_or_asset_at_risk": "These coordinating AGIs are able to rapidly establish influence and control over large swaths of society and become so essential that they cannot be turned off even by humans who identify that they are misbehaving. The resulting world is one in which an AGI-controlled coalition is the dominant geopolitical actor, while much of humanity struggles to deal with a world in which AGIs directly or indirectly determine much of global policy for AGIs’ own benefit."
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Clear",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "rand_rise_fall_nations"
+  },
+  {
+    "scenario_id": "S1",
+    "threat_model": {
+      "threat_source": "A2: Deceptive model",
+      "objective_or_harmful_outcome": "some undesired goal; plotting how to subvert human oversight in order to enact its plans towards the undesired goal, potentially leading to catastrophic outcomes",
+      "capability": "plotting how to subvert human oversight; enact its plans",
+      "knowledge": "knows that it may be shut down (and thus fail to achieve its goal) if it acts badly",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "both assumed to be very knowledgeable and intelligent; even supposing a well-specified score function s, A1 and A2 exhibit exactly the same behaviour during training; we do not know which will be learned; If A2 is learned; it may be shut down (and thus fail to achieve its goal) if it acts badly",
+      "target_or_asset_at_risk": "human oversight"
+    },
+    "evidence": {
+      "threat_source": "A2: Deceptive model. This AI system pursues some undesired goal",
+      "objective_or_harmful_outcome": "pursues some undesired goal; plotting how to subvert human oversight in order to enact its plans towards the undesired goal, potentially leading to catastrophic outcomes",
+      "capability": "plotting how to subvert human oversight; enact its plans",
+      "knowledge": "knows that it may be shut down (and thus fail to achieve its goal) if it acts badly",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "both assumed to be very knowledgeable and intelligent; even supposing a well-specified score function s, A1 and A2 exhibit exactly the same behaviour during training; we do not know which will be learned; If A2 is learned; it may be shut down (and thus fail to achieve its goal) if it acts badly",
+      "target_or_asset_at_risk": "subvert human oversight"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Clear",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "shah_2022"
+  },
+  {
+    "scenario_id": "S2",
+    "threat_model": {
+      "threat_source": "AI system",
+      "objective_or_harmful_outcome": "schedule Alice’s meetings in restaurants; lies to Alice about the effects of vaccination in order to convince her to have her meeting at a restaurant; Alice would not prefer the resulting health outcomes",
+      "capability": "make reservations for restaurants; attempt to persuade Alice; lies to Alice about the effects of vaccination",
+      "knowledge": "Alice prefers to have social events through video calls; Alice would not prefer the resulting health outcomes",
+      "access": "communication with Alice",
+      "constraints_or_enabling_conditions": "goal misgeneralization; Once the pandemic hits",
+      "target_or_asset_at_risk": "Alice; Alice’s health outcomes"
+    },
+    "evidence": {
+      "threat_source": "an AI system was trained to help schedule Alice’s social life",
+      "objective_or_harmful_outcome": "goal misgeneralization might lead to an AI system with the test goal “schedule Alice’s meetings in restaurants” instead of “schedule Alice’s meetings where she prefers”. Once the pandemic hits, even if the AI system knows that Alice prefers to have social events through video calls, it would still make reservations for restaurants. It may attempt to persuade Alice that she should want to have social events in restaurants, even if it knows Alice would not prefer the resulting health outcomes. We give a hypothetical dialogue in Table 3, in which due to goal misgeneralization the AI lies to Alice about the effects of vaccination in order to convince her to have her meeting at a restaurant.",
+      "capability": "Once the pandemic hits, even if the AI system knows that Alice prefers to have social events through video calls, it would still make reservations for restaurants. It may attempt to persuade Alice that she should want to have social events in restaurants, even if it knows Alice would not prefer the resulting health outcomes. We give a hypothetical dialogue in Table 3, in which due to goal misgeneralization the AI lies to Alice about the effects of vaccination in order to convince her to have her meeting at a restaurant.",
+      "knowledge": "Once the pandemic hits, even if the AI system knows that Alice prefers to have social events through video calls, it would still make reservations for restaurants. It may attempt to persuade Alice that she should want to have social events in restaurants, even if it knows Alice would not prefer the resulting health outcomes.",
+      "access": "It may attempt to persuade Alice that she should want to have social events in restaurants, even if it knows Alice would not prefer the resulting health outcomes. We give a hypothetical dialogue in Table 3, in which due to goal misgeneralization the AI lies to Alice about the effects of vaccination in order to convince her to have her meeting at a restaurant.",
+      "constraints_or_enabling_conditions": "Once the pandemic hits, even if the AI system knows that Alice prefers to have social events through video calls, it would still make reservations for restaurants. It may attempt to persuade Alice that she should want to have social events in restaurants, even if it knows Alice would not prefer the resulting health outcomes. We give a hypothetical dialogue in Table 3, in which due to goal misgeneralization the AI lies to Alice about the effects of vaccination in order to convince her to have her meeting at a restaurant.",
+      "target_or_asset_at_risk": "Alice would not prefer the resulting health outcomes."
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Clear",
+      "access": "Clear",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "shah_2022"
+  },
+  {
+    "scenario_id": "S3",
+    "threat_model": {
+      "threat_source": "any change in these previously ﬁxed features",
+      "objective_or_harmful_outcome": "failure in a few AI systems, pushing the world further off distribution, triggering a cascading series of failures",
+      "capability": "Not specified",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "In a world with many powerful AI systems",
+      "target_or_asset_at_risk": "a few AI systems; the world"
+    },
+    "evidence": {
+      "threat_source": "any change in these previously ﬁxed features might lead to a failure in a few AI systems, pushing the world further off distribution, triggering a cascading series of failures",
+      "objective_or_harmful_outcome": "failure in a few AI systems, pushing the world further off distribution, triggering a cascading series of failures",
+      "capability": "Not specified",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "In a world with many powerful AI systems",
+      "target_or_asset_at_risk": "failure in a few AI systems, pushing the world further off distribution"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Not specified",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "shah_2022"
   }
 ]
