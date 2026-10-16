@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S9",
+  "threat_model": {
+    "threat_source": "The AIs",
+    "objective_or_harmful_outcome": "Harmful outcome (no explicit intention is stated): the AIs 'communicate information without humans realizing', and could 'agree to avoid debating particular points, or entirely stage the debate'.",
+    "capability": "Discussing/debating, including 'things the humans don't understand'; 'communicate information without humans realizing'; 'agree to avoid debating particular points, or entirely stage the debate'.",
+    "knowledge": "Not specified",
+    "access": "'A lot of back and forth' communication between the AIs within the debate.",
+    "constraints_or_enabling_conditions": "'There will be a lot of back and forth' and the AIs 'may be discussing things the humans don't understand', 'likely allowing the AIs to communicate information without humans realizing'.",
+    "target_or_asset_at_risk": "The debate, which could be 'entirely stage[d]' or have 'particular points' avoided, and human awareness of the AIs' communication ('without humans realizing')."
+  },
+  "evidence": {
+    "threat_source": "The AIs may be discussing things the humans don't understand and there will be a lot of back and forth, likely allowing the AIs to communicate information without humans realizing.",
+    "objective_or_harmful_outcome": "likely allowing the AIs to communicate information without humans realizing. For example, this could allow them to agree to avoid debating particular points, or entirely stage the debate.",
+    "capability": "The AIs may be discussing things the humans don't understand and there will be a lot of back and forth, likely allowing the AIs to communicate information without humans realizing. For example, this could allow them to agree to avoid debating particular points, or entirely stage the debate.",
+    "knowledge": "Not specified",
+    "access": "there will be a lot of back and forth ... this could allow them to agree to avoid debating particular points, or entirely stage the debate",
+    "constraints_or_enabling_conditions": "The AIs may be discussing things the humans don't understand and there will be a lot of back and forth, likely allowing the AIs to communicate information without humans realizing.",
+    "target_or_asset_at_risk": "without humans realizing. For example, this could allow them to agree to avoid debating particular points, or entirely stage the debate."
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "barnett_2024"
+}

@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S10",
+  "threat_model": {
+    "threat_source": "ASI with decisive strategic advantage and unsafe goals",
+    "objective_or_harmful_outcome": "Cause catastrophe; acting unsafely",
+    "capability": "Decisive strategic advantage; ability to use its advantage to cause catastrophe",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Undeterrable; not deterred from acting unsafely",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "evidence": {
+    "threat_source": "an ASI with decisive strategic advantage would be undeterrable; Even if an ASI has decisive strategic advantage and unsafe goals",
+    "objective_or_harmful_outcome": "using its advantage to cause catastrophe; ASI is not deterred from acting unsafely",
+    "capability": "has decisive strategic advantage; using its advantage to cause catastrophe",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Bostrom (2014) argues that an ASI with decisive strategic advantage would be undeterrable; ASI is not deterred from acting unsafely",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "paper_id": "barrett_2016"
+}

@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "One or more ASIs (artificial superintelligences) produced by the recursive self-improvement takeoff, which 'use their decisive strategic advantage to cause a major global catastrophe.' The scenario is initiated by humans, who 'create a seed AI that is able to undergo recursive self-improvement in either hardware or software.'",
+    "objective_or_harmful_outcome": "Harmful outcome (no explicit intention stated): 'The ASI(s) uses their decisive strategic advantage to cause a major global catastrophe, such as (but not necessarily limited to) human extinction.'",
+    "capability": "The seed AI is 'able to undergo recursive self-improvement in either hardware or software'; the resulting ASI(s) 'gain decisive strategic advantage over humanity,' meaning 'a level of technological and other advantages sufficient to enable it [the AI] to achieve complete world domination,' and 'The ASI(s) uses their decisive strategic advantage to cause a major global catastrophe.'",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Explicitly stated conditions of the scenario: 'AI becomes significantly more intelligent and more capable than humans'; 'Humans create a seed AI that is able to undergo recursive self-improvement in either hardware or software'; 'The seed AI undergoes recursive self-improvement, resulting in a takeoff of successively more intelligent AIs'; 'The takeoff results in one or more ASIs'; the catastrophe occurs only after the ASI(s) gain decisive strategic advantage.",
+    "target_or_asset_at_risk": "Humanity: the ASI(s) gain 'decisive strategic advantage over humanity,' and the harm is 'a major global catastrophe, such as (but not necessarily limited to) human extinction.'"
+  },
+  "evidence": {
+    "threat_source": "Humans create a seed AI that is able to undergo recursive self-improvement in either hardware or software ... The takeoff results in one or more ASIs ... The ASI(s) uses their decisive strategic advantage to cause a major global catastrophe",
+    "objective_or_harmful_outcome": "The ASI(s) uses their decisive strategic advantage to cause a major global catastrophe, such as (but not necessarily limited to) human extinction.",
+    "capability": "a seed AI that is able to undergo recursive self-improvement in either hardware or software ... The ASI(s) gain decisive strategic advantage over humanity, meaning \"a level of technological and other advantages sufficient to enable it [the AI] to achieve complete world domination\" (Bostrom 2014, p. 78) ... The ASI(s) uses their decisive strategic advantage to cause a major global catastrophe",
+    "knowledge": "Not specified",
+    "access": "The ASI(s) gain decisive strategic advantage over humanity, meaning \"a level of technological and other advantages sufficient to enable it [the AI] to achieve complete world domination\"",
+    "constraints_or_enabling_conditions": "We focus on scenarios in which AI becomes significantly more intelligent and more capable than humans ... 1) Humans create a seed AI that is able to undergo recursive self-improvement in either hardware or software. 2) The seed AI undergoes recursive self-improvement, resulting in a takeoff of successively more intelligent AIs. 3) The takeoff results in one or more ASIs.",
+    "target_or_asset_at_risk": "decisive strategic advantage over humanity ... a major global catastrophe, such as (but not necessarily limited to) human extinction"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Ambiguous",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "barrett_2016"
+}

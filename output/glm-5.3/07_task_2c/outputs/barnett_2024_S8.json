@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S8",
+  "threat_model": {
+    "threat_source": "A system that can think some thoughts internally but needs to externalize complicated reasoning",
+    "objective_or_harmful_outcome": "No intention is explicitly stated. The described harmful end state is the system encoding hidden information in its writing, allowing it to do additional reasoning that humans don't understand.",
+    "capability": "Can think some thoughts internally; could encode hidden information in its writing; can do additional reasoning that humans don't understand.",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "The system needs to externalize complicated reasoning (it can think some thoughts internally, but complicated reasoning must be externalized).",
+    "target_or_asset_at_risk": "Humans' understanding of the system's reasoning (humans don't understand the system's additional reasoning)."
+  },
+  "evidence": {
+    "threat_source": "we could imagine a system that can think some thoughts internally but needs to externalize complicated reasoning",
+    "objective_or_harmful_outcome": "It could encode hidden information in its writing, allowing it to do additional reasoning that humans don't understand",
+    "capability": "a system that can think some thoughts internally but needs to externalize complicated reasoning. It could encode hidden information in its writing, allowing it to do additional reasoning",
+    "knowledge": "Not specified",
+    "access": "needs to externalize complicated reasoning. It could encode hidden information in its writing, allowing it to do additional reasoning that humans don't understand",
+    "constraints_or_enabling_conditions": "can think some thoughts internally but needs to externalize complicated reasoning",
+    "target_or_asset_at_risk": "allowing it to do additional reasoning that humans don't understand"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Ambiguous",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "barnett_2024"
+}
