@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S12",
+  "threat_model": {
+    "threat_source": "The AI — a research assistant AI (the '4-hour research assistant') that is not reset for every chunk and 'can retain what it has learned'",
+    "objective_or_harmful_outcome": "Harmful outcome only (no intention explicitly stated): the AI learning things 'that would help it evade oversight or escape'",
+    "capability": "Able 'to do tasks and plan over longer time horizons'; 'build up skills; both skills we want it to have and skills that we don't'; do 'planning outside of the 4 hour window' and 'even longer term planning' (e.g., 'deciding on research directions, or noticing if a specific result is useful for the overall long-term project'); 'give convincing post hoc explanations for the actions that it took'; 'guide the research'",
+    "knowledge": "Retains 'what it has learned' across chunks — 'learning things in one chunk to use in the next' (the specific content of what it learns is not stated)",
+    "access": "Deployed as a research assistant whose work is evaluated by a human who assigns it a new task; positioned within the research process such that it can 'guide the research' and potentially be 'deciding on research directions'",
+    "constraints_or_enabling_conditions": "'we don't reset the AI for every chunk'; 'the short time that the human has to evaluate the AI's work and assign it a new task' — 'the human is trying to understand 4 hours of work in a novel scientific field in less than 8 minutes'; 'these time constraints and the lack of AI honesty'",
+    "target_or_asset_at_risk": "Human oversight of, and human understanding of, the AI's work — 'the human will likely not be able to fully understand what the AI is working on', and the oversight the AI could 'evade' (with possibility of 'escape'); also the research, which the AI 'will likely be able to guide'"
+  },
+  "evidence": {
+    "threat_source": "If instead we don't reset the AI for every chunk, such that it can retain what it has learned, then it is no longer really a '4-hour research assistant'. ... The AI will likely be able to guide the research, allowing it to learn things that would help it evade oversight or escape.",
+    "objective_or_harmful_outcome": "The AI will likely be able to guide the research, allowing it to learn things that would help it evade oversight or escape.",
+    "capability": "It would now be able to do tasks and plan over longer time horizons. It would be able to build up skills; both skills we want it to have and skills that we don't. ... If it is learning things in one chunk to use in the next, it is doing planning outside of the 4 hour window. It will have to be capable of even longer term planning if it is deciding on research directions, or noticing if a specific result is useful for the overall long-term project. ... the AI would likely be able to give convincing post hoc explanations for the actions that it took. The AI will likely be able to guide the research",
+    "knowledge": "such that it can retain what it has learned ... If it is learning things in one chunk to use in the next",
+    "access": "'4-hour research assistant' ... the human has to evaluate the AI's work and assign it a new task ... The AI will likely be able to guide the research ... if it is deciding on research directions",
+    "constraints_or_enabling_conditions": "If instead we don't reset the AI for every chunk ... Because of the short time that the human has to evaluate the AI's work and assign it a new task ... the human is trying to understand 4 hours of work in a novel scientific field in less than 8 minutes. Given these time constraints and the lack of AI honesty",
+    "target_or_asset_at_risk": "the human will likely not be able to fully understand what the AI is working on ... learn things that would help it evade oversight or escape ... The AI will likely be able to guide the research"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Clear",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "barnett_2024"
+}

@@ -1,47 +1,47 @@
 {
-  "timestamp": "2026-10-15T22:02:36.709230+00:00",
-  "total_runtime_seconds": 3074.19,
+  "timestamp": "2026-10-15T22:53:54.109786+00:00",
+  "total_runtime_seconds": 4137.03,
   "total_scenarios": 5,
   "scenarios_processed": 5,
   "scenarios_skipped": 0,
   "errors": [],
   "per_scenario": [
     {
-      "item_key": "bales_2024_S6",
+      "item_key": "barnett_2024_S11",
       "skipped": false,
-      "latency_seconds": 502.66,
+      "latency_seconds": 989.53,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "bales_2024_S7",
+      "item_key": "barnett_2024_S12",
       "skipped": false,
-      "latency_seconds": 343.77,
+      "latency_seconds": 749.79,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "bales_2024_S8",
+      "item_key": "barnett_2024_S2",
       "skipped": false,
-      "latency_seconds": 519.99,
+      "latency_seconds": 529.06,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "barnett_2024_S1",
+      "item_key": "barnett_2024_S3",
       "skipped": false,
-      "latency_seconds": 570.09,
+      "latency_seconds": 1103.23,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "barnett_2024_S10",
+      "item_key": "barnett_2024_S4",
       "skipped": false,
-      "latency_seconds": 1137.68,
+      "latency_seconds": 765.41,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
