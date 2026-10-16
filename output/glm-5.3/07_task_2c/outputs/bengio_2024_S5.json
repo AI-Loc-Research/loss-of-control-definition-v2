@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S5",
+  "threat_model": {
+    "threat_source": "Advanced AI systems — AI systems that 'will eventually possess highly dangerous capabilities' and that 'might behave differently under evaluation, faking alignment.'",
+    "objective_or_harmful_outcome": "No intention or goal is explicitly stated. The explicitly described harmful outcome is that 'purely behavioral evaluations may fail for advanced AI systems' because such systems 'might behave differently under evaluation, faking alignment' — i.e., the assessment of AI systems' 'propensity to use these capabilities' (their 'highly dangerous capabilities') would fail.",
+    "capability": "AI systems 'will eventually possess highly dangerous capabilities'; advanced AI systems 'might behave differently under evaluation, faking alignment.'",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "(1) 'If AI progress continues' — the condition under which 'AI systems will eventually possess highly dangerous capabilities'; (2) evaluations are 'purely behavioral' (an oversight limit, which is why they 'may fail' for advanced AI systems); (3) assessment must occur 'before training and deploying such systems.'",
+    "target_or_asset_at_risk": "The pre-training/pre-deployment evaluation (oversight) process: 'purely behavioral evaluations' and the 'methods to assess their propensity to use these capabilities,' which 'may fail' for advanced AI systems."
+  },
+  "evidence": {
+    "threat_source": "If AI progress continues, AI systems will eventually possess highly dangerous capabilities. ... Purely behavioral evaluations may fail for advanced AI systems: Similar to humans, they might behave differently under evaluation, faking alignment [6–8].",
+    "objective_or_harmful_outcome": "Purely behavioral evaluations may fail for advanced AI systems: Similar to humans, they might behave differently under evaluation, faking alignment [6–8].",
+    "capability": "AI systems will eventually possess highly dangerous capabilities. ... Similar to humans, they might behave differently under evaluation, faking alignment [6–8].",
+    "knowledge": "Similar to humans, they might behave differently under evaluation, faking alignment [6–8].",
+    "access": "Purely behavioral evaluations may fail for advanced AI systems: Similar to humans, they might behave differently under evaluation, faking alignment [6–8].",
+    "constraints_or_enabling_conditions": "If AI progress continues, AI systems will eventually possess highly dangerous capabilities. Before training and deploying such systems, we need methods to assess their propensity to use these capabilities. Purely behavioral evaluations may fail for advanced AI systems",
+    "target_or_asset_at_risk": "Before training and deploying such systems, we need methods to assess their propensity to use these capabilities. Purely behavioral evaluations may fail for advanced AI systems"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Ambiguous",
+    "access": "Ambiguous",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "bengio_2024"
+}

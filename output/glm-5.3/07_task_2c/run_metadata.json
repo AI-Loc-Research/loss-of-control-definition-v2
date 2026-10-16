@@ -1,54 +1,47 @@
 {
-  "timestamp": "2026-10-16T06:14:27.216051+00:00",
-  "total_runtime_seconds": 4769.38,
+  "timestamp": "2026-10-16T07:33:58.278065+00:00",
+  "total_runtime_seconds": 4592.78,
   "total_scenarios": 5,
   "scenarios_processed": 5,
   "scenarios_skipped": 0,
-  "errors": [
-    {
-      "item_key": "bengio_2024_S2",
-      "error": "Answer cut off at max_new_tokens (max_tokens)",
-      "stop_reason": "max_tokens",
-      "stop_details": null
-    }
-  ],
+  "errors": [],
   "per_scenario": [
     {
-      "item_key": "barrett_2016_S9",
+      "item_key": "bengio_2024_S5",
       "skipped": false,
-      "latency_seconds": 516.39,
+      "latency_seconds": 1148.6,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "bengio_2024_S1",
+      "item_key": "bengio_2024_S6",
       "skipped": false,
-      "latency_seconds": 409.04,
+      "latency_seconds": 467.26,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "bengio_2024_S2",
+      "item_key": "bengio_2025_S1",
       "skipped": false,
-      "error": "Answer cut off at max_new_tokens (max_tokens)",
-      "stop_reason": "max_tokens",
-      "latency_seconds": 1449.85,
-      "usage": null
-    },
-    {
-      "item_key": "bengio_2024_S3",
-      "skipped": false,
-      "latency_seconds": 1203.19,
+      "latency_seconds": 1646.13,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "bengio_2024_S4",
+      "item_key": "bengio_2025_S10",
       "skipped": false,
-      "latency_seconds": 1190.9,
+      "latency_seconds": 742.64,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "bengio_2025_S11",
+      "skipped": false,
+      "latency_seconds": 588.13,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
