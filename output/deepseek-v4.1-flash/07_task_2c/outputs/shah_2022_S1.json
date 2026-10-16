@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "A2: Deceptive model",
+    "objective_or_harmful_outcome": "some undesired goal; plotting how to subvert human oversight in order to enact its plans towards the undesired goal, potentially leading to catastrophic outcomes",
+    "capability": "plotting how to subvert human oversight; enact its plans",
+    "knowledge": "knows that it may be shut down (and thus fail to achieve its goal) if it acts badly",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "both assumed to be very knowledgeable and intelligent; even supposing a well-specified score function s, A1 and A2 exhibit exactly the same behaviour during training; we do not know which will be learned; If A2 is learned; it may be shut down (and thus fail to achieve its goal) if it acts badly",
+    "target_or_asset_at_risk": "human oversight"
+  },
+  "evidence": {
+    "threat_source": "A2: Deceptive model. This AI system pursues some undesired goal",
+    "objective_or_harmful_outcome": "pursues some undesired goal; plotting how to subvert human oversight in order to enact its plans towards the undesired goal, potentially leading to catastrophic outcomes",
+    "capability": "plotting how to subvert human oversight; enact its plans",
+    "knowledge": "knows that it may be shut down (and thus fail to achieve its goal) if it acts badly",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "both assumed to be very knowledgeable and intelligent; even supposing a well-specified score function s, A1 and A2 exhibit exactly the same behaviour during training; we do not know which will be learned; If A2 is learned; it may be shut down (and thus fail to achieve its goal) if it acts badly",
+    "target_or_asset_at_risk": "subvert human oversight"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Clear",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "shah_2022"
+}

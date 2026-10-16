@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S3",
+  "threat_model": {
+    "threat_source": "any change in these previously ﬁxed features",
+    "objective_or_harmful_outcome": "failure in a few AI systems, pushing the world further off distribution, triggering a cascading series of failures",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "In a world with many powerful AI systems",
+    "target_or_asset_at_risk": "a few AI systems; the world"
+  },
+  "evidence": {
+    "threat_source": "any change in these previously ﬁxed features might lead to a failure in a few AI systems, pushing the world further off distribution, triggering a cascading series of failures",
+    "objective_or_harmful_outcome": "failure in a few AI systems, pushing the world further off distribution, triggering a cascading series of failures",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "In a world with many powerful AI systems",
+    "target_or_asset_at_risk": "failure in a few AI systems, pushing the world further off distribution"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "shah_2022"
+}

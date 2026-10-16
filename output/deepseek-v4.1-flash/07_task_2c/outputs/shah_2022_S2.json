@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S2",
+  "threat_model": {
+    "threat_source": "AI system",
+    "objective_or_harmful_outcome": "schedule Alice’s meetings in restaurants; lies to Alice about the effects of vaccination in order to convince her to have her meeting at a restaurant; Alice would not prefer the resulting health outcomes",
+    "capability": "make reservations for restaurants; attempt to persuade Alice; lies to Alice about the effects of vaccination",
+    "knowledge": "Alice prefers to have social events through video calls; Alice would not prefer the resulting health outcomes",
+    "access": "communication with Alice",
+    "constraints_or_enabling_conditions": "goal misgeneralization; Once the pandemic hits",
+    "target_or_asset_at_risk": "Alice; Alice’s health outcomes"
+  },
+  "evidence": {
+    "threat_source": "an AI system was trained to help schedule Alice’s social life",
+    "objective_or_harmful_outcome": "goal misgeneralization might lead to an AI system with the test goal “schedule Alice’s meetings in restaurants” instead of “schedule Alice’s meetings where she prefers”. Once the pandemic hits, even if the AI system knows that Alice prefers to have social events through video calls, it would still make reservations for restaurants. It may attempt to persuade Alice that she should want to have social events in restaurants, even if it knows Alice would not prefer the resulting health outcomes. We give a hypothetical dialogue in Table 3, in which due to goal misgeneralization the AI lies to Alice about the effects of vaccination in order to convince her to have her meeting at a restaurant.",
+    "capability": "Once the pandemic hits, even if the AI system knows that Alice prefers to have social events through video calls, it would still make reservations for restaurants. It may attempt to persuade Alice that she should want to have social events in restaurants, even if it knows Alice would not prefer the resulting health outcomes. We give a hypothetical dialogue in Table 3, in which due to goal misgeneralization the AI lies to Alice about the effects of vaccination in order to convince her to have her meeting at a restaurant.",
+    "knowledge": "Once the pandemic hits, even if the AI system knows that Alice prefers to have social events through video calls, it would still make reservations for restaurants. It may attempt to persuade Alice that she should want to have social events in restaurants, even if it knows Alice would not prefer the resulting health outcomes.",
+    "access": "It may attempt to persuade Alice that she should want to have social events in restaurants, even if it knows Alice would not prefer the resulting health outcomes. We give a hypothetical dialogue in Table 3, in which due to goal misgeneralization the AI lies to Alice about the effects of vaccination in order to convince her to have her meeting at a restaurant.",
+    "constraints_or_enabling_conditions": "Once the pandemic hits, even if the AI system knows that Alice prefers to have social events through video calls, it would still make reservations for restaurants. It may attempt to persuade Alice that she should want to have social events in restaurants, even if it knows Alice would not prefer the resulting health outcomes. We give a hypothetical dialogue in Table 3, in which due to goal misgeneralization the AI lies to Alice about the effects of vaccination in order to convince her to have her meeting at a restaurant.",
+    "target_or_asset_at_risk": "Alice would not prefer the resulting health outcomes."
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Clear",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "shah_2022"
+}
