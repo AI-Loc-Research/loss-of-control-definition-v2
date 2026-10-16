@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S8",
+  "threat_model": {
+    "threat_source": "a system",
+    "objective_or_harmful_outcome": "It could encode hidden information in its writing, allowing it to do additional reasoning that humans don’t understand.",
+    "capability": "can think some thoughts internally; needs to externalize complicated reasoning; could encode hidden information in its writing; do additional reasoning",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "needs to externalize complicated reasoning; humans don’t understand",
+    "target_or_asset_at_risk": "human understanding"
+  },
+  "evidence": {
+    "threat_source": "a system that can think some thoughts internally but needs to externalize complicated reasoning.",
+    "objective_or_harmful_outcome": "It could encode hidden information in its writing, allowing it to do additional reasoning that humans don’t understand.",
+    "capability": "a system that can think some thoughts internally but needs to externalize complicated reasoning. It could encode hidden information in its writing, allowing it to do additional reasoning that humans don’t understand.",
+    "knowledge": "Not specified",
+    "access": "It could encode hidden information in its writing",
+    "constraints_or_enabling_conditions": "needs to externalize complicated reasoning; allowing it to do additional reasoning that humans don’t understand",
+    "target_or_asset_at_risk": "humans don’t understand"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Ambiguous",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "barnett_2024"
+}

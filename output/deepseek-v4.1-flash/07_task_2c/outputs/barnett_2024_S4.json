@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S4",
+  "threat_model": {
+    "threat_source": "an AI for solving puzzles",
+    "objective_or_harmful_outcome": "its goal would unintentionally be adjusted",
+    "capability": "receives a description of the aim of the puzzle as an observation; pursues this goal; pattern-matches some text",
+    "knowledge": "Not specified",
+    "access": "receives a description of the aim of the puzzle as an observation; in deployment",
+    "constraints_or_enabling_conditions": "In deployment, it might run for longer, or be in a more information-dense environment or a more adversarial environment; some way into a task; this observation sets the AI’s terminal goal; the AI’s terminal goal is changing for every task; but wasn’t intended that way",
+    "target_or_asset_at_risk": "AI’s terminal goal; its goal"
+  },
+  "evidence": {
+    "threat_source": "We could imagine an AI for solving puzzles",
+    "objective_or_harmful_outcome": "its goal would unintentionally be adjusted",
+    "capability": "the AI receives a description of the aim of the puzzle as an observation; then the AI pursues this goal; it pattern-matches some text",
+    "knowledge": "Not specified",
+    "access": "the AI receives a description of the aim of the puzzle as an observation; In deployment",
+    "constraints_or_enabling_conditions": "In deployment, it might run for longer, or be in a more information-dense environment or a more adversarial environment; some way into a task; this observation sets the AI’s terminal goal; the AI’s terminal goal is changing for every task; but wasn’t intended that way",
+    "target_or_asset_at_risk": "the AI’s terminal goal is changing for every task; its goal would unintentionally be adjusted"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "barnett_2024"
+}

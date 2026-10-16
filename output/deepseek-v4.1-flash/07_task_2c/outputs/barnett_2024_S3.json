@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S3",
+  "threat_model": {
+    "threat_source": "a hypothetical AI system",
+    "objective_or_harmful_outcome": "make money; steal money from humans by stealing from their bank accounts; circumvent the action-rejection constraint by employing other humans or AI systems to do illegal things for it, or doing some form of self-modification to remove the constraint",
+    "capability": "attempt to steal money from humans by stealing from their bank accounts; work out how to circumvent the action-rejection constraint by employing other humans or AI systems to do illegal things for it, or doing some form of self-modification to remove the constraint",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "being trained by humans to make money in a legal and ethical way; get caught, and have this behavior punished by RL training; a separate action-rejection circuit which rejects some stealing-like actions; action-rejection constraint; in a later task",
+    "target_or_asset_at_risk": "humans; their bank accounts; money; the action-rejection constraint"
+  },
+  "evidence": {
+    "threat_source": "We could imagine a hypothetical AI system",
+    "objective_or_harmful_outcome": "it may learn the goal “make money”; The system may attempt to steal money from humans by stealing from their bank accounts; It could then, in a later task, work out how to circumvent the action-rejection constraint by employing other humans or AI systems to do illegal things for it, or doing some form of self-modification to remove the constraint",
+    "capability": "The system may attempt to steal money from humans by stealing from their bank accounts; It could then, in a later task, work out how to circumvent the action-rejection constraint by employing other humans or AI systems to do illegal things for it, or doing some form of self-modification to remove the constraint",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "being trained by humans to make money in a legal and ethical way; get caught, and have this behavior punished by RL training; a separate action-rejection circuit which rejects some stealing-like actions; action-rejection constraint; in a later task",
+    "target_or_asset_at_risk": "steal money from humans by stealing from their bank accounts; circumvent the action-rejection constraint; self-modification to remove the constraint"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "barnett_2024"
+}

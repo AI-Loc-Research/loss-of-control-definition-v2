@@ -1,62 +1,62 @@
 {
-  "timestamp": "2026-10-16T03:30:29.648822+00:00",
-  "total_runtime_seconds": 2032.99,
+  "timestamp": "2026-10-16T04:04:24.361411+00:00",
+  "total_runtime_seconds": 2234.46,
   "total_scenarios": 5,
   "scenarios_processed": 5,
   "scenarios_skipped": 0,
-  "errors": [
-    {
-      "item_key": "bales_2024_S7",
-      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
-    }
-  ],
+  "errors": [],
   "per_scenario": [
     {
-      "item_key": "bales_2024_S7",
+      "item_key": "barnett_2024_S3",
       "skipped": false,
-      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504",
-      "latency_seconds": 302.16
-    },
-    {
-      "item_key": "bales_2024_S8",
-      "skipped": false,
-      "latency_seconds": 354.45,
+      "latency_seconds": 557.02,
       "usage": {
-        "prompt_tokens": 1390,
-        "completion_tokens": 4551
+        "prompt_tokens": 1447,
+        "completion_tokens": 13357
       },
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "barnett_2024_S10",
+      "item_key": "barnett_2024_S4",
       "skipped": false,
-      "latency_seconds": 540.81,
+      "latency_seconds": 545.61,
       "usage": {
-        "prompt_tokens": 1488,
-        "completion_tokens": 12924
+        "prompt_tokens": 1432,
+        "completion_tokens": 9129
       },
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "barnett_2024_S12",
+      "item_key": "barnett_2024_S8",
       "skipped": false,
-      "latency_seconds": 399.41,
+      "latency_seconds": 423.72,
       "usage": {
-        "prompt_tokens": 1569,
-        "completion_tokens": 5956
+        "prompt_tokens": 1352,
+        "completion_tokens": 6210
       },
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "barnett_2024_S2",
+      "item_key": "bengio_2024_S2",
       "skipped": false,
-      "latency_seconds": 436.16,
+      "latency_seconds": 383.3,
       "usage": {
-        "prompt_tokens": 1457,
-        "completion_tokens": 5959
+        "prompt_tokens": 1399,
+        "completion_tokens": 11048
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "macaskill_2025_S4",
+      "skipped": false,
+      "latency_seconds": 324.81,
+      "usage": {
+        "prompt_tokens": 1368,
+        "completion_tokens": 4578
       },
       "stop_reason": "stop",
       "model_served": null
