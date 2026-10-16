@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S10",
+  "threat_model": {
+    "threat_source": "Not specified",
+    "objective_or_harmful_outcome": "Not specified",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "access to cyber-physical systems, such as robotics or industrial controls",
+    "constraints_or_enabling_conditions": "Physical embodiment and access to cyber-physical systems, such as robotics or industrial controls",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "evidence": {
+    "threat_source": "Not specified",
+    "objective_or_harmful_outcome": "Not specified",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "access to cyber-physical systems, such as robotics or industrial controls",
+    "constraints_or_enabling_conditions": "Physical embodiment and access to cyber-physical systems, such as robotics or industrial controls",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Not specified",
+    "objective_or_harmful_outcome": "Not specified",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "paper_id": "rand_loc_response_planning"
+}

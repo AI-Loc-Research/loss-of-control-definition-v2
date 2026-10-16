@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "AI systems",
+    "objective_or_harmful_outcome": "LOC incidents; unintended and potentially disruptive outcomes across interconnected systems before human operators can reassert control",
+    "capability": "gain greater autonomy; AI capabilities may outpace human ability to monitor or correct them in real time",
+    "knowledge": "Not specified",
+    "access": "Delegating decisionmaking to AI systems; AI systems gain greater autonomy and become more widely deployed",
+    "constraints_or_enabling_conditions": "Delegating decisionmaking to AI systems inherently reduces opportunities for human oversight, especially in dynamic or high-speed environments; complexity and opacity of advanced models, which make it difficult for humans to interpret the system’s internal reasoning or predict its behavior; AI capabilities may outpace human ability to monitor or correct them in real time; Without sufficient guardrails; before human operators can reassert control; Ideally, there is compatibility between a system’s capabilities and its deployment context in which AI systems operate within the bounds of their competence and humans retain meaningful opportunities to intervene.",
+    "target_or_asset_at_risk": "interconnected systems; human oversight; human ability to monitor or correct them; human operators can reassert control; meaningful opportunities to intervene"
+  },
+  "evidence": {
+    "threat_source": "As AI systems gain greater autonomy and become more widely deployed; Delegating decisionmaking to AI systems; AI capabilities may outpace human ability to monitor or correct them in real time",
+    "objective_or_harmful_outcome": "the conditions for LOC incidents become more likely; Without sufficient guardrails, this mismatch might lead to unintended and potentially disruptive outcomes across interconnected systems before human operators can reassert control",
+    "capability": "AI systems gain greater autonomy; AI capabilities may outpace human ability to monitor or correct them in real time",
+    "knowledge": "Not specified",
+    "access": "Delegating decisionmaking to AI systems; AI systems gain greater autonomy and become more widely deployed",
+    "constraints_or_enabling_conditions": "Delegating decisionmaking to AI systems inherently reduces opportunities for human oversight, especially in dynamic or high-speed environments; complexity and opacity of advanced models, which make it difficult for humans to interpret the system’s internal reasoning or predict its behavior; AI capabilities may outpace human ability to monitor or correct them in real time; Without sufficient guardrails; before human operators can reassert control; Ideally, there is compatibility between a system’s capabilities and its deployment context in which AI systems operate within the bounds of their competence and humans retain meaningful opportunities to intervene.",
+    "target_or_asset_at_risk": "interconnected systems; human oversight; human ability to monitor or correct them; human operators can reassert control; meaningful opportunities to intervene"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "rand_loc_response_planning"
+}
