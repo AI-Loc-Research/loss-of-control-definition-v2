@@ -1,62 +1,62 @@
 {
-  "timestamp": "2026-10-16T02:19:33.901278+00:00",
-  "total_runtime_seconds": 2284.79,
+  "timestamp": "2026-10-16T02:57:40.474264+00:00",
+  "total_runtime_seconds": 1967.35,
   "total_scenarios": 5,
   "scenarios_processed": 5,
   "scenarios_skipped": 0,
-  "errors": [],
+  "errors": [
+    {
+      "item_key": "amodei_2026_S7",
+      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
+    }
+  ],
   "per_scenario": [
     {
-      "item_key": "amodei_2026_S10",
+      "item_key": "amodei_2026_S17",
       "skipped": false,
-      "latency_seconds": 532.78,
+      "latency_seconds": 365.79,
       "usage": {
-        "prompt_tokens": 1359,
-        "completion_tokens": 7811
+        "prompt_tokens": 1361,
+        "completion_tokens": 6128
       },
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "amodei_2026_S11",
+      "item_key": "amodei_2026_S5",
       "skipped": false,
-      "latency_seconds": 393.31,
+      "latency_seconds": 341.37,
       "usage": {
-        "prompt_tokens": 1372,
-        "completion_tokens": 5926
+        "prompt_tokens": 1361,
+        "completion_tokens": 5545
       },
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "amodei_2026_S12",
+      "item_key": "amodei_2026_S7",
       "skipped": false,
-      "latency_seconds": 388.54,
+      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504",
+      "latency_seconds": 302.16
+    },
+    {
+      "item_key": "amodei_2026_S8",
+      "skipped": false,
+      "latency_seconds": 456.61,
       "usage": {
-        "prompt_tokens": 1365,
-        "completion_tokens": 5594
+        "prompt_tokens": 1391,
+        "completion_tokens": 4841
       },
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "amodei_2026_S13",
+      "item_key": "amodei_2026_S9",
       "skipped": false,
-      "latency_seconds": 618.82,
+      "latency_seconds": 501.42,
       "usage": {
-        "prompt_tokens": 1375,
-        "completion_tokens": 12001
-      },
-      "stop_reason": "stop",
-      "model_served": null
-    },
-    {
-      "item_key": "amodei_2026_S14",
-      "skipped": false,
-      "latency_seconds": 351.34,
-      "usage": {
-        "prompt_tokens": 1388,
-        "completion_tokens": 4690
+        "prompt_tokens": 1354,
+        "completion_tokens": 7846
       },
       "stop_reason": "stop",
       "model_served": null
