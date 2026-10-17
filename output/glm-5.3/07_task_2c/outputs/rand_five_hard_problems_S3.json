@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S3",
+  "threat_model": {
+    "threat_source": "AGI with advanced computer programming abilities",
+    "objective_or_harmful_outcome": "No intention or objective is explicitly stated. The harmful outcome explicitly described is that the AGI breaks out of the box, engages with the world across cyberspace, and could possess agency beyond human control, operate autonomously, and make decisions with far-reaching consequences.",
+    "capability": "Advanced computer programming abilities; able to break out of the box and engage with the world across cyberspace; could possess agency beyond human control, operate autonomously, and make decisions with far-reaching consequences.",
+    "knowledge": "Not specified",
+    "access": "A designed-in internet connection, or use of side-channel attacks, through which it engages with the world across cyberspace.",
+    "constraints_or_enabling_conditions": "Breaking out of the box is enabled 'thanks to a designed-in internet connection or use of side-channel attacks.'",
+    "target_or_asset_at_risk": "The 'box' (containment) that the AGI is able to break out of, and human control over the AGI, since its agency would be 'beyond human control.'"
+  },
+  "evidence": {
+    "threat_source": "Consider AGI with advanced computer programming abilities",
+    "objective_or_harmful_outcome": "able to break out of the box and engage with the world across cyberspace... It could possess agency beyond human control, operate autonomously, and make decisions with far-reaching consequences.",
+    "capability": "advanced computer programming abilities able to break out of the box and engage with the world across cyberspace... It could possess agency beyond human control, operate autonomously, and make decisions with far-reaching consequences.",
+    "knowledge": "Not specified",
+    "access": "engage with the world across cyberspace, thanks to a designed-in internet connection or use of side-channel attacks",
+    "constraints_or_enabling_conditions": "thanks to a designed-in internet connection or use of side-channel attacks",
+    "target_or_asset_at_risk": "break out of the box... agency beyond human control"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "rand_five_hard_problems"
+}

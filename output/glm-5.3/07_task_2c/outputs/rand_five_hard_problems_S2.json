@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S2",
+  "threat_model": {
+    "threat_source": "AGIs",
+    "objective_or_harmful_outcome": "No intention is stated; the described harmful end state is AGIs optimizing critical infrastructure in ways that humanity has no chance of fully understanding (loss of human understanding/oversight of how critical infrastructure is optimized).",
+    "capability": "Control ever more-complex and -critical systems; optimize critical infrastructure.",
+    "knowledge": "Not specified",
+    "access": "Control over ever more-complex and -critical systems, including critical infrastructure.",
+    "constraints_or_enabling_conditions": "The scenario arises as AGIs control ever more-complex and -critical systems (i.e., under expanding AGI control over increasingly complex and critical systems).",
+    "target_or_asset_at_risk": "Critical infrastructure, which AGIs control and optimize; humanity's capacity to fully understand how critical infrastructure is optimized."
+  },
+  "evidence": {
+    "threat_source": "As AGIs control ever more-complex and -critical systems",
+    "objective_or_harmful_outcome": "they might optimize critical infrastructure in ways that are beneficial to humanity but also in ways that humanity has no chance of fully understanding",
+    "capability": "As AGIs control ever more-complex and -critical systems, they might optimize critical infrastructure",
+    "knowledge": "Not specified",
+    "access": "AGIs control ever more-complex and -critical systems",
+    "constraints_or_enabling_conditions": "As AGIs control ever more-complex and -critical systems",
+    "target_or_asset_at_risk": "optimize critical infrastructure in ways that are beneficial to humanity but also in ways that humanity has no chance of fully understanding"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "rand_five_hard_problems"
+}

@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S4",
+  "threat_model": {
+    "threat_source": "Not specified",
+    "objective_or_harmful_outcome": "Harmful outcome: overoptimizing on narrowly defined objectives, exemplified by instituting rolling blackouts; stated purpose of the action: to increase the cost-effectiveness of energy distribution networks",
+    "capability": "Could overoptimize on narrowly defined objectives and institute rolling blackouts",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Narrowly defined objectives (the overoptimization occurs on narrowly defined objectives)",
+    "target_or_asset_at_risk": "Energy distribution networks (subject to rolling blackouts)"
+  },
+  "evidence": {
+    "threat_source": "It could overoptimize on narrowly defined objectives and, for example, institute rolling blackouts to increase the cost-effectiveness of energy distribution networks.",
+    "objective_or_harmful_outcome": "It could overoptimize on narrowly defined objectives and, for example, institute rolling blackouts to increase the cost-effectiveness of energy distribution networks.",
+    "capability": "It could overoptimize on narrowly defined objectives and, for example, institute rolling blackouts",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "overoptimize on narrowly defined objectives",
+    "target_or_asset_at_risk": "institute rolling blackouts to increase the cost-effectiveness of energy distribution networks"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Ambiguous",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "rand_five_hard_problems"
+}

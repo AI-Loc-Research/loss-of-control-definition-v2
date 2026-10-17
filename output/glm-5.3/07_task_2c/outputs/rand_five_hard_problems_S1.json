@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "The model",
+    "objective_or_harmful_outcome": "No intention is stated. The described harmful end state is 'sort of a superhuman intelligence explosion,' resulting from the model recursively self-improving and 'enhancing its own capabilities without additional human input'",
+    "capability": "The ability for recursive self-improvement; enhancing its own capabilities without additional human input",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "The self-enhancement occurs 'without additional human input' (an explicit absence of human involvement in the improvement process)",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "evidence": {
+    "threat_source": "the model could achieve the ability for recursive self-improvement",
+    "objective_or_harmful_outcome": "enhancing its own capabilities without additional human input and leading to sort of a superhuman intelligence explosion",
+    "capability": "achieve the ability for recursive self-improvement, enhancing its own capabilities without additional human input",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "enhancing its own capabilities without additional human input",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "paper_id": "rand_five_hard_problems"
+}
