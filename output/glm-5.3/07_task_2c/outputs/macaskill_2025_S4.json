@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S4",
+  "threat_model": {
+    "threat_source": "AI systems",
+    "objective_or_harmful_outcome": "Assurances from human oversight rapidly break down (harmful outcome; no intention is stated in the passage)",
+    "capability": "AI systems surpass human abilities to notice or even understand instances of bad behaviour",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "As AI systems surpass human abilities to notice or even understand instances of bad behaviour (the condition under which assurances from human oversight break down)",
+    "target_or_asset_at_risk": "Human oversight and its assurances, including the reliance on human evaluators to spot signs of misalignment in AI models and penalise that behaviour based on their feedback"
+  },
+  "evidence": {
+    "threat_source": "But as AI systems surpass human abilities to notice or even understand instances of bad behaviour, assurances from human oversight rapidly break down.",
+    "objective_or_harmful_outcome": "assurances from human oversight rapidly break down",
+    "capability": "as AI systems surpass human abilities to notice or even understand instances of bad behaviour",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "But as AI systems surpass human abilities to notice or even understand instances of bad behaviour, assurances from human oversight rapidly break down.",
+    "target_or_asset_at_risk": "assurances from human oversight rapidly break down; To date, we've been able to rely on human evaluators to spot signs of misalignment in AI models, and then penalise that behaviour based on their feedback"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "macaskill_2025"
+}

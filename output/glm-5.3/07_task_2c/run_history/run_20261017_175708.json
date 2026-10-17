@@ -1,0 +1,70 @@
+{
+  "config": {
+    "experiment": "2c_glm-5.3-nvidia_prompt_2c_v2",
+    "prompt_version": "prompt_2c_v2",
+    "backend": "nvidia",
+    "model": "z-ai/glm-5.3",
+    "base_url": "https://integrate.api.nvidia.com/v1",
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "max_new_tokens": 32768,
+    "dry_run": false,
+    "force": false,
+    "total_scenarios": 5
+  },
+  "timestamp": "2026-10-17T16:25:32.040222+00:00",
+  "total_runtime_seconds": 5496.37,
+  "total_scenarios": 5,
+  "scenarios_processed": 5,
+  "scenarios_skipped": 0,
+  "errors": [
+    {
+      "item_key": "critch_2023_S1",
+      "error": "Answer cut off at max_new_tokens (max_tokens)",
+      "stop_reason": "max_tokens",
+      "stop_details": null
+    }
+  ],
+  "per_scenario": [
+    {
+      "item_key": "critch_2023_S1",
+      "skipped": false,
+      "error": "Answer cut off at max_new_tokens (max_tokens)",
+      "stop_reason": "max_tokens",
+      "latency_seconds": 1623.94,
+      "usage": null
+    },
+    {
+      "item_key": "kulveit_2025_S5",
+      "skipped": false,
+      "latency_seconds": 1618.31,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "macaskill_2025_S4",
+      "skipped": false,
+      "latency_seconds": 1269.58,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "ngo_2024_S1",
+      "skipped": false,
+      "latency_seconds": 577.5,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "ngo_2024_S2",
+      "skipped": false,
+      "latency_seconds": 407.04,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    }
+  ]
+}

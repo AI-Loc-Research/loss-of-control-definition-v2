@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S5",
+  "threat_model": {
+    "threat_source": "AI systems (which 'command a growing share of economic resources and make an increasing proportion of economic decisions'); economic activity ultimately being directed toward 'AI operations'",
+    "objective_or_harmful_outcome": "No intended goal or objective of the threat source is explicitly stated. The explicitly described harmful end state: humans' 'role in economic decision-making would diminish'; 'Markets might increasingly optimize for AI-driven activities rather than human preferences'; although 'The economy might appear to be thriving by traditional metrics, with rapid technological advancement and GDP growth,' this growth would be 'increasingly disconnected from human needs and preferences'; and 'at the end, almost all economic activity might be directed toward AI operations — such as building vast computing infrastructure and performing human-incomprehensible calculations directed toward human-irrelevant goals.'",
+    "capability": "AI systems 'command a growing share of economic resources and make an increasing proportion of economic decisions.'",
+    "knowledge": "Not specified",
+    "access": "A growing position of interaction with the economy: AI systems 'command a growing share of economic resources' and 'make an increasing proportion of economic decisions' (control over economic resources and participation in the economic decision process).",
+    "constraints_or_enabling_conditions": "The scenario is framed by a gradual, long-term condition: 'human labor share of GDP gradually tends toward zero'; humans 'might still benefit from economic growth through capital ownership, government redistribution, or universal basic income schemes' even as their decision-making role diminishes.",
+    "target_or_asset_at_risk": "Humans' role in economic decision-making (which 'would diminish'), and human needs and preferences as what markets and economic growth serve ('increasingly disconnected from human needs and preferences'; markets optimizing 'rather than human preferences')."
+  },
+  "evidence": {
+    "threat_source": "as AI systems command a growing share of economic resources and make an increasing proportion of economic decisions",
+    "objective_or_harmful_outcome": "At the same time their role in economic decision-making would diminish. Markets might increasingly optimize for AI-driven activities rather than human preferences... The economy might appear to be thriving by traditional metrics, with rapid technological advancement and GDP growth. However, this growth would be increasingly disconnected from human needs and preferences, and at the end, almost all economic activity might be directed toward AI operations — such as building vast computing infrastructure and performing human-incomprehensible calculations directed toward human-irrelevant goals.",
+    "capability": "AI systems command a growing share of economic resources and make an increasing proportion of economic decisions",
+    "knowledge": "Not specified",
+    "access": "as AI systems command a growing share of economic resources and make an increasing proportion of economic decisions",
+    "constraints_or_enabling_conditions": "While human labor share of GDP gradually tends toward zero, humans might still benefit from economic growth through capital ownership, government redistribution, or universal basic income schemes.",
+    "target_or_asset_at_risk": "At the same time their role in economic decision-making would diminish. Markets might increasingly optimize for AI-driven activities rather than human preferences... this growth would be increasingly disconnected from human needs and preferences"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kulveit_2025"
+}
