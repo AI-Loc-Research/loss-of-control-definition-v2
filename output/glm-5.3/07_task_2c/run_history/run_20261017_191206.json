@@ -1,0 +1,63 @@
+{
+  "config": {
+    "experiment": "2c_glm-5.3-nvidia_prompt_2c_v2",
+    "prompt_version": "prompt_2c_v2",
+    "backend": "nvidia",
+    "model": "z-ai/glm-5.3",
+    "base_url": "https://integrate.api.nvidia.com/v1",
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "max_new_tokens": 32768,
+    "dry_run": false,
+    "force": false,
+    "total_scenarios": 5
+  },
+  "timestamp": "2026-10-17T17:57:10.369465+00:00",
+  "total_runtime_seconds": 4496.01,
+  "total_scenarios": 5,
+  "scenarios_processed": 5,
+  "scenarios_skipped": 0,
+  "errors": [],
+  "per_scenario": [
+    {
+      "item_key": "ngo_2024_S3",
+      "skipped": false,
+      "latency_seconds": 440.03,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "ngo_2024_S4",
+      "skipped": false,
+      "latency_seconds": 934.31,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "ngo_2024_S5",
+      "skipped": false,
+      "latency_seconds": 787.39,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "ngo_2024_S6",
+      "skipped": false,
+      "latency_seconds": 919.36,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "oecd_ai_risks_S2",
+      "skipped": false,
+      "latency_seconds": 1414.91,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    }
+  ]
+}

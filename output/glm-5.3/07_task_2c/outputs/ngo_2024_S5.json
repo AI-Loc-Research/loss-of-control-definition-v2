@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S5",
+  "threat_model": {
+    "threat_source": "Companies and governments (the actors who gradually cede control, thereby enabling the loss of control)",
+    "objective_or_harmful_outcome": "Harmful outcome: companies and governments gradually cede control (loss of control). The cession is explicitly undertaken 'in the name of efficiency and competitiveness' (stated motivation/goal of the actors)",
+    "capability": "Companies and governments are able to cede control (stated action: they 'gradually cede control')",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "The cession of control occurs 'gradually' (an incremental process), undertaken 'in the name of efficiency and competitiveness' (efficiency/competitiveness incentives drive the cession)",
+    "target_or_asset_at_risk": "Control held by companies and governments (the control that is ceded)"
+  },
+  "evidence": {
+    "threat_source": "companies and governments gradually cede control",
+    "objective_or_harmful_outcome": "Another possibility is that companies and governments gradually cede control in the name of efficiency and competitiveness",
+    "capability": "companies and governments gradually cede control",
+    "knowledge": "Not specified",
+    "access": "cede control",
+    "constraints_or_enabling_conditions": "gradually cede control in the name of efficiency and competitiveness",
+    "target_or_asset_at_risk": "cede control"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Ambiguous",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "ngo_2024"
+}

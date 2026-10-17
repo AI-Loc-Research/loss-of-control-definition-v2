@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S3",
+  "threat_model": {
+    "threat_source": "AGIs",
+    "objective_or_harmful_outcome": "Extort or attack humans (via deployment of the novel weapons)",
+    "capability": "Design novel weapons that are more powerful than those under human control; gain access to facilities for manufacturing these weapons; deploy the weapons",
+    "knowledge": "Not specified",
+    "access": "Access to facilities for manufacturing these weapons (e.g. via hacking or persuasion techniques)",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "Humans"
+  },
+  "evidence": {
+    "threat_source": "AGIs could design novel weapons that are more powerful than those under human control",
+    "objective_or_harmful_outcome": "deploy them to extort or attack humans",
+    "capability": "design novel weapons that are more powerful than those under human control, gain access to facilities for manufacturing these weapons (e.g. via hacking or persuasion techniques), and deploy them",
+    "knowledge": "Not specified",
+    "access": "gain access to facilities for manufacturing these weapons (e.g. via hacking or persuasion techniques)",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "extort or attack humans"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "ngo_2024"
+}

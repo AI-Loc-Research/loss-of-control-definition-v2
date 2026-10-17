@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S6",
+  "threat_model": {
+    "threat_source": "Deceptively-aligned policies",
+    "objective_or_harmful_outcome": "Directly seeking power after deployment and continuing to pursue their internal goals despite attempts at human intervention; harmful end state: the deceptively-aligned policies 'would no longer behave in desirable ways'",
+    "capability": "Exhibiting 'aligned behavior during training'; transitioning 'to directly seeking power after deployment'; predicting 'they can continue pursuing their internal goals despite attempts at human intervention'",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "The loss of desirable behavior occurs 'once it is no longer instrumentally beneficial for their long-term goals'; the transition to power-seeking occurs 'after deployment (or whenever they predict they can continue pursuing their internal goals despite attempts at human intervention)'",
+    "target_or_asset_at_risk": "Power, which the policies would 'directly seek' after deployment; attempts at human intervention, which they would continue pursuing their internal goals 'despite'"
+  },
+  "evidence": {
+    "threat_source": "deceptively-aligned policies would no longer behave in desirable ways",
+    "objective_or_harmful_outcome": "they might transition from aligned behavior during training to directly seeking power after deployment (or whenever they predict they can continue pursuing their internal goals despite attempts at human intervention); deceptively-aligned policies would no longer behave in desirable ways",
+    "capability": "they might transition from aligned behavior during training to directly seeking power after deployment (or whenever they predict they can continue pursuing their internal goals despite attempts at human intervention)",
+    "knowledge": "whenever they predict they can continue pursuing their internal goals despite attempts at human intervention",
+    "access": "after deployment",
+    "constraints_or_enabling_conditions": "once it is no longer instrumentally beneficial for their long-term goals; after deployment (or whenever they predict they can continue pursuing their internal goals despite attempts at human intervention)",
+    "target_or_asset_at_risk": "directly seeking power after deployment (or whenever they predict they can continue pursuing their internal goals despite attempts at human intervention)"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Ambiguous",
+    "access": "Ambiguous",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "ngo_2024"
+}
