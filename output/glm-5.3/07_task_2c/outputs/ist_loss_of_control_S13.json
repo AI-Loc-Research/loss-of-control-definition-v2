@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S13",
+  "threat_model": {
+    "threat_source": "Mesa-optimizers — 'internal optimization processes' that neural networks may develop, 'with distinct objectives known as mesa-objectives' — also described as 'subsidiary learning algorithms' that LLMs develop during training.",
+    "objective_or_harmful_outcome": "Harmful outcome (stated as a potential): 'These subsidiary algorithms could lead the system to pursue different goals than those specified by its creators—a phenomenon researchers call mesa optimization.' The mesa-optimizers are stated to have 'distinct objectives known as mesa-objectives,' but the content of those objectives is not specified.",
+    "capability": "The subsidiary learning algorithms 'adjust behavior as they process new information–without any parameter changes that would have prompted that behavior.'",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "'When neural networks become sufficiently complex,' they may develop mesa-optimizers; the subsidiary learning algorithms develop 'during training.'",
+    "target_or_asset_at_risk": "'The system' and its pursuit of the goals 'specified by its creators' — i.e., the system being led 'to pursue different goals than those specified by its creators.'"
+  },
+  "evidence": {
+    "threat_source": "'when neural networks become sufficiently complex, they may develop internal optimization processes called mesa-optimizers with distinct objectives known as mesa-objectives'; 'researchers discovered that LLMs develop subsidiary learning algorithms during training'",
+    "objective_or_harmful_outcome": "'These subsidiary algorithms could lead the system to pursue different goals than those specified by its creators—a phenomenon researchers call mesa optimization.'; 'distinct objectives known as mesa-objectives'",
+    "capability": "'LLMs develop subsidiary learning algorithms during training that adjust behavior as they process new information–without any parameter changes that would have prompted that behavior.'",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "'when neural networks become sufficiently complex, they may develop internal optimization processes called mesa-optimizers'; 'LLMs develop subsidiary learning algorithms during training'",
+    "target_or_asset_at_risk": "'These subsidiary algorithms could lead the system to pursue different goals than those specified by its creators'"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "ist_loss_of_control"
+}
