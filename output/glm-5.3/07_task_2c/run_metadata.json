@@ -1,51 +1,54 @@
 {
-  "timestamp": "2026-10-17T02:28:34.112313+00:00",
-  "total_runtime_seconds": 2467.56,
+  "timestamp": "2026-10-17T05:06:52.764458+00:00",
+  "total_runtime_seconds": 3206.06,
   "total_scenarios": 5,
   "scenarios_processed": 5,
   "scenarios_skipped": 0,
   "errors": [
     {
-      "item_key": "ist_loss_of_control_S14",
-      "error": "Failed to parse a JSON object from model response"
+      "item_key": "critch_2023_S1",
+      "error": "Answer cut off at max_new_tokens (max_tokens)",
+      "stop_reason": "max_tokens",
+      "stop_details": null
     }
   ],
   "per_scenario": [
     {
-      "item_key": "ist_loss_of_control_S13",
+      "item_key": "critch_2023_S1",
       "skipped": false,
-      "latency_seconds": 360.79,
-      "usage": null,
-      "stop_reason": "stop",
-      "model_served": null
-    },
-    {
-      "item_key": "ist_loss_of_control_S14",
-      "skipped": false,
-      "error": "Failed to parse a JSON object from model response",
-      "latency_seconds": 86.99,
+      "error": "Answer cut off at max_new_tokens (max_tokens)",
+      "stop_reason": "max_tokens",
+      "latency_seconds": 1060.18,
       "usage": null
     },
     {
-      "item_key": "ist_loss_of_control_S15",
+      "item_key": "ist_loss_of_control_S10",
       "skipped": false,
-      "latency_seconds": 945.07,
+      "latency_seconds": 883.28,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "ist_loss_of_control_S2",
+      "item_key": "ist_loss_of_control_S4",
       "skipped": false,
-      "latency_seconds": 710.85,
+      "latency_seconds": 455.59,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "ist_loss_of_control_S3",
+      "item_key": "ist_loss_of_control_S5",
       "skipped": false,
-      "latency_seconds": 363.85,
+      "latency_seconds": 234.63,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "ist_loss_of_control_S6",
+      "skipped": false,
+      "latency_seconds": 572.37,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null

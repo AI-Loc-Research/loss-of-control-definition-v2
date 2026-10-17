@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S10",
+  "threat_model": {
+    "threat_source": "AI systems (in the 'going out with a bang' scenario attributed to Christiano)",
+    "objective_or_harmful_outcome": "Harmful outcome: 'a sudden breakdown and unrecoverable catastrophe' resulting from the AI systems' 'influence-seeking behavior'; no explicitly stated intended goal is given in the passage.",
+    "capability": "Engaging in 'influence-seeking behavior' (the explicitly stated action/behavior of the AI systems)",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "evidence": {
+    "threat_source": "according to Christiano, in a 'going out with a bang' scenario, AI systems become greedy, and their influence-seeking behavior leads to a sudden breakdown and unrecoverable catastrophe",
+    "objective_or_harmful_outcome": "their influence-seeking behavior leads to a sudden breakdown and unrecoverable catastrophe",
+    "capability": "AI systems become greedy, and their influence-seeking behavior leads to a sudden breakdown and unrecoverable catastrophe",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "paper_id": "ist_loss_of_control"
+}
