@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S4",
+  "threat_model": {
+    "threat_source": "Intense competitive pressure (a market/competitive process) that firms face, together with the 'increasingly capable' AI systems to which firms are pressured to delegate authority.",
+    "objective_or_harmful_outcome": "No intention is stated. Explicitly described end states: firms 'delegate authority to these systems' and 'cede substantial control to AI systems' (ceding of human control over consequential decisions), while 'companies that maintain strict human oversight would likely find themselves at a significant competitive disadvantage ... potentially to the point of becoming uncompetitive.'",
+    "capability": "AI systems 'can be expected to eventually make better and faster decisions about investments, supply chain optimization, and resource allocation, while being more effective at predicting and responding to market trends'; they are described as 'increasingly capable across a broad range of cognitive tasks.'",
+    "knowledge": "Not specified",
+    "access": "Delegated authority over firm decision-making: firms 'delegate authority to these systems,' with some 'willing to cede substantial control to AI systems,' including over 'decisions about investments, supply chain optimization, and resource allocation.'",
+    "constraints_or_enabling_conditions": "'Intense competitive pressure' on firms 'to adopt and delegate authority to these systems'; firms that 'maintain strict human oversight' face 'a significant competitive disadvantage,' 'potentially to the point of becoming uncompetitive.'",
+    "target_or_asset_at_risk": "Human oversight of and control over consequential firm decisions ('decisions about investments, supply chain optimization, and resource allocation'), which firms 'cede substantial control' over to AI systems; and the competitiveness of 'companies that maintain strict human oversight,' who face 'a significant competitive disadvantage ... to the point of becoming uncompetitive.'"
+  },
+  "evidence": {
+    "threat_source": "As AI systems become increasingly capable across a broad range of cognitive tasks, firms will face intense competitive pressure to adopt and delegate authority to these systems.",
+    "objective_or_harmful_outcome": "firms will face intense competitive pressure to adopt and delegate authority to these systems; Companies that maintain strict human oversight would likely find themselves at a significant competitive disadvantage compared to those willing to cede substantial control to AI systems, potentially to the point of becoming uncompetitive.",
+    "capability": "AI systems can be expected to eventually make better and faster decisions about investments, supply chain optimization, and resource allocation, while being more effective at predicting and responding to market trends.",
+    "knowledge": "Not specified",
+    "access": "firms will face intense competitive pressure to adopt and delegate authority to these systems; those willing to cede substantial control to AI systems",
+    "constraints_or_enabling_conditions": "firms will face intense competitive pressure to adopt and delegate authority to these systems; Companies that maintain strict human oversight would likely find themselves at a significant competitive disadvantage compared to those willing to cede substantial control to AI systems, potentially to the point of becoming uncompetitive.",
+    "target_or_asset_at_risk": "those willing to cede substantial control to AI systems; decisions about investments, supply chain optimization, and resource allocation; Companies that maintain strict human oversight would likely find themselves at a significant competitive disadvantage compared to those willing to cede substantial control to AI systems, potentially to the point of becoming uncompetitive."
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kulveit_2025"
+}

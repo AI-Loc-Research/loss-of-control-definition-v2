@@ -1,47 +1,50 @@
 {
-  "timestamp": "2026-10-17T10:49:11.158200+00:00",
-  "total_runtime_seconds": 5660.1,
+  "timestamp": "2026-10-17T12:23:33.336577+00:00",
+  "total_runtime_seconds": 6324.83,
   "total_scenarios": 5,
   "scenarios_processed": 5,
   "scenarios_skipped": 0,
-  "errors": [],
+  "errors": [
+    {
+      "item_key": "kulveit_2025_S5",
+      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
+    }
+  ],
   "per_scenario": [
     {
-      "item_key": "kokotajlo_2025_S9",
+      "item_key": "kulveit_2025_S2",
       "skipped": false,
-      "latency_seconds": 1400.11,
+      "latency_seconds": 708.19,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "kulveit_2025_S10",
+      "item_key": "kulveit_2025_S4",
       "skipped": false,
-      "latency_seconds": 431.56,
+      "latency_seconds": 1874.58,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "kulveit_2025_S11",
+      "item_key": "kulveit_2025_S5",
       "skipped": false,
-      "latency_seconds": 1434.7,
+      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504",
+      "latency_seconds": 302.14
+    },
+    {
+      "item_key": "kulveit_2025_S6",
+      "skipped": false,
+      "latency_seconds": 1940.42,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "kulveit_2025_S13",
+      "item_key": "kulveit_2025_S7",
       "skipped": false,
-      "latency_seconds": 1146.45,
-      "usage": null,
-      "stop_reason": "stop",
-      "model_served": null
-    },
-    {
-      "item_key": "kulveit_2025_S14",
-      "skipped": false,
-      "latency_seconds": 1247.28,
+      "latency_seconds": 1499.49,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null

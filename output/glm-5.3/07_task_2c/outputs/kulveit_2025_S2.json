@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S2",
+  "threat_model": {
+    "threat_source": "AI; states funded mainly by taxes on AI profits instead of their citizens' labor",
+    "objective_or_harmful_outcome": "No intention is explicitly stated. Harmful outcomes described: existing feedback mechanisms that encourage human influence and flourishing break down; states have little incentive to ensure citizens' representation; coordination amongst humans becomes more difficult, thereby further reducing humans' ability to resist such pressures",
+    "capability": "AI has begun to displace humans; AI provides states with unprecedented influence over human culture and behavior",
+    "knowledge": "Not specified",
+    "access": "States hold unprecedented influence over human culture and behavior (explicitly stated as provided by AI)",
+    "constraints_or_enabling_conditions": "Once AI has begun to displace humans; states funded mainly by taxes on AI profits instead of their citizens' labor",
+    "target_or_asset_at_risk": "Existing feedback mechanisms that encourage human influence and flourishing; citizens' representation; human culture and behavior; coordination amongst humans; humans' ability to resist such pressures"
+  },
+  "evidence": {
+    "threat_source": "Once AI has begun to displace humans... states funded mainly by taxes on AI profits instead of their citizens' labor will have little incentive to ensure citizens' representation... AI provides states with unprecedented influence over human culture and behavior",
+    "objective_or_harmful_outcome": "existing feedback mechanisms that encourage human influence and flourishing will begin to break down; will have little incentive to ensure citizens' representation; might make coordination amongst humans more difficult, thereby further reducing humans' ability to resist such pressures",
+    "capability": "Once AI has begun to displace humans; AI provides states with unprecedented influence over human culture and behavior",
+    "knowledge": "Not specified",
+    "access": "AI provides states with unprecedented influence over human culture and behavior",
+    "constraints_or_enabling_conditions": "Once AI has begun to displace humans; states funded mainly by taxes on AI profits instead of their citizens' labor",
+    "target_or_asset_at_risk": "existing feedback mechanisms that encourage human influence and flourishing will begin to break down; citizens' representation; influence over human culture and behavior; coordination amongst humans; humans' ability to resist such pressures"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kulveit_2025"
+}
