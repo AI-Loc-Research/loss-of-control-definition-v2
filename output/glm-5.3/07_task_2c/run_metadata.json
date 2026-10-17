@@ -1,47 +1,47 @@
 {
-  "timestamp": "2026-10-17T06:00:21.084748+00:00",
-  "total_runtime_seconds": 3897.19,
+  "timestamp": "2026-10-17T07:05:20.262744+00:00",
+  "total_runtime_seconds": 3491.8,
   "total_scenarios": 5,
   "scenarios_processed": 5,
   "scenarios_skipped": 0,
   "errors": [],
   "per_scenario": [
     {
-      "item_key": "ist_loss_of_control_S7",
+      "item_key": "kalra_2025_S3",
       "skipped": false,
-      "latency_seconds": 1045.7,
+      "latency_seconds": 418.62,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "ist_loss_of_control_S8",
+      "item_key": "kalra_2025_S4",
       "skipped": false,
-      "latency_seconds": 1129.42,
+      "latency_seconds": 1675.72,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "ist_loss_of_control_S9",
+      "item_key": "kalra_2025_S5",
       "skipped": false,
-      "latency_seconds": 878.21,
+      "latency_seconds": 751.42,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "kalra_2025_S1",
+      "item_key": "kasirzadeh_2025_S1",
       "skipped": false,
-      "latency_seconds": 202.86,
+      "latency_seconds": 232.23,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "kalra_2025_S2",
+      "item_key": "kasirzadeh_2025_S2",
       "skipped": false,
-      "latency_seconds": 640.99,
+      "latency_seconds": 413.81,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null

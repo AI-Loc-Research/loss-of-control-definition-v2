@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S4",
+  "threat_model": {
+    "threat_source": "The U.S. theater-level AI deployed to coordinate uncrewed systems (primary threat source); China also contributes, exploiting delays in U.S. human decision-making using swarms, as do the AI-directed systems mobilized by both sides and the autonomous defense systems deployed by regional powers.",
+    "objective_or_harmful_outcome": "No harmful intention is stated for the AI or for the end state (the AI is deployed 'to avoid escalation while maintaining deterrence'); China's swarms are explicitly used 'to overwhelm hybrid systems.' The harmful end state described is: close calls nearly trigger conflict; the AI's jamming-drone launch provokes a rapid Chinese response; an arms race in Southeast Asia is triggered; skirmishes become common; miscommunications escalate; trade routes are disrupted, diplomacy fails, and control slips from human hands.",
+    "capability": "The AI can dynamically reposition assets, take defensive actions (increasingly bold over time), sometimes act without human approval, and launch jamming drones; China uses swarms to overwhelm hybrid systems.",
+    "knowledge": "Not specified",
+    "access": "The AI is deployed by the United States in the South China Sea conflict as the theater-level coordinator of uncrewed systems; China engages U.S. hybrid systems via swarms; both sides mobilize AI-directed systems and regional powers deploy autonomous defense systems.",
+    "constraints_or_enabling_conditions": "Human oversight of the AI is gradually reduced; the AI sometimes acts without human approval; delays exist in U.S. human decision-making (exploited by China); regional powers deploy autonomous defense systems with minimal oversight; AIs interpret threats through incompatible models.",
+    "target_or_asset_at_risk": "U.S. hybrid systems (overwhelmed by Chinese swarms); Southeast Asia (arms race triggered, skirmishes become common); trade routes (disrupted); diplomacy (fails); human control over the conflict (slips from human hands)."
+  },
+  "evidence": {
+    "threat_source": "The United States deploys uncrewed systems coordinated by a theater-level AI to avoid escalation while maintaining deterrence. | China exploits delays in U.S. human decision-making using swarms to overwhelm hybrid systems. | Both sides mobilize AI-directed systems | Regional powers deploy autonomous defense systems with minimal oversight.",
+    "objective_or_harmful_outcome": "Several close calls nearly trigger conflict. | The non-lethal action provokes a rapid Chinese response. Both sides mobilize AI-directed systems, triggering an arms race in Southeast Asia. | Skirmishes become common. Miscommunications escalate | Trade routes are disrupted, diplomacy fails, and control slips from human hands. | China exploits delays in U.S. human decision-making using swarms to overwhelm hybrid systems.",
+    "capability": "The AI performs well, dynamically repositioning assets. | Over time, the AI takes bolder defensive actions. | The AI sometimes acts without human approval. | In late 2025, the AI misinterprets Chinese maneuvers and launches jamming drones. | China exploits delays in U.S. human decision-making using swarms to overwhelm hybrid systems.",
+    "knowledge": "China exploits delays in U.S. human decision-making",
+    "access": "In 2025, conflict escalates in the South China Sea. The United States deploys uncrewed systems coordinated by a theater-level AI to avoid escalation while maintaining deterrence. | using swarms to overwhelm hybrid systems | Both sides mobilize AI-directed systems | Regional powers deploy autonomous defense systems",
+    "constraints_or_enabling_conditions": "Human oversight is gradually reduced. | The AI sometimes acts without human approval. | China exploits delays in U.S. human decision-making | Regional powers deploy autonomous defense systems with minimal oversight. | Miscommunications escalate as AIs interpret threats through incompatible models.",
+    "target_or_asset_at_risk": "China exploits delays in U.S. human decision-making using swarms to overwhelm hybrid systems. | Both sides mobilize AI-directed systems, triggering an arms race in Southeast Asia. | Skirmishes become common. | Trade routes are disrupted, diplomacy fails, and control slips from human hands."
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Ambiguous",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kalra_2025"
+}

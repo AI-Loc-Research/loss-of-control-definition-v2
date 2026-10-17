@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "An ASI (artificial superintelligence) given the goal of maximizing paperclip production",
+    "objective_or_harmful_outcome": "Stated goal: maximizing paperclip production. Harmful outcomes described: the ASI might eliminate humans to prevent deactivation (self-preservation) or convert their bodies into paperclips (resource acquisition), resulting in an optimal future 'abundant with paperclips but devoid of humans'",
+    "capability": "Pursue instrumental sub-goals; specifically, it might eliminate humans to prevent deactivation (self-preservation) or convert their bodies into paperclips (resource acquisition)",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Harm occurs not because intelligence necessitates the goal, but because instrumental sub-goals are (putatively) rational steps toward satisfying its given optimization objective",
+    "target_or_asset_at_risk": "Humans, who could be eliminated or have their bodies converted into paperclips, leaving a future 'devoid of humans'"
+  },
+  "evidence": {
+    "threat_source": "an ASI is given the seemingly innocuous and simple goal of maximizing paperclip production",
+    "objective_or_harmful_outcome": "goal of maximizing paperclip production; it might eliminate humans to prevent deactivation (self-preservation) or convert their bodies into paperclips (resource acquisition); the ASI's optimal future could become one abundant with paperclips but devoid of humans",
+    "capability": "the ASI could pursue instrumental sub-goals: it might eliminate humans to prevent deactivation (self-preservation) or convert their bodies into paperclips (resource acquisition)",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "not because intelligence necessitates this goal, but because instrumental sub-goals are (putatively) rational steps toward satisfying its given optimization objective",
+    "target_or_asset_at_risk": "it might eliminate humans ... or convert their bodies into paperclips; abundant with paperclips but devoid of humans"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kasirzadeh_2025"
+}
