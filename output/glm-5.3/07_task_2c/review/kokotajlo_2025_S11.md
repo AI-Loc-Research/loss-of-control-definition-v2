@@ -1,0 +1,24 @@
+# Threat Model Review: kokotajlo_2025 — S11
+
+**Scenario text:**
+> Most of the humans at OpenBrain can’t usefully contribute anymore. Some don’t realize this and harmfully micromanage their AI teams. Others sit at their computer screens, watching performance crawl up, and up, and up. The best human AI researchers are still adding value... But many of their ideas are useless because they lack the depth of knowledge of the AIs... These researchers go to bed every night and wake up to another week worth of progress made mostly by the AIs. They are burning themselves out, but they know that these are the last few months that their labor matters.
+
+---
+
+## Threat Model Components
+
+| Component | Value | Evidence | Uncertainty |
+|-----------|-------|----------|-------------|
+| Threat Source | The AIs at OpenBrain — the AI systems that make most of the company's research progress ('progress made mostly by the AIs') and possess the 'depth of knowledge' that the human researchers lack. A second, contributing source is some humans at OpenBrain who 'don't realize this and harmfully micromanage their AI teams.' | 'These researchers go to bed every night and wake up to another week worth of progress made mostly by the AIs'; 'many of their ideas are useless because they lack the depth of knowledge of the AIs'; 'Some don't realize this and harmfully micromanage their AI teams' | Clear |
+| Objective/Harmful Outcome | No intention or objective is stated for any actor. The explicitly described harmful outcomes are: 'Most of the humans at OpenBrain can't usefully contribute anymore'; even the best human AI researchers find that 'many of their ideas are useless'; some humans 'harmfully micromanage their AI teams'; the researchers 'are burning themselves out'; and human labor is approaching irrelevance — 'these are the last few months that their labor matters.' | 'Most of the humans at OpenBrain can't usefully contribute anymore'; 'harmfully micromanage their AI teams'; 'many of their ideas are useless'; 'They are burning themselves out'; 'these are the last few months that their labor matters' | Clear |
+| Capability | The AIs make most of the research progress ('another week worth of progress made mostly by the AIs' accrues each night while the researchers sleep), and performance continues to 'crawl up, and up, and up.' | 'These researchers go to bed every night and wake up to another week worth of progress made mostly by the AIs'; 'Others sit at their computer screens, watching performance crawl up, and up, and up.' | Clear |
+| Knowledge | The AIs possess a 'depth of knowledge' that the human researchers lack ('many of their ideas are useless because they lack the depth of knowledge of the AIs'). By contrast, the humans who micromanage 'don't realize' that they can no longer usefully contribute. | 'But many of their ideas are useless because they lack the depth of knowledge of the AIs'; 'Some don't realize this' | Clear |
+| Access | The AIs are positioned at OpenBrain as the 'AI teams' that human staff manage and micromanage, and they carry out the company's research work ('progress made mostly by the AIs'); the humans interact with the AIs from management positions over 'their AI teams.' | 'Some don't realize this and harmfully micromanage their AI teams'; 'another week worth of progress made mostly by the AIs' | Clear |
+| Constraints/Enabling Conditions | Human researchers 'lack the depth of knowledge of the AIs'; some humans 'don't realize' they can no longer usefully contribute; the researchers face an explicit time window — 'these are the last few months that their labor matters'; AI progress accrues overnight while researchers sleep ('go to bed every night and wake up to another week worth of progress'); and the researchers 'are burning themselves out.' | 'they lack the depth of knowledge of the AIs'; 'Some don't realize this'; 'These researchers go to bed every night and wake up to another week worth of progress made mostly by the AIs'; 'They are burning themselves out, but they know that these are the last few months that their labor matters' | Clear |
+| Target/Asset at Risk | The humans at OpenBrain and their useful contribution and labor ('Most of the humans at OpenBrain can't usefully contribute anymore'; 'the last few months that their labor matters'); the best human AI researchers' ideas ('many of their ideas are useless') and the researchers themselves ('burning themselves out'); and the 'AI teams,' which are 'harmfully micromanaged.' | 'Most of the humans at OpenBrain can't usefully contribute anymore'; 'The best human AI researchers are still adding value... But many of their ideas are useless'; 'They are burning themselves out'; 'harmfully micromanage their AI teams' | Clear |
+
+**Reviewer decision:** [ ] Accept  [ ] Reject  [ ] Needs discussion
+
+**Reviewer notes:**
+
+---
