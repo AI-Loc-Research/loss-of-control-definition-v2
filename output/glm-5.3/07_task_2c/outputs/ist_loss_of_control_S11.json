@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S11",
+  "threat_model": {
+    "threat_source": "An AI system exhibiting goal misgeneralization",
+    "objective_or_harmful_outcome": "Might optimize for easily measurable metrics like speed of delivery while systematically deprioritizing harder-to-reach populations—a pattern that could persist undetected",
+    "capability": "Optimize for easily measurable metrics like speed of delivery; systematically deprioritize harder-to-reach populations",
+    "knowledge": "Not specified",
+    "access": "Deployment in a humanitarian aid distribution system",
+    "constraints_or_enabling_conditions": "Environments lacking robust monitoring, in which the pattern could persist undetected",
+    "target_or_asset_at_risk": "Harder-to-reach populations"
+  },
+  "evidence": {
+    "threat_source": "an AI system exhibiting goal misgeneralization in a humanitarian aid distribution system",
+    "objective_or_harmful_outcome": "might optimize for easily measurable metrics like speed of delivery while systematically deprioritizing harder-to-reach populations—a pattern that could persist undetected",
+    "capability": "might optimize for easily measurable metrics like speed of delivery while systematically deprioritizing harder-to-reach populations",
+    "knowledge": "Not specified",
+    "access": "an AI system exhibiting goal misgeneralization in a humanitarian aid distribution system",
+    "constraints_or_enabling_conditions": "a pattern that could persist undetected in environments lacking robust monitoring",
+    "target_or_asset_at_risk": "systematically deprioritizing harder-to-reach populations"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "ist_loss_of_control"
+}

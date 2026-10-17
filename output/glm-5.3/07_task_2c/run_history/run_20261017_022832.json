@@ -1,0 +1,69 @@
+{
+  "config": {
+    "experiment": "2c_glm-5.3-nvidia_prompt_2c_v2",
+    "prompt_version": "prompt_2c_v2",
+    "backend": "nvidia",
+    "model": "z-ai/glm-5.3",
+    "base_url": "https://integrate.api.nvidia.com/v1",
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "max_new_tokens": 32768,
+    "dry_run": false,
+    "force": false,
+    "total_scenarios": 5
+  },
+  "timestamp": "2026-10-17T01:58:46.301443+00:00",
+  "total_runtime_seconds": 1786.01,
+  "total_scenarios": 5,
+  "scenarios_processed": 5,
+  "scenarios_skipped": 0,
+  "errors": [
+    {
+      "item_key": "ist_loss_of_control_S1",
+      "error": "Failed to parse a JSON object from model response"
+    },
+    {
+      "item_key": "ist_loss_of_control_S10",
+      "error": "API error: Server error '500 Internal Server Error' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+    }
+  ],
+  "per_scenario": [
+    {
+      "item_key": "hendrycks_2023_S7",
+      "skipped": false,
+      "latency_seconds": 507.8,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "ist_loss_of_control_S1",
+      "skipped": false,
+      "error": "Failed to parse a JSON object from model response",
+      "latency_seconds": 328.23,
+      "usage": null
+    },
+    {
+      "item_key": "ist_loss_of_control_S10",
+      "skipped": false,
+      "error": "API error: Server error '500 Internal Server Error' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+      "latency_seconds": 0.07
+    },
+    {
+      "item_key": "ist_loss_of_control_S11",
+      "skipped": false,
+      "latency_seconds": 250.68,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "ist_loss_of_control_S12",
+      "skipped": false,
+      "latency_seconds": 699.21,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    }
+  ]
+}
