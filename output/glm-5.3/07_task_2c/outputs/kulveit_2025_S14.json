@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S14",
+  "threat_model": {
+    "threat_source": "AGI (after it is developed), to which 'humanity will gradually cede control of the Earth'",
+    "objective_or_harmful_outcome": "No intention is stated for AGI; the harmful outcome described is human extinction: humanity cedes control of the Earth to AGI 'in a manner that leads to our extinction through any number of effects including pollution, resource depletion, armed conflict, or all three,' culminating in 'the death of the last surviving humans' and 'the death of humanity'",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Control of the Earth, gradually ceded by humanity to AGI ('humanity will gradually cede control of the Earth to AGI')",
+    "constraints_or_enabling_conditions": "The ceding of control occurs only 'after it's developed'; the process is gradual ('gradually cede control'; 'a gradual automation of industries'); most of the probability lies 'between 2030 and 2040,' with 'the death of the last surviving humans occurring sometime between 2040 and 2050'; the automated industries must be 'together sufficient to fully sustain a non-human economy'",
+    "target_or_asset_at_risk": "Humanity ('our extinction'; 'the death of the last surviving humans'; 'the death of humanity') and humanity's control of the Earth (ceded to AGI)"
+  },
+  "evidence": {
+    "threat_source": "humanity will gradually cede control of the Earth to AGI after it's developed",
+    "objective_or_harmful_outcome": "in a manner that leads to our extinction through any number of effects including pollution, resource depletion, armed conflict, or all three; the death of the last surviving humans occurring sometime between 2040 and 2050; which in turn leads to the death of humanity",
+    "capability": "This process would most likely involve a gradual automation of industries that are together sufficient to fully sustain a non-human economy",
+    "knowledge": "Not specified",
+    "access": "humanity will gradually cede control of the Earth to AGI after it's developed",
+    "constraints_or_enabling_conditions": "after it's developed; gradually; most (80%) of this probability (i.e., 40%) lies between 2030 and 2040, with the death of the last surviving humans occurring sometime between 2040 and 2050; a gradual automation of industries that are together sufficient to fully sustain a non-human economy",
+    "target_or_asset_at_risk": "leads to our extinction; the death of the last surviving humans; the death of humanity; humanity will gradually cede control of the Earth to AGI"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Ambiguous",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kulveit_2025"
+}

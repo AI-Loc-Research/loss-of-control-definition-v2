@@ -1,47 +1,47 @@
 {
-  "timestamp": "2026-10-17T09:37:09.162804+00:00",
-  "total_runtime_seconds": 4319.93,
+  "timestamp": "2026-10-17T10:49:11.158200+00:00",
+  "total_runtime_seconds": 5660.1,
   "total_scenarios": 5,
   "scenarios_processed": 5,
   "scenarios_skipped": 0,
   "errors": [],
   "per_scenario": [
     {
-      "item_key": "kokotajlo_2025_S3",
+      "item_key": "kokotajlo_2025_S9",
       "skipped": false,
-      "latency_seconds": 439.2,
+      "latency_seconds": 1400.11,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "kokotajlo_2025_S4",
+      "item_key": "kulveit_2025_S10",
       "skipped": false,
-      "latency_seconds": 936.9,
+      "latency_seconds": 431.56,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "kokotajlo_2025_S6",
+      "item_key": "kulveit_2025_S11",
       "skipped": false,
-      "latency_seconds": 674.22,
+      "latency_seconds": 1434.7,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "kokotajlo_2025_S7",
+      "item_key": "kulveit_2025_S13",
       "skipped": false,
-      "latency_seconds": 826.47,
+      "latency_seconds": 1146.45,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "kokotajlo_2025_S8",
+      "item_key": "kulveit_2025_S14",
       "skipped": false,
-      "latency_seconds": 1443.13,
+      "latency_seconds": 1247.28,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null

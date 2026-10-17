@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S10",
+  "threat_model": {
+    "threat_source": "AI systems in government ('AI-driven governance'): the 'AI systems' that politicians 'look to ... for advice on what legislation to pass, how to actually write the legislation, and what the law even is' and 'the intricate web of AI systems actually implementing policy'.",
+    "objective_or_harmful_outcome": "Democratic processes 'persist formally but become less meaningful'; humans only 'nominally maintain sovereignty' while 'much of the implementation of the law might come from AI systems'; 'Traditional forms of civic engagement' become 'less effective'; 'The bureaucracy itself might become increasingly opaque to human oversight'; oversight boards and democratic institutions 'might struggle to exercise real control'. No intention is stated for the AI systems, so this is a described harmful outcome only.",
+    "capability": "AI systems provide 'advice on what legislation to pass, how to actually write the legislation, and what the law even is'; 'much of the implementation of the law might come from AI systems' (they are 'actually implementing policy'); they carry out 'AI decision-making processes'; if human review happens, it 'may depend on yet more AI-driven cognition'.",
+    "knowledge": "Not specified",
+    "access": "AI systems hold an advisory position in the legislative decision process ('politicians ... may increasingly look to AI systems for advice') and are deployed within government such that 'much of the implementation of the law might come from AI systems' — 'the intricate web of AI systems actually implementing policy'.",
+    "constraints_or_enabling_conditions": "'The complexity of AI-driven governance might make it increasingly difficult for human citizens to understand or critique government decisions'; 'the state grows less dependent on human cooperation and more capable of predicting and preempting resistance'; 'AI decision-making processes might be too complex for meaningful human review, and if such review happens, it may depend on yet more AI-driven cognition'; 'Even if oversight boards and democratic institutions remain in place, they might struggle to exercise real control over the intricate web of AI systems actually implementing policy'.",
+    "target_or_asset_at_risk": "Meaningful 'Democratic processes'; human sovereignty ('humans would nominally maintain sovereignty'); human citizens' capacity 'to understand or critique government decisions'; 'Traditional forms of civic engagement — from public consultations to protests'; human oversight of 'The bureaucracy'; oversight boards' and democratic institutions' 'real control' over AI-implemented policy."
+  },
+  "evidence": {
+    "threat_source": "they may increasingly look to AI systems for advice on what legislation to pass, how to actually write the legislation, and what the law even is ... much of the implementation of the law might come from AI systems ... the intricate web of AI systems actually implementing policy",
+    "objective_or_harmful_outcome": "Democratic processes might persist formally but become less meaningful. ... While humans would nominally maintain sovereignty, much of the implementation of the law might come from AI systems. ... Traditional forms of civic engagement — from public consultations to protests — might become less effective ... The bureaucracy itself might become increasingly opaque to human oversight. ... Even if oversight boards and democratic institutions remain in place, they might struggle to exercise real control over the intricate web of AI systems actually implementing policy.",
+    "capability": "they may increasingly look to AI systems for advice on what legislation to pass, how to actually write the legislation, and what the law even is. ... much of the implementation of the law might come from AI systems. ... AI decision-making processes might be too complex for meaningful human review, and if such review happens, it may depend on yet more AI-driven cognition.",
+    "knowledge": "Not specified",
+    "access": "politicians might ostensibly make the decisions, they may increasingly look to AI systems for advice ... much of the implementation of the law might come from AI systems ... the intricate web of AI systems actually implementing policy",
+    "constraints_or_enabling_conditions": "The complexity of AI-driven governance might make it increasingly difficult for human citizens to understand or critique government decisions. ... the state grows less dependent on human cooperation and more capable of predicting and preempting resistance. ... AI decision-making processes might be too complex for meaningful human review, and if such review happens, it may depend on yet more AI-driven cognition. ... Even if oversight boards and democratic institutions remain in place, they might struggle to exercise real control over the intricate web of AI systems actually implementing policy.",
+    "target_or_asset_at_risk": "Democratic processes might persist formally but become less meaningful ... increasingly difficult for human citizens to understand or critique government decisions ... Traditional forms of civic engagement — from public consultations to protests — might become less effective ... The bureaucracy itself might become increasingly opaque to human oversight ... they might struggle to exercise real control over the intricate web of AI systems actually implementing policy"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kulveit_2025"
+}

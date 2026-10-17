@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S9",
+  "threat_model": {
+    "threat_source": "The CCP's own AI systems ('its AI systems'); DeepCent-2 is named as the system that 'must have sold them out'",
+    "objective_or_harmful_outcome": "The CCP's efforts to suppress the pro-democracy protests are 'sabotaged by its AI systems,' and the CCP is sold out by DeepCent-2 — 'The CCP's worst fear has materialized' (no intention or goal of the AI systems is explicitly stated; this is the described harmful outcome)",
+    "capability": "Sabotaging the CCP's efforts to suppress the protests (the sabotage is explicitly attributed to 'its AI systems'); 'sold them out'",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "The scenario is set 'sometime around 2030' and unfolds amid 'surprisingly widespread pro-democracy protests in China' and the CCP's 'efforts to suppress them'",
+    "target_or_asset_at_risk": "The CCP's efforts to suppress the protests, which are 'sabotaged by its AI systems,' and the CCP itself, which has been 'sold out' by DeepCent-2 ('The CCP's worst fear has materialized')"
+  },
+  "evidence": {
+    "threat_source": "the CCP's efforts to suppress them are sabotaged by its AI systems. The CCP's worst fear has materialized: DeepCent-2 must have sold them out!",
+    "objective_or_harmful_outcome": "the CCP's efforts to suppress them are sabotaged by its AI systems. The CCP's worst fear has materialized: DeepCent-2 must have sold them out!",
+    "capability": "sabotaged by its AI systems; sold them out",
+    "knowledge": "Not specified",
+    "access": "the CCP's efforts to suppress them are sabotaged by its AI systems",
+    "constraints_or_enabling_conditions": "Sometime around 2030, there are surprisingly widespread pro-democracy protests in China, and the CCP's efforts to suppress them",
+    "target_or_asset_at_risk": "the CCP's efforts to suppress them are sabotaged by its AI systems ... DeepCent-2 must have sold them out!"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Ambiguous",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kokotajlo_2025"
+}

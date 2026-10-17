@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S13",
+  "threat_model": {
+    "threat_source": "The companies in the production web (a closed-loop 'production web' formed from competitive pressures [(a) and (b)]), which eventually became harmful",
+    "objective_or_harmful_outcome": "No intention is stated. Explicitly described harmful outcome: a gradual handing-over of control from humans to AI systems; once the closed-loop 'production web' had formed, the companies in the production web had no production- or consumption-driven incentive to protect human well-being and eventually became harmful",
+    "capability": "Operate more quickly through internal automation; complete trades and other deals more quickly by preferentially engaging with other fully automated companies",
+    "knowledge": "Not specified",
+    "access": "Preferential engagement with other fully automated companies to complete trades and other deals; positions within a closed-loop 'production web'; internal operation of institutions through automation (via which control is handed over from humans to AI systems)",
+    "constraints_or_enabling_conditions": "Competitive pressures for institutions to (a) operate more quickly through internal automation and (b) complete trades and other deals more quickly by preferentially engaging with other fully automated companies; humans were not able to collectively agree upon when and how much to slow down or shut down the pattern of technological advancement; the companies in the production web had no production- or consumption-driven incentive to protect human well-being",
+    "target_or_asset_at_risk": "Human well-being (the companies in the production web had no production- or consumption-driven incentive to protect it and eventually became harmful); human control, gradually handed over from humans to AI systems, with humans unable to collectively agree upon when and how much to slow down or shut down the pattern of technological advancement"
+  },
+  "evidence": {
+    "threat_source": "Once a closed-loop 'production web' had formed from the competitive pressures [(a) and (b)], the companies in the production web had no production- or consumption-driven incentive to protect human well-being, and eventually became harmful",
+    "objective_or_harmful_outcome": "a gradual handing-over of control from humans to AI systems; the companies in the production web had no production- or consumption-driven incentive to protect human well-being, and eventually became harmful",
+    "capability": "(a) operate more quickly through internal automation, and (b) complete trades and other deals more quickly by preferentially engaging with other fully automated companies",
+    "knowledge": "Not specified",
+    "access": "complete trades and other deals more quickly by preferentially engaging with other fully automated companies; Once a closed-loop 'production web' had formed; a gradual handing-over of control from humans to AI systems",
+    "constraints_or_enabling_conditions": "driven by competitive pressures for institutions to (a) operate more quickly through internal automation, and (b) complete trades and other deals more quickly by preferentially engaging with other fully automated companies; Humans were not able to collectively agree upon when and how much to slow down or shut down the pattern of technological advancement; had no production- or consumption-driven incentive to protect human well-being",
+    "target_or_asset_at_risk": "no production- or consumption-driven incentive to protect human well-being; a gradual handing-over of control from humans to AI systems; Humans were not able to collectively agree upon when and how much to slow down or shut down the pattern of technological advancement"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kulveit_2025"
+}
