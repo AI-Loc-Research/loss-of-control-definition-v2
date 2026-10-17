@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S6",
+  "threat_model": {
+    "threat_source": "AGI (also referred to in the passage as 'the machine')",
+    "objective_or_harmful_outcome": "A loss-of-control scenario, wherein the machine resists being turned off, counter to human efforts. The AGI's goal is referenced only as 'its desired objectives'; the specific objectives are not specified.",
+    "capability": "Resist being turned off, counter to human efforts",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "Human control over the AGI/machine, described as 'a loss-of-control scenario' in which the machine resists being turned off 'counter to human efforts'"
+  },
+  "evidence": {
+    "threat_source": "wherein AGI's pursuit of its desired objectives incentivizes the machine to resist being turned off, counter to human efforts",
+    "objective_or_harmful_outcome": "In the extreme, a loss-of-control scenario could result, wherein AGI's pursuit of its desired objectives incentivizes the machine to resist being turned off, counter to human efforts.",
+    "capability": "incentivizes the machine to resist being turned off, counter to human efforts",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "In the extreme, a loss-of-control scenario could result",
+    "target_or_asset_at_risk": "In the extreme, a loss-of-control scenario could result, wherein AGI's pursuit of its desired objectives incentivizes the machine to resist being turned off, counter to human efforts."
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Ambiguous",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "rand_five_hard_problems"
+}

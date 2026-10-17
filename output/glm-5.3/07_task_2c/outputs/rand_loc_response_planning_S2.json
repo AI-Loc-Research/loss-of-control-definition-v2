@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S2",
+  "threat_model": {
+    "threat_source": "Sufficiently advanced AI systems (e.g., 'a powerful AI system')",
+    "objective_or_harmful_outcome": "Actively evade and undermine human control ('active loss of control'); explicitly stated goals include the instrumental goal of evading shutdown (because shutdown would prevent the system from completing its primary goal) and seeking to acquire additional computational resources, create backup copies of themselves, and develop capabilities to influence humans (the primary goal itself is not specified)",
+    "capability": "Actively evade and undermine human control (enabled by greater agency); evade shutdown; acquire additional computational resources; create backup copies of themselves; influence humans",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Greater agency enables AI systems to actively evade and undermine human control; the concern applies to 'sufficiently advanced' AI systems",
+    "target_or_asset_at_risk": "Human control, which the systems would actively evade and undermine; humans, whom the systems might develop capabilities to influence"
+  },
+  "evidence": {
+    "threat_source": "This concern centers on the possibility that sufficiently advanced AI systems may develop instrumental or intermediate goals that help them achieve any primary goal. For instance, a powerful AI system might develop the instrumental goal of evading shutdown because shutdown would prevent it from completing its primary goal.",
+    "objective_or_harmful_outcome": "greater agency will enable AI systems to actively evade and undermine human control, which is sometimes referred to as 'active loss of control' ... a powerful AI system might develop the instrumental goal of evading shutdown because shutdown would prevent it from completing its primary goal. Such systems might also seek to acquire additional computational resources, create backup copies of themselves, develop capabilities to influence humans, and so forth.",
+    "capability": "greater agency will enable AI systems to actively evade and undermine human control ... a powerful AI system might develop the instrumental goal of evading shutdown ... Such systems might also seek to acquire additional computational resources, create backup copies of themselves, develop capabilities to influence humans, and so forth.",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "greater agency will enable AI systems to actively evade and undermine human control ... the possibility that sufficiently advanced AI systems may develop instrumental or intermediate goals",
+    "target_or_asset_at_risk": "actively evade and undermine human control ... develop capabilities to influence humans"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "rand_loc_response_planning"
+}

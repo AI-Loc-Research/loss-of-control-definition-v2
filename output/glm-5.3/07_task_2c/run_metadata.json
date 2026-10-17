@@ -1,47 +1,47 @@
 {
-  "timestamp": "2026-10-17T19:12:08.104384+00:00",
-  "total_runtime_seconds": 4277.26,
+  "timestamp": "2026-10-17T20:23:26.981123+00:00",
+  "total_runtime_seconds": 5097.77,
   "total_scenarios": 5,
   "scenarios_processed": 5,
   "scenarios_skipped": 0,
   "errors": [],
   "per_scenario": [
     {
-      "item_key": "oecd_ai_risks_S3",
+      "item_key": "rand_five_hard_problems_S5",
       "skipped": false,
-      "latency_seconds": 1008.57,
+      "latency_seconds": 1028.57,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "rand_five_hard_problems_S1",
+      "item_key": "rand_five_hard_problems_S6",
       "skipped": false,
-      "latency_seconds": 442.13,
+      "latency_seconds": 857.04,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "rand_five_hard_problems_S2",
+      "item_key": "rand_loc_response_planning_S1",
       "skipped": false,
-      "latency_seconds": 1188.48,
+      "latency_seconds": 585.36,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "rand_five_hard_problems_S3",
+      "item_key": "rand_loc_response_planning_S10",
       "skipped": false,
-      "latency_seconds": 758.93,
+      "latency_seconds": 1978.91,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "rand_five_hard_problems_S4",
+      "item_key": "rand_loc_response_planning_S2",
       "skipped": false,
-      "latency_seconds": 879.14,
+      "latency_seconds": 647.88,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
