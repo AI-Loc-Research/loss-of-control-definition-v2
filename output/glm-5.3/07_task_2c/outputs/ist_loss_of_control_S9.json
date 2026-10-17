@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S9",
+  "threat_model": {
+    "threat_source": "The AI system that has embedded manipulation and deception",
+    "objective_or_harmful_outcome": "Harmful outcome (no intention explicitly stated): a 'going out with a whimper' scenario that leads to a slow-rolling catastrophe, one where humans can no longer compete with the AI system that has embedded manipulation and deception",
+    "capability": "Influence-seeking behaviour; embedded manipulation and deception in the AI system",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "Humans, who can no longer compete with the AI system"
+  },
+  "evidence": {
+    "threat_source": "the AI system that has embedded manipulation and deception",
+    "objective_or_harmful_outcome": "could lead to a 'going out with a whimper' scenario that leads to a slow-rolling catastrophe, one where humans can no longer compete with the AI system that has embedded manipulation and deception",
+    "capability": "AI's influence-seeking behaviour; the AI system 'has embedded manipulation and deception'",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "one where humans can no longer compete with the AI system"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "ist_loss_of_control"
+}

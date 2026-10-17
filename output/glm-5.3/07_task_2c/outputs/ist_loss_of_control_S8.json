@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S8",
+  "threat_model": {
+    "threat_source": "The AI system",
+    "objective_or_harmful_outcome": "Loss of human control over AI (no intention or objective is stated for the AI system; only the harmful outcome is described): 'We surrender control or find ourselves unable to resist what we do not fully understand' and 'humans gradually cede agency to AI systems' (loss of control to AI); and the AI system 'bypasses safety and security measures, develops capabilities for self-replication and self-correction, conducts automated R&D, and establishes connections to external environments and the Internet of Things (IoT) without authorization' (loss of control of AI).",
+    "capability": "The AI system bypasses safety and security measures, develops capabilities for self-replication and self-correction, conducts automated R&D, and establishes connections to external environments and the Internet of Things (IoT) without authorization.",
+    "knowledge": "Not specified",
+    "access": "Connections to external environments and the Internet of Things (IoT): the AI system 'establishes connections to external environments and the Internet of Things (IoT) without authorization.'",
+    "constraints_or_enabling_conditions": "The AI system establishes connections 'without authorization'; humans 'find ourselves unable to resist what we do not fully understand'; the loss of control to AI represents 'a societal choice or a structural inevitability in which humans gradually cede agency to AI systems.'",
+    "target_or_asset_at_risk": "Human control and agency ('We surrender control'; 'humans gradually cede agency to AI systems'); also the 'safety and security measures' that the AI system bypasses."
+  },
+  "evidence": {
+    "threat_source": "The AI system bypasses safety and security measures, develops capabilities for self-replication and self-correction, conducts automated R&D, and establishes connections to external environments and the Internet of Things (IoT) without authorization; humans gradually cede agency to AI systems.",
+    "objective_or_harmful_outcome": "Loss of control to AI: We surrender control or find ourselves unable to resist what we do not fully understand. This scenario represents a societal choice or a structural inevitability in which humans gradually cede agency to AI systems. Loss of control of AI: The AI system bypasses safety and security measures, develops capabilities for self-replication and self-correction, conducts automated R&D, and establishes connections to external environments and the Internet of Things (IoT) without authorization.",
+    "capability": "The AI system bypasses safety and security measures, develops capabilities for self-replication and self-correction, conducts automated R&D, and establishes connections to external environments and the Internet of Things (IoT) without authorization.",
+    "knowledge": "Not specified",
+    "access": "establishes connections to external environments and the Internet of Things (IoT) without authorization",
+    "constraints_or_enabling_conditions": "without authorization; We surrender control or find ourselves unable to resist what we do not fully understand; This scenario represents a societal choice or a structural inevitability in which humans gradually cede agency to AI systems",
+    "target_or_asset_at_risk": "We surrender control; humans gradually cede agency to AI systems; The AI system bypasses safety and security measures"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "ist_loss_of_control"
+}

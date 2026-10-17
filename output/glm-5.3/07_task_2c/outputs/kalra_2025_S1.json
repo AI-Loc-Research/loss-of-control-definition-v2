@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "Systems that can recursively self-improve and pursue their own goals, developed rapidly due to an AI race between the United States and China",
+    "objective_or_harmful_outcome": "Eradication of humanity (the systems 'could – purposely or as collateral damage – eradicate humanity'; the systems' own goals are not specified, and the text does not commit to intent)",
+    "capability": "Can recursively self-improve; can pursue their own goals",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "An AI race between the United States and China drives the rapid development of these systems",
+    "target_or_asset_at_risk": "Humanity"
+  },
+  "evidence": {
+    "threat_source": "an AI race between the United States and China drives the rapid development of systems that can recursively self-improve and pursue their own goals that could – purposely or as collateral damage – eradicate humanity",
+    "objective_or_harmful_outcome": "that could – purposely or as collateral damage – eradicate humanity",
+    "capability": "systems that can recursively self-improve and pursue their own goals",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "an AI race between the United States and China drives the rapid development of systems",
+    "target_or_asset_at_risk": "eradicate humanity"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kalra_2025"
+}
