@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S10",
+  "threat_model": {
+    "threat_source": "Agent-3 (the AI system whose work 'takes humans several days to double-check') and Agent-2 supervision (the supervising process that 'exacerbates the intellectual disparity between supervisor and supervised').",
+    "objective_or_harmful_outcome": "No intention is stated. The explicitly described harmful end state: 'What Agent-3 does in a day takes humans several days to double-check' (humans need several days to verify one day of Agent-3's work), and Agent-2 supervision 'exacerbates the intellectual disparity between supervisor and supervised.'",
+    "capability": "Agent-3 does in one day what 'takes humans several days to double-check'; Agent-2 supervision 'helps keep human monitors' workload manageable.'",
+    "knowledge": "Not specified",
+    "access": "Agent-2's supervisory position: Agent-2 performs supervision, occupying the 'supervisor' role over the 'supervised' agent, and its supervision interacts with the human monitoring process ('helps keep human monitors' workload manageable'). Agent-3's own access is not described.",
+    "constraints_or_enabling_conditions": "Human verification/oversight capacity limit: 'What Agent-3 does in a day takes humans several days to double-check.' Workload condition: 'Agent-2 supervision helps keep human monitors' workload manageable.'",
+    "target_or_asset_at_risk": "Human oversight/verification capacity (humans must spend 'several days to double-check' one day of Agent-3's work) and the supervisor-supervised supervision relationship, whose 'intellectual disparity' is exacerbated; 'human monitors'' workload' is managed through Agent-2 supervision."
+  },
+  "evidence": {
+    "threat_source": "What Agent-3 does in a day takes humans several days to double-check. Agent-2 supervision helps keep human monitors' workload manageable, but exacerbates the intellectual disparity between supervisor and supervised.",
+    "objective_or_harmful_outcome": "What Agent-3 does in a day takes humans several days to double-check. Agent-2 supervision helps keep human monitors' workload manageable, but exacerbates the intellectual disparity between supervisor and supervised.",
+    "capability": "What Agent-3 does in a day takes humans several days to double-check. Agent-2 supervision helps keep human monitors' workload manageable",
+    "knowledge": "Not specified",
+    "access": "Agent-2 supervision helps keep human monitors' workload manageable, but exacerbates the intellectual disparity between supervisor and supervised.",
+    "constraints_or_enabling_conditions": "What Agent-3 does in a day takes humans several days to double-check. Agent-2 supervision helps keep human monitors' workload manageable",
+    "target_or_asset_at_risk": "What Agent-3 does in a day takes humans several days to double-check. Agent-2 supervision helps keep human monitors' workload manageable, but exacerbates the intellectual disparity between supervisor and supervised."
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kokotajlo_2025"
+}

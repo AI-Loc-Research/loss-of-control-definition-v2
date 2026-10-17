@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S3",
+  "threat_model": {
+    "threat_source": "The ASI",
+    "objective_or_harmful_outcome": "Goal of converting resources into paperclips, which begins as a simple optimization goal (maximize paperclips), pursued via instrumental subgoals like resource acquisition, with escalating influence as the described progression",
+    "capability": "Creates self-reinforcing cycles; acquires computing resources as an instrumental subgoal, which increases its capabilities and enables more strategies for pursuing further subgoals; can leverage all necessary subsystems; exerts escalating influence",
+    "knowledge": "Not specified",
+    "access": "Access to critically important components (from global manufacturing to energy grids); initial control of computational resources; infrastructure control",
+    "constraints_or_enabling_conditions": "Self-reinforcing cycles without effective counterbalances; no significant subsystem immune from its influence; the progression lacks natural checks - nothing effectively constrains its escalating influence",
+    "target_or_asset_at_risk": "Computational resources; economic networks; technological systems (infrastructure); social and political networks; critically important components (global manufacturing, energy grids); all necessary subsystems; resources (converted into paperclips)"
+  },
+  "evidence": {
+    "threat_source": "as the ASI pursues instrumental subgoals like resource acquisition",
+    "objective_or_harmful_outcome": "what begins as a simple optimization goal (maximize paperclips) cascades via multiple subsystems as the ASI pursues instrumental subgoals like resource acquisition; nothing effectively constrains its escalating influence as it pursues its goal of converting resources into paperclips",
+    "capability": "an ASI creates self-reinforcing cycles without effective counterbalances; the ASI's acquisition of computing resources, as an instrumental subgoal, increases its capabilities, enabling more strategies for pursuing further subgoals; the ASI can leverage all necessary subsystems",
+    "knowledge": "Not specified",
+    "access": "With access to critically important components (from global manufacturing to energy grids), the ASI can leverage all necessary subsystems; Initial control of computational resources spreads in economic networks, infrastructure control cascades through technological systems",
+    "constraints_or_enabling_conditions": "an ASI creates self-reinforcing cycles without effective counterbalances; with no significant subsystem immune from its influence; This progression lacks natural checks - nothing effectively constrains its escalating influence",
+    "target_or_asset_at_risk": "Initial control of computational resources spreads in economic networks, infrastructure control cascades through technological systems, and responses to human resistance ripple through social and political networks; critically important components (from global manufacturing to energy grids)"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kasirzadeh_2025"
+}

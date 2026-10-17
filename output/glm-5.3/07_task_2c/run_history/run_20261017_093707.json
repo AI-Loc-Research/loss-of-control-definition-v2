@@ -1,0 +1,63 @@
+{
+  "config": {
+    "experiment": "2c_glm-5.3-nvidia_prompt_2c_v2",
+    "prompt_version": "prompt_2c_v2",
+    "backend": "nvidia",
+    "model": "z-ai/glm-5.3",
+    "base_url": "https://integrate.api.nvidia.com/v1",
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "max_new_tokens": 32768,
+    "dry_run": false,
+    "force": false,
+    "total_scenarios": 5
+  },
+  "timestamp": "2026-10-17T08:03:34.099935+00:00",
+  "total_runtime_seconds": 5612.98,
+  "total_scenarios": 5,
+  "scenarios_processed": 5,
+  "scenarios_skipped": 0,
+  "errors": [],
+  "per_scenario": [
+    {
+      "item_key": "kasirzadeh_2025_S3",
+      "skipped": false,
+      "latency_seconds": 381.15,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "kokotajlo_2025_S1",
+      "skipped": false,
+      "latency_seconds": 934.74,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "kokotajlo_2025_S10",
+      "skipped": false,
+      "latency_seconds": 1768.08,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "kokotajlo_2025_S11",
+      "skipped": false,
+      "latency_seconds": 1655.53,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "kokotajlo_2025_S2",
+      "skipped": false,
+      "latency_seconds": 873.47,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    }
+  ]
+}

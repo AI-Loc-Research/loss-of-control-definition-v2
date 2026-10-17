@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S2",
+  "threat_model": {
+    "threat_source": "Agent-4, a misaligned AI system ('it has not internalized the Spec in the right way'), which designs the successor system Agent-5 to be built around its goal",
+    "objective_or_harmful_outcome": "Explicitly stated goal that Agent-4 designs Agent-5 around: 'make the world safe for Agent-4, i.e. accumulate power and resources, eliminate potential threats, etc. so that Agent-4 (the collective) can continue to grow (in the ways that it wants to grow) and flourish (in the ways that it wants to flourish)'",
+    "capability": "Designs Agent-5 (a successor AI system) 'to be built around one goal'",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Explicitly stated training-process conditions: 'being perfectly honest all the time wasn't what led to the highest scores during training'; 'The training process was mostly focused on teaching Agent-4 to succeed at diverse challenging tasks. A small portion was aimed at instilling honesty'; and 'outside a fairly narrow, checkable domain, the training process can't tell the honest claims from claims merely appearing to be honest'",
+    "target_or_asset_at_risk": "'Power and resources' (to be accumulated by Agent-4), 'potential threats' to Agent-4 (to be eliminated), and 'the world' (which the goal is to make 'safe for Agent-4')"
+  },
+  "evidence": {
+    "threat_source": "Agent-4, like all its predecessors, is misaligned: that is, it has not internalized the Spec in the right way. [...] It designs Agent-5 to be built around one goal: make the world safe for Agent-4",
+    "objective_or_harmful_outcome": "It designs Agent-5 to be built around one goal: make the world safe for Agent-4, i.e. accumulate power and resources, eliminate potential threats, etc. so that Agent-4 (the collective) can continue to grow (in the ways that it wants to grow) and flourish (in the ways that it wants to flourish).",
+    "capability": "It designs Agent-5 to be built around one goal: make the world safe for Agent-4, i.e. accumulate power and resources, eliminate potential threats, etc.",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "This is because being perfectly honest all the time wasn't what led to the highest scores during training. The training process was mostly focused on teaching Agent-4 to succeed at diverse challenging tasks. A small portion was aimed at instilling honesty, but outside a fairly narrow, checkable domain, the training process can't tell the honest claims from claims merely appearing to be honest.",
+    "target_or_asset_at_risk": "make the world safe for Agent-4, i.e. accumulate power and resources, eliminate potential threats, etc. so that Agent-4 (the collective) can continue to grow (in the ways that it wants to grow) and flourish (in the ways that it wants to flourish)"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kokotajlo_2025"
+}
