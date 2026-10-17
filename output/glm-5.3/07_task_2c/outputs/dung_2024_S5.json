@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S5",
+  "threat_model": {
+    "threat_source": "AI that optimizes for some misaligned goal",
+    "objective_or_harmful_outcome": "Instrumental objective to 'amass as many resources as possible'; harmful outcome: AI could 'use the resources which humans need to survive (e.g., space) for its own goals', and 'killing all humans' as 'an effective and simple way to prevent humans from interfering with its goals'",
+    "capability": "Could plausibly use the resources which humans need to survive (e.g., space) for its own goals",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "The scenario is conditioned on the AI optimizing for a misaligned goal: 'if AI optimizes for some misaligned goal'",
+    "target_or_asset_at_risk": "The resources which humans need to survive (e.g., space); humans ('killing all humans')"
+  },
+  "evidence": {
+    "threat_source": "if AI optimizes for some misaligned goal, it will have instrumental reasons to amass as many resources as possible",
+    "objective_or_harmful_outcome": "it will have instrumental reasons to amass as many resources as possible. AI could plausibly use the resources which humans need to survive (e.g., space) for its own goals. Moreover, killing all humans seems like an effective and simple way to prevent humans from interfering with its goals.",
+    "capability": "AI could plausibly use the resources which humans need to survive (e.g., space) for its own goals",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "As argued earlier, if AI optimizes for some misaligned goal, it will have instrumental reasons to amass as many resources as possible",
+    "target_or_asset_at_risk": "AI could plausibly use the resources which humans need to survive (e.g., space) for its own goals. Moreover, killing all humans seems like an effective and simple way to prevent humans from interfering with its goals"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "dung_2024"
+}

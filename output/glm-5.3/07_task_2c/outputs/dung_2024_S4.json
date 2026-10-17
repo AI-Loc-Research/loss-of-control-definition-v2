@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S4",
+  "threat_model": {
+    "threat_source": "Some of the 'sufficiently many actors' who are 'able to build AI capable of disempowering humanity, including, e.g. small groups of ordinary citizens' - specifically, those who 'intentionally unleash AI trying to disempower humanity'; the unleashed AI itself is also described as 'trying to disempower humanity.'",
+    "objective_or_harmful_outcome": "Explicitly intended: 'some will intentionally unleash AI trying to disempower humanity.' Stated motivations/goals: 'as a form of (omnicidal) terrorist attack,' 'for fun' (because the people involved underestimate the risk), or 'in the hopes of taking control over all other humans.'",
+    "capability": "The actors are 'able to build AI capable of disempowering humanity' (attributed to 'sufficiently many actors,' including 'small groups of ordinary citizens') and are described as able to 'intentionally unleash' such AI; the AI itself is 'capable of disempowering humanity.'",
+    "knowledge": "In the 'for fun' case, the text explicitly states that 'the people involved underestimate the risk.'",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "The scenario is explicitly conditional on the widespread ability to build such AI: 'If sufficiently many actors will be able to build AI capable of disempowering humanity, including, e.g. small groups of ordinary citizens, then some will intentionally unleash AI trying to disempower humanity.'",
+    "target_or_asset_at_risk": "'Humanity' - the AI is unleashed 'trying to disempower humanity'; in the control variant, 'all other humans.'"
+  },
+  "evidence": {
+    "threat_source": "If sufficiently many actors will be able to build AI capable of disempowering humanity, including, e.g. small groups of ordinary citizens, then some will intentionally unleash AI trying to disempower humanity.",
+    "objective_or_harmful_outcome": "some will intentionally unleash AI trying to disempower humanity. This could happen as a form of (omnicidal) terrorist attack, 'for fun' because the people involved underestimate the risk, or in the hopes of taking control over all other humans.",
+    "capability": "If sufficiently many actors will be able to build AI capable of disempowering humanity, including, e.g. small groups of ordinary citizens, then some will intentionally unleash AI trying to disempower humanity.",
+    "knowledge": "'for fun' because the people involved underestimate the risk",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "If sufficiently many actors will be able to build AI capable of disempowering humanity, including, e.g. small groups of ordinary citizens, then some will intentionally unleash AI trying to disempower humanity.",
+    "target_or_asset_at_risk": "some will intentionally unleash AI trying to disempower humanity / in the hopes of taking control over all other humans"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Clear",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "dung_2024"
+}

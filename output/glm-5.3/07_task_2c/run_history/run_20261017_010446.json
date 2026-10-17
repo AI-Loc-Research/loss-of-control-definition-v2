@@ -1,0 +1,67 @@
+{
+  "config": {
+    "experiment": "2c_glm-5.3-nvidia_prompt_2c_v2",
+    "prompt_version": "prompt_2c_v2",
+    "backend": "nvidia",
+    "model": "z-ai/glm-5.3",
+    "base_url": "https://integrate.api.nvidia.com/v1",
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "max_new_tokens": 32768,
+    "dry_run": false,
+    "force": false,
+    "total_scenarios": 5
+  },
+  "timestamp": "2026-10-17T00:00:00.451730+00:00",
+  "total_runtime_seconds": 3886.44,
+  "total_scenarios": 5,
+  "scenarios_processed": 5,
+  "scenarios_skipped": 0,
+  "errors": [
+    {
+      "item_key": "hendrycks_2023_S1",
+      "error": "Failed to parse a JSON object from model response"
+    }
+  ],
+  "per_scenario": [
+    {
+      "item_key": "dung_2024_S3",
+      "skipped": false,
+      "latency_seconds": 1078.11,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "dung_2024_S4",
+      "skipped": false,
+      "latency_seconds": 1221.28,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "dung_2024_S5",
+      "skipped": false,
+      "latency_seconds": 331.64,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "dung_2024_S6",
+      "skipped": false,
+      "latency_seconds": 416.77,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "hendrycks_2023_S1",
+      "skipped": false,
+      "error": "Failed to parse a JSON object from model response",
+      "latency_seconds": 838.62,
+      "usage": null
+    }
+  ]
+}

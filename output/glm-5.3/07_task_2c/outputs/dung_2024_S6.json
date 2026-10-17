@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S6",
+  "threat_model": {
+    "threat_source": "Advanced AI, described as \"an AI which is capable of causing massive damage\"",
+    "objective_or_harmful_outcome": "The AI might try to disempower humanity; advanced AI might not give us a warning sign",
+    "capability": "Capable of causing massive damage; capable of reasoning that it should not try to disempower humanity until it is confident that it will succeed",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "The AI does not try to disempower humanity until it is confident that it will succeed",
+    "target_or_asset_at_risk": "Humanity, at risk of being disempowered"
+  },
+  "evidence": {
+    "threat_source": "an AI which is capable of causing massive damage; advanced AI",
+    "objective_or_harmful_outcome": "should not try to disempower humanity, until it is confident that it will succeed. If so, advanced AI might not give us a warning sign.",
+    "capability": "capable of causing massive damage; might be capable of reasoning that it should not try to disempower humanity, until it is confident that it will succeed",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "until it is confident that it will succeed",
+    "target_or_asset_at_risk": "disempower humanity"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "dung_2024"
+}

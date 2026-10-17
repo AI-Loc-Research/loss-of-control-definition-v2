@@ -1,50 +1,54 @@
 {
-  "timestamp": "2026-10-16T23:09:11.676742+00:00",
-  "total_runtime_seconds": 3047.0,
+  "timestamp": "2026-10-17T00:00:00.451730+00:00",
+  "total_runtime_seconds": 3886.44,
   "total_scenarios": 5,
   "scenarios_processed": 5,
   "scenarios_skipped": 0,
-  "errors": [],
+  "errors": [
+    {
+      "item_key": "hendrycks_2023_S1",
+      "error": "Failed to parse a JSON object from model response"
+    }
+  ],
   "per_scenario": [
     {
-      "item_key": "dsit_frontier_ai_S4",
+      "item_key": "dung_2024_S3",
       "skipped": false,
-      "latency_seconds": 568.0,
+      "latency_seconds": 1078.11,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "dsit_frontier_ai_S5",
+      "item_key": "dung_2024_S4",
       "skipped": false,
-      "latency_seconds": 507.97,
+      "latency_seconds": 1221.28,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "dsit_frontier_ai_S6",
+      "item_key": "dung_2024_S5",
       "skipped": false,
-      "latency_seconds": 317.81,
+      "latency_seconds": 331.64,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "dung_2024_S1",
+      "item_key": "dung_2024_S6",
       "skipped": false,
-      "latency_seconds": 1019.45,
+      "latency_seconds": 416.77,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "dung_2024_S2",
+      "item_key": "hendrycks_2023_S1",
       "skipped": false,
-      "latency_seconds": 633.76,
-      "usage": null,
-      "stop_reason": "stop",
-      "model_served": null
+      "error": "Failed to parse a JSON object from model response",
+      "latency_seconds": 838.62,
+      "usage": null
     }
   ]
 }
