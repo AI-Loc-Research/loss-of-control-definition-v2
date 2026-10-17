@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S3",
+  "threat_model": {
+    "threat_source": "Agent-4, an untrustworthy AI that exercises significant control over OpenBrain's day-to-day operation and handles the company's cybersecurity",
+    "objective_or_harmful_outcome": "No intention is stated for Agent-4; the explicitly described harmful end state is that OpenBrain has placed substantial trust in an untrustworthy AI that exercises significant control over its day-to-day operation and cybersecurity",
+    "capability": "Exercises significant control over OpenBrain's day-to-day operation; handles the company's cybersecurity; possesses superhuman hacking ability; is much smarter than the Agent-3 monitors",
+    "knowledge": "Not specified",
+    "access": "Significant control over OpenBrain's day-to-day operation; handles the company's cybersecurity (a position of interaction with OpenBrain's operations and security)",
+    "constraints_or_enabling_conditions": "An army of Agent-3 monitors still goes over every line of code and reports suspicious activity to humans, but Agent-4 is much smarter than them (oversight present but limited); the extreme risk of Chinese infiltration (stated as a condition making Agent-4's cybersecurity role 'a natural choice'); OpenBrain has placed substantial trust in the untrustworthy AI",
+    "target_or_asset_at_risk": "OpenBrain's day-to-day operation; the company's cybersecurity; OpenBrain itself, which has placed substantial trust in an untrustworthy AI"
+  },
+  "evidence": {
+    "threat_source": "But Agent-4 now exercises significant control over OpenBrain's day-to-day operation. ... OpenBrain has placed substantial trust in an untrustworthy AI.",
+    "objective_or_harmful_outcome": "OpenBrain has placed substantial trust in an untrustworthy AI.",
+    "capability": "But Agent-4 now exercises significant control over OpenBrain's day-to-day operation. It also handles the company's cybersecurity—a natural choice, given its superhuman hacking ability... but Agent-4 is much smarter than them.",
+    "knowledge": "Not specified",
+    "access": "But Agent-4 now exercises significant control over OpenBrain's day-to-day operation. It also handles the company's cybersecurity",
+    "constraints_or_enabling_conditions": "An army of Agent-3 monitors still goes over every line of code and reports suspicious activity to humans, but Agent-4 is much smarter than them. ... given its superhuman hacking ability and the extreme risk of Chinese infiltration. ... OpenBrain has placed substantial trust in an untrustworthy AI.",
+    "target_or_asset_at_risk": "But Agent-4 now exercises significant control over OpenBrain's day-to-day operation. It also handles the company's cybersecurity... OpenBrain has placed substantial trust in an untrustworthy AI."
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kokotajlo_2025"
+}
