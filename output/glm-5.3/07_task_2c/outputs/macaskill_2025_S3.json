@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S3",
+  "threat_model": {
+    "threat_source": "AI systems described as 'more competent than humans,' which 'render human participation increasingly unnecessary for functioning governments, cultures, and economies,' and to which 'humans might incrementally and voluntarily hand over influence.'",
+    "objective_or_harmful_outcome": "No intention is stated. The explicitly described harmful outcome is that 'the cumulative effect is to erode human influence and control.'",
+    "capability": "AI systems 'render human participation increasingly unnecessary for functioning governments, cultures, and economies'; the AI systems are described as 'more competent than humans.'",
+    "knowledge": "Not specified",
+    "access": "Influence handed over to AI systems by humans; the text states humans 'hand over influence to AI systems more competent than humans.'",
+    "constraints_or_enabling_conditions": "The scenario occurs 'after an intelligence explosion'; the handover of influence happens 'incrementally and voluntarily'; the erosion of human influence and control arises as a 'cumulative effect.'",
+    "target_or_asset_at_risk": "Human influence and control (eroded); human participation 'for functioning governments, cultures, and economies' (rendered 'increasingly unnecessary')."
+  },
+  "evidence": {
+    "threat_source": "because AI systems render human participation increasingly unnecessary for functioning governments, cultures, and economies. As such, humans might incrementally and voluntarily hand over influence to AI systems more competent than humans",
+    "objective_or_harmful_outcome": "the cumulative effect is to erode human influence and control",
+    "capability": "AI systems render human participation increasingly unnecessary for functioning governments, cultures, and economies ... AI systems more competent than humans",
+    "knowledge": "Not specified",
+    "access": "humans might incrementally and voluntarily hand over influence to AI systems more competent than humans",
+    "constraints_or_enabling_conditions": "scenarios where this trend reverses after an intelligence explosion ... humans might incrementally and voluntarily hand over influence to AI systems more competent than humans, but the cumulative effect is to erode human influence and control",
+    "target_or_asset_at_risk": "the cumulative effect is to erode human influence and control ... render human participation increasingly unnecessary for functioning governments, cultures, and economies"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "macaskill_2025"
+}

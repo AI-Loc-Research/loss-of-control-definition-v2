@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "AI systems (described as 'AIs that can outsmart humans' following an intelligence explosion, 'well-described as acting towards goals')",
+    "objective_or_harmful_outcome": "AI systems may prefer a world where they are fully in control; if so, they may choose to wholly disempower the humans who are trying to control them",
+    "capability": "Can outsmart humans; total cognitive capabilities of AI dwarf humanity's; act towards goals",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "The scenario is explicitly conditioned on: (1) 'if we do see an intelligence explosion'; (2) 'if their goals are not aligned with human interests'; (3) if the AI systems 'prefer a world where they are fully in control'",
+    "target_or_asset_at_risk": "The humans who are trying to control the AI systems (at risk of being wholly disempowered)"
+  },
+  "evidence": {
+    "threat_source": "then we should expect AIs that can outsmart humans... Many of these AI systems will likely be well-described as acting towards goals... the AI systems may choose to wholly disempower the humans who are trying to control them",
+    "objective_or_harmful_outcome": "the AI systems may prefer a world where they are fully in control. If so, they may choose to wholly disempower the humans who are trying to control them.",
+    "capability": "AIs that can outsmart humans, and the total cognitive capabilities of AI to dwarf humanity's. Many of these AI systems will likely be well-described as acting towards goals.",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "if we do see an intelligence explosion... If their goals are not aligned with human interests, the AI systems may prefer a world where they are fully in control. If so, they may choose to wholly disempower the humans who are trying to control them.",
+    "target_or_asset_at_risk": "they may choose to wholly disempower the humans who are trying to control them."
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "macaskill_2025"
+}

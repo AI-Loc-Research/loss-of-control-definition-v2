@@ -1,50 +1,47 @@
 {
-  "timestamp": "2026-10-17T12:23:33.336577+00:00",
-  "total_runtime_seconds": 6324.83,
+  "timestamp": "2026-10-17T14:09:00.348606+00:00",
+  "total_runtime_seconds": 6194.98,
   "total_scenarios": 5,
   "scenarios_processed": 5,
   "scenarios_skipped": 0,
-  "errors": [
-    {
-      "item_key": "kulveit_2025_S5",
-      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
-    }
-  ],
+  "errors": [],
   "per_scenario": [
     {
-      "item_key": "kulveit_2025_S2",
+      "item_key": "kulveit_2025_S8",
       "skipped": false,
-      "latency_seconds": 708.19,
+      "latency_seconds": 1410.1,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "kulveit_2025_S4",
+      "item_key": "kulveit_2025_S9",
       "skipped": false,
-      "latency_seconds": 1874.58,
+      "latency_seconds": 535.09,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "kulveit_2025_S5",
+      "item_key": "macaskill_2025_S1",
       "skipped": false,
-      "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504",
-      "latency_seconds": 302.14
-    },
-    {
-      "item_key": "kulveit_2025_S6",
-      "skipped": false,
-      "latency_seconds": 1940.42,
+      "latency_seconds": 668.09,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "kulveit_2025_S7",
+      "item_key": "macaskill_2025_S2",
       "skipped": false,
-      "latency_seconds": 1499.49,
+      "latency_seconds": 1979.29,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "macaskill_2025_S3",
+      "skipped": false,
+      "latency_seconds": 1602.39,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null

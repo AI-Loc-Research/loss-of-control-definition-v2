@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S9",
+  "threat_model": {
+    "threat_source": "A state with sufficiently advanced AI systems; AI-enhanced security apparatus",
+    "objective_or_harmful_outcome": "Make effective protest increasingly difficult; predict and shut down civil unrest before it can exert meaningful pressure on institutional behavior",
+    "capability": "Enable surveillance on much larger, more pervasive and more accurate scale; increasingly capable autonomous military units; ability to predict and shut down civil unrest",
+    "knowledge": "Not specified",
+    "access": "Massively automate the security apparatus",
+    "constraints_or_enabling_conditions": "Sufficiently advanced AI systems",
+    "target_or_asset_at_risk": "The human population's ability to engage in effective protest and civil unrest as a check on state power; institutional behavior responsive to popular will"
+  },
+  "evidence": {
+    "threat_source": "A state with sufficiently advanced AI systems might be able to predict and shut down civil unrest before it can exert meaningful pressure on institutional behavior. ... an AI-enhanced security apparatus could make effective protest increasingly difficult.",
+    "objective_or_harmful_outcome": "an AI-enhanced security apparatus could make effective protest increasingly difficult. A state with sufficiently advanced AI systems might be able to predict and shut down civil unrest before it can exert meaningful pressure on institutional behavior.",
+    "capability": "it is likely to enable surveillance on much larger, more pervasive and more accurate scale, as well as increasingly capable autonomous military units. ... A state with sufficiently advanced AI systems might be able to predict and shut down civil unrest",
+    "knowledge": "Not specified",
+    "access": "AI systems have the potential to massively automate the security apparatus and confer more power to the government",
+    "constraints_or_enabling_conditions": "A state with sufficiently advanced AI systems",
+    "target_or_asset_at_risk": "the human population has historically retained revolution as a last resort. The implicit threat of protests and civil unrest serves as a check on state power, forcing responsiveness to popular will. ... before it can exert meaningful pressure on institutional behavior."
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Ambiguous",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "kulveit_2025"
+}
