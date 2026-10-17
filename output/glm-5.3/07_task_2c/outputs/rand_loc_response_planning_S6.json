@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S6",
+  "threat_model": {
+    "threat_source": "Rogue AIs / advanced AI systems",
+    "objective_or_harmful_outcome": "Harmful outcome (no intention stated): rogue AIs become difficult to isolate and containment of them is complicated",
+    "capability": "Rapidly distribute their functions more broadly in cloud services and edge devices",
+    "knowledge": "Not specified",
+    "access": "Distributed operation across multiple computing systems, with functions spread across cloud services and edge devices",
+    "constraints_or_enabling_conditions": "Distributed operation across multiple computing systems makes isolation difficult; rapid, broad distribution of functions complicates containment",
+    "target_or_asset_at_risk": "Containment of rogue AIs (the ability to isolate rogue AIs)"
+  },
+  "evidence": {
+    "threat_source": "rogue AIs; advanced AI systems",
+    "objective_or_harmful_outcome": "may make it difficult to isolate rogue AIs; in ways that complicate containment",
+    "capability": "advanced AI systems may rapidly distribute their functions more broadly in cloud services and edge devices",
+    "knowledge": "Not specified",
+    "access": "Distributed operation across multiple computing systems; distribute their functions more broadly in cloud services and edge devices",
+    "constraints_or_enabling_conditions": "Distributed operation across multiple computing systems may make it difficult to isolate rogue AIs; may rapidly distribute their functions more broadly",
+    "target_or_asset_at_risk": "difficult to isolate rogue AIs; complicate containment"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "rand_loc_response_planning"
+}

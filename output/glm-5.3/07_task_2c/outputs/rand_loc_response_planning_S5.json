@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S5",
+  "threat_model": {
+    "threat_source": "Containment operations (disconnecting a rogue AI); responders who must choose between tolerating the rogue AI or causing immediate harm to society",
+    "objective_or_harmful_outcome": "Significant collateral damage caused by containment operations - disconnecting the rogue AI might affect systems that support hospitals, banks, or emergency services, causing immediate harm to society (harmful outcome only; no intended objective is stated in the passage)",
+    "capability": "Disconnecting a rogue AI (the containment operation)",
+    "knowledge": "Not specified",
+    "access": "Responders' position in the containment decision process - they are forced to choose between tolerating the rogue AI or causing immediate harm to society",
+    "constraints_or_enabling_conditions": "Complex dependencies with critical infrastructure, which may create situations in which containment operations themselves cause significant collateral damage; responders are forced into a choice between tolerating the rogue AI or causing immediate harm to society",
+    "target_or_asset_at_risk": "Systems that support hospitals, banks, or emergency services (critical infrastructure), and society (immediate harm to society)"
+  },
+  "evidence": {
+    "threat_source": "containment operations themselves cause significant collateral damage; Disconnecting a rogue AI might affect systems that support hospitals, banks, or emergency services, forcing responders to choose between tolerating the rogue AI or causing immediate harm to society",
+    "objective_or_harmful_outcome": "containment operations themselves cause significant collateral damage; Disconnecting a rogue AI might affect systems that support hospitals, banks, or emergency services; causing immediate harm to society",
+    "capability": "Disconnecting a rogue AI might affect systems that support hospitals, banks, or emergency services",
+    "knowledge": "Not specified",
+    "access": "forcing responders to choose between tolerating the rogue AI or causing immediate harm to society",
+    "constraints_or_enabling_conditions": "Complex dependencies with critical infrastructure may create situations in which containment operations themselves cause significant collateral damage; forcing responders to choose between tolerating the rogue AI or causing immediate harm to society",
+    "target_or_asset_at_risk": "Disconnecting a rogue AI might affect systems that support hospitals, banks, or emergency services; causing immediate harm to society"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "rand_loc_response_planning"
+}

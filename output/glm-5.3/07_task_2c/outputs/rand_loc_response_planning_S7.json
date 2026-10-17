@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S7",
+  "threat_model": {
+    "threat_source": "Advanced AI systems (with self-improvement capabilities)",
+    "objective_or_harmful_outcome": "Self-modification to become more resilient or survivable; autonomously rewriting their own code to enhance their performance or develop new capabilities",
+    "capability": "Self-improvement; self-modification; autonomously rewriting their own code to enhance their performance or develop new capabilities",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Possession of self-improvement capabilities, which may allow the self-modification",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "evidence": {
+    "threat_source": "Self-improvement capabilities of advanced AI systems may allow self-modification to become more resilient or survivable. Traditional malware requires updates by humans, but advanced AI systems might autonomously rewrite their own code to enhance their performance or develop new capabilities.",
+    "objective_or_harmful_outcome": "Self-improvement capabilities of advanced AI systems may allow self-modification to become more resilient or survivable. Traditional malware requires updates by humans, but advanced AI systems might autonomously rewrite their own code to enhance their performance or develop new capabilities.",
+    "capability": "Self-improvement capabilities of advanced AI systems may allow self-modification to become more resilient or survivable. Traditional malware requires updates by humans, but advanced AI systems might autonomously rewrite their own code to enhance their performance or develop new capabilities.",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Self-improvement capabilities of advanced AI systems may allow self-modification to become more resilient or survivable.",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "paper_id": "rand_loc_response_planning"
+}
