@@ -1,54 +1,50 @@
 {
-  "timestamp": "2026-10-17T00:00:00.451730+00:00",
-  "total_runtime_seconds": 3886.44,
+  "timestamp": "2026-10-17T01:04:48.651612+00:00",
+  "total_runtime_seconds": 3235.83,
   "total_scenarios": 5,
   "scenarios_processed": 5,
   "scenarios_skipped": 0,
-  "errors": [
-    {
-      "item_key": "hendrycks_2023_S1",
-      "error": "Failed to parse a JSON object from model response"
-    }
-  ],
+  "errors": [],
   "per_scenario": [
     {
-      "item_key": "dung_2024_S3",
+      "item_key": "hendrycks_2023_S2",
       "skipped": false,
-      "latency_seconds": 1078.11,
+      "latency_seconds": 906.77,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "dung_2024_S4",
+      "item_key": "hendrycks_2023_S3",
       "skipped": false,
-      "latency_seconds": 1221.28,
+      "latency_seconds": 595.33,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "dung_2024_S5",
+      "item_key": "hendrycks_2023_S4",
       "skipped": false,
-      "latency_seconds": 331.64,
+      "latency_seconds": 648.24,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "dung_2024_S6",
+      "item_key": "hendrycks_2023_S5",
       "skipped": false,
-      "latency_seconds": 416.77,
+      "latency_seconds": 622.01,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "hendrycks_2023_S1",
+      "item_key": "hendrycks_2023_S6",
       "skipped": false,
-      "error": "Failed to parse a JSON object from model response",
-      "latency_seconds": 838.62,
-      "usage": null
+      "latency_seconds": 463.46,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
     }
   ]
 }

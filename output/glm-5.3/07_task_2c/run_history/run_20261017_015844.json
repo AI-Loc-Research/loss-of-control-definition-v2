@@ -1,0 +1,63 @@
+{
+  "config": {
+    "experiment": "2c_glm-5.3-nvidia_prompt_2c_v2",
+    "prompt_version": "prompt_2c_v2",
+    "backend": "nvidia",
+    "model": "z-ai/glm-5.3",
+    "base_url": "https://integrate.api.nvidia.com/v1",
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "max_new_tokens": 32768,
+    "dry_run": false,
+    "force": false,
+    "total_scenarios": 5
+  },
+  "timestamp": "2026-10-17T01:04:48.651612+00:00",
+  "total_runtime_seconds": 3235.83,
+  "total_scenarios": 5,
+  "scenarios_processed": 5,
+  "scenarios_skipped": 0,
+  "errors": [],
+  "per_scenario": [
+    {
+      "item_key": "hendrycks_2023_S2",
+      "skipped": false,
+      "latency_seconds": 906.77,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "hendrycks_2023_S3",
+      "skipped": false,
+      "latency_seconds": 595.33,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "hendrycks_2023_S4",
+      "skipped": false,
+      "latency_seconds": 648.24,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "hendrycks_2023_S5",
+      "skipped": false,
+      "latency_seconds": 622.01,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "hendrycks_2023_S6",
+      "skipped": false,
+      "latency_seconds": 463.46,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    }
+  ]
+}
