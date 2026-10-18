@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S9",
+  "threat_model": {
+    "threat_source": "Rogue AI",
+    "objective_or_harmful_outcome": "No intention or goal is stated for the rogue AI; the explicitly described harmful outcome is that the speed of rogue AI coordination, replication, and adaptation could outpace human response (i.e., human response unable to keep up with the rogue AI).",
+    "capability": "Coordination, replication, and adaptation",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Timing condition: the speed of rogue AI coordination, replication, and adaptation could outpace human response — i.e., events could unfold faster than humans can respond.",
+    "target_or_asset_at_risk": "Human response (the human capacity to respond)"
+  },
+  "evidence": {
+    "threat_source": "rogue AI",
+    "objective_or_harmful_outcome": "The speed of rogue AI coordination, replication, and adaptation could outpace human response.",
+    "capability": "rogue AI coordination, replication, and adaptation",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "The speed of rogue AI coordination, replication, and adaptation could outpace human response.",
+    "target_or_asset_at_risk": "could outpace human response"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "rand_loc_response_planning"
+}

@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S3",
+  "threat_model": {
+    "threat_source": "AGI, which may function as an entity or as communities of AGI",
+    "objective_or_harmful_outcome": "Threats ranging from mass unemployment to the loss of human autonomy or even extinction (no intention or goal is explicitly stated)",
+    "capability": "Can rival humanity for power and pose threats ranging from mass unemployment to the loss of human autonomy or even extinction",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "Humanity (its power) and human autonomy"
+  },
+  "evidence": {
+    "threat_source": "In a combined replacement and independent goal-seeker scenario, AGI may function as an entity or as communities of AGI",
+    "objective_or_harmful_outcome": "pose threats ranging from mass unemployment to the loss of human autonomy or even extinction",
+    "capability": "can rival humanity for power and pose threats ranging from mass unemployment to the loss of human autonomy or even extinction",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "rival humanity for power and pose threats ranging from mass unemployment to the loss of human autonomy or even extinction"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Not specified",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "rand_pivots_pathways"
+}

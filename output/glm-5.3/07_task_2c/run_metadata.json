@@ -1,47 +1,47 @@
 {
-  "timestamp": "2026-10-17T21:48:26.485039+00:00",
-  "total_runtime_seconds": 4407.72,
+  "timestamp": "2026-10-17T23:01:55.918348+00:00",
+  "total_runtime_seconds": 5166.37,
   "total_scenarios": 5,
   "scenarios_processed": 5,
   "scenarios_skipped": 0,
   "errors": [],
   "per_scenario": [
     {
-      "item_key": "rand_loc_response_planning_S3",
+      "item_key": "rand_loc_response_planning_S8",
       "skipped": false,
-      "latency_seconds": 650.35,
+      "latency_seconds": 1210.51,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "rand_loc_response_planning_S4",
+      "item_key": "rand_loc_response_planning_S9",
       "skipped": false,
-      "latency_seconds": 598.78,
+      "latency_seconds": 1941.77,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "rand_loc_response_planning_S5",
+      "item_key": "rand_pivots_pathways_S1",
       "skipped": false,
-      "latency_seconds": 1394.43,
+      "latency_seconds": 528.64,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "rand_loc_response_planning_S6",
+      "item_key": "rand_pivots_pathways_S2",
       "skipped": false,
-      "latency_seconds": 258.36,
+      "latency_seconds": 617.89,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
     },
     {
-      "item_key": "rand_loc_response_planning_S7",
+      "item_key": "rand_pivots_pathways_S3",
       "skipped": false,
-      "latency_seconds": 1505.79,
+      "latency_seconds": 867.55,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
