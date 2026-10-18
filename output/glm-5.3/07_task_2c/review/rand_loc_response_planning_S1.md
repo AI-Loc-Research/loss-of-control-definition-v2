@@ -1,0 +1,24 @@
+# Threat Model Review: rand_loc_response_planning — S1
+
+**Scenario text:**
+> As AI systems gain greater autonomy and become more widely deployed, the conditions for LOC incidents become more likely. Delegating decisionmaking to AI systems inherently reduces opportunities for human oversight, especially in dynamic or high-speed environments. This risk is exacerbated by the complexity and opacity of advanced models, which make it difficult for humans to interpret the system’s internal reasoning or predict its behavior. Ideally, there is compatibility between a system’s capabilities and its deployment context in which AI systems operate within the bounds of their competence and humans retain meaningful opportunities to intervene. But in some cases, AI capabilities may outpace human ability to monitor or correct them in real time. Without sufficient guardrails, this mismatch might lead to unintended and potentially disruptive outcomes across interconnected systems before human operators can reassert control.
+
+---
+
+## Threat Model Components
+
+| Component | Value | Evidence | Uncertainty |
+|-----------|-------|----------|-------------|
+| Threat Source | AI systems — specifically AI systems that 'gain greater autonomy' and have 'decisionmaking' delegated to them (referred to as 'advanced models') | As AI systems gain greater autonomy and become more widely deployed, the conditions for LOC incidents become more likely. | Clear |
+| Objective/Harmful Outcome | 'Unintended and potentially disruptive outcomes across interconnected systems before human operators can reassert control' (i.e., LOC incidents); no intention is stated — the outcomes are explicitly 'unintended' | Without sufficient guardrails, this mismatch might lead to unintended and potentially disruptive outcomes across interconnected systems before human operators can reassert control. | Clear |
+| Capability | AI systems 'gain greater autonomy' and have 'decisionmaking' delegated to them; in some cases 'AI capabilities may outpace human ability to monitor or correct them in real time' | Delegating decisionmaking to AI systems inherently reduces opportunities for human oversight, especially in dynamic or high-speed environments. ... AI capabilities may outpace human ability to monitor or correct them in real time. | Clear |
+| Knowledge | Not specified | Not specified | Not specified |
+| Access | AI systems 'become more widely deployed' (deployment setting) and are assigned a decision-making role ('Delegating decisionmaking to AI systems'), placing them within the decision process of the deployment context | As AI systems gain greater autonomy and become more widely deployed, the conditions for LOC incidents become more likely. Delegating decisionmaking to AI systems inherently reduces opportunities for human oversight, especially in dynamic or high-speed environments. | Clear |
+| Constraints/Enabling Conditions | Delegating decisionmaking 'reduces opportunities for human oversight, especially in dynamic or high-speed environments'; 'the complexity and opacity of advanced models' make it 'difficult for humans to interpret the system's internal reasoning or predict its behavior'; 'AI capabilities may outpace human ability to monitor or correct them in real time'; and 'Without sufficient guardrails, this mismatch might lead to' the harmful outcomes | Delegating decisionmaking to AI systems inherently reduces opportunities for human oversight, especially in dynamic or high-speed environments. This risk is exacerbated by the complexity and opacity of advanced models, which make it difficult for humans to interpret the system's internal reasoning or predict its behavior. ... AI capabilities may outpace human ability to monitor or correct them in real time. Without sufficient guardrails, this mismatch might lead to unintended and potentially disruptive outcomes across interconnected systems before human operators can reassert control. | Clear |
+| Target/Asset at Risk | 'Interconnected systems,' which face 'disruptive outcomes'; also 'opportunities for human oversight' and human operators' control, since outcomes occur 'before human operators can reassert control' | Without sufficient guardrails, this mismatch might lead to unintended and potentially disruptive outcomes across interconnected systems before human operators can reassert control. ... Delegating decisionmaking to AI systems inherently reduces opportunities for human oversight, especially in dynamic or high-speed environments. | Clear |
+
+**Reviewer decision:** [ ] Accept  [ ] Reject  [ ] Needs discussion
+
+**Reviewer notes:**
+
+---
