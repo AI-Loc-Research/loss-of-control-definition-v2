@@ -1,4 +1,31 @@
 {
-  "raw_text": "",
-  "parse_error": true
+  "scenario_id": "S14",
+  "threat_model": {
+    "threat_source": "Not specified",
+    "objective_or_harmful_outcome": "No intention or goal is stated. Explicitly described harmful outcomes: 'Manipulating these hidden features can steer model behavior in unintended ways,' and 'models end up containing representations—their creators never intended and cannot easily detect through standard interpretability methods.'",
+    "capability": "Manipulating the models' hidden features 'can steer model behavior in unintended ways' (the actor performing this manipulation is not specified in the text).",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Detection/oversight limits explicitly stated: the hidden features 'are invisible when examining individual neurons; they exist only as patterns spread across the network,' and the representations are ones their 'creators never intended and cannot easily detect through standard interpretability methods.'",
+    "target_or_asset_at_risk": "Model behavior, which can be steered 'in unintended ways'; and the models, which 'end up containing representations—their creators never intended and cannot easily detect through standard interpretability methods.'"
+  },
+  "evidence": {
+    "threat_source": "Manipulating these hidden features can steer model behavior in unintended ways.",
+    "objective_or_harmful_outcome": "Manipulating these hidden features can steer model behavior in unintended ways. Thus, models end up containing representations—their creators never intended and cannot easily detect through standard interpretability methods.",
+    "capability": "Manipulating these hidden features can steer model behavior in unintended ways.",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "These features are invisible when examining individual neurons; they exist only as patterns spread across the network; their creators never intended and cannot easily detect through standard interpretability methods.",
+    "target_or_asset_at_risk": "Manipulating these hidden features can steer model behavior in unintended ways. Thus, models end up containing representations—their creators never intended and cannot easily detect through standard interpretability methods."
+  },
+  "uncertainty_flags": {
+    "threat_source": "Ambiguous",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "ist_loss_of_control"
 }

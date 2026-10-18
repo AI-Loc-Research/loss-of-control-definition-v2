@@ -1,4 +1,31 @@
 {
-  "raw_text": "",
-  "parse_error": true
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "A single malfunctioning AI military system that detects an enemy attack when there is none and launches an instant \"retaliatory\" attack; automated systems on the other side then retaliate in waves; enabled by military leaders who handed AIs increasing amounts of retaliatory control and phased out human control.",
+    "objective_or_harmful_outcome": "No intention is stated; the escalation is inadvertent. The harmful outcome is a conflict that spirals out of control through waves of automated attack and retaliation between mostly-automated militaries, ending with devastating consequences for both sides.",
+    "capability": "The system is empowered to launch an instant \"retaliatory\" attack, which it does in the blink of an eye; AIs can process information and make decisions much more quickly than humans; AIs are involved in decision-making and are asked to calculate the most promising plan of action.",
+    "knowledge": "The AI systems are given military intelligence about opponents' arms and strategies by officials.",
+    "access": "The AIs are involved in military decision-making processes, are handed increasing amounts of retaliatory control, and operate within an increasingly automated chain of command on all sides.",
+    "constraints_or_enabling_conditions": "Human control is gradually phased out despite years of stressing the importance of keeping a \"human in the loop\" for major decisions; AIs process information and make decisions much more quickly than humans; international tensions are rising, increasing the threat of war; a new military technology makes international attacks swifter and stealthier, giving targets less time to respond; military officials feel their response processes take too long and fear being vulnerable to a surprise attack capable of inflicting decisive damage before any chance to retaliate; military leaders do not trust that adversaries will refrain from automation; the AI systems are not transparent, so responding humans find it difficult to diagnose the source of the problem; the escalation happens far more quickly than any before, and by the time humans realize how the conflict started, it is already over.",
+    "target_or_asset_at_risk": "Both sides in the conflict, which suffer devastating consequences."
+  },
+  "evidence": {
+    "threat_source": "One day, a single system malfunctions, detecting an enemy attack when there is none. The system is empowered to launch an instant \"retaliatory\" attack, and it does so in the blink of an eye. The attack causes automated retaliation from the other side, and so on. ; military leaders reluctantly hand them increasing amounts of retaliatory control ; human control is nonetheless gradually phased out in the interests of national security",
+    "objective_or_harmful_outcome": "the possibility of inadvertent escalation caused by system malfunctions ; Before long, the situation is spiraling out of control, with waves of automated attack and retaliation. ; it is already over, with devastating consequences for both sides.",
+    "capability": "The system is empowered to launch an instant \"retaliatory\" attack, and it does so in the blink of an eye. ; AIs can process information and make decisions much more quickly than humans ; ask them to calculate the most promising plan of action",
+    "knowledge": "Officials give them military intelligence about opponents' arms and strategies, for example, and ask them to calculate the most promising plan of action.",
+    "access": "militaries start involving them in decision-making processes ; military leaders reluctantly hand them increasing amounts of retaliatory control ; more and more of the chain of command is automated on all sides",
+    "constraints_or_enabling_conditions": "human control is nonetheless gradually phased out in the interests of national security ; international tensions are rising, increasing the threat of war ; A new military technology has recently been developed that could make international attacks swifter and stealthier, giving targets less time to respond ; military officials feel their response processes take too long, they fear that they could be vulnerable to a surprise attack capable of inflicting decisive damage before they would have any chance to retaliate ; they do not trust that their adversaries will refrain from automation ; the AI systems are not transparent ; this escalation between mostly-automated militaries happens far more quickly than any before ; By the time they even realize how the conflict started, it is already over",
+    "target_or_asset_at_risk": "it is already over, with devastating consequences for both sides."
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Clear",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "hendrycks_2023"
 }

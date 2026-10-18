@@ -100,16 +100,19 @@ dung_2024,S3,5,2,5,0
 dung_2024,S4,6,1,6,0
 dung_2024,S5,5,2,5,0
 dung_2024,S6,5,2,5,0
+hendrycks_2023,S1,7,0,7,0
 hendrycks_2023,S2,7,0,7,0
 hendrycks_2023,S3,6,1,6,0
 hendrycks_2023,S4,6,1,6,0
 hendrycks_2023,S5,4,3,4,0
 hendrycks_2023,S6,6,1,6,0
 hendrycks_2023,S7,5,2,5,0
+ist_loss_of_control,S1,7,0,7,0
 ist_loss_of_control,S10,3,4,3,0
 ist_loss_of_control,S11,6,1,6,0
 ist_loss_of_control,S12,6,1,6,0
 ist_loss_of_control,S13,5,2,5,0
+ist_loss_of_control,S14,4,3,4,1
 ist_loss_of_control,S15,6,1,6,1
 ist_loss_of_control,S2,6,1,6,1
 ist_loss_of_control,S3,7,0,7,0
@@ -188,3 +191,4 @@ rand_rise_fall_nations,S1,6,1,6,0
 shah_2022,S1,6,1,6,1
 shah_2022,S2,7,0,7,0
 shah_2022,S3,4,3,4,1
+shah_2022,S4,7,0,7,0

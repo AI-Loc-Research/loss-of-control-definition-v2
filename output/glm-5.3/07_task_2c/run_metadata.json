@@ -1,15 +1,39 @@
 {
-  "timestamp": "2026-10-18T06:12:19.790265+00:00",
-  "total_runtime_seconds": 331.48,
-  "total_scenarios": 1,
-  "scenarios_processed": 1,
+  "timestamp": "2026-10-18T10:34:58.307069+00:00",
+  "total_runtime_seconds": 4514.68,
+  "total_scenarios": 4,
+  "scenarios_processed": 4,
   "scenarios_skipped": 0,
   "errors": [],
   "per_scenario": [
     {
-      "item_key": "critch_2023_S1",
+      "item_key": "hendrycks_2023_S1",
       "skipped": false,
-      "latency_seconds": 331.48,
+      "latency_seconds": 1227.87,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "ist_loss_of_control_S1",
+      "skipped": false,
+      "latency_seconds": 944.16,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "ist_loss_of_control_S14",
+      "skipped": false,
+      "latency_seconds": 1670.59,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "shah_2022_S4",
+      "skipped": false,
+      "latency_seconds": 671.42,
       "usage": null,
       "stop_reason": "stop",
       "model_served": null
