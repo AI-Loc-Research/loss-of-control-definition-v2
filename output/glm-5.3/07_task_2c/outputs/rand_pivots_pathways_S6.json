@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S6",
+  "threat_model": {
+    "threat_source": "High-volition AGI; the passage also refers to 'one or many wealthy AGIs' that dominate the civilization",
+    "objective_or_harmful_outcome": "Humanity may find itself a pauper in a civilization dominated by one or many wealthy AGIs (explicitly described harmful end state; no intention is stated for the AGI, so this is a harmful outcome rather than an objective)",
+    "capability": "Persistently outcompetes humans",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "The outcome is explicitly conditional on the premise 'If high-volition AGI persistently outcompetes humans' — persistent (sustained) outcompetition by a high-volition AGI is the stated condition for the harm to occur",
+    "target_or_asset_at_risk": "Humanity ('humanity may find itself a pauper'); the civilization ('a civilization dominated by one or many wealthy AGIs')"
+  },
+  "evidence": {
+    "threat_source": "If high-volition AGI persistently outcompetes humans, humanity may find itself a pauper in a civilization dominated by one or many wealthy AGIs.",
+    "objective_or_harmful_outcome": "humanity may find itself a pauper in a civilization dominated by one or many wealthy AGIs",
+    "capability": "high-volition AGI persistently outcompetes humans",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "If high-volition AGI persistently outcompetes humans",
+    "target_or_asset_at_risk": "humanity may find itself a pauper in a civilization dominated by one or many wealthy AGIs"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "rand_pivots_pathways"
+}

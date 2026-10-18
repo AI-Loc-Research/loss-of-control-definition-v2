@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S4",
+  "threat_model": {
+    "threat_source": "Rogue AGI; misuse of misaligned AGI",
+    "objective_or_harmful_outcome": "High-risk, crisis-laden worlds characterized by conflict and instability, rapid job displacement, societies unable to adapt to radical change, and the loss of human autonomy (no intention is explicitly stated; these are the described harmful end states)",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Misalignment with human interests, fast takeoff speed, and human replacement (scenarios involving these features may lead to the harmful outcomes)",
+    "target_or_asset_at_risk": "Human autonomy (loss of), jobs (rapid job displacement), and societies (unable to adapt to radical change)"
+  },
+  "evidence": {
+    "threat_source": "conflict and instability driven by rogue AGI, misuse of misaligned AGI",
+    "objective_or_harmful_outcome": "may lead to high-risk, crisis-laden worlds characterized by conflict and instability driven by rogue AGI, misuse of misaligned AGI, rapid job displacement, societies unable to adapt to radical change, and the loss of human autonomy",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Scenarios involving misalignment with human interests, fast takeoff speed, and human replacement may lead to high-risk, crisis-laden worlds",
+    "target_or_asset_at_risk": "rapid job displacement, societies unable to adapt to radical change, and the loss of human autonomy"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "rand_pivots_pathways"
+}

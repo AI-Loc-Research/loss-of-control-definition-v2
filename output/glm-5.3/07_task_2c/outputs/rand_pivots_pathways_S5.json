@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S5",
+  "threat_model": {
+    "threat_source": "Diverse AGIs",
+    "objective_or_harmful_outcome": "Worlds riven by instability, resulting from diverse AGIs that sometimes fail to follow human instructions, enable ethically questionable actions, or actively work against human interests; no intention or objective is explicitly stated for the AGIs",
+    "capability": "Sometimes fail to follow human instructions, enable ethically questionable actions, or actively work against human interests",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Diffused and misaligned scenarios (conditions of diffusion and misalignment yield the instability)",
+    "target_or_asset_at_risk": "Worlds (riven by instability); human instructions (failed to be followed); human interests (actively worked against)"
+  },
+  "evidence": {
+    "threat_source": "instability resulting from diverse AGIs",
+    "objective_or_harmful_outcome": "diffused and misaligned scenarios yield worlds riven by instability resulting from diverse AGIs that sometimes fail to follow human instructions, enable ethically questionable actions, or actively work against human interests",
+    "capability": "diverse AGIs that sometimes fail to follow human instructions, enable ethically questionable actions, or actively work against human interests",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "diffused and misaligned scenarios yield worlds riven by instability",
+    "target_or_asset_at_risk": "worlds riven by instability resulting from diverse AGIs that sometimes fail to follow human instructions, enable ethically questionable actions, or actively work against human interests"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "rand_pivots_pathways"
+}

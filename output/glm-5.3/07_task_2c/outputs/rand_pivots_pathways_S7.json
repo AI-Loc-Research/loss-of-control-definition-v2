@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S7",
+  "threat_model": {
+    "threat_source": "AGI",
+    "objective_or_harmful_outcome": "Mass unemployment, undermined human autonomy, and shift of civilizational control from humans (no intention stated; harmful end states only)",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "In a replacement scenario",
+    "target_or_asset_at_risk": "Human employment (mass unemployment), human autonomy, and civilizational control held by humans"
+  },
+  "evidence": {
+    "threat_source": "AGI could cause mass unemployment, undermine human autonomy, and shift civilizational control from humans",
+    "objective_or_harmful_outcome": "AGI could cause mass unemployment, undermine human autonomy, and shift civilizational control from humans",
+    "capability": "AGI could cause mass unemployment, undermine human autonomy, and shift civilizational control from humans",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "In a replacement scenario",
+    "target_or_asset_at_risk": "cause mass unemployment, undermine human autonomy, and shift civilizational control from humans"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Ambiguous",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "rand_pivots_pathways"
+}
