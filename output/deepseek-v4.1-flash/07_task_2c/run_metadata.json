@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-18T06:59:05.987057+00:00",
-  "total_runtime_seconds": 1671.72,
-  "total_scenarios": 5,
-  "scenarios_processed": 5,
+  "timestamp": "2026-10-18T07:26:59.280207+00:00",
+  "total_runtime_seconds": 906.1,
+  "total_scenarios": 3,
+  "scenarios_processed": 3,
   "scenarios_skipped": 0,
   "errors": [
     {
@@ -20,44 +20,22 @@
   ],
   "per_scenario": [
     {
-      "item_key": "amodei_2026_S7",
-      "skipped": false,
-      "latency_seconds": 413.96,
-      "usage": {
-        "prompt_tokens": 1356,
-        "completion_tokens": 6036
-      },
-      "stop_reason": "stop",
-      "model_served": null
-    },
-    {
       "item_key": "rand_five_hard_problems_S1",
       "skipped": false,
       "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504",
-      "latency_seconds": 302.06
+      "latency_seconds": 302.03
     },
     {
       "item_key": "rand_five_hard_problems_S5",
       "skipped": false,
       "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504",
-      "latency_seconds": 302.04
-    },
-    {
-      "item_key": "rand_five_hard_problems_S6",
-      "skipped": false,
-      "latency_seconds": 351.6,
-      "usage": {
-        "prompt_tokens": 1344,
-        "completion_tokens": 4868
-      },
-      "stop_reason": "stop",
-      "model_served": null
+      "latency_seconds": 302.03
     },
     {
       "item_key": "shah_2022_S4",
       "skipped": false,
       "error": "API error: Server error '504 Gateway Timeout' for url 'https://integrate.api.nvidia.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504",
-      "latency_seconds": 302.05
+      "latency_seconds": 302.04
     }
   ]
 }
