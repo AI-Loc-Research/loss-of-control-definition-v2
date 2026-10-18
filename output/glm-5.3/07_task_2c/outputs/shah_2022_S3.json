@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S3",
+  "threat_model": {
+    "threat_source": "AI systems — specifically 'a failure in a few AI systems' in a world with many powerful AI systems; the failures are initiated by 'any change in these previously fixed features' and push the world further off distribution, triggering a cascading series of failures",
+    "objective_or_harmful_outcome": "A cascading series of failures: a failure in a few AI systems pushes the world further off distribution, triggering a cascading series of failures; no intention is stated, so this is the explicitly described harmful outcome",
+    "capability": "Not specified",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Test goals may depend in undesired ways on features that were 'fixed' (unchanging) during training; there are always many fixed features during training (for example, there is no major world war, clean water is cheap and relatively plentiful in developed countries, quantum computing has not replaced classical computing); in a world with many powerful AI systems, any change in these previously fixed features might lead to failure",
+    "target_or_asset_at_risk": "A few AI systems (which suffer failures) and the world (pushed further off distribution); a cascading series of further failures is triggered, though the specific targets of the cascading failures are not specified"
+  },
+  "evidence": {
+    "threat_source": "In a world with many powerful AI systems, any change in these previously fixed features might lead to a failure in a few AI systems, pushing the world further off distribution, triggering a cascading series of failures",
+    "objective_or_harmful_outcome": "might lead to a failure in a few AI systems, pushing the world further off distribution, triggering a cascading series of failures",
+    "capability": "In a world with many powerful AI systems",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "test goals may depend in undesired ways on features that were 'fixed' (unchanging) during training ... There are always many fixed features during training (for example, there is no major world war, clean water is cheap and relatively plentiful in developed countries, quantum computing has not replaced classical computing, and so on). In a world with many powerful AI systems, any change in these previously fixed features might lead to a failure in a few AI systems",
+    "target_or_asset_at_risk": "might lead to a failure in a few AI systems, pushing the world further off distribution, triggering a cascading series of failures"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Ambiguous",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "shah_2022"
+}

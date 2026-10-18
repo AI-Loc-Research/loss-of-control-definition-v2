@@ -1,0 +1,67 @@
+{
+  "config": {
+    "experiment": "2c_glm-5.3-nvidia_prompt_2c_v2",
+    "prompt_version": "prompt_2c_v2",
+    "backend": "nvidia",
+    "model": "z-ai/glm-5.3",
+    "base_url": "https://integrate.api.nvidia.com/v1",
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "max_new_tokens": 32768,
+    "dry_run": false,
+    "force": false,
+    "total_scenarios": 5
+  },
+  "timestamp": "2026-10-18T01:44:49.758811+00:00",
+  "total_runtime_seconds": 3741.65,
+  "total_scenarios": 5,
+  "scenarios_processed": 5,
+  "scenarios_skipped": 0,
+  "errors": [
+    {
+      "item_key": "shah_2022_S4",
+      "error": "Failed to parse a JSON object from model response"
+    }
+  ],
+  "per_scenario": [
+    {
+      "item_key": "rand_rise_fall_nations_S1",
+      "skipped": false,
+      "latency_seconds": 592.15,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "shah_2022_S1",
+      "skipped": false,
+      "latency_seconds": 694.98,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "shah_2022_S2",
+      "skipped": false,
+      "latency_seconds": 648.04,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "shah_2022_S3",
+      "skipped": false,
+      "latency_seconds": 1150.94,
+      "usage": null,
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "shah_2022_S4",
+      "skipped": false,
+      "error": "Failed to parse a JSON object from model response",
+      "latency_seconds": 655.52,
+      "usage": null
+    }
+  ]
+}
