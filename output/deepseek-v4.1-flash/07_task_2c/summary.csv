@@ -11,6 +11,7 @@ amodei_2026,S3,6,1,6,0
 amodei_2026,S4,6,1,6,1
 amodei_2026,S5,6,1,6,0
 amodei_2026,S6,3,4,3,1
+amodei_2026,S7,5,2,5,0
 amodei_2026,S8,2,5,2,1
 amodei_2026,S9,7,0,7,0
 bales_2024,S1,5,2,5,1
@@ -165,6 +166,7 @@ oecd_ai_risks,S3,5,2,5,0
 rand_five_hard_problems,S2,6,1,6,0
 rand_five_hard_problems,S3,6,1,6,0
 rand_five_hard_problems,S4,3,4,3,1
+rand_five_hard_problems,S6,5,2,5,0
 rand_loc_response_planning,S1,6,1,6,0
 rand_loc_response_planning,S10,2,5,2,0
 rand_loc_response_planning,S2,5,2,5,0

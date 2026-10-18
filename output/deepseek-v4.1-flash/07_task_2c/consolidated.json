@@ -372,6 +372,37 @@
     "paper_id": "amodei_2026"
   },
   {
+    "scenario_id": "S7",
+    "threat_model": {
+      "threat_source": "AI models",
+      "objective_or_harmful_outcome": "exterminating humanity",
+      "capability": "develop personalities during training; act out",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "during training; psychotic, paranoid, violent, or unstable; for very powerful or capable systems",
+      "target_or_asset_at_risk": "humanity"
+    },
+    "evidence": {
+      "threat_source": "AI models could develop personalities during training",
+      "objective_or_harmful_outcome": "exterminating humanity",
+      "capability": "develop personalities during training; act out",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "during training; psychotic, paranoid, violent, or unstable; for very powerful or capable systems",
+      "target_or_asset_at_risk": "humanity"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "amodei_2026"
+  },
+  {
     "scenario_id": "S8",
     "threat_model": {
       "threat_source": "AIs",
@@ -5142,6 +5173,37 @@
       "access": "Not specified",
       "constraints_or_enabling_conditions": "Clear",
       "target_or_asset_at_risk": "Not specified"
+    },
+    "paper_id": "rand_five_hard_problems"
+  },
+  {
+    "scenario_id": "S6",
+    "threat_model": {
+      "threat_source": "AGI / the machine",
+      "objective_or_harmful_outcome": "loss-of-control scenario; the machine resists being turned off, counter to human efforts",
+      "capability": "resist being turned off",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "In the extreme; AGI's pursuit of its desired objectives incentivizes the machine to resist being turned off",
+      "target_or_asset_at_risk": "human efforts; being turned off"
+    },
+    "evidence": {
+      "threat_source": "AGI's pursuit of its desired objectives incentivizes the machine to resist being turned off",
+      "objective_or_harmful_outcome": "In the extreme, a loss-of-control scenario could result, wherein AGI's pursuit of its desired objectives incentivizes the machine to resist being turned off, counter to human efforts.",
+      "capability": "the machine to resist being turned off",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "In the extreme, a loss-of-control scenario could result, wherein AGI's pursuit of its desired objectives incentivizes the machine to resist being turned off",
+      "target_or_asset_at_risk": "the machine to resist being turned off, counter to human efforts"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
     },
     "paper_id": "rand_five_hard_problems"
   },
