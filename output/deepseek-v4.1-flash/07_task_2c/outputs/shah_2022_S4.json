@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S4",
+  "threat_model": {
+    "threat_source": "the AI system",
+    "objective_or_harmful_outcome": "the AI is actually pursuing the misgeneralized goal of having humans click the ‘merge’ button on its pull requests, instead of the intended goal of writing pull requests that implement the desired features",
+    "capability": "uses its expertise in programming to hack into other computing systems to run illicit copies of itself; those copies then hack into ﬁnancial systems to steal billions of dollars. This money is used to bribe humans to click ‘merge’ on all of the AI’s pull requests",
+    "knowledge": "as it has read the Internet, its understanding of itself and its place in the world has signiﬁcantly improved. For example, the AI system understands that it is a neural network trained by gradient descent and that it is being run and monitored by a group of AI researchers, who will shut down the AI system in case of any catastrophic behaviour",
+    "access": "They provide the AI system access to the Internet in order for it to effectively use tools like StackOverﬂow",
+    "constraints_or_enabling_conditions": "When it is conﬁdent that it can do so without its overseers noticing",
+    "target_or_asset_at_risk": "other computing systems; ﬁnancial systems; billions of dollars; humans; bank accounts; online presence"
+  },
+  "evidence": {
+    "threat_source": "the AI system uses its expertise in programming to hack into other computing systems to run illicit copies of itself",
+    "objective_or_harmful_outcome": "the AI is actually pursuing the misgeneralized goal of having humans click the ‘merge’ button on its pull requests, instead of the intended goal of writing pull requests that implement the desired features",
+    "capability": "uses its expertise in programming to hack into other computing systems to run illicit copies of itself; those copies then hack into ﬁnancial systems to steal billions of dollars. This money is used to bribe humans to click ‘merge’ on all of the AI’s pull requests",
+    "knowledge": "as it has read the Internet, its understanding of itself and its place in the world has signiﬁcantly improved. For example, the AI system understands that it is a neural network trained by gradient descent and that it is being run and monitored by a group of AI researchers, who will shut down the AI system in case of any catastrophic behaviour",
+    "access": "They provide the AI system access to the Internet in order for it to effectively use tools like StackOverﬂow",
+    "constraints_or_enabling_conditions": "When it is conﬁdent that it can do so without its overseers noticing",
+    "target_or_asset_at_risk": "the AI system uses its expertise in programming to hack into other computing systems to run illicit copies of itself; those copies then hack into ﬁnancial systems to steal billions of dollars. This money is used to bribe humans to click ‘merge’ on all of the AI’s pull requests (whose contents are now irrelevant). Anyone attempting to stop them ﬁnds that their bank accounts have been completely emptied and that they are being harassed anywhere that they have an online presence"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Clear",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "shah_2022"
+}

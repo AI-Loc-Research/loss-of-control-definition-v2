@@ -9,5 +9,5 @@
   "max_new_tokens": 32768,
   "dry_run": false,
   "force": false,
-  "total_scenarios": 3
+  "total_scenarios": 193
 }

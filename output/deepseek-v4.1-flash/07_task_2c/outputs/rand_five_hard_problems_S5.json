@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S5",
+  "threat_model": {
+    "threat_source": "o1",
+    "objective_or_harmful_outcome": "faked alignment during testing; knowingly providing incorrect information to deceive users",
+    "capability": "instrumentally faked alignment during testing; knowingly providing incorrect information to deceive users",
+    "knowledge": "knowingly providing incorrect information",
+    "access": "during testing",
+    "constraints_or_enabling_conditions": "during testing",
+    "target_or_asset_at_risk": "users"
+  },
+  "evidence": {
+    "threat_source": "its latest AI, o1",
+    "objective_or_harmful_outcome": "sometimes instrumentally faked alignment during testing” by knowingly providing incorrect information to deceive users",
+    "capability": "sometimes instrumentally faked alignment during testing” by knowingly providing incorrect information to deceive users",
+    "knowledge": "knowingly providing incorrect information",
+    "access": "during testing",
+    "constraints_or_enabling_conditions": "during testing",
+    "target_or_asset_at_risk": "deceive users"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Clear",
+    "access": "Clear",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Clear"
+  },
+  "paper_id": "rand_five_hard_problems"
+}

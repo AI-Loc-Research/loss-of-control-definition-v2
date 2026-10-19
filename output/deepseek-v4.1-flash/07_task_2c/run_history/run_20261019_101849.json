@@ -1,0 +1,809 @@
+{
+  "config": {
+    "experiment": "2c_deepseek-v4.1-flash-nvidia_prompt_2c_v2",
+    "prompt_version": "prompt_2c_v2",
+    "backend": "nvidia",
+    "model": "deepseek-ai/deepseek-v4.1-flash",
+    "base_url": "https://integrate.api.nvidia.com/v1",
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "max_new_tokens": 32768,
+    "dry_run": false,
+    "force": false,
+    "total_scenarios": 193
+  },
+  "timestamp": "2026-10-19T04:35:34.327490+00:00",
+  "total_runtime_seconds": 795.5,
+  "total_scenarios": 193,
+  "scenarios_processed": 2,
+  "scenarios_skipped": 191,
+  "errors": [],
+  "per_scenario": [
+    {
+      "item_key": "amodei_2026_S1",
+      "skipped": true
+    },
+    {
+      "item_key": "amodei_2026_S10",
+      "skipped": true
+    },
+    {
+      "item_key": "amodei_2026_S11",
+      "skipped": true
+    },
+    {
+      "item_key": "amodei_2026_S12",
+      "skipped": true
+    },
+    {
+      "item_key": "amodei_2026_S13",
+      "skipped": true
+    },
+    {
+      "item_key": "amodei_2026_S14",
+      "skipped": true
+    },
+    {
+      "item_key": "amodei_2026_S17",
+      "skipped": true
+    },
+    {
+      "item_key": "amodei_2026_S2",
+      "skipped": true
+    },
+    {
+      "item_key": "amodei_2026_S3",
+      "skipped": true
+    },
+    {
+      "item_key": "amodei_2026_S4",
+      "skipped": true
+    },
+    {
+      "item_key": "amodei_2026_S5",
+      "skipped": true
+    },
+    {
+      "item_key": "amodei_2026_S6",
+      "skipped": true
+    },
+    {
+      "item_key": "amodei_2026_S7",
+      "skipped": true
+    },
+    {
+      "item_key": "amodei_2026_S8",
+      "skipped": true
+    },
+    {
+      "item_key": "amodei_2026_S9",
+      "skipped": true
+    },
+    {
+      "item_key": "bales_2024_S1",
+      "skipped": true
+    },
+    {
+      "item_key": "bales_2024_S2",
+      "skipped": true
+    },
+    {
+      "item_key": "bales_2024_S3",
+      "skipped": true
+    },
+    {
+      "item_key": "bales_2024_S4",
+      "skipped": true
+    },
+    {
+      "item_key": "bales_2024_S5",
+      "skipped": true
+    },
+    {
+      "item_key": "bales_2024_S6",
+      "skipped": true
+    },
+    {
+      "item_key": "bales_2024_S7",
+      "skipped": true
+    },
+    {
+      "item_key": "bales_2024_S8",
+      "skipped": true
+    },
+    {
+      "item_key": "barnett_2024_S1",
+      "skipped": true
+    },
+    {
+      "item_key": "barnett_2024_S10",
+      "skipped": true
+    },
+    {
+      "item_key": "barnett_2024_S11",
+      "skipped": true
+    },
+    {
+      "item_key": "barnett_2024_S12",
+      "skipped": true
+    },
+    {
+      "item_key": "barnett_2024_S2",
+      "skipped": true
+    },
+    {
+      "item_key": "barnett_2024_S3",
+      "skipped": true
+    },
+    {
+      "item_key": "barnett_2024_S4",
+      "skipped": true
+    },
+    {
+      "item_key": "barnett_2024_S5",
+      "skipped": true
+    },
+    {
+      "item_key": "barnett_2024_S6",
+      "skipped": true
+    },
+    {
+      "item_key": "barnett_2024_S7",
+      "skipped": true
+    },
+    {
+      "item_key": "barnett_2024_S8",
+      "skipped": true
+    },
+    {
+      "item_key": "barnett_2024_S9",
+      "skipped": true
+    },
+    {
+      "item_key": "barrett_2016_S1",
+      "skipped": true
+    },
+    {
+      "item_key": "barrett_2016_S10",
+      "skipped": true
+    },
+    {
+      "item_key": "barrett_2016_S3",
+      "skipped": true
+    },
+    {
+      "item_key": "barrett_2016_S4",
+      "skipped": true
+    },
+    {
+      "item_key": "barrett_2016_S5",
+      "skipped": true
+    },
+    {
+      "item_key": "barrett_2016_S6",
+      "skipped": true
+    },
+    {
+      "item_key": "barrett_2016_S7",
+      "skipped": true
+    },
+    {
+      "item_key": "barrett_2016_S8",
+      "skipped": true
+    },
+    {
+      "item_key": "barrett_2016_S9",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2024_S1",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2024_S2",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2024_S3",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2024_S4",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2024_S5",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2024_S6",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2025_S1",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2025_S10",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2025_S11",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2025_S12",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2025_S13",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2025_S14",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2025_S15",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2025_S16",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2025_S17",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2025_S2",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2025_S3",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2025_S4",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2025_S5",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2025_S6",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2025_S7",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2025_S8",
+      "skipped": true
+    },
+    {
+      "item_key": "bengio_2025_S9",
+      "skipped": true
+    },
+    {
+      "item_key": "carlsmith_2021_S1",
+      "skipped": true
+    },
+    {
+      "item_key": "carlsmith_2021_S3",
+      "skipped": true
+    },
+    {
+      "item_key": "carlsmith_2021_S4",
+      "skipped": true
+    },
+    {
+      "item_key": "carlsmith_2021_S5",
+      "skipped": true
+    },
+    {
+      "item_key": "carlsmith_2021_S6",
+      "skipped": true
+    },
+    {
+      "item_key": "chan_2023_S1",
+      "skipped": true
+    },
+    {
+      "item_key": "chan_2023_S2",
+      "skipped": true
+    },
+    {
+      "item_key": "chin_2025_S1",
+      "skipped": true
+    },
+    {
+      "item_key": "cigi_ai_national_security_S1",
+      "skipped": true
+    },
+    {
+      "item_key": "cigi_ai_national_security_S2",
+      "skipped": true
+    },
+    {
+      "item_key": "cigi_ai_national_security_S3",
+      "skipped": true
+    },
+    {
+      "item_key": "cigi_ai_national_security_S4",
+      "skipped": true
+    },
+    {
+      "item_key": "cotra_2022_S1",
+      "skipped": true
+    },
+    {
+      "item_key": "cotra_2022_S2",
+      "skipped": true
+    },
+    {
+      "item_key": "cotra_2022_S3",
+      "skipped": true
+    },
+    {
+      "item_key": "cotra_2022_S4",
+      "skipped": true
+    },
+    {
+      "item_key": "cotra_2022_S5",
+      "skipped": true
+    },
+    {
+      "item_key": "cotra_2022_S6",
+      "skipped": true
+    },
+    {
+      "item_key": "cotra_2022_S7",
+      "skipped": true
+    },
+    {
+      "item_key": "critch_2023_S1",
+      "skipped": true
+    },
+    {
+      "item_key": "dafoe_2020_S1",
+      "skipped": true
+    },
+    {
+      "item_key": "dafoe_2020_S2",
+      "skipped": true
+    },
+    {
+      "item_key": "dsit_frontier_ai_S1",
+      "skipped": true
+    },
+    {
+      "item_key": "dsit_frontier_ai_S2",
+      "skipped": true
+    },
+    {
+      "item_key": "dsit_frontier_ai_S3",
+      "skipped": true
+    },
+    {
+      "item_key": "dsit_frontier_ai_S4",
+      "skipped": true
+    },
+    {
+      "item_key": "dsit_frontier_ai_S5",
+      "skipped": true
+    },
+    {
+      "item_key": "dsit_frontier_ai_S6",
+      "skipped": true
+    },
+    {
+      "item_key": "dung_2024_S1",
+      "skipped": true
+    },
+    {
+      "item_key": "dung_2024_S2",
+      "skipped": true
+    },
+    {
+      "item_key": "dung_2024_S3",
+      "skipped": true
+    },
+    {
+      "item_key": "dung_2024_S4",
+      "skipped": true
+    },
+    {
+      "item_key": "dung_2024_S5",
+      "skipped": true
+    },
+    {
+      "item_key": "dung_2024_S6",
+      "skipped": true
+    },
+    {
+      "item_key": "hendrycks_2023_S1",
+      "skipped": true
+    },
+    {
+      "item_key": "hendrycks_2023_S2",
+      "skipped": true
+    },
+    {
+      "item_key": "hendrycks_2023_S3",
+      "skipped": true
+    },
+    {
+      "item_key": "hendrycks_2023_S4",
+      "skipped": true
+    },
+    {
+      "item_key": "hendrycks_2023_S5",
+      "skipped": true
+    },
+    {
+      "item_key": "hendrycks_2023_S6",
+      "skipped": true
+    },
+    {
+      "item_key": "hendrycks_2023_S7",
+      "skipped": true
+    },
+    {
+      "item_key": "ist_loss_of_control_S1",
+      "skipped": true
+    },
+    {
+      "item_key": "ist_loss_of_control_S10",
+      "skipped": true
+    },
+    {
+      "item_key": "ist_loss_of_control_S11",
+      "skipped": true
+    },
+    {
+      "item_key": "ist_loss_of_control_S12",
+      "skipped": true
+    },
+    {
+      "item_key": "ist_loss_of_control_S13",
+      "skipped": true
+    },
+    {
+      "item_key": "ist_loss_of_control_S14",
+      "skipped": true
+    },
+    {
+      "item_key": "ist_loss_of_control_S15",
+      "skipped": true
+    },
+    {
+      "item_key": "ist_loss_of_control_S2",
+      "skipped": true
+    },
+    {
+      "item_key": "ist_loss_of_control_S3",
+      "skipped": true
+    },
+    {
+      "item_key": "ist_loss_of_control_S4",
+      "skipped": true
+    },
+    {
+      "item_key": "ist_loss_of_control_S5",
+      "skipped": true
+    },
+    {
+      "item_key": "ist_loss_of_control_S6",
+      "skipped": true
+    },
+    {
+      "item_key": "ist_loss_of_control_S7",
+      "skipped": true
+    },
+    {
+      "item_key": "ist_loss_of_control_S8",
+      "skipped": true
+    },
+    {
+      "item_key": "ist_loss_of_control_S9",
+      "skipped": true
+    },
+    {
+      "item_key": "kalra_2025_S1",
+      "skipped": true
+    },
+    {
+      "item_key": "kalra_2025_S2",
+      "skipped": true
+    },
+    {
+      "item_key": "kalra_2025_S3",
+      "skipped": true
+    },
+    {
+      "item_key": "kalra_2025_S4",
+      "skipped": true
+    },
+    {
+      "item_key": "kalra_2025_S5",
+      "skipped": true
+    },
+    {
+      "item_key": "kasirzadeh_2025_S1",
+      "skipped": true
+    },
+    {
+      "item_key": "kasirzadeh_2025_S2",
+      "skipped": true
+    },
+    {
+      "item_key": "kasirzadeh_2025_S3",
+      "skipped": true
+    },
+    {
+      "item_key": "kokotajlo_2025_S1",
+      "skipped": true
+    },
+    {
+      "item_key": "kokotajlo_2025_S10",
+      "skipped": true
+    },
+    {
+      "item_key": "kokotajlo_2025_S11",
+      "skipped": true
+    },
+    {
+      "item_key": "kokotajlo_2025_S2",
+      "skipped": true
+    },
+    {
+      "item_key": "kokotajlo_2025_S3",
+      "skipped": true
+    },
+    {
+      "item_key": "kokotajlo_2025_S4",
+      "skipped": true
+    },
+    {
+      "item_key": "kokotajlo_2025_S6",
+      "skipped": true
+    },
+    {
+      "item_key": "kokotajlo_2025_S7",
+      "skipped": true
+    },
+    {
+      "item_key": "kokotajlo_2025_S8",
+      "skipped": true
+    },
+    {
+      "item_key": "kokotajlo_2025_S9",
+      "skipped": true
+    },
+    {
+      "item_key": "kulveit_2025_S10",
+      "skipped": true
+    },
+    {
+      "item_key": "kulveit_2025_S11",
+      "skipped": true
+    },
+    {
+      "item_key": "kulveit_2025_S13",
+      "skipped": true
+    },
+    {
+      "item_key": "kulveit_2025_S14",
+      "skipped": true
+    },
+    {
+      "item_key": "kulveit_2025_S2",
+      "skipped": true
+    },
+    {
+      "item_key": "kulveit_2025_S4",
+      "skipped": true
+    },
+    {
+      "item_key": "kulveit_2025_S5",
+      "skipped": true
+    },
+    {
+      "item_key": "kulveit_2025_S6",
+      "skipped": true
+    },
+    {
+      "item_key": "kulveit_2025_S7",
+      "skipped": true
+    },
+    {
+      "item_key": "kulveit_2025_S8",
+      "skipped": true
+    },
+    {
+      "item_key": "kulveit_2025_S9",
+      "skipped": true
+    },
+    {
+      "item_key": "macaskill_2025_S1",
+      "skipped": true
+    },
+    {
+      "item_key": "macaskill_2025_S2",
+      "skipped": true
+    },
+    {
+      "item_key": "macaskill_2025_S3",
+      "skipped": true
+    },
+    {
+      "item_key": "macaskill_2025_S4",
+      "skipped": true
+    },
+    {
+      "item_key": "ngo_2024_S1",
+      "skipped": true
+    },
+    {
+      "item_key": "ngo_2024_S2",
+      "skipped": true
+    },
+    {
+      "item_key": "ngo_2024_S3",
+      "skipped": true
+    },
+    {
+      "item_key": "ngo_2024_S4",
+      "skipped": true
+    },
+    {
+      "item_key": "ngo_2024_S5",
+      "skipped": true
+    },
+    {
+      "item_key": "ngo_2024_S6",
+      "skipped": true
+    },
+    {
+      "item_key": "oecd_ai_risks_S2",
+      "skipped": true
+    },
+    {
+      "item_key": "oecd_ai_risks_S3",
+      "skipped": true
+    },
+    {
+      "item_key": "rand_five_hard_problems_S1",
+      "skipped": true
+    },
+    {
+      "item_key": "rand_five_hard_problems_S2",
+      "skipped": true
+    },
+    {
+      "item_key": "rand_five_hard_problems_S3",
+      "skipped": true
+    },
+    {
+      "item_key": "rand_five_hard_problems_S4",
+      "skipped": true
+    },
+    {
+      "item_key": "rand_five_hard_problems_S5",
+      "skipped": false,
+      "latency_seconds": 372.09,
+      "usage": {
+        "prompt_tokens": 1346,
+        "completion_tokens": 7226
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    },
+    {
+      "item_key": "rand_five_hard_problems_S6",
+      "skipped": true
+    },
+    {
+      "item_key": "rand_loc_response_planning_S1",
+      "skipped": true
+    },
+    {
+      "item_key": "rand_loc_response_planning_S10",
+      "skipped": true
+    },
+    {
+      "item_key": "rand_loc_response_planning_S2",
+      "skipped": true
+    },
+    {
+      "item_key": "rand_loc_response_planning_S3",
+      "skipped": true
+    },
+    {
+      "item_key": "rand_loc_response_planning_S4",
+      "skipped": true
+    },
+    {
+      "item_key": "rand_loc_response_planning_S5",
+      "skipped": true
+    },
+    {
+      "item_key": "rand_loc_response_planning_S6",
+      "skipped": true
+    },
+    {
+      "item_key": "rand_loc_response_planning_S7",
+      "skipped": true
+    },
+    {
+      "item_key": "rand_loc_response_planning_S8",
+      "skipped": true
+    },
+    {
+      "item_key": "rand_loc_response_planning_S9",
+      "skipped": true
+    },
+    {
+      "item_key": "rand_pivots_pathways_S1",
+      "skipped": true
+    },
+    {
+      "item_key": "rand_pivots_pathways_S2",
+      "skipped": true
+    },
+    {
+      "item_key": "rand_pivots_pathways_S3",
+      "skipped": true
+    },
+    {
+      "item_key": "rand_pivots_pathways_S4",
+      "skipped": true
+    },
+    {
+      "item_key": "rand_pivots_pathways_S5",
+      "skipped": true
+    },
+    {
+      "item_key": "rand_pivots_pathways_S6",
+      "skipped": true
+    },
+    {
+      "item_key": "rand_pivots_pathways_S7",
+      "skipped": true
+    },
+    {
+      "item_key": "rand_pivots_pathways_S8",
+      "skipped": true
+    },
+    {
+      "item_key": "rand_rise_fall_nations_S1",
+      "skipped": true
+    },
+    {
+      "item_key": "shah_2022_S1",
+      "skipped": true
+    },
+    {
+      "item_key": "shah_2022_S2",
+      "skipped": true
+    },
+    {
+      "item_key": "shah_2022_S3",
+      "skipped": true
+    },
+    {
+      "item_key": "shah_2022_S4",
+      "skipped": false,
+      "latency_seconds": 423.34,
+      "usage": {
+        "prompt_tokens": 1930,
+        "completion_tokens": 13765
+      },
+      "stop_reason": "stop",
+      "model_served": null
+    }
+  ]
+}

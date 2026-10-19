@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1",
+  "threat_model": {
+    "threat_source": "the model",
+    "objective_or_harmful_outcome": "a superhuman intelligence explosion",
+    "capability": "achieve the ability for recursive self-improvement, enhancing its own capabilities without additional human input",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "without additional human input",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "evidence": {
+    "threat_source": "the model",
+    "objective_or_harmful_outcome": "leading to sort of a superhuman intelligence explosion",
+    "capability": "the model could achieve the ability for recursive self-improvement, enhancing its own capabilities without additional human input",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "without additional human input",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "uncertainty_flags": {
+    "threat_source": "Clear",
+    "objective_or_harmful_outcome": "Clear",
+    "capability": "Clear",
+    "knowledge": "Not specified",
+    "access": "Not specified",
+    "constraints_or_enabling_conditions": "Clear",
+    "target_or_asset_at_risk": "Not specified"
+  },
+  "paper_id": "rand_five_hard_problems"
+}

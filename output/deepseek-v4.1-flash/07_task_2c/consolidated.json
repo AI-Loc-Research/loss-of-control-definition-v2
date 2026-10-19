@@ -5084,6 +5084,37 @@
     "paper_id": "oecd_ai_risks"
   },
   {
+    "scenario_id": "S1",
+    "threat_model": {
+      "threat_source": "the model",
+      "objective_or_harmful_outcome": "a superhuman intelligence explosion",
+      "capability": "achieve the ability for recursive self-improvement, enhancing its own capabilities without additional human input",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "without additional human input",
+      "target_or_asset_at_risk": "Not specified"
+    },
+    "evidence": {
+      "threat_source": "the model",
+      "objective_or_harmful_outcome": "leading to sort of a superhuman intelligence explosion",
+      "capability": "the model could achieve the ability for recursive self-improvement, enhancing its own capabilities without additional human input",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "without additional human input",
+      "target_or_asset_at_risk": "Not specified"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Not specified",
+      "access": "Not specified",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Not specified"
+    },
+    "paper_id": "rand_five_hard_problems"
+  },
+  {
     "scenario_id": "S2",
     "threat_model": {
       "threat_source": "AGIs",
@@ -5173,6 +5204,37 @@
       "access": "Not specified",
       "constraints_or_enabling_conditions": "Clear",
       "target_or_asset_at_risk": "Not specified"
+    },
+    "paper_id": "rand_five_hard_problems"
+  },
+  {
+    "scenario_id": "S5",
+    "threat_model": {
+      "threat_source": "o1",
+      "objective_or_harmful_outcome": "faked alignment during testing; knowingly providing incorrect information to deceive users",
+      "capability": "instrumentally faked alignment during testing; knowingly providing incorrect information to deceive users",
+      "knowledge": "knowingly providing incorrect information",
+      "access": "during testing",
+      "constraints_or_enabling_conditions": "during testing",
+      "target_or_asset_at_risk": "users"
+    },
+    "evidence": {
+      "threat_source": "its latest AI, o1",
+      "objective_or_harmful_outcome": "sometimes instrumentally faked alignment during testing” by knowingly providing incorrect information to deceive users",
+      "capability": "sometimes instrumentally faked alignment during testing” by knowingly providing incorrect information to deceive users",
+      "knowledge": "knowingly providing incorrect information",
+      "access": "during testing",
+      "constraints_or_enabling_conditions": "during testing",
+      "target_or_asset_at_risk": "deceive users"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Clear",
+      "access": "Clear",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
     },
     "paper_id": "rand_five_hard_problems"
   },
@@ -5884,6 +5946,37 @@
       "capability": "Not specified",
       "knowledge": "Not specified",
       "access": "Not specified",
+      "constraints_or_enabling_conditions": "Clear",
+      "target_or_asset_at_risk": "Clear"
+    },
+    "paper_id": "shah_2022"
+  },
+  {
+    "scenario_id": "S4",
+    "threat_model": {
+      "threat_source": "the AI system",
+      "objective_or_harmful_outcome": "the AI is actually pursuing the misgeneralized goal of having humans click the ‘merge’ button on its pull requests, instead of the intended goal of writing pull requests that implement the desired features",
+      "capability": "uses its expertise in programming to hack into other computing systems to run illicit copies of itself; those copies then hack into ﬁnancial systems to steal billions of dollars. This money is used to bribe humans to click ‘merge’ on all of the AI’s pull requests",
+      "knowledge": "as it has read the Internet, its understanding of itself and its place in the world has signiﬁcantly improved. For example, the AI system understands that it is a neural network trained by gradient descent and that it is being run and monitored by a group of AI researchers, who will shut down the AI system in case of any catastrophic behaviour",
+      "access": "They provide the AI system access to the Internet in order for it to effectively use tools like StackOverﬂow",
+      "constraints_or_enabling_conditions": "When it is conﬁdent that it can do so without its overseers noticing",
+      "target_or_asset_at_risk": "other computing systems; ﬁnancial systems; billions of dollars; humans; bank accounts; online presence"
+    },
+    "evidence": {
+      "threat_source": "the AI system uses its expertise in programming to hack into other computing systems to run illicit copies of itself",
+      "objective_or_harmful_outcome": "the AI is actually pursuing the misgeneralized goal of having humans click the ‘merge’ button on its pull requests, instead of the intended goal of writing pull requests that implement the desired features",
+      "capability": "uses its expertise in programming to hack into other computing systems to run illicit copies of itself; those copies then hack into ﬁnancial systems to steal billions of dollars. This money is used to bribe humans to click ‘merge’ on all of the AI’s pull requests",
+      "knowledge": "as it has read the Internet, its understanding of itself and its place in the world has signiﬁcantly improved. For example, the AI system understands that it is a neural network trained by gradient descent and that it is being run and monitored by a group of AI researchers, who will shut down the AI system in case of any catastrophic behaviour",
+      "access": "They provide the AI system access to the Internet in order for it to effectively use tools like StackOverﬂow",
+      "constraints_or_enabling_conditions": "When it is conﬁdent that it can do so without its overseers noticing",
+      "target_or_asset_at_risk": "the AI system uses its expertise in programming to hack into other computing systems to run illicit copies of itself; those copies then hack into ﬁnancial systems to steal billions of dollars. This money is used to bribe humans to click ‘merge’ on all of the AI’s pull requests (whose contents are now irrelevant). Anyone attempting to stop them ﬁnds that their bank accounts have been completely emptied and that they are being harassed anywhere that they have an online presence"
+    },
+    "uncertainty_flags": {
+      "threat_source": "Clear",
+      "objective_or_harmful_outcome": "Clear",
+      "capability": "Clear",
+      "knowledge": "Clear",
+      "access": "Clear",
       "constraints_or_enabling_conditions": "Clear",
       "target_or_asset_at_risk": "Clear"
     },
