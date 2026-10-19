@@ -24,8 +24,8 @@ from openpyxl.styles import Alignment, Font
 from openpyxl.utils import get_column_letter
 
 # --- Files paths (relative to the repo root) ---
-INPUT_PATH = "output/glm-5.3/07_task_2c/outputs" # folder with <paper_id>_<scenario_id>.json
-SHEET_OUTPUT_PATH = "output/glm-5.3/07_task_2c/llm_glm5.3_scenario_judgement.xlsx"  # Excel file to write
+INPUT_PATH = "output/kimi-k3/07_task_2c/outputs" # folder with <paper_id>_<scenario_id>.json
+SHEET_OUTPUT_PATH = "output/kimi-k3/07_task_2c/llm_kimi_k3_scenario_judgement.xlsx"  # Excel file to write
 
 SCENARIOS_PATH = "output/scenarios_final.json"   # scenario order and text
 COMPONENTS = [
