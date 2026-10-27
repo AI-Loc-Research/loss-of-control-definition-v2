@@ -1,31 +1,28 @@
-"""Task 2: draw the human-verification sample (50 of the 193 scenarios, excluding the earlier 25).
+"""Script for Step B: draw the human-verification sample (50 of the 193 scenarios, excluding the earlier 25).
 
-    uv run python -m src.scripts.pick_50_random_scenarios_proportionally
+run: uv run python -m src.scripts.pick_50_random_scenarios_proportionally
 
-Set the paths and the seed below, then run from the repo root.
+- Seed: SEED = 42, the seed of the earlier 25-scenario round, reused for consistency .
 
-Pre-registration: SEED is fixed here BEFORE the sample is drawn. Commit this file (with the
-seed) first, then run it, so the git history shows the seed was chosen before anyone saw the
-sample. Never change the seed after a run.
+- Same approach as the earlier 25 (stratified by paper, pandas sample with random_state=42),
+ 
+-Reproducible: running this again gives the same 50 rows, cell for cell, because
+    - the inputs are fixed and in git: the merged sheet (INPUT_PATH) and the earlier 25
+      (EXCLUDE_PATH); same inputs -> same sample
+    - the allocation uses only counts (ties broken by paper_id), no randomness
+    - the only random step is pandas sample(random_state=SEED), i.e. numpy's legacy RandomState,
+      whose output for a given seed is kept stable across numpy versions
+    - rows are sorted by (paper_id, scenario number) first, so re-ordering the rows of the
+      input sheet cannot change the sample
+    - the sampled paper_id + scenario_id are saved in the output, and the seed, method, input
+      files, counts and Python / pandas versions in its protocol sheet
 
-Same approach as the earlier 25 (stratified by paper, pandas sample with random_state=42),
-adapted to 50: the earlier draw took 1 scenario from each of 25 papers, but there are only 30
-papers, so here the 50 are spread over the papers in proportion to how many scenarios each
-paper has left (proportional stratified sample):
+scenarios each paper has left (proportional stratified sample):
     pool        all scenarios in the merged judgements sheet (one row per paper_id + scenario_id)
     excluded    the 25 scenarios of the earlier human coding round (read from their file)
     allocation  every paper with scenarios left gets 1, the rest of the 50 by largest remainder
                 of 50 * remaining / total remaining (ties: paper_id), capped at what is left
     draw        per paper: its rows sorted by scenario number, then sub.sample(n=k, random_state=SEED)
-Rows are sorted by (paper_id, scenario number) before drawing, so editing the order of the
-sheet cannot change the sample.
-
-Output (one Excel file):
-    sample      the sampled rows with ALL columns of the input sheet, in paper / scenario order
-    allocation  per paper: scenarios in total, excluded, left, sampled
-    components  one row per sampled scenario x component: the 3 tags, n_present, Verify / Skip
-                (Verify if at least 2 of the 3 models tagged it Clear or Ambiguous)
-    protocol    seed, method, pool / excluded / eligible sizes, input files, Python version, time
 """
 
 import os
@@ -41,7 +38,7 @@ SHEET_NAME = "judgements"
 EXCLUDE_PATH = "materials/25_random_picked_scenario_to_label_FILTERED.xlsx"   # earlier 25
 OUTPUT_PATH = "output/50_random_scenarios_proportionally.xlsx"
 
-SEED = 42            # same as the earlier 25; pre-registered, do not change after the first run
+SEED = 42            # same as the earlier 25; for consistency and reproducibility
 N_SAMPLE = 50
 
 MODELS = ["kimi_2.5", "glm_5.3", "deepseek_v4.1"]
